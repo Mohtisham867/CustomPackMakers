@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 24% 16%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 24% 16%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 24% 16%;
+
+    --primary: 186 76% 42%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 186 76% 35%;
+    
+    --secondary: 210 17% 95%;
+    --secondary-foreground: 210 24% 16%;
+
+    --muted: 210 17% 95%;
+    --muted-foreground: 210 12% 45%;
+
+    --accent: 186 65% 90%;
+    --accent-foreground: 186 76% 25%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 17% 90%;
+    --input: 210 17% 90%;
+    --ring: 186 76% 42%;
+
+    --radius: 0.75rem;
+
+    /* Custom brand colors */
+    --brand-gradient-start: 186 76% 42%;
+    --brand-gradient-end: 186 85% 25%;
+    --brand-light: 186 65% 95%;
+    
+    /* Feature colors */
+    --feature-1: 210 100% 50%;
+    --feature-2: 150 70% 45%;
+    --feature-3: 280 70% 55%;
+    --feature-4: 30 95% 55%;
+  }
+
+  .dark {
+    --background: 210 24% 10%;
+    --foreground: 0 0% 98%;
+
+    --card: 210 24% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 210 24% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 186 76% 42%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 186 76% 50%;
+
+    --secondary: 210 17% 20%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 210 17% 20%;
+    --muted-foreground: 210 12% 65%;
+
+    --accent: 210 17% 25%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 17% 25%;
+    --input: 210 17% 25%;
+    --ring: 186 76% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(135deg, hsl(var(--brand-gradient-start)), hsl(var(--brand-gradient-end)));
+  }
+  
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(var(--brand-gradient-start)), hsl(var(--brand-gradient-end)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .animate-marquee {
+    animation: marquee 40s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
