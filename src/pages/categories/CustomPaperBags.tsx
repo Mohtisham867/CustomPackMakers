@@ -59,7 +59,7 @@ const productOptions = relatedProducts.map(p => p.name);
 
 const CustomPaperBags = () => {
     return (
-        <div className="min-h-screen bg-background px-[10px]">
+        <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
             <Header />
 
             {/* Breadcrumb */}
@@ -93,14 +93,16 @@ const CustomPaperBags = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 items-start">
                         {/* Left Content */}
                         <div className="space-y-6">
-                            <h1 className="text-4xl md:text-5xl font-bold text-foreground">
-                                Custom Paper Bags
-                            </h1>
-                            <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4">
-                                Premium quality custom paper bags available in various sizes, styles, and finishes. Perfect for retail, food service, events, and gift packaging. Eco-friendly and fully customizable to showcase your brand.
-                            </p>
-                            <div className="pt-4">
-                                <div className="relative w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted">
+                            <div className="space-y-6">
+                                <h1 className="text-4xl md:text-5xl font-bold text-foreground">
+                                    Custom Paper Bags
+                                </h1>
+                                <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4">
+                                    Premium quality custom paper bags available in various sizes, styles, and finishes. Perfect for retail, food service, events, and gift packaging. Eco-friendly and fully customizable to showcase your brand.
+                                </p>
+                            </div>
+                            <div className="pt-4 lg:pt-0">
+                                <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted mx-auto lg:mx-0">
                                     <img
                                         src={customPaperBagsHero}
                                         alt="Custom Paper Bags Collection"
@@ -133,7 +135,7 @@ const CustomPaperBags = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
                             <Card
                                 key={index}

@@ -43,7 +43,7 @@ const relatedProducts = [
 
 const CigaretteBoxes = () => {
   return (
-    <div className="min-h-screen bg-background px-[10px]">
+    <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
       <Header />
 
       {/* Hero Section with Split Layout */}
@@ -75,18 +75,18 @@ const CigaretteBoxes = () => {
           {/* Split Layout */}
           <div className="flex flex-col lg:flex-row gap-8 items-start">
             {/* Left Content */}
-            <div className="flex-1">
+            <div className="flex-1 space-y-6 lg:space-y-0">
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                 Cigarette Boxes
               </h1>
               <p className="text-[16px] text-muted-foreground mb-8 leading-relaxed" style={{ display: '-webkit-box', WebkitLineClamp: 4, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
                 Elevate your tobacco brand with our premium custom cigarette boxes. Our durable packaging solutions offer exceptional protection while showcasing your brand identity with high-quality printing and finishes. From sleek flip-top designs to classic soft packs, we deliver packaging that stands out on retail shelves and reinforces brand recognition.
               </p>
-              <div className="mb-8">
+              <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted mx-auto lg:mx-0">
                 <img
                   src={heroImage}
                   alt="Custom Cigarette Boxes Collection"
-                  className="w-[480px] h-[300px] object-cover rounded-lg shadow-lg bg-white"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
@@ -112,18 +112,18 @@ const CigaretteBoxes = () => {
             Explore our comprehensive range of cigarette packaging solutions designed for durability, compliance, and brand impact.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {relatedProducts.map((product, index) => (
               <Card
                 key={index}
                 className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
               >
                 <CardContent className="p-0">
-                  <div className="relative aspect-square overflow-hidden bg-white">
+                  <div className="h-48 lg:h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden">
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                      className="h-full w-auto object-contain mx-auto transition-transform duration-300 group-hover:scale-110"
                     />
                   </div>
                   <div className="p-4 border-t border-border">

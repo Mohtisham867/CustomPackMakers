@@ -60,7 +60,7 @@ const productOptions = [
 
 const ElectronicsBoxes = () => {
     return (
-        <div className="min-h-screen bg-background px-[10px]">
+        <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
             <Header />
 
             {/* Breadcrumb */}
@@ -102,12 +102,14 @@ const ElectronicsBoxes = () => {
                                 Our custom electronics boxes offer superior protection and a premium unboxing experience,
                                 ensuring your tech products arrive safely and professionally.
                             </p>
-                            <div className="pt-4">
-                                <img
-                                    src={heroImage}
-                                    alt="Electronics Packaging"
-                                    className="w-[480px] h-[300px] object-cover rounded-lg shadow-lg bg-white"
-                                />
+                            <div className="pt-4 lg:pt-0">
+                                <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted mx-auto lg:mx-0">
+                                    <img
+                                        src={heroImage}
+                                        alt="Electronics Packaging"
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
                             </div>
                         </div>
 
@@ -134,18 +136,18 @@ const ElectronicsBoxes = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
                             <Card
                                 key={index}
                                 className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
                             >
                                 <CardContent className="p-0">
-                                    <div className="relative aspect-square overflow-hidden bg-white">
+                                    <div className="h-48 lg:h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden">
                                         <img
                                             src={product.image}
                                             alt={product.name}
-                                            className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110"
+                                            className="h-full w-auto object-contain mx-auto transition-transform duration-300 group-hover:scale-110"
                                         />
                                     </div>
                                     <div className="p-4 border-t border-border">

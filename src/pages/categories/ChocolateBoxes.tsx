@@ -40,7 +40,7 @@ const relatedProducts = [
 
 const ChocolateBoxes = () => {
   return (
-    <div className="min-h-screen bg-background px-[10px]">
+    <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
       <Header />
 
       {/* Main Content */}
@@ -75,18 +75,18 @@ const ChocolateBoxes = () => {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
               {/* Left Content */}
-              <div>
+              <div className="flex flex-col-reverse lg:block">
                 <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                   Chocolate Boxes
                 </h1>
                 <p className="text-[16px] text-muted-foreground mb-8 leading-relaxed" style={{ display: '-webkit-box', WebkitLineClamp: 4, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
                   Elevate your chocolate brand with our premium custom packaging solutions. From artisan truffles to luxury gift sets, our food-safe boxes combine elegant design with superior protection, ensuring your chocolates arrive in perfect condition while creating an unforgettable unboxing experience for your customers.
                 </p>
-                <div className="relative w-full max-w-lg">
+                <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted mx-auto lg:mx-0">
                   <img
                     src={heroImage}
                     alt="Custom Chocolate Boxes"
-                    className="w-[480px] h-[300px] object-cover rounded-lg shadow-lg bg-white"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>
@@ -112,18 +112,18 @@ const ChocolateBoxes = () => {
               Explore our range of premium chocolate packaging solutions designed to showcase your confections beautifully while maintaining freshness and food safety.
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
               {relatedProducts.map((product, index) => (
                 <Card
                   key={index}
                   className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
                 >
                   <CardContent className="p-0">
-                    <div className="relative aspect-square overflow-hidden bg-white">
+                    <div className="h-48 lg:h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden">
                       <img
                         src={product.image}
                         alt={product.name}
-                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                        className="h-full w-auto object-contain mx-auto transition-transform duration-300 group-hover:scale-110"
                       />
                     </div>
                     <div className="p-4 border-t border-border">

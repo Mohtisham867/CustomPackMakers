@@ -172,12 +172,12 @@ const CustomKraftBoxes = () => {
                                         className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
                                     >
                                         <CardContent className="p-0">
-                                            <div className="relative aspect-square overflow-hidden bg-white">
+                                            <div className="h-48 lg:h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden">
                                                 {product.image ? (
                                                     <img
                                                         src={product.image}
                                                         alt={product.name}
-                                                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                                                        className="h-full w-auto object-contain mx-auto transition-transform duration-300 group-hover:scale-110"
                                                     />
                                                 ) : (
                                                     <div className="w-full h-full flex items-center justify-center bg-gray-200">

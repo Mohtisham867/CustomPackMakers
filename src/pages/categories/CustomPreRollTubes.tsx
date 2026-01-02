@@ -154,15 +154,15 @@ const CustomPreRollTubes = () => {
                         >
                             <CarouselContent className="-ml-4">
                                 {relatedProducts.map((product, index) => (
-                                    <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                                    <CarouselItem key={index} className="pl-4 basis-1/2 md:basis-1/2 lg:basis-1/3 xl:basis-1/4">
                                         <Link to={product.link} className="block h-full">
                                             <Card className="h-full overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer">
                                                 <CardContent className="p-0">
-                                                    <div className="relative aspect-square overflow-hidden bg-white">
+                                                    <div className="h-48 lg:h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden">
                                                         <img
                                                             src={product.image}
                                                             alt={product.name}
-                                                            className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                                                            className="h-full w-auto object-contain mx-auto transition-transform duration-300 group-hover:scale-110"
                                                         />
                                                     </div>
                                                     <div className="p-4 border-t border-border">

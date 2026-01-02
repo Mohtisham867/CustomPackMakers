@@ -85,11 +85,11 @@ const CardstockBoxes = () => {
                                     />
                                 </div>
                             </div>
+                        </div>
 
-                            {/* Right Side - Instant Quote Form */}
-                            <div className="flex justify-end">
-                                <InstantQuoteFormCompact customProducts={cardstockProducts} />
-                            </div>
+                        {/* Right Side - Instant Quote Form */}
+                        <div className="flex justify-end">
+                            <InstantQuoteFormCompact customProducts={cardstockProducts} />
                         </div>
 
                         {/* Brand Rating Section - Outside the grid column logic if meant to be full width? 

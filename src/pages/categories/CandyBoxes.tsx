@@ -39,7 +39,7 @@ const relatedProducts = [
 
 const CandyBoxes = () => {
   return (
-    <div className="min-h-screen bg-background px-[10px]">
+    <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
       <Header />
 
       {/* Breadcrumb */}
@@ -72,18 +72,18 @@ const CandyBoxes = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8 items-start">
             {/* Left Content */}
-            <div className="flex-1">
+            <div className="flex-1 space-y-6 lg:space-y-0">
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                 Custom Candy Boxes
               </h1>
               <p className="text-[16px] text-muted-foreground mb-8 leading-relaxed" style={{ display: '-webkit-box', WebkitLineClamp: 4, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
                 Make your sweet treats irresistible with our custom candy packaging solutions. From colorful gummy boxes to elegant chocolate packaging, we create unique and attractive designs that protect your confections while captivating customers. Perfect for retail displays, gifts, and special occasions.
               </p>
-              <div className="relative">
+              <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted mx-auto lg:mx-0">
                 <img
                   src={heroImage}
                   alt="Custom Candy Boxes"
-                  className="w-[480px] h-[300px] object-cover rounded-lg shadow-lg bg-white"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
@@ -111,18 +111,18 @@ const CandyBoxes = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-4">
             {relatedProducts.map((product, index) => (
               <Card
                 key={index}
                 className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
               >
                 <CardContent className="p-0">
-                  <div className="relative aspect-square overflow-hidden bg-white">
+                  <div className="h-48 lg:h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden">
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                      className="h-full w-auto object-contain mx-auto transition-transform duration-300 group-hover:scale-110"
                     />
                   </div>
                   <div className="p-4 border-t border-border">

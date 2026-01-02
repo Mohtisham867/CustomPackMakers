@@ -50,7 +50,7 @@ const relatedProducts = [
 
 const CandleBoxes = () => {
   return (
-    <div className="min-h-screen bg-background px-[10px]">
+    <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
       <Header />
 
       {/* Breadcrumb */}
@@ -92,12 +92,14 @@ const CandleBoxes = () => {
                 Our candle boxes feature sturdy construction to safeguard delicate wax products during shipping.
                 From elegant window displays to gift-ready rigid boxes, customize every detail to reflect.
               </p>
-              <div className="max-w-lg">
-                <img
-                  src={candleHeroImage}
-                  alt="Custom Candle Boxes Collection"
-                  className="w-[480px] h-[300px] object-cover rounded-lg shadow-lg bg-white"
-                />
+              <div className="pt-4 lg:pt-0">
+                <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted mx-auto lg:mx-0">
+                  <img
+                    src={candleHeroImage}
+                    alt="Custom Candle Boxes Collection"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
             </div>
 
@@ -120,18 +122,18 @@ const CandleBoxes = () => {
               protect your products, elevate your brand, and create luxurious presentation.
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
               {relatedProducts.map((product, index) => (
                 <Card
                   key={index}
                   className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
                 >
                   <CardContent className="p-0">
-                    <div className="relative aspect-square overflow-hidden bg-white">
+                    <div className="h-48 lg:h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden">
                       <img
                         src={product.image}
                         alt={product.name}
-                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                        className="h-full w-auto object-contain mx-auto transition-transform duration-300 group-hover:scale-110"
                       />
                     </div>
                     <div className="p-4 border-t border-border">
