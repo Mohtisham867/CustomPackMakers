@@ -36,7 +36,7 @@ const relatedProducts = [
 
 const CorrugatedBoxes = () => {
     return (
-        <div className="min-h-screen bg-background px-[10px]">
+        <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
             <Header />
 
             {/* Breadcrumb */}
@@ -69,77 +69,81 @@ const CorrugatedBoxes = () => {
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 mb-12 items-start">
                         {/* Left Side */}
-                        <div className="space-y-6">
-                            <h1 className="text-4xl md:text-5xl font-bold text-foreground">
+                        <div className="space-y-6 text-center lg:text-left">
+                            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
                                 Custom Corrugated Boxes
                             </h1>
-                            <p className="text-muted-foreground leading-relaxed text-[16px]">
+                            <p className="text-muted-foreground leading-relaxed text-[16px] px-4 lg:px-0">
                                 Discover our range of custom corrugated boxes, engineered for superior strength and durability.
                                 Perfect for shipping, storage, and e-commerce, ensuring your products arrive safely every time.
                             </p>
                             <div className="max-w-lg">
-                                <div className="w-[480px] h-[300px] bg-gray-200 rounded-lg shadow-lg flex items-center justify-center overflow-hidden">
-                                    <img
-                                        src={corrugatedBoxesHero}
-                                        alt="Custom Corrugated Boxes Hero"
-                                        className="w-full h-full object-cover"
-                                    />
+                                <div className="flex justify-center lg:justify-start">
+                                    <div className="w-full max-w-[480px] h-[300px] bg-gray-200 rounded-lg shadow-lg flex items-center justify-center overflow-hidden">
+                                        <img
+                                            src={corrugatedBoxesHero}
+                                            alt="Custom Corrugated Boxes Hero"
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </div>
                                 </div>
+                            </div>
+
+                            {/* Right Side - Instant Quote Form */}
+                            <div className="flex justify-end">
+                                <InstantQuoteFormCompact customProducts={corrugatedBoxProducts} />
                             </div>
                         </div>
 
-                        {/* Right Side - Instant Quote Form */}
-                        <div className="flex justify-end">
-                            <InstantQuoteFormCompact customProducts={corrugatedBoxProducts} />
-                        </div>
-                    </div>
+                        {/* Brand Rating Section */}
+                        <BrandRating />
 
-                    {/* Brand Rating Section */}
-                    <BrandRating />
+                        {/* Related Products Section */}
+                        <section className="mt-16">
+                            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                                Durable Corrugated Packaging Solutions
+                            </h2>
+                            <p className="text-lg text-muted-foreground mb-8 max-w-3xl">
+                                Explore our selection of high-quality corrugated boxes designed to withstand the rigors of transit
+                                while presenting your brand professionally.
+                            </p>
 
-                    {/* Related Products Section */}
-                    <section className="mt-16">
-                        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                            Durable Corrugated Packaging Solutions
-                        </h2>
-                        <p className="text-lg text-muted-foreground mb-8 max-w-3xl">
-                            Explore our selection of high-quality corrugated boxes designed to withstand the rigors of transit
-                            while presenting your brand professionally.
-                        </p>
-
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                            {relatedProducts.map((product, index) => (
-                                <Card
-                                    key={index}
-                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                                >
-                                    <CardContent className="p-0">
-                                        <div className="relative aspect-square overflow-hidden bg-white">
-                                            {product.image ? (
-                                                <img
-                                                    src={product.image}
-                                                    alt={product.name}
-                                                    className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110"
-                                                />
-                                            ) : (
-                                                <div className="w-full h-full flex items-center justify-center bg-gray-200">
-                                                    <span className="text-gray-400 text-xs">Image Placeholder</span>
+                            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                                {relatedProducts.map((product, index) => (
+                                    <Card
+                                        key={index}
+                                        className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
+                                    >
+                                        <CardContent className="p-0">
+                                            <div className="h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden">
+                                                <div className="relative h-full w-full flex items-center justify-center">
+                                                    {product.image ? (
+                                                        <img
+                                                            src={product.image}
+                                                            alt={product.name}
+                                                            className="h-full w-auto object-contain mx-auto transition-transform duration-300 group-hover:scale-110"
+                                                        />
+                                                    ) : (
+                                                        <div className="w-full h-full flex items-center justify-center bg-gray-200">
+                                                            <span className="text-gray-400 text-xs">Image Placeholder</span>
+                                                        </div>
+                                                    )}
                                                 </div>
-                                            )}
-                                        </div>
-                                        <div className="p-4 border-t border-border">
-                                            <h3 className="font-semibold text-foreground text-sm mb-2">
-                                                {product.name}
-                                            </h3>
-                                            <p className="text-xs text-muted-foreground">
-                                                {product.description}
-                                            </p>
-                                        </div>
-                                    </CardContent>
-                                </Card>
-                            ))}
-                        </div>
-                    </section>
+                                            </div>
+                                            <div className="p-4 border-t border-border">
+                                                <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                    {product.name}
+                                                </h3>
+                                                <p className="text-xs text-muted-foreground">
+                                                    {product.description}
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                ))}
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </main>
 

@@ -58,6 +58,7 @@ import SubscriptionBoxes from "./pages/categories/SubscriptionBoxes";
 import CustomShapeBoxes from "./pages/categories/CustomShapeBoxes";
 import StickersAndLabels from "./pages/categories/StickersAndLabels";
 import SleevesAndTrays from "./pages/categories/SleevesAndTrays";
+import CardstockBoxes from "./pages/categories/CardstockBoxes";
 import ChildResistantPackaging from "./pages/categories/ChildResistantPackaging";
 import CorrugatedBoxes from "./pages/categories/CorrugatedBoxes";
 import CustomKraftBoxes from "./pages/categories/CustomKraftBoxes";
@@ -114,6 +115,7 @@ const App = () => (
           <Route path="/industries/custom-hemp-boxes" element={<HempBoxes />} />
           <Route path="/industries/corrugated-boxes" element={<CorrugatedBoxes />} />
           <Route path="/industries/custom-kraft-boxes" element={<CustomKraftBoxes />} />
+          <Route path="/industries/cardstock-boxes" element={<CardstockBoxes />} />
           <Route path="/industries/display-boxes" element={<DisplayBoxes />} />
           <Route path="/industries/e-commerce" element={<EcommerceBoxes />} />
           <Route path="/industries/electronics-boxes" element={<ElectronicsBoxes />} />

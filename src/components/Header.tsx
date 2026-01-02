@@ -9,6 +9,7 @@ export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [hideMainHeader, setHideMainHeader] = useState(false);
   const [activeMegaMenu, setActiveMegaMenu] = useState<string | null>(null);
+  const [isMaterialsOpen, setIsMaterialsOpen] = useState(false);
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
@@ -476,13 +477,52 @@ export const Header = () => {
           <nav className="flex flex-col pb-20">
             {navItems.map((item) => (
               <div key={item.label}>
-                <a
-                  href={item.href}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="flex items-center justify-between px-4 py-4 text-foreground hover:bg-accent transition-colors border-b border-border/50 text-base font-medium"
-                >
-                  <span className="font-medium">{item.label}</span>
-                </a>
+                {item.label === "Box by Materials" ? (
+                  <>
+                    <button
+                      onClick={() => setIsMaterialsOpen(!isMaterialsOpen)}
+                      className="flex items-center justify-between w-full px-4 py-4 text-foreground hover:bg-accent transition-colors border-b border-border/50 text-base font-medium"
+                    >
+                      <span className="font-medium">{item.label}</span>
+                      <ChevronDown
+                        className={`h-4 w-4 transition-transform duration-200 ${isMaterialsOpen ? "rotate-180" : ""}`}
+                      />
+                    </button>
+                    <div
+                      className={`grid transition-all duration-200 ease-in-out overflow-hidden bg-accent/5 ${isMaterialsOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                        }`}
+                    >
+                      <div className="min-h-0">
+                        <div className="flex flex-col py-2">
+                          {[
+                            { label: "Cardboard Boxes", href: "/industries/cardboard-boxes" },
+                            { label: "Kraft Boxes", href: "/industries/custom-kraft-boxes" },
+                            { label: "Corrugated Boxes", href: "/industries/corrugated-boxes" },
+                            { label: "Rigid Boxes", href: "/industries/rigid-boxes" },
+                            { label: "Cardstock Boxes", href: "/industries/cardstock-boxes" },
+                          ].map((subItem) => (
+                            <a
+                              key={subItem.label}
+                              href={subItem.href}
+                              onClick={() => setIsMobileMenuOpen(false)}
+                              className="px-8 py-3 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 transition-colors block"
+                            >
+                              {subItem.label}
+                            </a>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </>
+                ) : (
+                  <a
+                    href={item.href}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="flex items-center justify-between px-4 py-4 text-foreground hover:bg-accent transition-colors border-b border-border/50 text-base font-medium"
+                  >
+                    <span className="font-medium">{item.label}</span>
+                  </a>
+                )}
               </div>
             ))}
 

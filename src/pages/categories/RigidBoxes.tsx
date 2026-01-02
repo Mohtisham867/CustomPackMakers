@@ -51,7 +51,7 @@ const relatedProducts = [
 
 const RigidBoxes = () => {
     return (
-        <div className="min-h-screen bg-background px-[10px]">
+        <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
             <Header />
 
             {/* Breadcrumb */}
@@ -84,22 +84,24 @@ const RigidBoxes = () => {
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 mb-12 items-start">
                         {/* Left Side */}
-                        <div className="space-y-6">
-                            <h1 className="text-4xl md:text-5xl font-bold text-foreground">
+                        <div className="space-y-6 text-center lg:text-left">
+                            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
                                 Rigid Boxes
                             </h1>
-                            <p className="text-muted-foreground leading-relaxed text-[16px]">
+                            <p className="text-muted-foreground leading-relaxed text-[16px] px-4 lg:px-0">
                                 Elevate your brand with premium rigid boxes crafted from thick, non-collapsible paperboard.
                                 Perfect for luxury goods, high-end gifts, and electronics, our rigid packaging delivers superior strength and perceived value.
                                 From magnetic closure boxes to elegant ribbon designs, customize your premium packaging solution.
                             </p>
                             <div className="max-w-lg">
-                                <div className="w-[480px] h-[300px] rounded-lg shadow-lg overflow-hidden">
-                                    <img
-                                        src={heroImage}
-                                        alt="Rigid Boxes Collection"
-                                        className="w-full h-full object-cover"
-                                    />
+                                <div className="flex justify-center lg:justify-start">
+                                    <div className="w-full max-w-[480px] h-[300px] rounded-lg shadow-lg overflow-hidden">
+                                        <img
+                                            src={heroImage}
+                                            alt="Rigid Boxes Collection"
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -123,19 +125,19 @@ const RigidBoxes = () => {
                             showcase your products with elegance, provide exceptional protection, and deliver a premium unboxing experience.
                         </p>
 
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                             {relatedProducts.map((product, index) => (
                                 <Card
                                     key={index}
                                     className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
                                 >
                                     <CardContent className="p-0">
-                                        <div className="relative aspect-square overflow-hidden bg-white">
+                                        <div className="h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden">
                                             {product.image ? (
                                                 <img
                                                     src={product.image}
                                                     alt={product.name}
-                                                    className={`w-full h-full ${product.useCover ? 'object-cover' : 'object-contain p-4'} group-hover:scale-105 transition-transform duration-300`}
+                                                    className={`h-full w-auto object-contain mx-auto group-hover:scale-105 transition-transform duration-300`}
                                                 />
                                             ) : (
                                                 <div className="w-full h-full flex items-center justify-center bg-gray-200">

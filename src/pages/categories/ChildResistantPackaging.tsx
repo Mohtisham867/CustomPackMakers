@@ -53,7 +53,7 @@ const productOptions = products.map((product) => product.name);
 
 const ChildResistantPackaging = () => {
     return (
-        <div className="min-h-screen bg-background px-[10px]">
+        <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
             <Header />
 
             {/* Breadcrumb */}
@@ -86,15 +86,15 @@ const ChildResistantPackaging = () => {
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 items-start">
                         {/* Left Content */}
-                        <div className="space-y-6">
-                            <h1 className="text-4xl md:text-5xl font-bold text-foreground">
+                        <div className="space-y-6 text-center lg:text-left">
+                            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
                                 Child Resistant Packaging
                             </h1>
-                            <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4">
+                            <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4 px-4 lg:px-0">
                                 Secure, compliant, and customizable child-resistant packaging solutions designed to certified safety standards while showcasing your brand identity. Perfect for cannabis, pharmaceuticals, and other sensitive products.
                             </p>
-                            <div className="pt-4">
-                                <div className="relative w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg">
+                            <div className="pt-4 flex justify-center lg:justify-start">
+                                <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg">
                                     <img
                                         src={heroImage}
                                         alt="Child Resistant Packaging Hero"
@@ -127,18 +127,18 @@ const ChildResistantPackaging = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                         {products.map((product, index) => (
                             <Card
                                 key={index}
                                 className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
                             >
                                 <CardContent className="p-0">
-                                    <div className="relative aspect-square overflow-hidden bg-white">
+                                    <div className="h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden">
                                         <img
                                             src={product.image}
                                             alt={product.name}
-                                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                                            className="h-full w-auto object-contain mx-auto transition-transform duration-300 group-hover:scale-110"
                                         />
                                     </div>
                                     <div className="p-4 border-t border-border">
