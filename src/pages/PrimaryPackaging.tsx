@@ -75,20 +75,20 @@ const PrimaryPackaging = () => {
         </div>
 
         {/* Category Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {primaryPackaging.map((item, index) => (
             <Link to={item.link} key={index} className="block h-full">
               <Card
                 className="group cursor-pointer hover:shadow-xl transition-all duration-300 overflow-hidden h-full"
               >
+                <div className="relative aspect-square w-full overflow-hidden bg-muted">
+                  <img
+                    src={item.image}
+                    alt={item.name}
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
                 <CardContent className="p-4">
-                  <div className="aspect-square overflow-hidden rounded-lg mb-4">
-                    <img
-                      src={item.image}
-                      alt={item.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                  </div>
                   <h3 className="text-lg font-semibold text-center group-hover:text-primary transition-colors">
                     {item.name}
                   </h3>

@@ -78,7 +78,7 @@ const PlasticCapsuleBottle = () => {
     }, [api]);
 
     return (
-        <div className="min-h-screen bg-background px-[10px]">
+        <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
             <Header />
 
             <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[180px]">
@@ -108,16 +108,16 @@ const PlasticCapsuleBottle = () => {
             <section className="py-12 bg-background">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 items-start">
-                        <div className="space-y-6">
-                            <h1 className="text-4xl md:text-5xl font-bold text-foreground">
+                        <div className="space-y-6 text-center lg:text-left">
+                            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
                                 Plastic Capsule Bottle
                             </h1>
-                            <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4">
+                            <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4 px-4 lg:px-0">
                                 Reliable plastic capsule bottles for supplements and medications.
                                 Designed for security and ease of use, keeping your products safe.
                             </p>
-                            <div className="pt-4">
-                                <div className="relative w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted flex items-center justify-center">
+                            <div className="pt-4 flex justify-center lg:justify-start">
+                                <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted flex items-center justify-center">
                                     <img src={heroImage} alt="Plastic Capsule Bottle" className="w-full h-full object-cover" />
                                 </div>
                             </div>
@@ -162,7 +162,7 @@ const PlasticCapsuleBottle = () => {
                                                         <img
                                                             src={product.image}
                                                             alt={product.name}
-                                                            className="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-110"
+                                                            className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                                                         />
                                                     </div>
                                                     <div className="p-4 border-t border-border">

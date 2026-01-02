@@ -78,7 +78,7 @@ const PlasticCleanserTube = () => {
     }, [api]);
 
     return (
-        <div className="min-h-screen bg-background px-[10px]">
+        <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
             <Header />
 
             {/* Breadcrumb */}
@@ -111,18 +111,18 @@ const PlasticCleanserTube = () => {
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 items-start">
                         {/* Left Content */}
-                        <div className="space-y-6">
-                            <h1 className="text-4xl md:text-5xl font-bold text-foreground">
+                        <div className="space-y-6 text-center lg:text-left">
+                            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
                                 Plastic Cleanser Tube
                             </h1>
-                            <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4">
+                            <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4 px-4 lg:px-0">
                                 Our plastic cleanser tubes are designed for durability and ease of use, providing
                                 a reliable packaging solution for your skincare and beauty products.
                                 Customizable to fit your brand's aesthetic, these tubes ensure your product remains
                                 fresh and accessible.
                             </p>
-                            <div className="pt-4">
-                                <div className="relative w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted flex items-center justify-center">
+                            <div className="pt-4 flex justify-center lg:justify-start">
+                                <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted flex items-center justify-center">
                                     <img src={heroImage} alt="Plastic Cleanser Tube" className="w-full h-full object-cover" />
                                 </div>
                             </div>
@@ -170,7 +170,7 @@ const PlasticCleanserTube = () => {
                                                         <img
                                                             src={product.image}
                                                             alt={product.name}
-                                                            className="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-110"
+                                                            className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                                                         />
                                                     </div>
                                                     <div className="p-4 border-t border-border">

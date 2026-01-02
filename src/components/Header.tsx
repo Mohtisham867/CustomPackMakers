@@ -154,9 +154,9 @@ export const Header = () => {
   ];
 
   const navItems = [
-    { label: "Box by Industry", href: "#industry", hasDropdown: true },
-    { label: "Shapes & Styles", href: "#shapes", hasDropdown: true },
-    { label: "Box by Materials", href: "#materials", hasDropdown: true },
+    { label: "Box by Industry", href: "/industries", hasDropdown: true },
+    { label: "Shapes & Styles", href: "/shapes-styles", hasDropdown: true },
+    { label: "Box by Materials", href: "/materials", hasDropdown: true },
     { label: "Primary Packaging", href: "/primary-packaging", hasDropdown: false },
     { label: "Packaging Hub", href: "/packaging-hub", hasDropdown: false },
     { label: "Insights", href: "#insights", hasDropdown: false },
@@ -233,7 +233,7 @@ export const Header = () => {
             {/* Logo */}
             <a href="#home" className="flex items-center gap-2 group flex-shrink-0">
               <img src={logo} alt="CustomBox" className="h-10 md:h-12 w-auto group-hover:scale-105 transition-transform hue-rotate-[-45deg] brightness-110" />
-              <span className="text-xl md:text-2xl font-bold gradient-text hidden sm:block">CustomBox</span>
+              <span className="text-lg md:text-2xl font-bold gradient-text">CustomBox</span>
             </a>
 
             {/* Search Bar - Desktop */}
@@ -478,11 +478,10 @@ export const Header = () => {
               <div key={item.label}>
                 <a
                   href={item.href}
-                  onClick={() => !item.hasDropdown && setIsMobileMenuOpen(false)}
+                  onClick={() => setIsMobileMenuOpen(false)}
                   className="flex items-center justify-between px-4 py-4 text-foreground hover:bg-accent transition-colors border-b border-border/50 text-base font-medium"
                 >
                   <span className="font-medium">{item.label}</span>
-                  {item.hasDropdown && <ChevronDown className="h-4 w-4" />}
                 </a>
               </div>
             ))}
