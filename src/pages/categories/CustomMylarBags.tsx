@@ -29,6 +29,7 @@ import holographicMylarBags from "@/assets/mylar-bags/holographic-mylar-bags.png
 import kraftMylarBags from "@/assets/mylar-bags/kraft-mylar-bags.png";
 import mylarZiplockBags from "@/assets/mylar-bags/mylar-ziplock-bags.png";
 import clearMylarBags from "@/assets/mylar-bags/clear-mylar-bags.png";
+import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
     { name: "Dispensary Mylar Bags", image: dispensaryMylarBags, description: "Professional, compliant packaging for dispensaries." },
@@ -48,7 +49,7 @@ const relatedProducts = [
 
 const productOptions = relatedProducts.map(p => p.name);
 
-const MylarBags = () => {
+const CustomMylarBags = () => {
     return (
         <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
             <Header />
@@ -65,13 +66,7 @@ const MylarBags = () => {
                             </BreadcrumbItem>
                             <BreadcrumbSeparator />
                             <BreadcrumbItem>
-                                <BreadcrumbLink asChild>
-                                    <Link to="/industries">All Industries</Link>
-                                </BreadcrumbLink>
-                            </BreadcrumbItem>
-                            <BreadcrumbSeparator />
-                            <BreadcrumbItem>
-                                <BreadcrumbPage>Custom Mylar Bags</BreadcrumbPage>
+                                <BreadcrumbPage>Mylar Bags</BreadcrumbPage>
                             </BreadcrumbItem>
                         </BreadcrumbList>
                     </Breadcrumb>
@@ -109,10 +104,7 @@ const MylarBags = () => {
                 </div>
             </section>
 
-            {/* Brand Rating */}
-            <BrandRating />
-
-            {/* Related Products Section */}
+{/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -153,10 +145,18 @@ const MylarBags = () => {
                 </div>
             </section>
 
+            {/* Brand Rating */}
+
+            <BrandRating />
+
             <QuoteForm />
+
+            <SEOContent>
+<h2>DEBUG REPLACEMENT SUCCESS</h2>
+</SEOContent>
             <Footer />
         </div>
     );
 };
 
-export default MylarBags;
+export default CustomMylarBags;

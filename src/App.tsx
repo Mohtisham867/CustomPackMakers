@@ -47,7 +47,7 @@ import GableBoxes from "./pages/categories/GableBoxes";
 <Route path="/shapes-styles/gable-boxes" element={<GableBoxes />} />
 import RigidBoxes from "./pages/categories/RigidBoxes";
 import TuckBoxes from "./pages/categories/TuckBoxes";
-import MylarBags from "./pages/categories/MylarBags";
+import CustomMylarBags from "./pages/categories/CustomMylarBags";
 import CardboardBoxes from "./pages/categories/CardboardBoxes";
 import SustainablePackaging from "./pages/categories/SustainablePackaging";
 import TeaCoffeeCups from "./pages/categories/TeaCoffeeCups";
@@ -128,7 +128,7 @@ const App = () => (
           <Route path="/industries/jewelry-boxes" element={<JewelryBoxes />} />
           <Route path="/industries/mailer-boxes" element={<MailerBoxes />} />
           <Route path="/industries/marijuana-packaging" element={<MarijuanaPackaging />} />
-          <Route path="/industries/mylar-bags" element={<MylarBags />} />
+          <Route path="/categories/custom-mylar-bags" element={<CustomMylarBags />} />
           <Route path="/shapes-styles/weed-bags" element={<WeedBags />} />
           <Route path="/shapes-styles/pillow-boxes" element={<PillowBoxes />} />
           <Route path="/shapes-styles/window-packaging" element={<WindowPackaging />} />

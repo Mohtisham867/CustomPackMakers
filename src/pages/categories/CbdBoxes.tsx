@@ -40,6 +40,7 @@ import cbdPreRollBoxes from "@/assets/cbd-products/cbd-pre-roll-boxes.jpg";
 import concentratePackaging from "@/assets/cbd-products/concentrate-packaging.jpg";
 import cbdSubscriptionBoxes from "@/assets/cbd-products/cbd-subscription-boxes.jpg";
 import cbdBathBombBoxes from "@/assets/cbd-products/cbd-bath-bomb-boxes.jpg";
+import { SEOContent } from "@/components/SEOContent";
 
 // Placeholder image for new products
 const placeholderImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23f0f0f0' width='400' height='400'/%3E%3Ctext fill='%23999' font-family='sans-serif' font-size='18' dy='10.5' font-weight='bold' x='50%25' y='50%25' text-anchor='middle'%3EImage Coming Soon%3C/text%3E%3C/svg%3E";
@@ -163,10 +164,7 @@ const CbdBoxes = () => {
                 </div>
             </section>
 
-            {/* Brand Rating */}
-            <BrandRating />
-
-            {/* Related Products Section */}
+{/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -207,7 +205,69 @@ const CbdBoxes = () => {
                 </div>
             </section>
 
+            {/* Brand Rating */}
+
+            <BrandRating />
+
             <QuoteForm />
+
+            <SEOContent>
+
+                <h2>The Ultimate Guide to Cbd Boxes</h2>
+                <p>
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    Our <strong>Cbd Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
+                    Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
+                </p>
+                <p>
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
+                </p>
+
+                <h3>Unmatched Material Quality & Durability</h3>
+                <p>
+                    The foundation of exceptional packaging lies in the materials used. We offer a diverse spectrum of stocks to suit different weight requirements and aesthetic preferences:
+                </p>
+                <ul>
+                    <li><strong>Corrugated Cardboard:</strong> Ideal for shipping and heavy-duty protection. Available in various flute sizes (E-flute, B-flute) to balance strength and printability.</li>
+                    <li><strong>Rigid Board:</strong> The epitome of luxury. This thick, unbending material is perfect for high-end gift sets, electronics, and premium cosmetics, often paired with magnetic closures.</li>
+                    <li><strong>Kraft Stock:</strong> An eco-friendly favorite. Biodegradable and recyclable, it offers a natural, rustic look that appeals to environmentally conscious consumers.</li>
+                    <li><strong>Cardstock (SBS/C1S):</strong> Lightweight and highly printable, making it perfect for retail shelves, cosmetics, and food packaging where graphical fidelity is paramount.</li>
+                </ul>
+                <p>
+                    Each material is tested for compression strength and edge crush resistance, ensuring your products arrive at their destination in pristine condition, regardless of the shipping rigors.
+                </p>
+
+                <h3>Advanced Printing & Finishing Options</h3>
+                <p>
+                    Transform your packaging into a work of art with our state-of-the-art printing capabilities. We utilize advanced offset and digital printing technologies to achieve vibrant, color-accurate results (CMYK & Pantone) that make your logo and artwork pop.
+                    Beyond standard printing, we offer a suite of premium finishing options to add tactile and visual depth:
+                </p>
+                <ul>
+                    <li><strong>Spot UV:</strong> Create a striking contrast by adding a high-gloss coating to specific areas like logos or patterns against a matte background.</li>
+                    <li><strong>Foil Stamping:</strong> Add a touch of elegance with metallic gold, silver, or holographic foils that catch the light and convey luxury.</li>
+                    <li><strong>Embossing & Debossing:</strong> Add dimension to your packaging with raised (embossed) or recessed (debossed) elements for a premium tactile feel.</li>
+                    <li><strong>Matte & Gloss Lamination:</strong> Choose Soft-Touch Matte for a velvety smooth feel or High-Gloss for a vibrant, shiny finish that protects against scuffs.</li>
+                </ul>
+
+                <h3>Comprehensive Size & Shape Customization</h3>
+                <p>
+                    One size does not fit all. We specialize in fully bespoke structural design. Whether you need a standard tuck-end box, a complex mailer with inserts, or a unique geometric shape to stand out on the shelf, we can engineer it.
+                    Our CAD specialists work with you to create die-lines that fit your product perfectly—minimizing movement and preventing damage.
+                </p>
+                <ul>
+                    <li><strong>Custom Inserts:</strong> Foam, cardboard, or molded pulp inserts custom-shaped to hold your product securely in place.</li>
+                    <li><strong>Window Cutouts:</strong> transparent PET windows to let customers see the product inside, building trust and driving sales.</li>
+                    <li><strong>Unique Closures:</strong> Magnetic catches, ribbon ties, tuck-tops, and auto-lock bottoms for convenience and security.</li>
+                </ul>
+
+                <h3>Wholesale Benefits & Scalability</h3>
+                <p>
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
+                </p>
+            </SEOContent>
             <Footer />
         </div>
     );

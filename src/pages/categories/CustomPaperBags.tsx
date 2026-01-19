@@ -33,6 +33,7 @@ import giftBags from "@/assets/custom-paper-bags/gift-bags.jpg";
 import carryOutBags from "@/assets/custom-paper-bags/carry-out-bags.jpg";
 import exoticWeedBag from "@/assets/custom-paper-bags/exotic-weed-bag.jpg";
 import paperBagsWithHandles from "@/assets/custom-paper-bags/paper-bags-with-handles.jpg";
+import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
     { name: "Custom Auto Bottom Gable Bags", image: customAutoBottomGableBags, description: "Secure and convenient custom gable bags with auto bottom." },
@@ -120,10 +121,7 @@ const CustomPaperBags = () => {
                 </div>
             </section>
 
-            {/* Brand Rating */}
-            <BrandRating />
-
-            {/* Related Products Section */}
+{/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -174,7 +172,68 @@ const CustomPaperBags = () => {
                 </div>
             </section>
 
+            {/* Brand Rating */}
+
+            <BrandRating />
+
             <QuoteForm />
+
+            <SEOContent>
+
+                <h2>The Ultimate Guide to Custom Custom Paper Bags</h2>
+                <p>
+                    Preserve freshness, ensure safety, and captivate your audience with our industry-leading <strong>Custom Paper Bags</strong>. 
+                    In markets like food, supplements, and cannabis, the barrier integrity of your packaging is non-negotiable. Our bags are engineered to provide the ultimate shield against environmental factors while serving as a vibrant canvas for your brand's messaging.
+                    Combining high-barrier technology with stunning print quality, our pouches offer the perfect versatility for retail displays and safe storage.
+                </p>
+                <p>
+                    We leverage advanced multi-layer lamination techniques to create bags that are not only durable but also functional, ensuring your product remains as potent and fresh as the day it was packaged.
+                </p>
+
+                <h3>Superior Material Science & Barrier Protection</h3>
+                <p>
+                    Our Custom Paper Bags are constructed using premium multi-layer films that offer specific protective benefits:
+                </p>
+                <ul>
+                    <li><strong>PET (Polyester):</strong> The outer layer provides excellent structural strength and a high-quality surface for printing.</li>
+                    <li><strong>AL (Aluminum Foil) / VMPET:</strong> A critical middle layer that acts as a fortress against oxygen, moisture, and UV light, virtually eliminating permeation.</li>
+                    <li><strong>LLDPE (Linear Low-Density Polyethylene):</strong> The inner food-grade layer that ensures a safe, chemically inert environment for your product and enables reliable heat sealing.</li>
+                </ul>
+                <p>
+                    Calculated thickness options ranging from 3.5 mil to 7+ mil allow you to choose the right rigidity and protection level for your specific product weight and shelf-life requirements.
+                </p>
+
+                <h3>Functional Features & Customizations</h3>
+                <p>
+                    Functionality drives repeat purchases. We integrate user-friendly features that enhance the consumer experience:
+                </p>
+                <ul>
+                    <li><strong>Resealable Zippers:</strong> Premium press-to-close zippers or child-resistant zippers that maintain freshness after opening.</li>
+                    <li><strong>Tear Notches:</strong> Precision-cut notches for easy, tool-free opening by the end user.</li>
+                    <li><strong>Hang Holes:</strong> Standard round or sombrero styles for versatile retail pegboard display.</li>
+                    <li><strong>Transparent Windows:</strong> Clear sections to showcase the product quality inside, often preferred by consumers.</li>
+                    <li><strong>Gussets:</strong> Bottom gussets (for Stand Up Pouches) that allow the bag to stand upright on shelves, maximizing visibility.</li>
+                </ul>
+
+                <h3>High-Definition Printing & Finishes</h3>
+                <p>
+                    Stand out in a crowded market with our rotogravure and digital printing options. We reproduce your artwork with photographic fidelity and rich color saturation.
+                    Choose from distinct finishes to match your brand vibe:
+                </p>
+                <ul>
+                    <li><strong>Matte Finish:</strong> A sophisticated, non-reflective look that feels premium and hides fingerprints.</li>
+                    <li><strong>Gloss Finish:</strong> A high-shine surface that makes colors vibrant and shelf presence aggressive.</li>
+                    <li><strong>Holographic Effects:</strong> Eye-catching metallic patterns that change with the light, perfect for premium or limited-edition lines.</li>
+                    <li><strong>Spot UV:</strong> A mix of matte and gloss textures to highlight your logo or specific design elements.</li>
+                </ul>
+
+                <h3>Wholesale & Compliance</h3>
+                <p>
+                    We cover all bases—from regulatory compliance (Child-Resistant certification, FDA food grade) to supply chain efficiency. 
+                    Our volume pricing structures ensure that you get the best margin possible as you scale. 
+                    Fast turnaround times and low MOQs make us the ideal partner for dynamic brands that need to move fast.
+                </p>
+            </SEOContent>
             <Footer />
         </div>
     );

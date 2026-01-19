@@ -67,7 +67,7 @@ export const Header = () => {
     // Shapes & Styles
     { name: "Child Resistant Packaging", url: "/shapes-styles/child-resistant-packaging" },
     { name: "Custom Bags", url: "/shapes-styles/custom-bags" },
-    { name: "Custom Mylar Bags", url: "/industries/mylar-bags" },
+    { name: "Mylar Bags", url: "/categories/custom-mylar-bags" },
     { name: "Weed Bags", url: "/shapes-styles/weed-bags" },
     { name: "Subscription Boxes", url: "/shapes-styles/subscription-boxes" },
     { name: "Shipping Boxes", url: "/shapes-styles/shipping-boxes" },
@@ -158,6 +158,7 @@ export const Header = () => {
     { label: "Box by Industry", href: "/industries", hasDropdown: true },
     { label: "Shapes & Styles", href: "/shapes-styles", hasDropdown: true },
     { label: "Box by Materials", href: "/materials", hasDropdown: true },
+    { label: "Mylar Bags", href: "/categories/custom-mylar-bags", hasDropdown: false },
     { label: "Primary Packaging", href: "/primary-packaging", hasDropdown: false },
     { label: "Packaging Hub", href: "/packaging-hub", hasDropdown: false },
     { label: "Insights", href: "#insights", hasDropdown: false },
@@ -195,7 +196,7 @@ export const Header = () => {
   const shapesStylesItems = [
     { label: "Child Resistant Packaging", href: "/shapes-styles/child-resistant-packaging" },
     { label: "Custom Bags", href: "/shapes-styles/custom-bags" },
-    { label: "Custom Mylar Bags", href: "/industries/mylar-bags" },
+
     { label: "Weed Bags", href: "/shapes-styles/weed-bags" },
     { label: "Subscription Boxes", href: "/shapes-styles/subscription-boxes" },
     { label: "Shipping Boxes", href: "/shapes-styles/shipping-boxes" },

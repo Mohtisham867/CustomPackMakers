@@ -10,6 +10,7 @@ import { Testimonials } from "@/components/Testimonials";
 import { FAQ } from "@/components/FAQ";
 import { SampleKit } from "@/components/SampleKit";
 import { Footer } from "@/components/Footer";
+import { HomeSEOContent } from "@/components/HomeSEOContent";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <ProductGrid />
       <QuoteForm />
       <BoxShapesCarousel />
+      <HomeSEOContent />
       <Process />
       <ValuePropositions />
       <Testimonials />
