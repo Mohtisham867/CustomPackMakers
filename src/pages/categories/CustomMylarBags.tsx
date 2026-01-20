@@ -151,9 +151,60 @@ const CustomMylarBags = () => {
 
             <QuoteForm />
 
-            <SEOContent>
-<h2>DEBUG REPLACEMENT SUCCESS</h2>
-</SEOContent>
+            <section className="py-16 px-[50px] bg-white border-t border-slate-100">
+                <div className="w-full mx-auto text-left">
+                    <h2 className="text-3xl md:text-4xl font-bold text-black mb-6 leading-tight">
+                        Premium Custom Mylar Bags: The Ultimate Packaging Solution
+                    </h2>
+                    <div className="prose prose-lg prose-slate max-w-none
+                            [&>h3]:text-2xl [&>h3]:font-bold [&>h3]:text-black [&>h3]:mt-8 [&>h3]:mb-4
+                            [&>p]:text-[15px] [&>p]:leading-relaxed [&>p]:text-gray-800 [&>p]:mb-6
+                            [&>ul]:list-disc [&>ul]:pl-6 [&>ul]:space-y-3 [&>li]:text-gray-800 [&>li]:text-[15px]">
+
+                            <p className="mt-0">
+                                Custom Mylar bags are a cornerstone of modern flexible packaging, marrying visual branding with industrial-grade protection. At the heart of every high-performance Mylar pouch is a carefully engineered multi-layer structure—typically combining a printable PET outer layer, a foil or metallized barrier layer, and a food-safe inner sealant such as LLDPE. This composite delivers the toughness and print fidelity brands need, while creating an impervious barrier to gases, moisture, and light.
+                            </p>
+
+                            <h3>Material Durability & Recommended Thickness</h3>
+                            <p>
+                                Material selection is driven by the product you package and the shelf-life goals you set. For many retail and long-term storage applications we recommend PET laminates in the <strong>4ml–5ml</strong> range—this gauge strikes an optimal balance between puncture resistance, dimensional stability, and print quality. Thicker constructions (6–7ml and above) are available for high-abuse items or heavy-fill products, while lighter gauges serve short-run retail and trial-size offerings.
+                            </p>
+                            <p>
+                                The PET outer layer provides a smooth, high-definition surface for rotogravure or digital print processes. Beneath that, a metallized or aluminum foil layer (VMPET/AL) acts as the primary gas barrier, interrupting oxygen and UV transmission. The inner heat-seal layer—usually LLDPE or similar food-grade polymer—ensures safe direct contact with foodstuffs and reliable, leak-free closure.
+                            </p>
+
+                            <h3>Smell‑Proof Zippers & Closure Engineering</h3>
+                            <p>
+                                Zipper performance is equally important to barrier performance. Our smell‑proof zippers employ multi-channel sealing profiles with enhanced compression tolerances that minimize odor migration and prevent micro-leakage. For cannabis, aroma-sensitive food, or aromatic botanicals, we recommend double-track or multi‑lip zippers paired with an internal odor barrier layer—this combination preserves discretion while allowing repeated reseals without degrading the barrier properties.
+                            </p>
+
+                            <h3>Oxygen Absorbers & Long-Term Shelf Life</h3>
+                            <p>
+                                Oxygen absorbers are an economical, proven method to extend shelf life when paired with high-barrier pouches. When properly calculated for pouch volume and headspace, absorbers can remove residual oxygen to levels that dramatically slow oxidation and microbial growth. Under ideal conditions—proper moisture control and storage—this strategy has been shown to support shelf stability for dried goods measured in decades, with examples of <strong>20–30 years</strong> cited for certain low-moisture products. It’s essential to match absorber capacity to the product and to use validated packing procedures to achieve these timelines.
+                            </p>
+
+                            <h3>Food‑Grade Safety & Regulatory Considerations</h3>
+                            <p>
+                                All inner sealant layers and inks intended to contact food must meet relevant regulatory standards. We work with FDA-compliant polymers and food‑contact-safe adhesives to ensure migration limits are respected and that printed surfaces do not compromise product safety. For applications involving direct food contact, we recommend barrier laminates specifically certified for food use and production on dedicated lines when cross-contamination is a concern.
+                            </p>
+
+                            <h3>Wholesale Customization & Functional Add‑Ons</h3>
+                            <p>
+                                Beyond material and sealing choices, scale and brand impact matter. We offer wholesale customization including high-fidelity rotogravure print, digital short-run solutions, matte or gloss finishes, clear window options, tear notches, hang holes, and child-resistant zipper variants. Packaging engineers can advise on right‑sizing films, testing seal integrity, and selecting the correct absorber quantity to meet your shelf‑life goals.
+                            </p>
+
+                            <h3>Performance Testing & Quality Assurance</h3>
+                            <p>
+                                Rigorous testing underpins reliable packaging. Our QA protocols include seal strength testing, oxygen transmission rate (OTR) analysis, water vapor transmission rate (WVTR) measurements, and accelerated shelf-life studies. These data points guide material selection and optimize constructions for each SKU.
+                            </p>
+
+                            <p>
+                                If you need packaging that preserves aroma, extends shelf life, and projects a premium brand image, our Mylar solutions provide a flexible, proven platform. Contact our technical team to request samples, absorber sizing guidance, and seal validation testing to ensure your product meets its intended shelf and retail performance targets.
+                            </p>
+
+                        </div>
+                </div>
+            </section>
             <Footer />
         </div>
     );
