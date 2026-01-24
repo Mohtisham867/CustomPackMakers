@@ -31,16 +31,16 @@ import chocolateBoxes from "@/assets/bakery-products/chocolate-boxes.jpg";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-  { name: "Custom Cake Boxes", image: customCakeBoxes, description: "Elegant boxes for cakes of all sizes" },
-  { name: "Pastry Boxes", image: pastryBoxes, description: "Perfect packaging for delicate pastries" },
-  { name: "Donut Boxes", image: donutBoxes, description: "Sturdy boxes for donuts and bagels" },
-  { name: "Cookie Boxes", image: cookieBoxes, description: "Gift-ready cookie packaging solutions" },
-  { name: "Cupcake Boxes", image: cupcakeBoxes, description: "Secure compartments for cupcakes" },
-  { name: "Pie Boxes", image: pieBoxes, description: "Window boxes for showcasing pies" },
-  { name: "Muffin Boxes", image: muffinBoxes, description: "Multi-compartment muffin carriers" },
-  { name: "Bread Packaging", image: breadPackaging, description: "Fresh-keeping bread bags and boxes" },
-  { name: "Macaron Boxes", image: macaronBoxes, description: "Luxury packaging for macarons" },
-  { name: "Chocolate Boxes", image: chocolateBoxes, description: "Premium chocolate gift boxes" },
+  { name: "Custom Cake Boxes", image: customCakeBoxes, description: "Elegant boxes for cakes of all sizes featuring sturdy construction and beautiful presentation design" },
+  { name: "Pastry Boxes", image: pastryBoxes, description: "Perfect packaging for delicate pastries with grease-resistant materials and secure closure mechanisms" },
+  { name: "Donut Boxes", image: donutBoxes, description: "Sturdy boxes designed for donuts and bagels with convenient carrying handles and viewing windows" },
+  { name: "Cookie Boxes", image: cookieBoxes, description: "Gift-ready cookie packaging featuring attractive designs and protective inserts for freshness preservation" },
+  { name: "Cupcake Boxes", image: cupcakeBoxes, description: "Secure compartments for cupcakes preventing movement and damage with clear window display options" },
+  { name: "Pie Boxes", image: pieBoxes, description: "Window boxes for showcasing pies with ventilation features and sturdy base for safe transportation" },
+  { name: "Muffin Boxes", image: muffinBoxes, description: "Multi-compartment muffin carriers with individual slots ensuring products stay fresh and presentable" },
+  { name: "Bread Packaging", image: breadPackaging, description: "Fresh-keeping bread bags and boxes with breathable materials maintaining optimal texture and quality" },
+  { name: "Macaron Boxes", image: macaronBoxes, description: "Luxury packaging for macarons featuring elegant design and protective inserts for delicate confections" },
+  { name: "Chocolate Boxes", image: chocolateBoxes, description: "Premium chocolate gift boxes with sophisticated finishes and compartments for assorted selections" },
 ];
 
 const BakeryBoxes = () => {
@@ -105,7 +105,7 @@ const BakeryBoxes = () => {
             </div>
           </div>
 
-{/* Related Products Section */}
+          {/* Related Products Section */}
           <section className="mt-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Prove The Quality Experience Of Bakery Products
@@ -133,7 +133,7 @@ const BakeryBoxes = () => {
                       <h3 className="font-semibold text-foreground text-sm mb-2">
                         {product.name}
                       </h3>
-                      <p className="text-xs text-muted-foreground">
+                      <p className="text-xs text-muted-foreground line-clamp-2">
                         {product.description}
                       </p>
                     </div>
@@ -151,61 +151,61 @@ const BakeryBoxes = () => {
       <QuoteForm />
       <SEOContent>
 
-                <h2>The Ultimate Guide to Bakery Boxes</h2>
-                <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
-                    Our <strong>Bakery Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
-                    Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
-                </p>
-                <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
-                    From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
-                </p>
+        <h2>The Ultimate Guide to Bakery Boxes</h2>
+        <p>
+          In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
+          Our <strong>Bakery Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
+          Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
+        </p>
+        <p>
+          We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
+          From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
+        </p>
 
-                <h3>Unmatched Material Quality & Durability</h3>
-                <p>
-                    The foundation of exceptional packaging lies in the materials used. We offer a diverse spectrum of stocks to suit different weight requirements and aesthetic preferences:
-                </p>
-                <ul>
-                    <li><strong>Corrugated Cardboard:</strong> Ideal for shipping and heavy-duty protection. Available in various flute sizes (E-flute, B-flute) to balance strength and printability.</li>
-                    <li><strong>Rigid Board:</strong> The epitome of luxury. This thick, unbending material is perfect for high-end gift sets, electronics, and premium cosmetics, often paired with magnetic closures.</li>
-                    <li><strong>Kraft Stock:</strong> An eco-friendly favorite. Biodegradable and recyclable, it offers a natural, rustic look that appeals to environmentally conscious consumers.</li>
-                    <li><strong>Cardstock (SBS/C1S):</strong> Lightweight and highly printable, making it perfect for retail shelves, cosmetics, and food packaging where graphical fidelity is paramount.</li>
-                </ul>
-                <p>
-                    Each material is tested for compression strength and edge crush resistance, ensuring your products arrive at their destination in pristine condition, regardless of the shipping rigors.
-                </p>
+        <h3>Unmatched Material Quality & Durability</h3>
+        <p>
+          The foundation of exceptional packaging lies in the materials used. We offer a diverse spectrum of stocks to suit different weight requirements and aesthetic preferences:
+        </p>
+        <ul>
+          <li><strong>Corrugated Cardboard:</strong> Ideal for shipping and heavy-duty protection. Available in various flute sizes (E-flute, B-flute) to balance strength and printability.</li>
+          <li><strong>Rigid Board:</strong> The epitome of luxury. This thick, unbending material is perfect for high-end gift sets, electronics, and premium cosmetics, often paired with magnetic closures.</li>
+          <li><strong>Kraft Stock:</strong> An eco-friendly favorite. Biodegradable and recyclable, it offers a natural, rustic look that appeals to environmentally conscious consumers.</li>
+          <li><strong>Cardstock (SBS/C1S):</strong> Lightweight and highly printable, making it perfect for retail shelves, cosmetics, and food packaging where graphical fidelity is paramount.</li>
+        </ul>
+        <p>
+          Each material is tested for compression strength and edge crush resistance, ensuring your products arrive at their destination in pristine condition, regardless of the shipping rigors.
+        </p>
 
-                <h3>Advanced Printing & Finishing Options</h3>
-                <p>
-                    Transform your packaging into a work of art with our state-of-the-art printing capabilities. We utilize advanced offset and digital printing technologies to achieve vibrant, color-accurate results (CMYK & Pantone) that make your logo and artwork pop.
-                    Beyond standard printing, we offer a suite of premium finishing options to add tactile and visual depth:
-                </p>
-                <ul>
-                    <li><strong>Spot UV:</strong> Create a striking contrast by adding a high-gloss coating to specific areas like logos or patterns against a matte background.</li>
-                    <li><strong>Foil Stamping:</strong> Add a touch of elegance with metallic gold, silver, or holographic foils that catch the light and convey luxury.</li>
-                    <li><strong>Embossing & Debossing:</strong> Add dimension to your packaging with raised (embossed) or recessed (debossed) elements for a premium tactile feel.</li>
-                    <li><strong>Matte & Gloss Lamination:</strong> Choose Soft-Touch Matte for a velvety smooth feel or High-Gloss for a vibrant, shiny finish that protects against scuffs.</li>
-                </ul>
+        <h3>Advanced Printing & Finishing Options</h3>
+        <p>
+          Transform your packaging into a work of art with our state-of-the-art printing capabilities. We utilize advanced offset and digital printing technologies to achieve vibrant, color-accurate results (CMYK & Pantone) that make your logo and artwork pop.
+          Beyond standard printing, we offer a suite of premium finishing options to add tactile and visual depth:
+        </p>
+        <ul>
+          <li><strong>Spot UV:</strong> Create a striking contrast by adding a high-gloss coating to specific areas like logos or patterns against a matte background.</li>
+          <li><strong>Foil Stamping:</strong> Add a touch of elegance with metallic gold, silver, or holographic foils that catch the light and convey luxury.</li>
+          <li><strong>Embossing & Debossing:</strong> Add dimension to your packaging with raised (embossed) or recessed (debossed) elements for a premium tactile feel.</li>
+          <li><strong>Matte & Gloss Lamination:</strong> Choose Soft-Touch Matte for a velvety smooth feel or High-Gloss for a vibrant, shiny finish that protects against scuffs.</li>
+        </ul>
 
-                <h3>Comprehensive Size & Shape Customization</h3>
-                <p>
-                    One size does not fit all. We specialize in fully bespoke structural design. Whether you need a standard tuck-end box, a complex mailer with inserts, or a unique geometric shape to stand out on the shelf, we can engineer it.
-                    Our CAD specialists work with you to create die-lines that fit your product perfectly—minimizing movement and preventing damage.
-                </p>
-                <ul>
-                    <li><strong>Custom Inserts:</strong> Foam, cardboard, or molded pulp inserts custom-shaped to hold your product securely in place.</li>
-                    <li><strong>Window Cutouts:</strong> transparent PET windows to let customers see the product inside, building trust and driving sales.</li>
-                    <li><strong>Unique Closures:</strong> Magnetic catches, ribbon ties, tuck-tops, and auto-lock bottoms for convenience and security.</li>
-                </ul>
+        <h3>Comprehensive Size & Shape Customization</h3>
+        <p>
+          One size does not fit all. We specialize in fully bespoke structural design. Whether you need a standard tuck-end box, a complex mailer with inserts, or a unique geometric shape to stand out on the shelf, we can engineer it.
+          Our CAD specialists work with you to create die-lines that fit your product perfectly—minimizing movement and preventing damage.
+        </p>
+        <ul>
+          <li><strong>Custom Inserts:</strong> Foam, cardboard, or molded pulp inserts custom-shaped to hold your product securely in place.</li>
+          <li><strong>Window Cutouts:</strong> transparent PET windows to let customers see the product inside, building trust and driving sales.</li>
+          <li><strong>Unique Closures:</strong> Magnetic catches, ribbon ties, tuck-tops, and auto-lock bottoms for convenience and security.</li>
+        </ul>
 
-                <h3>Wholesale Benefits & Scalability</h3>
-                <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
-                    Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
-                </p>
-            </SEOContent>
+        <h3>Wholesale Benefits & Scalability</h3>
+        <p>
+          Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+          Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
+          Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
+        </p>
+      </SEOContent>
       <Footer />
     </div>
   );

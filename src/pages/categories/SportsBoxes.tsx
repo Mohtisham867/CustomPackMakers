@@ -25,11 +25,11 @@ import tennisBallBoxes from "@/assets/sports-boxes/tennis-ball-boxes.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Baseball Boxes", image: baseballBoxes, description: "Protective boxes for collectible or retail baseballs." },
-    { name: "Custom Golf Ball Boxes", image: golfBallBoxes, description: "Premium packaging for golf balls, perfect for gifts." },
-    { name: "Football Boxes", image: footballBoxes, description: "Durable boxes designed to hold footballs securely." },
-    { name: "Basketball Boxes", image: basketballBoxes, description: "Large, sturdy boxes for basketballs." },
-    { name: "Tennis Ball Boxes", image: tennisBallBoxes, description: "Compact boxes for tennis ball sleeves or sets." },
+    { name: "Custom Baseball Boxes", image: baseballBoxes, description: "Protective boxes for collectible or retail baseballs featuring clear viewing windows and sturdy construction" },
+    { name: "Custom Golf Ball Boxes", image: golfBallBoxes, description: "Premium packaging for golf balls perfect for gifts featuring precise internal dividers and luxury finishes" },
+    { name: "Football Boxes", image: footballBoxes, description: "Durable boxes designed to hold footballs securely featuring reinforced cardboard and high-impact sports graphics" },
+    { name: "Basketball Boxes", image: basketballBoxes, description: "Large and sturdy boxes for basketballs featuring handle options and vibrant team-style custom branding" },
+    { name: "Tennis Ball Boxes", image: tennisBallBoxes, description: "Compact boxes for tennis ball sleeves or sets featuring space-efficient design and professional retail look" },
 ];
 
 const productOptions = [
@@ -102,7 +102,7 @@ const SportsBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -153,12 +153,12 @@ const SportsBoxes = () => {
 
                 <h2>The Ultimate Guide to Sports Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Sports Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -201,8 +201,8 @@ const SportsBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

@@ -29,10 +29,10 @@ const cardstockProducts = [
 ];
 
 const relatedProducts = [
-    { name: "White Cardstock Boxes", image: whiteCardstock, description: "Smooth, clean white finish for premium retail packaging." },
-    { name: "Kraft Cardstock Boxes", image: kraftCardstock, description: "Natural look, lightweight and eco-friendly." },
-    { name: "Printed Cardstock Boxes", image: whiteCardstock, description: "High-quality printing surface for vibrant branding." },
-    { name: "Custom Shape Cardstock", image: whiteCardstock, description: "Die-cut to any shape for unique product presentation." },
+    { name: "White Cardstock Boxes", image: whiteCardstock, description: "Smooth, clean white finish for premium retail packaging with high-fidelity printing capabilities" },
+    { name: "Kraft Cardstock Boxes", image: kraftCardstock, description: "Natural look, lightweight and eco-friendly cardstock for sustainable and rustic brand presentations" },
+    { name: "Printed Cardstock Boxes", image: whiteCardstock, description: "High-quality printing surface designed for vibrant branding and complex multi-color graphic designs" },
+    { name: "Custom Shape Cardstock", image: whiteCardstock, description: "Die-cut to any custom shape for unique product presentation and memorable retail unboxing experiences" },
 ];
 
 const CardstockBoxes = () => {
@@ -105,7 +105,7 @@ const CardstockBoxes = () => {
                         */}
                     </div>
 
-{/* Related Products Section */}
+                    {/* Related Products Section */}
                     <section className="mt-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
                             Premium Cardstock Solutions
@@ -154,12 +154,12 @@ const CardstockBoxes = () => {
 
                 <h2>The Ultimate Guide to Cardstock Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Cardstock Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -202,8 +202,8 @@ const CardstockBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

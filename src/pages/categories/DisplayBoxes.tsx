@@ -37,23 +37,23 @@ import { SEOContent } from "@/components/SEOContent";
 
 
 const relatedProducts = [
-    { name: "Brochure Display Holder", image: brochureDisplayHolder, description: "Professional holders for brochures and flyers." },
-    { name: "Custom Candle Display Boxes", image: customCandleDisplayBoxes, description: "Attractive display boxes for candles." },
-    { name: "Custom Pre Roll Display Boxes", image: customPreRollDisplayBoxes, description: "Secure display packaging for pre-rolls." },
-    { name: "Vape Display Boxes", image: vapeDisplayBoxes, description: "Custom displays for vape products." },
-    { name: "Cardboard Display Boxes", image: cardboardDisplayBoxes, description: "Eco-friendly cardboard display solutions." },
-    { name: "Counter Display Boxes", image: counterDisplayBoxes, description: "Eye-catching boxes for counter placement." },
-    { name: "Jewelry Display Boxes", image: jewelryDisplayBoxes, description: "Elegant displays for jewelry items." },
-    { name: "CBD Display Boxes", image: cbdDisplayBoxes, description: "Custom packaging for CBD product displays." },
-    { name: "Lollipop Display Boxes", image: lollipopDisplayBoxes, description: "Fun and functional lollipop displays." },
-    { name: "Cigarette Display Boxes", image: cigaretteDisplayBoxes, description: "Organized display units for cigarette packs." },
-    { name: "Cosmetic Display Boxes", image: cosmeticDisplayBoxes, description: "Stylish displays for cosmetic lines." },
-    { name: "Clear Lid Boxes", image: clearLidBoxes, description: "Boxes with clear lids for product visibility." },
-    { name: "Product Display Boxes", image: productDisplayBoxes, description: "Versatile boxes for various retail products." },
-    { name: "Countertop Display Boxes", image: countertopDisplayBoxes, description: "Compact displays for limited counter space." },
-    { name: "Watch Display Boxes", image: watchDisplayBoxes, description: "Premium display boxes for watches." },
-    { name: "Health Counter Display Boxes", image: healthCounterDisplayBoxes, description: "Clean and professional health product displays." },
-    { name: "Candy Display Boxes", image: candyDisplayBoxes, description: "Bright and appealing candy display boxes." },
+    { name: "Brochure Display Holder", image: brochureDisplayHolder, description: "Professional holders for brochures and flyers designed for high visibility in lobbies and retail environments" },
+    { name: "Custom Candle Display Boxes", image: customCandleDisplayBoxes, description: "Attractive display boxes for candles featured with protective inserts and premium branding for shelf appeal" },
+    { name: "Custom Pre Roll Display Boxes", image: customPreRollDisplayBoxes, description: "Secure display packaging for pre-rolls offering clear product visibility and organized retail counter presence" },
+    { name: "Vape Display Boxes", image: vapeDisplayBoxes, description: "Custom displays for vape products featuring eye-catching graphics and sturdy construction for retail use" },
+    { name: "Cardboard Display Boxes", image: cardboardDisplayBoxes, description: "Eco-friendly cardboard display solutions providing sustainable and lightweight packaging for general retail" },
+    { name: "Counter Display Boxes", image: counterDisplayBoxes, description: "Eye-catching boxes for counter placement designed to drive impulse purchases with bold branding and layout" },
+    { name: "Jewelry Display Boxes", image: jewelryDisplayBoxes, description: "Elegant displays for jewelry items highlighting detail and luxury with premium finishes and protective linings" },
+    { name: "CBD Display Boxes", image: cbdDisplayBoxes, description: "Custom packaging for CBD product displays featured with compliant labeling and attractive design elements" },
+    { name: "Lollipop Display Boxes", image: lollipopDisplayBoxes, description: "Fun and functional lollipop displays with secure holders designed to catch the eye of younger consumers" },
+    { name: "Cigarette Display Boxes", image: cigaretteDisplayBoxes, description: "Organized display units for cigarette packs providing efficient retail storage and prominent brand visibility" },
+    { name: "Cosmetic Display Boxes", image: cosmeticDisplayBoxes, description: "Stylish displays for cosmetic lines offering tiered layouts for product organization and high-end aesthetics" },
+    { name: "Clear Lid Boxes", image: clearLidBoxes, description: "Boxes with clear lids for product visibility allowing customers to view contents while ensuring safety" },
+    { name: "Product Display Boxes", image: productDisplayBoxes, description: "Versatile boxes for various retail products designed for multi-functional storage and attractive shelf presence" },
+    { name: "Countertop Display Boxes", image: countertopDisplayBoxes, description: "Compact displays for limited counter space offering efficient product merchandising in smaller retail areas" },
+    { name: "Watch Display Boxes", image: watchDisplayBoxes, description: "Premium display boxes for watches featuring cushioned interiors and luxury exterior branding for retailers" },
+    { name: "Health Counter Display Boxes", image: healthCounterDisplayBoxes, description: "Clean and professional health product displays designed for pharmacies and health-conscious retail stores" },
+    { name: "Candy Display Boxes", image: candyDisplayBoxes, description: "Bright and appealing candy display boxes featuring colorful graphics and divided compartments for variety" },
 ];
 
 const productOptions = [
@@ -137,7 +137,7 @@ const DisplayBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -195,12 +195,12 @@ const DisplayBoxes = () => {
 
                 <h2>The Ultimate Guide to Display Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Display Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -243,8 +243,8 @@ const DisplayBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

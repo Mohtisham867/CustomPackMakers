@@ -24,12 +24,12 @@ import insertsDividers from "@/assets/candle-products/candle-boxes-inserts.jpg";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Mailer Boxes", image: mailerBoxes, description: "Durable and stylish mailers for brand impact." },
-    { name: "Subscription Boxes", image: subscriptionBoxes, description: "Curated packaging experiences for subscribers." },
-    { name: "Shipping Boxes", image: shippingBoxes, description: "Heavy-duty protection for transit." },
-    { name: "E-commerce Product Boxes", image: productBoxes, description: "Versatile boxes for various retail products." },
-    { name: "Corrugated Boxes", image: corrugatedBoxes, description: "Strong and lightweight corrugated solutions." },
-    { name: "Custom Inserts & Dividers", image: insertsDividers, description: "Organize and protect items inside the box." },
+    { name: "Custom Mailer Boxes", image: mailerBoxes, description: "Durable and stylish mailers for brand impact featuring self-locking tabs and premium print surfaces" },
+    { name: "Subscription Boxes", image: subscriptionBoxes, description: "Curated packaging experiences for subscribers designed for recurring transit and premium brand unboxing" },
+    { name: "Shipping Boxes", image: shippingBoxes, description: "Heavy-duty protection for transit utilizing reinforced corrugated board for maximum product security" },
+    { name: "E-commerce Product Boxes", image: productBoxes, description: "Versatile retail boxes for various products featuring high-definition graphics and secure closures" },
+    { name: "Corrugated Boxes", image: corrugatedBoxes, description: "Strong and lightweight corrugated solutions engineered for superior crush resistance during shipping" },
+    { name: "Custom Inserts & Dividers", image: insertsDividers, description: "Organize and protect items inside the box with custom-fitted compartments for professional delivery" },
 ];
 
 const productOptions = [
@@ -104,7 +104,7 @@ const EcommerceBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -155,12 +155,12 @@ const EcommerceBoxes = () => {
 
                 <h2>The Ultimate Guide to Ecommerce Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Ecommerce Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -203,8 +203,8 @@ const EcommerceBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

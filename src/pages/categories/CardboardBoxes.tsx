@@ -53,22 +53,22 @@ const cardboardBoxProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Hemp Cardboard Boxes", image: hempCardboardBoxes, description: "Eco-friendly hemp cardboard packaging" },
-    { name: "Cardboard Cigarette Boxes", image: cardboardCigaretteBoxes, description: "Custom cigarette cardboard boxes" },
-    { name: "Cardboard Gift Boxes", image: cardboardGiftBoxes, description: "Decorative gift cardboard boxes" },
-    { name: "Black Cardboard Boxes", image: blackCardboardBoxes, description: "Sleek black cardboard packaging" },
-    { name: "White Cardboard Boxes", image: whiteCardboardBoxes, description: "Clean white cardboard boxes" },
-    { name: "Cardboard Divider Boxes", image: cardboardDividerBoxes, description: "Boxes with custom dividers" },
-    { name: "Cardboard Jewelry Boxes", image: cardboardJewelryBoxes, description: "Elegant jewelry cardboard boxes" },
-    { name: "Cardboard Box With Handle", image: cardboardBoxWithHandle, description: "Convenient handled cardboard boxes" },
-    { name: "Ammo Cardboard Boxes", image: ammoCardboardBoxes, description: "Secure ammunition packaging" },
-    { name: "Cardboard Inserts", image: cardboardInserts, description: "Custom cardboard insert solutions" },
-    { name: "Paperboard Boxes", image: paperboardBoxes, description: "Versatile paperboard packaging" },
-    { name: "Cardboard Shoe Boxes", image: cardboardShoeBoxes, description: "Durable shoe cardboard boxes" },
-    { name: "Cardboard Box With Inserts", image: cardboardBoxWithInserts, description: "Boxes with protective inserts" },
-    { name: "Cardboard Cigar Boxes", image: cardboardCigarBoxes, description: "Premium cigar cardboard boxes" },
-    { name: "Cosmetic Cardboard Boxes", image: cosmeticCardboardBoxes, description: "Beauty product cardboard packaging" },
-    { name: "Cardboard Soap Boxes", image: cardboardSoapBoxes, description: "Custom soap cardboard boxes" },
+    { name: "Hemp Cardboard Boxes", image: hempCardboardBoxes, description: "Eco-friendly hemp cardboard packaging solutions crafted from sustainable and biodegradable materials" },
+    { name: "Cardboard Cigarette Boxes", image: cardboardCigaretteBoxes, description: "Custom cigarette cardboard boxes featuring durable construction and high-quality vibrant printing" },
+    { name: "Cardboard Gift Boxes", image: cardboardGiftBoxes, description: "Decorative gift cardboard boxes perfect for special occasions with elegant finishes and secure closures" },
+    { name: "Black Cardboard Boxes", image: blackCardboardBoxes, description: "Sleek black cardboard packaging with a luxury matte finish designed for premium product presentation" },
+    { name: "White Cardboard Boxes", image: whiteCardboardBoxes, description: "Clean white cardboard boxes offering a professional aesthetic for medical and cosmetic retail items" },
+    { name: "Cardboard Divider Boxes", image: cardboardDividerBoxes, description: "Boxes with custom cardboard dividers to organize and protect delicate multiple product kits safely" },
+    { name: "Cardboard Jewelry Boxes", image: cardboardJewelryBoxes, description: "Elegant jewelry cardboard boxes featuring soft inserts and premium branding for luxury accessories" },
+    { name: "Cardboard Box With Handle", image: cardboardBoxWithHandle, description: "Convenient handled cardboard boxes designed for easy transport and attractive retail gift display" },
+    { name: "Ammo Cardboard Boxes", image: ammoCardboardBoxes, description: "Secure ammunition packaging engineered for heavy-duty protection and organized storage requirements" },
+    { name: "Cardboard Inserts", image: cardboardInserts, description: "Custom cardboard insert solutions designed to hold products securely and prevent movement in transit" },
+    { name: "Paperboard Boxes", image: paperboardBoxes, description: "Versatile paperboard packaging offering lightweight durability and exceptional surface for branding" },
+    { name: "Cardboard Shoe Boxes", image: cardboardShoeBoxes, description: "Durable shoe cardboard boxes with reinforced corners and elegant designs for footwear retail brands" },
+    { name: "Cardboard Box With Inserts", image: cardboardBoxWithInserts, description: "Boxes with protective custom inserts tailored to fit your specific product dimensions perfectly" },
+    { name: "Cardboard Cigar Boxes", image: cardboardCigarBoxes, description: "Premium cigar cardboard boxes utilizing high-quality board and sophisticated logo printing techniques" },
+    { name: "Cosmetic Cardboard Boxes", image: cosmeticCardboardBoxes, description: "Beauty product cardboard packaging designed with glam finishes to stand out on crowded retail shelves" },
+    { name: "Cardboard Soap Boxes", image: cardboardSoapBoxes, description: "Custom soap cardboard boxes featuring breathable materials and rustic aesthetic for natural brands" },
 ];
 
 const CardboardBoxes = () => {
@@ -131,7 +131,7 @@ const CardboardBoxes = () => {
                         </div>
                     </div>
 
-{/* Related Products Section */}
+                    {/* Related Products Section */}
                     <section className="mt-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
                             Explore Versatile Cardboard Box Solutions
@@ -185,12 +185,12 @@ const CardboardBoxes = () => {
 
                 <h2>The Ultimate Guide to Cardboard Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Cardboard Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -233,8 +233,8 @@ const CardboardBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

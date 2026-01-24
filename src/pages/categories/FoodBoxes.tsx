@@ -29,14 +29,14 @@ import { SEOContent } from "@/components/SEOContent";
 
 
 const relatedProducts = [
-    { name: "Chinese Takeout Boxes", image: chineseTakeout, description: "Classic and durable takeout containers." },
-    { name: "Donut Boxes", image: donutBoxes, description: "Delightful packaging for bakery treats." },
-    { name: "Custom Popcorn Boxes", image: popcornBoxes, description: "Eye-catching boxes for cinema snacks." },
-    { name: "Dietary Supplement Packaging", image: dietarySupplements, description: "Secure packaging for health products." },
-    { name: "Custom Pizza Slice Boxes", image: pizzaSliceBoxes, description: "Convenient single-slice pizza holders." },
-    { name: "Custom Paper Food Bags", image: paperFoodBags, description: "Eco-friendly bags for takeaway food." },
-    { name: "Paper Food Trays", image: paperFoodTrays, description: "Versatile trays for street food and snacks." },
-    { name: "Mini Cereal Boxes", image: miniCerealBoxes, description: "Compact cereal packaging for single servings." },
+    { name: "Chinese Takeout Boxes", image: chineseTakeout, description: "Classic and durable takeout containers with leak-resistant construction and convenient wire handles" },
+    { name: "Donut Boxes", image: donutBoxes, description: "Delightful packaging for bakery treats featuring grease-resistant materials and attractive window displays" },
+    { name: "Custom Popcorn Boxes", image: popcornBoxes, description: "Eye-catching boxes for cinema snacks with vibrant graphics and easy-grip design for entertainment venues" },
+    { name: "Dietary Supplement Packaging", image: dietarySupplements, description: "Secure packaging for health products with FDA-compliant labeling and tamper-evident safety features" },
+    { name: "Custom Pizza Slice Boxes", image: pizzaSliceBoxes, description: "Convenient single-slice pizza holders with ventilation holes and grease-proof coating for freshness" },
+    { name: "Custom Paper Food Bags", image: paperFoodBags, description: "Eco-friendly bags for takeaway food featuring sustainable materials and comfortable carrying handles" },
+    { name: "Paper Food Trays", image: paperFoodTrays, description: "Versatile trays for street food and snacks with sturdy construction and food-safe coating materials" },
+    { name: "Mini Cereal Boxes", image: miniCerealBoxes, description: "Compact cereal packaging for single servings with colorful designs and easy-open pour spouts" },
 ];
 
 const productOptions = [
@@ -113,7 +113,7 @@ const FoodBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -164,12 +164,12 @@ const FoodBoxes = () => {
 
                 <h2>The Ultimate Guide to Food Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Food Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -212,8 +212,8 @@ const FoodBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

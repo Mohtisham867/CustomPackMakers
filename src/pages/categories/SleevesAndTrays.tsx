@@ -38,25 +38,25 @@ import customConeSleeveImg from "@/assets/sleeves-and-trays/custom-cone-sleeve.j
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Roll End Tray", image: rollEndTrayImg, description: "Self-locking tray box for retail and food.", isPlaceholder: false },
-    { name: "Custom Bowl Sleeves", image: customBowlSleevesImg, description: "Branded sleeves for takeout bowls and containers.", isPlaceholder: false },
-    { name: "Custom Drawer Paper Boxes", image: customDrawerPaperBoxesImg, description: "Premium sliding drawer boxes for gifts.", isPlaceholder: false },
-    { name: "Paper Food Trays", image: paperFoodTraysImg, description: "Disposable trays for street food and events.", isPlaceholder: false },
-    { name: "Hot Dog Sleeves", image: hotDogSleevesImg, description: "Convenient paper sleeves for hot dogs and sausages.", isPlaceholder: false },
-    { name: "Cup Sleeves", image: cupSleevesImg, description: "Protective sleeves for hot beverage cups.", isPlaceholder: false },
-    { name: "Coffee Sleeves", image: coffeeSleevesImg, description: "Insulating sleeves for coffee cups with custom print.", isPlaceholder: false },
-    { name: "Packaging Sleeves", image: packagingSleevesImg, description: "Versatile paper sleeves to brand any box or item.", isPlaceholder: false },
-    { name: "Soap Sleeves", image: soapSleevesImg, description: "Minimalist packaging band for soap bars.", isPlaceholder: false },
-    { name: "Gift Card Sleeves", image: giftCardSleevesImg, description: "Small sleeves designed to hold gift cards elegantly.", isPlaceholder: false },
-    { name: "Packaging Inserts", image: packagingInsertsImg, description: "Custom inserts to secure products within a box.", isPlaceholder: false },
-    { name: "Foam Inserts", image: foamInsertsImg, description: "Protective foam cutouts for delicate items.", isPlaceholder: false },
-    { name: "Slide Boxes", image: slideBoxesImg, description: "Two-piece boxes with a sliding tray mechanism.", isPlaceholder: false },
-    { name: "Sleeve Boxes", image: sleeveBoxesImg, description: "Tray and sleeve combination for a premium unboxing.", isPlaceholder: false },
-    { name: "Custom Shrink Sleeves", image: customShrinkSleevesImg, description: "Full-body labels that shrink to fit container contours.", isPlaceholder: false },
-    { name: "Soap Packaging Sleeves", image: soapPackagingSleevesImg, description: "Branded wraps for handmade soaps.", isPlaceholder: false },
-    { name: "Tray Boxes", image: trayBoxesImg, description: "Open top boxes perfect for product display.", isPlaceholder: false },
-    { name: "Kraft Sleeve Boxes", image: kraftSleeveBoxesImg, description: "Eco-friendly kraft slide boxes for a natural look.", isPlaceholder: false },
-    { name: "Custom Cone Sleeve", image: customConeSleeveImg, description: "Printed paper sleeves for ice cream cones.", isPlaceholder: false },
+    { name: "Roll End Tray", image: rollEndTrayImg, description: "Self-locking tray box for retail and food featuring reinforced corners and easy-stacking structural design", isPlaceholder: false },
+    { name: "Custom Bowl Sleeves", image: customBowlSleevesImg, description: "Branded sleeves for takeout bowls and containers designed for heat insulation and high-impact food branding", isPlaceholder: false },
+    { name: "Custom Drawer Paper Boxes", image: customDrawerPaperBoxesImg, description: "Premium sliding drawer boxes for luxury gifts featuring smooth-glide action and elegant ribbon pull tabs", isPlaceholder: false },
+    { name: "Paper Food Trays", image: paperFoodTraysImg, description: "Disposable trays for street food and events designed with moisture-resistant coatings and easy-carry edges", isPlaceholder: false },
+    { name: "Hot Dog Sleeves", image: hotDogSleevesImg, description: "Convenient paper sleeves for hot dogs and sausages featuring grease-proof linings and vibrant food graphics", isPlaceholder: false },
+    { name: "Cup Sleeves", image: cupSleevesImg, description: "Protective sleeves for hot beverage cups designed with insulating corrugated texture and custom brand marks", isPlaceholder: false },
+    { name: "Coffee Sleeves", image: coffeeSleevesImg, description: "Insulating sleeves for coffee cups with custom print featuring recycled materials and superior heat protection", isPlaceholder: false },
+    { name: "Packaging Sleeves", image: packagingSleevesImg, description: "Versatile paper sleeves to brand any box or item featuring cost-effective customization and premium finishes", isPlaceholder: false },
+    { name: "Soap Sleeves", image: soapSleevesImg, description: "Minimalist packaging band for soap bars featuring elegant textures and organic-style branding for retail", isPlaceholder: false },
+    { name: "Gift Card Sleeves", image: giftCardSleevesImg, description: "Small sleeves designed to hold gift cards elegantly featuring precise die-cuts and luxury paper finishes", isPlaceholder: false },
+    { name: "Packaging Inserts", image: packagingInsertsImg, description: "Custom inserts to secure products within a box featuring custom-fitted shapes and protective cushioning", isPlaceholder: false },
+    { name: "Foam Inserts", image: foamInsertsImg, description: "Protective foam cutouts for delicate items featuring precision laser-cutting for a perfect snug fit", isPlaceholder: false },
+    { name: "Slide Boxes", image: slideBoxesImg, description: "Two-piece boxes with a sliding tray mechanism designed for a premium unboxing experience and high security", isPlaceholder: false },
+    { name: "Sleeve Boxes", image: sleeveBoxesImg, description: "Tray and sleeve combination for a premium unboxing featuring sleek slide-out action and durable construction", isPlaceholder: false },
+    { name: "Custom Shrink Sleeves", image: customShrinkSleevesImg, description: "Full-body labels that shrink to fit container contours featuring 360-degree graphics and tamper evidence", isPlaceholder: false },
+    { name: "Soap Packaging Sleeves", image: soapPackagingSleevesImg, description: "Branded wraps for handmade soaps featuring moisture-proof coatings and vibrant full-color custom designs", isPlaceholder: false },
+    { name: "Tray Boxes", image: trayBoxesImg, description: "Open top boxes perfect for product display featuring sturdy sidewalls and high-impact interior printing", isPlaceholder: false },
+    { name: "Kraft Sleeve Boxes", image: kraftSleeveBoxesImg, description: "Eco-friendly kraft slide boxes for a natural look featuring biodegradable material and minimalist branding", isPlaceholder: false },
+    { name: "Custom Cone Sleeve", image: customConeSleeveImg, description: "Printed paper sleeves for ice cream cones featuring food-safe materials and colorful child-friendly designs", isPlaceholder: false },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -122,7 +122,7 @@ const SleevesAndTrays = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -178,14 +178,14 @@ const SleevesAndTrays = () => {
 
                 <h2>The Ultimate Guide to Sleeves And Trays</h2>
                 <p>
-                    Elevate your brand presence with our premium <strong>Sleeves And Trays</strong>. 
-                    Designed to meet the highest standards of quality and aesthetics, our solutions provide the perfect blend of functionality and style. 
+                    Elevate your brand presence with our premium <strong>Sleeves And Trays</strong>.
+                    Designed to meet the highest standards of quality and aesthetics, our solutions provide the perfect blend of functionality and style.
                     Whether for retail, shipping, or promotional use, we deliver products that effectively communicate your brand's value to your customers.
                 </p>
 
                 <h3>Premium Material Quality</h3>
                 <p>
-                    We believe that quality starts with the right materials. Our Sleeves And Trays are manufactured using top-tier stocks selected for their durability and finish. 
+                    We believe that quality starts with the right materials. Our Sleeves And Trays are manufactured using top-tier stocks selected for their durability and finish.
                     Rigorous quality control ensures consistent performance, whether you need weather resistance, structural strength, or a refined surface for printing.
                 </p>
                 <ul>
@@ -207,7 +207,7 @@ const SleevesAndTrays = () => {
 
                 <h3>Why Partner With Us?</h3>
                 <p>
-                    We are dedicated to your success. From design consultation to final delivery, our team supports you every step of the way. 
+                    We are dedicated to your success. From design consultation to final delivery, our team supports you every step of the way.
                     Enjoy competitive wholesale pricing, reliable turnaround times, and a commitment to quality that helps your business grow.
                 </p>
             </SEOContent>

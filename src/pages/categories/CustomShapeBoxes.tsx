@@ -46,18 +46,18 @@ const squareBox = squareBoxesImg;
 const cubeBox = cubeBoxesImg;
 
 const relatedProducts = [
-    { name: "Custom Handle Boxes", image: customHandle, description: "Boxes with integrated handles for convenient carrying." },
-    { name: "Custom Pie Boxes", image: customPie, description: "Sturdy triangular or square packaging for pies and pastries." },
-    { name: "Bracelet Square Boxes", image: braceletSquare, description: "Elegant square boxes perfectly sized for jewelry." },
-    { name: "Custom Die-Cut Boxes", image: customDieCut, description: "Precision-cut shapes tailored to your specific product." },
-    { name: "Square Soap Boxes", image: squareSoap, description: "Classic square packaging for artisanal soaps." },
-    { name: "Custom Pyramid Boxes", image: customPyramid, description: "Unique pyramid shape for distinctive gift packaging." },
-    { name: "Hexagon Boxes", image: hexagonBox, description: "Six-sided boxes providing a modern, geometric look." },
-    { name: "Rectangular Boxes", image: rectangularBox, description: "Versatile rectangular shape for widely varied products." },
-    { name: "Triangle Box", image: triangleBox, description: "Eye-catching triangular packaging for novelty items." },
-    { name: "Octagon Box", image: octagonBox, description: "Eight-sided boxes for a premium, multi-faceted presentation." },
-    { name: "Square Boxes", image: squareBox, description: "Standard square boxes adaptable to any branding." },
-    { name: "Cube Boxes", image: cubeBox, description: "Perfectly symmetrical cubes for compact products." },
+    { name: "Custom Handle Boxes", image: customHandle, description: "Boxes with integrated handles for convenient carrying and high-impact retail branding visibility" },
+    { name: "Custom Pie Boxes", image: customPie, description: "Sturdy triangular or square packaging for pies and pastries featuring grease-resistant coatings" },
+    { name: "Bracelet Square Boxes", image: braceletSquare, description: "Elegant square boxes perfectly sized for jewelry featuring soft inserts and premium logo stamping" },
+    { name: "Custom Die-Cut Boxes", image: customDieCut, description: "Precision-cut shapes tailored to your specific product for a memorable and unique brand identity" },
+    { name: "Square Soap Boxes", image: squareSoap, description: "Classic square packaging for artisanal soaps featuring breathable materials and rustic brand appeal" },
+    { name: "Custom Pyramid Boxes", image: customPyramid, description: "Unique pyramid shape for distinctive gift packaging designed to fascinate and delight your customers" },
+    { name: "Hexagon Boxes", image: hexagonBox, description: "Six-sided boxes providing a modern, geometric look and superior structural strength for retail items" },
+    { name: "Rectangular Boxes", image: rectangularBox, description: "Versatile rectangular shape for widely varied products featuring customizable sizes and high-end print" },
+    { name: "Triangle Box", image: triangleBox, description: "Eye-catching triangular packaging for novelty items and gifts designed for maximum counter display impact" },
+    { name: "Octagon Box", image: octagonBox, description: "Eight-sided boxes for a premium, multi-faceted presentation and enhanced structural item protection" },
+    { name: "Square Boxes", image: squareBox, description: "Standard square boxes adaptable to any branding featuring durable construction and professional finishes" },
+    { name: "Cube Boxes", image: cubeBox, description: "Perfectly symmetrical cubes for compact products designed for creative retail branding and safe shipping" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -123,7 +123,7 @@ const CustomShapeBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -179,12 +179,12 @@ const CustomShapeBoxes = () => {
 
                 <h2>The Ultimate Guide to Custom Shape Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Custom Shape Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -227,8 +227,8 @@ const CustomShapeBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

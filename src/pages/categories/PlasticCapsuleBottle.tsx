@@ -41,21 +41,21 @@ import heroImage from "@/assets/primary-packaging/plastic-capsule-bottle-hero.pn
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Glass Serum Bottle", image: glassSerumBottle, link: "/primary-packaging/glass-serum-bottle", description: "Premium glass serum bottles for high-end skincare products." },
-    { name: "Plastic Cleanser Tube", image: plasticCleanserTube, link: "/primary-packaging/plastic-cleanser-tube", description: "Durable plastic cleanser tubes for skincare applications." },
-    { name: "Plastic Mist Bottle", image: plasticMistBottle, link: "/primary-packaging/plastic-mist-bottle", description: "Versatile plastic mist bottles for sprays and toners." },
-    { name: "Glass Roll on Bottle", image: glassRollOnBottle, link: "/primary-packaging/glass-roll-on-bottle", description: "Convenient glass roll-on bottles for essential oils." },
-    { name: "Plastic Shampoo Bottle", image: plasticShampooBottle, link: "/primary-packaging/plastic-shampoo-bottle", description: "Durable plastic shampoo bottles for hair care products." },
-    { name: "Paper Tubes", image: paperTubes, link: "/primary-packaging/paper-tubes", description: "Eco-friendly paper tubes for sustainable packaging solutions." },
-    { name: "Glass Candle Jars", image: glassCandleJars, link: "/primary-packaging/glass-candle-jars", description: "Sturdy and aesthetic glass jars for premium candles." },
-    { name: "Glass Perfume Bottle", image: glassPerfumeBottle, link: "/primary-packaging/glass-perfume-bottle", description: "Elegant glass perfume bottles for fragrances." },
-    { name: "Plastic Capsule Bottle", image: plasticCapsuleBottle, link: "/primary-packaging/plastic-capsule-bottle", description: "Secure plastic capsule bottles for supplements." },
-    { name: "Moisturizer Jar", image: moisturizerJar, link: "/primary-packaging/moisturizer-jar", description: "Stylish moisturizer jars for creams and lotions." },
-    { name: "Plastic Lotion Bottle", image: plasticLotionBottle, link: "/primary-packaging/plastic-lotion-bottle", description: "Functional plastic lotion bottles with pump options." },
-    { name: "Glass Cream Jars", image: glassCreamJars, link: "/primary-packaging/glass-cream-jars", description: "High-quality glass cream jars for cosmetic treatments." },
-    { name: "Custom Pre Roll Tubes", image: customPreRollTubes, link: "/primary-packaging/custom-pre-roll-tubes", description: "Customizable pre-roll tubes for branding and protection." },
-    { name: "Dropper Bottles", image: dropperBottles, link: "/primary-packaging/dropper-bottles", description: "Precise dropper bottles for oils and liquid medications." },
-    { name: "Jars with Pump", image: jarsWithPump, link: "/primary-packaging/jars-with-pump", description: "Practical jars with pump dispensers for ease of use." },
+    { name: "Glass Serum Bottle", image: glassSerumBottle, link: "/primary-packaging/glass-serum-bottle", description: "Premium glass serum bottles for high-end skincare products featuring precise dispensing and luxury feel" },
+    { name: "Plastic Cleanser Tube", image: plasticCleanserTube, link: "/primary-packaging/plastic-cleanser-tube", description: "Durable plastic cleanser tubes for skincare applications designed for easy use and reliable containment" },
+    { name: "Plastic Mist Bottle", image: plasticMistBottle, link: "/primary-packaging/plastic-mist-bottle", description: "Versatile plastic mist bottles for sprays and toners featuring fine-mist sprayers for even application" },
+    { name: "Glass Roll on Bottle", image: glassRollOnBottle, link: "/primary-packaging/glass-roll-on-bottle", description: "Convenient glass roll-on bottles for essential oils featuring smooth ball applicators and secure caps" },
+    { name: "Plastic Shampoo Bottle", image: plasticShampooBottle, link: "/primary-packaging/plastic-shampoo-bottle", description: "Durable plastic shampoo bottles for hair care products featuring customizable colors and closure options" },
+    { name: "Paper Tubes", image: paperTubes, link: "/primary-packaging/paper-tubes", description: "Eco-friendly paper tubes for sustainable packaging solutions featuring organic aesthetics and durability" },
+    { name: "Glass Candle Jars", image: glassCandleJars, link: "/primary-packaging/glass-candle-jars", description: "Sturdy and aesthetic glass jars for premium candles designed to withstand high-heat and enhance branding" },
+    { name: "Glass Perfume Bottle", image: glassPerfumeBottle, link: "/primary-packaging/glass-perfume-bottle", description: "Elegant glass perfume bottles for fragrances featuring luxury sprayers and highly clear glass finish" },
+    { name: "Plastic Capsule Bottle", image: plasticCapsuleBottle, link: "/primary-packaging/plastic-capsule-bottle", description: "Secure plastic capsule bottles for supplements featuring child-resistant caps and pharmaceutical grade material" },
+    { name: "Moisturizer Jar", image: moisturizerJar, link: "/primary-packaging/moisturizer-jar", description: "Stylish moisturizer jars for creams and lotions featuring thick-walled design and premium cosmetic appearance" },
+    { name: "Plastic Lotion Bottle", image: plasticLotionBottle, link: "/primary-packaging/plastic-lotion-bottle", description: "Functional plastic lotion bottles with pump options designed for controlled dispensing and brand impact" },
+    { name: "Glass Cream Jars", image: glassCreamJars, link: "/primary-packaging/glass-cream-jars", description: "High-quality glass cream jars for cosmetic treatments offering superior protection and luxury presentation" },
+    { name: "Custom Pre Roll Tubes", image: customPreRollTubes, link: "/primary-packaging/custom-pre-roll-tubes", description: "Customizable pre-roll tubes for branding and protection featuring child-resistant seals and opaque colors" },
+    { name: "Dropper Bottles", image: dropperBottles, link: "/primary-packaging/dropper-bottles", description: "Precise dropper bottles for oils and liquid medications featuring calibrated pipettes and secure caps" },
+    { name: "Jars with Pump", image: jarsWithPump, link: "/primary-packaging/jars-with-pump", description: "Practical jars with pump dispensers for ease of use designed for airless protection of skin care products" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -131,7 +131,7 @@ const PlasticCapsuleBottle = () => {
                 </div>
             </section>
 
-<section className="py-16 bg-accent/20">
+            <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12 text-center">
                         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -206,14 +206,14 @@ const PlasticCapsuleBottle = () => {
 
                 <h2>The Ultimate Guide to Plastic Capsule Bottle</h2>
                 <p>
-                    Elevate your brand presence with our premium <strong>Plastic Capsule Bottle</strong>. 
-                    Designed to meet the highest standards of quality and aesthetics, our solutions provide the perfect blend of functionality and style. 
+                    Elevate your brand presence with our premium <strong>Plastic Capsule Bottle</strong>.
+                    Designed to meet the highest standards of quality and aesthetics, our solutions provide the perfect blend of functionality and style.
                     Whether for retail, shipping, or promotional use, we deliver products that effectively communicate your brand's value to your customers.
                 </p>
 
                 <h3>Premium Material Quality</h3>
                 <p>
-                    We believe that quality starts with the right materials. Our Plastic Capsule Bottle are manufactured using top-tier stocks selected for their durability and finish. 
+                    We believe that quality starts with the right materials. Our Plastic Capsule Bottle are manufactured using top-tier stocks selected for their durability and finish.
                     Rigorous quality control ensures consistent performance, whether you need weather resistance, structural strength, or a refined surface for printing.
                 </p>
                 <ul>
@@ -235,7 +235,7 @@ const PlasticCapsuleBottle = () => {
 
                 <h3>Why Partner With Us?</h3>
                 <p>
-                    We are dedicated to your success. From design consultation to final delivery, our team supports you every step of the way. 
+                    We are dedicated to your success. From design consultation to final delivery, our team supports you every step of the way.
                     Enjoy competitive wholesale pricing, reliable turnaround times, and a commitment to quality that helps your business grow.
                 </p>
             </SEOContent>

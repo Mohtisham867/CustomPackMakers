@@ -30,18 +30,18 @@ import juulPackaging from "@/assets/juul-packaging.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom E-Cigarette Boxes", image: customECigaretteBoxes, description: "Premium packaging for e-cigarettes." },
-    { name: "Custom Vape Cartridge Boxes", image: customVapeCartridgeBoxes, description: "Secure boxes for vape cartridges." },
-    { name: "Vape Pen Boxes", image: vapePenBoxes, description: "Stylish packaging for vape pens." },
-    { name: "Cannabis Vape Packaging", image: cannabisVapePackaging, description: "Compliant cannabis vape solutions." },
-    { name: "1ml Vape Cartridge Boxes", image: oneMlVapeCartridgeBoxes, description: "Precision packaging for 1ml cartridges." },
-    { name: "Vape Display Boxes", image: vapeDisplayBoxes, description: "Eye-catching retail display packaging." },
-    { name: "Disposable Vape Boxes", image: disposableVapeBoxes, description: "Convenient disposable vape packaging." },
-    { name: "Empty Vape Cartridge Boxes", image: emptyVapeCartridgeBoxes, description: "Protective boxes for empty cartridges." },
-    { name: "Dank Vape Packaging", image: dankVapePackaging, description: "Custom branded vape packaging." },
-    { name: "CBD Vape Boxes", image: cbdVapeBoxes, description: "Specialized CBD vape product packaging." },
-    { name: "Vape Juice Boxes", image: vapeJuiceBoxes, description: "Secure packaging for vape liquids." },
-    { name: "Juul Packaging", image: juulPackaging, description: "Compatible Juul device packaging." },
+    { name: "Custom E-Cigarette Boxes", image: customECigaretteBoxes, description: "Premium packaging for e-cigarettes featuring secure device fitment and luxury high-gloss print finishes" },
+    { name: "Custom Vape Cartridge Boxes", image: customVapeCartridgeBoxes, description: "Secure boxes for vape cartridges featuring child-resistant locks and precision-cut protective inserts" },
+    { name: "Vape Pen Boxes", image: vapePenBoxes, description: "Stylish packaging for vape pens featuring sleek elongated design and elegant soft-touch matte finishes" },
+    { name: "Cannabis Vape Packaging", image: cannabisVapePackaging, description: "Compliant cannabis vape solutions featuring mandatory legal icons and high-impact retail branding" },
+    { name: "1ml Vape Cartridge Boxes", image: oneMlVapeCartridgeBoxes, description: "Precision packaging for 1ml cartridges featuring compact design and durable high-quality cardstock" },
+    { name: "Vape Display Boxes", image: vapeDisplayBoxes, description: "Eye-catching retail display packaging featuring tiered shelves and high-visibility marketing headers" },
+    { name: "Disposable Vape Boxes", image: disposableVapeBoxes, description: "Convenient disposable vape packaging featuring easy-open tabs and vibrant product-specific graphics" },
+    { name: "Empty Vape Cartridge Boxes", image: emptyVapeCartridgeBoxes, description: "Protective boxes for empty cartridges featuring clear viewing windows and sturdy outer cardboard walls" },
+    { name: "Dank Vape Packaging", image: dankVapePackaging, description: "Custom branded vape packaging featuring edgy graphics and premium metallic foil stamping effects" },
+    { name: "CBD Vape Boxes", image: cbdVapeBoxes, description: "Specialized CBD vape product packaging featuring calming color palettes and organic-style textures" },
+    { name: "Vape Juice Boxes", image: vapeJuiceBoxes, description: "Secure packaging for vape liquids featuring leak-proof design and vibrant flavor-specific branding" },
+    { name: "Juul Packaging", image: juulPackaging, description: "Compatible Juul device packaging featuring precise internal sizing and professional retail graphics" },
 ];
 
 const productOptions = [
@@ -122,7 +122,7 @@ const VapeBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -180,12 +180,12 @@ const VapeBoxes = () => {
 
                 <h2>The Ultimate Guide to Vape Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Vape Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -228,8 +228,8 @@ const VapeBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

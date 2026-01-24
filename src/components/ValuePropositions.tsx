@@ -3,24 +3,24 @@ import valuePropsImage from "@/assets/value-props-boxes.png";
 export const ValuePropositions = () => {
   const values = [
     {
-      title: "Speed & Convenience",
+      title: "Rapid Prototyping & Delivery",
       description:
-        "Custom Designs Boxes prioritizes speed with a faster turnaround and shipping, and convenience with safe delivery across the USA with NO charges.",
+        "Bring your brand to life with industry-leading turnaround times. From 3D mockups to door-step delivery across the USA, we move as fast as your business.",
     },
     {
-      title: "24/7 Expert Support",
+      title: "Dedicated Design Assistance",
       description:
-        "Unlimited & free custom packaging design support to deliver the ideal custom box design tailored to your specific product and brand vision.",
+        "Our structural engineers and creative designers work with you 24/7 to ensure your packaging isn't just a box, but a premium brand experience.",
     },
     {
-      title: "Low Minimums",
+      title: "Business-Friendly MOQs",
       description:
-        "With our low MOQs for custom designed boxes, we promise to meet our customers' needs for small quantities as well as bulk orders.",
+        "Scale at your own pace. We offer flexible low minimum order quantities, making premium custom packaging accessible for startups and enterprises alike.",
     },
     {
-      title: "Customizability With Affordability",
+      title: "Elite Quality, Fair Pricing",
       description:
-        "Customize your box to your content—whether you need a simple logo or complex designs inside and out—without sacrificing quality.",
+        "Get the best of both worlds: high-end material durability and luxury finishes without the premium price tag. Quality is our promise, affordability is our edge.",
     },
   ];
 
@@ -31,8 +31,7 @@ export const ValuePropositions = () => {
           {/* Left Content Area */}
           <div className="space-y-8">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground leading-tight">
-              Swift Solutions & Personalized Services | 360° Approach For Custom
-              Packaging
+              Your Vision, Our Craft | 360° Custom Packaging Solutions
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -24,11 +24,11 @@ import weedPoundBags from "@/assets/weed-bags/weed-pound-bags.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Exotic Weed Bag", image: exoticWeedBag, description: "Vibrant designs for your premium exotic strains." },
-    { name: "Smell Proof Weed Bags", image: smellProofWeedBags, description: "Advanced odor-barrier material for discretion." },
-    { name: "Weed Bags 3.5", image: weedBags35, description: "Perfectly sized 3.5g pouches for retail flower." },
-    { name: "Zip Weed Bags", image: zipWeedBags, description: "Reliable resealable zipper for freshness and safety." },
-    { name: "Weed Pound Bags", image: weedPoundBags, description: "Heavy-duty bulk storage bags for larger quantities." },
+    { name: "Exotic Weed Bag", image: exoticWeedBag, description: "Vibrant designs for your premium exotic strains featuring holographic effects and high-barrier protection" },
+    { name: "Smell Proof Weed Bags", image: smellProofWeedBags, description: "Advanced odor-barrier material for discretion featuring multi-layer films and secure airtight zippers" },
+    { name: "Weed Bags 3.5", image: weedBags35, description: "Perfectly sized 3.5g pouches for retail flower featuring child-resistant seals and vibrant custom prints" },
+    { name: "Zip Weed Bags", image: zipWeedBags, description: "Reliable resealable zipper for freshness and safety featuring durable materials and high-impact branding" },
+    { name: "Weed Pound Bags", image: weedPoundBags, description: "Heavy-duty bulk storage bags for larger quantities featuring reinforced seams and superior odor control" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -94,7 +94,7 @@ const WeedBags = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -145,7 +145,7 @@ const WeedBags = () => {
 
                 <h2>The Ultimate Guide to Custom Weed Bags</h2>
                 <p>
-                    Preserve freshness, ensure safety, and captivate your audience with our industry-leading <strong>Weed Bags</strong>. 
+                    Preserve freshness, ensure safety, and captivate your audience with our industry-leading <strong>Weed Bags</strong>.
                     In markets like food, supplements, and cannabis, the barrier integrity of your packaging is non-negotiable. Our bags are engineered to provide the ultimate shield against environmental factors while serving as a vibrant canvas for your brand's messaging.
                     Combining high-barrier technology with stunning print quality, our pouches offer the perfect versatility for retail displays and safe storage.
                 </p>
@@ -192,8 +192,8 @@ const WeedBags = () => {
 
                 <h3>Wholesale & Compliance</h3>
                 <p>
-                    We cover all bases—from regulatory compliance (Child-Resistant certification, FDA food grade) to supply chain efficiency. 
-                    Our volume pricing structures ensure that you get the best margin possible as you scale. 
+                    We cover all bases—from regulatory compliance (Child-Resistant certification, FDA food grade) to supply chain efficiency.
+                    Our volume pricing structures ensure that you get the best margin possible as you scale.
                     Fast turnaround times and low MOQs make us the ideal partner for dynamic brands that need to move fast.
                 </p>
             </SEOContent>

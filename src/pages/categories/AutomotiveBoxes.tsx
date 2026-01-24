@@ -29,16 +29,16 @@ import carCleaningKitsBoxes from "@/assets/automotive-products/car-cleaning-kits
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-  { name: "Car Accessories Boxes", image: carAccessoriesBoxes, description: "Premium automotive accessory packaging" },
-  { name: "Spare Parts Boxes", image: sparePartsBoxes, description: "Durable spare parts protection" },
-  { name: "Lubricant Packaging Boxes", image: lubricantPackaging, description: "Professional oil and lubricant boxes" },
-  { name: "Electronic Component Boxes", image: electronicComponentBoxes, description: "Protective electronic parts packaging" },
-  { name: "Brake Pads Packaging", image: brakePadsPackaging, description: "Heavy-duty brake component boxes" },
-  { name: "Air Filter Boxes", image: airFilterBoxes, description: "Clean air filter storage solutions" },
-  { name: "Tool Kit Boxes", image: toolKitBoxes, description: "Robust automotive tool packaging" },
-  { name: "Tire Accessories Packaging", image: tireAccessoriesPackaging, description: "Secure tire accessory boxes" },
-  { name: "Headlight Boxes", image: headlightBoxes, description: "Protective lighting component packaging" },
-  { name: "Car Cleaning Kits Boxes", image: carCleaningKitsBoxes, description: "Premium detailing kit boxes" },
+  { name: "Car Accessories Boxes", image: carAccessoriesBoxes, description: "Premium packaging for automotive accessories ensuring protection and professional retail presentation" },
+  { name: "Spare Parts Boxes", image: sparePartsBoxes, description: "Durable boxes designed to protect spare parts during storage and shipping with reinforced construction" },
+  { name: "Lubricant Packaging Boxes", image: lubricantPackaging, description: "Professional packaging for oil and lubricant products with leak-resistant design and clear branding" },
+  { name: "Electronic Component Boxes", image: electronicComponentBoxes, description: "Protective packaging for sensitive electronic parts featuring anti-static materials and secure closures" },
+  { name: "Brake Pads Packaging", image: brakePadsPackaging, description: "Heavy-duty boxes engineered for brake components offering maximum protection and easy identification" },
+  { name: "Air Filter Boxes", image: airFilterBoxes, description: "Clean storage solutions for air filters with dust-proof design and convenient stacking capabilities" },
+  { name: "Tool Kit Boxes", image: toolKitBoxes, description: "Robust packaging for automotive tools featuring sturdy construction and organized compartment layouts" },
+  { name: "Tire Accessories Packaging", image: tireAccessoriesPackaging, description: "Secure boxes for tire accessories designed to withstand heavy loads and protect contents during transit" },
+  { name: "Headlight Boxes", image: headlightBoxes, description: "Protective packaging for lighting components with cushioned interiors preventing damage and scratches" },
+  { name: "Car Cleaning Kits Boxes", image: carCleaningKitsBoxes, description: "Premium boxes for detailing kits offering organized storage and attractive retail shelf presentation" },
 ];
 
 const AutomotiveBoxes = () => {
@@ -102,7 +102,7 @@ const AutomotiveBoxes = () => {
             </div>
           </div>
 
-{/* Related Products Section */}
+          {/* Related Products Section */}
           <section className="mt-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Prove The Quality Experience Of Automotive Products
@@ -130,7 +130,7 @@ const AutomotiveBoxes = () => {
                       <h3 className="font-semibold text-foreground text-sm mb-2">
                         {product.name}
                       </h3>
-                      <p className="text-xs text-muted-foreground">
+                      <p className="text-xs text-muted-foreground line-clamp-2">
                         {product.description}
                       </p>
                     </div>
@@ -148,61 +148,61 @@ const AutomotiveBoxes = () => {
       <QuoteForm />
       <SEOContent>
 
-                <h2>The Ultimate Guide to Automotive Boxes</h2>
-                <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
-                    Our <strong>Automotive Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
-                    Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
-                </p>
-                <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
-                    From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
-                </p>
+        <h2>The Ultimate Guide to Automotive Boxes</h2>
+        <p>
+          In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
+          Our <strong>Automotive Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
+          Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
+        </p>
+        <p>
+          We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
+          From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
+        </p>
 
-                <h3>Unmatched Material Quality & Durability</h3>
-                <p>
-                    The foundation of exceptional packaging lies in the materials used. We offer a diverse spectrum of stocks to suit different weight requirements and aesthetic preferences:
-                </p>
-                <ul>
-                    <li><strong>Corrugated Cardboard:</strong> Ideal for shipping and heavy-duty protection. Available in various flute sizes (E-flute, B-flute) to balance strength and printability.</li>
-                    <li><strong>Rigid Board:</strong> The epitome of luxury. This thick, unbending material is perfect for high-end gift sets, electronics, and premium cosmetics, often paired with magnetic closures.</li>
-                    <li><strong>Kraft Stock:</strong> An eco-friendly favorite. Biodegradable and recyclable, it offers a natural, rustic look that appeals to environmentally conscious consumers.</li>
-                    <li><strong>Cardstock (SBS/C1S):</strong> Lightweight and highly printable, making it perfect for retail shelves, cosmetics, and food packaging where graphical fidelity is paramount.</li>
-                </ul>
-                <p>
-                    Each material is tested for compression strength and edge crush resistance, ensuring your products arrive at their destination in pristine condition, regardless of the shipping rigors.
-                </p>
+        <h3>Unmatched Material Quality & Durability</h3>
+        <p>
+          The foundation of exceptional packaging lies in the materials used. We offer a diverse spectrum of stocks to suit different weight requirements and aesthetic preferences:
+        </p>
+        <ul>
+          <li><strong>Corrugated Cardboard:</strong> Ideal for shipping and heavy-duty protection. Available in various flute sizes (E-flute, B-flute) to balance strength and printability.</li>
+          <li><strong>Rigid Board:</strong> The epitome of luxury. This thick, unbending material is perfect for high-end gift sets, electronics, and premium cosmetics, often paired with magnetic closures.</li>
+          <li><strong>Kraft Stock:</strong> An eco-friendly favorite. Biodegradable and recyclable, it offers a natural, rustic look that appeals to environmentally conscious consumers.</li>
+          <li><strong>Cardstock (SBS/C1S):</strong> Lightweight and highly printable, making it perfect for retail shelves, cosmetics, and food packaging where graphical fidelity is paramount.</li>
+        </ul>
+        <p>
+          Each material is tested for compression strength and edge crush resistance, ensuring your products arrive at their destination in pristine condition, regardless of the shipping rigors.
+        </p>
 
-                <h3>Advanced Printing & Finishing Options</h3>
-                <p>
-                    Transform your packaging into a work of art with our state-of-the-art printing capabilities. We utilize advanced offset and digital printing technologies to achieve vibrant, color-accurate results (CMYK & Pantone) that make your logo and artwork pop.
-                    Beyond standard printing, we offer a suite of premium finishing options to add tactile and visual depth:
-                </p>
-                <ul>
-                    <li><strong>Spot UV:</strong> Create a striking contrast by adding a high-gloss coating to specific areas like logos or patterns against a matte background.</li>
-                    <li><strong>Foil Stamping:</strong> Add a touch of elegance with metallic gold, silver, or holographic foils that catch the light and convey luxury.</li>
-                    <li><strong>Embossing & Debossing:</strong> Add dimension to your packaging with raised (embossed) or recessed (debossed) elements for a premium tactile feel.</li>
-                    <li><strong>Matte & Gloss Lamination:</strong> Choose Soft-Touch Matte for a velvety smooth feel or High-Gloss for a vibrant, shiny finish that protects against scuffs.</li>
-                </ul>
+        <h3>Advanced Printing & Finishing Options</h3>
+        <p>
+          Transform your packaging into a work of art with our state-of-the-art printing capabilities. We utilize advanced offset and digital printing technologies to achieve vibrant, color-accurate results (CMYK & Pantone) that make your logo and artwork pop.
+          Beyond standard printing, we offer a suite of premium finishing options to add tactile and visual depth:
+        </p>
+        <ul>
+          <li><strong>Spot UV:</strong> Create a striking contrast by adding a high-gloss coating to specific areas like logos or patterns against a matte background.</li>
+          <li><strong>Foil Stamping:</strong> Add a touch of elegance with metallic gold, silver, or holographic foils that catch the light and convey luxury.</li>
+          <li><strong>Embossing & Debossing:</strong> Add dimension to your packaging with raised (embossed) or recessed (debossed) elements for a premium tactile feel.</li>
+          <li><strong>Matte & Gloss Lamination:</strong> Choose Soft-Touch Matte for a velvety smooth feel or High-Gloss for a vibrant, shiny finish that protects against scuffs.</li>
+        </ul>
 
-                <h3>Comprehensive Size & Shape Customization</h3>
-                <p>
-                    One size does not fit all. We specialize in fully bespoke structural design. Whether you need a standard tuck-end box, a complex mailer with inserts, or a unique geometric shape to stand out on the shelf, we can engineer it.
-                    Our CAD specialists work with you to create die-lines that fit your product perfectly—minimizing movement and preventing damage.
-                </p>
-                <ul>
-                    <li><strong>Custom Inserts:</strong> Foam, cardboard, or molded pulp inserts custom-shaped to hold your product securely in place.</li>
-                    <li><strong>Window Cutouts:</strong> transparent PET windows to let customers see the product inside, building trust and driving sales.</li>
-                    <li><strong>Unique Closures:</strong> Magnetic catches, ribbon ties, tuck-tops, and auto-lock bottoms for convenience and security.</li>
-                </ul>
+        <h3>Comprehensive Size & Shape Customization</h3>
+        <p>
+          One size does not fit all. We specialize in fully bespoke structural design. Whether you need a standard tuck-end box, a complex mailer with inserts, or a unique geometric shape to stand out on the shelf, we can engineer it.
+          Our CAD specialists work with you to create die-lines that fit your product perfectly—minimizing movement and preventing damage.
+        </p>
+        <ul>
+          <li><strong>Custom Inserts:</strong> Foam, cardboard, or molded pulp inserts custom-shaped to hold your product securely in place.</li>
+          <li><strong>Window Cutouts:</strong> transparent PET windows to let customers see the product inside, building trust and driving sales.</li>
+          <li><strong>Unique Closures:</strong> Magnetic catches, ribbon ties, tuck-tops, and auto-lock bottoms for convenience and security.</li>
+        </ul>
 
-                <h3>Wholesale Benefits & Scalability</h3>
-                <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
-                    Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
-                </p>
-            </SEOContent>
+        <h3>Wholesale Benefits & Scalability</h3>
+        <p>
+          Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+          Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
+          Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
+        </p>
+      </SEOContent>
       <Footer />
     </div>
   );

@@ -26,14 +26,14 @@ import shippingTags from "@/assets/hang-tags/shipping-tags.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Door Hangers", image: customDoorHangers, description: "Professional door hangers for marketing and alerts." },
-    { name: "Christmas Tags", image: christmasTags, description: "Festive tags for holiday gifts and products." },
-    { name: "Gift Tags", image: giftTags, description: "Personalized tags for special occasions." },
-    { name: "Paper Tags", image: paperTags, description: "Versatile paper tags for retail and labeling." },
-    { name: "Clothing Hang Tags", image: clothingHangTags, description: "Brand-enhancing tags for apparel and garments." },
-    { name: "Jewelry Hang Tags", image: jewelryHangTags, description: "Elegant small tags for jewelry items." },
-    { name: "Custom Bookmarks", image: customBookmarks, description: "Durable and creative bookmarks for readers." },
-    { name: "Shipping Tags", image: shippingTags, description: "Robust tags for identifying shipping items." },
+    { name: "Custom Door Hangers", image: customDoorHangers, description: "Professional door hangers for marketing and alerts designed with durable cardstock and custom die-cut holes" },
+    { name: "Christmas Tags", image: christmasTags, description: "Festive tags for holiday gifts and products featuring seasonal graphics and premium twine attachment holes" },
+    { name: "Gift Tags", image: giftTags, description: "Personalized tags for special occasions designed to add a thoughtful touch to any gift or branded package" },
+    { name: "Paper Tags", image: paperTags, description: "Versatile paper tags for retail and labeling featuring high-quality print surfaces and multiple string options" },
+    { name: "Clothing Hang Tags", image: clothingHangTags, description: "Brand-enhancing tags for apparel and garments designed to convey quality and vital brand information at a glance" },
+    { name: "Jewelry Hang Tags", image: jewelryHangTags, description: "Elegant small tags for jewelry items featuring precise die-cutting and smooth surfaces for price or brand marks" },
+    { name: "Custom Bookmarks", image: customBookmarks, description: "Durable and creative bookmarks for readers featuring vibrant double-sided printing and premium protective coatings" },
+    { name: "Shipping Tags", image: shippingTags, description: "Robust tags for identifying shipping items engineered to withstand transit rigors with reinforced attachment points" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -99,7 +99,7 @@ const HangTags = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -157,14 +157,14 @@ const HangTags = () => {
 
                 <h2>The Ultimate Guide to Hang Tags</h2>
                 <p>
-                    Elevate your brand presence with our premium <strong>Hang Tags</strong>. 
-                    Designed to meet the highest standards of quality and aesthetics, our solutions provide the perfect blend of functionality and style. 
+                    Elevate your brand presence with our premium <strong>Hang Tags</strong>.
+                    Designed to meet the highest standards of quality and aesthetics, our solutions provide the perfect blend of functionality and style.
                     Whether for retail, shipping, or promotional use, we deliver products that effectively communicate your brand's value to your customers.
                 </p>
 
                 <h3>Premium Material Quality</h3>
                 <p>
-                    We believe that quality starts with the right materials. Our Hang Tags are manufactured using top-tier stocks selected for their durability and finish. 
+                    We believe that quality starts with the right materials. Our Hang Tags are manufactured using top-tier stocks selected for their durability and finish.
                     Rigorous quality control ensures consistent performance, whether you need weather resistance, structural strength, or a refined surface for printing.
                 </p>
                 <ul>
@@ -186,7 +186,7 @@ const HangTags = () => {
 
                 <h3>Why Partner With Us?</h3>
                 <p>
-                    We are dedicated to your success. From design consultation to final delivery, our team supports you every step of the way. 
+                    We are dedicated to your success. From design consultation to final delivery, our team supports you every step of the way.
                     Enjoy competitive wholesale pricing, reliable turnaround times, and a commitment to quality that helps your business grow.
                 </p>
             </SEOContent>

@@ -74,31 +74,31 @@ const productOptions = [
 ];
 
 const relatedProducts = [
-    { name: "Custom CBD Capsule Boxes", image: cbdCapsuleBoxes, description: "Secure packaging for CBD capsules and supplements." },
-    { name: "Custom CBD Cream Boxes", image: cbdCreamBoxes, description: "Premium boxes for CBD creams and topicals." },
-    { name: "Custom CBD Lotion Boxes", image: cbdLotionBoxes, description: "Elegant packaging for CBD lotions and heavy bottles." },
-    { name: "CBD Oil Boxes", image: cbdOilBoxes, description: "Protective boxes for CBD oil droppers and tinctures." },
-    { name: "Essential Oil Boxes", image: essentialOilBoxes, description: "Custom packaging designed for essential oil bottles." },
-    { name: "Custom CBD Isolate Boxes", image: cbdIsolateBoxes, description: "Specialized packaging for CBD isolate containers." },
-    { name: "Custom CBD Pod Boxes", image: cbdPodBoxes, description: "Sleek boxes for CBD vape pods and cartridges." },
-    { name: "CBD Lollipop Boxes", image: cbdLollipopBoxes, description: "Fun and safe packaging for CBD-infused lollipops." },
-    { name: "CBD Gummies Boxes", image: cbdGummiesBoxes, description: "Attractive packaging for CBD gummies and edibles." },
-    { name: "Delta 8 THC Boxes", image: delta8ThcBoxes, description: "Compliant packaging for Delta 8 THC products." },
-    { name: "CBD Display Boxes", image: cbdDisplayBoxes, description: "Eye-catching display boxes for retail CBD products." },
-    { name: "Tincture Boxes", image: tinctureBoxes, description: "Protective packaging for tincture bottles." },
-    { name: "Blunt Boxes", image: bluntBoxes, description: "Custom boxes for pre-rolled blunts." },
-    { name: "CBD Tincture Boxes", image: cbdTinctureBoxes, description: "Specialized boxes for CBD tincture droppers." },
-    { name: "Dropper Bottle Boxes", image: dropperBottleBoxes, description: "Secure packaging for dropper bottles." },
-    { name: "CBD Chocolate Boxes", image: cbdChocolateBoxes, description: "Premium boxes for CBD-infused chocolates." },
-    { name: "CBD Mailer Boxes", image: cbdMailerBoxes, description: "Durable shipping boxes for CBD products." },
-    { name: "CBD Hemp Oil Boxes", image: cbdHempOilBoxes, description: "Custom packaging for hemp oil products." },
-    { name: "CBD Soap Boxes", image: cbdSoapBoxes, description: "Elegant boxes for CBD-infused soaps." },
-    { name: "Delta 9 Packaging", image: delta9Packaging, description: "Compliant packaging for Delta 9 products." },
-    { name: "CBD Vape Boxes", image: cbdVapeBoxes, description: "Sleek boxes for CBD vape products." },
-    { name: "CBD Pre-Roll Boxes", image: cbdPreRollBoxes, description: "Protective packaging for CBD pre-rolls." },
-    { name: "Concentrate Packaging", image: concentratePackaging, description: "Specialized boxes for CBD concentrates." },
-    { name: "CBD Subscription Boxes", image: cbdSubscriptionBoxes, description: "Custom boxes for CBD subscription services." },
-    { name: "CBD Bath Bomb Boxes", image: cbdBathBombBoxes, description: "Beautiful packaging for CBD bath bombs." },
+    { name: "Custom CBD Capsule Boxes", image: cbdCapsuleBoxes, description: "Secure packaging for CBD capsules and supplements featuring high-quality board and protective finishes" },
+    { name: "Custom CBD Cream Boxes", image: cbdCreamBoxes, description: "Premium boxes for CBD creams and topicals designed for luxury retail display and product protection" },
+    { name: "Custom CBD Lotion Boxes", image: cbdLotionBoxes, description: "Elegant packaging for CBD lotions and heavy bottles utilizing reinforced board for maximum safety" },
+    { name: "CBD Oil Boxes", image: cbdOilBoxes, description: "Protective boxes for CBD oil droppers and tinctures featuring secure inserts and vibrant branding" },
+    { name: "Essential Oil Boxes", image: essentialOilBoxes, description: "Custom packaging designed for essential oil bottles with specialized focus on aroma preservation" },
+    { name: "Custom CBD Isolate Boxes", image: cbdIsolateBoxes, description: "Specialized packaging for CBD isolate containers providing airtight seals and professional aesthetics" },
+    { name: "Custom CBD Pod Boxes", image: cbdPodBoxes, description: "Sleek boxes for CBD vape pods and cartridges featuring child-resistant features and modern designs" },
+    { name: "CBD Lollipop Boxes", image: cbdLollipopBoxes, description: "Fun and safe packaging for CBD-infused lollipops with colorful graphics and secure barrier materials" },
+    { name: "CBD Gummies Boxes", image: cbdGummiesBoxes, description: "Attractive packaging for CBD gummies and edibles designed to maintain freshness and shelf appeal" },
+    { name: "Delta 8 THC Boxes", image: delta8ThcBoxes, description: "Compliant packaging for Delta 8 THC products featuring all required regulatory warnings and logos" },
+    { name: "CBD Display Boxes", image: cbdDisplayBoxes, description: "Eye-catching display boxes for retail CBD products designed to drive impulse sales on shop counters" },
+    { name: "Tincture Boxes", image: tinctureBoxes, description: "Protective packaging for tincture bottles with custom-shaped inserts to prevent breakage in transit" },
+    { name: "Blunt Boxes", image: bluntBoxes, description: "Custom boxes for pre-rolled blunts offering moisture protection and high-end printing options" },
+    { name: "CBD Tincture Boxes", image: cbdTinctureBoxes, description: "Specialized boxes for CBD tincture droppers featuring elegant finishes and informative labeling" },
+    { name: "Dropper Bottle Boxes", image: dropperBottleBoxes, description: "Secure packaging for dropper bottles with reinforced walls for maximum protection of glass items" },
+    { name: "CBD Chocolate Boxes", image: cbdChocolateBoxes, description: "Premium boxes for CBD-infused chocolates with luxury foil stamping and protective interior layers" },
+    { name: "CBD Mailer Boxes", image: cbdMailerBoxes, description: "Durable shipping boxes for CBD products designed for secure delivery and branded unboxing impact" },
+    { name: "CBD Hemp Oil Boxes", image: cbdHempOilBoxes, description: "Custom packaging for hemp oil products featuring eco-friendly materials and professional designs" },
+    { name: "CBD Soap Boxes", image: cbdSoapBoxes, description: "Elegant boxes for CBD-infused soaps featuring artistic designs and moisture-resistant paperboard" },
+    { name: "Delta 9 Packaging", image: delta9Packaging, description: "Compliant packaging for Delta 9 products ensuring all safety features and legal text are displayed" },
+    { name: "CBD Vape Boxes", image: cbdVapeBoxes, description: "Sleek boxes for CBD vape products featuring modern aesthetics and secure fit for devices and pods" },
+    { name: "CBD Pre-Roll Boxes", image: cbdPreRollBoxes, description: "Protective packaging for CBD pre-rolls with child-resistant features and high-impact custom graphics" },
+    { name: "Concentrate Packaging", image: concentratePackaging, description: "Specialized boxes for CBD concentrates providing superior barrier protection and professional branding" },
+    { name: "CBD Subscription Boxes", image: cbdSubscriptionBoxes, description: "Custom boxes for CBD subscription services designed for recurring shipment and premium brand loyalty" },
+    { name: "CBD Bath Bomb Boxes", image: cbdBathBombBoxes, description: "Beautiful packaging for CBD bath bombs featuring vibrant colors and moisture-resistant protective coatings" },
 ];
 
 const CbdBoxes = () => {
@@ -164,7 +164,7 @@ const CbdBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -215,12 +215,12 @@ const CbdBoxes = () => {
 
                 <h2>The Ultimate Guide to Cbd Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Cbd Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -263,8 +263,8 @@ const CbdBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

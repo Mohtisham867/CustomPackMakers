@@ -51,21 +51,21 @@ const tuckBoxProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Reverse Tuck End", image: reverseTuckEnd, description: "Classic reverse tuck closure for secure packaging." },
-    { name: "Reverse Tuck End Boxes", image: reverseTuckEndBoxes, description: "Versatile reverse tuck boxes for various products." },
-    { name: "Straight Tuck End", image: straightTuckEnd, description: "Clean straight tuck design for a premium look." },
-    { name: "Straight Tuck End Boxes", image: straightTuckEndBoxes, description: "Standard straight tuck packaging solutions." },
-    { name: "Tuck Top Box", image: tuckTopBox, description: "Simple and effective tuck top closure." },
-    { name: "Tuck Top Boxes", image: tuckTopBoxes, description: "Reliable tuck top boxes for retail display." },
-    { name: "Tuck Top Snap Bottom Box", image: tuckTopSnapBottom, description: "Secure snap bottom with easy tuck top access." },
-    { name: "Tuck Top Auto Bottom Box", image: tuckTopAutoBottom, description: "Quick-assembly auto bottom with tuck top." },
-    { name: "Tuck Front Boxes", image: tuckFrontBoxes, description: "Durable tuck front design for enhanced protection." },
-    { name: "Double Wall Tuck Front", image: doubleWallTuckFront, description: "Extra sturdy double wall construction." },
-    { name: "Double Wall Tuck Top Boxes", image: doubleWallTuckTopBoxes, description: "Reinforced top tuck for heavier items." },
-    { name: "Straight Tuck with Hang Tab", image: straightTuckHangTab, description: "Retail-ready with integrated hang tab." },
-    { name: "Reverse Tuck with Hang Tab", image: reverseTuckHangTab, description: "Reverse tuck style with convenient hang tab." },
-    { name: "Straight Tuck with Customize Window", image: straightTuckWindow, description: "Showcase products with a custom clear window." },
-    { name: "Reverse Tuck with Customize Window", image: reverseTuckWindow, description: "Reverse tuck box featuring a product window." },
+    { name: "Reverse Tuck End", image: reverseTuckEnd, description: "Classic reverse tuck closure designed for secure packaging and easy assembly across various retail sectors." },
+    { name: "Reverse Tuck End Boxes", image: reverseTuckEndBoxes, description: "Versatile reverse tuck boxes suitable for a wide range of products requiring reliable and elegant packaging." },
+    { name: "Straight Tuck End", image: straightTuckEnd, description: "Clean straight tuck design offering a premium look with perfectly aligned closures for high-end retail displays." },
+    { name: "Straight Tuck End Boxes", image: straightTuckEndBoxes, description: "Standard straight tuck packaging solutions engineered for ease of use and professional product presentation." },
+    { name: "Tuck Top Box", image: tuckTopBox, description: "Simple and effective tuck top closure providing convenient access and secure containment for your retail goods." },
+    { name: "Tuck Top Boxes", image: tuckTopBoxes, description: "Reliable tuck top boxes perfect for retail display and organized storage, featuring durable construction." },
+    { name: "Tuck Top Snap Bottom Box", image: tuckTopSnapBottom, description: "Hybrid design featuring a secure snap-lock bottom and easy tuck top access for heavy or fragile products." },
+    { name: "Tuck Top Auto Bottom Box", image: tuckTopAutoBottom, description: "Quick-assembly auto bottom combined with a convenient tuck top to streamline your high-volume packaging line." },
+    { name: "Tuck Front Boxes", image: tuckFrontBoxes, description: "Durable tuck front design providing enhanced protection and a clean exterior surface for prominent branding." },
+    { name: "Double Wall Tuck Front", image: doubleWallTuckFront, description: "Extra sturdy double wall construction offering maximum crush resistance for shipping and retail of heavier items." },
+    { name: "Double Wall Tuck Top Boxes", image: doubleWallTuckTopBoxes, description: "Reinforced top tuck design engineered specifically for heavier items requiring added structural security." },
+    { name: "Straight Tuck with Hang Tab", image: straightTuckHangTab, description: "Retail-ready packaging featuring an integrated hang tab for convenient pegboard display and easy visibility." },
+    { name: "Reverse Tuck with Hang Tab", image: reverseTuckHangTab, description: "Functional reverse tuck style with a built-in hang tab designed for efficient vertical retail merchandising." },
+    { name: "Straight Tuck with Customize Window", image: straightTuckWindow, description: "Showcase your products through a custom clear window combined with a premium straight tuck closure design." },
+    { name: "Reverse Tuck with Customize Window", image: reverseTuckWindow, description: "Professional reverse tuck box featuring a large product window to boost consumer interest and brand trust." },
 ];
 
 const TuckBoxes = () => {
@@ -129,7 +129,7 @@ const TuckBoxes = () => {
                         </div>
                     </div>
 
-{/* Related Products Section */}
+                    {/* Related Products Section */}
                     <section className="mt-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
                             Explore Versatile Tuck Box Solutions
@@ -157,7 +157,7 @@ const TuckBoxes = () => {
                                             <h3 className="font-semibold text-foreground text-sm mb-2">
                                                 {product.name}
                                             </h3>
-                                            <p className="text-xs text-muted-foreground">
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
                                                 {product.description}
                                             </p>
                                         </div>
@@ -177,12 +177,12 @@ const TuckBoxes = () => {
 
                 <h2>The Ultimate Guide to Tuck Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Tuck Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -225,8 +225,8 @@ const TuckBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

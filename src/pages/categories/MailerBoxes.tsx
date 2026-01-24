@@ -33,18 +33,18 @@ import { SEOContent } from "@/components/SEOContent";
 // Product images placeholders - to be added later
 
 const relatedProducts = [
-    { name: "Vinyl Record Mailers", image: vinylRecordMailers, description: "Protective mailers for vinyl records." },
-    { name: "Bubble Mailers", image: bubbleMailers, description: "Padded mailers for shipping fragile items." },
-    { name: "4x8 Bubble Mailers", image: bubbleMailers4x8, description: "Compact bubble mailers for small goods." },
-    { name: "Kraft Bubble Mailers", image: kraftBubbleMailers, description: "Eco-friendly kraft paper bubble mailers." },
-    { name: "Corrugated Mailer Boxes", image: corrugatedMailerBoxes, description: "Sturdy corrugated boxes for shipping." },
-    { name: "Ear Lock Mailer Box", image: earLockMailerBox, description: "Secure ear-lock closure mailer boxes." },
-    { name: "Poly Bubble Mailers", image: polyBubbleMailers, description: "Water-resistant poly bubble mailers." },
-    { name: "White Mailer Boxes", image: whiteMailerBoxes, description: "Clean, professional white mailer boxes." },
-    { name: "Kraft Mailer Boxes", image: kraftMailerBoxes, description: "Sustainable kraft cardboard mailers." },
-    { name: "Black Mailer Boxes", image: blackMailerBoxes, description: "Sleek black mailer boxes for premium branding." },
-    { name: "Colored Mailer Boxes", image: coloredMailerBoxes, description: "Vibrant colored mailers to stand out." },
-    { name: "Tuck Top Mailer Boxes", image: tuckTopMailerBoxes, description: "Classic tuck top style for easy assembly." },
+    { name: "Vinyl Record Mailers", image: vinylRecordMailers, description: "Protective mailers for vinyl records designed to prevent warping and damage during e-commerce shipping" },
+    { name: "Bubble Mailers", image: bubbleMailers, description: "Padded mailers for shipping fragile items with extra cushioning and lightweight cost-saving construction" },
+    { name: "4x8 Bubble Mailers", image: bubbleMailers4x8, description: "Compact bubble mailers for small goods featuring secure adhesive seals and durable tear-resistant exteriors" },
+    { name: "Kraft Bubble Mailers", image: kraftBubbleMailers, description: "Eco-friendly kraft paper bubble mailers combining sustainable materials with reliable product protection" },
+    { name: "Corrugated Mailer Boxes", image: corrugatedMailerBoxes, description: "Sturdy corrugated boxes for shipping a wide variety of goods with superior crush resistance and style" },
+    { name: "Ear Lock Mailer Box", image: earLockMailerBox, description: "Secure ear-lock closure mailer boxes requiring no tape for assembly and providing a clean retail finish" },
+    { name: "Poly Bubble Mailers", image: polyBubbleMailers, description: "Water-resistant poly bubble mailers offering maximum moisture protection and durable shipping security" },
+    { name: "White Mailer Boxes", image: whiteMailerBoxes, description: "Clean, professional white mailer boxes perfect for medical, beauty, and premium tech brand distributions" },
+    { name: "Kraft Mailer Boxes", image: kraftMailerBoxes, description: "Sustainable kraft cardboard mailers providing a natural aesthetic for eco-conscious brands and products" },
+    { name: "Black Mailer Boxes", image: blackMailerBoxes, description: "Sleek black mailer boxes for premium branding and high-end e-commerce gift or product presentations" },
+    { name: "Colored Mailer Boxes", image: coloredMailerBoxes, description: "Vibrant colored mailers designed to stand out in the mail and reinforce your unique brand color palette" },
+    { name: "Tuck Top Mailer Boxes", image: tuckTopMailerBoxes, description: "Classic tuck top style for easy assembly and secure fulfillment of retail products and subscription kits" },
 ];
 
 const productOptions = [
@@ -123,7 +123,7 @@ const MailerBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -181,12 +181,12 @@ const MailerBoxes = () => {
 
                 <h2>The Ultimate Guide to Mailer Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Mailer Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -229,8 +229,8 @@ const MailerBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

@@ -48,18 +48,18 @@ const gableProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Kraft Gable Boxes", image: kraftGableBox, description: "Natural eco-friendly kraft gable boxes." },
-    { name: "Christmas Gable Boxes", image: christmasGableBox, description: "Festive holiday themed gable packing." },
-    { name: "White Gable Boxes", image: whiteGableBox, description: "Clean and elegant white gable boxes." },
-    { name: "Large Gable Boxes", image: largeGableBox, description: "Extra spacious gable boxes for larger items." },
-    { name: "Gable Gift Boxes", image: gableGiftBox, description: "Perfect for gifting and special occasions." },
-    { name: "Black Gable Boxes", image: blackGableBox, description: "Premium black finish for a luxury look." },
-    { name: "Gable Boxes with Window", image: gableBoxWindow, description: "Showcase your product with a clear window." },
-    { name: "Gable Bags", image: gableBags, description: "Convenient bag-style gable packaging." },
-    { name: "Blue Gable Boxes", image: blueGableBox, description: "Vibrant blue boxes to stand out." },
-    { name: "Cardboard Gable Boxes", image: cardboardGableBox, description: "Sturdy cardboard construction." },
-    { name: "Red Gable Boxes", image: redGableBox, description: "Bold red gable boxes for high visibility." },
-    { name: "Kraft Paper Gable Box", image: kraftPaperGableBox, description: "Simple and classic kraft paper design." },
+    { name: "Kraft Gable Boxes", image: kraftGableBox, description: "Natural eco-friendly kraft gable boxes featuring a rustic charm and durable eco-conscious material" },
+    { name: "Christmas Gable Boxes", image: christmasGableBox, description: "Festive holiday themed gable packing designed with seasonal motifs to delight your gift recipients" },
+    { name: "White Gable Boxes", image: whiteGableBox, description: "Clean and elegant white gable boxes offering a versatile professional look for any retail product" },
+    { name: "Large Gable Boxes", image: largeGableBox, description: "Extra spacious gable boxes for larger items featuring reinforced bases and sturdy carrying handles" },
+    { name: "Gable Gift Boxes", image: gableGiftBox, description: "Perfect for gifting and special occasions featuring unique shapes and premium customizable branding" },
+    { name: "Black Gable Boxes", image: blackGableBox, description: "Premium black finish for a luxury look designed for high-end boutique retail and gift presentations" },
+    { name: "Gable Boxes with Window", image: gableBoxWindow, description: "Showcase your product with a clear window inset perfect for bakery items and visual retail display" },
+    { name: "Gable Bags", image: gableBags, description: "Convenient bag-style gable packaging designed for easy carry and stylish retail shelf presentation" },
+    { name: "Blue Gable Boxes", image: blueGableBox, description: "Vibrant blue boxes to stand out on retail shelves featuring high-quality print and durable board" },
+    { name: "Cardboard Gable Boxes", image: cardboardGableBox, description: "Sturdy cardboard construction offering maximum protection for food items and small retail products" },
+    { name: "Red Gable Boxes", image: redGableBox, description: "Bold red gable boxes for high visibility and festive impact perfect for seasonal retail promotions" },
+    { name: "Kraft Paper Gable Box", image: kraftPaperGableBox, description: "Simple and classic kraft paper design engineered for sustainability and professional minimalist style" },
 ];
 
 const GableBoxes = () => {
@@ -123,7 +123,7 @@ const GableBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -174,12 +174,12 @@ const GableBoxes = () => {
 
                 <h2>The Ultimate Guide to Gable Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Gable Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -222,8 +222,8 @@ const GableBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

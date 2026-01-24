@@ -39,15 +39,15 @@ const rigidBoxProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Wallet Boxes", image: walletBoxes, description: "Premium wallet packaging" },
-    { name: "Flip Top Boxes", image: flipTopBoxes, description: "Elegant flip-top rigid boxes" },
-    { name: "Rigid Gift Boxes", image: rigidGiftBoxes, description: "Luxury gift box solutions" },
-    { name: "Credit Card Boxes", image: creditCardBoxes, description: "Secure credit card packaging", useCover: true },
-    { name: "Rigid Setup Boxes", image: rigidSetupBoxes, description: "High-end setup boxes", useCover: true },
-    { name: "Ribbon Boxes", image: ribbonBoxes, description: "Decorative ribbon closure boxes", useCover: true },
-    { name: "Magnetic Closure Boxes", image: magneticClosureBoxes, description: "Premium magnetic closure packaging", useCover: true },
-    { name: "Rigid Paper Boxes", image: rigidPaperBoxes, description: "Durable rigid paperboard boxes", useCover: true },
-    { name: "Flip Top Boxes With Magnetic Closure", image: flipTopMagneticClosure, description: "Flip-top with magnetic seal", useCover: true },
+    { name: "Wallet Boxes", image: walletBoxes, description: "Premium wallet packaging featuring luxury finishes and protective inserts for a high-end retail presentation" },
+    { name: "Flip Top Boxes", image: flipTopBoxes, description: "Elegant flip-top rigid boxes with magnetic closures and sophisticated designs for premium gift packaging" },
+    { name: "Rigid Gift Boxes", image: rigidGiftBoxes, description: "Luxury gift box solutions handcrafted with durable board and custom finishes to elevate your brand identity" },
+    { name: "Credit Card Boxes", image: creditCardBoxes, description: "Secure credit card packaging with custom inserts and professional branding for financial products", useCover: true },
+    { name: "Rigid Setup Boxes", image: rigidSetupBoxes, description: "High-end setup boxes offering superior structural integrity and a premium unboxing experience for luxury items", useCover: true },
+    { name: "Ribbon Boxes", image: ribbonBoxes, description: "Decorative ribbon closure boxes perfect for special gift presentations and luxury brand storytelling", useCover: true },
+    { name: "Magnetic Closure Boxes", image: magneticClosureBoxes, description: "Premium magnetic closure packaging combining sleek aesthetics with functional security for high-value goods", useCover: true },
+    { name: "Rigid Paper Boxes", image: rigidPaperBoxes, description: "Durable rigid paperboard boxes designed for maximum protection and elegant retail shelf presence", useCover: true },
+    { name: "Flip Top Boxes With Magnetic Closure", image: flipTopMagneticClosure, description: "Flip-top boxes with secure magnetic seals providing a refined and modern packaging solution for tech and gifts", useCover: true },
 ];
 
 const RigidBoxes = () => {
@@ -113,7 +113,7 @@ const RigidBoxes = () => {
                         </div>
                     </div>
 
-{/* Related Products Section */}
+                    {/* Related Products Section */}
                     <section className="mt-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
                             Discover Premium Rigid Box Solutions
@@ -147,7 +147,7 @@ const RigidBoxes = () => {
                                             <h3 className="font-semibold text-foreground text-sm mb-2">
                                                 {product.name}
                                             </h3>
-                                            <p className="text-xs text-muted-foreground">
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
                                                 {product.description}
                                             </p>
                                         </div>
@@ -167,12 +167,12 @@ const RigidBoxes = () => {
 
                 <h2>The Ultimate Guide to Rigid Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Rigid Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -215,8 +215,8 @@ const RigidBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

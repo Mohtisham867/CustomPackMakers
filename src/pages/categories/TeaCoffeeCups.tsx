@@ -30,17 +30,17 @@ import restaurantCoffeeCups from "@/assets/restaurant-coffee-cups.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Tea Boxes", image: customTeaBoxes, description: "Premium packaging for tea products." },
-    { name: "Custom Printed Coffee Packaging", image: customPrintedCoffee, description: "Branded coffee packaging solutions." },
-    { name: "Coffee Sleeves", image: coffeeSleeves, description: "Insulated sleeves for hot beverages." },
-    { name: "Coffee Cups with Lids", image: coffeeCupsLids, description: "Complete cup and lid sets." },
-    { name: "Disposable Coffee Cups", image: disposableCoffeeCups, description: "Convenient single-use coffee cups." },
-    { name: "Paper Coffee Cups", image: paperCoffeeCups, description: "Eco-friendly paper cup options." },
-    { name: "To Go Coffee Cups", image: toGoCoffeeCups, description: "Perfect for takeaway service." },
-    { name: "Cute Coffee Cups", image: cuteCoffeeCups, description: "Stylish and attractive cup designs." },
-    { name: "Compostable Coffee Cups", image: compostableCoffeeCups, description: "Environmentally friendly compostable cups." },
-    { name: "Double Wall Coffee Cups", image: doubleWallCoffeeCups, description: "Extra insulation for hot drinks." },
-    { name: "Restaurant Coffee Cups", image: restaurantCoffeeCups, description: "Professional-grade cups for restaurants." },
+    { name: "Custom Tea Boxes", image: customTeaBoxes, description: "Premium packaging for tea products featuring internal flavor dividers and high-impact retail graphics" },
+    { name: "Custom Printed Coffee Packaging", image: customPrintedCoffee, description: "Branded coffee packaging solutions featuring flavor-seal valves and vibrant high-resolution label prints" },
+    { name: "Coffee Sleeves", image: coffeeSleeves, description: "Insulated sleeves for hot beverages featuring corrugated texture for grip and custom branded heat protection" },
+    { name: "Coffee Cups with Lids", image: coffeeCupsLids, description: "Complete cup and lid sets featuring heat-insulated walls and secure snap-on lids for on-the-go service" },
+    { name: "Disposable Coffee Cups", image: disposableCoffeeCups, description: "Convenient single-use coffee cups featuring durable poly-lined paper and high-impact custom branding" },
+    { name: "Paper Coffee Cups", image: paperCoffeeCups, description: "Eco-friendly paper cup options featuring biodegradable materials and elegant minimalist brand designs" },
+    { name: "To Go Coffee Cups", image: toGoCoffeeCups, description: "Perfect for takeaway service featuring reinforced rims and high-quality heat-resistant paper construction" },
+    { name: "Cute Coffee Cups", image: cuteCoffeeCups, description: "Stylish and attractive cup designs featuring vibrant artistic patterns and premium tactile print effects" },
+    { name: "Compostable Coffee Cups", image: compostableCoffeeCups, description: "Environmentally friendly compostable cups featuring plant-based liners and sustainable paper materials" },
+    { name: "Double Wall Coffee Cups", image: doubleWallCoffeeCups, description: "Extra insulation for hot drinks featuring air-gap technology and premium thick-walled construction" },
+    { name: "Restaurant Coffee Cups", image: restaurantCoffeeCups, description: "Professional-grade cups for restaurants featuring sturdy build and high-impact wholesale customization" },
 ];
 
 const productOptions = [
@@ -120,7 +120,7 @@ const TeaCoffeeCups = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -171,14 +171,14 @@ const TeaCoffeeCups = () => {
 
                 <h2>The Ultimate Guide to Tea Coffee Cups</h2>
                 <p>
-                    Elevate your brand presence with our premium <strong>Tea Coffee Cups</strong>. 
-                    Designed to meet the highest standards of quality and aesthetics, our solutions provide the perfect blend of functionality and style. 
+                    Elevate your brand presence with our premium <strong>Tea Coffee Cups</strong>.
+                    Designed to meet the highest standards of quality and aesthetics, our solutions provide the perfect blend of functionality and style.
                     Whether for retail, shipping, or promotional use, we deliver products that effectively communicate your brand's value to your customers.
                 </p>
 
                 <h3>Premium Material Quality</h3>
                 <p>
-                    We believe that quality starts with the right materials. Our Tea Coffee Cups are manufactured using top-tier stocks selected for their durability and finish. 
+                    We believe that quality starts with the right materials. Our Tea Coffee Cups are manufactured using top-tier stocks selected for their durability and finish.
                     Rigorous quality control ensures consistent performance, whether you need weather resistance, structural strength, or a refined surface for printing.
                 </p>
                 <ul>
@@ -200,7 +200,7 @@ const TeaCoffeeCups = () => {
 
                 <h3>Why Partner With Us?</h3>
                 <p>
-                    We are dedicated to your success. From design consultation to final delivery, our team supports you every step of the way. 
+                    We are dedicated to your success. From design consultation to final delivery, our team supports you every step of the way.
                     Enjoy competitive wholesale pricing, reliable turnaround times, and a commitment to quality that helps your business grow.
                 </p>
             </SEOContent>

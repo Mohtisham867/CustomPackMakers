@@ -24,10 +24,10 @@ import incenseBoxes from "@/assets/incense_boxes.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Perfume Boxes", image: customPerfumeBoxes, description: "Elegant boxes for signature scents." },
-    { name: "Perfume Subscription Boxes", image: perfumeSubscriptionBoxes, description: "Curated monthly fragrance sets." },
-    { name: "Luxury Perfume Packaging", image: luxuryPerfumePackaging, description: "Premium packaging for high-end perfumes." },
-    { name: "Incense Boxes", image: incenseBoxes, description: "Protective and stylish boxes for incense sticks." },
+    { name: "Custom Perfume Boxes", image: customPerfumeBoxes, description: "Elegant boxes for signature scents featuring luxurious finishes and protective bottle inserts" },
+    { name: "Perfume Subscription Boxes", image: perfumeSubscriptionBoxes, description: "Curated monthly fragrance sets with premium presentation and secure shipping protection" },
+    { name: "Luxury Perfume Packaging", image: luxuryPerfumePackaging, description: "Premium packaging for high-end perfumes with sophisticated designs and magnetic closures" },
+    { name: "Incense Boxes", image: incenseBoxes, description: "Protective and stylish boxes for incense sticks with aromatic preservation and elegant branding" },
 ];
 
 const productOptions = [
@@ -100,7 +100,7 @@ const FragranceBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -151,12 +151,12 @@ const FragranceBoxes = () => {
 
                 <h2>The Ultimate Guide to Fragrance Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Fragrance Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -199,8 +199,8 @@ const FragranceBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

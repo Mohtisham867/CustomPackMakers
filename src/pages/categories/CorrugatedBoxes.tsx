@@ -29,10 +29,10 @@ const corrugatedBoxProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Corrugated Boxes With Lids", image: corrugatedBoxesWithLids, description: "Sturdy two-piece corrugated boxes" },
-    { name: "Corrugated Mailer Boxes", image: corrugatedMailerBoxes, description: "Self-locking secure mailer packaging" },
-    { name: "Kraft Corrugated Boxes", image: kraftCorrugatedBoxes, description: "Natural brown shipping containers" },
-    { name: "White Corrugated Boxes", image: whiteCorrugatedBoxes, description: "Clean white corrugated packaging" },
+    { name: "Corrugated Boxes With Lids", image: corrugatedBoxesWithLids, description: "Sturdy two-piece corrugated boxes featuring reliable stackability and secure containment for shipping" },
+    { name: "Corrugated Mailer Boxes", image: corrugatedMailerBoxes, description: "Self-locking secure mailer packaging designed for e-commerce deliveries and premium unboxing impact" },
+    { name: "Kraft Corrugated Boxes", image: kraftCorrugatedBoxes, description: "Natural brown shipping containers crafted from sustainable recycled board for eco-conscious brands" },
+    { name: "White Corrugated Boxes", image: whiteCorrugatedBoxes, description: "Clean white corrugated packaging providing a professional aesthetic for your retail and shipping needs" },
 ];
 
 const CorrugatedBoxes = () => {
@@ -149,14 +149,14 @@ const CorrugatedBoxes = () => {
             <QuoteForm />
             <SEOContent>
 
-                    <h2>The Ultimate Guide to Corrugated Boxes</h2>
+                <h2>The Ultimate Guide to Corrugated Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Corrugated Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -199,11 +199,11 @@ const CorrugatedBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
-                </SEOContent>
+            </SEOContent>
             <Footer />
         </div>
     );

@@ -32,19 +32,19 @@ import clearMylarBags from "@/assets/mylar-bags/clear-mylar-bags.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Dispensary Mylar Bags", image: dispensaryMylarBags, description: "Professional, compliant packaging for dispensaries." },
-    { name: "Die Cut Mylar Bags", image: dieCutMylarBags, description: "Custom-shaped bags for unique brand identity." },
-    { name: "Mylar Vacuum Seal Bags", image: mylarVacuumSealBags, description: "Airtight sealing for maximum freshness and longevity." },
-    { name: "Mylar Food Storage Bags", image: mylarFoodStorageBags, description: "Durable bags for long-term food preservation." },
-    { name: "Black Mylar Bags", image: blackMylarBags, description: "Sleek, premium matte black finish for high-end products." },
-    { name: "Smell Proof Mylar Bags", image: smellProofMylarBags, description: "Advanced odor-locking technology for total discretion." },
-    { name: "Child Resistant Mylar Bags", image: childResistantMylarBags, description: "Safe, compliant packaging with secure locking mechanisms." },
-    { name: "Exotic Mylar Bags", image: exoticMylarBags, description: "Vibrant, artistic designs to catch the customer's eye." },
-    { name: "Small Mylar Bags", image: smallMylarBags, description: "Compact pouches for single servings or small items." },
-    { name: "Holographic Mylar Bags", image: holographicMylarBags, description: "Eye-catching rainbow reflective finish." },
-    { name: "Kraft Mylar Bags", image: kraftMylarBags, description: "Eco-friendly look with the protection of mylar." },
-    { name: "Mylar Ziplock Bags", image: mylarZiplockBags, description: "Convenient resealable ziplock closure." },
-    { name: "Clear Mylar Bags", image: clearMylarBags, description: "Transparent combination for product visibility." },
+    { name: "Dispensary Mylar Bags", image: dispensaryMylarBags, description: "Professional, compliant packaging for dispensaries featuring high-barrier protection and secure seals" },
+    { name: "Die Cut Mylar Bags", image: dieCutMylarBags, description: "Custom-shaped mylar bags designed for unique brand identity and maximum retail shelf impact" },
+    { name: "Mylar Vacuum Seal Bags", image: mylarVacuumSealBags, description: "Airtight sealing for maximum freshness and longevity using premium multi-layer barrier technology" },
+    { name: "Mylar Food Storage Bags", image: mylarFoodStorageBags, description: "Durable bags for long-term food preservation featuring moisture-proof and oxygen-blocking materials" },
+    { name: "Black Mylar Bags", image: blackMylarBags, description: "Sleek, premium matte black finish for high-end products requiring opacity and luxury aesthetic" },
+    { name: "Smell Proof Mylar Bags", image: smellProofMylarBags, description: "Advanced odor-locking technology for total discretion and maintenance of product aromatic profiles" },
+    { name: "Child Resistant Mylar Bags", image: childResistantMylarBags, description: "Safe, compliant packaging with secure locking mechanisms designed to meet regulatory safety standards" },
+    { name: "Exotic Mylar Bags", image: exoticMylarBags, description: "Vibrant, artistic designs and high-gloss finishes to catch the customer's eye on crowded retail shelves" },
+    { name: "Small Mylar Bags", image: smallMylarBags, description: "Compact pouches for single servings or small items featuring easy-tear notches and secure heat seals" },
+    { name: "Holographic Mylar Bags", image: holographicMylarBags, description: "Eye-catching rainbow reflective finish providing a futuristic and premium look for limited editions" },
+    { name: "Kraft Mylar Bags", image: kraftMylarBags, description: "Eco-friendly natural look combined with the superior moisture and light protection of mylar lining" },
+    { name: "Mylar Ziplock Bags", image: mylarZiplockBags, description: "Convenient resealable ziplock closure for repeated use while maintaining product freshness levels" },
+    { name: "Clear Mylar Bags", image: clearMylarBags, description: "Transparent combination for full product visibility with the high-barrier performance of mylar" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -104,7 +104,7 @@ const CustomMylarBags = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -116,7 +116,7 @@ const CustomMylarBags = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
                             <Card
                                 key={index}
@@ -161,48 +161,48 @@ const CustomMylarBags = () => {
                             [&>p]:text-[15px] [&>p]:leading-relaxed [&>p]:text-gray-800 [&>p]:mb-6
                             [&>ul]:list-disc [&>ul]:pl-6 [&>ul]:space-y-3 [&>li]:text-gray-800 [&>li]:text-[15px]">
 
-                            <p className="mt-0">
-                                Custom Mylar bags are a cornerstone of modern flexible packaging, marrying visual branding with industrial-grade protection. At the heart of every high-performance Mylar pouch is a carefully engineered multi-layer structure—typically combining a printable PET outer layer, a foil or metallized barrier layer, and a food-safe inner sealant such as LLDPE. This composite delivers the toughness and print fidelity brands need, while creating an impervious barrier to gases, moisture, and light.
-                            </p>
+                        <p className="mt-0">
+                            Custom Mylar bags are a cornerstone of modern flexible packaging, marrying visual branding with industrial-grade protection. At the heart of every high-performance Mylar pouch is a carefully engineered multi-layer structure—typically combining a printable PET outer layer, a foil or metallized barrier layer, and a food-safe inner sealant such as LLDPE. This composite delivers the toughness and print fidelity brands need, while creating an impervious barrier to gases, moisture, and light.
+                        </p>
 
-                            <h3>Material Durability & Recommended Thickness</h3>
-                            <p>
-                                Material selection is driven by the product you package and the shelf-life goals you set. For many retail and long-term storage applications we recommend PET laminates in the <strong>4ml–5ml</strong> range—this gauge strikes an optimal balance between puncture resistance, dimensional stability, and print quality. Thicker constructions (6–7ml and above) are available for high-abuse items or heavy-fill products, while lighter gauges serve short-run retail and trial-size offerings.
-                            </p>
-                            <p>
-                                The PET outer layer provides a smooth, high-definition surface for rotogravure or digital print processes. Beneath that, a metallized or aluminum foil layer (VMPET/AL) acts as the primary gas barrier, interrupting oxygen and UV transmission. The inner heat-seal layer—usually LLDPE or similar food-grade polymer—ensures safe direct contact with foodstuffs and reliable, leak-free closure.
-                            </p>
+                        <h3>Material Durability & Recommended Thickness</h3>
+                        <p>
+                            Material selection is driven by the product you package and the shelf-life goals you set. For many retail and long-term storage applications we recommend PET laminates in the <strong>4ml–5ml</strong> range—this gauge strikes an optimal balance between puncture resistance, dimensional stability, and print quality. Thicker constructions (6–7ml and above) are available for high-abuse items or heavy-fill products, while lighter gauges serve short-run retail and trial-size offerings.
+                        </p>
+                        <p>
+                            The PET outer layer provides a smooth, high-definition surface for rotogravure or digital print processes. Beneath that, a metallized or aluminum foil layer (VMPET/AL) acts as the primary gas barrier, interrupting oxygen and UV transmission. The inner heat-seal layer—usually LLDPE or similar food-grade polymer—ensures safe direct contact with foodstuffs and reliable, leak-free closure.
+                        </p>
 
-                            <h3>Smell‑Proof Zippers & Closure Engineering</h3>
-                            <p>
-                                Zipper performance is equally important to barrier performance. Our smell‑proof zippers employ multi-channel sealing profiles with enhanced compression tolerances that minimize odor migration and prevent micro-leakage. For cannabis, aroma-sensitive food, or aromatic botanicals, we recommend double-track or multi‑lip zippers paired with an internal odor barrier layer—this combination preserves discretion while allowing repeated reseals without degrading the barrier properties.
-                            </p>
+                        <h3>Smell‑Proof Zippers & Closure Engineering</h3>
+                        <p>
+                            Zipper performance is equally important to barrier performance. Our smell‑proof zippers employ multi-channel sealing profiles with enhanced compression tolerances that minimize odor migration and prevent micro-leakage. For cannabis, aroma-sensitive food, or aromatic botanicals, we recommend double-track or multi‑lip zippers paired with an internal odor barrier layer—this combination preserves discretion while allowing repeated reseals without degrading the barrier properties.
+                        </p>
 
-                            <h3>Oxygen Absorbers & Long-Term Shelf Life</h3>
-                            <p>
-                                Oxygen absorbers are an economical, proven method to extend shelf life when paired with high-barrier pouches. When properly calculated for pouch volume and headspace, absorbers can remove residual oxygen to levels that dramatically slow oxidation and microbial growth. Under ideal conditions—proper moisture control and storage—this strategy has been shown to support shelf stability for dried goods measured in decades, with examples of <strong>20–30 years</strong> cited for certain low-moisture products. It’s essential to match absorber capacity to the product and to use validated packing procedures to achieve these timelines.
-                            </p>
+                        <h3>Oxygen Absorbers & Long-Term Shelf Life</h3>
+                        <p>
+                            Oxygen absorbers are an economical, proven method to extend shelf life when paired with high-barrier pouches. When properly calculated for pouch volume and headspace, absorbers can remove residual oxygen to levels that dramatically slow oxidation and microbial growth. Under ideal conditions—proper moisture control and storage—this strategy has been shown to support shelf stability for dried goods measured in decades, with examples of <strong>20–30 years</strong> cited for certain low-moisture products. It’s essential to match absorber capacity to the product and to use validated packing procedures to achieve these timelines.
+                        </p>
 
-                            <h3>Food‑Grade Safety & Regulatory Considerations</h3>
-                            <p>
-                                All inner sealant layers and inks intended to contact food must meet relevant regulatory standards. We work with FDA-compliant polymers and food‑contact-safe adhesives to ensure migration limits are respected and that printed surfaces do not compromise product safety. For applications involving direct food contact, we recommend barrier laminates specifically certified for food use and production on dedicated lines when cross-contamination is a concern.
-                            </p>
+                        <h3>Food‑Grade Safety & Regulatory Considerations</h3>
+                        <p>
+                            All inner sealant layers and inks intended to contact food must meet relevant regulatory standards. We work with FDA-compliant polymers and food‑contact-safe adhesives to ensure migration limits are respected and that printed surfaces do not compromise product safety. For applications involving direct food contact, we recommend barrier laminates specifically certified for food use and production on dedicated lines when cross-contamination is a concern.
+                        </p>
 
-                            <h3>Wholesale Customization & Functional Add‑Ons</h3>
-                            <p>
-                                Beyond material and sealing choices, scale and brand impact matter. We offer wholesale customization including high-fidelity rotogravure print, digital short-run solutions, matte or gloss finishes, clear window options, tear notches, hang holes, and child-resistant zipper variants. Packaging engineers can advise on right‑sizing films, testing seal integrity, and selecting the correct absorber quantity to meet your shelf‑life goals.
-                            </p>
+                        <h3>Wholesale Customization & Functional Add‑Ons</h3>
+                        <p>
+                            Beyond material and sealing choices, scale and brand impact matter. We offer wholesale customization including high-fidelity rotogravure print, digital short-run solutions, matte or gloss finishes, clear window options, tear notches, hang holes, and child-resistant zipper variants. Packaging engineers can advise on right‑sizing films, testing seal integrity, and selecting the correct absorber quantity to meet your shelf‑life goals.
+                        </p>
 
-                            <h3>Performance Testing & Quality Assurance</h3>
-                            <p>
-                                Rigorous testing underpins reliable packaging. Our QA protocols include seal strength testing, oxygen transmission rate (OTR) analysis, water vapor transmission rate (WVTR) measurements, and accelerated shelf-life studies. These data points guide material selection and optimize constructions for each SKU.
-                            </p>
+                        <h3>Performance Testing & Quality Assurance</h3>
+                        <p>
+                            Rigorous testing underpins reliable packaging. Our QA protocols include seal strength testing, oxygen transmission rate (OTR) analysis, water vapor transmission rate (WVTR) measurements, and accelerated shelf-life studies. These data points guide material selection and optimize constructions for each SKU.
+                        </p>
 
-                            <p>
-                                If you need packaging that preserves aroma, extends shelf life, and projects a premium brand image, our Mylar solutions provide a flexible, proven platform. Contact our technical team to request samples, absorber sizing guidance, and seal validation testing to ensure your product meets its intended shelf and retail performance targets.
-                            </p>
+                        <p>
+                            If you need packaging that preserves aroma, extends shelf life, and projects a premium brand image, our Mylar solutions provide a flexible, proven platform. Contact our technical team to request samples, absorber sizing guidance, and seal validation testing to ensure your product meets its intended shelf and retail performance targets.
+                        </p>
 
-                        </div>
+                    </div>
                 </div>
             </section>
             <Footer />

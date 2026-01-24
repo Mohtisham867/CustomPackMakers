@@ -28,16 +28,16 @@ import cbdHempOilBoxes from "@/assets/cbd-products/cbd-oil-boxes.jpg"; // Reusin
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Hemp Paper Boxes", image: hempPaperBoxes, description: "Sustainable paper packaging for eco-conscious brands." },
-    { name: "Hemp Shipping Boxes", image: hempShippingBoxes, description: "Durable shipping solutions made for hemp products." },
-    { name: "Hemp Pre Roll Boxes", image: hempPreRollBoxes, description: "Secure and stylish boxes for hemp pre-rolls." },
-    { name: "Hemp Oil Boxes", image: hempOilBoxes, description: "Protective packaging for hemp oil bottles." },
-    { name: "Hemp Gift Boxes", image: hempGiftBoxes, description: "Elegant gift boxes for special hemp items." },
-    { name: "Hemp Cardboard Boxes", image: hempCardboardBoxes, description: "Robust cardboard boxes for various hemp goods." },
-    { name: "Custom Hemp Cigarette Boxes", image: hempCigaretteBoxes, description: "Customized boxes for hemp cigarettes." },
-    { name: "E Liquid Boxes", image: eLiquidBoxes, description: "Safe and compliant packaging for e-liquids." },
-    { name: "Hemp Tea Bags", image: hempTeaBags, description: "Flavor-preserving boxes for hemp tea." },
-    { name: "CBD Hemp Oil Boxes", image: cbdHempOilBoxes, description: "Premium packaging for CBD hemp oil." },
+    { name: "Hemp Paper Boxes", image: hempPaperBoxes, description: "Sustainable paper packaging for eco-conscious brands featuring organic textures and eco-friendly print finishes" },
+    { name: "Hemp Shipping Boxes", image: hempShippingBoxes, description: "Durable shipping solutions made for hemp products utilizing reinforced corrugated board for secure transit" },
+    { name: "Hemp Pre Roll Boxes", image: hempPreRollBoxes, description: "Secure and stylish boxes for hemp pre-rolls featuring child-resistant locks and premium custom branding" },
+    { name: "Hemp Oil Boxes", image: hempOilBoxes, description: "Protective packaging for hemp oil bottles designed for maximum shelf appeal and secure product containment" },
+    { name: "Hemp Gift Boxes", image: hempGiftBoxes, description: "Elegant gift boxes for special hemp items featuring luxury finishes and custom-fitted protective inserts" },
+    { name: "Hemp Cardboard Boxes", image: hempCardboardBoxes, description: "Robust cardboard boxes for various hemp goods engineered for durability and high-impact retail presentation" },
+    { name: "Custom Hemp Cigarette Boxes", image: hempCigaretteBoxes, description: "Customized boxes for hemp cigarettes featuring unique opening styles and premium anti-counterfeit finishes" },
+    { name: "E Liquid Boxes", image: eLiquidBoxes, description: "Safe and compliant packaging for e-liquids designed to meet regulatory standards while maximizing brand impact" },
+    { name: "Hemp Tea Bags", image: hempTeaBags, description: "Flavor-preserving boxes for hemp tea featuring moisture-proof linings and vibrant, natural brand graphics" },
+    { name: "CBD Hemp Oil Boxes", image: cbdHempOilBoxes, description: "Premium packaging for CBD hemp oil designed to protect delicate liquids while conveying a luxury brand image" },
 ];
 
 const productOptions = [
@@ -116,7 +116,7 @@ const HempBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -167,12 +167,12 @@ const HempBoxes = () => {
 
                 <h2>The Ultimate Guide to Hemp Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Hemp Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -215,8 +215,8 @@ const HempBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

@@ -28,14 +28,14 @@ import christmasPillowBoxes from "@/assets/christmas-products/christmas-favor-bo
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Christmas Gift Boxes", image: christmasGiftBoxes, description: "Festive boxes perfect for holiday gifting." },
-    { name: "Custom Halloween Boxes", image: halloweenBoxes, description: "Spooky and fun packaging for Halloween treats." },
-    { name: "Holiday Gift Boxes", image: holidayGiftBoxes, description: "Elegant boxes for any holiday celebration." },
-    { name: "Thanksgiving Boxes", image: thanksgivingBoxes, description: "Warm and inviting packaging for Thanksgiving." },
-    { name: "Thanksgiving Food Boxes", image: thanksgivingFoodBoxes, description: "Durable boxes for Thanksgiving feasts." },
-    { name: "Custom Valentines Boxes", image: valentinesBoxes, description: "Romantic packaging for Valentine's Day gifts." },
-    { name: "Halloween Window Boxes", image: halloweenWindowBoxes, description: "Showcase your spooky treats with window boxes." },
-    { name: "Christmas Pillow Boxes", image: christmasPillowBoxes, description: "Charming pillow boxes for small holiday favors." },
+    { name: "Christmas Gift Boxes", image: christmasGiftBoxes, description: "Festive boxes perfect for holiday gifting featuring vibrant seasonal artwork and premium textured finishes" },
+    { name: "Custom Halloween Boxes", image: halloweenBoxes, description: "Spooky and fun packaging for Halloween treats designed with high-impact graphics and durable construction" },
+    { name: "Holiday Gift Boxes", image: holidayGiftBoxes, description: "Elegant boxes for any holiday celebration featuring versatile designs and premium customizable branding options" },
+    { name: "Thanksgiving Boxes", image: thanksgivingBoxes, description: "Warm and inviting packaging for Thanksgiving celebrations featuring autumnal themes and sturdy construction" },
+    { name: "Thanksgiving Food Boxes", image: thanksgivingFoodBoxes, description: "Durable boxes for Thanksgiving feasts designed for safe transport of baked goods and festive food items" },
+    { name: "Custom Valentines Boxes", image: valentinesBoxes, description: "Romantic packaging for Valentine's Day gifts featuring heart-shaped die-cuts and premium soft-touch finishes" },
+    { name: "Halloween Window Boxes", image: halloweenWindowBoxes, description: "Showcase your spooky treats with window boxes featuring clear PET windows and vibrant Halloween graphics" },
+    { name: "Christmas Pillow Boxes", image: christmasPillowBoxes, description: "Charming pillow boxes for small holiday favors featuring unique curved edges and festive holiday patterns" },
 ];
 
 const productOptions = [
@@ -112,7 +112,7 @@ const HolidayBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -163,12 +163,12 @@ const HolidayBoxes = () => {
 
                 <h2>The Ultimate Guide to Holiday Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Holiday Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -211,8 +211,8 @@ const HolidayBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

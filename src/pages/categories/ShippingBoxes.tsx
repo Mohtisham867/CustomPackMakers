@@ -41,18 +41,18 @@ const longNarrow = longNarrowBox;
 const shippingLabels = shippingLabelsBox;
 
 const relatedProducts = [
-    { name: "Chinese Takeout Boxes", image: chineseTakeoutBox, description: "Classic folded design with wire handle for easy carry." },
-    { name: "Double Wall Tuck Front", image: doubleWallTuck, description: "Extra durability with reinforced walls for heavy items." },
-    { name: "Hemp Shipping Boxes", image: hempShippingBox, description: "Sustainable and sturdy hemp-based material." },
-    { name: "Candle Shipping Boxes", image: candleShipping, description: "Protective packaging specifically for fragile candles." },
-    { name: "Hat Shipping Boxes", image: hatShipping, description: "Spacious boxes to keep hats in perfect shape." },
-    { name: "8x6x4 Shipping Boxes", image: box8x6x4, description: "Standard size ideal for small to medium retail items." },
-    { name: "5x5x5 Boxes", image: box5x5x5, description: "Perfect cube shape for compact secure shipping." },
-    { name: "Wine Shipping Boxes", image: wineShipping, description: "Designed to protect bottles during transit." },
-    { name: "Long Narrow Shipping Boxes", image: longNarrow, description: "Ideal for elongated items like posters or tools." },
-    { name: "Shipping Labels", image: shippingLabels, description: "Custom branded labels for professional delivery." },
-    { name: "White Shipping Boxes", image: whiteShippingBox, description: "Clean, professional white finish for premium brands." },
-    { name: "Delivery Boxes", image: deliveryBox, description: "Reliable standardized boxes for all logistics needs." },
+    { name: "Chinese Takeout Boxes", image: chineseTakeoutBox, description: "Classic folded design with wire handle for easy carry and leak-resistant coating for food safety" },
+    { name: "Double Wall Tuck Front", image: doubleWallTuck, description: "Extra durability with reinforced walls for heavy items ensuring safe transport and stackable retail displays" },
+    { name: "Hemp Shipping Boxes", image: hempShippingBox, description: "Sustainable and sturdy hemp-based material providing an eco-friendly alternative for conscious brands" },
+    { name: "Candle Shipping Boxes", image: candleShipping, description: "Protective packaging specifically for fragile candles featuring corrugated board to prevent heat damage" },
+    { name: "Hat Shipping Boxes", image: hatShipping, description: "Spacious boxes to keep hats in perfect shape and prevent crushing during complex logistic processes" },
+    { name: "8x6x4 Shipping Boxes", image: box8x6x4, description: "Standard size ideal for small to medium retail items offering reliable strength for daily parcel shipping" },
+    { name: "5x5x5 Boxes", image: box5x5x5, description: "Perfect cube shape for compact secure shipping of small gadgets and delicate electronic accessories" },
+    { name: "Wine Shipping Boxes", image: wineShipping, description: "Designed to protect bottles during transit with specialized inserts for secure individual bottle placement" },
+    { name: "Long Narrow Shipping Boxes", image: longNarrow, description: "Ideal for elongated items like posters or tools providing longitudinal support and reinforced ends" },
+    { name: "Shipping Labels", image: shippingLabels, description: "Custom branded labels for professional delivery featuring high-quality adhesive and clear informational layout" },
+    { name: "White Shipping Boxes", image: whiteShippingBox, description: "Clean, professional white finish for premium brands offering a sleek aesthetic for e-commerce deliveries" },
+    { name: "Delivery Boxes", image: deliveryBox, description: "Reliable standardized boxes for all logistics needs crafted from heavy-duty corrugated cardboard for safety" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -118,7 +118,7 @@ const ShippingBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -175,12 +175,12 @@ const ShippingBoxes = () => {
 
                 <h2>The Ultimate Guide to Shipping Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Shipping Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -223,8 +223,8 @@ const ShippingBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

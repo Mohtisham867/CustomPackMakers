@@ -1,6 +1,6 @@
 import { ArrowRight, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-packaging.jpg";
+import heroImage from "@/assets/main-home-hero.png";
 import { useCounterAnimation } from "@/hooks/use-counter-animation";
 
 export const Hero = () => {
@@ -73,15 +73,13 @@ export const Hero = () => {
 
           {/* Right Image */}
           <div className="relative lg:ml-8 mt-8 lg:mt-0 order-first lg:order-last">
-            <div className="relative rounded-lg overflow-hidden shadow-xl border border-border/50 aspect-video lg:aspect-auto">
+            <div className="relative rounded-lg overflow-hidden border border-border/50 aspect-video lg:aspect-auto">
               <img
                 src={heroImage}
                 alt="Custom Packaging Boxes"
                 className="w-full h-full object-cover"
               />
             </div>
-            {/* Subtle accent element */}
-            <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-primary/5 rounded-full blur-3xl -z-10" />
           </div>
         </div>
       </div>

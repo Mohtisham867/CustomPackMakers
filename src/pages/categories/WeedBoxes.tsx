@@ -22,10 +22,10 @@ import weedGiftBox from "@/assets/weed_boxes/weed-gift-box.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Weed Subscription Box", image: weedSubscriptionBox, description: "Monthly cannabis subscription packaging." },
-    { name: "Weed Mystery Boxes", image: weedMysteryBox, description: "Exciting mystery box packaging for cannabis." },
-    { name: "Monthly Weed Boxes", image: monthlyWeedBox, description: "Regular monthly delivery packaging solutions." },
-    { name: "Weed Gift Boxes", image: weedGiftBox, description: "Premium gift packaging for cannabis products." },
+    { name: "Weed Subscription Box", image: weedSubscriptionBox, description: "Monthly cannabis subscription packaging featuring discreet outer boxes and custom-fitted internal inserts" },
+    { name: "Weed Mystery Boxes", image: weedMysteryBox, description: "Exciting mystery box packaging for cannabis featuring surprise elements and high-impact custom graphics" },
+    { name: "Monthly Weed Boxes", image: monthlyWeedBox, description: "Regular monthly delivery packaging solutions featuring durable construction and professional brand marks" },
+    { name: "Weed Gift Boxes", image: weedGiftBox, description: "Premium gift packaging for cannabis products featuring luxury textures and elegant ribbon closures for gifts" },
 ];
 
 const productOptions = [
@@ -98,7 +98,7 @@ const WeedBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -156,12 +156,12 @@ const WeedBoxes = () => {
 
                 <h2>The Ultimate Guide to Weed Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Weed Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -204,8 +204,8 @@ const WeedBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

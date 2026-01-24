@@ -28,14 +28,14 @@ import foldingCartons from "@/assets/retail-boxes/folding-cartons.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Business Cards", image: businessCards, description: "Premium business cards that make a lasting impression." },
-    { name: "Custom Match Boxes", image: matchBoxes, description: "Unique promotional packaging for branding." },
-    { name: "Dietary Supplement Packaging", image: supplementPackaging, description: "Secure and compliant packaging for supplements." },
-    { name: "Business Labels", image: businessLabels, description: "Custom labels to enhance your brand identity." },
-    { name: "Custom Boxes with Logo", image: boxesWithLogo, description: "Branded boxes designed to elevate your products." },
-    { name: "Clamshell Boxes", image: clamshellBoxes, description: "Clear, protective packaging for retail display." },
-    { name: "Barbie Boxes", image: barbieBoxes, description: "Fun, vibrant packaging for toys and dolls." },
-    { name: "Folding Cartons", image: foldingCartons, description: "Versatile folding cartons for various retail needs." },
+    { name: "Custom Business Cards", image: businessCards, description: "Premium business cards that make a lasting impression with high-quality cardstock and custom finishes" },
+    { name: "Custom Match Boxes", image: matchBoxes, description: "Unique promotional packaging for branding featuring custom prints and functional friction surfaces" },
+    { name: "Dietary Supplement Packaging", image: supplementPackaging, description: "Secure and compliant packaging for supplements featuring child-resistant features and informative labels" },
+    { name: "Business Labels", image: businessLabels, description: "Custom labels to enhance your brand identity and provide clear product information on any surface" },
+    { name: "Custom Boxes with Logo", image: boxesWithLogo, description: "Branded boxes designed to elevate your products with high-fidelity printing and robust board materials" },
+    { name: "Clamshell Boxes", image: clamshellBoxes, description: "Clear, protective packaging for retail display allowing customers to view product features while staying secure" },
+    { name: "Barbie Boxes", image: barbieBoxes, description: "Fun, vibrant packaging for toys and dolls featuring clear windows and colorful character illustrations" },
+    { name: "Folding Cartons", image: foldingCartons, description: "Versatile folding cartons for various retail needs offering easy storage and attractive branding possibilities" },
 ];
 
 const productOptions = [
@@ -111,7 +111,7 @@ const RetailBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -162,12 +162,12 @@ const RetailBoxes = () => {
 
                 <h2>The Ultimate Guide to Retail Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Retail Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -210,8 +210,8 @@ const RetailBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

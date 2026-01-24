@@ -89,41 +89,41 @@ const decals = decalsImg;
 const privateLabelPackaging = privateLabelPackagingImg;
 
 const relatedProducts = [
-    { name: "Pre Roll Packaging Labels", image: preRollLabels, description: "Professional labels for pre-roll tubes and containers." },
-    { name: "Food Labels", image: foodLabels, description: "Compliant and appetizing labels for food products." },
-    { name: "Circle Labels", image: circleLabels, description: "Versatile round labels for logos and branding." },
-    { name: "Circle Stickers", image: circleStickers, description: "Fun and effective round stickers for promotion." },
-    { name: "Die Cut Stickers", image: dieCutStickers, description: "Custom shaped stickers cut precisely to your design." },
-    { name: "Soap Bar Labels", image: soapBarLabels, description: "Elegant labels wrapping perfectly around soap bars." },
-    { name: "Table Tents", image: tableTents, description: "Freestanding display cards for menus or promotions." },
-    { name: "Christmas Stickers", image: christmasStickers, description: "Festive stickers to add holiday cheer to packaging." },
-    { name: "Paper Stickers", image: paperStickers, description: "Cost-effective, classic paper-based stickers." },
-    { name: "Business Labels", image: businessLabels, description: "Professional labels for office and branding needs." },
-    { name: "Business Stickers", image: businessStickers, description: "Promotional stickers to boost brand visibility." },
-    { name: "Candle Labels", image: candleLabels, description: "Heat-resistant labels designed for candle jars." },
-    { name: "Soap Labels", image: soapLabels, description: "Water-resistant labels perfect for soap packaging." },
-    { name: "Wine Labels", image: wineLabels, description: "Premium labels for wine bottles with refined finishes." },
-    { name: "Kraft Labels", image: kraftLabels, description: "Eco-friendly, rustic labels with a natural look." },
-    { name: "Chapstick Labels", image: chapstickLabels, description: "Small, precise labels for lip balm tubes." },
-    { name: "Metallic Labels", image: metallicLabels, description: "Shiny foil labels for a luxury, high-end appeal." },
-    { name: "Bottle Labels", image: bottleLabels, description: "Durable labels suitable for glass and plastic bottles." },
-    { name: "Lip Balm Labels", image: lipBalmLabels, description: "Custom tags for various lip balm containers." },
-    { name: "Cosmetic Labels", image: cosmeticLabels, description: "Beautiful labels enhancing beauty product packaging." },
-    { name: "Spray Bottle Labels", image: sprayBottleLabels, description: "Waterproof labels for cleaning or cosmetic sprays." },
-    { name: "Bag Labels", image: bagLabels, description: "Identity labels for paper or plastic retail bags." },
-    { name: "Ice Cream Labels", image: iceCreamLabels, description: "Cold-resistant labels for frozen treat containers." },
-    { name: "Honey Labels", image: honeyLabels, description: "Sweet designs for honey jars and bottles." },
-    { name: "Body Butter Labels", image: bodyButterLabels, description: "Grease-resistant labels for skincare tubs." },
-    { name: "Cookie Labels", image: cookieLabels, description: "Charming labels for bakery boxes and bags." },
-    { name: "Lotion Labels", image: lotionLabels, description: "Moisture-proof labels for lotion bottles and pumps." },
-    { name: "Bath Bomb Labels", image: bathBombLabels, description: "Fun, vibrant labels for bath bomb packaging." },
-    { name: "Color Labels", image: colorLabels, description: "Full-color printed labels for vivid branding." },
-    { name: "Vinyl Stickers", image: vinylStickers, description: "Durable, weather-resistant stickers for outdoor use." },
-    { name: "Custom Roll Labels", image: customRollLabels, description: "Efficient labeling solution on rolls for high volume." },
-    { name: "Waterproof Labels", image: waterproofLabels, description: "Labels that withstand moisture and washing." },
-    { name: "Packaging Labels", image: packagingLabels, description: "Essential information and branding for shipping boxes." },
-    { name: "Decals", image: decals, description: "High-quality transfer stickers for display." },
-    { name: "Private Label Packaging", image: privateLabelPackaging, description: "Custom labeling for your exclusive product usage." },
+    { name: "Pre Roll Packaging Labels", image: preRollLabels, description: "Professional labels for pre-roll tubes and containers featuring durable high-tack adhesive and compliant legal text" },
+    { name: "Food Labels", image: foodLabels, description: "Compliant and appetizing labels for food products featuring moisture-resistant liners and vibrant non-toxic inks" },
+    { name: "Circle Labels", image: circleLabels, description: "Versatile round labels for logos and branding featuring precision die-cuts and premium protective gloss finishes" },
+    { name: "Circle Stickers", image: circleStickers, description: "Fun and effective round stickers for promotion featuring durable vinyl material and high-impact custom graphics" },
+    { name: "Die Cut Stickers", image: dieCutStickers, description: "Custom shaped stickers cut precisely to your design featuring weather-resistant vinyl and easy-peel backing" },
+    { name: "Soap Bar Labels", image: soapBarLabels, description: "Elegant labels wrapping perfectly around soap bars featuring textured paper stocks and moisture-resistant coatings" },
+    { name: "Table Tents", image: tableTents, description: "Freestanding display cards for menus or promotions featuring sturdy cardstock and high-resolution double-sided print" },
+    { name: "Christmas Stickers", image: christmasStickers, description: "Festive stickers to add holiday cheer to packaging featuring metallic foil accents and vibrant seasonal designs" },
+    { name: "Paper Stickers", image: paperStickers, description: "Cost-effective, classic paper-based stickers featuring versatile matte finishes and reliable permanent adhesive" },
+    { name: "Business Labels", image: businessLabels, description: "Professional labels for office and branding needs featuring clean typography and high-quality thermal-ready stock" },
+    { name: "Business Stickers", image: businessStickers, description: "Promotional stickers to boost brand visibility featuring durable materials and eye-catching full-color printing" },
+    { name: "Candle Labels", image: candleLabels, description: "Heat-resistant labels designed for candle jars featuring specialized adhesives and elegant luxury textures" },
+    { name: "Soap Labels", image: soapLabels, description: "Water-resistant labels perfect for soap packaging featuring durable poly-stocks and smudge-proof ink technology" },
+    { name: "Wine Labels", image: wineLabels, description: "Premium labels for wine bottles with refined finishes featuring textured stocks and elegant gold foil stamping" },
+    { name: "Kraft Labels", image: kraftLabels, description: "Eco-friendly, rustic labels with a natural look featuring biodegradable material and organic-style branding" },
+    { name: "Chapstick Labels", image: chapstickLabels, description: "Small, precise labels for lip balm tubes featuring protective coatings and vibrant high-resolution graphics" },
+    { name: "Metallic Labels", image: metallicLabels, description: "Shiny foil labels for a luxury, high-end appeal featuring mirror-like finishes and deep-embossed detailing" },
+    { name: "Bottle Labels", image: bottleLabels, description: "Durable labels suitable for glass and plastic bottles featuring squeeze-resistant materials and waterproof ink" },
+    { name: "Lip Balm Labels", image: lipBalmLabels, description: "Custom tags for various lip balm containers featuring precise die-cuts and high-impact small-format branding" },
+    { name: "Cosmetic Labels", image: cosmeticLabels, description: "Beautiful labels enhancing beauty product packaging featuring luxury finishes and smudge-resistant surfaces" },
+    { name: "Spray Bottle Labels", image: sprayBottleLabels, description: "Waterproof labels for cleaning or cosmetic sprays featuring chemical-resistant liners and durable poly material" },
+    { name: "Bag Labels", image: bagLabels, description: "Identity labels for paper or plastic retail bags featuring strong adhesives and high-visibility brand marks" },
+    { name: "Ice Cream Labels", image: iceCreamLabels, description: "Cold-resistant labels for frozen treat containers featuring specialized low-temperature adhesive technology" },
+    { name: "Honey Labels", image: honeyLabels, description: "Sweet designs for honey jars and bottles featuring golden-tone prints and durable moisture-proof paper" },
+    { name: "Body Butter Labels", image: bodyButterLabels, description: "Grease-resistant labels for skincare tubs featuring luxury textures and high-impact cosmetic branding" },
+    { name: "Cookie Labels", image: cookieLabels, description: "Charming labels for bakery boxes and bags featuring food-safe materials and colorful artisanal graphics" },
+    { name: "Lotion Labels", image: lotionLabels, description: "Moisture-proof labels for lotion bottles and pumps featuring elegant textures and durable protective coatings" },
+    { name: "Bath Bomb Labels", image: bathBombLabels, description: "Fun, vibrant labels for bath bomb packaging featuring moisture-resistant stocks and bright playful colors" },
+    { name: "Color Labels", image: colorLabels, description: "Full-color printed labels for vivid branding featuring high-fidelity color matching and premium finishes" },
+    { name: "Vinyl Stickers", image: vinylStickers, description: "Durable, weather-resistant stickers for outdoor use featuring high-grade vinyl and UV-protective coatings" },
+    { name: "Custom Roll Labels", image: customRollLabels, description: "Efficient labeling solution on rolls for high volume featuring automatic application ready technology" },
+    { name: "Waterproof Labels", image: waterproofLabels, description: "Labels that withstand moisture and washing featuring durable synthetic materials and specialized adhesives" },
+    { name: "Packaging Labels", image: packagingLabels, description: "Essential information and branding for shipping boxes featuring high-visibility print and strong adhesive" },
+    { name: "Decals", image: decals, description: "High-quality transfer stickers for display featuring precision cutting and durable outdoor-grade materials" },
+    { name: "Private Label Packaging", image: privateLabelPackaging, description: "Custom labeling for your exclusive product usage featuring premium materials and tailored brand graphics" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -189,7 +189,7 @@ const StickersAndLabels = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -245,14 +245,14 @@ const StickersAndLabels = () => {
 
                 <h2>The Ultimate Guide to Stickers And Labels</h2>
                 <p>
-                    Elevate your brand presence with our premium <strong>Stickers And Labels</strong>. 
-                    Designed to meet the highest standards of quality and aesthetics, our solutions provide the perfect blend of functionality and style. 
+                    Elevate your brand presence with our premium <strong>Stickers And Labels</strong>.
+                    Designed to meet the highest standards of quality and aesthetics, our solutions provide the perfect blend of functionality and style.
                     Whether for retail, shipping, or promotional use, we deliver products that effectively communicate your brand's value to your customers.
                 </p>
 
                 <h3>Premium Material Quality</h3>
                 <p>
-                    We believe that quality starts with the right materials. Our Stickers And Labels are manufactured using top-tier stocks selected for their durability and finish. 
+                    We believe that quality starts with the right materials. Our Stickers And Labels are manufactured using top-tier stocks selected for their durability and finish.
                     Rigorous quality control ensures consistent performance, whether you need weather resistance, structural strength, or a refined surface for printing.
                 </p>
                 <ul>
@@ -274,7 +274,7 @@ const StickersAndLabels = () => {
 
                 <h3>Why Partner With Us?</h3>
                 <p>
-                    We are dedicated to your success. From design consultation to final delivery, our team supports you every step of the way. 
+                    We are dedicated to your success. From design consultation to final delivery, our team supports you every step of the way.
                     Enjoy competitive wholesale pricing, reliable turnaround times, and a commitment to quality that helps your business grow.
                 </p>
             </SEOContent>

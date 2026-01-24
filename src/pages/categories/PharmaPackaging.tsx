@@ -29,14 +29,14 @@ import bandageBoxes from "@/assets/products/medicine-boxes.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Pill Boxes", image: pillBoxes, description: "Secure boxes for pills and medications." },
-    { name: "Custom Dispenser Boxes", image: dispenserBoxes, description: "Convenient dispenser packaging for medical supplies." },
-    { name: "Dietary Supplement Packaging", image: dietarySupplementPackaging, description: "Compliance-focused packaging for supplements." },
-    { name: "Custom Medicine Boxes", image: medicineBoxes, description: "Professional boxes for various medicines." },
-    { name: "Olive Oil Boxes", image: oliveOilBoxes, description: "Protective packaging for pharmaceutical oils." },
-    { name: "Condom Boxes", image: condomBoxes, description: "Discreet and secure packaging." },
-    { name: "Gloves Boxes", image: glovesBoxes, description: "Hygienic dispenser boxes for medical gloves." },
-    { name: "Bandage Boxes", image: bandageBoxes, description: "Clean packaging for bandages and first aid." },
+    { name: "Custom Pill Boxes", image: pillBoxes, description: "Secure packaging for pills and medications featuring child-resistant locks and high-impact medical branding" },
+    { name: "Custom Dispenser Boxes", image: dispenserBoxes, description: "Convenient dispenser packaging for medical supplies designed for easy access and professional retail display" },
+    { name: "Dietary Supplement Packaging", image: dietarySupplementPackaging, description: "Compliance-focused packaging for supplements featuring moisture-proof seals and vibrant nutritional graphics" },
+    { name: "Custom Medicine Boxes", image: medicineBoxes, description: "Professional boxes for various medicines engineered for protection and regulatory compliance with clear labeling" },
+    { name: "Olive Oil Boxes", image: oliveOilBoxes, description: "Protective packaging for pharmaceutical oils featuring leak-proof design and premium light-shielding materials" },
+    { name: "Condom Boxes", image: condomBoxes, description: "Discreet and secure retail packaging for condoms featuring high-quality print finishes and durable construction" },
+    { name: "Gloves Boxes", image: glovesBoxes, description: "Hygienic dispenser boxes for medical gloves designed for easy single-glove removal and sturdy wall mounting" },
+    { name: "Bandage Boxes", image: bandageBoxes, description: "Clean packaging for bandages and first aid kits featuring sterile seals and high-visibility branding elements" },
 ];
 
 const productOptions = [
@@ -112,7 +112,7 @@ const PharmaPackaging = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -163,12 +163,12 @@ const PharmaPackaging = () => {
 
                 <h2>The Ultimate Guide to Pharma Packaging</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Pharma Packaging</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -211,8 +211,8 @@ const PharmaPackaging = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

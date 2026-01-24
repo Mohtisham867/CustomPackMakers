@@ -27,16 +27,16 @@ import pillowGiftBoxes from "@/assets/pillow-boxes/pillow_gift_boxes.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "White Pillow Boxes", image: whitePillowBoxes, description: "Clean and elegant white pillow boxes for weddings and favors." },
-    { name: "Small Pillow Boxes", image: smallPillowBoxes, description: "Compact boxes perfect for jewelry and small gifts." },
-    { name: "Kraft Pillow Boxes", image: kraftPillowBoxes, description: "Eco-friendly kraft paper pillow boxes for a rustic look." },
-    { name: "Large Pillow Boxes", image: largePillowBoxes, description: "Spacious pillow boxes for apparel and larger items." },
-    { name: "Pillow Boxes With Handle", image: pillowBoxesWithHandle, description: "Convenient pillow boxes with built-in carrying handles." },
-    { name: "Black Pillow Boxes", image: blackPillowBoxes, description: "Sophisticated black pillow boxes for premium packaging." },
-    { name: "Pillow Boxes With Window", image: pillowBoxesWithWindow, description: "Showcase your product with a clear window cutout." },
-    { name: "Cardboard Pillow Boxes", image: cardboardPillowBoxes, description: "Durable cardboard construction for secure shipping." },
-    { name: "Paper Pillow Box", image: paperPillowBox, description: "Lightweight paper pillow boxes for simple packaging needs." },
-    { name: "Pillow Gift Boxes", image: pillowGiftBoxes, description: "Decorative pillow boxes designed specially for gifting." },
+    { name: "White Pillow Boxes", image: whitePillowBoxes, description: "Clean and elegant white pillow boxes for weddings and favors featuring a smooth matte finish and effortless assembly" },
+    { name: "Small Pillow Boxes", image: smallPillowBoxes, description: "Compact boxes perfect for jewelry and small gifts, providing a unique curved shape for memorable product presentation" },
+    { name: "Kraft Pillow Boxes", image: kraftPillowBoxes, description: "Eco-friendly kraft paper pillow boxes for a rustic look, crafted from sustainable materials for environmentally conscious branding" },
+    { name: "Large Pillow Boxes", image: largePillowBoxes, description: "Spacious pillow boxes for apparel and larger items, combining structural strength with an elegant and stylish curved design" },
+    { name: "Pillow Boxes With Handle", image: pillowBoxesWithHandle, description: "Convenient pillow boxes with built-in carrying handles, perfect for retail environments and easy customer transport" },
+    { name: "Black Pillow Boxes", image: blackPillowBoxes, description: "Sophisticated black pillow boxes for premium packaging, featuring a deep matte finish for a high-end luxury feel" },
+    { name: "Pillow Boxes With Window", image: pillowBoxesWithWindow, description: "Showcase your product with a clear window cutout, allowing customers to see the quality while keeping items secure" },
+    { name: "Cardboard Pillow Boxes", image: cardboardPillowBoxes, description: "Durable cardboard construction for secure shipping and storage, providing excellent protection for fragile retail goods" },
+    { name: "Paper Pillow Box", image: paperPillowBox, description: "Lightweight paper pillow boxes for simple packaging needs, offering a cost-effective and attractive branding solution" },
+    { name: "Pillow Gift Boxes", image: pillowGiftBoxes, description: "Decorative pillow boxes designed specially for gifting, featuring festive prints and high-quality cardstock materials" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -102,7 +102,7 @@ const PillowBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -160,12 +160,12 @@ const PillowBoxes = () => {
 
                 <h2>The Ultimate Guide to Pillow Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Pillow Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -208,8 +208,8 @@ const PillowBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

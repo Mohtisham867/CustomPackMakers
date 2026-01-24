@@ -28,14 +28,14 @@ import gableGiftBoxes from "@/assets/box-shapes/gable-boxes.jpg";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Favor Boxes", image: favorBoxes, description: "Charming pillow boxes for party favors and gifts." },
-    { name: "Gift Card Boxes", image: giftCardBoxes, description: "Elegant sleeve and tray boxes for gift cards." },
-    { name: "Custom Printed Gift Boxes", image: customPrintedGiftBoxes, description: "High-end rigid boxes with custom printing." },
-    { name: "Hemp Gift Boxes", image: hempGiftBoxes, description: "Eco-friendly hemp packaging for gifts." },
-    { name: "Cardboard Gift Boxes", image: cardboardGiftBoxes, description: "Versatile cardboard boxes for any occasion." },
-    { name: "Chocolate Gift Boxes", image: chocolateGiftBoxes, description: "Deliciously designed boxes for chocolate gifts." },
-    { name: "Gift Tags", image: giftTags, description: "Custom tags to add a personal touch to your gifts." },
-    { name: "Gable Gift Boxes", image: gableGiftBoxes, description: "Convenient handled boxes for easy gifting." },
+    { name: "Favor Boxes", image: favorBoxes, description: "Charming pillow boxes for party favors and gifts with easy assembly and elegant curved design" },
+    { name: "Gift Card Boxes", image: giftCardBoxes, description: "Elegant sleeve and tray boxes for gift cards featuring premium finishes and secure closure" },
+    { name: "Custom Printed Gift Boxes", image: customPrintedGiftBoxes, description: "High-end rigid boxes with custom printing offering luxurious presentation and durable construction" },
+    { name: "Hemp Gift Boxes", image: hempGiftBoxes, description: "Eco-friendly hemp packaging for gifts featuring sustainable materials and natural aesthetic appeal" },
+    { name: "Cardboard Gift Boxes", image: cardboardGiftBoxes, description: "Versatile cardboard boxes for any occasion with customizable sizes and attractive printing options" },
+    { name: "Chocolate Gift Boxes", image: chocolateGiftBoxes, description: "Deliciously designed boxes for chocolate gifts with protective inserts and premium presentation" },
+    { name: "Gift Tags", image: giftTags, description: "Custom tags to add a personal touch to your gifts with premium paper and elegant printing" },
+    { name: "Gable Gift Boxes", image: gableGiftBoxes, description: "Convenient handled boxes for easy gifting featuring sturdy construction and attractive designs" },
 ];
 
 const productOptions = [
@@ -112,7 +112,7 @@ const GiftBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -163,12 +163,12 @@ const GiftBoxes = () => {
 
                 <h2>The Ultimate Guide to Gift Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Gift Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -211,8 +211,8 @@ const GiftBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

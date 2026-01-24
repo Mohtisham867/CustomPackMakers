@@ -26,14 +26,14 @@ import cookieBoxesWithWindow from "@/assets/window-packaging/cookie-boxes-with-w
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Candle Boxes With Window", image: candleBoxesWithWindow, description: "Showcase your candles with elegance and transparency." },
-    { name: "Gable Boxes with Window", image: gableBoxesWithWindow, description: "Convenient handle boxes with a peek-inside window." },
-    { name: "Halloween Window Boxes", image: halloweenWindowBoxes, description: "Spooky and fun window boxes for Halloween treats." },
-    { name: "Soap Boxes With Window", image: soapBoxesWithWindow, description: "Let customers smell and see your handmade soaps." },
-    { name: "Pillow Boxes With Window", image: pillowBoxesWithWindow, description: "Unique curved boxes with a stylish display window." },
-    { name: "Kraft Paper Boxes With Window", image: kraftPaperBoxesWithWindow, description: "Eco-friendly natural look with product visibility." },
-    { name: "Candy Boxes With Window", image: candyBoxesWithWindow, description: "Perfect for displaying colorful candies and sweets." },
-    { name: "Cookie Boxes With Window", image: cookieBoxesWithWindow, description: "Keep cookies fresh while showing them off." },
+    { name: "Candle Boxes With Window", image: candleBoxesWithWindow, description: "Showcase your candles with elegance and transparency featuring precise die-cut windows and luxury print" },
+    { name: "Gable Boxes with Window", image: gableBoxesWithWindow, description: "Convenient handle boxes with a peek-inside window featuring easy-carry design and sturdy retail display" },
+    { name: "Halloween Window Boxes", image: halloweenWindowBoxes, description: "Spooky and fun window boxes for Halloween treats featuring thematic graphics and clear viewing panels" },
+    { name: "Soap Boxes With Window", image: soapBoxesWithWindow, description: "Let customers smell and see your handmade soaps featuring breathable windows and moisture-proof coatings" },
+    { name: "Pillow Boxes With Window", image: pillowBoxesWithWindow, description: "Unique curved boxes with a stylish display window featuring elegant shapes and premium decorative prints" },
+    { name: "Kraft Paper Boxes With Window", image: kraftPaperBoxesWithWindow, description: "Eco-friendly natural look with product visibility featuring sustainable kraft board and clear PET windows" },
+    { name: "Candy Boxes With Window", image: candyBoxesWithWindow, description: "Perfect for displaying colorful candies and sweets featuring grease-proof linings and vibrant graphics" },
+    { name: "Cookie Boxes With Window", image: cookieBoxesWithWindow, description: "Keep cookies fresh while showing them off featuring food-safe materials and elegant professional designs" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -99,7 +99,7 @@ const WindowPackaging = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -157,12 +157,12 @@ const WindowPackaging = () => {
 
                 <h2>The Ultimate Guide to Window Packaging</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Window Packaging</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -205,8 +205,8 @@ const WindowPackaging = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

@@ -36,82 +36,82 @@ const products = [
     {
         name: "Heat Seal Mylar Bags",
         image: heatSealMylar,
-        description: "Durable, airtight heat seal mylar bags perfect for preserving freshness and protecting products.",
+        description: "Airtight heat-seal mylar bags that preserve freshness and protect high-value products during storage.",
     },
     {
         name: "Weed Mylar Bags",
         image: weedMylar,
-        description: "Custom branded mylar bags designed specifically for cannabis flower and infused products.",
+        description: "Custom-branded mylar bags tailored for cannabis products with odor-locking seals and vibrant graphics.",
     },
     {
         name: "Edible Mylar Bags",
         image: edibleMylar,
-        description: "Child-resistant and vibrant packaging solutions for edible cannabis products.",
+        description: "Child-resistant, tamper-evident edible pouches engineered for safety, compliance, and shelf appeal.",
     },
     {
         name: "Paper Bags With Handles",
         image: paperBagsHandle,
-        description: "Eco-friendly retail paper bags with twisted handles for a premium shopping experience.",
+        description: "Premium paper shopping bags with twisted handles designed for a refined and luxury unboxing experience.",
     },
     {
         name: "Holographic Bags",
         image: holographicBags,
-        description: "Eye-catching holographic pouches that stand out on retail shelves with iridescent finish.",
+        description: "Iridescent holographic pouches that capture attention on retail shelves with vivid reflective finishes.",
     },
     {
         name: "Kraft Bags",
         image: kraftBags,
-        description: "Sustainable kraft paper bags offering a natural, rustic look for various products.",
+        description: "Sustainable kraft paper bags offering a natural aesthetic and reliable strength for eco-conscious retail.",
     },
     {
         name: "Take Out Bags",
         image: takeOutBags,
-        description: "Reliable and spacious bags ideal for food service and restaurant take-out orders.",
+        description: "Durable takeout bags designed for foodservice, combining high capacity with superior grease resistance.",
     },
     {
         name: "T Shirt Bags",
         image: tShirtBags,
-        description: "Classic and economical handled carrier bags widely used for grocery and retail shopping.",
+        description: "Economical T-shirt carrier bags ideal for high-volume retail, perfectly balancing strength and cost.",
     },
     {
         name: "Paper Grocery Bags",
         image: paperGroceryBags,
-        description: "Heavy-duty paper bags designed to hold groceries and bulky items securely.",
+        description: "Heavy-duty grocery bags built to carry bulky items securely with reinforced handles and sturdy bases.",
     },
     {
         name: "Vacuum Seal Weed Bags",
         image: vacuumSealWebBags,
-        description: "Clear or opaque vacuum seal bags that unwanted odors locked in and oxygen out.",
+        description: "Vacuum-seal pouches that remove air to extend shelf life and maintain maximum product color and aroma.",
     },
     {
         name: "Smell Proof Weed Bags",
         image: smellProofWeedBags,
-        description: "Odor-locking technology ensured to keep cannabis products discreet and compliant.",
+        description: "Odor-locking bags engineered to contain scents while maintaining product integrity and regulatory compliance.",
     },
     {
         name: "Weed Bags 3.5",
         image: weedBags35,
-        description: "Perfectly sized eighth bags combining compliance with stunning custom graphic design.",
+        description: "Eighth-sized bags designed for compliance and high-impact custom branding for targeted retail displays.",
     },
     {
         name: "Sachet Packaging",
         image: sachetPackaging,
-        description: "Single-serving sachet pouches ideal for samples, powders, and small edible doses.",
+        description: "Single-serve sachets ideal for samples and travel sizes, offering portion control and clear branding.",
     },
     {
         name: "Coffee Bags",
         image: coffeeBags,
-        description: "Premium bags with degassing valves to keep roasted coffee beans fresh and aromatic.",
+        description: "Coffee bags with one-way degassing valves to preserve aroma and extend freshly roasted bean shelf life.",
     },
     {
         name: "Flat Bottom Bags",
         image: flatBottomBags,
-        description: "Box pouch bags with a flat base for excellent shelf stability and high fill volume.",
+        description: "Flat-bottom pouches that stand stable on store shelves while maximizing fill volume and brand visibility.",
     },
     {
         name: "Tin Tie Paper Bags",
         image: tinTiePaperBags,
-        description: "Classic bakery-style bags with reclosable metal ties to maintain product freshness.",
+        description: "Reclosable tin-tie bakery bags that preserve freshness and offer convenient resealing for all customers.",
     },
 ];
 
@@ -178,7 +178,7 @@ const CustomBags = () => {
                 </div>
             </section>
 
-{/* Products Grid */}
+            {/* Products Grid */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -190,7 +190,7 @@ const CustomBags = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {products.map((product, index) => (
                             <Card
                                 key={index}
@@ -208,7 +208,7 @@ const CustomBags = () => {
                                         <h3 className="font-semibold text-foreground text-sm mb-2">
                                             {product.name}
                                         </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
+                                        <p className="text-xs text-muted-foreground line-clamp-2 h-12 overflow-hidden">
                                             {product.description}
                                         </p>
                                     </div>
@@ -229,7 +229,7 @@ const CustomBags = () => {
 
                 <h2>The Ultimate Guide to Custom Custom Bags</h2>
                 <p>
-                    Preserve freshness, ensure safety, and captivate your audience with our industry-leading <strong>Custom Bags</strong>. 
+                    Preserve freshness, ensure safety, and captivate your audience with our industry-leading <strong>Custom Bags</strong>.
                     In markets like food, supplements, and cannabis, the barrier integrity of your packaging is non-negotiable. Our bags are engineered to provide the ultimate shield against environmental factors while serving as a vibrant canvas for your brand's messaging.
                     Combining high-barrier technology with stunning print quality, our pouches offer the perfect versatility for retail displays and safe storage.
                 </p>
@@ -276,8 +276,8 @@ const CustomBags = () => {
 
                 <h3>Wholesale & Compliance</h3>
                 <p>
-                    We cover all bases—from regulatory compliance (Child-Resistant certification, FDA food grade) to supply chain efficiency. 
-                    Our volume pricing structures ensure that you get the best margin possible as you scale. 
+                    We cover all bases—from regulatory compliance (Child-Resistant certification, FDA food grade) to supply chain efficiency.
+                    Our volume pricing structures ensure that you get the best margin possible as you scale.
                     Fast turnaround times and low MOQs make us the ideal partner for dynamic brands that need to move fast.
                 </p>
             </SEOContent>

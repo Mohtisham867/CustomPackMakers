@@ -32,18 +32,18 @@ import bookBoxes from "@/assets/stationery-boxes/book-boxes.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Business Cards", image: businessCards, description: "Professional cards for networking and branding." },
-    { name: "Document Folder", image: documentFolder, description: "Organized storage for important documents." },
-    { name: "Pen Gift Boxes", image: penGiftBoxes, description: "Elegant packaging for premium pens." },
-    { name: "Mailing Envelopes", image: mailingEnvelopes, description: "Secure envelopes for professional correspondence." },
-    { name: "Invitation Boxes", image: invitationBoxes, description: "Premium boxes for special event invitations." },
-    { name: "Marker Boxes", image: markerBoxes, description: "Protective packaging for marker sets." },
-    { name: "Staple Boxes", image: stapleBoxes, description: "Compact boxes for office staples." },
-    { name: "Cardboard Pencil Boxes", image: cardboardPencilBoxes, description: "Eco-friendly pencil storage solutions." },
-    { name: "Packaging Inserts", image: packagingInserts, description: "Custom inserts for organized packaging." },
-    { name: "Pencil Boxes", image: pencilBoxes, description: "Durable boxes for pencil storage." },
-    { name: "Custom Bookmarks", image: customBookmarks, description: "Branded bookmarks for promotional use." },
-    { name: "Book Boxes", image: bookBoxes, description: "Protective packaging for books and publications." },
+    { name: "Custom Business Cards", image: businessCards, description: "Professional cards for networking and branding featuring premium paper stocks and elegant custom finishes" },
+    { name: "Document Folder", image: documentFolder, description: "Organized storage for important documents featuring reinforced pockets and professional branded exteriors" },
+    { name: "Pen Gift Boxes", image: penGiftBoxes, description: "Elegant packaging for premium pens featuring soft velvet linings and precise internal product fitment" },
+    { name: "Mailing Envelopes", image: mailingEnvelopes, description: "Secure envelopes for professional correspondence featuring peel-and-seal strips and durable paper material" },
+    { name: "Invitation Boxes", image: invitationBoxes, description: "Premium boxes for special event invitations featuring luxury textures and sophisticated die-cut elements" },
+    { name: "Marker Boxes", image: markerBoxes, description: "Protective packaging for marker sets featuring organized internal trays and high-visibility retail graphics" },
+    { name: "Staple Boxes", image: stapleBoxes, description: "Compact boxes for office staples featuring sturdy cardboard construction and clear product identification" },
+    { name: "Cardboard Pencil Boxes", image: cardboardPencilBoxes, description: "Eco-friendly pencil storage solutions featuring sustainable materials and colorful custom-printed designs" },
+    { name: "Packaging Inserts", image: packagingInserts, description: "Custom inserts for organized packaging featuring tailored compartments to keep stationery items in place" },
+    { name: "Pencil Boxes", image: pencilBoxes, description: "Durable boxes for pencil storage designed for school or office use with high-quality child-safe materials" },
+    { name: "Custom Bookmarks", image: customBookmarks, description: "Branded bookmarks for promotional use featuring double-sided printing and premium protective coatings" },
+    { name: "Book Boxes", image: bookBoxes, description: "Protective packaging for books and publications featuring exact-fit dimensions and heavy-duty shipping board" },
 ];
 
 const productOptions = [
@@ -123,7 +123,7 @@ const StationeryBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -174,12 +174,12 @@ const StationeryBoxes = () => {
 
                 <h2>The Ultimate Guide to Stationery Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Stationery Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -222,8 +222,8 @@ const StationeryBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

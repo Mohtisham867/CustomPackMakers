@@ -27,9 +27,9 @@ const holographicBoxProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Holographic Mylar Bags", image: holographicMylarBags, description: "Flexible metallic pouches with rainbow finish" },
-    { name: "Holographic Bags", image: holographicBags, description: "Premium shiny retail and gift bags" },
-    { name: "Holographic Foiling Boxes", image: holographicFoilingBoxes, description: "Luxury boxes with stamped holographic foil" },
+    { name: "Holographic Mylar Bags", image: holographicMylarBags, description: "Flexible metallic pouches with rainbow finish designed for maximum barrier protection and stunning shelf impact" },
+    { name: "Holographic Bags", image: holographicBags, description: "Premium shiny retail and gift bags featuring eye-catching iridescent effects and durable carrying handles" },
+    { name: "Holographic Foiling Boxes", image: holographicFoilingBoxes, description: "Luxury boxes with stamped holographic foil designed to create a premium, futuristic brand experience" },
 ];
 
 const HolographicBoxes = () => {
@@ -94,7 +94,7 @@ const HolographicBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -151,12 +151,12 @@ const HolographicBoxes = () => {
 
                 <h2>The Ultimate Guide to Holographic Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Holographic Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -199,8 +199,8 @@ const HolographicBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

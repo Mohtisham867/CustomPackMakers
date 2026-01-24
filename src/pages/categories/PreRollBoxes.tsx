@@ -27,13 +27,13 @@ import childResistantPreRollBox from "@/assets/pre-roll-boxes/child-resistant-pr
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Hemp Pre Roll Boxes", image: hempPreRollBoxes, description: "Eco-friendly packaging for hemp pre-rolls." },
-    { name: "Custom Pre Roll Display Boxes", image: preRollDisplayBoxes, description: "Retail display boxes optimized for counters." },
-    { name: "Pre Roll Packaging Labels", image: preRollLabels, description: "Custom labels for branding and compliance." },
-    { name: "Luxury Pre Roll Packaging", image: luxuryPreRollPackaging, description: "Premium rigid boxes for a high-end experience." },
-    { name: "Custom Pre Roll Cone Packaging", image: preRollConePackaging, description: "Protective tubes for pre-roll cones." },
-    { name: "Pre Roll Joint Boxes", image: preRollJointBoxes, description: "Classic cigarette-style boxes for joints." },
-    { name: "Child Resistant Pre Roll Box", image: childResistantPreRollBox, description: "Safety-first packaging for compliance." },
+    { name: "Hemp Pre Roll Boxes", image: hempPreRollBoxes, description: "Eco-friendly packaging for hemp pre-rolls featuring sustainable materials and organic-style custom graphics" },
+    { name: "Custom Pre Roll Display Boxes", image: preRollDisplayBoxes, description: "Retail display boxes optimized for counters featuring eye-catching tiers and sturdy marketing headers" },
+    { name: "Pre Roll Packaging Labels", image: preRollLabels, description: "Custom labels for branding and compliance featuring durable adhesives and high-resolution legal text" },
+    { name: "Luxury Pre Roll Packaging", image: luxuryPreRollPackaging, description: "Premium rigid boxes for a high-end experience featuring magnetic closures and custom-fitted foam inserts" },
+    { name: "Custom Pre Roll Cone Packaging", image: preRollConePackaging, description: "Protective cardboard or plastic tubes for pre-roll cones featuring airtight seals and opaque brand colors" },
+    { name: "Pre Roll Joint Boxes", image: preRollJointBoxes, description: "Classic cigarette-style boxes for joints featuring unique flip-top lids and premium tactile print effects" },
+    { name: "Child Resistant Pre Roll Box", image: childResistantPreRollBox, description: "Safety-first packaging for compliance featuring certified child-resistant locks and durable outer shells" },
 ];
 
 const productOptions = [
@@ -108,7 +108,7 @@ const PreRollBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -159,12 +159,12 @@ const PreRollBoxes = () => {
 
                 <h2>The Ultimate Guide to Pre Roll Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Pre Roll Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -207,8 +207,8 @@ const PreRollBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

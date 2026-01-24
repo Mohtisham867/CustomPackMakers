@@ -47,7 +47,7 @@ import sustainablePackaging from "@/assets/industries/sustainable-packaging.jpg"
 import teaCoffeeCups from "@/assets/industries/tea-coffee-cups.jpg";
 import vapeBoxes from "@/assets/industries/vape-boxes.jpg";
 import weedBoxes from "@/assets/industries/weed-boxes.jpg";
-import heroBackground from "@/assets/industries-hero-bg.jpg";
+import heroBackground from "@/assets/industries-hero-v3.png";
 
 const industries = [
   { name: "Apparel Boxes", image: apparelBoxes },

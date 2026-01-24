@@ -26,13 +26,13 @@ import kraftMailerBoxes from "@/assets/kraft-mailer-boxes.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Kraft Soap Boxes", image: customKraftSoapBoxes, description: "Eco-friendly kraft soap packaging." },
-    { name: "Kraft Gift Boxes", image: kraftGiftBoxes, description: "Natural look gift boxes for all occasions." },
-    { name: "Kraft Mylar Bags", image: kraftMylarBags, description: "Sustainable flexible packaging solutions." },
-    { name: "Kraft Food Boxes", image: kraftFoodBoxes, description: "Food-safe biodegradable kraft boxes." },
-    { name: "Kraft Pie Boxes", image: kraftPieBoxes, description: "Sturdy kraft boxes for pastries and pies." },
-    { name: "Kraft Tuck Top Boxes", image: kraftTuckTopBoxes, description: "Versatile tuck top boxes in natural kraft." },
-    { name: "Kraft Mailer Boxes", image: kraftMailerBoxes, description: "Durable shipping solutions made from recycled materials." },
+    { name: "Custom Kraft Soap Boxes", image: customKraftSoapBoxes, description: "Eco-friendly kraft soap packaging featuring organic textures and biodegradable materials for sustainable brands" },
+    { name: "Kraft Gift Boxes", image: kraftGiftBoxes, description: "Natural look gift boxes for all occasions featuring reinforced structural walls and elegant hemp closures" },
+    { name: "Kraft Mylar Bags", image: kraftMylarBags, description: "Sustainable flexible packaging solutions featuring high-barrier liners and eco-friendly kraft paper exteriors" },
+    { name: "Kraft Food Boxes", image: kraftFoodBoxes, description: "Food-safe biodegradable kraft boxes featuring leak-resistant linings and vibrant soy-based custom inks" },
+    { name: "Kraft Pie Boxes", image: kraftPieBoxes, description: "Sturdy kraft boxes for pastries and pies featuring clear compostable windows and reinforced easy-load design" },
+    { name: "Kraft Tuck Top Boxes", image: kraftTuckTopBoxes, description: "Versatile tuck top boxes in natural kraft featuring easy-assembly locks and sustainable recycled materials" },
+    { name: "Kraft Mailer Boxes", image: kraftMailerBoxes, description: "Durable shipping solutions made from recycled materials featuring high-strength walls and eco-friendly print" },
 ];
 
 const productOptions = [
@@ -108,7 +108,7 @@ const SustainablePackaging = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -159,12 +159,12 @@ const SustainablePackaging = () => {
 
                 <h2>The Ultimate Guide to Sustainable Packaging</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Sustainable Packaging</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -207,8 +207,8 @@ const SustainablePackaging = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

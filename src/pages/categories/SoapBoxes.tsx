@@ -29,15 +29,15 @@ import soapBarLabels from "@/assets/soap-boxes/soap-sleeves.png"; // Placeholder
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Kraft Soap Boxes", image: kraftSoapBoxes, description: "Eco-friendly, rustic packaging for natural soaps." },
-    { name: "Bath Bomb Packaging", image: bathBombPackaging, description: "Vibrant and protective boxes for bath bombs." },
-    { name: "Custom Soap Wrapping Paper", image: wrappingPaper, description: "Elegant wrapping paper for a premium touch." },
-    { name: "Custom Handmade Soap Boxes", image: handmadeSoapBoxes, description: "Artisanal boxes for your handmade creations." },
-    { name: "Square Soap Boxes", image: squareSoapBoxes, description: "Modern square boxes for unique soap shapes." },
-    { name: "Custom Soap Bar Boxes", image: soapBarBoxes, description: "Standard fit boxes for soap bars of all sizes." },
-    { name: "Luxury Soap Packaging", image: luxurySoapPackaging, description: "Premium rigid boxes for high-end soap brands." },
-    { name: "Soap Sleeves", image: soapSleeves, description: "Minimalist sleeves to showcase your soap." },
-    { name: "Soap Bar Labels", image: soapBarLabels, description: "Custom labels to brand your soap bars." },
+    { name: "Custom Kraft Soap Boxes", image: kraftSoapBoxes, description: "Eco-friendly, rustic packaging for natural soaps featuring sustainable materials and organic aesthetic appeal" },
+    { name: "Bath Bomb Packaging", image: bathBombPackaging, description: "Vibrant and protective boxes for bath bombs designed to keep products fresh and aromatic during retail display" },
+    { name: "Custom Soap Wrapping Paper", image: wrappingPaper, description: "Elegant wrapping paper for a premium touch, providing a sophisticated layer of protection for artisanal soaps" },
+    { name: "Custom Handmade Soap Boxes", image: handmadeSoapBoxes, description: "Artisanal boxes crafted for your handmade creations, highlighting the unique quality of your specialty soap line" },
+    { name: "Square Soap Boxes", image: squareSoapBoxes, description: "Modern square boxes for unique soap shapes, offering a clean and contemporary look for professional branding" },
+    { name: "Custom Soap Bar Boxes", image: soapBarBoxes, description: "Standard fit boxes for soap bars of all sizes, featuring durable construction and high-quality printed designs" },
+    { name: "Luxury Soap Packaging", image: luxurySoapPackaging, description: "Premium rigid boxes for high-end soap brands, combining luxurious finishes with superior product protection" },
+    { name: "Soap Sleeves", image: soapSleeves, description: "Minimalist sleeves to showcase your soap, allowing customers to see the product while maintaining brand identity" },
+    { name: "Soap Bar Labels", image: soapBarLabels, description: "Custom labels to brand your soap bars with professional graphics and essential product information display" },
 ];
 
 const productOptions = [
@@ -114,7 +114,7 @@ const SoapBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -165,12 +165,12 @@ const SoapBoxes = () => {
 
                 <h2>The Ultimate Guide to Soap Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Soap Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -213,8 +213,8 @@ const SoapBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>

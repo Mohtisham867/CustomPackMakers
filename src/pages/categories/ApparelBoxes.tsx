@@ -36,23 +36,23 @@ import luxuryApparelBoxes from "@/assets/apparel-products/luxury-apparel-boxes.j
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-  { name: "Custom Shoe Boxes", image: customShoeBoxes, description: "Premium shoe packaging solutions" },
-  { name: "Cufflink Boxes", image: cufflinkBoxes, description: "Elegant cufflink presentation boxes" },
-  { name: "Tie Boxes", image: tieBoxes, description: "Professional tie packaging" },
-  { name: "Belt Boxes", image: beltBoxes, description: "Stylish belt storage boxes" },
-  { name: "Clothing Boxes", image: clothingBoxes, description: "Versatile clothing packaging" },
-  { name: "Lingerie Boxes", image: lingerieBoxes, description: "Delicate lingerie packaging" },
-  { name: "Underwear Boxes", image: underwearBoxes, description: "Comfortable underwear boxes" },
-  { name: "T Shirt Boxes", image: tshirtBoxes, description: "Custom t-shirt packaging" },
-  { name: "Socks Boxes", image: socksBoxes, description: "Creative sock packaging" },
-  { name: "Clothing Hang Tags", image: clothingHangTags, description: "Professional hang tags" },
-  { name: "Hat Shipping Boxes", image: hatShippingBoxes, description: "Secure hat shipping" },
-  { name: "Sunglasses Boxes", image: sunglassesBoxes, description: "Protective sunglasses cases" },
-  { name: "Apparel Gift Boxes", image: apparelGiftBoxes, description: "Premium gift packaging" },
-  { name: "Hoodie Packaging", image: hoodiePackaging, description: "Custom hoodie boxes" },
-  { name: "Wedding Dress Boxes", image: weddingDressBoxes, description: "Luxury dress preservation" },
-  { name: "Hat Boxes", image: hatBoxes, description: "Classic hat storage" },
-  { name: "Luxury Apparel Boxes", image: luxuryApparelBoxes, description: "High-end fashion packaging" },
+  { name: "Custom Shoe Boxes", image: customShoeBoxes, description: "Premium shoe packaging that protects footwear while showcasing your brand with style and durability" },
+  { name: "Cufflink Boxes", image: cufflinkBoxes, description: "Elegant boxes for luxury cufflinks featuring refined finishes and protective cushioned interiors" },
+  { name: "Tie Boxes", image: tieBoxes, description: "Professional tie packaging that preserves shape and prevents wrinkles for retail presentation" },
+  { name: "Belt Boxes", image: beltBoxes, description: "Stylish belt boxes designed to protect and display premium accessories with upscale finishes" },
+  { name: "Clothing Boxes", image: clothingBoxes, description: "Versatile packaging for folded garments, retail displays, and gift presentation with quality construction" },
+  { name: "Lingerie Boxes", image: lingerieBoxes, description: "Delicate lingerie packaging with soft-touch interiors and tasteful premium presentation design" },
+  { name: "Underwear Boxes", image: underwearBoxes, description: "Secure underwear packaging ideal for retail and subscription services with sustainable materials" },
+  { name: "T Shirt Boxes", image: tshirtBoxes, description: "Custom t-shirt boxes keeping garments neatly folded and retail-ready with enhanced branding options" },
+  { name: "Socks Boxes", image: socksBoxes, description: "Creative sock packaging for pairs and gift sets offering protection and attractive shelf presence" },
+  { name: "Clothing Hang Tags", image: clothingHangTags, description: "Premium hang tags conveying brand quality, printed on sturdy stock with crisp professional finishes" },
+  { name: "Hat Shipping Boxes", image: hatShippingBoxes, description: "Rugged shipping boxes designed to prevent crushing ensuring hats arrive in perfect retail condition" },
+  { name: "Sunglasses Boxes", image: sunglassesBoxes, description: "Protective cases with cushioned interiors and secure closures guarding eyewear from scratches" },
+  { name: "Apparel Gift Boxes", image: apparelGiftBoxes, description: "Premium gift packaging elevating the unboxing experience with luxe finishes and structural protection" },
+  { name: "Hoodie Packaging", image: hoodiePackaging, description: "Custom hoodie boxes sized for folded sweatshirts offering durable protection and branding options" },
+  { name: "Wedding Dress Boxes", image: weddingDressBoxes, description: "Luxury preservation boxes protecting wedding gowns long-term using archival materials and spacious design" },
+  { name: "Hat Boxes", image: hatBoxes, description: "Classic hat boxes preserving shape and protecting from dust in round or square sturdy formats" },
+  { name: "Luxury Apparel Boxes", image: luxuryApparelBoxes, description: "High-end packaging with premium finishes and bespoke structures reflecting luxury fashion standards" },
 ];
 
 const ApparelBoxes = () => {
@@ -117,7 +117,7 @@ const ApparelBoxes = () => {
             </div>
           </div>
 
-{/* Related Products Section */}
+          {/* Related Products Section */}
           <section className="mt-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Prove The Quality Experience Of Clothing Products
@@ -145,7 +145,7 @@ const ApparelBoxes = () => {
                       <h3 className="font-semibold text-foreground text-sm mb-2">
                         {product.name}
                       </h3>
-                      <p className="text-xs text-muted-foreground">
+                      <p className="text-xs text-muted-foreground line-clamp-2 min-h-[3rem] block">
                         {product.description}
                       </p>
                     </div>
@@ -163,61 +163,61 @@ const ApparelBoxes = () => {
       <QuoteForm />
       <SEOContent>
 
-                <h2>The Ultimate Guide to Apparel Boxes</h2>
-                <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
-                    Our <strong>Apparel Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
-                    Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
-                </p>
-                <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
-                    From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
-                </p>
+        <h2>The Ultimate Guide to Apparel Boxes</h2>
+        <p>
+          In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
+          Our <strong>Apparel Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
+          Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
+        </p>
+        <p>
+          We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
+          From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
+        </p>
 
-                <h3>Unmatched Material Quality & Durability</h3>
-                <p>
-                    The foundation of exceptional packaging lies in the materials used. We offer a diverse spectrum of stocks to suit different weight requirements and aesthetic preferences:
-                </p>
-                <ul>
-                    <li><strong>Corrugated Cardboard:</strong> Ideal for shipping and heavy-duty protection. Available in various flute sizes (E-flute, B-flute) to balance strength and printability.</li>
-                    <li><strong>Rigid Board:</strong> The epitome of luxury. This thick, unbending material is perfect for high-end gift sets, electronics, and premium cosmetics, often paired with magnetic closures.</li>
-                    <li><strong>Kraft Stock:</strong> An eco-friendly favorite. Biodegradable and recyclable, it offers a natural, rustic look that appeals to environmentally conscious consumers.</li>
-                    <li><strong>Cardstock (SBS/C1S):</strong> Lightweight and highly printable, making it perfect for retail shelves, cosmetics, and food packaging where graphical fidelity is paramount.</li>
-                </ul>
-                <p>
-                    Each material is tested for compression strength and edge crush resistance, ensuring your products arrive at their destination in pristine condition, regardless of the shipping rigors.
-                </p>
+        <h3>Unmatched Material Quality & Durability</h3>
+        <p>
+          The foundation of exceptional packaging lies in the materials used. We offer a diverse spectrum of stocks to suit different weight requirements and aesthetic preferences:
+        </p>
+        <ul>
+          <li><strong>Corrugated Cardboard:</strong> Ideal for shipping and heavy-duty protection. Available in various flute sizes (E-flute, B-flute) to balance strength and printability.</li>
+          <li><strong>Rigid Board:</strong> The epitome of luxury. This thick, unbending material is perfect for high-end gift sets, electronics, and premium cosmetics, often paired with magnetic closures.</li>
+          <li><strong>Kraft Stock:</strong> An eco-friendly favorite. Biodegradable and recyclable, it offers a natural, rustic look that appeals to environmentally conscious consumers.</li>
+          <li><strong>Cardstock (SBS/C1S):</strong> Lightweight and highly printable, making it perfect for retail shelves, cosmetics, and food packaging where graphical fidelity is paramount.</li>
+        </ul>
+        <p>
+          Each material is tested for compression strength and edge crush resistance, ensuring your products arrive at their destination in pristine condition, regardless of the shipping rigors.
+        </p>
 
-                <h3>Advanced Printing & Finishing Options</h3>
-                <p>
-                    Transform your packaging into a work of art with our state-of-the-art printing capabilities. We utilize advanced offset and digital printing technologies to achieve vibrant, color-accurate results (CMYK & Pantone) that make your logo and artwork pop.
-                    Beyond standard printing, we offer a suite of premium finishing options to add tactile and visual depth:
-                </p>
-                <ul>
-                    <li><strong>Spot UV:</strong> Create a striking contrast by adding a high-gloss coating to specific areas like logos or patterns against a matte background.</li>
-                    <li><strong>Foil Stamping:</strong> Add a touch of elegance with metallic gold, silver, or holographic foils that catch the light and convey luxury.</li>
-                    <li><strong>Embossing & Debossing:</strong> Add dimension to your packaging with raised (embossed) or recessed (debossed) elements for a premium tactile feel.</li>
-                    <li><strong>Matte & Gloss Lamination:</strong> Choose Soft-Touch Matte for a velvety smooth feel or High-Gloss for a vibrant, shiny finish that protects against scuffs.</li>
-                </ul>
+        <h3>Advanced Printing & Finishing Options</h3>
+        <p>
+          Transform your packaging into a work of art with our state-of-the-art printing capabilities. We utilize advanced offset and digital printing technologies to achieve vibrant, color-accurate results (CMYK & Pantone) that make your logo and artwork pop.
+          Beyond standard printing, we offer a suite of premium finishing options to add tactile and visual depth:
+        </p>
+        <ul>
+          <li><strong>Spot UV:</strong> Create a striking contrast by adding a high-gloss coating to specific areas like logos or patterns against a matte background.</li>
+          <li><strong>Foil Stamping:</strong> Add a touch of elegance with metallic gold, silver, or holographic foils that catch the light and convey luxury.</li>
+          <li><strong>Embossing & Debossing:</strong> Add dimension to your packaging with raised (embossed) or recessed (debossed) elements for a premium tactile feel.</li>
+          <li><strong>Matte & Gloss Lamination:</strong> Choose Soft-Touch Matte for a velvety smooth feel or High-Gloss for a vibrant, shiny finish that protects against scuffs.</li>
+        </ul>
 
-                <h3>Comprehensive Size & Shape Customization</h3>
-                <p>
-                    One size does not fit all. We specialize in fully bespoke structural design. Whether you need a standard tuck-end box, a complex mailer with inserts, or a unique geometric shape to stand out on the shelf, we can engineer it.
-                    Our CAD specialists work with you to create die-lines that fit your product perfectly—minimizing movement and preventing damage.
-                </p>
-                <ul>
-                    <li><strong>Custom Inserts:</strong> Foam, cardboard, or molded pulp inserts custom-shaped to hold your product securely in place.</li>
-                    <li><strong>Window Cutouts:</strong> transparent PET windows to let customers see the product inside, building trust and driving sales.</li>
-                    <li><strong>Unique Closures:</strong> Magnetic catches, ribbon ties, tuck-tops, and auto-lock bottoms for convenience and security.</li>
-                </ul>
+        <h3>Comprehensive Size & Shape Customization</h3>
+        <p>
+          One size does not fit all. We specialize in fully bespoke structural design. Whether you need a standard tuck-end box, a complex mailer with inserts, or a unique geometric shape to stand out on the shelf, we can engineer it.
+          Our CAD specialists work with you to create die-lines that fit your product perfectly—minimizing movement and preventing damage.
+        </p>
+        <ul>
+          <li><strong>Custom Inserts:</strong> Foam, cardboard, or molded pulp inserts custom-shaped to hold your product securely in place.</li>
+          <li><strong>Window Cutouts:</strong> transparent PET windows to let customers see the product inside, building trust and driving sales.</li>
+          <li><strong>Unique Closures:</strong> Magnetic catches, ribbon ties, tuck-tops, and auto-lock bottoms for convenience and security.</li>
+        </ul>
 
-                <h3>Wholesale Benefits & Scalability</h3>
-                <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
-                    Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
-                </p>
-            </SEOContent>
+        <h3>Wholesale Benefits & Scalability</h3>
+        <p>
+          Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+          Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
+          Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
+        </p>
+      </SEOContent>
       <Footer />
     </div>
   );

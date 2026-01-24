@@ -36,24 +36,24 @@ import paperBagsWithHandles from "@/assets/custom-paper-bags/paper-bags-with-han
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Auto Bottom Gable Bags", image: customAutoBottomGableBags, description: "Secure and convenient custom gable bags with auto bottom." },
-    { name: "Custom Paper Food Bags", image: customPaperFoodBags, description: "Safe and hygienic paper bags for all types of food items." },
-    { name: "Christmas Paper Bags", image: christmasPaperBags, description: "Festive paper bags designed for Christmas gifts and treats." },
-    { name: "Christmas Gift Bags", image: christmasGiftBags, description: "Beautifully designed gift bags for the holiday season." },
-    { name: "Custom Brown Paper Bags", image: customBrownPaperBags, description: "Classic and eco-friendly brown paper bags." },
-    { name: "Paper Shopping Bags", image: paperShoppingBags, description: "Durable paper shopping bags for retail and events." },
-    { name: "White Paper Bags", image: whitePaperBags, description: "Clean and versatile white paper bags for any occasion." },
-    { name: "Paper Gift Bags", image: paperGiftBags, description: "Elegant paper bags for packaging gifts." },
-    { name: "Paper Lunch Bags", image: paperLunchBags, description: "Standard paper bags perfect for lunch packaging." },
-    { name: "Fries Bag", image: friesBag, description: "Specialized paper bags for serving french fries." },
-    { name: "Glassine Bags", image: glassineBags, description: "Grease-resistant glassine bags for bakery and confectionery." },
-    { name: "Candy Bags", image: candyBags, description: "Colorful and fun bags for candies and sweets." },
-    { name: "Bakery Bags", image: bakeryBags, description: "Freshness-preserving bags for bread and pastries." },
-    { name: "Cookie Bags", image: cookieBags, description: "Attractive bags for packaging cookies and biscuits." },
-    { name: "Gift Bags", image: giftBags, description: "General purpose gift bags for various occasions." },
-    { name: "Carry Out Bags", image: carryOutBags, description: "Sturdy carry-out bags for restaurants and cafes." },
-    { name: "Exotic Weed Bag", image: exoticWeedBag, description: "Custom packaging bags for exotic weed products." },
-    { name: "Paper Bags With Handles", image: paperBagsWithHandles, description: "Convenient paper bags with durable handles." },
+    { name: "Custom Auto Bottom Gable Bags", image: customAutoBottomGableBags, description: "Secure and convenient custom gable bags featuring an auto bottom for quick assembly and easy loading" },
+    { name: "Custom Paper Food Bags", image: customPaperFoodBags, description: "Safe and hygienic paper bags designed for all types of food items with grease-resistant material" },
+    { name: "Christmas Paper Bags", image: christmasPaperBags, description: "Festive paper bags designed for Christmas gifts and treats featuring vibrant holiday-themed artwork" },
+    { name: "Christmas Gift Bags", image: christmasGiftBags, description: "Beautifully designed gift bags for the holiday season with premium finishes and seasonal graphics" },
+    { name: "Custom Brown Paper Bags", image: customBrownPaperBags, description: "Classic and eco-friendly brown paper bags crafted from high-quality durable and recycled materials" },
+    { name: "Paper Shopping Bags", image: paperShoppingBags, description: "Durable paper shopping bags for retail and events featuring reinforced handles and sturdy bases" },
+    { name: "White Paper Bags", image: whitePaperBags, description: "Clean and versatile white paper bags for any occasion with a smooth surface for custom branding" },
+    { name: "Paper Gift Bags", image: paperGiftBags, description: "Elegant paper bags for packaging gifts for any special event with a premium feel and appearance" },
+    { name: "Paper Lunch Bags", image: paperLunchBags, description: "Standard paper bags perfect for lunch packaging and small grocery items with reliable strength" },
+    { name: "Fries Bag", image: friesBag, description: "Specialized grease-resistant paper bags for serving french fries and hot snacks in food service" },
+    { name: "Glassine Bags", image: glassineBags, description: "Grease-resistant glassine bags perfect for bakery and confectionery with a smooth translucent finish" },
+    { name: "Candy Bags", image: candyBags, description: "Colorful and fun bags for candies and sweets featuring attractive designs to appeal to customers" },
+    { name: "Bakery Bags", image: bakeryBags, description: "Freshness-preserving bags for bread and pastries designed for sustainable food retail packaging" },
+    { name: "Cookie Bags", image: cookieBags, description: "Attractive bags for packaging cookies and biscuits with a protective lining to maintain freshness" },
+    { name: "Gift Bags", image: giftBags, description: "General purpose gift bags for various occasions featuring durable construction and elegant styles" },
+    { name: "Carry Out Bags", image: carryOutBags, description: "Sturdy carry-out bags for restaurants and cafes designed to transport food containers safely" },
+    { name: "Exotic Weed Bag", image: exoticWeedBag, description: "Custom packaging bags for exotic weed products featuring high-impact graphics and smell-proof seals" },
+    { name: "Paper Bags With Handles", image: paperBagsWithHandles, description: "Convenient paper bags with durable handles designed for retail shopping and premium gift-giving" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -121,7 +121,7 @@ const CustomPaperBags = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -182,7 +182,7 @@ const CustomPaperBags = () => {
 
                 <h2>The Ultimate Guide to Custom Custom Paper Bags</h2>
                 <p>
-                    Preserve freshness, ensure safety, and captivate your audience with our industry-leading <strong>Custom Paper Bags</strong>. 
+                    Preserve freshness, ensure safety, and captivate your audience with our industry-leading <strong>Custom Paper Bags</strong>.
                     In markets like food, supplements, and cannabis, the barrier integrity of your packaging is non-negotiable. Our bags are engineered to provide the ultimate shield against environmental factors while serving as a vibrant canvas for your brand's messaging.
                     Combining high-barrier technology with stunning print quality, our pouches offer the perfect versatility for retail displays and safe storage.
                 </p>
@@ -229,8 +229,8 @@ const CustomPaperBags = () => {
 
                 <h3>Wholesale & Compliance</h3>
                 <p>
-                    We cover all bases—from regulatory compliance (Child-Resistant certification, FDA food grade) to supply chain efficiency. 
-                    Our volume pricing structures ensure that you get the best margin possible as you scale. 
+                    We cover all bases—from regulatory compliance (Child-Resistant certification, FDA food grade) to supply chain efficiency.
+                    Our volume pricing structures ensure that you get the best margin possible as you scale.
                     Fast turnaround times and low MOQs make us the ideal partner for dynamic brands that need to move fast.
                 </p>
             </SEOContent>

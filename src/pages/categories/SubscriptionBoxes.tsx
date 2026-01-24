@@ -40,25 +40,25 @@ import { SEOContent } from "@/components/SEOContent";
 const placeholderImage = subscriptionBoxesHero;
 
 const relatedProducts = [
-    { name: "Candle Subscription Boxes", image: candleSubscriptionBox, description: "Elegant packaging for scented candle subscriptions." },
-    { name: "CBD Subscription Boxes", image: cbdSubscriptionBox, description: "Secure and professional boxes for CBD products." },
-    { name: "Chocolate Subscription Box", image: chocolateSubscriptionBox, description: "Luxurious packaging for gourmet chocolates." },
-    { name: "Cosmetic Subscription Boxes", image: cosmeticSubscriptionBox, description: "Chic designs for beauty and makeup subscriptions." },
-    { name: "Soap Subscription Boxes", image: soapSubscriptionBox, description: "Fresh and clean packaging for artisanal soaps." },
-    { name: "Stationery Subscription Box", image: stationerySubscriptionBox, description: "Creative boxes for paper and writing supplies." },
-    { name: "Subscription Boxes For Men", image: subscriptionBoxesForMen, description: "Masculine and bold designs for men's products." },
-    { name: "Subscription Boxes For Kids", image: subscriptionBoxesForKids, description: "Fun and colorful boxes to excite children." },
-    { name: "Food Subscription Boxes", image: foodSubscriptionBoxes, description: "Durable packaging for gourmet food deliveries." },
-    { name: "Mystery Subscription Boxes", image: mysterySubscriptionBoxes, description: "Intriguing designs for surprise box subscriptions." },
-    { name: "Candy Subscription Boxes", image: candySubscriptionBoxes, description: "Sweet and vibrant packaging for candy lovers." },
-    { name: "Art Subscription Boxes", image: artSubscriptionBoxes, description: "Artistic and inspiring boxes for creative supplies." },
-    { name: "Pet Food Subscription Boxes", image: petFoodSubscriptionBoxes, description: "Sturdy boxes for heavy pet food deliveries." },
-    { name: "Golf Subscription Boxes", image: golfSubscriptionBoxes, description: "Sporty and premium boxes for golf enthusiasts." },
-    { name: "Subscription Boxes For Women", image: subscriptionBoxesForWomen, description: "Elegant and stylish boxes for women's lifestyle products." },
-    { name: "Monthly Subscription Boxes", image: monthlySubscriptionBoxes, description: "Reliable packaging for recurring monthly deliveries." },
-    { name: "Harry Potter Subscription Boxes", image: harryPotterSubscriptionBoxes, description: "Magical wizard-themed boxes for fans." },
-    { name: "Sports Subscription Boxes", image: sportsSubscriptionBoxes, description: "Dynamic designs for sports gear and memorabilia." },
-    { name: "Disney Subscription Boxes", image: disneySubscriptionBoxes, description: "Fairytale-themed boxes for magical unboxing moments." },
+    { name: "Candle Subscription Boxes", image: candleSubscriptionBox, description: "Elegant packaging for scented candle subscriptions featuring protective inserts for fragile glass jars" },
+    { name: "CBD Subscription Boxes", image: cbdSubscriptionBox, description: "Secure and professional boxes for CBD products ensuring compliant labeling and child-resistant safety" },
+    { name: "Chocolate Subscription Box", image: chocolateSubscriptionBox, description: "Luxurious packaging for gourmet chocolates featuring temperature-resistant materials and elegant presentation" },
+    { name: "Cosmetic Subscription Boxes", image: cosmeticSubscriptionBox, description: "Chic designs for beauty and makeup subscriptions featuring glamorous finishes and partitioned compartments" },
+    { name: "Soap Subscription Boxes", image: soapSubscriptionBox, description: "Fresh and clean packaging for artisanal soaps featuring breathable paperboard and moisture protection" },
+    { name: "Stationery Subscription Box", image: stationerySubscriptionBox, description: "Creative boxes for paper and writing supplies featuring protective flat designs for cards and notebooks" },
+    { name: "Subscription Boxes For Men", image: subscriptionBoxesForMen, description: "Masculine and bold designs for men's products featuring robust construction and minimalist aesthetics" },
+    { name: "Subscription Boxes For Kids", image: subscriptionBoxesForKids, description: "Fun and colorful boxes to excite children featuring playful illustrations and safe protective materials" },
+    { name: "Food Subscription Boxes", image: foodSubscriptionBoxes, description: "Durable packaging for gourmet food deliveries featuring thermal insulation and food-safe interior coatings" },
+    { name: "Mystery Subscription Boxes", image: mysterySubscriptionBoxes, description: "Intriguing designs for surprise box subscriptions featuring opaque packaging and curiosity-building graphics" },
+    { name: "Candy Subscription Boxes", image: candySubscriptionBoxes, description: "Sweet and vibrant packaging for candy lovers featuring bright colors and secure seals for freshness" },
+    { name: "Art Subscription Boxes", image: artSubscriptionBoxes, description: "Artistic and inspiring boxes for creative supplies featuring durable protection for delicate craft items" },
+    { name: "Pet Food Subscription Boxes", image: petFoodSubscriptionBoxes, description: "Sturdy boxes for heavy pet food deliveries featuring reinforced corrugated board and tear-resistant handles" },
+    { name: "Golf Subscription Boxes", image: golfSubscriptionBoxes, description: "Sporty and premium boxes for golf enthusiasts featuring protective spacers for clubs and accessories" },
+    { name: "Subscription Boxes For Women", image: subscriptionBoxesForWomen, description: "Elegant and stylish boxes for women's lifestyle products featuring floral prints and soft-touch finishes" },
+    { name: "Monthly Subscription Boxes", image: monthlySubscriptionBoxes, description: "Reliable packaging for recurring monthly deliveries featuring consistent branding and durable shipping board" },
+    { name: "Harry Potter Subscription Boxes", image: harryPotterSubscriptionBoxes, description: "Magical wizard-themed boxes for fans featuring cryptic designs and high-fidelity thematic illustrations" },
+    { name: "Sports Subscription Boxes", image: sportsSubscriptionBoxes, description: "Dynamic designs for sports gear and memorabilia featuring action-oriented graphics and robust protection" },
+    { name: "Disney Subscription Boxes", image: disneySubscriptionBoxes, description: "Fairytale-themed boxes for magical unboxing moments featuring iconic characters and enchanting color palettes" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -124,7 +124,7 @@ const SubscriptionBoxes = () => {
                 </div>
             </section>
 
-{/* Related Products Section */}
+            {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
                     <div className="mb-12">
@@ -189,12 +189,12 @@ const SubscriptionBoxes = () => {
 
                 <h2>The Ultimate Guide to Subscription Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly. 
+                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
                     Our <strong>Subscription Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
                     Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch. 
+                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
                     From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
                 </p>
 
@@ -237,8 +237,8 @@ const SubscriptionBoxes = () => {
 
                 <h3>Wholesale Benefits & Scalability</h3>
                 <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you. 
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders. 
+                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
+                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
                     Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
                 </p>
             </SEOContent>
