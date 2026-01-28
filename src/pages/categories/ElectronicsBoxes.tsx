@@ -30,7 +30,7 @@ import softwareBoxes from "../../assets/electronics-boxes/software-boxes.jpg";
 // General shapes mapping
 // import mailerBoxes from "@/assets/box-shapes/mailer-boxes.jpg";
 // import tuckBoxes from "@/assets/box-shapes/tuck-boxes.jpg";
-// import paperBags from "@/assets/box-shapes/custom-paper-bags.jpg";
+// import paperBags from "@/assets/box-shapes/custom-paper-bags.png";
 // import customShapeBoxes from "@/assets/box-shapes/custom-shape-boxes.jpg";
 // import shippingBoxes from "@/assets/box-shapes/shipping-boxes.jpg";
 import { SEOContent } from "@/components/SEOContent";

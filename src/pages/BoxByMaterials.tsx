@@ -14,8 +14,8 @@ import heroBg from "@/assets/box-by-materials-hero.png";
 import kraftBoxesHero from "@/assets/kraft-boxes/kraft-boxes-hero.png";
 import cardboardBoxesHero from "@/assets/cardboard-boxes-hero.png";
 import corrugatedBoxesHero from "@/assets/corrugated-boxes-hero.png";
-import rigidBoxesHero from "@/assets/rigid-boxes/rigid-boxes-hero.jpg";
-import holographicBoxesHero from "@/assets/holographic-boxes-hero.png";
+import rigidBoxesHero from "@/assets/products/rigid-boxes-new.png";
+import holographicBoxesHero from "@/assets/holographic-boxes-hero.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -52,7 +52,7 @@ const materialCategories: MaterialCategory[] = [
     description: "Premium luxury packaging with dense chipboard construction and elegant presentation"
   },
   {
-    name: "Metallic Paper Boxes",
+    name: "Holographic Boxes",
     image: holographicBoxesHero,
     link: "/industries/holographic-boxes",
     description: "Eye-catching metallic finishes with dynamic visual effects and premium appeal"

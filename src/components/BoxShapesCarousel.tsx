@@ -10,7 +10,7 @@ import Autoplay from "embla-carousel-autoplay";
 import childResistant from "@/assets/box-shapes/child-resistant-packaging.jpg";
 import customBags from "@/assets/box-shapes/custom-bags.jpg";
 import customMylarBags from "@/assets/box-shapes/custom-mylar-bags.jpg";
-import customPaperBags from "@/assets/box-shapes/custom-paper-bags.jpg";
+import customPaperBags from "@/assets/box-shapes/custom-paper-bags.png"; // Updated to png
 import customShapeBoxes from "@/assets/box-shapes/custom-shape-boxes.jpg";
 import displayBoxes from "@/assets/box-shapes/display-boxes.jpg";
 import gableBoxes from "@/assets/box-shapes/gable-boxes.jpg";

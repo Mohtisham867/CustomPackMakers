@@ -88,12 +88,12 @@ export const ProductGrid = () => {
         </div>
 
         <div className="text-center mt-12">
-          <a
-            href="#quote"
+          <Link
+            to="/industries"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3 rounded-md font-semibold hover:bg-primary/90 transition-colors"
           >
             View All Products
-          </a>
+          </Link>
         </div>
       </div>
     </section>
