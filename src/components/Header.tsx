@@ -161,7 +161,6 @@ export const Header = () => {
     { label: "Mylar Bags", href: "/categories/custom-mylar-bags", hasDropdown: false },
     { label: "Primary Packaging", href: "/primary-packaging", hasDropdown: false },
     { label: "Packaging Hub", href: "/packaging-hub", hasDropdown: false },
-    { label: "Insights", href: "#insights", hasDropdown: false },
     { label: "Help & FAQ", href: "#faq", hasDropdown: false },
   ];
 
