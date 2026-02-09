@@ -24,7 +24,7 @@ const products = [
   { name: "RIGID BOXES", image: rigidBoxes, link: "/industries/rigid-boxes" },
   { name: "TUCK BOXES", image: tuckBoxes, link: "/industries/tuck-boxes" },
   { name: "CIGARETTE BOXES", image: cigaretteBoxes, link: "/industries/cigarette-boxes" },
-  { name: "MYLAR BAGS", image: mylarBags, link: "/industries/mylar-bags" },
+  { name: "MYLAR BAGS", image: mylarBags, link: "/categories/custom-mylar-bags" },
   { name: "CARDBOARD BOXES", image: cardboardBoxes, link: "/industries/cardboard-boxes" },
 ];
 

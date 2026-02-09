@@ -17,11 +17,13 @@ export const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-7xl mx-auto">
           {/* Left Content */}
           <div className="space-y-6 lg:space-y-8 text-center lg:text-left">
+            {/* Badge - Visible on all devices */}
             <div className="inline-flex items-center gap-2 bg-muted/50 border border-border px-4 py-2 rounded-md mx-auto lg:mx-0">
               <Star className="h-3.5 w-3.5 text-primary fill-primary" />
               <span className="text-sm font-medium text-foreground">Trusted by 5,000+ Businesses Worldwide</span>
             </div>
 
+            {/* Heading and Subtext */}
             <div className="space-y-4 lg:space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-[60px] font-bold leading-[1.1] tracking-tight text-foreground">
                 Premium Custom
@@ -34,7 +36,19 @@ export const Hero = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-2 justify-center lg:justify-start">
+            {/* Image - Mobile Only (shown after text) */}
+            <div className="lg:hidden relative mt-8">
+              <div className="relative rounded-lg overflow-hidden border border-border/50 aspect-video">
+                <img
+                  src={heroImage}
+                  alt="Custom Packaging Boxes"
+                  className="w-full h-full object-cover" loading="lazy"
+                />
+              </div>
+            </div>
+
+            {/* Action Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 pt-2 justify-center lg:justify-start mt-8 lg:mt-0">
               <a href="#quote" className="w-full sm:w-auto">
                 <Button size="lg" className="gradient-primary text-base px-8 h-12 font-medium group w-full sm:w-auto">
                   Request a Quote
@@ -48,8 +62,8 @@ export const Hero = () => {
               </a>
             </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-4 md:gap-8 pt-8 border-t border-border/60">
+            {/* Stats - Desktop Only (shown below buttons) */}
+            <div className="hidden lg:grid grid-cols-3 gap-4 md:gap-8 pt-8 border-t border-border/60">
               <div ref={productCount.ref} className="space-y-1">
                 <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground transition-all duration-300">
                   {productCount.count}
@@ -71,8 +85,8 @@ export const Hero = () => {
             </div>
           </div>
 
-          {/* Right Image */}
-          <div className="relative lg:ml-8 mt-8 lg:mt-0 order-first lg:order-last">
+          {/* Right Image - Desktop Only */}
+          <div className="hidden lg:block relative lg:ml-8">
             <div className="relative rounded-lg overflow-hidden border border-border/50 aspect-video lg:aspect-auto">
               <img
                 src={heroImage}
@@ -80,6 +94,28 @@ export const Hero = () => {
                 className="w-full h-full object-cover" loading="lazy"
               />
             </div>
+          </div>
+        </div>
+
+        {/* Stats - Mobile Only (shown at bottom) */}
+        <div className="lg:hidden grid grid-cols-3 gap-4 md:gap-8 mt-12 pt-8 border-t border-border/60 max-w-3xl mx-auto">
+          <div ref={productCount.ref} className="space-y-1 text-center">
+            <div className="text-2xl md:text-3xl font-bold text-foreground transition-all duration-300">
+              {productCount.count}
+            </div>
+            <div className="text-xs md:text-sm text-muted-foreground font-medium">Product Options</div>
+          </div>
+          <div ref={responseTime.ref} className="space-y-1 text-center">
+            <div className="text-2xl md:text-3xl font-bold text-foreground transition-all duration-300">
+              {responseTime.count}
+            </div>
+            <div className="text-xs md:text-sm text-muted-foreground font-medium">Quick Response</div>
+          </div>
+          <div ref={ecoFriendly.ref} className="space-y-1 text-center">
+            <div className="text-2xl md:text-3xl font-bold text-foreground transition-all duration-300">
+              {ecoFriendly.count}
+            </div>
+            <div className="text-xs md:text-sm text-muted-foreground font-medium">Eco-Friendly</div>
           </div>
         </div>
       </div>
