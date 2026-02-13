@@ -14,13 +14,14 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/ecommerce-boxes-hero.webp";
-import mailerBoxes from "@/assets/box-shapes/mailer-boxes.webp";
-import subscriptionBoxes from "@/assets/box-shapes/subscription-boxes.webp";
-import shippingBoxes from "@/assets/box-shapes/shipping-boxes.webp";
-import productBoxes from "@/assets/box-shapes/tuck-boxes.webp";
-import corrugatedBoxes from "@/assets/box-shapes/shipping-boxes.webp"; // Reusing shipping boxes as they are corrugated
-import insertsDividers from "@/assets/candle-products/candle-boxes-inserts.webp";
+
+import heroImage from "@/assets/e-commerce/E-Commerce hero.webp";
+import mailerBoxes from "@/assets/e-commerce/mailer-boxes.webp";
+import subscriptionBoxes from "@/assets/e-commerce/subscription-boxes.webp";
+import shippingBoxes from "@/assets/e-commerce/shipping-boxes.webp";
+import productBoxes from "@/assets/e-commerce/product-boxes.webp";
+import corrugatedBoxes from "@/assets/e-commerce/shipping-boxes.webp"; // Reusing shipping boxes as they are corrugated
+import insertsDividers from "@/assets/e-commerce/inserts-dividers.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

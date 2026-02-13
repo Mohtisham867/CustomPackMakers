@@ -80,8 +80,7 @@ const SportsBoxes = () => {
                                 Sports Boxes
                             </h1>
                             <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4">
-                                Durable, protective, and branded packaging for various sports equipment and balls.
-                                Showcase your sporting goods with packaging that champions your brand.
+                                Durable, protective, and branded packaging for various sports equipment and balls. Showcase your sporting goods with packaging that champions your brand. Our premium finishes ensure your gear stays safe while delivering an unboxing experience that inspires every athlete.
                             </p>
                             <div className="pt-4 lg:pt-0">
                                 <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted mx-auto lg:mx-0">

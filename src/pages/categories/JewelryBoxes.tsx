@@ -14,25 +14,28 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/jewelry-boxes-hero.webp";
+import heroImage from "@/assets/jewelry-boxes/Jewelry Boxes hero.webp";
 
 // Specific images
-import braceletBoxes from "@/assets/products/bracelet-boxes.webp";
-import necklaceLidOffBoxes from "@/assets/products/necklace-lid-off-boxes.webp";
-import pendantBoxes from "@/assets/products/pendant-boxes.webp";
-import ringBoxes from "@/assets/products/ring-boxes.webp";
-import earringBoxes from "@/assets/products/earring-boxes.webp";
+import braceletSquareBoxes from "@/assets/jewelry-boxes/Bracelet Square Boxes.webp";
+import braceletBoxes from "@/assets/jewelry-boxes/bracelet-boxes.webp";
+import necklaceLidOffBoxes from "@/assets/jewelry-boxes/necklace-lid-off-boxes.webp";
+import pendantBoxes from "@/assets/jewelry-boxes/Pendant Boxes.webp";
+import ringBoxes from "@/assets/jewelry-boxes/ring-boxes.webp";
+import earringBoxes from "@/assets/jewelry-boxes/Earring Boxes.webp";
+import luxuryJewelryBoxes from "@/assets/jewelry-boxes/luxury-jewelry-boxes.webp";
+import necklaceBoxes from "@/assets/jewelry-boxes/necklace-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Bracelet Square Boxes", image: braceletBoxes, description: "Elegant square boxes for bracelets featuring soft-touch interiors and secure magnetic closures" },
+    { name: "Bracelet Square Boxes", image: braceletSquareBoxes, description: "Elegant square boxes for bracelets featuring soft-touch interiors and secure magnetic closures" },
     { name: "Custom Necklace Lid Off Packaging", image: necklaceLidOffBoxes, description: "Premium lid-off boxes for necklaces with cushioned inserts and luxurious presentation design" },
     { name: "Pendant Boxes", image: pendantBoxes, description: "Sophisticated packaging for pendants featuring protective cushioning and elegant exterior finishes" },
     { name: "Bracelet Boxes", image: braceletBoxes, description: "Stylish and secure boxes for bracelets with velvet lining and premium construction materials" },
     { name: "Ring Boxes", image: ringBoxes, description: "Classic boxes to showcase rings with cushioned slots and hinged lids for elegant presentation" },
     { name: "Earring Boxes", image: earringBoxes, description: "Chic boxes for earrings and studs featuring secure holders and compact protective design" },
-    { name: "Luxury Jewelry Boxes", image: heroImage, description: "High-end packaging for luxury jewelry collections with premium materials and sophisticated finishes" },
-    { name: "Necklace Boxes", image: necklaceLidOffBoxes, description: "Beautiful boxes for all types of necklaces with protective padding and elegant display features" },
+    { name: "Luxury Jewelry Boxes", image: luxuryJewelryBoxes, description: "High-end packaging for luxury jewelry collections with premium materials and sophisticated finishes" },
+    { name: "Necklace Boxes", image: necklaceBoxes, description: "Beautiful boxes for all types of necklaces with protective padding and elegant display features" },
 ];
 
 const productOptions = [

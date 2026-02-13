@@ -29,7 +29,7 @@ import mylarBags from "@/assets/mylar-bags/mylar-bags-hero.webp";
 import apparelHero from "@/assets/apparel-boxes/Apparel boxe hero.png";
 import cannabisHero from "@/assets/cannabis-packaging/hero.webp";
 import foodBoxes from "@/assets/food-boxes/hero.webp";
-import jewelryBoxes from "@/assets/jewelry-boxes-hero.webp";
+import jewelryBoxes from "@/assets/jewelry-boxes/Jewelry Boxes hero.webp";
 import kraftBoxes from "@/assets/kraft-boxes/kraft-boxes-hero-v2.webp";
 import soapBoxes from "@/assets/soap-boxes/soap hero.webp";
 import giftBoxes from "@/assets/gift-boxes/gift hero.webp";
