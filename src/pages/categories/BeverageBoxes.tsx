@@ -31,16 +31,16 @@ import smoothiePackaging from "@/assets/beverage-boxes/smoothie-packaging.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-  { name: "Coffee Packaging", image: coffeePackaging, description: "Premium coffee boxes and bags designed to preserve freshness with airtight seals and elegant branding" },
-  { name: "Tea Boxes", image: teaBoxes, description: "Elegant tea gift packaging featuring compartments for tea varieties and sophisticated presentation design" },
-  { name: "Wine Boxes", image: wineBoxes, description: "Luxury wine bottle packaging with protective inserts and premium finishes for gifting and retail display" },
-  { name: "Beer Packaging", image: beerPackaging, description: "Craft beer carriers and boxes designed for multi-pack presentation with sturdy handle construction" },
-  { name: "Juice Boxes", image: juiceBoxes, description: "Colorful juice carton packaging with vibrant graphics and moisture-resistant coating for freshness" },
-  { name: "Soda Packaging", image: sodaPackaging, description: "Multi-pack soda carriers featuring convenient handles and reinforced construction for heavy loads" },
-  { name: "Energy Drink Boxes", image: energyDrinkBoxes, description: "Dynamic energy drink packaging with bold designs and protective features for can or bottle formats" },
-  { name: "Water Bottle Packaging", image: waterBottlePackaging, description: "Water bottle carriers and boxes offering eco-friendly materials and convenient multi-pack configurations" },
-  { name: "Milk Packaging", image: milkPackaging, description: "Dairy product packaging solutions with food-safe materials and refrigeration-friendly design features" },
-  { name: "Smoothie Packaging", image: smoothiePackaging, description: "Fresh smoothie bottle carriers with insulated options and attractive branding for health-conscious consumers" },
+  { name: "Coffee Packaging", image: coffeePackaging, description: "Premium coffee boxes and bags designed to preserve freshness with airtight seals and elegant branding", link: "/industries/beverage-boxes/coffee-packaging" },
+  { name: "Tea Boxes", image: teaBoxes, description: "Elegant tea gift packaging featuring compartments for tea varieties and sophisticated presentation design", link: "/industries/beverage-boxes/tea-boxes" },
+  { name: "Wine Boxes", image: wineBoxes, description: "Luxury wine bottle packaging with protective inserts and premium finishes for gifting and retail display", link: "/industries/beverage-boxes/wine-boxes" },
+  { name: "Beer Packaging", image: beerPackaging, description: "Craft beer carriers and boxes designed for multi-pack presentation with sturdy handle construction", link: "/industries/beverage-boxes/beer-packaging" },
+  { name: "Juice Boxes", image: juiceBoxes, description: "Colorful juice carton packaging with vibrant graphics and moisture-resistant coating for freshness", link: "/industries/beverage-boxes/juice-boxes" },
+  { name: "Soda Packaging", image: sodaPackaging, description: "Multi-pack soda carriers featuring convenient handles and reinforced construction for heavy loads", link: "/industries/beverage-boxes/soda-packaging" },
+  { name: "Energy Drink Boxes", image: energyDrinkBoxes, description: "Dynamic energy drink packaging with bold designs and protective features for can or bottle formats", link: "/industries/beverage-boxes/energy-drink-boxes" },
+  { name: "Water Bottle Packaging", image: waterBottlePackaging, description: "Water bottle carriers and boxes offering eco-friendly materials and convenient multi-pack configurations", link: "/industries/beverage-boxes/water-bottle-packaging" },
+  { name: "Milk Packaging", image: milkPackaging, description: "Dairy product packaging solutions with food-safe materials and refrigeration-friendly design features", link: "/industries/beverage-boxes/milk-packaging" },
+  { name: "Smoothie Packaging", image: smoothiePackaging, description: "Fresh smoothie bottle carriers with insulated options and attractive branding for health-conscious consumers", link: "/industries/beverage-boxes/smoothie-packaging" },
 ];
 
 const BeverageBoxes = () => {
@@ -116,28 +116,29 @@ const BeverageBoxes = () => {
 
             <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
               {relatedProducts.map((product, index) => (
-                <Card
-                  key={index}
-                  className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                >
-                  <CardContent className="p-0">
-                    <div className="w-full aspect-square overflow-hidden">
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                      />
-                    </div>
-                    <div className="p-4 border-t border-border">
-                      <h3 className="font-semibold text-foreground text-sm mb-2">
-                        {product.name}
-                      </h3>
-                      <p className="text-xs text-muted-foreground line-clamp-2">
-                        {product.description}
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
+                <Link key={index} to={product.link}>
+                  <Card
+                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                  >
+                    <CardContent className="p-0">
+                      <div className="w-full aspect-square overflow-hidden">
+                        <img
+                          src={product.image}
+                          alt={product.name}
+                          className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                        />
+                      </div>
+                      <div className="p-4 border-t border-border">
+                        <h3 className="font-semibold text-foreground text-sm mb-2">
+                          {product.name}
+                        </h3>
+                        <p className="text-xs text-muted-foreground line-clamp-2">
+                          {product.description}
+                        </p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
           </section>

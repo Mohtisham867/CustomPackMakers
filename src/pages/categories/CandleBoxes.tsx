@@ -34,19 +34,19 @@ import candleDustCovers from "@/assets/candle-products/Candle Dust Covers.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-  { name: "Custom Candle Display Boxes", image: candleDisplayBoxes, description: "Showcase candles with elegant display boxes featuring window cutouts and premium presentation finishes" },
-  { name: "Custom Candle Jar Boxes", image: candleJarBoxes, description: "Secure packaging for glass jar candles with protective inserts preventing breakage during shipping" },
-  { name: "Two Piece Candle Boxes", image: twoPieceCandleBoxes, description: "Premium lid and base packaging offering luxury presentation with magnetic or ribbon closure options" },
-  { name: "Candle Shipping Boxes", image: candleShippingBoxes, description: "Safe transit packaging for fragile candles featuring cushioned interiors and reinforced construction" },
-  { name: "Taper Candle Boxes", image: taperCandleBoxes, description: "Slim packaging designed specifically for taper candles with protective sleeves and elegant branding" },
-  { name: "Candle Boxes with Inserts", image: candleBoxesInserts, description: "Custom inserts for protection featuring foam or cardboard dividers securing candles in place safely" },
-  { name: "Candle Labels", image: candleLabels, description: "Brand your candles beautifully with custom labels featuring premium finishes and adhesive quality" },
-  { name: "Candle Boxes With Window", image: candleBoxesWindow, description: "Display candles through clear windows allowing customers to see products while maintaining protection" },
-  { name: "Wax Melt Packaging", image: waxMeltPackaging, description: "Compartment boxes for wax melts with individual slots and attractive designs for retail presentation" },
-  { name: "Candle Subscription Boxes", image: candleSubscriptionBoxes, description: "Monthly subscription packaging designed for recurring deliveries with branded unboxing experiences" },
-  { name: "Luxury Candle Boxes", image: luxuryCandleBoxes, description: "High-end rigid gift boxes featuring premium materials and sophisticated finishes for luxury candles" },
-  { name: "16 Wishes Candle Boxes", image: wishesCandleBoxes, description: "Celebratory birthday candle boxes with festive designs perfect for special occasion gift packaging" },
-  { name: "Candle Dust Covers", image: candleDustCovers, description: "Protective covers for candles preventing dust accumulation while maintaining elegant display presentation" },
+  { name: "Custom Candle Display Boxes", image: candleDisplayBoxes, description: "Showcase candles with elegant display boxes featuring window cutouts and premium presentation finishes", link: "/industries/candle-boxes/custom-candle-display-boxes" },
+  { name: "Custom Candle Jar Boxes", image: candleJarBoxes, description: "Secure packaging for glass jar candles with protective inserts preventing breakage during shipping", link: "/industries/candle-boxes/custom-candle-jar-boxes" },
+  { name: "Two Piece Candle Boxes", image: twoPieceCandleBoxes, description: "Premium lid and base packaging offering luxury presentation with magnetic or ribbon closure options", link: "/industries/candle-boxes/two-piece-candle-boxes" },
+  { name: "Candle Shipping Boxes", image: candleShippingBoxes, description: "Safe transit packaging for fragile candles featuring cushioned interiors and reinforced construction", link: "/industries/candle-boxes/candle-shipping-boxes" },
+  { name: "Taper Candle Boxes", image: taperCandleBoxes, description: "Slim packaging designed specifically for taper candles with protective sleeves and elegant branding", link: "/industries/candle-boxes/taper-candle-boxes" },
+  { name: "Candle Boxes with Inserts", image: candleBoxesInserts, description: "Custom inserts for protection featuring foam or cardboard dividers securing candles in place safely", link: "/industries/candle-boxes/candle-boxes-with-inserts" },
+  { name: "Candle Labels", image: candleLabels, description: "Brand your candles beautifully with custom labels featuring premium finishes and adhesive quality", link: "/industries/candle-boxes/candle-labels" },
+  { name: "Candle Boxes With Window", image: candleBoxesWindow, description: "Display candles through clear windows allowing customers to see products while maintaining protection", link: "/industries/candle-boxes/candle-boxes-window" },
+  { name: "Wax Melt Packaging", image: waxMeltPackaging, description: "Compartment boxes for wax melts with individual slots and attractive designs for retail presentation", link: "/industries/candle-boxes/wax-melt-packaging" },
+  { name: "Candle Subscription Boxes", image: candleSubscriptionBoxes, description: "Monthly subscription packaging designed for recurring deliveries with branded unboxing experiences", link: "/industries/candle-boxes/candle-subscription-boxes" },
+  { name: "Luxury Candle Boxes", image: luxuryCandleBoxes, description: "High-end rigid gift boxes featuring premium materials and sophisticated finishes for luxury candles", link: "/industries/candle-boxes/luxury-candle-boxes" },
+  { name: "16 Wishes Candle Boxes", image: wishesCandleBoxes, description: "Celebratory birthday candle boxes with festive designs perfect for special occasion gift packaging", link: "/industries/candle-boxes/16-wishes-candle-boxes" },
+  { name: "Candle Dust Covers", image: candleDustCovers, description: "Protective covers for candles preventing dust accumulation while maintaining elegant display presentation", link: "/industries/candle-boxes/candle-dust-covers" },
 ];
 
 const CandleBoxes = () => {
@@ -122,28 +122,29 @@ const CandleBoxes = () => {
 
             <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
               {relatedProducts.map((product, index) => (
-                <Card
-                  key={index}
-                  className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                >
-                  <CardContent className="p-0">
-                    <div className="w-full aspect-square overflow-hidden">
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                      />
-                    </div>
-                    <div className="p-4 border-t border-border">
-                      <h3 className="font-semibold text-foreground text-sm mb-2">
-                        {product.name}
-                      </h3>
-                      <p className="text-xs text-muted-foreground line-clamp-2">
-                        {product.description}
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
+                <Link key={index} to={product.link || "#"}>
+                  <Card
+                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                  >
+                    <CardContent className="p-0 flex flex-col h-full">
+                      <div className="w-full aspect-square overflow-hidden">
+                        <img
+                          src={product.image}
+                          alt={product.name}
+                          className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                        />
+                      </div>
+                      <div className="p-4 border-t border-border flex-grow">
+                        <h3 className="font-semibold text-foreground text-sm mb-2">
+                          {product.name}
+                        </h3>
+                        <p className="text-xs text-muted-foreground line-clamp-2">
+                          {product.description}
+                        </p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
           </section>

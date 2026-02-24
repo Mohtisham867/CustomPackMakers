@@ -148,7 +148,7 @@ const Industries = () => {
                         <img
                           src={industry.image}
                           alt={industry.name}
-                          className="w-full h-full object-contain p-8 transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
                         />
                       </div>
                       <div className="p-4 text-center border-t border-border">

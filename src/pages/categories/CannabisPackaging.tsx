@@ -24,13 +24,13 @@ import cannabisCartridgePackaging from "@/assets/marijuana-packaging/cartridge-p
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-  { name: "Cannabis Tincture Boxes", image: cannabisTinctureBoxes, description: "Custom tincture packaging with certified child-resistant features and compliant regulatory labeling." },
-  { name: "Cannabis Vape Packaging", image: cannabisVapePackaging, description: "Premium vape pen boxes designed for secure product display and high-impact retail brand visibility." },
-  { name: "Cannabis Seed Packaging", image: cannabisSeedPackaging, description: "Moisture-proof seed containers with custom high-definition printing and detailed strain information." },
-  { name: "Cannabis Cigarette Boxes", image: cannabisCigaretteBoxes, description: "Pre-roll cigarette packaging with secure child-resistant closures and professional custom branding." },
-  { name: "Cannabis Mylar Bags", image: cannabisMylarBags, description: "Smell-proof mylar bags with custom graphics, resealable zippers, and high-barrier protection features." },
-  { name: "Cannabis Flower Packaging", image: cannabisFlowerPackaging, description: "Airtight flower containers designed to preserve freshness, aroma, and potency for a premium experience." },
-  { name: "Cannabis Cartridge Packaging", image: cannabisCartridgePackaging, description: "Secure cartridge boxes with custom inserts for maximum protection and professional display during shipping." },
+  { name: "Cannabis Tincture Boxes", image: cannabisTinctureBoxes, description: "Custom tincture packaging with certified child-resistant features and compliant regulatory labeling.", link: "/industries/cannabis-packaging/cannabis-tincture-boxes" },
+  { name: "Cannabis Vape Packaging", image: cannabisVapePackaging, description: "Premium vape pen boxes designed for secure product display and high-impact retail brand visibility.", link: "/industries/cannabis-packaging/cannabis-vape-packaging" },
+  { name: "Cannabis Seed Packaging", image: cannabisSeedPackaging, description: "Moisture-proof seed containers with custom high-definition printing and detailed strain information.", link: "/industries/cannabis-packaging/cannabis-seed-packaging" },
+  { name: "Cannabis Cigarette Boxes", image: cannabisCigaretteBoxes, description: "Pre-roll cigarette packaging with secure child-resistant closures and professional custom branding.", link: "/industries/cannabis-packaging/cannabis-cigarette-boxes" },
+  { name: "Cannabis Mylar Bags", image: cannabisMylarBags, description: "Smell-proof mylar bags with custom graphics, resealable zippers, and high-barrier protection features.", link: "/industries/cannabis-packaging/cannabis-mylar-bags" },
+  { name: "Cannabis Flower Packaging", image: cannabisFlowerPackaging, description: "Airtight flower containers designed to preserve freshness, aroma, and potency for a premium experience.", link: "/industries/cannabis-packaging/cannabis-flower-packaging" },
+  { name: "Cannabis Cartridge Packaging", image: cannabisCartridgePackaging, description: "Secure cartridge boxes with custom inserts for maximum protection and professional display during shipping.", link: "/industries/cannabis-packaging/cannabis-cartridge-packaging" },
 ];
 
 const CannabisPackaging = () => {
@@ -111,28 +111,27 @@ const CannabisPackaging = () => {
 
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {relatedProducts.map((product, index) => (
-              <Card
-                key={index}
-                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-              >
-                <CardContent className="p-0">
-                  <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                    <img
-                      src={product.image}
-                      alt={product.name}
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                    />
-                  </div>
-                  <div className="p-4 border-t border-border">
-                    <h3 className="font-semibold text-foreground text-sm mb-2">
-                      {product.name}
-                    </h3>
-                    <p className="text-xs text-muted-foreground line-clamp-2">
-                      {product.description}
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
+              <Link key={index} to={product.link} className="block">
+                <Card className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full">
+                  <CardContent className="p-0">
+                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                      <img
+                        src={product.image}
+                        alt={product.name}
+                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                      />
+                    </div>
+                    <div className="p-4 border-t border-border">
+                      <h3 className="font-semibold text-foreground text-sm mb-2">
+                        {product.name}
+                      </h3>
+                      <p className="text-xs text-muted-foreground line-clamp-2">
+                        {product.description}
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
         </div>

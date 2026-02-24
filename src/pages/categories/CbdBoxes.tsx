@@ -74,31 +74,31 @@ const productOptions = [
 ];
 
 const relatedProducts = [
-    { name: "Custom CBD Capsule Boxes", image: cbdCapsuleBoxes, description: "Secure packaging for CBD capsules and supplements featuring high-quality board and protective finishes" },
-    { name: "Custom CBD Cream Boxes", image: cbdCreamBoxes, description: "Premium boxes for CBD creams and topicals designed for luxury retail display and product protection" },
-    { name: "Custom CBD Lotion Boxes", image: cbdLotionBoxes, description: "Elegant packaging for CBD lotions and heavy bottles utilizing reinforced board for maximum safety" },
-    { name: "CBD Oil Boxes", image: cbdOilBoxes, description: "Protective boxes for CBD oil droppers and tinctures featuring secure inserts and vibrant branding" },
-    { name: "Essential Oil Boxes", image: essentialOilBoxes, description: "Custom packaging designed for essential oil bottles with specialized focus on aroma preservation" },
-    { name: "Custom CBD Isolate Boxes", image: cbdIsolateBoxes, description: "Specialized packaging for CBD isolate containers providing airtight seals and professional aesthetics" },
-    { name: "Custom CBD Pod Boxes", image: cbdPodBoxes, description: "Sleek boxes for CBD vape pods and cartridges featuring child-resistant features and modern designs" },
-    { name: "CBD Lollipop Boxes", image: cbdLollipopBoxes, description: "Fun and safe packaging for CBD-infused lollipops with colorful graphics and secure barrier materials" },
-    { name: "CBD Gummies Boxes", image: cbdGummiesBoxes, description: "Attractive packaging for CBD gummies and edibles designed to maintain freshness and shelf appeal" },
-    { name: "Delta 8 THC Boxes", image: delta8ThcBoxes, description: "Compliant packaging for Delta 8 THC products featuring all required regulatory warnings and logos" },
-    { name: "CBD Display Boxes", image: cbdDisplayBoxes, description: "Eye-catching display boxes for retail CBD products designed to drive impulse sales on shop counters" },
-    { name: "Tincture Boxes", image: tinctureBoxes, description: "Protective packaging for tincture bottles with custom-shaped inserts to prevent breakage in transit" },
-    { name: "Blunt Boxes", image: bluntBoxes, description: "Custom boxes for pre-rolled blunts offering moisture protection and high-end printing options" },
-    { name: "CBD Tincture Boxes", image: cbdTinctureBoxes, description: "Specialized boxes for CBD tincture droppers featuring elegant finishes and informative labeling" },
-    { name: "Dropper Bottle Boxes", image: dropperBottleBoxes, description: "Secure packaging for dropper bottles with reinforced walls for maximum protection of glass items" },
-    { name: "CBD Chocolate Boxes", image: cbdChocolateBoxes, description: "Premium boxes for CBD-infused chocolates with luxury foil stamping and protective interior layers" },
-    { name: "CBD Mailer Boxes", image: cbdMailerBoxes, description: "Durable shipping boxes for CBD products designed for secure delivery and branded unboxing impact" },
-    { name: "CBD Hemp Oil Boxes", image: cbdHempOilBoxes, description: "Custom packaging for hemp oil products featuring eco-friendly materials and professional designs" },
-    { name: "CBD Soap Boxes", image: cbdSoapBoxes, description: "Elegant boxes for CBD-infused soaps featuring artistic designs and moisture-resistant paperboard" },
-    { name: "Delta 9 Packaging", image: delta9Packaging, description: "Compliant packaging for Delta 9 products ensuring all safety features and legal text are displayed" },
-    { name: "CBD Vape Boxes", image: cbdVapeBoxes, description: "Sleek boxes for CBD vape products featuring modern aesthetics and secure fit for devices and pods" },
-    { name: "CBD Pre-Roll Boxes", image: cbdPreRollBoxes, description: "Protective packaging for CBD pre-rolls with child-resistant features and high-impact custom graphics" },
-    { name: "Concentrate Packaging", image: concentratePackaging, description: "Specialized boxes for CBD concentrates providing superior barrier protection and professional branding" },
-    { name: "CBD Subscription Boxes", image: cbdSubscriptionBoxes, description: "Custom boxes for CBD subscription services designed for recurring shipment and premium brand loyalty" },
-    { name: "CBD Bath Bomb Boxes", image: cbdBathBombBoxes, description: "Beautiful packaging for CBD bath bombs featuring vibrant colors and moisture-resistant protective coatings" },
+    { name: "Custom CBD Capsule Boxes", image: cbdCapsuleBoxes, description: "Secure packaging for CBD capsules and supplements featuring high-quality board and protective finishes", slug: "custom-cbd-capsule-boxes" },
+    { name: "Custom CBD Cream Boxes", image: cbdCreamBoxes, description: "Premium boxes for CBD creams and topicals designed for luxury retail display and product protection", slug: "custom-cbd-cream-boxes" },
+    { name: "Custom CBD Lotion Boxes", image: cbdLotionBoxes, description: "Elegant packaging for CBD lotions and heavy bottles utilizing reinforced board for maximum safety", slug: "custom-cbd-lotion-boxes" },
+    { name: "CBD Oil Boxes", image: cbdOilBoxes, description: "Protective boxes for CBD oil droppers and tinctures featuring secure inserts and vibrant branding", slug: "cbd-oil-boxes" },
+    { name: "Essential Oil Boxes", image: essentialOilBoxes, description: "Custom packaging designed for essential oil bottles with specialized focus on aroma preservation", slug: "essential-oil-boxes" },
+    { name: "Custom CBD Isolate Boxes", image: cbdIsolateBoxes, description: "Specialized packaging for CBD isolate containers providing airtight seals and professional aesthetics", slug: "custom-cbd-isolate-boxes" },
+    { name: "Custom CBD Pod Boxes", image: cbdPodBoxes, description: "Sleek boxes for CBD vape pods and cartridges featuring child-resistant features and modern designs", slug: "custom-cbd-pod-boxes" },
+    { name: "CBD Lollipop Boxes", image: cbdLollipopBoxes, description: "Fun and safe packaging for CBD-infused lollipops with colorful graphics and secure barrier materials", slug: "cbd-lollipop-boxes" },
+    { name: "CBD Gummies Boxes", image: cbdGummiesBoxes, description: "Attractive packaging for CBD gummies and edibles designed to maintain freshness and shelf appeal", slug: "cbd-gummies-boxes" },
+    { name: "Delta 8 THC Boxes", image: delta8ThcBoxes, description: "Compliant packaging for Delta 8 THC products featuring all required regulatory warnings and logos", slug: "delta-8-thc-boxes" },
+    { name: "CBD Display Boxes", image: cbdDisplayBoxes, description: "Eye-catching display boxes for retail CBD products designed to drive impulse sales on shop counters", slug: "cbd-display-boxes" },
+    { name: "Tincture Boxes", image: tinctureBoxes, description: "Protective packaging for tincture bottles with custom-shaped inserts to prevent breakage in transit", slug: "tincture-boxes" },
+    { name: "Blunt Boxes", image: bluntBoxes, description: "Custom boxes for pre-rolled blunts offering moisture protection and high-end printing options", slug: "blunt-boxes" },
+    { name: "Custom CBD Bottle Boxes", image: dropperBottleBoxes, description: "Specialized boxes for CBD tincture droppers featuring elegant finishes and informative labeling", slug: "custom-cbd-bottle-boxes" },
+    { name: "Custom CBD Flower Boxes", image: placeholderImage, description: "Premium flower boxes for dried CBD hemp flower with terpene-preserving barrier coatings", slug: "custom-cbd-flower-boxes" },
+    { name: "CBD Chocolate Boxes", image: cbdChocolateBoxes, description: "Premium boxes for CBD-infused chocolates with luxury foil stamping and protective interior layers", slug: "cbd-chocolate-boxes" },
+    { name: "CBD Mailer Boxes", image: cbdMailerBoxes, description: "Durable shipping boxes for CBD products designed for secure delivery and branded unboxing impact", slug: "cbd-mailer-boxes" },
+    { name: "CBD Hemp Oil Boxes", image: cbdHempOilBoxes, description: "Custom packaging for hemp oil products featuring eco-friendly materials and professional designs", slug: "cbd-hemp-oil-boxes" },
+    { name: "CBD Cartridge Boxes", image: cbdPodBoxes, description: "Secure packaging for vape cartridges featuring custom-fit inserts and child-resistant options", slug: "cbd-cartridge-boxes" },
+    { name: "CBD Vape Boxes", image: cbdVapeBoxes, description: "Sleek boxes for CBD vape products featuring modern aesthetics and secure fit for devices and pods", slug: "cbd-vape-boxes" },
+    { name: "CBD Pre-Roll Boxes", image: cbdPreRollBoxes, description: "Protective packaging for CBD pre-rolls with child-resistant features and high-impact custom graphics", slug: "cbd-pre-roll-boxes" },
+    { name: "Concentrate Packaging", image: concentratePackaging, description: "Specialized boxes for CBD concentrates providing superior barrier protection and professional branding", slug: "concentrate-packaging" },
+    { name: "Custom CBD Boxes", image: cbdOilBoxes, description: "Bespoke packaging solutions for any CBD product in your wellness line with premium finishes", slug: "custom-cbd-boxes" },
+    { name: "Hemp Packaging", image: essentialOilBoxes, description: "Eco-friendly, sustainable packaging made from hemp-infused materials for organic wellness brands", slug: "hemp-packaging" },
+    { name: "CBD Bath Bomb Boxes", image: cbdBathBombBoxes, description: "Beautiful packaging for CBD bath bombs featuring vibrant colors and moisture-resistant protective coatings", slug: "cbd-bath-bomb-boxes" },
 ];
 
 const CbdBoxes = () => {
@@ -137,15 +137,15 @@ const CbdBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 items-start">
                         {/* Left Content */}
                         <div className="space-y-6">
-                            <h1 className="text-4xl md:text-5xl font-bold text-foreground">
-                                Custom CBD Boxes
+                            <h1 className="text-4xl md:text-5xl font-bold text-foreground text-left">
+                                Custom <span className="text-primary">CBD</span> Boxes
                             </h1>
-                            <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4">
+                            <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4 text-left">
                                 Elevate your CBD brand with premium, compliant custom packaging. Our child-resistant and
                                 eco-friendly boxes ensure safety and freshness for oils, creams, and edibles, while
                                 showcasing your unique brand identity with professional printing and high-quality finishes.
                             </p>
-                            <div className="pt-4 lg:pt-0">
+                            <div className="pt-4 lg:pt-0 text-left">
                                 <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted mx-auto lg:mx-0">
                                     <img
                                         src={heroImage}
@@ -167,7 +167,7 @@ const CbdBoxes = () => {
             {/* Related Products Section */}
             <section className="py-16 bg-accent/20">
                 <div className="container mx-auto px-4">
-                    <div className="mb-12">
+                    <div className="mb-12 text-left">
                         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
                             Prove The Quality Experience Of CBD Products
                         </h2>
@@ -178,28 +178,29 @@ const CbdBoxes = () => {
 
                     <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link key={index} to={`/industries/cbd-packaging/${product.slug}`} className="block group">
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 h-full"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="w-full aspect-square overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2 text-left">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2 text-left">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

@@ -31,16 +31,16 @@ import chocolateBoxes from "@/assets/bakery-products/Chocolate Boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-  { name: "Custom Cake Boxes", image: customCakeBoxes, description: "Elegant boxes for cakes of all sizes featuring sturdy construction and beautiful presentation design" },
-  { name: "Pastry Boxes", image: pastryBoxes, description: "Perfect packaging for delicate pastries with grease-resistant materials and secure closure mechanisms" },
-  { name: "Donut Boxes", image: donutBoxes, description: "Sturdy boxes designed for donuts and bagels with convenient carrying handles and viewing windows" },
-  { name: "Cookie Boxes", image: cookieBoxes, description: "Gift-ready cookie packaging featuring attractive designs and protective inserts for freshness preservation" },
-  { name: "Cupcake Boxes", image: cupcakeBoxes, description: "Secure compartments for cupcakes preventing movement and damage with clear window display options" },
-  { name: "Pie Boxes", image: pieBoxes, description: "Window boxes for showcasing pies with ventilation features and sturdy base for safe transportation" },
-  { name: "Muffin Boxes", image: muffinBoxes, description: "Multi-compartment muffin carriers with individual slots ensuring products stay fresh and presentable" },
-  { name: "Bread Packaging", image: breadPackaging, description: "Fresh-keeping bread bags and boxes with breathable materials maintaining optimal texture and quality" },
-  { name: "Macaron Boxes", image: macaronBoxes, description: "Luxury packaging for macarons featuring elegant design and protective inserts for delicate confections" },
-  { name: "Chocolate Boxes", image: chocolateBoxes, description: "Premium chocolate gift boxes with sophisticated finishes and compartments for assorted selections" },
+  { name: "Custom Cake Boxes", image: customCakeBoxes, slug: "custom-cake-boxes", description: "Elegant boxes for cakes of all sizes featuring sturdy construction and beautiful presentation design" },
+  { name: "Pastry Boxes", image: pastryBoxes, slug: "pastry-boxes", description: "Perfect packaging for delicate pastries with grease-resistant materials and secure closure mechanisms" },
+  { name: "Donut Boxes", image: donutBoxes, slug: "donut-boxes", description: "Sturdy boxes designed for donuts and bagels with convenient carrying handles and viewing windows" },
+  { name: "Cookie Boxes", image: cookieBoxes, slug: "cookie-boxes", description: "Gift-ready cookie packaging featuring attractive designs and protective inserts for freshness preservation" },
+  { name: "Cupcake Boxes", image: cupcakeBoxes, slug: "cupcake-boxes", description: "Secure compartments for cupcakes preventing movement and damage with clear window display options" },
+  { name: "Pie Boxes", image: pieBoxes, slug: "pie-boxes", description: "Window boxes for showcasing pies with ventilation features and sturdy base for safe transportation" },
+  { name: "Muffin Boxes", image: muffinBoxes, slug: "muffin-boxes", description: "Multi-compartment muffin carriers with individual slots ensuring products stay fresh and presentable" },
+  { name: "Bread Packaging", image: breadPackaging, slug: "bread-packaging", description: "Fresh-keeping bread bags and boxes with breathable materials maintaining optimal texture and quality" },
+  { name: "Macaron Boxes", image: macaronBoxes, slug: "macaron-boxes", description: "Luxury packaging for macarons featuring elegant design and protective inserts for delicate confections" },
+  { name: "Chocolate Boxes", image: chocolateBoxes, slug: "chocolate-boxes", description: "Premium chocolate gift boxes with sophisticated finishes and compartments for assorted selections" },
 ];
 
 const BakeryBoxes = () => {
@@ -117,28 +117,27 @@ const BakeryBoxes = () => {
 
             <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
               {relatedProducts.map((product, index) => (
-                <Card
-                  key={index}
-                  className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                >
-                  <CardContent className="p-0">
-                    <div className="w-full aspect-square overflow-hidden">
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                      />
-                    </div>
-                    <div className="p-4 border-t border-border">
-                      <h3 className="font-semibold text-foreground text-sm mb-2">
-                        {product.name}
-                      </h3>
-                      <p className="text-xs text-muted-foreground line-clamp-2">
-                        {product.description}
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
+                <Link key={index} to={`/industries/bakery-boxes/${product.slug}`}>
+                  <Card className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer">
+                    <CardContent className="p-0">
+                      <div className="w-full aspect-square overflow-hidden">
+                        <img
+                          src={product.image}
+                          alt={product.name}
+                          className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                        />
+                      </div>
+                      <div className="p-4 border-t border-border">
+                        <h3 className="font-semibold text-foreground text-sm mb-2">
+                          {product.name}
+                        </h3>
+                        <p className="text-xs text-muted-foreground line-clamp-2">
+                          {product.description}
+                        </p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
           </section>

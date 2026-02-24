@@ -28,14 +28,14 @@ import gableGiftBoxes from "@/assets/gable-boxes/gable-gift-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Favor Boxes", image: favorBoxes, description: "Charming pillow boxes for party favors and gifts with easy assembly and elegant curved design" },
-    { name: "Gift Card Boxes", image: giftCardBoxes, description: "Elegant sleeve and tray boxes for gift cards featuring premium finishes and secure closure" },
-    { name: "Custom Printed Gift Boxes", image: customPrintedGiftBoxes, description: "High-end rigid boxes with custom printing offering luxurious presentation and durable construction" },
-    { name: "Hemp Gift Boxes", image: hempGiftBoxes, description: "Eco-friendly hemp packaging for gifts featuring sustainable materials and natural aesthetic appeal" },
-    { name: "Cardboard Gift Boxes", image: cardboardGiftBoxes, description: "Versatile cardboard boxes for any occasion with customizable sizes and attractive printing options" },
-    { name: "Chocolate Gift Boxes", image: chocolateGiftBoxes, description: "Deliciously designed boxes for chocolate gifts with protective inserts and premium presentation" },
-    { name: "Gift Tags", image: giftTags, description: "Custom tags to add a personal touch to your gifts with premium paper and elegant printing" },
-    { name: "Gable Gift Boxes", image: gableGiftBoxes, description: "Convenient handled boxes for easy gifting featuring sturdy construction and attractive designs" },
+    { name: "Favor Boxes", image: favorBoxes, description: "Charming pillow boxes for party favors and gifts with easy assembly and elegant curved design", path: "/industries/gift-boxes/favor-boxes" },
+    { name: "Gift Card Boxes", image: giftCardBoxes, description: "Elegant sleeve and tray boxes for gift cards featuring premium finishes and secure closure", path: "/industries/gift-boxes/gift-card-boxes" },
+    { name: "Custom Printed Gift Boxes", image: customPrintedGiftBoxes, description: "High-end rigid boxes with custom printing offering luxurious presentation and durable construction", path: "/industries/gift-boxes/custom-printed-gift-boxes" },
+    { name: "Hemp Gift Boxes", image: hempGiftBoxes, description: "Eco-friendly hemp packaging for gifts featuring sustainable materials and natural aesthetic appeal", path: "/industries/gift-boxes/hemp-gift-boxes" },
+    { name: "Cardboard Gift Boxes", image: cardboardGiftBoxes, description: "Versatile cardboard boxes for any occasion with customizable sizes and attractive printing options", path: "/industries/gift-boxes/cardboard-gift-boxes" },
+    { name: "Chocolate Gift Boxes", image: chocolateGiftBoxes, description: "Deliciously designed boxes for chocolate gifts with protective inserts and premium presentation", path: "/industries/gift-boxes/chocolate-gift-boxes" },
+    { name: "Gift Tags", image: giftTags, description: "Custom tags to add a personal touch to your gifts with premium paper and elegant printing", path: "/industries/gift-boxes/gift-tags" },
+    { name: "Gable Gift Boxes", image: gableGiftBoxes, description: "Convenient handled boxes for easy gifting featuring sturdy construction and attractive designs", path: "/industries/gift-boxes/gable-gift-boxes" },
 ];
 
 const productOptions = [
@@ -130,23 +130,25 @@ const GiftBoxes = () => {
                                 key={index}
                                 className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
                             >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
+                                <Link to={product.path}>
+                                    <CardContent className="p-0">
+                                        <div className="w-full aspect-square overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Link>
                             </Card>
                         ))}
                     </div>

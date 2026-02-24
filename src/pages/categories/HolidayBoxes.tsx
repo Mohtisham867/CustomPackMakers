@@ -28,14 +28,14 @@ import christmasPillowBoxes from "@/assets/holiday-boxes/Christmas pillow.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Christmas Gift Boxes", image: christmasGiftBoxes, description: "Festive boxes perfect for holiday gifting featuring vibrant seasonal artwork and premium textured finishes" },
-    { name: "Custom Halloween Boxes", image: halloweenBoxes, description: "Spooky and fun packaging for Halloween treats designed with high-impact graphics and durable construction" },
-    { name: "Holiday Gift Boxes", image: holidayGiftBoxes, description: "Elegant boxes for any holiday celebration featuring versatile designs and premium customizable branding options" },
-    { name: "Thanksgiving Boxes", image: thanksgivingBoxes, description: "Warm and inviting packaging for Thanksgiving celebrations featuring autumnal themes and sturdy construction" },
-    { name: "Thanksgiving Food Boxes", image: thanksgivingFoodBoxes, description: "Durable boxes for Thanksgiving feasts designed for safe transport of baked goods and festive food items" },
-    { name: "Custom Valentines Boxes", image: valentinesBoxes, description: "Romantic packaging for Valentine's Day gifts featuring heart-shaped die-cuts and premium soft-touch finishes" },
-    { name: "Halloween Window Boxes", image: halloweenWindowBoxes, description: "Showcase your spooky treats with window boxes featuring clear PET windows and vibrant Halloween graphics" },
-    { name: "Christmas Pillow Boxes", image: christmasPillowBoxes, description: "Charming pillow boxes for small holiday favors featuring unique curved edges and festive holiday patterns" },
+    { name: "Christmas Gift Boxes", image: christmasGiftBoxes, description: "Festive boxes perfect for holiday gifting featuring vibrant seasonal artwork and premium textured finishes", link: "/industries/holiday-boxes/christmas-gift-boxes" },
+    { name: "Custom Halloween Boxes", image: halloweenBoxes, description: "Spooky and fun packaging for Halloween treats designed with high-impact graphics and durable construction", link: "/industries/holiday-boxes/custom-halloween-boxes" },
+    { name: "Holiday Gift Boxes", image: holidayGiftBoxes, description: "Elegant boxes for any holiday celebration featuring versatile designs and premium customizable branding options", link: "/industries/holiday-boxes/holiday-gift-boxes" },
+    { name: "Thanksgiving Boxes", image: thanksgivingBoxes, description: "Warm and inviting packaging for Thanksgiving celebrations featuring autumnal themes and sturdy construction", link: "/industries/holiday-boxes/thanksgiving-boxes" },
+    { name: "Thanksgiving Food Boxes", image: thanksgivingFoodBoxes, description: "Durable boxes for Thanksgiving feasts designed for safe transport of baked goods and festive food items", link: "/industries/holiday-boxes/thanksgiving-food-boxes" },
+    { name: "Custom Valentines Boxes", image: valentinesBoxes, description: "Romantic packaging for Valentine's Day gifts featuring heart-shaped die-cuts and premium soft-touch finishes", link: "/industries/holiday-boxes/custom-valentines-boxes" },
+    { name: "Halloween Window Boxes", image: halloweenWindowBoxes, description: "Showcase your spooky treats with window boxes featuring clear PET windows and vibrant Halloween graphics", link: "/industries/holiday-boxes/halloween-window-boxes" },
+    { name: "Christmas Pillow Boxes", image: christmasPillowBoxes, description: "Charming pillow boxes for small holiday favors featuring unique curved edges and festive holiday patterns", link: "/industries/holiday-boxes/christmas-pillow-boxes" },
 ];
 
 const productOptions = [
@@ -126,28 +126,29 @@ const HolidayBoxes = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index} className="block group h-full">
+                                <Card className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 h-full">
+                                    <CardContent className="p-0 flex flex-col h-full">
+                                        <div className="w-full aspect-square overflow-hidden bg-white">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border flex-grow flex flex-col justify-between">
+                                            <div>
+                                                <h3 className="font-semibold text-foreground text-sm mb-2 group-hover:text-primary transition-colors">
+                                                    {product.name}
+                                                </h3>
+                                                <p className="text-xs text-muted-foreground line-clamp-2">
+                                                    {product.description}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

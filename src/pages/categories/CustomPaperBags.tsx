@@ -21,7 +21,7 @@ import christmasPaperBags from "@/assets/custom-paper-bags/christmas-paper-bags.
 import christmasGiftBags from "@/assets/custom-paper-bags/christmas-gift-bags.webp";
 import customBrownPaperBags from "@/assets/custom-paper-bags/custom-brown-paper-bags.webp";
 import paperShoppingBags from "@/assets/custom-paper-bags/paper-shopping-bags.webp";
-import whitePaperBags from "@/assets/custom-paper-bags/white paper bags.webp";
+import whitePaperBags from "@/assets/custom-paper-bags/white-paper-bags.webp";
 import paperGiftBags from "@/assets/custom-paper-bags/paper-gift-bags.webp";
 import paperLunchBags from "@/assets/custom-paper-bags/paper-lunch-bags.webp";
 import friesBag from "@/assets/custom-paper-bags/fries-bag.webp";
@@ -135,38 +135,39 @@ const CustomPaperBags = () => {
 
                     <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        {/* Product image placeholder - intentionally empty */}
-                                        {product.image ? (
-                                            <img
-                                                src={product.image}
-                                                alt={product.name}
-                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                            />
-                                        ) : (
-                                            <div className="w-full h-full bg-muted flex items-center justify-center">
-                                                <div className="flex flex-col items-center text-muted-foreground/50">
-                                                    <ShoppingBag className="w-8 h-8 mb-1" />
-                                                    <p className="text-xs">Image placeholder</p>
+                            <Link to={`/industries/custom-paper-bags/${product.name.toLowerCase().replace(/ /g, '-')}`} key={index}>
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                                            {/* Product image placeholder - intentionally empty */}
+                                            {product.image ? (
+                                                <img
+                                                    src={product.image}
+                                                    alt={product.name}
+                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                />
+                                            ) : (
+                                                <div className="w-full h-full bg-muted flex items-center justify-center">
+                                                    <div className="flex flex-col items-center text-muted-foreground/50">
+                                                        <ShoppingBag className="w-8 h-8 mb-1" />
+                                                        <p className="text-xs">Image placeholder</p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                                            )}
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

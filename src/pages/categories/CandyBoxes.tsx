@@ -114,28 +114,33 @@ const CandyBoxes = () => {
 
           <div className="grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-4">
             {relatedProducts.map((product, index) => (
-              <Card
+              <Link
                 key={index}
-                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
+                to={`/industries/custom-candy-boxes/${product.name.toLowerCase().replace(/ /g, "-")}`}
+                className="contents"
               >
-                <CardContent className="p-0">
-                  <div className="w-full aspect-square overflow-hidden">
-                    <img
-                      src={product.image}
-                      alt={product.name}
-                      className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                    />
-                  </div>
-                  <div className="p-4 border-t border-border">
-                    <h3 className="font-semibold text-foreground text-sm mb-2">
-                      {product.name}
-                    </h3>
-                    <p className="text-xs text-muted-foreground line-clamp-2">
-                      {product.description}
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
+                <Card
+                  className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
+                >
+                  <CardContent className="p-0">
+                    <div className="w-full aspect-square overflow-hidden">
+                      <img
+                        src={product.image}
+                        alt={product.name}
+                        className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                      />
+                    </div>
+                    <div className="p-4 border-t border-border">
+                      <h3 className="font-semibold text-foreground text-sm mb-2">
+                        {product.name}
+                      </h3>
+                      <p className="text-xs text-muted-foreground line-clamp-2">
+                        {product.description}
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
         </div>

@@ -30,7 +30,7 @@ import essentialOilBoxes from "@/assets/cosmetic-boxes/Essential Oil Boxes.webp"
 import foundationBoxes from "@/assets/cosmetic-boxes/Foundation Boxes.webp";
 import lipBalmBoxes from "@/assets/cosmetic-boxes/Lip Balm Boxes.webp";
 import nailBoxes from "@/assets/cosmetic-boxes/Nail Boxes.webp";
-import cosmeticLabels from "@/assets/cosmetic-boxes/Cosmetic Lables.webp";
+import cosmeticLabels from "@/assets/cosmetic-boxes/Cosmetic Labels.webp";
 import lipTintPackaging from "@/assets/cosmetic-boxes/Lip Tint Packaging.webp";
 import customWigBoxes from "@/assets/cosmetic-boxes/Custom Wig Boxes.webp";
 import skinCarePackaging from "@/assets/cosmetic-boxes/Skin Care Packaging.webp";
@@ -41,26 +41,26 @@ import { SEOContent } from "@/components/SEOContent";
 // Product images placeholders - to be added later
 
 const relatedProducts = [
-  { name: "Custom Beard Oil Boxes", image: customBeardOil, description: "Premium packaging for beard oil products featuring leak-proof design and masculine branding aesthetics" },
-  { name: "Serum Boxes", image: serumBoxes, description: "Protective boxes for skincare serums with cushioned inserts preventing breakage and elegant presentation" },
-  { name: "Hair Color Boxes", image: hairColorBoxes, description: "Vibrant packaging for hair color kits with clear instructions display and protective inner compartments" },
-  { name: "Hair Extension Boxes", image: hairExtensionBoxes, description: "Luxury boxes for hair extensions featuring soft-touch finishes and organized storage for multiple pieces" },
-  { name: "Hair Spray Boxes", image: hairSprayBoxes, description: "Custom boxes for hair spray bottles with secure fit and attractive shelf-ready retail presentation" },
-  { name: "Custom Lip Gloss Boxes", image: customLipGlossBoxes, description: "Stylish packaging for lip gloss featuring window displays and premium finishes for cosmetic appeal" },
-  { name: "Custom Lip Liner Boxes", image: customLipLinerBoxes, description: "Sleek boxes for lip liners with protective inserts and sophisticated branding for makeup products" },
-  { name: "Custom Lipstick Boxes", image: customLipstickBoxes, description: "Elegant lipstick packaging solutions with magnetic closures and luxurious finishes for premium brands" },
-  { name: "Mascara Boxes", image: mascaraBoxes, description: "Eye-catching boxes for mascara featuring bold graphics and secure tube holders for retail display" },
-  { name: "Nail Polish Boxes", image: nailPolishBoxes, description: "Durable packaging for nail polish bottles with protective padding and attractive color-coordinated designs" },
-  { name: "Custom Eye Shadow Boxes", image: customEyeShadowBoxes, description: "Creative packaging for eye shadow palettes with mirror inserts and compartmentalized protective design" },
-  { name: "Eyelash Boxes", image: eyelashBoxes, description: "Beautiful boxes for false eyelashes featuring clear windows and delicate protective trays for storage" },
-  { name: "Essential Oil Boxes", image: essentialOilBoxes, description: "Secure packaging for essential oils with leak-resistant construction and aromatherapy-themed branding" },
-  { name: "Foundation Boxes", image: foundationBoxes, description: "Premium boxes for liquid and powder foundations with protective inserts and elegant matte finishes" },
-  { name: "Lip Balm Boxes", image: lipBalmBoxes, description: "Compact boxes for lip balm containers featuring eco-friendly materials and convenient display options" },
-  { name: "Nail Boxes", image: nailBoxes, description: "Custom packaging for various nail products with organized compartments and vibrant beauty branding" },
-  { name: "Cosmetic Lables", image: cosmeticLabels, description: "Custom printed labels for cosmetic products with waterproof finishes and FDA-compliant information display" },
-  { name: "Lip Tint Packaging", image: lipTintPackaging, description: "Trendy packaging for lip tints with modern designs and protective features for liquid formulations" },
-  { name: "Custom Wig Boxes", image: customWigBoxes, description: "Large protective boxes for wigs featuring spacious interiors and shape-maintaining support structures" },
-  { name: "Skin Care Packaging", image: skinCarePackaging, description: "Complete packaging solutions for skincare lines with cohesive branding and protective product inserts" },
+  { name: "Custom Beard Oil Boxes", image: customBeardOil, slug: "beard-oil-boxes", description: "Premium packaging for beard oil products featuring leak-proof design and masculine branding aesthetics" },
+  { name: "Serum Boxes", image: serumBoxes, slug: "serum-boxes", description: "Protective boxes for skincare serums with cushioned inserts preventing breakage and elegant presentation" },
+  { name: "Hair Color Boxes", image: hairColorBoxes, slug: "hair-color-boxes", description: "Vibrant packaging for hair color kits with clear instructions display and protective inner compartments" },
+  { name: "Hair Extension Boxes", image: hairExtensionBoxes, slug: "hair-extension-boxes", description: "Luxury boxes for hair extensions featuring soft-touch finishes and organized storage for multiple pieces" },
+  { name: "Hair Spray Boxes", image: hairSprayBoxes, slug: "hair-spray-boxes", description: "Custom boxes for hair spray bottles with secure fit and attractive shelf-ready retail presentation" },
+  { name: "Custom Lip Gloss Boxes", image: customLipGlossBoxes, slug: "lip-gloss-boxes", description: "Stylish packaging for lip gloss featuring window displays and premium finishes for cosmetic appeal" },
+  { name: "Custom Lip Liner Boxes", image: customLipLinerBoxes, slug: "lip-liner-boxes", description: "Sleek boxes for lip liners with protective inserts and sophisticated branding for makeup products" },
+  { name: "Custom Lipstick Boxes", image: customLipstickBoxes, slug: "lipstick-boxes", description: "Elegant lipstick packaging solutions with magnetic closures and luxurious finishes for premium brands" },
+  { name: "Mascara Boxes", image: mascaraBoxes, slug: "mascara-boxes", description: "Eye-catching boxes for mascara featuring bold graphics and secure tube holders for retail display" },
+  { name: "Nail Polish Boxes", image: nailPolishBoxes, slug: "nail-polish-boxes", description: "Durable packaging for nail polish bottles with protective padding and attractive color-coordinated designs" },
+  { name: "Custom Eye Shadow Boxes", image: customEyeShadowBoxes, slug: "eye-shadow-boxes", description: "Creative packaging for eye shadow palettes with mirror inserts and compartmentalized protective design" },
+  { name: "Eyelash Boxes", image: eyelashBoxes, slug: "eyelash-boxes", description: "Beautiful boxes for false eyelashes featuring clear windows and delicate protective trays for storage" },
+  { name: "Essential Oil Boxes", image: essentialOilBoxes, slug: "essential-oil-boxes", description: "Secure packaging for essential oils with leak-resistant construction and aromatherapy-themed branding" },
+  { name: "Foundation Boxes", image: foundationBoxes, slug: "foundation-boxes", description: "Premium boxes for liquid and powder foundations with protective inserts and elegant matte finishes" },
+  { name: "Lip Balm Boxes", image: lipBalmBoxes, slug: "lip-balm-boxes", description: "Compact boxes for lip balm containers featuring eco-friendly materials and convenient display options" },
+  { name: "Nail Boxes", image: nailBoxes, slug: "nail-boxes", description: "Custom packaging for various nail products with organized compartments and vibrant beauty branding" },
+  { name: "Cosmetic Labels", image: cosmeticLabels, slug: "cosmetic-labels", description: "Custom printed labels for cosmetic products with waterproof finishes and FDA-compliant information display" },
+  { name: "Lip Tint Packaging", image: lipTintPackaging, slug: "lip-tint-packaging", description: "Trendy packaging for lip tints with modern designs and protective features for liquid formulations" },
+  { name: "Custom Wig Boxes", image: customWigBoxes, slug: "wig-boxes", description: "Large protective boxes for wigs featuring spacious interiors and shape-maintaining support structures" },
+  { name: "Skin Care Packaging", image: skinCarePackaging, slug: "skin-care-packaging", description: "Complete packaging solutions for skincare lines with cohesive branding and protective product inserts" },
 ];
 
 const productOptions = [
@@ -80,7 +80,7 @@ const productOptions = [
   "Foundation Boxes",
   "Lip Balm Boxes",
   "Nail Boxes",
-  "Cosmetic Lables",
+  "Cosmetic Labels",
   "Lip Tint Packaging",
   "Custom Wig Boxes",
   "Skin Care Packaging",
@@ -161,34 +161,35 @@ const CosmeticBoxes = () => {
 
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
             {relatedProducts.map((product, index) => (
-              <Card
-                key={index}
-                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-              >
-                <CardContent className="p-0">
-                  <div className="w-full aspect-square overflow-hidden">
-                    {product.image ? (
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                      />
-                    ) : (
-                      <div className="w-full h-full bg-muted flex items-center justify-center">
-                        <p className="text-muted-foreground text-xs">Image placeholder</p>
-                      </div>
-                    )}
-                  </div>
-                  <div className="p-4 border-t border-border">
-                    <h3 className="font-semibold text-foreground text-sm mb-2">
-                      {product.name}
-                    </h3>
-                    <p className="text-xs text-muted-foreground line-clamp-2">
-                      {product.description}
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
+              <Link key={index} to={`/industries/cosmetic-boxes/${product.slug}`}>
+                <Card
+                  className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                >
+                  <CardContent className="p-0">
+                    <div className="w-full aspect-square overflow-hidden">
+                      {product.image ? (
+                        <img
+                          src={product.image}
+                          alt={product.name}
+                          className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                        />
+                      ) : (
+                        <div className="w-full h-full bg-muted flex items-center justify-center">
+                          <p className="text-muted-foreground text-xs">Image placeholder</p>
+                        </div>
+                      )}
+                    </div>
+                    <div className="p-4 border-t border-border">
+                      <h3 className="font-semibold text-foreground text-sm mb-2">
+                        {product.name}
+                      </h3>
+                      <p className="text-xs text-muted-foreground line-clamp-2">
+                        {product.description}
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
         </div>

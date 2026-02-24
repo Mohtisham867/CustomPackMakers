@@ -29,14 +29,14 @@ import { SEOContent } from "@/components/SEOContent";
 
 
 const relatedProducts = [
-    { name: "Chinese Takeout Boxes", image: chineseTakeout, description: "Classic and durable takeout containers with leak-resistant construction and convenient wire handles" },
-    { name: "Donut Boxes", image: donutBoxes, description: "Delightful packaging for bakery treats featuring grease-resistant materials and attractive window displays" },
-    { name: "Custom Popcorn Boxes", image: popcornBoxes, description: "Eye-catching boxes for cinema snacks with vibrant graphics and easy-grip design for entertainment venues" },
-    { name: "Dietary Supplement Packaging", image: dietarySupplements, description: "Secure packaging for health products with FDA-compliant labeling and tamper-evident safety features" },
-    { name: "Custom Pizza Slice Boxes", image: pizzaSliceBoxes, description: "Convenient single-slice pizza holders with ventilation holes and grease-proof coating for freshness" },
-    { name: "Custom Paper Food Bags", image: paperFoodBags, description: "Eco-friendly bags for takeaway food featuring sustainable materials and comfortable carrying handles" },
-    { name: "Paper Food Trays", image: paperFoodTrays, description: "Versatile trays for street food and snacks with sturdy construction and food-safe coating materials" },
-    { name: "Mini Cereal Boxes", image: miniCerealBoxes, description: "Compact cereal packaging for single servings with colorful designs and easy-open pour spouts" },
+    { name: "Chinese Takeout Boxes", image: chineseTakeout, description: "Classic and durable takeout containers with leak-resistant construction and convenient wire handles", link: "/industries/food-boxes/chinese-takeout-boxes" },
+    { name: "Donut Boxes", image: donutBoxes, description: "Delightful packaging for bakery treats featuring grease-resistant materials and attractive window displays", link: "/industries/food-boxes/donut-boxes" },
+    { name: "Custom Popcorn Boxes", image: popcornBoxes, description: "Eye-catching boxes for cinema snacks with vibrant graphics and easy-grip design for entertainment venues", link: "/industries/food-boxes/custom-popcorn-boxes" },
+    { name: "Dietary Supplement Packaging", image: dietarySupplements, description: "Secure packaging for health products with FDA-compliant labeling and tamper-evident safety features", link: "/industries/food-boxes/dietary-supplement-packaging" },
+    { name: "Custom Pizza Slice Boxes", image: pizzaSliceBoxes, description: "Convenient single-slice pizza holders with ventilation holes and grease-proof coating for freshness", link: "/industries/food-boxes/custom-pizza-slice-boxes" },
+    { name: "Custom Paper Food Bags", image: paperFoodBags, description: "Eco-friendly bags for takeaway food featuring sustainable materials and comfortable carrying handles", link: "/industries/food-boxes/custom-paper-food-bags" },
+    { name: "Paper Food Trays", image: paperFoodTrays, description: "Versatile trays for street food and snacks with sturdy construction and food-safe coating materials", link: "/industries/food-boxes/paper-food-trays" },
+    { name: "Mini Cereal Boxes", image: miniCerealBoxes, description: "Compact cereal packaging for single servings with colorful designs and easy-open pour spouts", link: "/industries/food-boxes/mini-cereal-boxes" },
 ];
 
 const productOptions = [
@@ -127,28 +127,29 @@ const FoodBoxes = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index} className="block group h-full">
+                                <Card className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 h-full">
+                                    <CardContent className="p-0 flex flex-col h-full">
+                                        <div className="w-full aspect-square overflow-hidden bg-white">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border flex-grow flex flex-col justify-between">
+                                            <div>
+                                                <h3 className="font-semibold text-foreground text-sm mb-2 group-hover:text-primary transition-colors">
+                                                    {product.name}
+                                                </h3>
+                                                <p className="text-xs text-muted-foreground line-clamp-2">
+                                                    {product.description}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

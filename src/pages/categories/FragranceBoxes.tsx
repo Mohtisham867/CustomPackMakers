@@ -24,10 +24,10 @@ import incenseBoxes from "@/assets/fragrance-boxes/incense-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Perfume Boxes", image: customPerfumeBoxes, description: "Elegant boxes for signature scents featuring luxurious finishes and protective bottle inserts" },
-    { name: "Perfume Subscription Boxes", image: perfumeSubscriptionBoxes, description: "Curated monthly fragrance sets with premium presentation and secure shipping protection" },
-    { name: "Luxury Perfume Packaging", image: luxuryPerfumePackaging, description: "Premium packaging for high-end perfumes with sophisticated designs and magnetic closures" },
-    { name: "Incense Boxes", image: incenseBoxes, description: "Protective and stylish boxes for incense sticks with aromatic preservation and elegant branding" },
+    { name: "Custom Perfume Boxes", image: customPerfumeBoxes, description: "Elegant boxes for signature scents featuring luxurious finishes and protective bottle inserts", href: "/industries/fragrance-boxes/custom-perfume-boxes" },
+    { name: "Perfume Subscription Boxes", image: perfumeSubscriptionBoxes, description: "Curated monthly fragrance sets with premium presentation and secure shipping protection", href: "/industries/fragrance-boxes/perfume-subscription-boxes" },
+    { name: "Luxury Perfume Packaging", image: luxuryPerfumePackaging, description: "Premium packaging for high-end perfumes with sophisticated designs and magnetic closures", href: "/industries/fragrance-boxes/luxury-perfume-packaging" },
+    { name: "Incense Boxes", image: incenseBoxes, description: "Protective and stylish boxes for incense sticks with aromatic preservation and elegant branding", href: "/industries/fragrance-boxes/incense-boxes" },
 ];
 
 const productOptions = [
@@ -114,28 +114,29 @@ const FragranceBoxes = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.href} key={index} className="block">
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                                >
+                                    <CardContent className="p-0 flex flex-col h-full">
+                                        <div className="w-full aspect-square overflow-hidden shrink-0">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border flex flex-col grow">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2 mt-auto">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

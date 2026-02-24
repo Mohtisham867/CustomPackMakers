@@ -32,15 +32,15 @@ import softwareBoxes from "../../assets/electronics-boxes/Software Boxes.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Hair Dryer Packaging", image: hairDryerBoxes, description: "Protective packaging for hair styling tools with cushioned inserts and professional retail presentation" },
-    { name: "Cell Phone Charger Boxes", image: chargerBoxes, description: "Compact boxes for chargers and cables featuring organized compartments and tech-focused branding design" },
-    { name: "Battery Packaging", image: batteryBoxes, description: "Secure packaging for various battery sizes with safety certifications and clear product information display" },
-    { name: "CD Jackets", image: cdJackets, description: "Sleek jackets for media storage offering protective sleeves and customizable artwork printing options" },
-    { name: "CD Covers", image: cdCovers, description: "Custom covers for CDs and DVDs with high-quality printing and durable protective construction materials" },
-    { name: "Camera Packaging", image: cameraPackaging, description: "Durable protection for cameras and lenses featuring foam inserts and shock-resistant exterior construction" },
-    { name: "Phone Boxes", image: phoneBoxes, description: "Premium rigid or tuck boxes for smartphones with magnetic closures and luxury unboxing experience design" }, // Reusing charger box for sleek tech look if generic
-    { name: "Headphone Packaging", image: headphonePackaging, description: "Stylish packaging for audio accessories with protective compartments and modern tech-inspired graphics" },
-    { name: "Software Boxes", image: softwareBoxes, description: "Professional boxes for software retail featuring security seals and comprehensive product information panels" },
+    { name: "Hair Dryer Packaging", image: hairDryerBoxes, description: "Protective packaging for hair styling tools with cushioned inserts and professional retail presentation", link: "/industries/electronics-boxes/hair-dryer-packaging" },
+    { name: "Cell Phone Charger Boxes", image: chargerBoxes, description: "Compact boxes for chargers and cables featuring organized compartments and tech-focused branding design", link: "/industries/electronics-boxes/cell-phone-charger-boxes" },
+    { name: "Battery Packaging", image: batteryBoxes, description: "Secure packaging for various battery sizes with safety certifications and clear product information display", link: "/industries/electronics-boxes/battery-packaging" },
+    { name: "CD Jackets", image: cdJackets, description: "Sleek jackets for media storage offering protective sleeves and customizable artwork printing options", link: "/industries/electronics-boxes/cd-jackets" },
+    { name: "CD Covers", image: cdCovers, description: "Custom covers for CDs and DVDs with high-quality printing and durable protective construction materials", link: "/industries/electronics-boxes/cd-covers" },
+    { name: "Camera Packaging", image: cameraPackaging, description: "Durable protection for cameras and lenses featuring foam inserts and shock-resistant exterior construction", link: "/industries/electronics-boxes/camera-packaging" },
+    { name: "Phone Boxes", image: phoneBoxes, description: "Premium rigid or tuck boxes for smartphones with magnetic closures and luxury unboxing experience design", link: "/industries/electronics-boxes/phone-boxes" },
+    { name: "Headphone Packaging", image: headphonePackaging, description: "Stylish packaging for audio accessories with protective compartments and modern tech-inspired graphics", link: "/industries/electronics-boxes/headphone-packaging" },
+    { name: "Software Boxes", image: softwareBoxes, description: "Professional boxes for software retail featuring security seals and comprehensive product information panels", link: "/industries/electronics-boxes/software-boxes" },
 ];
 
 const productOptions = [
@@ -132,28 +132,27 @@ const ElectronicsBoxes = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index} className="block group h-full">
+                                <Card className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 h-full">
+                                    <CardContent className="p-0">
+                                        <div className="w-full aspect-square overflow-hidden bg-gray-50">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2 group-hover:text-primary transition-colors">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

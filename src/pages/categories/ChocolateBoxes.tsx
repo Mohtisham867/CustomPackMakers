@@ -27,16 +27,16 @@ import chocolateSubscriptionBox from "@/assets/chocolate-products/chocolate-subs
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-  { name: "Artisan Chocolate Box", image: artisanChocolateBox, description: "Handcrafted boxes for premium artisan chocolates featuring delicate compartmentalized inserts for protection" },
-  { name: "Chocolate Milk Boxes", image: chocolateMilkBoxes, description: "Custom packaging for chocolate milk products designed with moisture-resistant materials and vibrant graphics" },
-  { name: "Chocolate Candy Boxes", image: chocolateCandyBoxes, description: "Vibrant boxes for chocolate candies and treats offering clear window displays and colorful brand storytelling" },
-  { name: "Luxury Chocolate Boxes", image: luxuryChocolateBoxes, description: "Premium packaging for high-end chocolate brands utilizing rigid board and elegant foil-stamping finishes" },
-  { name: "Chocolate Bomb Boxes", image: chocolateBombBoxes, description: "Specialized packaging for hot chocolate bombs with secure internal cradles to prevent breakage during transit" },
-  { name: "Chocolate Gift Boxes", image: chocolateGiftBoxes, description: "Elegant gift-ready chocolate packaging with sophisticated ribbon closures and luxury unboxing experiences" },
-  { name: "Christmas Chocolate Boxes", image: christmasChocolateBoxes, description: "Festive holiday-themed chocolate packaging featuring seasonal colors and protective festive-themed inserts" },
-  { name: "Mushroom Chocolate Bar Packaging", image: mushroomChocolateBarPackaging, description: "Trendy packaging for mushroom-infused chocolates with specialized safety seals and unique brand aesthetics" },
-  { name: "Chocolate Bar Packaging", image: chocolateBarPackaging, description: "Sleek wrapping and boxes for chocolate bars providing airtight protection and high-fidelity offset printing" },
-  { name: "Chocolate Subscription Box", image: chocolateSubscriptionBox, description: "Monthly subscription box packaging solutions designed for secure shipping and delightful recurring unboxings" },
+  { name: "Artisan Chocolate Box", image: artisanChocolateBox, description: "Handcrafted boxes for premium artisan chocolates featuring delicate compartmentalized inserts for protection", link: "/industries/chocolate-boxes/artisan-chocolate-box" },
+  { name: "Chocolate Milk Boxes", image: chocolateMilkBoxes, description: "Custom packaging for chocolate milk products designed with moisture-resistant materials and vibrant graphics", link: "/industries/chocolate-boxes/chocolate-milk-boxes" },
+  { name: "Chocolate Candy Boxes", image: chocolateCandyBoxes, description: "Vibrant boxes for chocolate candies and treats offering clear window displays and colorful brand storytelling", link: "/industries/chocolate-boxes/chocolate-candy-boxes" },
+  { name: "Luxury Chocolate Boxes", image: luxuryChocolateBoxes, description: "Premium packaging for high-end chocolate brands utilizing rigid board and elegant foil-stamping finishes", link: "/industries/chocolate-boxes/luxury-chocolate-boxes" },
+  { name: "Chocolate Bomb Boxes", image: chocolateBombBoxes, description: "Specialized packaging for hot chocolate bombs with secure internal cradles to prevent breakage during transit", link: "/industries/chocolate-boxes/chocolate-bomb-boxes" },
+  { name: "Chocolate Gift Boxes", image: chocolateGiftBoxes, description: "Elegant gift-ready chocolate packaging with sophisticated ribbon closures and luxury unboxing experiences", link: "/industries/chocolate-boxes/chocolate-gift-boxes" },
+  { name: "Christmas Chocolate Boxes", image: christmasChocolateBoxes, description: "Festive holiday-themed chocolate packaging featuring seasonal colors and protective festive-themed inserts", link: "/industries/chocolate-boxes/christmas-chocolate-boxes" },
+  { name: "Mushroom Chocolate Bar Packaging", image: mushroomChocolateBarPackaging, description: "Trendy packaging for mushroom-infused chocolates with specialized safety seals and unique brand aesthetics", link: "/industries/chocolate-boxes/mushroom-chocolate-bar-packaging" },
+  { name: "Chocolate Bar Packaging", image: chocolateBarPackaging, description: "Sleek wrapping and boxes for chocolate bars providing airtight protection and high-fidelity offset printing", link: "/industries/chocolate-boxes/chocolate-bar-packaging" },
+  { name: "Chocolate Subscription Box", image: chocolateSubscriptionBox, description: "Monthly subscription box packaging solutions designed for secure shipping and delightful recurring unboxings", link: "/industries/chocolate-boxes/chocolate-subscription-box" },
 ];
 
 const ChocolateBoxes = () => {
@@ -112,28 +112,29 @@ const ChocolateBoxes = () => {
 
             <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
               {relatedProducts.map((product, index) => (
-                <Card
-                  key={index}
-                  className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                >
-                  <CardContent className="p-0">
-                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                      />
-                    </div>
-                    <div className="p-4 border-t border-border">
-                      <h3 className="font-semibold text-foreground text-sm mb-2">
-                        {product.name}
-                      </h3>
-                      <p className="text-xs text-muted-foreground">
-                        {product.description}
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
+                <Link to={product.link} key={index} className="block">
+                  <Card
+                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
+                  >
+                    <CardContent className="p-0">
+                      <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                        <img
+                          src={product.image}
+                          alt={product.name}
+                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                        />
+                      </div>
+                      <div className="p-4 border-t border-border">
+                        <h3 className="font-semibold text-foreground text-sm mb-2">
+                          {product.name}
+                        </h3>
+                        <p className="text-xs text-muted-foreground">
+                          {product.description}
+                        </p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
           </div>

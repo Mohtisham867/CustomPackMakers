@@ -29,17 +29,17 @@ import cigaretteCartons from "@/assets/cigarette-boxes/cigarette-cartons.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-  { name: "Custom E-Cigarette Boxes", image: eCigaretteBoxes, description: "Modern packaging for electronic cigarettes featuring sleek designs and high-quality protective finishes" },
-  { name: "Custom Hemp Cigarette Boxes", image: hempCigaretteBoxes, description: "Eco-friendly hemp cigarette packaging offering natural appeal and sustainable material construction" },
-  { name: "Paper Cigarette Boxes", image: paperCigaretteBoxes, description: "Classic paper cigarette packaging featuring elegant finishes and professional retail presentation" },
-  { name: "Cardboard Cigarette Boxes", image: cardboardCigaretteBoxes, description: "Sturdy cardboard packaging with premium print quality designed for durability and shelf impact" },
-  { name: "Blank Cigarette Boxes", image: blankCigaretteBoxes, description: "Plain white cigarette boxes ready for your fully custom branding and artistic graphic designs" },
-  { name: "Disposable Cigarette Boxes", image: disposableCigaretteBoxes, description: "Single-use packaging solutions for convenience, portability, and high-impact branding possibilities" },
-  { name: "Lighter Boxes", image: lighterBoxes, description: "Custom lighter packaging with clear window display options and professional retail-ready branding" },
-  { name: "Empty Cigarette Boxes", image: emptyCigaretteBoxes, description: "Empty boxes ready for efficient product filling, featuring durable board and secure closure designs" },
-  { name: "Cigarette Display Boxes", image: cigaretteDisplayBoxes, description: "Retail display stands designed for maximum brand visibility and organized product merchandising" },
-  { name: "Cardboard Cigar Boxes", image: cardboardCigarBoxes, description: "Premium cigar packaging featuring luxury finishes and robust materials for high-end retail presentation" },
-  { name: "Cigarette Cartons", image: cigaretteCartons, description: "Bulk cigarette carton packaging designed for secure wholesale distribution and prominent branding" },
+  { name: "Custom E-Cigarette Boxes", image: eCigaretteBoxes, link: "/industries/cigarette-boxes/custom-e-cigarette-boxes", description: "Modern packaging for electronic cigarettes featuring sleek designs and high-quality protective finishes" },
+  { name: "Custom Hemp Cigarette Boxes", image: hempCigaretteBoxes, link: "/industries/cigarette-boxes/custom-hemp-cigarette-boxes", description: "Eco-friendly hemp cigarette packaging offering natural appeal and sustainable material construction" },
+  { name: "Paper Cigarette Boxes", image: paperCigaretteBoxes, link: "/industries/cigarette-boxes/paper-cigarette-boxes", description: "Classic paper cigarette packaging featuring elegant finishes and professional retail presentation" },
+  { name: "Cardboard Cigarette Boxes", image: cardboardCigaretteBoxes, link: "/industries/cigarette-boxes/cardboard-cigarette-boxes", description: "Sturdy cardboard packaging with premium print quality designed for durability and shelf impact" },
+  { name: "Blank Cigarette Boxes", image: blankCigaretteBoxes, link: "/industries/cigarette-boxes/blank-cigarette-boxes", description: "Plain white cigarette boxes ready for your fully custom branding and artistic graphic designs" },
+  { name: "Disposable Cigarette Boxes", image: disposableCigaretteBoxes, link: "/industries/cigarette-boxes/disposable-cigarette-boxes", description: "Single-use packaging solutions for convenience, portability, and high-impact branding possibilities" },
+  { name: "Lighter Boxes", image: lighterBoxes, link: "/industries/cigarette-boxes/lighter-boxes", description: "Custom lighter packaging with clear window display options and professional retail-ready branding" },
+  { name: "Empty Cigarette Boxes", image: emptyCigaretteBoxes, link: "/industries/cigarette-boxes/empty-cigarette-boxes", description: "Empty boxes ready for efficient product filling, featuring durable board and secure closure designs" },
+  { name: "Cigarette Display Boxes", image: cigaretteDisplayBoxes, link: "/industries/cigarette-boxes/cigarette-display-boxes", description: "Retail display stands designed for maximum brand visibility and organized product merchandising" },
+  { name: "Cardboard Cigar Boxes", image: cardboardCigarBoxes, link: "/industries/cigarette-boxes/cardboard-cigar-boxes", description: "Premium cigar packaging featuring luxury finishes and robust materials for high-end retail presentation" },
+  { name: "Cigarette Cartons", image: cigaretteCartons, link: "/industries/cigarette-boxes/cigarette-cartons", description: "Bulk cigarette carton packaging designed for secure wholesale distribution and prominent branding" },
 ];
 
 const CigaretteBoxes = () => {
@@ -73,7 +73,7 @@ const CigaretteBoxes = () => {
       </div>
 
       {/* Hero Section with Split Layout */}
-      <section className="py-12 bg-background">
+      <section className="py-12 bg-background border-b border-slate-100">
         <div className="container mx-auto px-4">
           {/* Split Layout */}
           <div className="flex flex-col lg:flex-row gap-8 items-start">
@@ -82,7 +82,7 @@ const CigaretteBoxes = () => {
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                 Cigarette Boxes
               </h1>
-              <p className="text-[16px] text-muted-foreground mb-8 leading-relaxed" style={{ display: '-webkit-box', WebkitLineClamp: 4, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+              <p className="text-[16px] text-muted-foreground mb-8 leading-relaxed max-w-2xl">
                 Elevate your tobacco brand with our premium custom cigarette boxes. Our durable packaging solutions offer exceptional protection while showcasing your brand identity with high-quality printing and finishes. From sleek flip-top designs to classic soft packs, we deliver packaging that stands out on retail shelves and reinforces brand recognition.
               </p>
               <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted mx-auto lg:mx-0">
@@ -114,28 +114,29 @@ const CigaretteBoxes = () => {
 
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {relatedProducts.map((product, index) => (
-              <Card
-                key={index}
-                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-              >
-                <CardContent className="p-0">
-                  <div className="w-full aspect-square overflow-hidden">
-                    <img
-                      src={product.image}
-                      alt={product.name}
-                      className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                    />
-                  </div>
-                  <div className="p-4 border-t border-border">
-                    <h3 className="font-semibold text-foreground text-sm mb-2">
-                      {product.name}
-                    </h3>
-                    <p className="text-xs text-muted-foreground">
-                      {product.description}
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
+              <Link key={index} to={product.link}>
+                <Card
+                  className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                >
+                  <CardContent className="p-0 flex flex-col h-full">
+                    <div className="w-full aspect-square overflow-hidden">
+                      <img
+                        src={product.image}
+                        alt={product.name}
+                        className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                      />
+                    </div>
+                    <div className="p-4 border-t border-border flex-grow">
+                      <h3 className="font-semibold text-foreground text-sm mb-2">
+                        {product.name}
+                      </h3>
+                      <p className="text-xs text-muted-foreground">
+                        {product.description}
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
         </div>

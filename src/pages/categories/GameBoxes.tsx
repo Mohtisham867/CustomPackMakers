@@ -24,10 +24,10 @@ import boardGameBoxes from "@/assets/game-boxes/custom-board-game-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Toy Boxes", image: customToyBoxes, description: "Bright and colorful packaging for toys featuring vibrant graphics and child-safe protective materials" },
-    { name: "Playing Card Boxes", image: playingCardBoxes, description: "Premium tuck boxes for card decks with precise fit and smooth-opening closure mechanisms" },
-    { name: "Gaming Subscription Box", image: subscriptionBoxes, description: "Engaging mailer boxes for gamer gear featuring bold designs and protective interior compartments" },
-    { name: "Custom Board Game Boxes", image: boardGameBoxes, description: "Durable rigid boxes for board games with reinforced corners and component-organizing inserts" },
+    { name: "Custom Toy Boxes", image: customToyBoxes, description: "Bright and colorful packaging for toys featuring vibrant graphics and child-safe protective materials", href: "/industries/game-boxes/custom-toy-boxes" },
+    { name: "Playing Card Boxes", image: playingCardBoxes, description: "Premium tuck boxes for card decks with precise fit and smooth-opening closure mechanisms", href: "/industries/game-boxes/playing-card-boxes" },
+    { name: "Gaming Subscription Box", image: subscriptionBoxes, description: "Engaging mailer boxes for gamer gear featuring bold designs and protective interior compartments", href: "/industries/game-boxes/gaming-subscription-box" },
+    { name: "Custom Board Game Boxes", image: boardGameBoxes, description: "Durable rigid boxes for board games with reinforced corners and component-organizing inserts", href: "/industries/game-boxes/custom-board-game-boxes" },
 ];
 
 const productOptions = [
@@ -114,28 +114,27 @@ const GameBoxes = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.href} key={index} className="block group">
+                                <Card className="overflow-hidden border-border bg-card hover:shadow-xl transition-all duration-300 h-full group-hover:-translate-y-1">
+                                    <CardContent className="p-0">
+                                        <div className="w-full aspect-square overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2 group-hover:text-primary transition-colors">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

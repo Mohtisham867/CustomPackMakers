@@ -20,7 +20,7 @@ export const Footer = () => {
               <img src={logo} alt="CustomPackMakers" className="h-16 w-auto object-contain transition-transform " loading="lazy" />
             </a>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              CustomPackMakers provides premium packaging solutions to elevate your brand. We combine innovative designs with high-quality materials for every box. Your vision, our packaging—delivering excellence across every shipment..
+              CustomPackMakers provides premium packaging solutions to elevate your brand. We combine innovative designs with high-quality materials for every box. Your vision, our packaging, delivering excellence across every shipment.
             </p>
             <div className="flex gap-3 pt-2">
               <a href="#" className="bg-white border border-border hover:border-primary hover:text-primary p-2 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md">
@@ -56,11 +56,11 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-bold text-lg">Popular Products</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link to="/industries" className="block py-2 text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Custom Boxes</Link></li>
-              <li><Link to="/industries/mailer-boxes" className="block py-2 text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Mailer Boxes</Link></li>
-              <li><Link to="/industries/rigid-boxes" className="block py-2 text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Rigid Boxes</Link></li>
-              <li><Link to="/shapes-styles/stickers-and-labels" className="block py-2 text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Stickers & Labels</Link></li>
-              <li><Link to="/industries/sustainable-packaging" className="block py-2 text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Eco-Friendly Packaging</Link></li>
+              <li><Link to="/categories/candle-boxes" className="block py-2 text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Candle Boxes</Link></li>
+              <li><Link to="/categories/display-boxes" className="block py-2 text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Display Boxes</Link></li>
+              <li><Link to="/categories/mailer-boxes" className="block py-2 text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Mailer Boxes</Link></li>
+              <li><Link to="/categories/soap-boxes" className="block py-2 text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Soap Boxes</Link></li>
+              <li><Link to="/categories/tuck-boxes" className="block py-2 text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Tuck Boxes</Link></li>
             </ul>
           </div>
 

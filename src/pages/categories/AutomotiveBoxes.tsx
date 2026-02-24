@@ -29,16 +29,16 @@ import carCleaningKitsBoxes from "@/assets/automotive-products/car-cleaning-kits
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-  { name: "Car Accessories Boxes", image: carAccessoriesBoxes, description: "Premium packaging for automotive accessories ensuring protection and professional retail presentation" },
-  { name: "Spare Parts Boxes", image: sparePartsBoxes, description: "Durable boxes designed to protect spare parts during storage and shipping with reinforced construction" },
-  { name: "Lubricant Packaging Boxes", image: lubricantPackaging, description: "Professional packaging for oil and lubricant products with leak-resistant design and clear branding" },
-  { name: "Electronic Component Boxes", image: electronicComponentBoxes, description: "Protective packaging for sensitive electronic parts featuring anti-static materials and secure closures" },
-  { name: "Brake Pads Packaging", image: brakePadsPackaging, description: "Heavy-duty boxes engineered for brake components offering maximum protection and easy identification" },
-  { name: "Air Filter Boxes", image: airFilterBoxes, description: "Clean storage solutions for air filters with dust-proof design and convenient stacking capabilities" },
-  { name: "Tool Kit Boxes", image: toolKitBoxes, description: "Robust packaging for automotive tools featuring sturdy construction and organized compartment layouts" },
-  { name: "Tire Accessories Packaging", image: tireAccessoriesPackaging, description: "Secure boxes for tire accessories designed to withstand heavy loads and protect contents during transit" },
-  { name: "Headlight Boxes", image: headlightBoxes, description: "Protective packaging for lighting components with cushioned interiors preventing damage and scratches" },
-  { name: "Car Cleaning Kits Boxes", image: carCleaningKitsBoxes, description: "Premium boxes for detailing kits offering organized storage and attractive retail shelf presentation" },
+  { name: "Car Accessories Boxes", image: carAccessoriesBoxes, description: "Premium packaging for automotive accessories ensuring protection and professional retail presentation", link: "/industries/automotive-boxes/car-accessories-boxes" },
+  { name: "Spare Parts Boxes", image: sparePartsBoxes, description: "Durable boxes designed to protect spare parts during storage and shipping with reinforced construction", link: "/industries/automotive-boxes/spare-parts-boxes" },
+  { name: "Lubricant Packaging Boxes", image: lubricantPackaging, description: "Leak-proof and sturdy packaging solutions for oils, lubricants, and automotive fluids", link: "/industries/automotive-boxes/lubricant-packaging-boxes" },
+  { name: "Electronic Component Boxes", image: electronicComponentBoxes, description: "Anti-static and shock-resistant packaging for sensitive automotive electronic components", link: "/industries/automotive-boxes/electronic-component-boxes" },
+  { name: "Brake Pads Packaging", image: brakePadsPackaging, description: "Heavy-duty packaging designed to handle the weight and abrasive nature of brake pads", link: "/industries/automotive-boxes/brake-pads-packaging" },
+  { name: "Air Filter Boxes", image: airFilterBoxes, description: "Custom sized boxes to maintain the shape and integrity of air filters during transport", link: "/industries/automotive-boxes/air-filter-boxes" },
+  { name: "Tool Kit Boxes", image: toolKitBoxes, description: "Organized and rugged packaging solutions for automotive tool sets and emergency kits", link: "/industries/automotive-boxes/tool-kit-boxes" },
+  { name: "Tire Accessories Packaging", image: tireAccessoriesPackaging, description: "Versatile packaging for tire accessories, from valve caps to repair kits", link: "/industries/automotive-boxes/tire-accessories-packaging" },
+  { name: "Headlight Boxes", image: headlightBoxes, description: "Protective packaging with cushioning for fragile headlights and automotive lighting", link: "/industries/automotive-boxes/headlight-boxes" },
+  { name: "Car Cleaning Kits Boxes", image: carCleaningKitsBoxes, description: "Water-resistant and attractive packaging for car care and detailing kits", link: "/industries/automotive-boxes/car-cleaning-kits-boxes" },
 ];
 
 const AutomotiveBoxes = () => {
@@ -114,28 +114,29 @@ const AutomotiveBoxes = () => {
 
             <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
               {relatedProducts.map((product, index) => (
-                <Card
-                  key={index}
-                  className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                >
-                  <CardContent className="p-0">
-                    <div className="w-full aspect-square overflow-hidden">
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                      />
-                    </div>
-                    <div className="p-4 border-t border-border">
-                      <h3 className="font-semibold text-foreground text-sm mb-2">
-                        {product.name}
-                      </h3>
-                      <p className="text-xs text-muted-foreground line-clamp-2">
-                        {product.description}
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
+                <Link key={index} to={product.link} className="block h-full">
+                  <Card
+                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                  >
+                    <CardContent className="p-0">
+                      <div className="w-full aspect-square overflow-hidden">
+                        <img
+                          src={product.image}
+                          alt={product.name}
+                          className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                        />
+                      </div>
+                      <div className="p-4 border-t border-border">
+                        <h3 className="font-semibold text-foreground text-sm mb-2">
+                          {product.name}
+                        </h3>
+                        <p className="text-xs text-muted-foreground line-clamp-2">
+                          {product.description}
+                        </p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
           </section>

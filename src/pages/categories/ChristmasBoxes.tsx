@@ -32,20 +32,21 @@ import adventCalendarBoxes from "@/assets/christmas-products/advent-calendar-box
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-  { name: "Christmas Chocolate Boxes", image: christmasChocolateBoxes, description: "Festive chocolate packaging featuring holiday-themed designs and protective interior compartments" },
-  { name: "Christmas Tags", image: christmasTags, description: "Custom holiday gift tags designed with seasonal graphics to add a personal touch to your presents" },
-  { name: "Christmas Gable Boxes", image: christmasGableBoxes, description: "Festive carry boxes with built-in handles perfect for holiday treats and seasonal gift giving" },
-  { name: "Christmas Cupcake Boxes", image: christmasCupcakeBoxes, description: "Holiday cupcake packaging with festive prints and secure inserts to keep your baked goods safe" },
-  { name: "Custom Christmas Candy Boxes", image: christmasCandyBoxes, description: "Seasonal candy packaging featuring vibrant holiday colors and high-quality protective cardstock" },
-  { name: "Christmas Gift Boxes", image: christmasGiftBoxes, description: "Elegant holiday gift boxes crafted with premium finishes and festive designs for memorable unboxings" },
-  { name: "Christmas Eve Boxes", image: christmasEveBoxes, description: "Special eve tradition boxes designed to hold festive treats and gifts for an enchanting night" },
-  { name: "Christmas Treat Boxes", image: christmasTreatBoxes, description: "Festive treat packaging perfect for small holiday snacks and cookies with charming seasonal artwork" },
-  { name: "Christmas Paper Bags", image: christmasPaperBags, description: "Holiday shopping bags with reinforced handles and festive graphics for a complete retail experience" },
-  { name: "Christmas Gift Bags", image: christmasGiftBags, description: "Premium gift bags featuring high-end holiday designs and durable materials for any festive gift" },
-  { name: "Christmas Favor Boxes", image: christmasFavorBoxes, description: "Party favor packaging designed with seasonal motifs to delight guests at any holiday celebration" },
-  { name: "Christmas Stickers", image: christmasStickers, description: "Festive labels and stickers to brand your holiday packaging with charming and colorful graphics" },
-  { name: "Custom Advent Calendar Boxes", image: adventCalendarBoxes, description: "Countdown calendar packaging featuring 24 individual compartments for a magical daily surprise" },
+  { name: "Christmas Chocolate Boxes", image: christmasChocolateBoxes, description: "Festive chocolate packaging featuring holiday-themed designs and protective interior compartments", link: "/industries/christmas-boxes/christmas-chocolate-boxes" },
+  { name: "Christmas Tags", image: christmasTags, description: "Custom holiday gift tags designed with seasonal graphics to add a personal touch to your presents", link: "/industries/christmas-boxes/christmas-tags" },
+  { name: "Christmas Gable Boxes", image: christmasGableBoxes, description: "Festive carry boxes with built-in handles perfect for holiday treats and seasonal gift giving", link: "/industries/christmas-boxes/christmas-gable-boxes" },
+  { name: "Christmas Cupcake Boxes", image: christmasCupcakeBoxes, description: "Holiday cupcake packaging with festive prints and secure inserts to keep your baked goods safe", link: "/industries/christmas-boxes/christmas-cupcake-boxes" },
+  { name: "Custom Christmas Candy Boxes", image: christmasCandyBoxes, description: "Seasonal candy packaging featuring vibrant holiday colors and high-quality protective cardstock", link: "/industries/christmas-boxes/custom-christmas-candy-boxes" },
+  { name: "Christmas Gift Boxes", image: christmasGiftBoxes, description: "Elegant holiday gift boxes crafted with premium finishes and festive designs for memorable unboxings", link: "/industries/christmas-boxes/christmas-gift-boxes" },
+  { name: "Christmas Eve Boxes", image: christmasEveBoxes, description: "Special eve tradition boxes designed to hold festive treats and gifts for an enchanting night", link: "/industries/christmas-boxes/christmas-eve-boxes" },
+  { name: "Christmas Treat Boxes", image: christmasTreatBoxes, description: "Festive treat packaging perfect for small holiday snacks and cookies with charming seasonal artwork", link: "/industries/christmas-boxes/christmas-treat-boxes" },
+  { name: "Christmas Paper Bags", image: christmasPaperBags, description: "Holiday shopping bags with reinforced handles and festive graphics for a complete retail experience", link: "/industries/christmas-boxes/christmas-paper-bags" },
+  { name: "Christmas Gift Bags", image: christmasGiftBags, description: "Premium gift bags featuring high-end holiday designs and durable materials for any festive gift", link: "/industries/christmas-boxes/christmas-gift-bags" },
+  { name: "Christmas Favor Boxes", image: christmasFavorBoxes, description: "Party favor packaging designed with seasonal motifs to delight guests at any holiday celebration", link: "/industries/christmas-boxes/christmas-favor-boxes" },
+  { name: "Christmas Stickers", image: christmasStickers, description: "Festive labels and stickers to brand your holiday packaging with charming and colorful graphics", link: "/industries/christmas-boxes/christmas-stickers" },
+  { name: "Custom Advent Calendar Boxes", image: adventCalendarBoxes, description: "Countdown calendar packaging featuring 24 individual compartments for a magical daily surprise", link: "/industries/christmas-boxes/custom-advent-calendar-boxes" },
 ];
+
 
 const ChristmasBoxes = () => {
   return (
@@ -121,28 +122,29 @@ const ChristmasBoxes = () => {
 
             <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
               {relatedProducts.map((product, index) => (
-                <Card
-                  key={index}
-                  className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                >
-                  <CardContent className="p-0">
-                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                      />
-                    </div>
-                    <div className="p-4 border-t border-border">
-                      <h3 className="font-semibold text-foreground text-sm mb-2">
-                        {product.name}
-                      </h3>
-                      <p className="text-xs text-muted-foreground">
-                        {product.description}
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
+                <Link key={index} to={product.link} className="block">
+                  <Card
+                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                  >
+                    <CardContent className="p-0">
+                      <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                        <img
+                          src={product.image}
+                          alt={product.name}
+                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                        />
+                      </div>
+                      <div className="p-4 border-t border-border">
+                        <h3 className="font-semibold text-foreground text-sm mb-2">
+                          {product.name}
+                        </h3>
+                        <p className="text-xs text-muted-foreground">
+                          {product.description}
+                        </p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
           </section>
