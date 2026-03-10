@@ -29,13 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
-
+import clothingBoxehero from "@/assets/apparel-boxes/clothing-hang-tags/img-hero.png";
+import clothingBox1 from "@/assets/apparel-boxes/clothing-hang-tags/img-1.png";
+import clothingBox2 from "@/assets/apparel-boxes/clothing-hang-tags/img-2.png";
+import clothingBox3 from "@/assets/apparel-boxes/clothing-hang-tags/img-3.png";
+import clothingBox4 from "@/assets/apparel-boxes/clothing-hang-tags/img-4.png";
+import clothingBox5 from "@/assets/apparel-boxes/clothing-hang-tags/img-5.png";
+import clothingBox6 from "@/assets/apparel-boxes/clothing-hang-tags/img-whychoose.png";
+import clothingBox7 from "@/assets/apparel-boxes/clothing-hang-tags/img-defferent.png";
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
 
@@ -44,11 +45,11 @@ const ClothingHangTags = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Custom Clothing Hang Tags - Flat Lay" },
-        { src: shoeBox2, alt: "Custom Clothing Hang Tags - Stacked" },
-        { src: shoeBox3, alt: "Custom Clothing Hang Tags - Detail" },
-        { src: shoeBox4, alt: "Custom Clothing Hang Tags - Texture" },
-        { src: shoeBoxHero, alt: "Custom Clothing Hang Tags - Lifestyle" },
+        { src: clothingBox1, alt: "Custom Clothing Hang Tags - Flat Lay" },
+        { src: clothingBox2, alt: "Custom Clothing Hang Tags - Stacked" },
+        { src: clothingBox3, alt: "Custom Clothing Hang Tags - Detail" },
+        { src: clothingBox4, alt: "Custom Clothing Hang Tags - Texture" },
+        { src: clothingBox5, alt: "Custom Clothing Hang Tags - Lifestyle" },
     ];
 
     return (
@@ -121,9 +122,9 @@ const ClothingHangTags = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={clothingBoxehero}
                                     alt="Custom Clothing Hang Tags Hero"
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    className="w-full h-full object-cover"
                                 />
                             </div>
                         </div>
@@ -371,7 +372,7 @@ const ClothingHangTags = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={clothingBox6}
                                     alt="Premium Custom Clothing Hang Tags"
                                     className="w-full h-full object-cover"
                                 />
@@ -403,7 +404,7 @@ const ClothingHangTags = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={clothingBox7}
                                     alt="Differentiate Your Clothing Brand with Tags"
                                     className="w-full h-full object-cover"
                                 />
@@ -417,8 +418,7 @@ const ClothingHangTags = () => {
                                 Differentiate Your <span className="text-primary">Clothing Brand</span> With Custom Tags
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-                                At CustomPackMakers, we believe that the smallest details make the biggest impact. A well-designed hang tag elevates the perceived value of your clothing and serves as a mini-billboard for your brand. Our team works with you to choose the perfect paper stock, finish, and stringing option to create a tag that perfectly complements your collection and captivates your customers.
-                            </p>
+At CustomPackMakers, we firmly believe that the smallest, most refined details often make the most significant impact on a brand's success. A meticulously well-designed hang tag instantly elevates the perceived value of your clothing, serving as a powerful mini-billboard for your brand identity. Our expert team works closely with you to select the perfect premium paper stock, luxury finish, and bespoke stringing options. Together, we create a sophisticated tag that perfectly complements your latest collection, effectively captivating your customers while reinforcing your commitment to superior quality                            </p>
                         </div>
                     </div>
                 </div>

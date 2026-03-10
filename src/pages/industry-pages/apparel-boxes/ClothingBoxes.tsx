@@ -29,12 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images (using shoe box images as requested)
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import clothingBoxesHero from "@/assets/apparel-boxes/clothing-boxes/img-hero.png";
+import clothingBox1 from "@/assets/apparel-boxes/clothing-boxes/img-1.png";
+import clothingBox2 from "@/assets/apparel-boxes/clothing-boxes/img-2.png";
+import clothingBox3 from "@/assets/apparel-boxes/clothing-boxes/img-3.png";
+import clothingBox4 from "@/assets/apparel-boxes/clothing-boxes/img-4.png";
+import clothingBox5 from "@/assets/apparel-boxes/clothing-boxes/img-5.png";
+import clothingBox6 from "@/assets/apparel-boxes/clothing-boxes/img-whychoose.png";
+import clothingBox7 from "@/assets/apparel-boxes/clothing-boxes/img-deferent.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -44,11 +46,11 @@ const ClothingBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Custom Clothing Boxes - Flat Lay" },
-        { src: shoeBox2, alt: "Custom Clothing Boxes - Stacked" },
-        { src: shoeBox3, alt: "Custom Clothing Boxes - Open View" },
-        { src: shoeBox4, alt: "Custom Clothing Boxes - Close Up" },
-        { src: shoeBoxHero, alt: "Custom Clothing Boxes - Lifestyle" },
+        { src: clothingBox1, alt: "Custom Clothing Boxes - Flat Lay" },
+        { src: clothingBox2, alt: "Custom Clothing Boxes - Stacked" },
+        { src: clothingBox3, alt: "Custom Clothing Boxes - Open View" },
+        { src: clothingBox4, alt: "Custom Clothing Boxes - Close Up" },
+        { src: clothingBox5, alt: "Custom Clothing Boxes - Lifestyle" },
     ];
 
     return (
@@ -121,7 +123,7 @@ const ClothingBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={clothingBoxesHero}
                                     alt="Custom Clothing Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -366,7 +368,7 @@ const ClothingBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={clothingBox6}
                                     alt="Premium Custom Clothing Box Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -398,7 +400,7 @@ const ClothingBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={clothingBox7}
                                     alt="Differentiate Your Clothing Brand"
                                     className="w-full h-full object-cover"
                                 />
@@ -412,8 +414,7 @@ const ClothingBoxes = () => {
                                 Differentiate Your <span className="text-primary">Clothing Brand</span> From Others
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-                                At CustomPackMakers, we know that successful fashion brands pay attention to every detail. To help you stand out, we offer packaging solutions that are as stylish as your clothing. From unique structural designs to premium finishes like soft-touch coating and spot UV, our team collaborates with you to create boxes that enhance your brand identity and delight your customers at first glance.
-                            </p>
+At CustomPackMakers, we firmly believe that successful fashion brands achieve excellence by paying meticulous attention to every single detail. To ensure your brand stands out in a saturated market, we provide bespoke packaging solutions that perfectly mirror the elegance and style of your high-end clothing. From innovative structural designs to luxury finishes like sophisticated soft-touch coatings and precision spot UV, our expert team collaborates closely with you. Together, we create iconic packaging that not only reinforces your brand identity but also creates an unforgettable first impression, truly delighting your customers                            </p>
                         </div>
                     </div>
                 </div>

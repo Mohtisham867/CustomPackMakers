@@ -29,12 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images (using shoe box images as requested)
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import tieBox from "@/assets/apparel-boxes/tie-boxes/why-choose.png";
+import tieBox1 from "@/assets/apparel-boxes/tie-boxes/tie-1.png";
+import tieBox2 from "@/assets/apparel-boxes/tie-boxes/tie-2.png";
+import tieBox3 from "@/assets/apparel-boxes/tie-boxes/tie-3.png";
+import tieBox4 from "@/assets/apparel-boxes/tie-boxes/tie-4.png";
+import tieBox5 from "@/assets/apparel-boxes/tie-boxes/tie-5.png";
+import tieBox6 from "@/assets/apparel-boxes/tie-boxes/deferent.png";
+import tieBoxHero from "@/assets/apparel-boxes/tie-boxes/tie-hero.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -44,11 +46,11 @@ const TieBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Custom Tie Boxes - Main View" },
-        { src: shoeBox2, alt: "Custom Tie Boxes - Side Angle" },
-        { src: shoeBox3, alt: "Custom Tie Boxes - Open View" },
-        { src: shoeBox4, alt: "Custom Tie Boxes - Detail Shot" },
-        { src: shoeBoxHero, alt: "Custom Tie Boxes - Lifestyle Shot" },
+        { src: tieBox1, alt: "Custom Tie Boxes - Main View" },
+        { src: tieBox2, alt: "Custom Tie Boxes - Side Angle" },
+        { src: tieBox3, alt: "Custom Tie Boxes - Open View" },
+        { src: tieBox4, alt: "Custom Tie Boxes - Detail Shot" },
+        { src: tieBox5, alt: "Custom Tie Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -121,7 +123,7 @@ const TieBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={tieBoxHero}
                                     alt="Custom Tie Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -365,7 +367,7 @@ const TieBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={tieBox}
                                     alt="Premium Custom Tie Box Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -397,7 +399,7 @@ const TieBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={tieBox6}
                                     alt="Differentiate Your Ties"
                                     className="w-full h-full object-cover"
                                 />

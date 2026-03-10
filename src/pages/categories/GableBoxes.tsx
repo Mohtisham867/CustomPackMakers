@@ -46,18 +46,18 @@ const gableProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Kraft Gable Boxes", image: kraftGableBox, description: "Natural eco-friendly kraft gable boxes featuring a rustic charm and durable eco-conscious material" },
-    { name: "Christmas Gable Boxes", image: christmasGableBox, description: "Festive holiday themed gable packing designed with seasonal motifs to delight your gift recipients" },
-    { name: "White Gable Boxes", image: whiteGableBox, description: "Clean and elegant white gable boxes offering a versatile professional look for any retail product" },
-    { name: "Large Gable Boxes", image: largeGableBox, description: "Extra spacious gable boxes for larger items featuring reinforced bases and sturdy carrying handles" },
-    { name: "Gable Gift Boxes", image: gableGiftBox, description: "Perfect for gifting and special occasions featuring unique shapes and premium customizable branding" },
-    { name: "Black Gable Boxes", image: blackGableBox, description: "Premium black finish for a luxury look designed for high-end boutique retail and gift presentations" },
-    { name: "Gable Boxes with Window", image: gableBoxWindow, description: "Showcase your product with a clear window inset perfect for bakery items and visual retail display" },
-    { name: "Gable Bags", image: gableBag, description: "Convenient bag-style gable packaging designed for easy carry and stylish retail shelf presentation" },
-    { name: "Blue Gable Boxes", image: blueGableBox, description: "Vibrant blue boxes to stand out on retail shelves featuring high-quality print and durable board" },
-    { name: "Cardboard Gable Boxes", image: cardboardGableBox, description: "Sturdy cardboard construction offering maximum protection for food items and small retail products" },
-    { name: "Red Gable Boxes", image: redGableBox, description: "Bold red gable boxes for high visibility and festive impact perfect for seasonal retail promotions" },
-    { name: "Kraft Paper Gable Box", image: kraftPaperGableBox, description: "Simple and classic kraft paper design engineered for sustainability and professional minimalist style" },
+    { name: "Kraft Gable Boxes", image: kraftGableBox, description: "Natural eco-friendly kraft gable boxes featuring a rustic charm and durable eco-conscious material", path: "/shapes-styles/gable-boxes/kraft-gable-boxes" },
+    { name: "Christmas Gable Boxes", image: christmasGableBox, description: "Festive holiday themed gable packing designed with seasonal motifs to delight your gift recipients", path: "/shapes-styles/gable-boxes/christmas-gable-boxes" },
+    { name: "White Gable Boxes", image: whiteGableBox, description: "Clean and elegant white gable boxes offering a versatile professional look for any retail product", path: "/shapes-styles/gable-boxes/white-gable-boxes" },
+    { name: "Large Gable Boxes", image: largeGableBox, description: "Extra spacious gable boxes for larger items featuring reinforced bases and sturdy carrying handles", path: "/shapes-styles/gable-boxes/large-gable-boxes" },
+    { name: "Gable Gift Boxes", image: gableGiftBox, description: "Perfect for gifting and special occasions featuring unique shapes and premium customizable branding", path: "/shapes-styles/gable-boxes/gable-gift-boxes" },
+    { name: "Black Gable Boxes", image: blackGableBox, description: "Premium black finish for a luxury look designed for high-end boutique retail and gift presentations", path: "/shapes-styles/gable-boxes/black-gable-boxes" },
+    { name: "Gable Boxes with Window", image: gableBoxWindow, description: "Showcase your product with a clear window inset perfect for bakery items and visual retail display", path: "/shapes-styles/gable-boxes/gable-boxes-with-window" },
+    { name: "Gable Bags", image: gableBag, description: "Convenient bag-style gable packaging designed for easy carry and stylish retail shelf presentation", path: "/shapes-styles/gable-boxes/gable-bags" },
+    { name: "Blue Gable Boxes", image: blueGableBox, description: "Vibrant blue boxes to stand out on retail shelves featuring high-quality print and durable board", path: "/shapes-styles/gable-boxes/blue-gable-boxes" },
+    { name: "Cardboard Gable Boxes", image: cardboardGableBox, description: "Sturdy cardboard construction offering maximum protection for food items and small retail products", path: "/shapes-styles/gable-boxes/cardboard-gable-boxes" },
+    { name: "Red Gable Boxes", image: redGableBox, description: "Bold red gable boxes for high visibility and festive impact perfect for seasonal retail promotions", path: "/shapes-styles/gable-boxes/red-gable-boxes" },
+    { name: "Kraft Paper Gable Box", image: kraftPaperGableBox, description: "Simple and classic kraft paper design engineered for sustainability and professional minimalist style", path: "/shapes-styles/gable-boxes/kraft-paper-gable-box" },
 ];
 
 const GableBoxes = () => {
@@ -133,30 +133,31 @@ const GableBoxes = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link key={index} to={product.path} className="block">
+                                <Card
+                                    className="h-full overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="w-full aspect-square overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

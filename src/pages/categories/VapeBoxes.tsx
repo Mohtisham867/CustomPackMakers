@@ -30,18 +30,18 @@ import juulPackaging from "@/assets/vape-boxes/juul-packaging.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom E-Cigarette Boxes", image: customECigaretteBoxes, description: "Premium packaging for e-cigarettes featuring secure device fitment and luxury high-gloss print finishes" },
-    { name: "Custom Vape Cartridge Boxes", image: customVapeCartridgeBoxes, description: "Secure boxes for vape cartridges featuring child-resistant locks and precision-cut protective inserts" },
-    { name: "Vape Pen Boxes", image: vapePenBoxes, description: "Stylish packaging for vape pens featuring sleek elongated design and elegant soft-touch matte finishes" },
-    { name: "Cannabis Vape Packaging", image: cannabisVapePackaging, description: "Compliant cannabis vape solutions featuring mandatory legal icons and high-impact retail branding" },
-    { name: "1ml Vape Cartridge Boxes", image: oneMlVapeCartridgeBoxes, description: "Precision packaging for 1ml cartridges featuring compact design and durable high-quality cardstock" },
-    { name: "Vape Display Boxes", image: vapeDisplayBoxes, description: "Eye-catching retail display packaging featuring tiered shelves and high-visibility marketing headers" },
-    { name: "Disposable Vape Boxes", image: disposableVapeBoxes, description: "Convenient disposable vape packaging featuring easy-open tabs and vibrant product-specific graphics" },
-    { name: "Empty Vape Cartridge Boxes", image: emptyVapeCartridgeBoxes, description: "Protective boxes for empty cartridges featuring clear viewing windows and sturdy outer cardboard walls" },
-    { name: "Dank Vape Packaging", image: dankVapePackaging, description: "Custom branded vape packaging featuring edgy graphics and premium metallic foil stamping effects" },
-    { name: "CBD Vape Boxes", image: cbdVapeBoxes, description: "Specialized CBD vape product packaging featuring calming color palettes and organic-style textures" },
-    { name: "Vape Juice Boxes", image: vapeJuiceBoxes, description: "Secure packaging for vape liquids featuring leak-proof design and vibrant flavor-specific branding" },
-    { name: "Juul Packaging", image: juulPackaging, description: "Compatible Juul device packaging featuring precise internal sizing and professional retail graphics" },
+    { name: "Custom E-Cigarette Boxes", image: customECigaretteBoxes, description: "Premium packaging for e-cigarettes featuring secure device fitment and luxury high-gloss print finishes", link: "/industries/vape-boxes/custom-e-cigarette-boxes" },
+    { name: "Custom Vape Cartridge Boxes", image: customVapeCartridgeBoxes, description: "Secure boxes for vape cartridges featuring child-resistant locks and precision-cut protective inserts", link: "/industries/vape-boxes/custom-vape-cartridge-boxes" },
+    { name: "Vape Pen Boxes", image: vapePenBoxes, description: "Stylish packaging for vape pens featuring sleek elongated design and elegant soft-touch matte finishes", link: "/industries/vape-boxes/vape-pen-boxes" },
+    { name: "Cannabis Vape Packaging", image: cannabisVapePackaging, description: "Compliant cannabis vape solutions featuring mandatory legal icons and high-impact retail branding", link: "/industries/vape-boxes/cannabis-vape-packaging" },
+    { name: "1ml Vape Cartridge Boxes", image: oneMlVapeCartridgeBoxes, description: "Precision packaging for 1ml cartridges featuring compact design and durable high-quality cardstock", link: "/industries/vape-boxes/1ml-vape-cartridge-boxes" },
+    { name: "Vape Display Boxes", image: vapeDisplayBoxes, description: "Eye-catching retail display packaging featuring tiered shelves and high-visibility marketing headers", link: "/industries/vape-boxes/vape-display-boxes" },
+    { name: "Disposable Vape Boxes", image: disposableVapeBoxes, description: "Convenient disposable vape packaging featuring easy-open tabs and vibrant product-specific graphics", link: "/industries/vape-boxes/disposable-vape-boxes" },
+    { name: "Empty Vape Cartridge Boxes", image: emptyVapeCartridgeBoxes, description: "Protective boxes for empty cartridges featuring clear viewing windows and sturdy outer cardboard walls", link: "/industries/vape-boxes/empty-vape-cartridge-boxes" },
+    { name: "Dank Vape Packaging", image: dankVapePackaging, description: "Custom branded vape packaging featuring edgy graphics and premium metallic foil stamping effects", link: "/industries/vape-boxes/dank-vape-packaging" },
+    { name: "CBD Vape Boxes", image: cbdVapeBoxes, description: "Specialized CBD vape product packaging featuring calming color palettes and organic-style textures", link: "/industries/vape-boxes/cbd-vape-boxes" },
+    { name: "Vape Juice Boxes", image: vapeJuiceBoxes, description: "Secure packaging for vape liquids featuring leak-proof design and vibrant flavor-specific branding", link: "/industries/vape-boxes/vape-juice-boxes" },
+    { name: "Juul Packaging", image: juulPackaging, description: "Compatible Juul device packaging featuring precise internal sizing and professional retail graphics", link: "/industries/vape-boxes/juul-packaging" },
 ];
 
 const productOptions = [
@@ -136,35 +136,36 @@ const VapeBoxes = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        {/* Product image placeholder - intentionally empty */}
-                                        {product.image ? (
-                                            <img
-                                                src={product.image}
-                                                alt={product.name}
-                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                            />
-                                        ) : (
-                                            <div className="w-full h-full bg-muted flex items-center justify-center">
-                                                <p className="text-muted-foreground text-xs">Image placeholder</p>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index} className="block h-full group">
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full flex flex-col"
+                                >
+                                    <CardContent className="p-0 flex flex-col h-full">
+                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                                            {/* Product image placeholder - intentionally empty */}
+                                            {product.image ? (
+                                                <img
+                                                    src={product.image}
+                                                    alt={product.name}
+                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                />
+                                            ) : (
+                                                <div className="w-full h-full bg-muted flex items-center justify-center">
+                                                    <p className="text-muted-foreground text-xs">Image placeholder</p>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="p-4 border-t border-border flex-grow">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

@@ -29,12 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import apparelgiftboxehero from "@/assets/apparel-boxes/apparel-gift-boxes/img-hero.png";
+import apparelgift1 from "@/assets/apparel-boxes/apparel-gift-boxes/img-1.png";
+import apparelgift2 from "@/assets/apparel-boxes/apparel-gift-boxes/img-2.png";
+import apparelgift3 from "@/assets/apparel-boxes/apparel-gift-boxes/img-3.png";
+import apparelgift4 from "@/assets/apparel-boxes/apparel-gift-boxes/img-4.png";
+import apparelgift5 from "@/assets/apparel-boxes/apparel-gift-boxes/img-5.png";
+import apparelgift6 from "@/assets/apparel-boxes/apparel-gift-boxes/img-whychoose.png";
+import apparelgift7 from "@/assets/apparel-boxes/apparel-gift-boxes/img-defferent.png"
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -44,11 +46,11 @@ const ApparelGiftBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Apparel Gift Boxes - Front View" },
-        { src: shoeBox2, alt: "Apparel Gift Boxes - Open" },
-        { src: shoeBox3, alt: "Apparel Gift Boxes - Group" },
-        { src: shoeBox4, alt: "Apparel Gift Boxes - Detail" },
-        { src: shoeBoxHero, alt: "Apparel Gift Boxes - Lifestyle" },
+        { src: apparelgift1, alt: "Apparel Gift Boxes - Front View" },
+        { src: apparelgift2, alt: "Apparel Gift Boxes - Open" },
+        { src: apparelgift3, alt: "Apparel Gift Boxes - Group" },
+        { src: apparelgift4, alt: "Apparel Gift Boxes - Detail" },
+        { src: apparelgift5, alt: "Apparel Gift Boxes - Lifestyle" },
     ];
 
     return (
@@ -121,9 +123,9 @@ const ApparelGiftBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={apparelgiftboxehero}
                                     alt="Custom Apparel Gift Boxes Hero"
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    className="w-full h-full object-cover"
                                 />
                             </div>
                         </div>
@@ -367,7 +369,7 @@ const ApparelGiftBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={apparelgift6}
                                     alt="Premium Custom Apparel Gift Boxes"
                                     className="w-full h-full object-cover"
                                 />
@@ -399,7 +401,7 @@ const ApparelGiftBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={apparelgift7}
                                     alt="Differentiate Your Apparel Brand"
                                     className="w-full h-full object-cover"
                                 />
@@ -413,8 +415,7 @@ const ApparelGiftBoxes = () => {
                                 Differentiate Your <span className="text-primary">Apparel Brand</span> From Others
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-                                In a competitive market, distinct packaging can be the deciding factor for customers. Our custom apparel gift boxes help you stand out on the shelf and in the minds of your customers. By incorporating unique structures, premium finishes, and branded elements, we help you create a signature packaging style that reinforces brand loyalty and encourages repeat business.
-                            </p>
+In today’s highly competitive marketplace, distinctive packaging is often the ultimate deciding factor for discerning customers. At CustomPackMakers, our bespoke apparel gift boxes are meticulously designed to help your brand stand out prominently on the retail shelf and remain memorable in the minds of your audience. By strategically incorporating innovative structural designs, luxury finishes, and sophisticated branded elements, we help you create a signature packaging style. This premium presentation not only reinforces long-term brand loyalty but also actively encourages repeat business through an unforgettable customer experience.                            </p>
                         </div>
                     </div>
                 </div>

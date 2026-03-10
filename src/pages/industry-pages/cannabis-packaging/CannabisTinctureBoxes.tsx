@@ -34,11 +34,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Images
-import productHero from "@/assets/cannabis-packaging/tincture-boxes.png";
+import tinctureBoxeshero from "@/assets/cannabis-packaging/tincture-boxes/img-hero.png";
+import tinctureBoxes1 from "@/assets/cannabis-packaging/tincture-boxes/img-1.png";
+import tinctureBoxes2 from "@/assets/cannabis-packaging/tincture-boxes/img-2.png";
+import tinctureBoxes3 from "@/assets/cannabis-packaging/tincture-boxes/img-3.png";
+import tinctureBoxes4 from "@/assets/cannabis-packaging/tincture-boxes/img-4.png";
+import tinctureBoxes5 from "@/assets/cannabis-packaging/tincture-boxes/img-5.png";
+import tinctureBoxes6 from "@/assets/cannabis-packaging/tincture-boxes/img-whychoose.png";
+import tinctureBoxes7 from "@/assets/cannabis-packaging/tincture-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 // Carousel images
-import tinctureBoxes from "@/assets/cannabis-packaging/tincture-boxes.png";
 import vapePackaging from "@/assets/cannabis-packaging/vape-packaging.png";
 import seedPackaging from "@/assets/cannabis-packaging/seed-packaging.png";
 import cigaretteBoxes from "@/assets/cannabis-packaging/Cannabis Cigarette Boxes.png";
@@ -47,7 +53,7 @@ import flowerPackaging from "@/assets/cannabis-packaging/flower-packaging.png";
 import cartridgePackaging from "@/assets/marijuana-packaging/cartridge-packaging.webp";
 
 const relatedProducts = [
-    { name: "Cannabis Tincture Boxes", image: tinctureBoxes, description: "Child-resistant tincture packaging with dropper-safe inserts and compliant regulatory labeling.", link: "/industries/cannabis-packaging/cannabis-tincture-boxes" },
+    { name: "Cannabis Tincture Boxes", image: tinctureBoxes1, description: "Child-resistant tincture packaging with dropper-safe inserts and compliant regulatory labeling.", link: "/industries/cannabis-packaging/cannabis-tincture-boxes" },
     { name: "Cannabis Vape Packaging", image: vapePackaging, description: "Premium vape pen boxes with secure display features and high-impact retail brand visibility.", link: "/industries/cannabis-packaging/cannabis-vape-packaging" },
     { name: "Cannabis Seed Packaging", image: seedPackaging, description: "Moisture-proof seed containers with custom high-definition printing and detailed strain information.", link: "/industries/cannabis-packaging/cannabis-seed-packaging" },
     { name: "Cannabis Cigarette Boxes", image: cigaretteBoxes, description: "Pre-roll cigarette packaging with secure child-resistant closures and professional custom branding.", link: "/industries/cannabis-packaging/cannabis-cigarette-boxes" },
@@ -63,11 +69,11 @@ const CannabisTinctureBoxes = () => {
     const [count, setCount] = useState(0);
 
     const productImages = [
-        { src: productHero, alt: "Custom Cannabis Tincture Box" },
-        { src: productHero, alt: "Child-Resistant Tincture Packaging" },
-        { src: productHero, alt: "Tincture Dropper Box - Open" },
-        { src: productHero, alt: "Eco-Friendly Tincture Packaging" },
-        { src: productHero, alt: "Branded Cannabis Tincture Box" },
+        { src: tinctureBoxes1, alt: "Custom Cannabis Tincture Box" },
+        { src: tinctureBoxes2, alt: "Child-Resistant Tincture Packaging" },
+        { src: tinctureBoxes3, alt: "Tincture Dropper Box - Open" },
+        { src: tinctureBoxes4, alt: "Eco-Friendly Tincture Packaging" },
+        { src: tinctureBoxes5, alt: "Branded Cannabis Tincture Box" },
     ];
 
     useEffect(() => {
@@ -139,7 +145,7 @@ const CannabisTinctureBoxes = () => {
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
-                                <img src={productHero} alt="Custom Cannabis Tincture Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                                <img src={tinctureBoxeshero} alt="Custom Cannabis Tincture Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                             </div>
                         </div>
                     </div>
@@ -430,7 +436,7 @@ const CannabisTinctureBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productHero} alt="Professional cannabis tincture packaging" className="w-full h-full object-cover" />
+                                <img src={tinctureBoxes6} alt="Professional cannabis tincture packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -456,7 +462,7 @@ const CannabisTinctureBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productHero} alt="Differentiate Your Tincture Brand" className="w-full h-full object-cover" />
+                                <img src={tinctureBoxes7} alt="Differentiate Your Tincture Brand" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

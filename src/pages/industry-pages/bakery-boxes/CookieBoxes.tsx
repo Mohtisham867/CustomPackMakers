@@ -13,22 +13,25 @@ import { Label } from '@/components/ui/label';
 import { TechnicalSpecsSection } from '@/components/TechnicalSpecsSection';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Plus, Minus } from 'lucide-react';
-import productHero from '@/assets/bakery-products/cookie-boxes.webp';
-import img2 from '@/assets/bakery-products/custom-cake-boxes.webp';
-import img3 from '@/assets/bakery-products/pastry-boxes.webp';
-import img4 from '@/assets/bakery-products/donut-boxes.webp';
-import img5 from '@/assets/bakery-products/muffin-boxes.webp';
+import cookieBoxesHero from '@/assets/bakery-products/cookie-boxes/img-hero.png';
+import cookieimg1 from '@/assets/bakery-products/cookie-boxes/img-1.png';
+import cookieimg2 from '@/assets/bakery-products/cookie-boxes/img-2.png';
+import cookieimg3 from '@/assets/bakery-products/cookie-boxes/img-3.png';
+import cookieimg4 from '@/assets/bakery-products/cookie-boxes/img-4.png';
+import cookieimg5 from '@/assets/bakery-products/cookie-boxes/img-5.png';
+import cookieimg6 from '@/assets/bakery-products/cookie-boxes/img-whychoose.png';
+import cookieimg7 from '@/assets/bakery-products/cookie-boxes/img-different.png';
 import FAQimage from '@/assets/FAQ-image.png';
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 const CookieBoxes = () => {
   const [sel, setSel] = useState(0);
   const imgs = [
-    { src: productHero, alt: 'Cookie Boxes Main' },
-    { src: img2, alt: 'Cookie Boxes View 2' },
-    { src: img3, alt: 'Cookie Boxes View 3' },
-    { src: img4, alt: 'Cookie Boxes View 4' },
-    { src: img5, alt: 'Cookie Boxes View 5' },
+    { src: cookieimg1, alt: 'Cookie Boxes Main' },
+    { src: cookieimg2, alt: 'Cookie Boxes View 2' },
+    { src: cookieimg3, alt: 'Cookie Boxes View 3' },
+    { src: cookieimg4, alt: 'Cookie Boxes View 4' },
+    { src: cookieimg5, alt: 'Cookie Boxes View 5' },
   ];
   return (
     <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
@@ -69,7 +72,7 @@ const CookieBoxes = () => {
               </Button>
             </div>
             <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
-              <img src={productHero} alt="Custom Cookie Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <img src={cookieBoxesHero} alt="Custom Cookie Boxes" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -196,7 +199,7 @@ const CookieBoxes = () => {
             </div>
             <div className="relative flex items-center justify-center py-8">
               <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                <img src={productHero} alt="Premium Custom Cookie Boxes Packaging" className="w-full h-full object-cover" />
+                <img src={cookieimg6} alt="Premium Custom Cookie Boxes Packaging" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-7">
                   <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -214,7 +217,7 @@ const CookieBoxes = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="relative group">
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                <img src={productHero} alt="Differentiate Your Cookies Brand" className="w-full h-full object-cover" />
+                <img src={cookieimg7} alt="Differentiate Your Cookies Brand" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="space-y-6 lg:pl-10">

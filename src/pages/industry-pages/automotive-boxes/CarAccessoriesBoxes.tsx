@@ -28,8 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHero from "@/assets/automotive-products/car-accessories-boxes.webp";
-
+import caraccessoriesboxeshero from "@/assets/automotive-products/car-accessories-boxes/img-hero.png";
+import caraccessoriesboxesimg1 from "@/assets/automotive-products/car-accessories-boxes/img-1.png";
+import caraccessoriesboxesimg2 from "@/assets/automotive-products/car-accessories-boxes/img-2.png";
+import caraccessoriesboxesimg3 from "@/assets/automotive-products/car-accessories-boxes/img-3.png";
+import caraccessoriesboxesimg4 from "@/assets/automotive-products/car-accessories-boxes/img-4.png";
+import caraccessoriesboxesimg5 from "@/assets/automotive-products/car-accessories-boxes/img-5.png"
+import caraccessoriesboxesimg6 from "@/assets/automotive-products/car-accessories-boxes/img-whychoose.png";
+import caraccessoriesboxesimg7 from "@/assets/automotive-products/car-accessories-boxes/img-different.png";
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
 
@@ -38,11 +44,11 @@ const CarAccessoriesBoxes = () => {
 
     // Placeholder gallery images (using the same image for now due to limited assets)
     const productImages = [
-        { src: productHero, alt: "Custom Car Accessories Box - Front View" },
-        { src: productHero, alt: "Car Accessories Packaging - Side" },
-        { src: productHero, alt: "Automotive Accessories Box - Open" },
-        { src: productHero, alt: "Custom Printed Car Accessory Box" },
-        { src: productHero, alt: "Car Accessories Packaging - Lifestyle" },
+        { src: caraccessoriesboxesimg1, alt: "Custom Car Accessories Box - Front View" },
+        { src: caraccessoriesboxesimg2, alt: "Car Accessories Packaging - Side" },
+        { src: caraccessoriesboxesimg3, alt: "Automotive Accessories Box - Open" },
+        { src: caraccessoriesboxesimg4, alt: "Custom Printed Car Accessory Box" },
+        { src: caraccessoriesboxesimg5, alt: "Car Accessories Packaging - Lifestyle" },
     ];
 
     return (
@@ -115,7 +121,7 @@ const CarAccessoriesBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHero}
+                                    src={caraccessoriesboxeshero}
                                     alt="Custom Car Accessories Boxes"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -377,7 +383,7 @@ const CarAccessoriesBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHero}
+                                    src={caraccessoriesboxesimg6}
                                     alt="Premium car accessories packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -409,7 +415,7 @@ const CarAccessoriesBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHero}
+                                    src={caraccessoriesboxesimg7}
                                     alt="Differentiate Your Car Accessories"
                                     className="w-full h-full object-cover"
                                 />

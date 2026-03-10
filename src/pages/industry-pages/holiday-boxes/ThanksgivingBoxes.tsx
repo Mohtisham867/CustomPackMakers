@@ -29,18 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import thanksgivingBoxesHero from "@/assets/holiday-boxes/thanksgiving-boxes.webp";
+import thanksgivingBoxesHero from "@/assets/holiday-boxes/thanksgiving-boxes/img-hero.png";
+import thanksgivingBoxesimg1 from "@/assets/holiday-boxes/thanksgiving-boxes/img-1.png";
+import thanksgivingBoxesimg2 from "@/assets/holiday-boxes/thanksgiving-boxes/img-2.png";
+import thanksgivingBoxesimg3 from "@/assets/holiday-boxes/thanksgiving-boxes/img-3.png";
+import thanksgivingBoxesimg4 from "@/assets/holiday-boxes/thanksgiving-boxes/img-4.png";
+import thanksgivingBoxesimg5 from "@/assets/holiday-boxes/thanksgiving-boxes/img-5.png";
+import thanksgivingBoxesimg6 from "@/assets/holiday-boxes/thanksgiving-boxes/img-whychoose.png";
+import thanksgivingBoxesimg7 from "@/assets/holiday-boxes/thanksgiving-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const ThanksgivingBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: thanksgivingBoxesHero, alt: "Thanksgiving Boxes - Main View" },
-        { src: thanksgivingBoxesHero, alt: "Thanksgiving Boxes - Side Angle" },
-        { src: thanksgivingBoxesHero, alt: "Thanksgiving Boxes - Open View" },
-        { src: thanksgivingBoxesHero, alt: "Thanksgiving Boxes - Detail Shot" },
-        { src: thanksgivingBoxesHero, alt: "Thanksgiving Boxes - Lifestyle Shot" },
+        { src: thanksgivingBoxesimg1, alt: "Thanksgiving Boxes - Main View" },
+        { src: thanksgivingBoxesimg2, alt: "Thanksgiving Boxes - Side Angle" },
+        { src: thanksgivingBoxesimg3, alt: "Thanksgiving Boxes - Open View" },
+        { src: thanksgivingBoxesimg4, alt: "Thanksgiving Boxes - Detail Shot" },
+        { src: thanksgivingBoxesimg5, alt: "Thanksgiving Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -352,7 +359,7 @@ const ThanksgivingBoxes = () => {
 
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={thanksgivingBoxesHero} alt="Premium Packaging" className="w-full h-full object-cover" />
+                                <img src={thanksgivingBoxesimg6} alt="Premium Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -378,7 +385,7 @@ const ThanksgivingBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={thanksgivingBoxesHero} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
+                                <img src={thanksgivingBoxesimg7} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

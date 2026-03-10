@@ -29,15 +29,15 @@ import soapBarLabels from "@/assets/soap-boxes/Soap Bar Labels.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Kraft Soap Boxes", image: kraftSoapBoxes, description: "Eco-friendly, rustic packaging for natural soaps featuring sustainable materials and organic aesthetic appeal" },
-    { name: "Bath Bomb Packaging", image: bathBombPackaging, description: "Vibrant and protective boxes for bath bombs designed to keep products fresh and aromatic during retail display" },
-    { name: "Custom Soap Wrapping Paper", image: wrappingPaper, description: "Elegant wrapping paper for a premium touch, providing a sophisticated layer of protection for artisanal soaps" },
-    { name: "Custom Handmade Soap Boxes", image: handmadeSoapBoxes, description: "Artisanal boxes crafted for your handmade creations, highlighting the unique quality of your specialty soap line" },
-    { name: "Square Soap Boxes", image: squareSoapBoxes, description: "Modern square boxes for unique soap shapes, offering a clean and contemporary look for professional branding" },
-    { name: "Custom Soap Bar Boxes", image: soapBarBoxes, description: "Standard fit boxes for soap bars of all sizes, featuring durable construction and high-quality printed designs" },
-    { name: "Luxury Soap Packaging", image: luxurySoapPackaging, description: "Premium rigid boxes for high-end soap brands, combining luxurious finishes with superior product protection" },
-    { name: "Soap Sleeves", image: soapSleeves, description: "Minimalist sleeves to showcase your soap, allowing customers to see the product while maintaining brand identity" },
-    { name: "Soap Bar Labels", image: soapBarLabels, description: "Custom labels to brand your soap bars with professional graphics and essential product information display" },
+    { name: "Custom Kraft Soap Boxes", image: kraftSoapBoxes, description: "Eco-friendly, rustic packaging for natural soaps featuring sustainable materials and organic aesthetic appeal", link: "/industries/soap-boxes/custom-kraft-soap-boxes" },
+    { name: "Bath Bomb Packaging", image: bathBombPackaging, description: "Vibrant and protective boxes for bath bombs designed to keep products fresh and aromatic during retail display", link: "/industries/soap-boxes/bath-bomb-packaging" },
+    { name: "Custom Soap Wrapping Paper", image: wrappingPaper, description: "Elegant wrapping paper for a premium touch, providing a sophisticated layer of protection for artisanal soaps", link: "/industries/soap-boxes/custom-soap-wrapping-paper" },
+    { name: "Custom Handmade Soap Boxes", image: handmadeSoapBoxes, description: "Artisanal boxes crafted for your handmade creations, highlighting the unique quality of your specialty soap line", link: "/industries/soap-boxes/custom-handmade-soap-boxes" },
+    { name: "Square Soap Boxes", image: squareSoapBoxes, description: "Modern square boxes for unique soap shapes, offering a clean and contemporary look for professional branding", link: "/industries/soap-boxes/square-soap-boxes" },
+    { name: "Custom Soap Bar Boxes", image: soapBarBoxes, description: "Standard fit boxes for soap bars of all sizes, featuring durable construction and high-quality printed designs", link: "/industries/soap-boxes/custom-soap-bar-boxes" },
+    { name: "Luxury Soap Packaging", image: luxurySoapPackaging, description: "Premium rigid boxes for high-end soap brands, combining luxurious finishes with superior product protection", link: "/industries/soap-boxes/luxury-soap-packaging" },
+    { name: "Soap Sleeves", image: soapSleeves, description: "Minimalist sleeves to showcase your soap, allowing customers to see the product while maintaining brand identity", link: "/industries/soap-boxes/soap-sleeves" },
+    { name: "Soap Bar Labels", image: soapBarLabels, description: "Custom labels to brand your soap bars with professional graphics and essential product information display", link: "/industries/soap-boxes/soap-bar-labels" },
 ];
 
 const productOptions = [
@@ -128,28 +128,29 @@ const SoapBoxes = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index}>
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="w-full aspect-square overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

@@ -30,17 +30,17 @@ import restaurantCoffeeCups from "@/assets/tea-coffee-cups/Restaurant Coffee Cup
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Tea Boxes", image: customTeaBoxes, description: "Premium packaging for tea products featuring internal flavor dividers and high-impact retail graphics" },
-    { name: "Custom Printed Coffee Packaging", image: customPrintedCoffee, description: "Branded coffee packaging solutions featuring flavor-seal valves and vibrant high-resolution label prints" },
-    { name: "Coffee Sleeves", image: coffeeSleeves, description: "Insulated sleeves for hot beverages featuring corrugated texture for grip and custom branded heat protection" },
-    { name: "Coffee Cups with Lids", image: coffeeCupsLids, description: "Complete cup and lid sets featuring heat-insulated walls and secure snap-on lids for on-the-go service" },
-    { name: "Disposable Coffee Cups", image: disposableCoffeeCups, description: "Convenient single-use coffee cups featuring durable poly-lined paper and high-impact custom branding" },
-    { name: "Paper Coffee Cups", image: paperCoffeeCups, description: "Eco-friendly paper cup options featuring biodegradable materials and elegant minimalist brand designs" },
-    { name: "To Go Coffee Cups", image: toGoCoffeeCups, description: "Perfect for takeaway service featuring reinforced rims and high-quality heat-resistant paper construction" },
-    { name: "Cute Coffee Cups", image: cuteCoffeeCups, description: "Stylish and attractive cup designs featuring vibrant artistic patterns and premium tactile print effects" },
-    { name: "Compostable Coffee Cups", image: compostableCoffeeCups, description: "Environmentally friendly compostable cups featuring plant-based liners and sustainable paper materials" },
-    { name: "Double Wall Coffee Cups", image: doubleWallCoffeeCups, description: "Extra insulation for hot drinks featuring air-gap technology and premium thick-walled construction" },
-    { name: "Restaurant Coffee Cups", image: restaurantCoffeeCups, description: "Professional-grade cups for restaurants featuring sturdy build and high-impact wholesale customization" },
+    { name: "Custom Tea Boxes", image: customTeaBoxes, description: "Premium packaging for tea products featuring internal flavor dividers and high-impact retail graphics", link: "/industries/tea-coffee-cups/custom-tea-boxes" },
+    { name: "Custom Printed Coffee Packaging", image: customPrintedCoffee, description: "Branded coffee packaging solutions featuring flavor-seal valves and vibrant high-resolution label prints", link: "/industries/tea-coffee-cups/custom-printed-coffee-packaging" },
+    { name: "Coffee Sleeves", image: coffeeSleeves, description: "Insulated sleeves for hot beverages featuring corrugated texture for grip and custom branded heat protection", link: "/industries/tea-coffee-cups/coffee-sleeves" },
+    { name: "Coffee Cups with Lids", image: coffeeCupsLids, description: "Complete cup and lid sets featuring heat-insulated walls and secure snap-on lids for on-the-go service", link: "/industries/tea-coffee-cups/coffee-cups-with-lids" },
+    { name: "Disposable Coffee Cups", image: disposableCoffeeCups, description: "Convenient single-use coffee cups featuring durable poly-lined paper and high-impact custom branding", link: "/industries/tea-coffee-cups/disposable-coffee-cups" },
+    { name: "Paper Coffee Cups", image: paperCoffeeCups, description: "Eco-friendly paper cup options featuring biodegradable materials and elegant minimalist brand designs", link: "/industries/tea-coffee-cups/paper-coffee-cups" },
+    { name: "To Go Coffee Cups", image: toGoCoffeeCups, description: "Perfect for takeaway service featuring reinforced rims and high-quality heat-resistant paper construction", link: "/industries/tea-coffee-cups/to-go-coffee-cups" },
+    { name: "Cute Coffee Cups", image: cuteCoffeeCups, description: "Stylish and attractive cup designs featuring vibrant artistic patterns and premium tactile print effects", link: "/industries/tea-coffee-cups/cute-coffee-cups" },
+    { name: "Compostable Coffee Cups", image: compostableCoffeeCups, description: "Environmentally friendly compostable cups featuring plant-based liners and sustainable paper materials", link: "/industries/tea-coffee-cups/compostable-coffee-cups" },
+    { name: "Double Wall Coffee Cups", image: doubleWallCoffeeCups, description: "Extra insulation for hot drinks featuring air-gap technology and premium thick-walled construction", link: "/industries/tea-coffee-cups/double-wall-coffee-cups" },
+    { name: "Restaurant Coffee Cups", image: restaurantCoffeeCups, description: "Professional-grade cups for restaurants featuring sturdy build and high-impact wholesale customization", link: "/industries/tea-coffee-cups/restaurant-coffee-cups" },
 ];
 
 const productOptions = [
@@ -134,28 +134,27 @@ const TeaCoffeeCups = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index} className="block h-full group">
+                                <Card className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 h-full cursor-pointer">
+                                    <CardContent className="p-0 flex flex-col h-full">
+                                        <div className="w-full aspect-square overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border flex-grow flex flex-col">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

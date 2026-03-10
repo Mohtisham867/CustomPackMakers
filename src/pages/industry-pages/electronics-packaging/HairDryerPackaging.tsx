@@ -29,18 +29,27 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import hairDryerBoxes from "@/assets/electronics-boxes/hair-dryer-packaging.webp";
+import hairDryerPackagingHero from "@/assets/electronics-boxes/hair-dryer-packaging/img-hero.png";
+import hairDryerPackaging1 from "@/assets/electronics-boxes/hair-dryer-packaging/img-1.png";
+import hairDryerPackaging2 from "@/assets/electronics-boxes/hair-dryer-packaging/img-2.png";
+import hairDryerPackaging3 from "@/assets/electronics-boxes/hair-dryer-packaging/img-3.png";
+import hairDryerPackaging4 from "@/assets/electronics-boxes/hair-dryer-packaging/img-4.png";
+import hairDryerPackaging5 from "@/assets/electronics-boxes/hair-dryer-packaging/img-5.png";
+import hairDryerPackaging6 from "@/assets/electronics-boxes/hair-dryer-packaging/img-whychoose.png";
+import hairDryerPackaging7 from "@/assets/electronics-boxes/hair-dryer-packaging/img-different.png";
+
+// FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
 
 const HairDryerPackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: hairDryerBoxes, alt: "Hair Dryer Packaging - Main View" },
-        { src: hairDryerBoxes, alt: "Hair Dryer Packaging - Side Angle" },
-        { src: hairDryerBoxes, alt: "Hair Dryer Packaging - Open Box View" },
-        { src: hairDryerBoxes, alt: "Hair Dryer Packaging - Detail Shot" },
-        { src: hairDryerBoxes, alt: "Hair Dryer Packaging - Lifestyle Shot" },
+        { src: hairDryerPackaging1, alt: "Hair Dryer Packaging - Main View" },
+        { src: hairDryerPackaging2, alt: "Hair Dryer Packaging - Side Angle" },
+        { src: hairDryerPackaging3, alt: "Hair Dryer Packaging - Open Box View" },
+        { src: hairDryerPackaging4, alt: "Hair Dryer Packaging - Detail Shot" },
+        { src: hairDryerPackaging5, alt: "Hair Dryer Packaging - Lifestyle Shot" },
     ];
 
     return (
@@ -110,7 +119,7 @@ const HairDryerPackaging = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={hairDryerBoxes}
+                                    src={hairDryerPackagingHero}
                                     alt="Hair Dryer Packaging Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -361,7 +370,7 @@ const HairDryerPackaging = () => {
                         {/* RIGHT: Image */}
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={hairDryerBoxes} alt="Premium Packaging" className="w-full h-full object-cover" />
+                                <img src={hairDryerPackaging6} alt="Premium Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -388,7 +397,7 @@ const HairDryerPackaging = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={hairDryerBoxes} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
+                                <img src={hairDryerPackaging7} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

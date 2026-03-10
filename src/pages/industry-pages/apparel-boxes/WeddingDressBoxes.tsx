@@ -28,12 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Placeholder images
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import weddingDressBoxeshero from "@/assets/apparel-boxes/wedding-dress-boxes/img-hero.png";
+import weddingDressBoxes1 from "@/assets/apparel-boxes/wedding-dress-boxes/img-1.png";
+import weddingDressBoxes2 from "@/assets/apparel-boxes/wedding-dress-boxes/img-2.png";
+import weddingDressBoxes3 from "@/assets/apparel-boxes/wedding-dress-boxes/img-3.png";
+import weddingDressBoxes4 from "@/assets/apparel-boxes/wedding-dress-boxes/img-4.png";
+import weddingDressBoxes5 from "@/assets/apparel-boxes/wedding-dress-boxes/img-5.png";
+import weddingDressBoxes6 from "@/assets/apparel-boxes/wedding-dress-boxes/img-whychoose.png";
+import weddingDressBoxes7 from "@/assets/apparel-boxes/wedding-dress-boxes/img-defferent.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -43,11 +45,11 @@ const WeddingDressBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Wedding Dress Preservation Box - Front View" },
-        { src: shoeBox2, alt: "Large Wedding Dress Box - Open" },
-        { src: shoeBox3, alt: "Luxury Bridal Box - Detail" },
-        { src: shoeBox4, alt: "Acid-Free Wedding Dress Box" },
-        { src: shoeBoxHero, alt: "Wedding Dress Box - Lifestyle" },
+        { src: weddingDressBoxes1, alt: "Wedding Dress Preservation Box - Front View" },
+        { src: weddingDressBoxes2, alt: "Large Wedding Dress Box - Open" },
+        { src: weddingDressBoxes3, alt: "Luxury Bridal Box - Detail" },
+        { src: weddingDressBoxes4, alt: "Acid-Free Wedding Dress Box" },
+        { src: weddingDressBoxes5, alt: "Wedding Dress Box - Lifestyle" },
     ];
 
     return (
@@ -120,7 +122,7 @@ const WeddingDressBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={weddingDressBoxeshero}
                                     alt="Custom Wedding Dress Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -354,7 +356,7 @@ const WeddingDressBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={weddingDressBoxes6}
                                     alt="Premium Custom Wedding Dress Boxes"
                                     className="w-full h-full object-cover"
                                 />
@@ -386,7 +388,7 @@ const WeddingDressBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={weddingDressBoxes7}
                                     alt="Differentiate Your Bridal Brand"
                                     className="w-full h-full object-cover"
                                 />

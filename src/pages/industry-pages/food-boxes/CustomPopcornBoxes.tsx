@@ -29,18 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import popcornBoxes from "@/assets/food-boxes/popcorn-boxes.webp";
+import popcornBoxeshero from "@/assets/food-boxes/popcorn-boxes/img-hero.png";
+import popcornBoxes1 from "@/assets/food-boxes/popcorn-boxes/img-1.png";
+import popcornBoxes2 from "@/assets/food-boxes/popcorn-boxes/img-2.png";
+import popcornBoxes3 from "@/assets/food-boxes/popcorn-boxes/img-3.png";
+import popcornBoxes4 from "@/assets/food-boxes/popcorn-boxes/img-4.png";
+import popcornBoxes5 from "@/assets/food-boxes/popcorn-boxes/img-5.png";
+import popcornBoxes6 from "@/assets/food-boxes/popcorn-boxes/img-whychoose.png";
+import popcornBoxes7 from "@/assets/food-boxes/popcorn-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CustomPopcornBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: popcornBoxes, alt: "Popcorn Boxes - Main View" },
-        { src: popcornBoxes, alt: "Popcorn Boxes - Side Angle" },
-        { src: popcornBoxes, alt: "Popcorn Boxes - Open View" },
-        { src: popcornBoxes, alt: "Popcorn Boxes - Detail Shot" },
-        { src: popcornBoxes, alt: "Popcorn Boxes - Lifestyle Shot" },
+        { src: popcornBoxes1, alt: "Popcorn Boxes - Main View" },
+        { src: popcornBoxes2, alt: "Popcorn Boxes - Side Angle" },
+        { src: popcornBoxes3, alt: "Popcorn Boxes - Open View" },
+        { src: popcornBoxes4, alt: "Popcorn Boxes - Detail Shot" },
+        { src: popcornBoxes5, alt: "Popcorn Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +118,7 @@ const CustomPopcornBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-red-50 to-red-100">
                                 <img
-                                    src={popcornBoxes}
+                                    src={popcornBoxeshero}
                                     alt="Popcorn Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -358,7 +365,7 @@ const CustomPopcornBoxes = () => {
                         {/* RIGHT: Image */}
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={popcornBoxes} alt="Premium Packaging" className="w-full h-full object-cover" />
+                                <img src={popcornBoxes6} alt="Premium Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -385,7 +392,7 @@ const CustomPopcornBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={popcornBoxes} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
+                                <img src={popcornBoxes7} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

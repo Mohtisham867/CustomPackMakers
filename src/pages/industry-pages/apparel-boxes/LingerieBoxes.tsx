@@ -29,12 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import lingerieBoxesHero from "@/assets/apparel-boxes/lingerie-boxes/lingerie-hero.png";
+import lingerieBoxes1 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-1.png";
+import lingerieBoxes2 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-2.png";
+import lingerieBoxes3 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-3.png";
+import lingerieBoxes4 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-4.png";
+import lingerieBoxes5 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-5.png";
+import lingerieBoxes6 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-whychoose.png";
+import lingerieBoxes7 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-defferent.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -44,11 +46,11 @@ const LingerieBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Custom Lingerie Boxes - Elegant Packaging" },
-        { src: shoeBox2, alt: "Custom Lingerie Boxes - Open View" },
-        { src: shoeBox3, alt: "Custom Lingerie Boxes - Detail" },
-        { src: shoeBox4, alt: "Custom Lingerie Boxes - Texture" },
-        { src: shoeBoxHero, alt: "Custom Lingerie Boxes - Lifestyle" },
+        { src: lingerieBoxes1, alt: "Custom Lingerie Boxes - Elegant Packaging" },
+        { src: lingerieBoxes2, alt: "Custom Lingerie Boxes - Open View" },
+        { src: lingerieBoxes3, alt: "Custom Lingerie Boxes - Detail" },
+        { src: lingerieBoxes4, alt: "Custom Lingerie Boxes - Texture" },
+        { src: lingerieBoxes5, alt: "Custom Lingerie Boxes - Lifestyle" },
     ];
 
     return (
@@ -121,7 +123,7 @@ const LingerieBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={lingerieBoxesHero}
                                     alt="Custom Lingerie Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -366,7 +368,7 @@ const LingerieBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={lingerieBoxes6}
                                     alt="Premium Custom Lingerie Box Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -398,7 +400,7 @@ const LingerieBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={lingerieBoxes7}
                                     alt="Differentiate Your Lingerie Brand"
                                     className="w-full h-full object-cover"
                                 />
@@ -412,8 +414,7 @@ const LingerieBoxes = () => {
                                 Differentiate Your <span className="text-primary">Lingerie Brand</span> From Others
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-                                At CustomPackMakers, we understand that presentation is paramount in the lingerie industry. To set your brand apart, we provide packaging solutions that exude quality and care. By incorporating unique design elements like magnetic closures, ribbon pulls, and sensory textures, we help you create an unboxing ritual that your customers will cherish and share.
-                            </p>
+At CustomPackMakers, we firmly believe that in the lingerie industry, presentation is absolutely paramount to brand success. To effectively set your brand apart, we provide bespoke packaging solutions that exude unparalleled quality and meticulous care. By strategically incorporating unique design elements—such as elegant magnetic closures, luxurious ribbon pulls, and premium sensory textures—we empower you to create a sophisticated unboxing ritual. This immersive experience ensures that your customers not only cherish their purchase but also feel inspired to share their delight, ultimately building lasting brand loyalty and prestige.                            </p>
                         </div>
                     </div>
                 </div>

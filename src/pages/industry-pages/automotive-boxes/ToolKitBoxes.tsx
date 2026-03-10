@@ -29,7 +29,8 @@ import { Plus, Minus } from "lucide-react";
 
 // Product Image
 import productHero from "@/assets/automotive-products/tool-kit-boxes.webp";
-
+import tootkitimg6 from "@/assets/automotive-products/tool-kit-boxes/img-whychoose.png";
+import tootkitimg7 from "@/assets/automotive-products/tool-kit-boxes/img-different.png";
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
 
@@ -382,7 +383,7 @@ const ToolKitBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHero}
+                                    src={tootkitimg6}
                                     alt="Professional tool kit packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -414,7 +415,7 @@ const ToolKitBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHero}
+                                    src={tootkitimg7}
                                     alt="Differentiate Your Tool Brand"
                                     className="w-full h-full object-cover"
                                 />

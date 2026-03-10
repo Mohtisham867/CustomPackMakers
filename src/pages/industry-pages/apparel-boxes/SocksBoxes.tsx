@@ -29,12 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import socksBoxeshero from "@/assets/apparel-boxes/socks-boxes/img-hero.png";
+import socksboxe1 from "@/assets/apparel-boxes/socks-boxes/img-1.png";
+import socksboxe2 from "@/assets/apparel-boxes/socks-boxes/img-2.png";
+import socksboxe3 from "@/assets/apparel-boxes/socks-boxes/img-3.png";
+import socksboxe4 from "@/assets/apparel-boxes/socks-boxes/img-4.png";
+import socksboxe5 from "@/assets/apparel-boxes/socks-boxes/img-5.png";
+import socksboxe6 from "@/assets/apparel-boxes/socks-boxes/img-whychoose.png";
+import socksboxe7 from "@/assets/apparel-boxes/socks-boxes/img-defferent.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -44,11 +46,11 @@ const SocksBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Custom Socks Boxes - Flat Lay" },
-        { src: shoeBox2, alt: "Custom Socks Boxes - Stacked" },
-        { src: shoeBox3, alt: "Custom Socks Boxes - Open View" },
-        { src: shoeBox4, alt: "Custom Socks Boxes - Detail" },
-        { src: shoeBoxHero, alt: "Custom Socks Boxes - Lifestyle" },
+        { src: socksboxe1, alt: "Custom Socks Boxes - Flat Lay" },
+        { src: socksboxe2, alt: "Custom Socks Boxes - Stacked" },
+        { src: socksboxe3, alt: "Custom Socks Boxes - Open View" },
+        { src: socksboxe4, alt: "Custom Socks Boxes - Detail" },
+        { src: socksboxe5, alt: "Custom Socks Boxes - Lifestyle" },
     ];
 
     return (
@@ -121,9 +123,9 @@ const SocksBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={socksBoxeshero}
                                     alt="Custom Socks Boxes Hero"
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    className="w-full h-full object-cover"
                                 />
                             </div>
                         </div>
@@ -366,7 +368,7 @@ const SocksBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={socksboxe6}
                                     alt="Premium Custom Socks Box Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -398,7 +400,7 @@ const SocksBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={socksboxe7}
                                     alt="Differentiate Your Socks Brand"
                                     className="w-full h-full object-cover"
                                 />
@@ -412,8 +414,7 @@ const SocksBoxes = () => {
                                 Differentiate Your <span className="text-primary">Socks Brand</span> From Others
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-                                At CustomPackMakers, we understand that distinct packaging is key to standing out in the hosiery market. To help your brand shine, we offer innovative structural designs and high-quality printing. Whether you need a sleek slider box or a retail-ready hanger box, our team collaborates with you to create packaging that not only protects your product but also showcases its personality and quality.
-                            </p>
+At CustomPackMakers, we firmly believe that distinctive, high-end packaging is the ultimate key to standing out in a highly competitive hosiery market. To ensure your brand shines, we offer innovative structural designs coupled with superior-quality printing technology. Whether your product requires a sleek, modern slider box or a sophisticated, retail-ready hanger box, our expert team collaborates closely with you. Together, we create bespoke packaging solutions that not only provide maximum protection but also elegantly showcase your product’s unique personality, craftsmanship, and premium quality.                            </p>
                         </div>
                     </div>
                 </div>

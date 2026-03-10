@@ -27,13 +27,13 @@ import childResistantPreRollBox from "@/assets/pre-roll-boxes/child-resistant-pr
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Hemp Pre Roll Boxes", image: hempPreRollBoxes, description: "Eco-friendly packaging for hemp pre-rolls featuring sustainable materials and organic-style custom graphics" },
-    { name: "Custom Pre Roll Display Boxes", image: preRollDisplayBoxes, description: "Retail display boxes optimized for counters featuring eye-catching tiers and sturdy marketing headers" },
-    { name: "Pre Roll Packaging Labels", image: preRollLabels, description: "Custom labels for branding and compliance featuring durable adhesives and high-resolution legal text" },
-    { name: "Luxury Pre Roll Packaging", image: luxuryPreRollPackaging, description: "Premium rigid boxes for a high-end experience featuring magnetic closures and custom-fitted foam inserts" },
-    { name: "Custom Pre Roll Cone Packaging", image: preRollConePackaging, description: "Protective cardboard or plastic tubes for pre-roll cones featuring airtight seals and opaque brand colors" },
-    { name: "Pre Roll Joint Boxes", image: preRollJointBoxes, description: "Classic cigarette-style boxes for joints featuring unique flip-top lids and premium tactile print effects" },
-    { name: "Child Resistant Pre Roll Box", image: childResistantPreRollBox, description: "Safety-first packaging for compliance featuring certified child-resistant locks and durable outer shells" },
+    { name: "Hemp Pre Roll Boxes", slug: "/industries/pre-roll-boxes/hemp-pre-roll-boxes", image: hempPreRollBoxes, description: "Eco-friendly packaging for hemp pre-rolls featuring sustainable materials and organic-style custom graphics" },
+    { name: "Custom Pre Roll Display Boxes", slug: "/industries/pre-roll-boxes/custom-pre-roll-display-boxes", image: preRollDisplayBoxes, description: "Retail display boxes optimized for counters featuring eye-catching tiers and sturdy marketing headers" },
+    { name: "Pre Roll Packaging Labels", slug: "/industries/pre-roll-boxes/pre-roll-packaging-labels", image: preRollLabels, description: "Custom labels for branding and compliance featuring durable adhesives and high-resolution legal text" },
+    { name: "Luxury Pre Roll Packaging", slug: "/industries/pre-roll-boxes/luxury-pre-roll-packaging", image: luxuryPreRollPackaging, description: "Premium rigid boxes for a high-end experience featuring magnetic closures and custom-fitted foam inserts" },
+    { name: "Custom Pre Roll Cone Packaging", slug: "/industries/pre-roll-boxes/custom-pre-roll-cone-packaging", image: preRollConePackaging, description: "Protective cardboard or plastic tubes for pre-roll cones featuring airtight seals and opaque brand colors" },
+    { name: "Pre Roll Joint Boxes", slug: "/industries/pre-roll-boxes/pre-roll-joint-boxes", image: preRollJointBoxes, description: "Classic cigarette-style boxes for joints featuring unique flip-top lids and premium tactile print effects" },
+    { name: "Child Resistant Pre Roll Box", slug: "/industries/pre-roll-boxes/child-resistant-pre-roll-box", image: childResistantPreRollBox, description: "Safety-first packaging for compliance featuring certified child-resistant locks and durable outer shells" },
 ];
 
 const productOptions = [
@@ -122,28 +122,29 @@ const PreRollBoxes = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link key={index} to={product.slug}>
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

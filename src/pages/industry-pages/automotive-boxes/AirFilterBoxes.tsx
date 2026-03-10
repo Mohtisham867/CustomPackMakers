@@ -28,7 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHero from "@/assets/automotive-products/air-filter-boxes.webp";
+import airfilterboxeshero from "@/assets/automotive-products/air-filter-boxes/img-hero.png";
+import airfilterboxesimg1 from "@/assets/automotive-products/air-filter-boxes/img-1.png";
+import airfilterboxesimg2 from "@/assets/automotive-products/air-filter-boxes/img-2.png";
+import airfilterboxesimg3 from "@/assets/automotive-products/air-filter-boxes/img-3.png";
+import airfilterboxesimg4 from "@/assets/automotive-products/air-filter-boxes/img-4.png";
+import airfilterboxesimg5 from "@/assets/automotive-products/air-filter-boxes/img-5.png";
+import airfilterboxesimg6 from "@/assets/automotive-products/air-filter-boxes/img-whychoose.png";
+import airfilterboxesimg7 from "@/assets/automotive-products/air-filter-boxes/img-different.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const AirFilterBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: productHero, alt: "Custom Air Filter Box" },
-        { src: productHero, alt: "Engine Air Filter Packaging" },
-        { src: productHero, alt: "Cabin Air Filter Box - Open" },
-        { src: productHero, alt: "Eco-Friendly Filter Packaging" },
-        { src: productHero, alt: "Branded Air Filter Box" },
+        { src: airfilterboxesimg1, alt: "Custom Air Filter Box" },
+        { src: airfilterboxesimg2, alt: "Engine Air Filter Packaging" },
+        { src: airfilterboxesimg3, alt: "Cabin Air Filter Box - Open" },
+        { src: airfilterboxesimg4, alt: "Eco-Friendly Filter Packaging" },
+        { src: airfilterboxesimg5, alt: "Branded Air Filter Box" },
     ];
 
     return (
@@ -115,7 +122,7 @@ const AirFilterBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHero}
+                                    src={airfilterboxeshero}
                                     alt="Custom Air Filter Boxes"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -394,7 +401,7 @@ const AirFilterBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHero}
+                                    src={airfilterboxesimg6}
                                     alt="Professional air filter packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -426,7 +433,7 @@ const AirFilterBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHero}
+                                    src={airfilterboxesimg7}
                                     alt="Differentiate Your Filter Brand"
                                     className="w-full h-full object-cover"
                                 />

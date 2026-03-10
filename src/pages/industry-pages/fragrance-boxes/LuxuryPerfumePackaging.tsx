@@ -29,11 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images specific to this page
-import luxuryPerfumePackaging from "@/assets/fragrance-boxes/luxury-perfume-packaging.webp";
-import customPerfumeBoxes from "@/assets/fragrance-boxes/custom-perfume-boxes.webp";
-import heroImage from "@/assets/fragrance-boxes/hero.webp";
-import perfumeSubscriptionBoxes from "@/assets/fragrance-boxes/perfume-subscription-boxes.webp";
-import incenseBoxes from "@/assets/fragrance-boxes/incense-boxes.webp";
+import luxuryPerfumePackaginghero from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-hero.png";
+import luxuryPerfumePackagingimg1 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-1.png";
+import luxuryPerfumePackagingimg2 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-2.png";
+import luxuryPerfumePackagingimg3 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-3.png";
+import luxuryPerfumePackagingimg4 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-4.png";
+import luxuryPerfumePackagingimg5 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-5.png";
+import luxuryPerfumePackagingimg6 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-whychoose.png";
+import luxuryPerfumePackagingimg7 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-different.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -43,11 +46,11 @@ const LuxuryPerfumePackaging = () => {
 
     // Gallery images using the 5 available fragrance images to satisfy layout requirements
     const productImages = [
-        { src: luxuryPerfumePackaging, alt: "Luxury Perfume Packaging - Main View" },
-        { src: heroImage, alt: "High-End Perfume Display" },
-        { src: customPerfumeBoxes, alt: "Premium Rigid Perfume Box Structure" },
-        { src: perfumeSubscriptionBoxes, alt: "Artisan Fragrance Presentation" },
-        { src: incenseBoxes, alt: "Luxury Scent Brand Packaging" },
+        { src: luxuryPerfumePackagingimg1, alt: "Luxury Perfume Packaging - Main View" },
+        { src: luxuryPerfumePackagingimg2, alt: "High-End Perfume Display" },
+        { src: luxuryPerfumePackagingimg3, alt: "Premium Rigid Perfume Box Structure" },
+        { src: luxuryPerfumePackagingimg4, alt: "Artisan Fragrance Presentation" },
+        { src: luxuryPerfumePackagingimg5, alt: "Luxury Scent Brand Packaging" },
     ];
 
     return (
@@ -120,7 +123,7 @@ const LuxuryPerfumePackaging = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={luxuryPerfumePackaging}
+                                    src={luxuryPerfumePackaginghero}
                                     alt="Luxury Perfume Packaging Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -401,7 +404,7 @@ const LuxuryPerfumePackaging = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={luxuryPerfumePackaging}
+                                    src={luxuryPerfumePackagingimg6}
                                     alt="Luxury Perfume Packaging Excellence"
                                     className="w-full h-full object-cover"
                                 />
@@ -434,7 +437,7 @@ const LuxuryPerfumePackaging = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={luxuryPerfumePackaging} alt="Differentiate Your Luxury Perfume Brand" className="w-full h-full object-cover" />
+                                <img src={luxuryPerfumePackagingimg7} alt="Differentiate Your Luxury Perfume Brand" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

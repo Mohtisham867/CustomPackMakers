@@ -13,22 +13,25 @@ import { Label } from '@/components/ui/label';
 import { TechnicalSpecsSection } from '@/components/TechnicalSpecsSection';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Plus, Minus } from 'lucide-react';
-import productHero from '@/assets/bakery-products/Bread Packaging.webp';
-import img2 from '@/assets/bakery-products/custom-cake-boxes.webp';
-import img3 from '@/assets/bakery-products/pastry-boxes.webp';
-import img4 from '@/assets/bakery-products/donut-boxes.webp';
-import img5 from '@/assets/bakery-products/muffin-boxes.webp';
+import breadpackaginghero from '@/assets/bakery-products/Bread-Packaging/img-hero.png';
+import breadpackagingimg1 from '@/assets/bakery-products/Bread-Packaging/img-1.png';
+import breadpackagingimg2 from '@/assets/bakery-products/Bread-Packaging/img-2.png';
+import breadpackagingimg3 from '@/assets/bakery-products/Bread-Packaging/img-3.png';
+import breadpackagingimg4 from '@/assets/bakery-products/Bread-Packaging/img-4.png';
+import breadpackagingimg5 from '@/assets/bakery-products/Bread-Packaging/img-5.png';
+import breadpackagingimg6 from '@/assets/bakery-products/Bread-Packaging/img-whychoose.png';
+import breadpackagingimg7 from '@/assets/bakery-products/Bread-Packaging/img-different.png';
 import FAQimage from '@/assets/FAQ-image.png';
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 const BreadPackaging = () => {
   const [sel, setSel] = useState(0);
   const imgs = [
-    { src: productHero, alt: 'Bread Packaging Main' },
-    { src: img2, alt: 'Bread Packaging View 2' },
-    { src: img3, alt: 'Bread Packaging View 3' },
-    { src: img4, alt: 'Bread Packaging View 4' },
-    { src: img5, alt: 'Bread Packaging View 5' },
+    { src: breadpackagingimg1, alt: 'Bread Packaging Main' },
+    { src: breadpackagingimg2, alt: 'Bread Packaging View 2' },
+    { src: breadpackagingimg3, alt: 'Bread Packaging View 3' },
+    { src: breadpackagingimg4, alt: 'Bread Packaging View 4' },
+    { src: breadpackagingimg5, alt: 'Bread Packaging View 5' },
   ];
   return (
     <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
@@ -69,7 +72,7 @@ const BreadPackaging = () => {
               </Button>
             </div>
             <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
-              <img src={productHero} alt="Custom Bread Packaging" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <img src={breadpackaginghero} alt="Custom Bread Packaging" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
             </div>
           </div>
         </div>
@@ -196,7 +199,7 @@ const BreadPackaging = () => {
             </div>
             <div className="relative flex items-center justify-center py-8">
               <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                <img src={productHero} alt="Premium Custom Bread Packaging Packaging" className="w-full h-full object-cover" />
+                <img src={breadpackagingimg6} alt="Premium Custom Bread Packaging Packaging" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-7">
                   <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -214,7 +217,7 @@ const BreadPackaging = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="relative group">
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                <img src={productHero} alt="Differentiate Your Bread Brand" className="w-full h-full object-cover" />
+                <img src={breadpackagingimg7} alt="Differentiate Your Bread Brand" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="space-y-6 lg:pl-10">

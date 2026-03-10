@@ -27,16 +27,16 @@ import pillowGiftBoxes from "@/assets/pillow-boxes/pillow_gift_boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "White Pillow Boxes", image: whitePillowBoxes, description: "Clean and elegant white pillow boxes for weddings and favors featuring a smooth matte finish and effortless assembly" },
-    { name: "Small Pillow Boxes", image: smallPillowBoxes, description: "Compact boxes perfect for jewelry and small gifts, providing a unique curved shape for memorable product presentation" },
-    { name: "Kraft Pillow Boxes", image: kraftPillowBoxes, description: "Eco-friendly kraft paper pillow boxes for a rustic look, crafted from sustainable materials for environmentally conscious branding" },
-    { name: "Large Pillow Boxes", image: largePillowBoxes, description: "Spacious pillow boxes for apparel and larger items, combining structural strength with an elegant and stylish curved design" },
-    { name: "Pillow Boxes With Handle", image: pillowBoxesWithHandle, description: "Convenient pillow boxes with built-in carrying handles, perfect for retail environments and easy customer transport" },
-    { name: "Black Pillow Boxes", image: blackPillowBoxes, description: "Sophisticated black pillow boxes for premium packaging, featuring a deep matte finish for a high-end luxury feel" },
-    { name: "Pillow Boxes With Window", image: pillowBoxesWithWindow, description: "Showcase your product with a clear window cutout, allowing customers to see the quality while keeping items secure" },
-    { name: "Cardboard Pillow Boxes", image: cardboardPillowBoxes, description: "Durable cardboard construction for secure shipping and storage, providing excellent protection for fragile retail goods" },
-    { name: "Paper Pillow Box", image: paperPillowBox, description: "Lightweight paper pillow boxes for simple packaging needs, offering a cost-effective and attractive branding solution" },
-    { name: "Pillow Gift Boxes", image: pillowGiftBoxes, description: "Decorative pillow boxes designed specially for gifting, featuring festive prints and high-quality cardstock materials" },
+    { name: "White Pillow Boxes", image: whitePillowBoxes, description: "Clean and elegant white pillow boxes for weddings and favors featuring a smooth matte finish and effortless assembly", link: "/shapes-styles/pillow-boxes/white-pillow-boxes" },
+    { name: "Small Pillow Boxes", image: smallPillowBoxes, description: "Compact boxes perfect for jewelry and small gifts, providing a unique curved shape for memorable product presentation", link: "/shapes-styles/pillow-boxes/small-pillow-boxes" },
+    { name: "Kraft Pillow Boxes", image: kraftPillowBoxes, description: "Eco-friendly kraft paper pillow boxes for a rustic look, crafted from sustainable materials for environmentally conscious branding", link: "/shapes-styles/pillow-boxes/kraft-pillow-boxes" },
+    { name: "Large Pillow Boxes", image: largePillowBoxes, description: "Spacious pillow boxes for apparel and larger items, combining structural strength with an elegant and stylish curved design", link: "/shapes-styles/pillow-boxes/large-pillow-boxes" },
+    { name: "Pillow Boxes With Handle", image: pillowBoxesWithHandle, description: "Convenient pillow boxes with built-in carrying handles, perfect for retail environments and easy customer transport", link: "/shapes-styles/pillow-boxes/pillow-boxes-with-handle" },
+    { name: "Black Pillow Boxes", image: blackPillowBoxes, description: "Sophisticated black pillow boxes for premium packaging, featuring a deep matte finish for a high-end luxury feel", link: "/shapes-styles/pillow-boxes/black-pillow-boxes" },
+    { name: "Pillow Boxes With Window", image: pillowBoxesWithWindow, description: "Showcase your product with a clear window cutout, allowing customers to see the quality while keeping items secure", link: "/shapes-styles/pillow-boxes/pillow-boxes-with-window" },
+    { name: "Cardboard Pillow Boxes", image: cardboardPillowBoxes, description: "Durable cardboard construction for secure shipping and storage, providing excellent protection for fragile retail goods", link: "/shapes-styles/pillow-boxes/cardboard-pillow-boxes" },
+    { name: "Paper Pillow Box", image: paperPillowBox, description: "Lightweight paper pillow boxes for simple packaging needs, offering a cost-effective and attractive branding solution", link: "/shapes-styles/pillow-boxes/paper-pillow-box" },
+    { name: "Pillow Gift Boxes", image: pillowGiftBoxes, description: "Decorative pillow boxes designed specially for gifting, featuring festive prints and high-quality cardstock materials", link: "/shapes-styles/pillow-boxes/pillow-gift-boxes" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -116,35 +116,36 @@ const PillowBoxes = () => {
 
                     <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        {/* Product image placeholder */}
-                                        {product.image ? (
-                                            <img
-                                                src={product.image}
-                                                alt={product.name}
-                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                            />
-                                        ) : (
-                                            <div className="w-full h-full bg-muted flex items-center justify-center">
-                                                <p className="text-muted-foreground text-xs">Image placeholder</p>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index} className="block group">
+                                <Card
+                                    className="h-full overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                                            {/* Product image placeholder */}
+                                            {product.image ? (
+                                                <img
+                                                    src={product.image}
+                                                    alt={product.name}
+                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                />
+                                            ) : (
+                                                <div className="w-full h-full bg-muted flex items-center justify-center">
+                                                    <p className="text-muted-foreground text-xs">Image placeholder</p>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2 group-hover:text-primary transition-colors">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

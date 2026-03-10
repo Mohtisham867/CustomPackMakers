@@ -26,14 +26,14 @@ import shippingTags from "@/assets/hang-tags/shipping-tags.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Door Hangers", image: customDoorHangers, description: "Professional door hangers for marketing and alerts designed with durable cardstock and custom die-cut holes" },
-    { name: "Christmas Tags", image: christmasTags, description: "Festive tags for holiday gifts and products featuring seasonal graphics and premium twine attachment holes" },
-    { name: "Gift Tags", image: giftTags, description: "Personalized tags for special occasions designed to add a thoughtful touch to any gift or branded package" },
-    { name: "Paper Tags", image: paperTags, description: "Versatile paper tags for retail and labeling featuring high-quality print surfaces and multiple string options" },
-    { name: "Clothing Hang Tags", image: clothingHangTags, description: "Brand-enhancing tags for apparel and garments designed to convey quality and vital brand information at a glance" },
-    { name: "Jewelry Hang Tags", image: jewelryHangTags, description: "Elegant small tags for jewelry items featuring precise die-cutting and smooth surfaces for price or brand marks" },
-    { name: "Custom Bookmarks", image: customBookmarks, description: "Durable and creative bookmarks for readers featuring vibrant double-sided printing and premium protective coatings" },
-    { name: "Shipping Tags", image: shippingTags, description: "Robust tags for identifying shipping items engineered to withstand transit rigors with reinforced attachment points" },
+    { name: "Custom Door Hangers", image: customDoorHangers, description: "Professional door hangers for marketing and alerts designed with durable cardstock and custom die-cut holes", path: "/shapes-styles/hang-tags/custom-door-hangers" },
+    { name: "Christmas Tags", image: christmasTags, description: "Festive tags for holiday gifts and products featuring seasonal graphics and premium twine attachment holes", path: "/shapes-styles/hang-tags/christmas-tags" },
+    { name: "Gift Tags", image: giftTags, description: "Personalized tags for special occasions designed to add a thoughtful touch to any gift or branded package", path: "/shapes-styles/hang-tags/gift-tags" },
+    { name: "Paper Tags", image: paperTags, description: "Versatile paper tags for retail and labeling featuring high-quality print surfaces and multiple string options", path: "/shapes-styles/hang-tags/paper-tags" },
+    { name: "Clothing Hang Tags", image: clothingHangTags, description: "Brand-enhancing tags for apparel and garments designed to convey quality and vital brand information at a glance", path: "/shapes-styles/hang-tags/clothing-hang-tags" },
+    { name: "Jewelry Hang Tags", image: jewelryHangTags, description: "Elegant small tags for jewelry items featuring precise die-cutting and smooth surfaces for price or brand marks", path: "/shapes-styles/hang-tags/jewelry-hang-tags" },
+    { name: "Custom Bookmarks", image: customBookmarks, description: "Durable and creative bookmarks for readers featuring vibrant double-sided printing and premium protective coatings", path: "/shapes-styles/hang-tags/custom-bookmarks" },
+    { name: "Shipping Tags", image: shippingTags, description: "Robust tags for identifying shipping items engineered to withstand transit rigors with reinforced attachment points", path: "/shapes-styles/hang-tags/shipping-tags" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -111,37 +111,39 @@ const HangTags = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        {/* Product image placeholder */}
-                                        {product.image ? (
-                                            <img
-                                                src={product.image}
-                                                alt={product.name}
-                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                            />
-                                        ) : (
-                                            <div className="w-full h-full bg-muted flex items-center justify-center">
-                                                <p className="text-muted-foreground text-xs">Image placeholder</p>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.path} key={product.name}>
+                                <Card
+                                    key={index}
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                                            {/* Product image placeholder */}
+                                            {product.image ? (
+                                                <img
+                                                    src={product.image}
+                                                    alt={product.name}
+                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                />
+                                            ) : (
+                                                <div className="w-full h-full bg-muted flex items-center justify-center">
+                                                    <p className="text-muted-foreground text-xs">Image placeholder</p>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

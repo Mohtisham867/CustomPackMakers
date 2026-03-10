@@ -15,7 +15,14 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productHero from "@/assets/hemp-boxes/apparel-gift-boxes.webp";
+import hempGiftHero from "@/assets/hemp-boxes/hemp-gift-boxes/img-hero.png";
+import hempGiftImg1 from "@/assets/hemp-boxes/hemp-gift-boxes/img-1.png";
+import hempGiftImg2 from "@/assets/hemp-boxes/hemp-gift-boxes/img-2.png";
+import hempGiftImg3 from "@/assets/hemp-boxes/hemp-gift-boxes/img-3.png";
+import hempGiftImg4 from "@/assets/hemp-boxes/hemp-gift-boxes/img-4.png";
+import hempGiftImg5 from "@/assets/hemp-boxes/hemp-gift-boxes/img-5.png";
+import hempGiftImg6 from "@/assets/hemp-boxes/hemp-gift-boxes/img-whychoose.png";
+import hempGiftImg7 from "@/assets/hemp-boxes/hemp-gift-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const faqs = [
@@ -30,11 +37,11 @@ const HempGiftBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHero, alt: "Custom Hemp Gift Boxes Main" },
-        { src: productHero, alt: "Luxury Sustainable Rigid Box" },
-        { src: productHero, alt: "Eco-Friendly Presentation Packaging" },
-        { src: productHero, alt: "Premium Hemp Botanical Gifting" },
-        { src: productHero, alt: "Premium Extra View" },
+        { src: hempGiftImg1, alt: "Custom Hemp Gift Boxes Main" },
+        { src: hempGiftImg2, alt: "Luxury Sustainable Rigid Box" },
+        { src: hempGiftImg3, alt: "Eco-Friendly Presentation Packaging" },
+        { src: hempGiftImg4, alt: "Premium Hemp Botanical Gifting" },
+        { src: hempGiftImg5, alt: "Premium Extra View" },
     ];
 
     return (
@@ -78,7 +85,7 @@ const HempGiftBoxes = () => {
                             </Button>
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
-                            <img src={productHero} alt="Custom Hemp Gift Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            <img src={hempGiftHero} alt="Custom Hemp Gift Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                         </div>
                     </div>
                 </div>
@@ -247,7 +254,7 @@ const HempGiftBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productHero} alt="Sustainable Hemp Gift Box Quality" className="w-full h-full object-cover" />
+                                <img src={hempGiftImg6} alt="Sustainable Hemp Gift Box Quality" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Earth-First Packaging</p>
@@ -273,7 +280,7 @@ const HempGiftBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productHero} alt="Differentiate Your Eco-Friendly Brand" className="w-full h-full object-cover" />
+                                <img src={hempGiftImg7} alt="Differentiate Your Eco-Friendly Brand" className="w-full h-full object-cover" />
                             </div>
                         </div>
                         <div className="space-y-6 lg:pl-10">

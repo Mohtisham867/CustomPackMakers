@@ -29,19 +29,25 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImage from "@/assets/candy-products/Custom Candy Boxes hero.png";
-import christmasCandyBoxes from "@/assets/candy-products/christmas-candy-boxes.webp";
+import christmasCandyBoxesHero from "@/assets/candy-products/christmas-candy-boxes/img-hero.png";
+import christmasCandyBoxesImg1 from "@/assets/candy-products/christmas-candy-boxes/img-1.png";
+import christmasCandyBoxesImg2 from "@/assets/candy-products/christmas-candy-boxes/img-2.png";
+import christmasCandyBoxesImg3 from "@/assets/candy-products/christmas-candy-boxes/img-3.png";
+import christmasCandyBoxesImg4 from "@/assets/candy-products/christmas-candy-boxes/img-4.png";
+import christmasCandyBoxesImg5 from "@/assets/candy-products/christmas-candy-boxes/img-5.png";
+import christmasCandyBoxesImg6 from "@/assets/candy-products/christmas-candy-boxes/img-whychoose.png";
+import christmasCandyBoxesImg7 from "@/assets/candy-products/christmas-candy-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CustomChristmasCandyBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: christmasCandyBoxes, alt: "Custom Christmas Candy Boxes - Main View" },
-        { src: christmasCandyBoxes, alt: "Custom Christmas Candy Boxes - Festive Design" },
-        { src: christmasCandyBoxes, alt: "Custom Christmas Candy Boxes - Gift View" },
-        { src: christmasCandyBoxes, alt: "Custom Christmas Candy Boxes - Detail Shot" },
-        { src: heroImage, alt: "Custom Christmas Candy Boxes - Lifestyle" },
+        { src: christmasCandyBoxesImg1, alt: "Custom Christmas Candy Boxes - Main View" },
+        { src: christmasCandyBoxesImg2, alt: "Custom Christmas Candy Boxes - Festive Design" },
+        { src: christmasCandyBoxesImg3, alt: "Custom Christmas Candy Boxes - Gift View" },
+        { src: christmasCandyBoxesImg4, alt: "Custom Christmas Candy Boxes - Detail Shot" },
+        { src: christmasCandyBoxesImg5, alt: "Custom Christmas Candy Boxes - Lifestyle" },
     ];
 
     return (
@@ -110,7 +116,7 @@ const CustomChristmasCandyBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={heroImage}
+                                    src={christmasCandyBoxesHero}
                                     alt="Custom Christmas Candy Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -290,7 +296,7 @@ const CustomChristmasCandyBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={christmasCandyBoxes} alt="Premium Custom Christmas Candy Box" className="w-full h-full object-cover" />
+                                <img src={christmasCandyBoxesImg6} alt="Premium Custom Christmas Candy Box" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Empowering 450+ Holiday Brands</p>
@@ -317,7 +323,7 @@ const CustomChristmasCandyBoxes = () => {
                         {/* LEFT: Image */}
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={christmasCandyBoxes} alt="Differentiate Your Christmas Candy Brand" className="w-full h-full object-cover" />
+                                <img src={christmasCandyBoxesImg7} alt="Differentiate Your Christmas Candy Brand" className="w-full h-full object-cover" />
                                 {/* Overlay for depth */}
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>

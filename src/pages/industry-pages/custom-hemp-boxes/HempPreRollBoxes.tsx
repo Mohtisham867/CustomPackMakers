@@ -15,7 +15,14 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productHero from "@/assets/hemp-boxes/Hemp Pre Roll Boxes.webp";
+import hempPreRollHero from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-hero.png";
+import hempPreRollImg1 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-1.png";
+import hempPreRollImg2 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-2.png";
+import hempPreRollImg3 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-3.png";
+import hempPreRollImg4 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-4.png";
+import hempPreRollImg5 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-5.png";
+import hempPreRollImg6 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-whychoose.png";
+import hempPreRollImg7 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const faqs = [
@@ -30,11 +37,11 @@ const HempPreRollBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHero, alt: "Custom Hemp Pre Roll Boxes Main" },
-        { src: productHero, alt: "Child-Resistant Pre-Roll Packaging" },
-        { src: productHero, alt: "Sustainable Joint Boxes" },
-        { src: productHero, alt: "Premium Botanical Pre-Roll Cases" },
-        { src: productHero, alt: "Premium Extra View" },
+        { src: hempPreRollImg1, alt: "Custom Hemp Pre Roll Boxes Main" },
+        { src: hempPreRollImg2, alt: "Child-Resistant Pre-Roll Packaging" },
+        { src: hempPreRollImg3, alt: "Sustainable Joint Boxes" },
+        { src: hempPreRollImg4, alt: "Premium Botanical Pre-Roll Cases" },
+        { src: hempPreRollImg5, alt: "Premium Extra View" },
     ];
 
     return (
@@ -78,7 +85,7 @@ const HempPreRollBoxes = () => {
                             </Button>
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
-                            <img src={productHero} alt="Custom Hemp Pre Roll Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            <img src={hempPreRollHero} alt="Custom Hemp Pre Roll Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                         </div>
                     </div>
                 </div>
@@ -251,7 +258,7 @@ const HempPreRollBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productHero} alt="Sustainable Hemp Pre Roll Box Quality" className="w-full h-full object-cover" />
+                                <img src={hempPreRollImg6} alt="Sustainable Hemp Pre Roll Box Quality" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Earth-First Packaging</p>
@@ -277,7 +284,7 @@ const HempPreRollBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productHero} alt="Differentiate Your Eco-Friendly Brand" className="w-full h-full object-cover" />
+                                <img src={hempPreRollImg7} alt="Differentiate Your Eco-Friendly Brand" className="w-full h-full object-cover" />
                             </div>
                         </div>
                         <div className="space-y-6 lg:pl-10">

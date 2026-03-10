@@ -29,18 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import productImage from "@/assets/food-boxes/paper-food-trays.webp";
+import paperFoodTrayshero from "@/assets/food-boxes/paper-food-trays/img-hero.png";
+import paperFoodTrays1 from "@/assets/food-boxes/paper-food-trays/img-1.png";
+import paperFoodTrays2 from "@/assets/food-boxes/paper-food-trays/img-2.png";
+import paperFoodTrays3 from "@/assets/food-boxes/paper-food-trays/img-3.png";
+import paperFoodTrays4 from "@/assets/food-boxes/paper-food-trays/img-4.png";
+import paperFoodTrays5 from "@/assets/food-boxes/paper-food-trays/img-5.png";
+import paperFoodTrays6 from "@/assets/food-boxes/paper-food-trays/img-whychoose.png";
+import paperFoodTrays7 from "@/assets/food-boxes/paper-food-trays/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const PaperFoodTrays = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productImage, alt: "Paper Food Trays - Main View" },
-        { src: productImage, alt: "Paper Food Trays - Side Angle" },
-        { src: productImage, alt: "Paper Food Trays - Open View" },
-        { src: productImage, alt: "Paper Food Trays - Detail Shot" },
-        { src: productImage, alt: "Paper Food Trays - Lifestyle Shot" },
+        { src: paperFoodTrays1, alt: "Paper Food Trays - Main View" },
+        { src: paperFoodTrays2, alt: "Paper Food Trays - Side Angle" },
+        { src: paperFoodTrays3, alt: "Paper Food Trays - Open View" },
+        { src: paperFoodTrays4, alt: "Paper Food Trays - Detail Shot" },
+        { src: paperFoodTrays5, alt: "Paper Food Trays - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +118,7 @@ const PaperFoodTrays = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-orange-50 to-orange-100">
                                 <img
-                                    src={productImage}
+                                    src={paperFoodTrayshero}
                                     alt="Paper Food Trays Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -358,7 +365,7 @@ const PaperFoodTrays = () => {
                         {/* RIGHT: Image */}
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productImage} alt="Premium Packaging" className="w-full h-full object-cover" />
+                                <img src={paperFoodTrays6} alt="Premium Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -385,7 +392,7 @@ const PaperFoodTrays = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productImage} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
+                                <img src={paperFoodTrays7} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

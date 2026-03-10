@@ -28,14 +28,14 @@ import foldingCartons from "@/assets/retail-boxes/Folding Cartons.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Business Cards", image: businessCards, description: "Premium business cards that make a lasting impression with high-quality cardstock and custom finishes" },
-    { name: "Custom Match Boxes", image: matchBoxes, description: "Unique promotional packaging for branding featuring custom prints and functional friction surfaces" },
-    { name: "Dietary Supplement Packaging", image: supplementPackaging, description: "Secure and compliant packaging for supplements featuring child-resistant features and informative labels" },
-    { name: "Business Labels", image: businessLabels, description: "Custom labels to enhance your brand identity and provide clear product information on any surface" },
-    { name: "Custom Boxes with Logo", image: boxesWithLogo, description: "Branded boxes designed to elevate your products with high-fidelity printing and robust board materials" },
-    { name: "Clamshell Boxes", image: clamshellBoxes, description: "Clear, protective packaging for retail display allowing customers to view product features while staying secure" },
-    { name: "Barbie Boxes", image: barbieBoxes, description: "Fun, vibrant packaging for toys and dolls featuring clear windows and colorful character illustrations" },
-    { name: "Folding Cartons", image: foldingCartons, description: "Versatile folding cartons for various retail needs offering easy storage and attractive branding possibilities" },
+    { name: "Custom Business Cards", image: businessCards, description: "Premium business cards that make a lasting impression with high-quality cardstock and custom finishes", link: "/industries/retail-boxes/custom-business-cards" },
+    { name: "Custom Match Boxes", image: matchBoxes, description: "Unique promotional packaging for branding featuring custom prints and functional friction surfaces", link: "/industries/retail-boxes/custom-match-boxes" },
+    { name: "Dietary Supplement Packaging", image: supplementPackaging, description: "Secure and compliant packaging for supplements featuring child-resistant features and informative labels", link: "/industries/retail-boxes/dietary-supplement-packaging" },
+    { name: "Business Labels", image: businessLabels, description: "Custom labels to enhance your brand identity and provide clear product information on any surface", link: "/industries/retail-boxes/business-labels" },
+    { name: "Custom Boxes with Logo", image: boxesWithLogo, description: "Branded boxes designed to elevate your products with high-fidelity printing and robust board materials", link: "/industries/retail-boxes/custom-boxes-with-logo" },
+    { name: "Clamshell Boxes", image: clamshellBoxes, description: "Clear, protective packaging for retail display allowing customers to view product features while staying secure", link: "/industries/retail-boxes/clamshell-boxes" },
+    { name: "Barbie Boxes", image: barbieBoxes, description: "Fun, vibrant packaging for toys and dolls featuring clear windows and colorful character illustrations", link: "/industries/retail-boxes/barbie-boxes" },
+    { name: "Folding Cartons", image: foldingCartons, description: "Versatile folding cartons for various retail needs offering easy storage and attractive branding possibilities", link: "/industries/retail-boxes/folding-cartons" },
 ];
 
 const productOptions = [
@@ -129,23 +129,25 @@ const RetailBoxes = () => {
                                 key={index}
                                 className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
                             >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
+                                <Link to={product.link} className="block w-full h-full">
+                                    <CardContent className="p-0">
+                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Link>
                             </Card>
                         ))}
                     </div>

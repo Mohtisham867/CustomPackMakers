@@ -29,12 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import hatShippingBoxeshero from "@/assets/apparel-boxes/hat-shipping-boxes/img-hero.png";
+import hatShippingBoxes1 from "@/assets/apparel-boxes/hat-shipping-boxes/img-1.png";
+import hatShippingBoxes2 from "@/assets/apparel-boxes/hat-shipping-boxes/img-2.png";
+import hatShippingBoxes3 from "@/assets/apparel-boxes/hat-shipping-boxes/img-3.png";
+import hatShippingBoxes4 from "@/assets/apparel-boxes/hat-shipping-boxes/img-4.png";
+import hatShippingBoxes5 from "@/assets/apparel-boxes/hat-shipping-boxes/img-5.png";
+import hatShippingBoxes6 from "@/assets/apparel-boxes/hat-shipping-boxes/img-whychoose.png";
+import hatShippingBoxes7 from "@/assets/apparel-boxes/hat-shipping-boxes/img-defferent.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -44,11 +46,11 @@ const HatShippingBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Custom Hat Shipping Boxes - Main View" },
-        { src: shoeBox2, alt: "Custom Hat Shipping Boxes - Open" },
-        { src: shoeBox3, alt: "Custom Hat Shipping Boxes - Stacked" },
-        { src: shoeBox4, alt: "Custom Hat Shipping Boxes - Detail" },
-        { src: shoeBoxHero, alt: "Custom Hat Shipping Boxes - Lifestyle" },
+        { src: hatShippingBoxes1, alt: "Custom Hat Shipping Boxes - Main View" },
+        { src: hatShippingBoxes2, alt: "Custom Hat Shipping Boxes - Open" },
+        { src: hatShippingBoxes3, alt: "Custom Hat Shipping Boxes - Stacked" },
+        { src: hatShippingBoxes4, alt: "Custom Hat Shipping Boxes - Detail" },
+        { src: hatShippingBoxes5, alt: "Custom Hat Shipping Boxes - Lifestyle" },
     ];
 
     return (
@@ -121,7 +123,7 @@ const HatShippingBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={hatShippingBoxeshero}
                                     alt="Custom Hat Shipping Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -365,7 +367,7 @@ const HatShippingBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={hatShippingBoxes6}
                                     alt="Premium Custom Hat Shipping Box Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -397,7 +399,7 @@ const HatShippingBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={hatShippingBoxes7}
                                     alt="Differentiate Your Hat Brand"
                                     className="w-full h-full object-cover"
                                 />
@@ -411,8 +413,7 @@ const HatShippingBoxes = () => {
                                 Differentiate Your <span className="text-primary">Hat Brand</span> From Others
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-                                At CustomPackMakers, we understand that hats are more than just accessories; they are statements. To help your brand stand out, we create packaging that reflects the quality and style of your headwear. Whether you need a simple, branded mailer or a complex, multi-piece box for a luxury line, our team works with you to design a solution that protects your product and enhances your brand image.
-                            </p>
+At CustomPackMakers, we firmly believe that hats are much more than simple accessories; they are powerful personal statements of style. To ensure your brand stands out in a crowded market, we craft bespoke packaging that perfectly reflects the superior quality and unique aesthetic of your premium headwear. Whether you require a sleek, branded mailer for efficient shipping or a sophisticated, multi-piece rigid box for a luxury collection, our expert team collaborates closely with you. Together, we design solutions that offer maximum protection while significantly enhancing your brand's prestigious image                            </p>
                         </div>
                     </div>
                 </div>

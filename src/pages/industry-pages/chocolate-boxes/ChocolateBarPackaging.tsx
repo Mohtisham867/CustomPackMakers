@@ -16,7 +16,14 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productHero from "@/assets/chocolate-products/Chocolate Bar Packaging.webp";
+import chocolateBarPackagingHero from "@/assets/chocolate-products/chocolate-bar-packaging/img-hero.png";
+import chocolateBarPackagingImg1 from "@/assets/chocolate-products/chocolate-bar-packaging/img-1.png";
+import chocolateBarPackagingImg2 from "@/assets/chocolate-products/chocolate-bar-packaging/img-2.png";
+import chocolateBarPackagingImg3 from "@/assets/chocolate-products/chocolate-bar-packaging/img-3.png";
+import chocolateBarPackagingImg4 from "@/assets/chocolate-products/chocolate-bar-packaging/img-4.png";
+import chocolateBarPackagingImg5 from "@/assets/chocolate-products/chocolate-bar-packaging/img-5.png";
+import chocolateBarPackagingImg6 from "@/assets/chocolate-products/chocolate-bar-packaging/img-whychoose.png";
+import chocolateBarPackagingImg7 from "@/assets/chocolate-products/chocolate-bar-packaging/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 import artisanChocolateBox from "@/assets/chocolate-products/Artisan Chocolate Box.webp";
 import chocolateMilkBoxes from "@/assets/chocolate-products/chocolate-milk-boxes.webp";
@@ -55,11 +62,11 @@ const ChocolateBarPackaging = () => {
     const [count, setCount] = useState(0);
 
     const productImages = [
-        { src: productHero, alt: "Chocolate Bar Packaging - Main View" },
-        { src: productHero, alt: "Chocolate Bar Packaging - Barrier Film" },
-        { src: productHero, alt: "Chocolate Bar Packaging - Printed Sleeve" },
-        { src: productHero, alt: "Chocolate Bar Packaging - Sustainable Wrap" },
-        { src: productHero, alt: "Chocolate Bar Packaging - Lifestyle" },
+        { src: chocolateBarPackagingImg1, alt: "Chocolate Bar Packaging - Main View" },
+        { src: chocolateBarPackagingImg2, alt: "Chocolate Bar Packaging - Barrier Film" },
+        { src: chocolateBarPackagingImg3, alt: "Chocolate Bar Packaging - Printed Sleeve" },
+        { src: chocolateBarPackagingImg4, alt: "Chocolate Bar Packaging - Sustainable Wrap" },
+        { src: chocolateBarPackagingImg5, alt: "Chocolate Bar Packaging - Lifestyle" },
     ];
 
     useEffect(() => {
@@ -104,7 +111,7 @@ const ChocolateBarPackaging = () => {
                             <Button size="lg" className="rounded-full bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300" onClick={() => document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' })}>Get a Quote</Button>
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
-                            <img src={productHero} alt="Custom Chocolate Bar Packaging" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            <img src={chocolateBarPackagingHero} alt="Custom Chocolate Bar Packaging" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                         </div>
                     </div>
                 </div>
@@ -262,7 +269,7 @@ const ChocolateBarPackaging = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productHero} alt="Premium chocolate bar packaging" className="w-full h-full object-cover" />
+                                <img src={chocolateBarPackagingImg6} alt="Premium chocolate bar packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7"><p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p><p className="text-white/75 text-sm">Delivering premium packaging across North America</p></div>
                             </div>
@@ -278,7 +285,7 @@ const ChocolateBarPackaging = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productHero} alt="Differentiate Your Chocolate Bar Brand" className="w-full h-full object-cover" />
+                                <img src={chocolateBarPackagingImg7} alt="Differentiate Your Chocolate Bar Brand" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

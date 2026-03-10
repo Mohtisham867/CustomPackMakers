@@ -13,22 +13,25 @@ import { Label } from '@/components/ui/label';
 import { TechnicalSpecsSection } from '@/components/TechnicalSpecsSection';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Plus, Minus } from 'lucide-react';
-import productHero from '@/assets/bakery-products/muffin-boxes.webp';
-import img2 from '@/assets/bakery-products/custom-cake-boxes.webp';
-import img3 from '@/assets/bakery-products/pastry-boxes.webp';
-import img4 from '@/assets/bakery-products/donut-boxes.webp';
-import img5 from '@/assets/bakery-products/muffin-boxes.webp';
+import muffinboxehero from '@/assets/bakery-products/muffin-boxes/img-hero.png';
+import muffinimg1 from '@/assets/bakery-products/muffin-boxes/img-1.png';
+import muffinimg2 from '@/assets/bakery-products/muffin-boxes/img-2.png';
+import muffinimg3 from '@/assets/bakery-products/muffin-boxes/img-3.png';
+import muffinimg4 from '@/assets/bakery-products/muffin-boxes/img-4.png';
+import muffinimg5 from '@/assets/bakery-products/muffin-boxes/img-5.png';
+import muffinimg6 from '@/assets/bakery-products/muffin-boxes/img-whychoose.png';
+import muffinimg7 from '@/assets/bakery-products/muffin-boxes/img-different.png';
 import FAQimage from '@/assets/FAQ-image.png';
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 const MuffinBoxes = () => {
   const [sel, setSel] = useState(0);
   const imgs = [
-    { src: productHero, alt: 'Muffin Boxes Main' },
-    { src: img2, alt: 'Muffin Boxes View 2' },
-    { src: img3, alt: 'Muffin Boxes View 3' },
-    { src: img4, alt: 'Muffin Boxes View 4' },
-    { src: img5, alt: 'Muffin Boxes View 5' },
+    { src: muffinimg1, alt: 'Muffin Boxes Main' },
+    { src: muffinimg2, alt: 'Muffin Boxes View 2' },
+    { src: muffinimg3, alt: 'Muffin Boxes View 3' },
+    { src: muffinimg4, alt: 'Muffin Boxes View 4' },
+    { src: muffinimg5, alt: 'Muffin Boxes View 5' },
   ];
   return (
     <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
@@ -69,7 +72,7 @@ const MuffinBoxes = () => {
               </Button>
             </div>
             <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
-              <img src={productHero} alt="Custom Muffin Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <img src={muffinboxehero} alt="Custom Muffin Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
             </div>
           </div>
         </div>
@@ -196,7 +199,7 @@ const MuffinBoxes = () => {
             </div>
             <div className="relative flex items-center justify-center py-8">
               <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                <img src={productHero} alt="Premium Custom Muffin Boxes Packaging" className="w-full h-full object-cover" />
+                <img src={muffinimg6} alt="Premium Custom Muffin Boxes Packaging" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-7">
                   <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -214,7 +217,7 @@ const MuffinBoxes = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="relative group">
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                <img src={productHero} alt="Differentiate Your Muffins Brand" className="w-full h-full object-cover" />
+                <img src={muffinimg7} alt="Differentiate Your Muffins Brand" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="space-y-6 lg:pl-10">

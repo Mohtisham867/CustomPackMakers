@@ -41,18 +41,18 @@ const longNarrow = longNarrowBox;
 const shippingLabels = shippingLabelsBox;
 
 const relatedProducts = [
-    { name: "Chinese Takeout Boxes", image: chineseTakeoutBox, description: "Classic folded design with wire handle for easy carry and leak-resistant coating for food safety" },
-    { name: "Double Wall Tuck Front", image: doubleWallTuck, description: "Extra durability with reinforced walls for heavy items ensuring safe transport and stackable retail displays" },
-    { name: "Hemp Shipping Boxes", image: hempShippingBox, description: "Sustainable and sturdy hemp-based material providing an eco-friendly alternative for conscious brands" },
-    { name: "Candle Shipping Boxes", image: candleShipping, description: "Protective packaging specifically for fragile candles featuring corrugated board to prevent heat damage" },
-    { name: "Hat Shipping Boxes", image: hatShipping, description: "Spacious boxes to keep hats in perfect shape and prevent crushing during complex logistic processes" },
-    { name: "8x6x4 Shipping Boxes", image: box8x6x4, description: "Standard size ideal for small to medium retail items offering reliable strength for daily parcel shipping" },
-    { name: "5x5x5 Boxes", image: box5x5x5, description: "Perfect cube shape for compact secure shipping of small gadgets and delicate electronic accessories" },
-    { name: "Wine Shipping Boxes", image: wineShipping, description: "Designed to protect bottles during transit with specialized inserts for secure individual bottle placement" },
-    { name: "Long Narrow Shipping Boxes", image: longNarrow, description: "Ideal for elongated items like posters or tools providing longitudinal support and reinforced ends" },
-    { name: "Shipping Labels", image: shippingLabels, description: "Custom branded labels for professional delivery featuring high-quality adhesive and clear informational layout" },
-    { name: "White Shipping Boxes", image: whiteShippingBox, description: "Clean, professional white finish for premium brands offering a sleek aesthetic for e-commerce deliveries" },
-    { name: "Delivery Boxes", image: deliveryBox, description: "Reliable standardized boxes for all logistics needs crafted from heavy-duty corrugated cardboard for safety" },
+    { name: "Chinese Takeout Boxes", image: chineseTakeoutBox, description: "Classic folded design with wire handle for easy carry and leak-resistant coating for food safety", link: "/shapes-styles/shipping-boxes/chinese-takeout-boxes" },
+    { name: "Double Wall Tuck Front", image: doubleWallTuck, description: "Extra durability with reinforced walls for heavy items ensuring safe transport and stackable retail displays", link: "/shapes-styles/shipping-boxes/double-wall-tuck-front" },
+    { name: "Hemp Shipping Boxes", image: hempShippingBox, description: "Sustainable and sturdy hemp-based material providing an eco-friendly alternative for conscious brands", link: "/shapes-styles/shipping-boxes/hemp-shipping-boxes" },
+    { name: "Candle Shipping Boxes", image: candleShipping, description: "Protective packaging specifically for fragile candles featuring corrugated board to prevent heat damage", link: "/shapes-styles/shipping-boxes/candle-shipping-boxes" },
+    { name: "Hat Shipping Boxes", image: hatShipping, description: "Spacious boxes to keep hats in perfect shape and prevent crushing during complex logistic processes", link: "/shapes-styles/shipping-boxes/hat-shipping-boxes" },
+    { name: "8x6x4 Shipping Boxes", image: box8x6x4, description: "Standard size ideal for small to medium retail items offering reliable strength for daily parcel shipping", link: "/shapes-styles/shipping-boxes/8x6x4-shipping-boxes" },
+    { name: "5x5x5 Boxes", image: box5x5x5, description: "Perfect cube shape for compact secure shipping of small gadgets and delicate electronic accessories", link: "/shapes-styles/shipping-boxes/5x5x5-boxes" },
+    { name: "Wine Shipping Boxes", image: wineShipping, description: "Designed to protect bottles during transit with specialized inserts for secure individual bottle placement", link: "/shapes-styles/shipping-boxes/wine-shipping-boxes" },
+    { name: "Long Narrow Shipping Boxes", image: longNarrow, description: "Ideal for elongated items like posters or tools providing longitudinal support and reinforced ends", link: "/shapes-styles/shipping-boxes/long-narrow-shipping-boxes" },
+    { name: "Shipping Labels", image: shippingLabels, description: "Custom branded labels for professional delivery featuring high-quality adhesive and clear informational layout", link: "/shapes-styles/shipping-boxes/shipping-labels" },
+    { name: "White Shipping Boxes", image: whiteShippingBox, description: "Clean, professional white finish for premium brands offering a sleek aesthetic for e-commerce deliveries", link: "/shapes-styles/shipping-boxes/white-shipping-boxes" },
+    { name: "Delivery Boxes", image: deliveryBox, description: "Reliable standardized boxes for all logistics needs crafted from heavy-duty corrugated cardboard for safety", link: "/shapes-styles/shipping-boxes/delivery-boxes" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -63,8 +63,8 @@ const ShippingBoxes = () => {
             <Header />
 
             {/* Breadcrumb */}
-            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
-                <div className="container mx-auto px-4 py-4">
+            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[140px]">
+                <div className="container mx-auto px-4 py-3">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem>
@@ -88,7 +88,7 @@ const ShippingBoxes = () => {
             </div>
 
             {/* Hero Split Section */}
-            <section className="py-12 bg-background">
+            <section className="py-8 bg-background">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 items-start">
                         {/* Left Content */}
@@ -132,34 +132,35 @@ const ShippingBoxes = () => {
 
                     <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer text-left"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden">
-                                        {/* Note: Logic to show placeholder label if it is the placeholder image */}
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className={`h-full w-auto object-contain mx-auto transition-transform duration-300 group-hover:scale-110 ${product.image === placeholder ? "opacity-80" : ""}`} loading="lazy"
-                                        />
-                                        {product.image === placeholder && (
-                                            <div className="absolute inset-0 flex items-center justify-center bg-black/5">
-                                                <span className="bg-white/90 px-2 py-1 text-xs rounded shadow-sm text-foreground/70 font-medium">Image Coming Soon</span>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index} className="block">
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer text-left h-full"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="aspect-[4/4] w-full bg-gray-50 rounded-t-lg overflow-hidden relative">
+                                            {/* Note: Logic to show placeholder label if it is the placeholder image */}
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className={`w-full h-full object-cover object-center transition-transform duration-1000 group-hover:scale-110 ${product.image === placeholder ? "opacity-80" : ""}`} loading="lazy"
+                                            />
+                                            {product.image === placeholder && (
+                                                <div className="absolute inset-0 flex items-center justify-center bg-black/5">
+                                                    <span className="bg-white/90 px-2 py-1 text-xs rounded shadow-sm text-foreground/70 font-medium">Image Coming Soon</span>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

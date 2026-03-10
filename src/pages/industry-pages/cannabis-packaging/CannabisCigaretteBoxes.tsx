@@ -19,7 +19,14 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productHero from "@/assets/cannabis-packaging/Cannabis Cigarette Boxes.png";
+import cigaretteBoxesHero from "@/assets/cannabis-packaging/Cannabis-Cigarette-Boxes/img-hero.png";
+import cigaretteimg1 from "@/assets/cannabis-packaging/Cannabis-Cigarette-Boxes/img-1.png";
+import cigaretteimg2 from "@/assets/cannabis-packaging/Cannabis-Cigarette-Boxes/img-2.png";
+import cigaretteimg3 from "@/assets/cannabis-packaging/Cannabis-Cigarette-Boxes/img-3.png";
+import cigaretteimg4 from "@/assets/cannabis-packaging/Cannabis-Cigarette-Boxes/img-4.png";
+import cigaretteimg5 from "@/assets/cannabis-packaging/Cannabis-Cigarette-Boxes/img-5.png";
+import cigaretteimg6 from "@/assets/cannabis-packaging/Cannabis-Cigarette-Boxes/img-whychoose.png";
+import cigaretteimg7 from "@/assets/cannabis-packaging/Cannabis-Cigarette-Boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 import tinctureBoxes from "@/assets/cannabis-packaging/tincture-boxes.png";
 import vapePackaging from "@/assets/cannabis-packaging/vape-packaging.png";
@@ -45,11 +52,11 @@ const CannabisCigaretteBoxes = () => {
     const [current, setCurrent] = useState(0);
     const [count, setCount] = useState(0);
     const productImages = [
-        { src: productHero, alt: "Custom Cannabis Cigarette Box" },
-        { src: productHero, alt: "Pre-Roll Cigarette Packaging Front" },
-        { src: productHero, alt: "Cannabis Cigarette Box Open" },
-        { src: productHero, alt: "Child-Resistant Pre-Roll Box" },
-        { src: productHero, alt: "Branded Cannabis Cigarette Packaging" },
+        { src: cigaretteimg1, alt: "Custom Cannabis Cigarette Box" },
+        { src: cigaretteimg2, alt: "Pre-Roll Cigarette Packaging Front" },
+        { src: cigaretteimg3, alt: "Cannabis Cigarette Box Open" },
+        { src: cigaretteimg4, alt: "Child-Resistant Pre-Roll Box" },
+        { src: cigaretteimg5, alt: "Branded Cannabis Cigarette Packaging" },
     ];
     useEffect(() => {
         if (!api) return;
@@ -101,7 +108,7 @@ const CannabisCigaretteBoxes = () => {
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
-                                <img src={productHero} alt="Custom Cannabis Cigarette Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                                <img src={cigaretteBoxesHero} alt="Custom Cannabis Cigarette Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                             </div>
                         </div>
                     </div>
@@ -304,7 +311,7 @@ const CannabisCigaretteBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productHero} alt="Professional cannabis cigarette packaging" className="w-full h-full object-cover" />
+                                <img src={cigaretteimg6} alt="Professional cannabis cigarette packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -329,7 +336,7 @@ const CannabisCigaretteBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productHero} alt="Differentiate Your Pre-Roll Brand" className="w-full h-full object-cover" />
+                                <img src={cigaretteimg7} alt="Differentiate Your Pre-Roll Brand" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />
@@ -337,7 +344,7 @@ const CannabisCigaretteBoxes = () => {
                         </div>
                         <div className="space-y-6 lg:pl-10">
                             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight">Differentiate Your <span className="text-primary">Pre-Roll Brand</span> From Others</h2>
-                            <p className="text-base text-slate-600 leading-relaxed max-w-xl">In the fastest-growing cannabis category, mediocre packaging makes premium pre-rolls invisible. Our luxury cigarette-style boxes with embossed logos, odor-barrier liners, and CR flip-tops signal quality to every consumer—turning first purchases into dispensary loyalty.</p>
+                            <p className="text-base text-slate-600 leading-relaxed max-w-xl">In the fastest-growing cannabis category, mediocre packaging unfortunately makes even the most premium pre-rolls invisible to discerning consumers. At CustomPackMakers, our luxury cigarette-style boxes are meticulously designed to ensure your brand commands attention. Featuring sophisticated embossed logos, advanced odor-barrier liners, and secure CR flip-tops, our packaging signals superior quality and meticulous care to every consumer. By prioritizing both elegance and functionality, we help you turn simple first purchases into long-term dispensary loyalty, effectively showcasing your product’s premium status in a highly competitive retail environment.</p>
                         </div>
                     </div>
                 </div>

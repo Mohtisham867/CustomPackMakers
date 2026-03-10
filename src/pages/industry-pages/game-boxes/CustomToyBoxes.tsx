@@ -29,12 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images specific to this page
-import customToyBoxes from "@/assets/game-boxes/custom-toy-boxes.webp";
-import heroImage from "@/assets/game-boxes/hero-game-boxes.webp";
-import playingCardBoxes from "@/assets/game-boxes/playing-card-boxes.webp";
-import subscriptionBoxes from "@/assets/game-boxes/gaming-subscription-box.webp";
-import boardGameBoxes from "@/assets/game-boxes/custom-board-game-boxes.webp";
-
+import customToyBoxeshero from "@/assets/game-boxes/custom-toy-boxes/img-hero.png";
+import customToyBoxes1 from "@/assets/game-boxes/custom-toy-boxes/img-1.png";
+import customToyBoxes2 from "@/assets/game-boxes/custom-toy-boxes/img-2.png";
+import customToyBoxes3 from "@/assets/game-boxes/custom-toy-boxes/img-3.png";
+import customToyBoxes4 from "@/assets/game-boxes/custom-toy-boxes/img-4.png";
+import customToyBoxes5 from "@/assets/game-boxes/custom-toy-boxes/img-5.png";
+import customToyBoxes6 from "@/assets/game-boxes/custom-toy-boxes/img-whychoose.png";
+import customToyBoxes7 from "@/assets/game-boxes/custom-toy-boxes/img-different.png";
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
 
@@ -43,11 +45,11 @@ const CustomToyBoxes = () => {
 
     // Gallery images using the 5 available game images to satisfy layout requirements
     const productImages = [
-        { src: customToyBoxes, alt: "Custom Toy Boxes - Main Presentation" },
-        { src: heroImage, alt: "Toy Packaging - Engaging View" },
-        { src: playingCardBoxes, alt: "Compact Toy Box Design" },
-        { src: subscriptionBoxes, alt: "Toy Subscription Mailer Box" },
-        { src: boardGameBoxes, alt: "Large Toy Board Game Packaging" },
+        { src: customToyBoxes1, alt: "Custom Toy Boxes - Main Presentation" },
+        { src: customToyBoxes2, alt: "Toy Packaging - Engaging View" },
+        { src: customToyBoxes3, alt: "Compact Toy Box Design" },
+        { src: customToyBoxes4, alt: "Toy Subscription Mailer Box" },
+        { src: customToyBoxes5, alt: "Large Toy Board Game Packaging" },
     ];
 
     return (
@@ -62,8 +64,8 @@ const CustomToyBoxes = () => {
             <Header />
 
             {/* Breadcrumb */}
-            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
-                <div className="container mx-auto px-[30px] py-4">
+            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[140px]">
+                <div className="container mx-auto px-[30px] py-3">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem>
@@ -120,7 +122,7 @@ const CustomToyBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={customToyBoxes}
+                                    src={customToyBoxeshero}
                                     alt="Custom Toy Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -401,7 +403,7 @@ const CustomToyBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customToyBoxes}
+                                    src={customToyBoxes6}
                                     alt="Wholesale Custom Toy Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -434,7 +436,7 @@ const CustomToyBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={customToyBoxes} alt="Differentiate Your Toy Brand" className="w-full h-full object-cover" />
+                                <img src={customToyBoxes7} alt="Differentiate Your Toy Brand" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

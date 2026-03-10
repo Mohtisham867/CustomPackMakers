@@ -76,7 +76,7 @@ const CustomPaperBags = () => {
                             <BreadcrumbSeparator />
                             <BreadcrumbItem>
                                 <BreadcrumbLink asChild>
-                                    <Link to="/shapes-styles">Shapes & Style</Link>
+                                    <Link to="/shapes-styles">Shapes &amp; Styles</Link>
                                 </BreadcrumbLink>
                             </BreadcrumbItem>
                             <BreadcrumbSeparator />
@@ -135,7 +135,7 @@ const CustomPaperBags = () => {
 
                     <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Link to={`/industries/custom-paper-bags/${product.name.toLowerCase().replace(/ /g, '-')}`} key={index}>
+                            <Link to={`/shapes-styles/custom-paper-bags/${product.name.toLowerCase().replace(/ /g, '-')}`} key={index}>
                                 <Card
                                     className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
                                 >

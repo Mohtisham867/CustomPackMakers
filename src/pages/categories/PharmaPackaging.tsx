@@ -25,18 +25,18 @@ import oliveOilBoxes from "@/assets/pharma-packaging/olive-oil-boxes.webp";
 import condomBoxes from "@/assets/pharma-packaging/condom-boxes.webp";
 import glovesBoxes from "@/assets/pharma-packaging/gloves-boxes.webp";
 // Substitute for Bandage Boxes - reusing medicine boxes
-import bandageBoxes from "@/assets/pharma-packaging/Bandage Boxes.webp";
+import bandageBoxes from "@/assets/pharma-packaging/bandage-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Pill Boxes", image: pillBoxes, description: "Secure packaging for pills and medications featuring child-resistant locks and high-impact medical branding" },
-    { name: "Custom Dispenser Boxes", image: dispenserBoxes, description: "Convenient dispenser packaging for medical supplies designed for easy access and professional retail display" },
-    { name: "Dietary Supplement Packaging", image: dietarySupplementPackaging, description: "Compliance-focused packaging for supplements featuring moisture-proof seals and vibrant nutritional graphics" },
-    { name: "Custom Medicine Boxes", image: medicineBoxes, description: "Professional boxes for various medicines engineered for protection and regulatory compliance with clear labeling" },
-    { name: "Olive Oil Boxes", image: oliveOilBoxes, description: "Protective packaging for pharmaceutical oils featuring leak-proof design and premium light-shielding materials" },
-    { name: "Condom Boxes", image: condomBoxes, description: "Discreet and secure retail packaging for condoms featuring high-quality print finishes and durable construction" },
-    { name: "Gloves Boxes", image: glovesBoxes, description: "Hygienic dispenser boxes for medical gloves designed for easy single-glove removal and sturdy wall mounting" },
-    { name: "Bandage Boxes", image: bandageBoxes, description: "Clean packaging for bandages and first aid kits featuring sterile seals and high-visibility branding elements" },
+    { name: "Custom Pill Boxes", image: pillBoxes, description: "Secure packaging for pills and medications featuring child-resistant locks and high-impact medical branding", path: "/industries/pharma-packaging/custom-pill-boxes" },
+    { name: "Custom Dispenser Boxes", image: dispenserBoxes, description: "Convenient dispenser packaging for medical supplies designed for easy access and professional retail display", path: "/industries/pharma-packaging/custom-dispenser-boxes" },
+    { name: "Dietary Supplement Packaging", image: dietarySupplementPackaging, description: "Compliance-focused packaging for supplements featuring moisture-proof seals and vibrant nutritional graphics", path: "/industries/pharma-packaging/dietary-supplement-packaging" },
+    { name: "Custom Medicine Boxes", image: medicineBoxes, description: "Professional boxes for various medicines engineered for protection and regulatory compliance with clear labeling", path: "/industries/pharma-packaging/custom-medicine-boxes" },
+    { name: "Olive Oil Boxes", image: oliveOilBoxes, description: "Protective packaging for pharmaceutical oils featuring leak-proof design and premium light-shielding materials", path: "/industries/pharma-packaging/olive-oil-boxes" },
+    { name: "Condom Boxes", image: condomBoxes, description: "Discreet and secure retail packaging for condoms featuring high-quality print finishes and durable construction", path: "/industries/pharma-packaging/condom-boxes" },
+    { name: "Gloves Boxes", image: glovesBoxes, description: "Hygienic dispenser boxes for medical gloves designed for easy single-glove removal and sturdy wall mounting", path: "/industries/pharma-packaging/gloves-boxes" },
+    { name: "Bandage Boxes", image: bandageBoxes, description: "Clean packaging for bandages and first aid kits featuring sterile seals and high-visibility branding elements", path: "/industries/pharma-packaging/bandage-boxes" },
 ];
 
 const productOptions = [
@@ -56,8 +56,8 @@ const PharmaPackaging = () => {
             <Header />
 
             {/* Breadcrumb */}
-            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
-                <div className="container mx-auto px-4 py-4">
+            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[140px]">
+                <div className="container mx-auto px-4 py-3">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem>
@@ -81,7 +81,7 @@ const PharmaPackaging = () => {
             </div>
 
             {/* Hero Split Section */}
-            <section className="py-12 bg-background">
+            <section className="py-6 bg-background">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 items-start">
                         {/* Left Content */}
@@ -130,23 +130,25 @@ const PharmaPackaging = () => {
                                 key={index}
                                 className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
                             >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
+                                <Link to={product.path}>
+                                    <CardContent className="p-0">
+                                        <div className="w-full aspect-square overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Link>
                             </Card>
                         ))}
                     </div>

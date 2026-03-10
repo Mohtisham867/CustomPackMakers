@@ -30,11 +30,14 @@ import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent"
 
 // Placeholder images (using shoe box images as requested)
 import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import cufflinkBox1 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-1.png";
+import cufflinkBox2 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-2.png";
+import cufflinkBox3 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-3.png";
+import cufflinkBox4 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-4.png";
+import cufflinkBox5 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-5.png";
+import cufflinkBox6 from "@/assets/apparel-boxes/cufflink-boxes/deferent.png";
+import cufflinkBox7 from "@/assets/apparel-boxes/cufflink-boxes/why-choos.png";
+import cufflinkBoxHero from "@/assets/apparel-boxes/cufflink-boxes/cufflink-packaging-hero.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -44,11 +47,11 @@ const CufflinkBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Custom Cufflink Boxes - Main View" },
-        { src: shoeBox2, alt: "Custom Cufflink Boxes - Side Angle" },
-        { src: shoeBox3, alt: "Custom Cufflink Boxes - Open View" },
-        { src: shoeBox4, alt: "Custom Cufflink Boxes - Detail Shot" },
-        { src: shoeBoxHero, alt: "Custom Cufflink Boxes - Lifestyle Shot" },
+        { src: cufflinkBox1, alt: "Custom Cufflink Boxes - Main View" },
+        { src: cufflinkBox2, alt: "Custom Cufflink Boxes - Side Angle" },
+        { src: cufflinkBox3, alt: "Custom Cufflink Boxes - Open View" },
+        { src: cufflinkBox4, alt: "Custom Cufflink Boxes - Detail Shot" },
+        { src: cufflinkBox5, alt: "Custom Cufflink Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -121,7 +124,7 @@ const CufflinkBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={cufflinkBoxHero}
                                     alt="Custom Cufflink Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -371,7 +374,7 @@ const CufflinkBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={cufflinkBox7}
                                     alt="Premium Custom Cufflink Box Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -403,7 +406,7 @@ const CufflinkBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={cufflinkBox6}
                                     alt="Differentiate Your Cufflinks"
                                     className="w-full h-full object-cover"
                                 />

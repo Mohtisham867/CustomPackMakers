@@ -34,9 +34,10 @@ import { Plus, Minus } from "lucide-react";
 // Specific product images for Custom Shoe Boxes
 import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
 import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
+import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.png";
 import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
+import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe-4.png";
+import shoeBox5 from "@/assets/apparel-boxes/shoe-boxes/deferent.png";
 import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
 
 
@@ -494,7 +495,7 @@ const CustomShoeBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={shoeBox5}
                                     alt="Differentiate Your Shoes"
                                     className="w-full h-full object-cover"
                                 />

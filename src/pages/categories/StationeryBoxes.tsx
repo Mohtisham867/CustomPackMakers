@@ -32,18 +32,18 @@ import bookBoxes from "@/assets/stationery-boxes/Book Box.png";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Business Cards", image: businessCards, description: "Professional cards for networking and branding featuring premium paper stocks and elegant custom finishes" },
-    { name: "Document Folder", image: documentFolder, description: "Organized storage for important documents featuring reinforced pockets and professional branded exteriors" },
-    { name: "Pen Gift Boxes", image: penGiftBoxes, description: "Elegant packaging for premium pens featuring soft velvet linings and precise internal product fitment" },
-    { name: "Mailing Envelopes", image: mailingEnvelopes, description: "Secure envelopes for professional correspondence featuring peel-and-seal strips and durable paper material" },
-    { name: "Invitation Boxes", image: invitationBoxes, description: "Premium boxes for special event invitations featuring luxury textures and sophisticated die-cut elements" },
-    { name: "Marker Boxes", image: markerBoxes, description: "Protective packaging for marker sets featuring organized internal trays and high-visibility retail graphics" },
-    { name: "Staple Boxes", image: stapleBoxes, description: "Compact boxes for office staples featuring sturdy cardboard construction and clear product identification" },
-    { name: "Cardboard Pencil Boxes", image: cardboardPencilBoxes, description: "Eco-friendly pencil storage solutions featuring sustainable materials and colorful custom-printed designs" },
-    { name: "Packaging Inserts", image: packagingInserts, description: "Custom inserts for organized packaging featuring tailored compartments to keep stationery items in place" },
-    { name: "Pencil Boxes", image: pencilBoxes, description: "Durable boxes for pencil storage designed for school or office use with high-quality child-safe materials" },
-    { name: "Custom Bookmarks", image: customBookmarks, description: "Branded bookmarks for promotional use featuring double-sided printing and premium protective coatings" },
-    { name: "Book Boxes", image: bookBoxes, description: "Protective packaging for books and publications featuring exact-fit dimensions and heavy-duty shipping board" },
+    { name: "Custom Business Cards", image: businessCards, description: "Professional cards for networking and branding featuring premium paper stocks and elegant custom finishes", link: "/industries/stationery-boxes/custom-business-cards" },
+    { name: "Document Folder", image: documentFolder, description: "Organized storage for important documents featuring reinforced pockets and professional branded exteriors", link: "/industries/stationery-boxes/document-folders" },
+    { name: "Pen Gift Boxes", image: penGiftBoxes, description: "Elegant packaging for premium pens featuring soft velvet linings and precise internal product fitment", link: "/industries/stationery-boxes/pen-gift-boxes" },
+    { name: "Mailing Envelopes", image: mailingEnvelopes, description: "Secure envelopes for professional correspondence featuring peel-and-seal strips and durable paper material", link: "/industries/stationery-boxes/mailing-envelopes" },
+    { name: "Invitation Boxes", image: invitationBoxes, description: "Premium boxes for special event invitations featuring luxury textures and sophisticated die-cut elements", link: "/industries/stationery-boxes/invitation-boxes" },
+    { name: "Marker Boxes", image: markerBoxes, description: "Protective packaging for marker sets featuring organized internal trays and high-visibility retail graphics", link: "/industries/stationery-boxes/marker-boxes" },
+    { name: "Staple Boxes", image: stapleBoxes, description: "Compact boxes for office staples featuring sturdy cardboard construction and clear product identification", link: "/industries/stationery-boxes/staple-boxes" },
+    { name: "Cardboard Pencil Boxes", image: cardboardPencilBoxes, description: "Eco-friendly pencil storage solutions featuring sustainable materials and colorful custom-printed designs", link: "/industries/stationery-boxes/cardboard-pencil-boxes" },
+    { name: "Packaging Inserts", image: packagingInserts, description: "Custom inserts for organized packaging featuring tailored compartments to keep stationery items in place", link: "/industries/stationery-boxes/packaging-inserts" },
+    { name: "Pencil Boxes", image: pencilBoxes, description: "Durable boxes for pencil storage designed for school or office use with high-quality child-safe materials", link: "/industries/stationery-boxes/pencil-boxes" },
+    { name: "Custom Bookmarks", image: customBookmarks, description: "Branded bookmarks for promotional use featuring double-sided printing and premium protective coatings", link: "/industries/stationery-boxes/custom-bookmarks" },
+    { name: "Book Boxes", image: bookBoxes, description: "Protective packaging for books and publications featuring exact-fit dimensions and heavy-duty shipping board", link: "/industries/stationery-boxes/book-boxes" },
 ];
 
 const productOptions = [
@@ -137,28 +137,27 @@ const StationeryBoxes = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index}>
+                                <Card className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full">
+                                    <CardContent className="p-0">
+                                        <div className="w-full aspect-square overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

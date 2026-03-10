@@ -29,18 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import donutBoxes from "@/assets/food-boxes/donut-boxes.webp";
+import donutBoxeshero from "@/assets/food-boxes/donut-boxes/img-hero.png";
+import donutBoxes1 from "@/assets/food-boxes/donut-boxes/img-1.png";
+import donutBoxes2 from "@/assets/food-boxes/donut-boxes/img-2.png";
+import donutBoxes3 from "@/assets/food-boxes/donut-boxes/img-3.png";
+import donutBoxes4 from "@/assets/food-boxes/donut-boxes/img-4.png";
+import donutBoxes5 from "@/assets/food-boxes/donut-boxes/img-5.png";
+import donutBoxes6 from "@/assets/food-boxes/donut-boxes/img-whychoose.png";
+import donutBoxes7 from "@/assets/food-boxes/donut-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const DonutBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: donutBoxes, alt: "Donut Boxes - Main View" },
-        { src: donutBoxes, alt: "Donut Boxes - Side Angle" },
-        { src: donutBoxes, alt: "Donut Boxes - Open View" },
-        { src: donutBoxes, alt: "Donut Boxes - Detail Shot" },
-        { src: donutBoxes, alt: "Donut Boxes - Lifestyle Shot" },
+        { src: donutBoxes1, alt: "Donut Boxes - Main View" },
+        { src: donutBoxes2, alt: "Donut Boxes - Side Angle" },
+        { src: donutBoxes3, alt: "Donut Boxes - Open View" },
+        { src: donutBoxes4, alt: "Donut Boxes - Detail Shot" },
+        { src: donutBoxes5, alt: "Donut Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +118,7 @@ const DonutBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-pink-50 to-pink-100">
                                 <img
-                                    src={donutBoxes}
+                                    src={donutBoxeshero}
                                     alt="Donut Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -358,7 +365,7 @@ const DonutBoxes = () => {
                         {/* RIGHT: Image */}
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={donutBoxes} alt="Premium Packaging" className="w-full h-full object-cover" />
+                                <img src={donutBoxes6} alt="Premium Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -385,7 +392,7 @@ const DonutBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={donutBoxes} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
+                                <img src={donutBoxes7} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

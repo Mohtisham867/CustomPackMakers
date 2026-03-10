@@ -13,22 +13,25 @@ import { Label } from '@/components/ui/label';
 import { TechnicalSpecsSection } from '@/components/TechnicalSpecsSection';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Plus, Minus } from 'lucide-react';
-import productHero from '@/assets/bakery-products/Pie Boxes.webp';
-import img2 from '@/assets/bakery-products/custom-cake-boxes.webp';
-import img3 from '@/assets/bakery-products/pastry-boxes.webp';
-import img4 from '@/assets/bakery-products/donut-boxes.webp';
-import img5 from '@/assets/bakery-products/muffin-boxes.webp';
+import pieboxehero from '@/assets/bakery-products/Pie-Boxes/img-hero.png';
+import pieimg1 from '@/assets/bakery-products/Pie-Boxes/img-1.png';
+import pieimg2 from '@/assets/bakery-products/Pie-Boxes/img-2.png';
+import pieimg3 from '@/assets/bakery-products/Pie-Boxes/img-3.png';
+import pieimg4 from '@/assets/bakery-products/Pie-Boxes/img-4.png';
+import pieimg5 from '@/assets/bakery-products/Pie-Boxes/img-5.png';
+import pieimg6 from '@/assets/bakery-products/Pie-Boxes/img-whychoose.png';
+import pieimg7 from '@/assets/bakery-products/Pie-Boxes/img-different.png';
 import FAQimage from '@/assets/FAQ-image.png';
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 const PieBoxes = () => {
   const [sel, setSel] = useState(0);
   const imgs = [
-    { src: productHero, alt: 'Pie Boxes Main' },
-    { src: img2, alt: 'Pie Boxes View 2' },
-    { src: img3, alt: 'Pie Boxes View 3' },
-    { src: img4, alt: 'Pie Boxes View 4' },
-    { src: img5, alt: 'Pie Boxes View 5' },
+    { src: pieimg1, alt: 'Pie Boxes Main' },
+    { src: pieimg2, alt: 'Pie Boxes View 2' },
+    { src: pieimg3, alt: 'Pie Boxes View 3' },
+    { src: pieimg4, alt: 'Pie Boxes View 4' },
+    { src: pieimg5, alt: 'Pie Boxes View 5' },
   ];
   return (
     <div className="min-h-screen bg-background w-full max-w-[100vw] overflow-x-hidden">
@@ -69,7 +72,7 @@ const PieBoxes = () => {
               </Button>
             </div>
             <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
-              <img src={productHero} alt="Custom Pie Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <img src={pieboxehero} alt="Custom Pie Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
             </div>
           </div>
         </div>
@@ -196,7 +199,7 @@ const PieBoxes = () => {
             </div>
             <div className="relative flex items-center justify-center py-8">
               <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                <img src={productHero} alt="Premium Custom Pie Boxes Packaging" className="w-full h-full object-cover" />
+                <img src={pieimg6} alt="Premium Custom Pie Boxes Packaging" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-7">
                   <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -214,7 +217,7 @@ const PieBoxes = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="relative group">
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                <img src={productHero} alt="Differentiate Your Pies Brand" className="w-full h-full object-cover" />
+                <img src={pieimg7} alt="Differentiate Your Pies Brand" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="space-y-6 lg:pl-10">

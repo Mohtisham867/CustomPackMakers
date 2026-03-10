@@ -28,7 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHero from "@/assets/automotive-products/headlight-boxes.webp";
+import headlighthero from "@/assets/automotive-products/headlight-boxes/img-hero.png";
+import headlight1 from "@/assets/automotive-products/headlight-boxes/img-1.png";
+import headlight2 from "@/assets/automotive-products/headlight-boxes/img-2.png";
+import headlight3 from "@/assets/automotive-products/headlight-boxes/img-3.png";
+import headlight4 from "@/assets/automotive-products/headlight-boxes/img-4.png";
+import headlight5 from "@/assets/automotive-products/headlight-boxes/img-5.png";
+import headlight6 from "@/assets/automotive-products/headlight-boxes/img-whychoose.png";
+import headlight7 from "@/assets/automotive-products/headlight-boxes/img-different.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const HeadlightBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: productHero, alt: "Custom Headlight Box" },
-        { src: productHero, alt: "Headlight Assembly Packaging" },
-        { src: productHero, alt: "LED Bulb Blister Pack" },
-        { src: productHero, alt: "Headlight Box - Open" },
-        { src: productHero, alt: "Branded Automotive Lighting Box" },
+        { src: headlight1, alt: "Custom Headlight Box" },
+        { src: headlight2, alt: "Headlight Assembly Packaging" },
+        { src: headlight3, alt: "LED Bulb Blister Pack" },
+        { src: headlight4, alt: "Headlight Box - Open" },
+        { src: headlight5, alt: "Branded Automotive Lighting Box" },
     ];
 
     return (
@@ -115,7 +122,7 @@ const HeadlightBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHero}
+                                    src={headlighthero}
                                     alt="Custom Headlight Boxes"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -372,7 +379,7 @@ const HeadlightBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHero}
+                                    src={headlight6}
                                     alt="Professional headlight packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -404,7 +411,7 @@ const HeadlightBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHero}
+                                    src={headlight7}
                                     alt="Differentiate Your Lighting Brand"
                                     className="w-full h-full object-cover"
                                 />

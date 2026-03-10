@@ -20,7 +20,14 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import halloweenWindowBoxesHero from "@/assets/holiday-boxes/Halloween Window Boxes.png";
+import halloweenWindowBoxesHero from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-hero.png";
+import halloweenWindowBoxesimg1 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-1.png";
+import halloweenWindowBoxesimg2 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-2.png";
+import halloweenWindowBoxesimg3 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-3.png";
+import halloweenWindowBoxesimg4 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-4.png";
+import halloweenWindowBoxesimg5 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-5.png";
+import halloweenWindowBoxesimg6 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-whychoose.png";
+import halloweenWindowBoxesimg7 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const faqs = [
@@ -34,11 +41,11 @@ const faqs = [
 const HalloweenWindowBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
     const productImages = [
-        { src: halloweenWindowBoxesHero, alt: "Halloween Window Boxes - Main View" },
-        { src: halloweenWindowBoxesHero, alt: "Halloween Window Boxes - Side Angle" },
-        { src: halloweenWindowBoxesHero, alt: "Halloween Window Boxes - Open View" },
-        { src: halloweenWindowBoxesHero, alt: "Halloween Window Boxes - Detail Shot" },
-        { src: halloweenWindowBoxesHero, alt: "Halloween Window Boxes - Lifestyle Shot" },
+        { src: halloweenWindowBoxesimg1, alt: "Halloween Window Boxes - Main View" },
+        { src: halloweenWindowBoxesimg2, alt: "Halloween Window Boxes - Side Angle" },
+        { src: halloweenWindowBoxesimg3, alt: "Halloween Window Boxes - Open View" },
+        { src: halloweenWindowBoxesimg4, alt: "Halloween Window Boxes - Detail Shot" },
+        { src: halloweenWindowBoxesimg5, alt: "Halloween Window Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -247,7 +254,7 @@ const HalloweenWindowBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={halloweenWindowBoxesHero} alt="Premium Packaging" className="w-full h-full object-cover" />
+                                <img src={halloweenWindowBoxesimg6} alt="Premium Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -273,7 +280,7 @@ const HalloweenWindowBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={halloweenWindowBoxesHero} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
+                                <img src={halloweenWindowBoxesimg7} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

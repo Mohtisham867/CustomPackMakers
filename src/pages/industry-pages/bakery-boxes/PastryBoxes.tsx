@@ -16,11 +16,14 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productHero from "@/assets/bakery-products/pastry-boxes.webp";
-import img2 from "@/assets/bakery-products/custom-cake-boxes.webp";
-import img3 from "@/assets/bakery-products/cupcake-boxes.webp";
-import img4 from "@/assets/bakery-products/cookie-boxes.webp";
-import img5 from "@/assets/bakery-products/muffin-boxes.webp";
+import pastryBoxeshero from "@/assets/bakery-products/pastry-boxes/img-hero.png";
+import pastryBoxesimg1 from "@/assets/bakery-products/pastry-boxes/img-1.png";
+import pastryBoxesimg2 from "@/assets/bakery-products/pastry-boxes/img-2.png";
+import pastryBoxesimg3 from "@/assets/bakery-products/pastry-boxes/img-3.png";
+import pastryBoxesimg4 from "@/assets/bakery-products/pastry-boxes/img-4.png";
+import pastryBoxesimg5 from "@/assets/bakery-products/pastry-boxes/img-5.png";
+import pastryBoxesimg6 from "@/assets/bakery-products/pastry-boxes/img-whychoose.png";
+import pastryBoxesimg7 from "@/assets/bakery-products/pastry-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
@@ -29,11 +32,11 @@ const PastryBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHero, alt: "Pastry Boxes - Main View" },
-        { src: img2, alt: "Pastry Boxes - Cake Style" },
-        { src: img3, alt: "Pastry Boxes - Cupcake Style" },
-        { src: img4, alt: "Pastry Boxes - Cookie Style" },
-        { src: img5, alt: "Pastry Boxes - Muffin Style" },
+        { src: pastryBoxesimg1, alt: "Pastry Boxes - Main View" },
+        { src: pastryBoxesimg2, alt: "Pastry Boxes - Cake Style" },
+        { src: pastryBoxesimg3, alt: "Pastry Boxes - Cupcake Style" },
+        { src: pastryBoxesimg4, alt: "Pastry Boxes - Cookie Style" },
+        { src: pastryBoxesimg5, alt: "Pastry Boxes - Muffin Style" },
     ];
 
 
@@ -83,7 +86,7 @@ const PastryBoxes = () => {
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-amber-50 to-amber-100">
-                                <img src={productHero} alt="Custom Pastry Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                                <img src={pastryBoxeshero} alt="Custom Pastry Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                             </div>
                         </div>
                     </div>
@@ -253,7 +256,7 @@ const PastryBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productHero} alt="Premium Custom Pastry Box Packaging" className="w-full h-full object-cover" />
+                                <img src={pastryBoxesimg6} alt="Premium Custom Pastry Box Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -278,7 +281,7 @@ const PastryBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productHero} alt="Differentiate Your Pastry Brand" className="w-full h-full object-cover" />
+                                <img src={pastryBoxesimg7} alt="Differentiate Your Pastry Brand" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

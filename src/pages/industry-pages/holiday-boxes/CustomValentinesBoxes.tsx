@@ -20,7 +20,14 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import valentinesBoxesHero from "@/assets/holiday-boxes/valentines-boxes.webp";
+import valentinesBoxesHero from "@/assets/holiday-boxes/valentines-boxes/img-hero.png";
+import valentinesBoxesimg1 from "@/assets/holiday-boxes/valentines-boxes/img-1.png";
+import valentinesBoxesimg2 from "@/assets/holiday-boxes/valentines-boxes/img-2.png";
+import valentinesBoxesimg3 from "@/assets/holiday-boxes/valentines-boxes/img-3.png";
+import valentinesBoxesimg4 from "@/assets/holiday-boxes/valentines-boxes/img-4.png";
+import valentinesBoxesimg5 from "@/assets/holiday-boxes/valentines-boxes/img-5.png";
+import valentinesBoxesimg6 from "@/assets/holiday-boxes/valentines-boxes/img-whychoose.png";
+import valentinesBoxesimg7 from "@/assets/holiday-boxes/valentines-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const faqs = [
@@ -34,11 +41,11 @@ const faqs = [
 const CustomValentinesBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
     const productImages = [
-        { src: valentinesBoxesHero, alt: "Custom Valentines Boxes - Main View" },
-        { src: valentinesBoxesHero, alt: "Custom Valentines Boxes - Side Angle" },
-        { src: valentinesBoxesHero, alt: "Custom Valentines Boxes - Open View" },
-        { src: valentinesBoxesHero, alt: "Custom Valentines Boxes - Detail Shot" },
-        { src: valentinesBoxesHero, alt: "Custom Valentines Boxes - Lifestyle Shot" },
+        { src: valentinesBoxesimg1, alt: "Custom Valentines Boxes - Main View" },
+        { src: valentinesBoxesimg2, alt: "Custom Valentines Boxes - Side Angle" },
+        { src: valentinesBoxesimg3, alt: "Custom Valentines Boxes - Open View" },
+        { src: valentinesBoxesimg4, alt: "Custom Valentines Boxes - Detail Shot" },
+        { src: valentinesBoxesimg5, alt: "Custom Valentines Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -247,7 +254,7 @@ const CustomValentinesBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={valentinesBoxesHero} alt="Premium Packaging" className="w-full h-full object-cover" />
+                                <img src={valentinesBoxesimg6} alt="Premium Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -273,7 +280,7 @@ const CustomValentinesBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={valentinesBoxesHero} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
+                                <img src={valentinesBoxesimg7} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

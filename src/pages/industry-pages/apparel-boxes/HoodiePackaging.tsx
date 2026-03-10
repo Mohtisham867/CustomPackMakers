@@ -28,12 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Placeholder images
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import hoodiePackaginghero from "@/assets/apparel-boxes/hoodie-packaging/img-hero.png";
+import hoodiePackaging1 from "@/assets/apparel-boxes/hoodie-packaging/img-1.png";
+import hoodiePackaging2 from "@/assets/apparel-boxes/hoodie-packaging/img-2.png";
+import hoodiePackaging3 from "@/assets/apparel-boxes/hoodie-packaging/img-3.png";
+import hoodiePackaging4 from "@/assets/apparel-boxes/hoodie-packaging/img-4.png";
+import hoodiePackaging5 from "@/assets/apparel-boxes/hoodie-packaging/img-5.png";
+import hoodiePackaging6 from "@/assets/apparel-boxes/hoodie-packaging/img-whychoose.png";
+import hoodiePackaging7 from "@/assets/apparel-boxes/hoodie-packaging/img-defferent.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -43,11 +45,11 @@ const HoodiePackaging = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Custom Hoodie Packaging - Front View" },
-        { src: shoeBox2, alt: "Hoodie Box - Open" },
-        { src: shoeBox3, alt: "Hoodie Packaging - Detail" },
-        { src: shoeBox4, alt: "Streetwear Hoodie Box - Side" },
-        { src: shoeBoxHero, alt: "Hoodie Packaging - Lifestyle" },
+        { src: hoodiePackaging1, alt: "Custom Hoodie Packaging - Front View" },
+        { src: hoodiePackaging2, alt: "Hoodie Box - Open" },
+        { src: hoodiePackaging3, alt: "Hoodie Packaging - Detail" },
+        { src: hoodiePackaging4, alt: "Streetwear Hoodie Box - Side" },
+        { src: hoodiePackaging5, alt: "Hoodie Packaging - Lifestyle" },
     ];
 
     return (
@@ -120,9 +122,9 @@ const HoodiePackaging = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={hoodiePackaginghero}
                                     alt="Custom Hoodie Packaging Hero"
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    className="w-full h-full object-cover"
                                 />
                             </div>
                         </div>
@@ -354,7 +356,7 @@ const HoodiePackaging = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={hoodiePackaging6}
                                     alt="Premium Custom Hoodie Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -386,7 +388,7 @@ const HoodiePackaging = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={hoodiePackaging7}
                                     alt="Differentiate Your Clothing Brand"
                                     className="w-full h-full object-cover"
                                 />
@@ -400,8 +402,7 @@ const HoodiePackaging = () => {
                                 Differentiate Your <span className="text-primary">Clothing Brand</span> From Others
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-                                In the crowded apparel market, your packaging is a billboard. Make it count. Use every inch of your box to tell your story, share your values, and connect with your audience. With our high-quality printing and structural design, your packaging will stand out from the generic poly mailers and make a statement before the customer even sees the hoodie inside.
-                            </p>
+In today’s crowded apparel market, your packaging serves as a powerful, mobile billboard for your brand identity. At CustomPackMakers, we empower you to make every inch count by utilizing our high-quality printing and innovative structural designs. Instead of settling for generic poly mailers, we help you use your box to tell your unique story, share core brand values, and deeply connect with your audience. This premium presentation ensures your brand stands out, making a bold statement before the customer even reveals the high-quality hoodie inside                            </p>
                         </div>
                     </div>
                 </div>

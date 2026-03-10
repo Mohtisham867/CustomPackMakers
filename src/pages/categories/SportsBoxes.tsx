@@ -25,11 +25,11 @@ import tennisBallBoxes from "@/assets/sports-boxes/tennis-ball-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Baseball Boxes", image: baseballBoxes, description: "Protective boxes for collectible or retail baseballs featuring clear viewing windows and sturdy construction" },
-    { name: "Custom Golf Ball Boxes", image: golfBallBoxes, description: "Premium packaging for golf balls perfect for gifts featuring precise internal dividers and luxury finishes" },
-    { name: "Football Boxes", image: footballBoxes, description: "Durable boxes designed to hold footballs securely featuring reinforced cardboard and high-impact sports graphics" },
-    { name: "Basketball Boxes", image: basketballBoxes, description: "Large and sturdy boxes for basketballs featuring handle options and vibrant team-style custom branding" },
-    { name: "Tennis Ball Boxes", image: tennisBallBoxes, description: "Compact boxes for tennis ball sleeves or sets featuring space-efficient design and professional retail look" },
+    { name: "Custom Baseball Boxes", image: baseballBoxes, description: "Protective boxes for collectible or retail baseballs featuring clear viewing windows and sturdy construction", link: "/industries/sports-boxes/custom-baseball-boxes" },
+    { name: "Custom Golf Ball Boxes", image: golfBallBoxes, description: "Premium packaging for golf balls perfect for gifts featuring precise internal dividers and luxury finishes", link: "/industries/sports-boxes/custom-golf-ball-boxes" },
+    { name: "Football Boxes", image: footballBoxes, description: "Durable boxes designed to hold footballs securely featuring reinforced cardboard and high-impact sports graphics", link: "/industries/sports-boxes/football-boxes" },
+    { name: "Basketball Boxes", image: basketballBoxes, description: "Large and sturdy boxes for basketballs featuring handle options and vibrant team-style custom branding", link: "/industries/sports-boxes/basketball-boxes" },
+    { name: "Tennis Ball Boxes", image: tennisBallBoxes, description: "Compact boxes for tennis ball sleeves or sets featuring space-efficient design and professional retail look", link: "/industries/sports-boxes/tennis-ball-boxes" },
 ];
 
 const productOptions = [
@@ -63,7 +63,9 @@ const SportsBoxes = () => {
                             </BreadcrumbItem>
                             <BreadcrumbSeparator />
                             <BreadcrumbItem>
-                                <BreadcrumbPage>Sports Boxes</BreadcrumbPage>
+                                <BreadcrumbLink asChild>
+                                    <Link to="/industries/sports-boxes">Sports Boxes</Link>
+                                </BreadcrumbLink>
                             </BreadcrumbItem>
                         </BreadcrumbList>
                     </Breadcrumb>
@@ -79,7 +81,7 @@ const SportsBoxes = () => {
                             <h1 className="text-4xl md:text-5xl font-bold text-foreground">
                                 Sports Boxes
                             </h1>
-                            <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4">
+                            <p className="text-[16px] text-muted-foreground leading-relaxed">
                                 Durable, protective, and branded packaging for various sports equipment and balls. Showcase your sporting goods with packaging that champions your brand. Our premium finishes ensure your gear stays safe while delivering an unboxing experience that inspires every athlete.
                             </p>
                             <div className="pt-4 lg:pt-0">
@@ -115,28 +117,29 @@ const SportsBoxes = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index}>
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="w-full aspect-square overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

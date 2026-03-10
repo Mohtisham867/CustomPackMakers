@@ -46,18 +46,18 @@ const squareBox = squareBoxesImg;
 const cubeBox = cubeBoxesImg;
 
 const relatedProducts = [
-    { name: "Custom Handle Boxes", image: customHandle, description: "Boxes with integrated handles for convenient carrying and high-impact retail branding visibility" },
-    { name: "Custom Pie Boxes", image: customPie, description: "Sturdy triangular or square packaging for pies and pastries featuring grease-resistant coatings" },
-    { name: "Bracelet Square Boxes", image: braceletSquare, description: "Elegant square boxes perfectly sized for jewelry featuring soft inserts and premium logo stamping" },
-    { name: "Custom Die-Cut Boxes", image: customDieCut, description: "Precision-cut shapes tailored to your specific product for a memorable and unique brand identity" },
-    { name: "Square Soap Boxes", image: squareSoap, description: "Classic square packaging for artisanal soaps featuring breathable materials and rustic brand appeal" },
-    { name: "Custom Pyramid Boxes", image: customPyramid, description: "Unique pyramid shape for distinctive gift packaging designed to fascinate and delight your customers" },
-    { name: "Hexagon Boxes", image: hexagonBox, description: "Six-sided boxes providing a modern, geometric look and superior structural strength for retail items" },
-    { name: "Rectangular Boxes", image: rectangularBox, description: "Versatile rectangular shape for widely varied products featuring customizable sizes and high-end print" },
-    { name: "Triangle Box", image: triangleBox, description: "Eye-catching triangular packaging for novelty items and gifts designed for maximum counter display impact" },
-    { name: "Octagon Box", image: octagonBox, description: "Eight-sided boxes for a premium, multi-faceted presentation and enhanced structural item protection" },
-    { name: "Square Boxes", image: squareBox, description: "Standard square boxes adaptable to any branding featuring durable construction and professional finishes" },
-    { name: "Cube Boxes", image: cubeBox, description: "Perfectly symmetrical cubes for compact products designed for creative retail branding and safe shipping" },
+    { name: "Custom Handle Boxes", image: customHandle, description: "Boxes with integrated handles for convenient carrying and high-impact retail branding visibility", link: "/shapes-styles/custom-shape-boxes/custom-handle-boxes" },
+    { name: "Custom Pie Boxes", image: customPie, description: "Sturdy triangular or square packaging for pies and pastries featuring grease-resistant coatings", link: "/shapes-styles/custom-shape-boxes/custom-pie-boxes" },
+    { name: "Bracelet Square Boxes", image: braceletSquare, description: "Elegant square boxes perfectly sized for jewelry featuring soft inserts and premium logo stamping", link: "/shapes-styles/custom-shape-boxes/bracelet-square-boxes" },
+    { name: "Custom Die-Cut Boxes", image: customDieCut, description: "Precision-cut shapes tailored to your specific product for a memorable and unique brand identity", link: "/shapes-styles/custom-shape-boxes/custom-die-cut-boxes" },
+    { name: "Square Soap Boxes", image: squareSoap, description: "Classic square packaging for artisanal soaps featuring breathable materials and rustic brand appeal", link: "/shapes-styles/custom-shape-boxes/square-soap-boxes" },
+    { name: "Custom Pyramid Boxes", image: customPyramid, description: "Unique pyramid shape for distinctive gift packaging designed to fascinate and delight your customers", link: "/shapes-styles/custom-shape-boxes/custom-pyramid-boxes" },
+    { name: "Hexagon Boxes", image: hexagonBox, description: "Six-sided boxes providing a modern, geometric look and superior structural strength for retail items", link: "/shapes-styles/custom-shape-boxes/hexagon-boxes" },
+    { name: "Rectangular Boxes", image: rectangularBox, description: "Versatile rectangular shape for widely varied products featuring customizable sizes and high-end print", link: "/shapes-styles/custom-shape-boxes/rectangular-boxes" },
+    { name: "Triangle Box", image: triangleBox, description: "Eye-catching triangular packaging for novelty items and gifts designed for maximum counter display impact", link: "/shapes-styles/custom-shape-boxes/triangle-boxes" },
+    { name: "Octagon Box", image: octagonBox, description: "Eight-sided boxes for a premium, multi-faceted presentation and enhanced structural item protection", link: "/shapes-styles/custom-shape-boxes/octagon-boxes" },
+    { name: "Square Boxes", image: squareBox, description: "Standard square boxes adaptable to any branding featuring durable construction and professional finishes", link: "/shapes-styles/custom-shape-boxes/square-boxes" },
+    { name: "Cube Boxes", image: cubeBox, description: "Symmetrical cube shape for versatile packaging needs featuring clean lines and modern design", link: "/shapes-styles/custom-shape-boxes/cube-boxes" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -137,33 +137,34 @@ const CustomShapeBoxes = () => {
 
                     <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer text-left"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden relative">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className={`w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110 ${product.image === placeholder ? 'opacity-80' : ''}`} loading="lazy"
-                                        />
-                                        {product.image === placeholder && (
-                                            <div className="absolute inset-0 flex items-center justify-center bg-black/5">
-                                                <span className="bg-white/90 px-2 py-1 text-xs rounded shadow-sm text-foreground/70 font-medium">Image Coming Soon</span>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link key={index} to={product.link}>
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer text-left h-full"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="w-full aspect-square overflow-hidden relative">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className={`w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110 ${product.image === placeholder ? 'opacity-80' : ''}`} loading="lazy"
+                                            />
+                                            {product.image === placeholder && (
+                                                <div className="absolute inset-0 flex items-center justify-center bg-black/5">
+                                                    <span className="bg-white/90 px-2 py-1 text-xs rounded shadow-sm text-foreground/70 font-medium">Image Coming Soon</span>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

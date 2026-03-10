@@ -33,18 +33,18 @@ import { SEOContent } from "@/components/SEOContent";
 // Product images placeholders - to be added later
 
 const relatedProducts = [
-    { name: "Vinyl Record Mailers", image: vinylRecordMailers, description: "Protective mailers for vinyl records designed to prevent warping and damage during e-commerce shipping" },
-    { name: "Bubble Mailers", image: bubbleMailers, description: "Padded mailers for shipping fragile items with extra cushioning and lightweight cost-saving construction" },
-    { name: "4x8 Bubble Mailers", image: bubbleMailers4x8, description: "Compact bubble mailers for small goods featuring secure adhesive seals and durable tear-resistant exteriors" },
-    { name: "Kraft Bubble Mailers", image: kraftBubbleMailers, description: "Eco-friendly kraft paper bubble mailers combining sustainable materials with reliable product protection" },
-    { name: "Corrugated Mailer Boxes", image: corrugatedMailerBoxes, description: "Sturdy corrugated boxes for shipping a wide variety of goods with superior crush resistance and style" },
-    { name: "Ear Lock Mailer Box", image: earLockMailerBox, description: "Secure ear-lock closure mailer boxes requiring no tape for assembly and providing a clean retail finish" },
-    { name: "Poly Bubble Mailers", image: polyBubbleMailers, description: "Water-resistant poly bubble mailers offering maximum moisture protection and durable shipping security" },
-    { name: "White Mailer Boxes", image: whiteMailerBoxes, description: "Clean, professional white mailer boxes perfect for medical, beauty, and premium tech brand distributions" },
-    { name: "Kraft Mailer Boxes", image: kraftMailerBoxes, description: "Sustainable kraft cardboard mailers providing a natural aesthetic for eco-conscious brands and products" },
-    { name: "Black Mailer Boxes", image: blackMailerBoxes, description: "Sleek black mailer boxes for premium branding and high-end e-commerce gift or product presentations" },
-    { name: "Colored Mailer Boxes", image: coloredMailerBoxes, description: "Vibrant colored mailers designed to stand out in the mail and reinforce your unique brand color palette" },
-    { name: "Tuck Top Mailer Boxes", image: tuckTopMailerBoxes, description: "Classic tuck top style for easy assembly and secure fulfillment of retail products and subscription kits" },
+    { name: "Vinyl Record Mailers", image: vinylRecordMailers, link: "/shapes-styles/mailer-boxes/vinyl-record-mailers", description: "Protective mailers for vinyl records designed to prevent warping and damage during e-commerce shipping" },
+    { name: "Bubble Mailers", image: bubbleMailers, link: "/shapes-styles/mailer-boxes/bubble-mailers", description: "Padded mailers for shipping fragile items with extra cushioning and lightweight cost-saving construction" },
+    { name: "4x8 Bubble Mailers", image: bubbleMailers4x8, link: "/shapes-styles/mailer-boxes/4x8-bubble-mailers", description: "Compact bubble mailers for small goods featuring secure adhesive seals and durable tear-resistant exteriors" },
+    { name: "Kraft Bubble Mailers", image: kraftBubbleMailers, link: "/shapes-styles/mailer-boxes/eco-friendly-bubble-mailers", description: "Eco-friendly kraft paper bubble mailers combining sustainable materials with reliable product protection" },
+    { name: "Corrugated Mailer Boxes", image: corrugatedMailerBoxes, link: "/shapes-styles/mailer-boxes/corrugated-mailer-boxes", description: "Sturdy corrugated boxes for shipping a wide variety of goods with superior crush resistance and style" },
+    { name: "Ear Lock Mailer Box", image: earLockMailerBox, link: "/shapes-styles/mailer-boxes/ear-lock-mailer-box", description: "Secure ear-lock closure mailer boxes requiring no tape for assembly and providing a clean retail finish" },
+    { name: "Poly Bubble Mailers", image: polyBubbleMailers, link: "/shapes-styles/mailer-boxes/poly-bubble-mailers", description: "Water-resistant poly bubble mailers offering maximum moisture protection and durable shipping security" },
+    { name: "White Mailer Boxes", image: whiteMailerBoxes, link: "/shapes-styles/mailer-boxes/white-mailer-boxes", description: "Clean, professional white mailer boxes perfect for medical, beauty, and premium tech brand distributions" },
+    { name: "Kraft Mailer Boxes", image: kraftMailerBoxes, link: "/shapes-styles/mailer-boxes/kraft-mailer-boxes", description: "Sustainable kraft cardboard mailers providing a natural aesthetic for eco-conscious brands and products" },
+    { name: "Black Mailer Boxes", image: blackMailerBoxes, link: "/shapes-styles/mailer-boxes/black-mailer-boxes", description: "Sleek black mailer boxes for premium branding and high-end e-commerce gift or product presentations" },
+    { name: "Colored Mailer Boxes", image: coloredMailerBoxes, link: "/shapes-styles/mailer-boxes/colored-mailer-boxes", description: "Vibrant colored mailers designed to stand out in the mail and reinforce your unique brand color palette" },
+    { name: "Tuck Top Mailer Boxes", image: tuckTopMailerBoxes, link: "/shapes-styles/mailer-boxes/tuck-top-mailer-boxes", description: "Classic tuck top style for easy assembly and secure fulfillment of retail products and subscription kits" },
 ];
 
 const productOptions = [
@@ -137,35 +137,36 @@ const MailerBoxes = () => {
 
                     <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        {/* Product image placeholder - intentionally empty */}
-                                        {product.image ? (
-                                            <img
-                                                src={product.image}
-                                                alt={product.name}
-                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                            />
-                                        ) : (
-                                            <div className="w-full h-full bg-muted flex items-center justify-center">
-                                                <p className="text-muted-foreground text-xs">Image placeholder</p>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index} className="block">
+                                <Card
+                                    className="h-full overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
+                                >
+                                    <CardContent className="p-0 flex flex-col h-full">
+                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden shrink-0">
+                                            {/* Product image placeholder - intentionally empty */}
+                                            {product.image ? (
+                                                <img
+                                                    src={product.image}
+                                                    alt={product.name}
+                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                />
+                                            ) : (
+                                                <div className="w-full h-full bg-muted flex items-center justify-center">
+                                                    <p className="text-muted-foreground text-xs">Image placeholder</p>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="p-4 border-t border-border flex-grow">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

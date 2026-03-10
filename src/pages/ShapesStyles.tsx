@@ -30,13 +30,15 @@ import subscriptionBoxes from "@/assets/box-shapes/subscription-boxes.webp";
 import tuckBoxes from "@/assets/box-shapes/tuck-boxes.webp";
 import weedBags from "@/assets/box-shapes/weed-bags.webp";
 import windowPackaging from "@/assets/box-shapes/window-packaging.webp";
+
 import heroBackground from "@/assets/shapes-styles-hero-bg.webp";
+
 
 const shapesStyles = [
   { name: "Child Resistant Packaging", image: childResistantPackaging, link: "/shapes-styles/child-resistant-packaging" },
   { name: "Custom Bags", image: customBags, link: "/shapes-styles/custom-bags" },
   { name: "Custom Mylar Bags", image: customMylarBags, link: "/categories/custom-mylar-bags" },
-  { name: "Custom Paper Bags", image: customPaperBags, link: "/industries/custom-paper-bags" },
+  { name: "Custom Paper Bags", image: customPaperBags, link: "/shapes-styles/custom-paper-bags" },
   { name: "Custom Shape Boxes", image: customShapeBoxes, link: "/shapes-styles/custom-shape-boxes" },
   { name: "Display Boxes", image: displayBoxes, link: "/industries/display-boxes" },
   { name: "Gable Boxes", image: gableBoxes, link: "/shapes-styles/gable-boxes" },

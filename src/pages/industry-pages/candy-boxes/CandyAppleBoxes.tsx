@@ -29,19 +29,25 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImage from "@/assets/candy-products/Custom Candy Boxes hero.png";
-import candyAppleBoxes from "@/assets/candy-products/candy-apple-boxes.webp";
+import candyAppleBoxesHero from "@/assets/candy-products/candy-apple-boxes/img-hero.png";
+import candyAppleBoxesImg1 from "@/assets/candy-products/candy-apple-boxes/img-1.png";
+import candyAppleBoxesImg2 from "@/assets/candy-products/candy-apple-boxes/img-2.png";
+import candyAppleBoxesImg3 from "@/assets/candy-products/candy-apple-boxes/img-3.png";
+import candyAppleBoxesImg4 from "@/assets/candy-products/candy-apple-boxes/img-4.png";
+import candyAppleBoxesImg5 from "@/assets/candy-products/candy-apple-boxes/img-5.png";
+import candyAppleBoxesImg6 from "@/assets/candy-products/candy-apple-boxes/img-whychoose.png";
+import candyAppleBoxesImg7 from "@/assets/candy-products/candy-apple-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CandyAppleBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: candyAppleBoxes, alt: "Custom Candy Apple Boxes - Main View" },
-        { src: candyAppleBoxes, alt: "Custom Candy Apple Boxes - Side Angle" },
-        { src: candyAppleBoxes, alt: "Custom Candy Apple Boxes - Inside View" },
-        { src: candyAppleBoxes, alt: "Custom Candy Apple Boxes - Detail Shot" },
-        { src: heroImage, alt: "Custom Candy Apple Boxes - Lifestyle" },
+        { src: candyAppleBoxesImg1, alt: "Custom Candy Apple Boxes - Main View" },
+        { src: candyAppleBoxesImg2, alt: "Custom Candy Apple Boxes - Side Angle" },
+        { src: candyAppleBoxesImg3, alt: "Custom Candy Apple Boxes - Inside View" },
+        { src: candyAppleBoxesImg4, alt: "Custom Candy Apple Boxes - Detail Shot" },
+        { src: candyAppleBoxesImg5, alt: "Custom Candy Apple Boxes - Lifestyle" },
     ];
 
     return (
@@ -110,7 +116,7 @@ const CandyAppleBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={heroImage}
+                                    src={candyAppleBoxesHero}
                                     alt="Custom Candy Apple Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -290,7 +296,7 @@ const CandyAppleBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={candyAppleBoxes} alt="Premium Custom Candy Apple Box Packaging" className="w-full h-full object-cover" />
+                                <img src={candyAppleBoxesImg6} alt="Premium Custom Candy Apple Box Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Empowering 300+ Gourmet Apple Artisans</p>
@@ -317,7 +323,7 @@ const CandyAppleBoxes = () => {
                         {/* LEFT: Image */}
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={candyAppleBoxes} alt="Differentiate Your Candy Apple Brand" className="w-full h-full object-cover" />
+                                <img src={candyAppleBoxesImg7} alt="Differentiate Your Candy Apple Brand" className="w-full h-full object-cover" />
                                 {/* Overlay for depth */}
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>

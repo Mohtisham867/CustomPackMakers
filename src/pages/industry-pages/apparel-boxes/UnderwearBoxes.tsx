@@ -29,12 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import underwearBoxeshero from "@/assets/apparel-boxes/underwear-boxes/img-hero.png";
+import underwearBoxes1 from "@/assets/apparel-boxes/underwear-boxes/img-1.png";
+import underwearBoxes2 from "@/assets/apparel-boxes/underwear-boxes/img-2.png";
+import underwearBoxes3 from "@/assets/apparel-boxes/underwear-boxes/img-3.png";
+import underwearBoxes4 from "@/assets/apparel-boxes/underwear-boxes/img-4.png";
+import underwearBoxes5 from "@/assets/apparel-boxes/underwear-boxes/img-5.png";
+import underwearBoxes6 from "@/assets/apparel-boxes/underwear-boxes/img-whychoose.png";
+import underwearBoxes7 from "@/assets/apparel-boxes/underwear-boxes/img-defferent.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -44,11 +46,11 @@ const UnderwearBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Custom Underwear Boxes - Main View" },
-        { src: shoeBox2, alt: "Custom Underwear Boxes - Side Angle" },
-        { src: shoeBox3, alt: "Custom Underwear Boxes - Open View" },
-        { src: shoeBox4, alt: "Custom Underwear Boxes - Detail Shot" },
-        { src: shoeBoxHero, alt: "Custom Underwear Boxes - Lifestyle" },
+        { src: underwearBoxes1, alt: "Custom Underwear Boxes - Main View" },
+        { src: underwearBoxes2, alt: "Custom Underwear Boxes - Side Angle" },
+        { src: underwearBoxes3, alt: "Custom Underwear Boxes - Open View" },
+        { src: underwearBoxes4, alt: "Custom Underwear Boxes - Detail Shot" },
+        { src: underwearBoxes5, alt: "Custom Underwear Boxes - Lifestyle" },
     ];
 
     return (
@@ -121,7 +123,7 @@ const UnderwearBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={underwearBoxeshero}
                                     alt="Custom Underwear Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -366,7 +368,7 @@ const UnderwearBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={underwearBoxes6}
                                     alt="Premium Custom Underwear Box Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -398,7 +400,7 @@ const UnderwearBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={underwearBoxes7}
                                     alt="Differentiate Your Underwear Brand"
                                     className="w-full h-full object-cover"
                                 />

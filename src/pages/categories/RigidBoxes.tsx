@@ -39,15 +39,15 @@ const rigidBoxProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Wallet Boxes", image: walletBoxes, description: "Premium wallet packaging featuring luxury finishes and protective inserts for a high-end retail presentation" },
-    { name: "Flip Top Boxes", image: flipTopBoxes, description: "Elegant flip-top rigid boxes with magnetic closures and sophisticated designs for premium gift packaging" },
-    { name: "Rigid Gift Boxes", image: rigidGiftBoxes, description: "Luxury gift box solutions handcrafted with durable board and custom finishes to elevate your brand identity" },
-    { name: "Credit Card Boxes", image: creditCardBoxes, description: "Secure credit card packaging with custom inserts and professional branding for financial products", useCover: true },
-    { name: "Rigid Setup Boxes", image: rigidSetupBoxes, description: "High-end setup boxes offering superior structural integrity and a premium unboxing experience for luxury items", useCover: true },
-    { name: "Ribbon Boxes", image: ribbonBoxes, description: "Decorative ribbon closure boxes perfect for special gift presentations and luxury brand storytelling", useCover: true },
-    { name: "Magnetic Closure Boxes", image: magneticClosureBoxes, description: "Premium magnetic closure packaging combining sleek aesthetics with functional security for high-value goods", useCover: true },
-    { name: "Rigid Paper Boxes", image: rigidPaperBoxes, description: "Durable rigid paperboard boxes designed for maximum protection and elegant retail shelf presence", useCover: true },
-    { name: "Flip Top Boxes With Magnetic Closure", image: flipTopMagneticClosure, description: "Flip-top boxes with secure magnetic seals providing a refined and modern packaging solution for tech and gifts", useCover: true },
+    { name: "Wallet Boxes", image: walletBoxes, description: "Premium wallet packaging featuring luxury finishes and protective inserts for a high-end retail presentation", path: "/shapes-styles/rigid-boxes/wallet-boxes" },
+    { name: "Flip Top Boxes", image: flipTopBoxes, description: "Elegant flip-top rigid boxes with magnetic closures and sophisticated designs for premium gift packaging", path: "/shapes-styles/rigid-boxes/flip-top-boxes" },
+    { name: "Rigid Gift Boxes", image: rigidGiftBoxes, description: "Luxury gift box solutions handcrafted with durable board and custom finishes to elevate your brand identity", path: "/shapes-styles/rigid-boxes/rigid-gift-boxes" },
+    { name: "Credit Card Boxes", image: creditCardBoxes, description: "Secure credit card packaging with custom inserts and professional branding for financial products", useCover: true, path: "/shapes-styles/rigid-boxes/credit-card-boxes" },
+    { name: "Rigid Setup Boxes", image: rigidSetupBoxes, description: "High-end setup boxes offering superior structural integrity and a premium unboxing experience for luxury items", useCover: true, path: "/shapes-styles/rigid-boxes/rigid-setup-boxes" },
+    { name: "Ribbon Boxes", image: ribbonBoxes, description: "Decorative ribbon closure boxes perfect for special gift presentations and luxury brand storytelling", useCover: true, path: "/shapes-styles/rigid-boxes/ribbon-boxes" },
+    { name: "Magnetic Closure Boxes", image: magneticClosureBoxes, description: "Premium magnetic closure packaging combining sleek aesthetics with functional security for high-value goods", useCover: true, path: "/shapes-styles/rigid-boxes/magnetic-closure-boxes" },
+    { name: "Rigid Paper Boxes", image: rigidPaperBoxes, description: "Durable rigid paperboard boxes designed for maximum protection and elegant retail shelf presence", useCover: true, path: "/shapes-styles/rigid-boxes/rigid-paper-boxes" },
+    { name: "Flip Top Boxes With Magnetic Closure", image: flipTopMagneticClosure, description: "Flip-top boxes with secure magnetic seals providing a refined and modern packaging solution for tech and gifts", useCover: true, path: "/shapes-styles/rigid-boxes/flip-top-boxes-with-magnetic-closure" },
 ];
 
 const RigidBoxes = () => {
@@ -125,34 +125,35 @@ const RigidBoxes = () => {
 
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                             {relatedProducts.map((product, index) => (
-                                <Card
-                                    key={index}
-                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                                >
-                                    <CardContent className="p-0">
-                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                            {product.image ? (
-                                                <img
-                                                    src={product.image}
-                                                    alt={product.name}
-                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                                />
-                                            ) : (
-                                                <div className="w-full h-full flex items-center justify-center bg-gray-200">
-                                                    <span className="text-gray-400 text-xs">Image Placeholder</span>
-                                                </div>
-                                            )}
-                                        </div>
-                                        <div className="p-4 border-t border-border">
-                                            <h3 className="font-semibold text-foreground text-sm mb-2">
-                                                {product.name}
-                                            </h3>
-                                            <p className="text-xs text-muted-foreground line-clamp-2">
-                                                {product.description}
-                                            </p>
-                                        </div>
-                                    </CardContent>
-                                </Card>
+                                <Link to={product.path} key={index} className="block group">
+                                    <Card
+                                        className="h-full overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 cursor-pointer"
+                                    >
+                                        <CardContent className="p-0 flex flex-col h-full">
+                                            <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden shrink-0">
+                                                {product.image ? (
+                                                    <img
+                                                        src={product.image}
+                                                        alt={product.name}
+                                                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                    />
+                                                ) : (
+                                                    <div className="w-full h-full flex items-center justify-center bg-gray-200">
+                                                        <span className="text-gray-400 text-xs">Image Placeholder</span>
+                                                    </div>
+                                                )}
+                                            </div>
+                                            <div className="p-4 border-t border-border flex-grow">
+                                                <h3 className="font-semibold text-foreground text-sm mb-2 group-hover:text-primary transition-colors">
+                                                    {product.name}
+                                                </h3>
+                                                <p className="text-xs text-muted-foreground line-clamp-3">
+                                                    {product.description}
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                </Link>
                             ))}
                         </div>
                     </section>

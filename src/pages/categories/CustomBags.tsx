@@ -37,81 +37,97 @@ const products = [
         name: "Heat Seal Mylar Bags",
         image: heatSealMylar,
         description: "Airtight heat-seal mylar bags that preserve freshness and protect high-value products during storage.",
+        link: "/shapes-styles/custom-bags/heat-seal-mylar-bags",
     },
     {
         name: "Weed Mylar Bags",
         image: weedMylar,
         description: "Custom-branded mylar bags tailored for cannabis products with odor-locking seals and vibrant graphics.",
+        link: "/shapes-styles/custom-bags/weed-mylar-bags",
     },
     {
         name: "Edible Mylar Bags",
         image: edibleMylar,
         description: "Child-resistant, tamper-evident edible pouches engineered for safety, compliance, and shelf appeal.",
+        link: "/shapes-styles/custom-bags/edible-mylar-bags",
     },
     {
         name: "Paper Bags With Handles",
         image: paperBagsHandle,
         description: "Premium paper shopping bags with twisted handles designed for a refined and luxury unboxing experience.",
+        link: "/shapes-styles/custom-bags/paper-bags-with-handles",
     },
     {
         name: "Holographic Bags",
         image: holographicBags,
         description: "Iridescent holographic pouches that capture attention on retail shelves with vivid reflective finishes.",
+        link: "/shapes-styles/custom-bags/holographic-bags",
     },
     {
         name: "Kraft Bags",
         image: kraftBags,
         description: "Sustainable kraft paper bags offering a natural aesthetic and reliable strength for eco-conscious retail.",
+        link: "/shapes-styles/custom-bags/kraft-bags",
     },
     {
         name: "Take Out Bags",
         image: takeOutBags,
         description: "Durable takeout bags designed for foodservice, combining high capacity with superior grease resistance.",
+        link: "/shapes-styles/custom-bags/take-out-bags",
     },
     {
         name: "T Shirt Bags",
         image: tShirtBags,
         description: "Economical T-shirt carrier bags ideal for high-volume retail, perfectly balancing strength and cost.",
+        link: "/shapes-styles/custom-bags/t-shirt-bags",
     },
     {
         name: "Paper Grocery Bags",
         image: paperGroceryBags,
         description: "Heavy-duty grocery bags built to carry bulky items securely with reinforced handles and sturdy bases.",
+        link: "/shapes-styles/custom-bags/paper-grocery-bags",
     },
     {
         name: "Vacuum Seal Weed Bags",
         image: vacuumSealWebBags,
         description: "Vacuum-seal pouches that remove air to extend shelf life and maintain maximum product color and aroma.",
+        link: "/shapes-styles/custom-bags/vacuum-seal-weed-bags",
     },
     {
         name: "Smell Proof Weed Bags",
         image: smellProofWeedBags,
         description: "Odor-locking bags engineered to contain scents while maintaining product integrity and regulatory compliance.",
+        link: "/shapes-styles/custom-bags/smell-proof-weed-bags",
     },
     {
         name: "Weed Bags 3.5",
         image: weedBags35,
         description: "Eighth-sized bags designed for compliance and high-impact custom branding for targeted retail displays.",
+        link: "/shapes-styles/custom-bags/weed-bags-3-5",
     },
     {
         name: "Sachet Packaging",
         image: sachetPackaging,
         description: "Single-serve sachets ideal for samples and travel sizes, offering portion control and clear branding.",
+        link: "/shapes-styles/custom-bags/sachet-packaging",
     },
     {
         name: "Coffee Bags",
         image: coffeeBags,
         description: "Coffee bags with one-way degassing valves to preserve aroma and extend freshly roasted bean shelf life.",
+        link: "/shapes-styles/custom-bags/coffee-bags",
     },
     {
         name: "Flat Bottom Bags",
         image: flatBottomBags,
         description: "Flat-bottom pouches that stand stable on store shelves while maximizing fill volume and brand visibility.",
+        link: "/shapes-styles/custom-bags/flat-bottom-bags",
     },
     {
         name: "Tin Tie Paper Bags",
         image: tinTiePaperBags,
         description: "Reclosable tin-tie bakery bags that preserve freshness and offer convenient resealing for all customers.",
+        link: "/shapes-styles/custom-bags/tin-tie-paper-bags",
     },
 ];
 
@@ -192,28 +208,29 @@ const CustomBags = () => {
 
                     <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {products.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2 h-12 overflow-hidden">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index} className="block w-full h-full">
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                                >
+                                    <CardContent className="p-0 flex flex-col h-full">
+                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden shrink-0">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border flex-grow flex flex-col">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-3 overflow-hidden">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

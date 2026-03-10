@@ -20,7 +20,14 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import christmasPillowBoxesHero from "@/assets/holiday-boxes/christmas-pillow-boxes.webp";
+import christmasPillowBoxesHero from "@/assets/holiday-boxes/christmas-pillow-boxe/img-hero.png";
+import christmasPillowBoxesimg1 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-1.png";
+import christmasPillowBoxesimg2 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-2.png";
+import christmasPillowBoxesimg3 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-3.png";
+import christmasPillowBoxesimg4 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-4.png";
+import christmasPillowBoxesimg5 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-5.png";
+import christmasPillowBoxesimg6 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-whychoose.png";
+import christmasPillowBoxesimg7 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const faqs = [
@@ -34,11 +41,11 @@ const faqs = [
 const ChristmasPillowBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
     const productImages = [
-        { src: christmasPillowBoxesHero, alt: "Christmas Pillow Boxes - Main View" },
-        { src: christmasPillowBoxesHero, alt: "Christmas Pillow Boxes - Side Angle" },
-        { src: christmasPillowBoxesHero, alt: "Christmas Pillow Boxes - Open View" },
-        { src: christmasPillowBoxesHero, alt: "Christmas Pillow Boxes - Detail Shot" },
-        { src: christmasPillowBoxesHero, alt: "Christmas Pillow Boxes - Lifestyle Shot" },
+        { src: christmasPillowBoxesimg1, alt: "Christmas Pillow Boxes - Main View" },
+        { src: christmasPillowBoxesimg2, alt: "Christmas Pillow Boxes - Side Angle" },
+        { src: christmasPillowBoxesimg3, alt: "Christmas Pillow Boxes - Open View" },
+        { src: christmasPillowBoxesimg4, alt: "Christmas Pillow Boxes - Detail Shot" },
+        { src: christmasPillowBoxesimg5, alt: "Christmas Pillow Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -247,7 +254,7 @@ const ChristmasPillowBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={christmasPillowBoxesHero} alt="Premium Packaging" className="w-full h-full object-cover" />
+                                <img src={christmasPillowBoxesimg6} alt="Premium Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -273,7 +280,7 @@ const ChristmasPillowBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={christmasPillowBoxesHero} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
+                                <img src={christmasPillowBoxesimg7} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

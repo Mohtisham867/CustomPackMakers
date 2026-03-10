@@ -29,19 +29,25 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImage from "@/assets/candy-products/Custom Candy Boxes hero.png";
-import mylarBagsCandy from "@/assets/candy-products/mylar-bags-candies.webp";
+import mylarBagsHero from "@/assets/candy-products/mylar-bags-candies/img-hero.png";
+import mylarBagsImg1 from "@/assets/candy-products/mylar-bags-candies/img-1.png";
+import mylarBagsImg2 from "@/assets/candy-products/mylar-bags-candies/img-2.png";
+import mylarBagsImg3 from "@/assets/candy-products/mylar-bags-candies/img-3.png";
+import mylarBagsImg4 from "@/assets/candy-products/mylar-bags-candies/img-4.png";
+import mylarBagsImg5 from "@/assets/candy-products/mylar-bags-candies/img-5.png";
+import mylarBagsImg6 from "@/assets/candy-products/mylar-bags-candies/img-whychoose.png";
+import mylarBagsImg7 from "@/assets/candy-products/mylar-bags-candies/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const MylarBagsForCandies = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: mylarBagsCandy, alt: "Custom Mylar Bags for Candies - Main View" },
-        { src: mylarBagsCandy, alt: "Custom Mylar Bags for Candies - Standup View" },
-        { src: mylarBagsCandy, alt: "Custom Mylar Bags for Candies - Detail View" },
-        { src: mylarBagsCandy, alt: "Custom Mylar Bags for Candies - Group Shot" },
-        { src: heroImage, alt: "Custom Mylar Bags for Candies - Lifestyle" },
+        { src: mylarBagsImg1, alt: "Custom Mylar Bags for Candies - Main View" },
+        { src: mylarBagsImg2, alt: "Custom Mylar Bags for Candies - Standup View" },
+        { src: mylarBagsImg3, alt: "Custom Mylar Bags for Candies - Detail View" },
+        { src: mylarBagsImg4, alt: "Custom Mylar Bags for Candies - Group Shot" },
+        { src: mylarBagsImg5, alt: "Custom Mylar Bags for Candies - Lifestyle" },
     ];
 
     return (
@@ -110,7 +116,7 @@ const MylarBagsForCandies = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={heroImage}
+                                    src={mylarBagsHero}
                                     alt="Custom Mylar Bags for Candies Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -286,7 +292,7 @@ const MylarBagsForCandies = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={mylarBagsCandy} alt="Premium Custom Mylar Bags for Candy" className="w-full h-full object-cover" />
+                                <img src={mylarBagsImg6} alt="Premium Custom Mylar Bags for Candy" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Protecting 700+ Confectionery Products</p>
@@ -313,7 +319,7 @@ const MylarBagsForCandies = () => {
                         {/* LEFT: Image */}
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={mylarBagsCandy} alt="Differentiate Your Mylar Candy Brand" className="w-full h-full object-cover" />
+                                <img src={mylarBagsImg7} alt="Differentiate Your Mylar Candy Brand" className="w-full h-full object-cover" />
                                 {/* Overlay for depth */}
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>

@@ -37,23 +37,23 @@ import { SEOContent } from "@/components/SEOContent";
 
 
 const relatedProducts = [
-    { name: "Brochure Display Holder", image: brochureDisplayHolder, description: "Professional holders for brochures and flyers designed for high visibility in lobbies and retail environments" },
-    { name: "Custom Candle Display Boxes", image: customCandleDisplayBoxes, description: "Attractive display boxes for candles featured with protective inserts and premium branding for shelf appeal" },
-    { name: "Custom Pre Roll Display Boxes", image: customPreRollDisplayBoxes, description: "Secure display packaging for pre-rolls offering clear product visibility and organized retail counter presence" },
-    { name: "Vape Display Boxes", image: vapeDisplayBoxes, description: "Custom displays for vape products featuring eye-catching graphics and sturdy construction for retail use" },
-    { name: "Cardboard Display Boxes", image: cardboardDisplayBoxes, description: "Eco-friendly cardboard display solutions providing sustainable and lightweight packaging for general retail" },
-    { name: "Counter Display Boxes", image: counterDisplayBoxes, description: "Eye-catching boxes for counter placement designed to drive impulse purchases with bold branding and layout" },
-    { name: "Jewelry Display Boxes", image: jewelryDisplayBoxes, description: "Elegant displays for jewelry items highlighting detail and luxury with premium finishes and protective linings" },
-    { name: "CBD Display Boxes", image: cbdDisplayBoxes, description: "Custom packaging for CBD product displays featured with compliant labeling and attractive design elements" },
-    { name: "Lollipop Display Boxes", image: lollipopDisplayBoxes, description: "Fun and functional lollipop displays with secure holders designed to catch the eye of younger consumers" },
-    { name: "Cigarette Display Boxes", image: cigaretteDisplayBoxes, description: "Organized display units for cigarette packs providing efficient retail storage and prominent brand visibility" },
-    { name: "Cosmetic Display Boxes", image: cosmeticDisplayBoxes, description: "Stylish displays for cosmetic lines offering tiered layouts for product organization and high-end aesthetics" },
-    { name: "Clear Lid Boxes", image: clearLidBoxes, description: "Boxes with clear lids for product visibility allowing customers to view contents while ensuring safety" },
-    { name: "Product Display Boxes", image: productDisplayBoxes, description: "Versatile boxes for various retail products designed for multi-functional storage and attractive shelf presence" },
-    { name: "Countertop Display Boxes", image: countertopDisplayBoxes, description: "Compact displays for limited counter space offering efficient product merchandising in smaller retail areas" },
-    { name: "Watch Display Boxes", image: watchDisplayBoxes, description: "Premium display boxes for watches featuring cushioned interiors and luxury exterior branding for retailers" },
-    { name: "Health Counter Display Boxes", image: healthCounterDisplayBoxes, description: "Clean and professional health product displays designed for pharmacies and health-conscious retail stores" },
-    { name: "Candy Display Boxes", image: candyDisplayBoxes, description: "Bright and appealing candy display boxes featuring colorful graphics and divided compartments for variety" },
+    { name: "Brochure Display Holder", image: brochureDisplayHolder, slug: "brochure-display-holder", description: "Professional holders for brochures and flyers designed for high visibility in lobbies and retail environments" },
+    { name: "Custom Candle Display Boxes", image: customCandleDisplayBoxes, slug: "custom-candle-display-boxes", description: "Attractive display boxes for candles featured with protective inserts and premium branding for shelf appeal" },
+    { name: "Custom Pre Roll Display Boxes", image: customPreRollDisplayBoxes, slug: "custom-pre-roll-display-boxes", description: "Secure display packaging for pre-rolls offering clear product visibility and organized retail counter presence" },
+    { name: "Vape Display Boxes", image: vapeDisplayBoxes, slug: "vape-display-boxes", description: "Custom displays for vape products featuring eye-catching graphics and sturdy construction for retail use" },
+    { name: "Cardboard Display Boxes", image: cardboardDisplayBoxes, slug: "cardboard-display-boxes", description: "Eco-friendly cardboard display solutions providing sustainable and lightweight packaging for general retail" },
+    { name: "Counter Display Boxes", image: counterDisplayBoxes, slug: "counter-display-boxes", description: "Eye-catching boxes for counter placement designed to drive impulse purchases with bold branding and layout" },
+    { name: "Jewelry Display Boxes", image: jewelryDisplayBoxes, slug: "jewelry-display-boxes", description: "Elegant displays for jewelry items highlighting detail and luxury with premium finishes and protective linings" },
+    { name: "CBD Display Boxes", image: cbdDisplayBoxes, slug: "cbd-display-boxes", description: "Custom packaging for CBD product displays featured with compliant labeling and attractive design elements" },
+    { name: "Lollipop Display Boxes", image: lollipopDisplayBoxes, slug: "lollipop-display-boxes", description: "Fun and functional lollipop displays with secure holders designed to catch the eye of younger consumers" },
+    { name: "Cigarette Display Boxes", image: cigaretteDisplayBoxes, slug: "cigarette-display-boxes", description: "Organized display units for cigarette packs providing efficient retail storage and prominent brand visibility" },
+    { name: "Cosmetic Display Boxes", image: cosmeticDisplayBoxes, slug: "cosmetic-display-boxes", description: "Stylish displays for cosmetic lines offering tiered layouts for product organization and high-end aesthetics" },
+    { name: "Clear Lid Boxes", image: clearLidBoxes, slug: "clear-lid-boxes", description: "Boxes with clear lids for product visibility allowing customers to view contents while ensuring safety" },
+    { name: "Product Display Boxes", image: productDisplayBoxes, slug: "product-display-boxes", description: "Versatile boxes for various retail products designed for multi-functional storage and attractive shelf presence" },
+    { name: "Countertop Display Boxes", image: countertopDisplayBoxes, slug: "countertop-display-boxes", description: "Compact displays for limited counter space offering efficient product merchandising in smaller retail areas" },
+    { name: "Watch Display Boxes", image: watchDisplayBoxes, slug: "watch-display-boxes", description: "Premium display boxes for watches featuring cushioned interiors and luxury exterior branding for retailers" },
+    { name: "Health Counter Display Boxes", image: healthCounterDisplayBoxes, slug: "health-counter-display-boxes", description: "Clean and professional health product displays designed for pharmacies and health-conscious retail stores" },
+    { name: "Candy Display Boxes", image: candyDisplayBoxes, slug: "candy-display-boxes", description: "Bright and appealing candy display boxes featuring colorful graphics and divided compartments for variety" },
 ];
 
 const productOptions = [
@@ -151,35 +151,36 @@ const DisplayBoxes = () => {
 
                     <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        {/* Product image placeholder - intentionally empty */}
-                                        {product.image ? (
-                                            <img
-                                                src={product.image}
-                                                alt={product.name}
-                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                            />
-                                        ) : (
-                                            <div className="w-full h-full bg-muted flex items-center justify-center">
-                                                <p className="text-muted-foreground text-xs">Image placeholder</p>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link key={index} to={`/shapes-styles/display-boxes/${product.slug}`}>
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                                            {/* Product image placeholder - intentionally empty */}
+                                            {product.image ? (
+                                                <img
+                                                    src={product.image}
+                                                    alt={product.name}
+                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                />
+                                            ) : (
+                                                <div className="w-full h-full bg-muted flex items-center justify-center">
+                                                    <p className="text-muted-foreground text-xs">Image placeholder</p>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

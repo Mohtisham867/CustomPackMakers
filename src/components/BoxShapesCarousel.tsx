@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -26,23 +27,23 @@ import weedBags from "@/assets/box-shapes/weed-bags.webp";
 import windowPackaging from "@/assets/box-shapes/window-packaging.webp";
 
 const boxShapes = [
-  { name: "Child Resistant Packaging", image: childResistant },
-  { name: "Custom Bags", image: customBags },
-  { name: "Custom Mylar Bags", image: customMylarBags },
-  { name: "Custom Paper Bags", image: customPaperBags },
-  { name: "Custom Shape Boxes", image: customShapeBoxes },
-  { name: "Display Boxes", image: displayBoxes },
-  { name: "Gable Boxes", image: gableBoxes },
-  { name: "Hang Tags", image: hangTags },
-  { name: "Mailer Boxes", image: mailerBoxes },
-  { name: "Pillow Boxes", image: pillowBoxes },
-  { name: "Shipping Boxes", image: shippingBoxes },
-  { name: "Sleeve and Tray", image: sleeveAndTray },
-  { name: "Stickers and Labels", image: stickersAndLabels },
-  { name: "Subscription Boxes", image: subscriptionBoxes },
-  { name: "Tuck Boxes", image: tuckBoxes },
-  { name: "Weed Bags", image: weedBags },
-  { name: "Window Packaging", image: windowPackaging },
+  { name: "Child Resistant Packaging", image: childResistant, link: "/shapes-styles/child-resistant-packaging" },
+  { name: "Custom Bags", image: customBags, link: "/shapes-styles/custom-bags" },
+  { name: "Custom Mylar Bags", image: customMylarBags, link: "/categories/custom-mylar-bags" },
+  { name: "Custom Paper Bags", image: customPaperBags, link: "/shapes-styles/custom-paper-bags" },
+  { name: "Custom Shape Boxes", image: customShapeBoxes, link: "/shapes-styles/custom-shape-boxes" },
+  { name: "Display Boxes", image: displayBoxes, link: "/industries/display-boxes" },
+  { name: "Gable Boxes", image: gableBoxes, link: "/shapes-styles/gable-boxes" },
+  { name: "Hang Tags", image: hangTags, link: "/shapes-styles/hang-tags" },
+  { name: "Mailer Boxes", image: mailerBoxes, link: "/industries/mailer-boxes" },
+  { name: "Pillow Boxes", image: pillowBoxes, link: "/shapes-styles/pillow-boxes" },
+  { name: "Shipping Boxes", image: shippingBoxes, link: "/shapes-styles/shipping-boxes" },
+  { name: "Sleeve and Tray", image: sleeveAndTray, link: "/shapes-styles/sleeves-and-trays" },
+  { name: "Stickers and Labels", image: stickersAndLabels, link: "/shapes-styles/stickers-and-labels" },
+  { name: "Subscription Boxes", image: subscriptionBoxes, link: "/shapes-styles/subscription-boxes" },
+  { name: "Tuck Boxes", image: tuckBoxes, link: "/industries/tuck-boxes" },
+  { name: "Weed Bags", image: weedBags, link: "/shapes-styles/weed-bags" },
+  { name: "Window Packaging", image: windowPackaging, link: "/shapes-styles/window-packaging" },
 ];
 
 export const BoxShapesCarousel = () => {
@@ -91,22 +92,24 @@ export const BoxShapesCarousel = () => {
             <CarouselContent className="-ml-4">
               {boxShapes.map((shape, index) => (
                 <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3 xl:basis-1/4">
-                  <Card className="overflow-hidden border-border bg-card hover:shadow-lg transition-shadow duration-300 group">
-                    <CardContent className="p-0">
-                      <div className="relative aspect-[3/4] overflow-hidden">
-                        <img
-                          src={shape.image}
-                          alt={shape.name}
-                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy"
-                        />
-                      </div>
-                      <div className="p-4 text-center">
-                        <h3 className="font-semibold text-foreground text-lg">
-                          {shape.name}
-                        </h3>
-                      </div>
-                    </CardContent>
-                  </Card>
+                  <Link to={shape.link} className="block cursor-pointer">
+                    <Card className="overflow-hidden border-border bg-card hover:shadow-lg transition-shadow duration-300 group">
+                      <CardContent className="p-0">
+                        <div className="relative aspect-[3/4] overflow-hidden">
+                          <img
+                            src={shape.image}
+                            alt={shape.name}
+                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy"
+                          />
+                        </div>
+                        <div className="p-4 text-center">
+                          <h3 className="font-semibold text-foreground text-lg">
+                            {shape.name}
+                          </h3>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </Link>
                 </CarouselItem>
               ))}
             </CarouselContent>

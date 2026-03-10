@@ -27,26 +27,31 @@ const products = [
         name: "Child Resistant Mylar Bags",
         image: mylarBags,
         description: "Secure, resealable mylar bags with certified child-resistant closures for safety and regulatory compliance.",
+        href: "/shapes-styles/child-resistant-packaging/child-resistant-mylar-bags"
     },
     {
         name: "Child Resistant Blunt Packaging",
         image: bluntPackaging,
         description: "Custom printed blunt boxes featuring press-and-release locking mechanisms for maximum safety and branding.",
+        href: "/shapes-styles/child-resistant-packaging/child-resistant-blunt-packaging"
     },
     {
         name: "Child Resistant Cigarette Boxes",
         image: cigaretteBoxes,
         description: "Durable cigarette style boxes with added child-safety locking features and high-quality custom printing.",
+        href: "/shapes-styles/child-resistant-packaging/child-resistant-cigarette-boxes"
     },
     {
         name: "Child Resistant Joint Packaging",
         image: jointPackaging,
         description: "Rigid tubes and cases designed to keep joints fresh and secure from children with innovative lock designs.",
+        href: "/shapes-styles/child-resistant-packaging/child-resistant-joint-packaging"
     },
     {
         name: "Child Resistant Pre Roll Box",
         image: preRollBox,
         description: "Premium pre-roll packaging with slide-locking mechanisms for maximum safety and sophisticated retail display.",
+        href: "/shapes-styles/child-resistant-packaging/child-resistant-pre-roll-box"
     },
 ];
 
@@ -125,30 +130,29 @@ const ChildResistantPackaging = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
                         {products.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link key={index} to={product.href} className="block">
+                                <Card className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full">
+                                    <CardContent className="p-0">
+                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2 min-h-[3rem] block">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

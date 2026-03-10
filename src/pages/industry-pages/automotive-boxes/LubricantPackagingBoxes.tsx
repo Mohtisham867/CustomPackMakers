@@ -28,7 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHero from "@/assets/automotive-products/lubricant-packaging.webp";
+import lubricantpackaginghero from "@/assets/automotive-products/lubricant-packaging/img-hero.png";
+import lubricantpackagingimg1 from "@/assets/automotive-products/lubricant-packaging/img-1.png";
+import lubricantpackagingimg2 from "@/assets/automotive-products/lubricant-packaging/img-2.png";
+import lubricantpackagingimg3 from "@/assets/automotive-products/lubricant-packaging/img-3.png";
+import lubricantpackagingimg4 from "@/assets/automotive-products/lubricant-packaging/img-4.png";
+import lubricantpackagingimg5 from "@/assets/automotive-products/lubricant-packaging/img-5.png";
+import lubricantpackagingimg6 from "@/assets/automotive-products/lubricant-packaging/img-whychoose.png";
+import lubricantpackagingimg7 from "@/assets/automotive-products/lubricant-packaging/img-different.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const LubricantPackagingBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: productHero, alt: "Custom Lubricant Packaging Box" },
-        { src: productHero, alt: "Motor Oil Bottle Packaging" },
-        { src: productHero, alt: "Automotive Fluid Box - Open" },
-        { src: productHero, alt: "Lubricant Packaging - Side" },
-        { src: productHero, alt: "Branded Motor Oil Box" },
+        { src: lubricantpackagingimg1, alt: "Custom Lubricant Packaging Box" },
+        { src: lubricantpackagingimg2, alt: "Motor Oil Bottle Packaging" },
+        { src: lubricantpackagingimg3, alt: "Automotive Fluid Box - Open" },
+        { src: lubricantpackagingimg4, alt: "Lubricant Packaging - Side" },
+        { src: lubricantpackagingimg5, alt: "Branded Motor Oil Box" },
     ];
 
     return (
@@ -115,7 +122,7 @@ const LubricantPackagingBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHero}
+                                    src={lubricantpackaginghero}
                                     alt="Custom Lubricant Packaging Boxes"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -380,7 +387,7 @@ const LubricantPackagingBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHero}
+                                    src={lubricantpackagingimg6}
                                     alt="Professional lubricant packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -412,7 +419,7 @@ const LubricantPackagingBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHero}
+                                    src={lubricantpackagingimg7}
                                     alt="Differentiate Your Lubricant Brand"
                                     className="w-full h-full object-cover"
                                 />

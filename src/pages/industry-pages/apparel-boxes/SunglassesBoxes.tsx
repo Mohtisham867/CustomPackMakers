@@ -29,12 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import sunglassesBoxeshero from "@/assets/apparel-boxes/sunglasses-boxes/img-hero.png";
+import sunglassesBoxes1 from "@/assets/apparel-boxes/sunglasses-boxes/img-1.png";
+import sunglassesBoxes2 from "@/assets/apparel-boxes/sunglasses-boxes/img-2.png";
+import sunglassesBoxes3 from "@/assets/apparel-boxes/sunglasses-boxes/img-3.png";
+import sunglassesBoxes4 from "@/assets/apparel-boxes/sunglasses-boxes/img-4.png";
+import sunglassesBoxes5 from "@/assets/apparel-boxes/sunglasses-boxes/img-5.png";
+import sunglassesBoxes6 from "@/assets/apparel-boxes/sunglasses-boxes/img-whychoose.png";
+import sunglassesBoxes7 from "@/assets/apparel-boxes/sunglasses-boxes/img-deferent.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -44,11 +46,11 @@ const SunglassesBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Custom Sunglasses Boxes - Main" },
-        { src: shoeBox2, alt: "Custom Sunglasses Boxes - Open" },
-        { src: shoeBox3, alt: "Custom Sunglasses Boxes - Group" },
-        { src: shoeBox4, alt: "Custom Sunglasses Boxes - Detail" },
-        { src: shoeBoxHero, alt: "Custom Sunglasses Boxes - Lifestyle" },
+        { src: sunglassesBoxes1, alt: "Custom Sunglasses Boxes - Main" },
+        { src: sunglassesBoxes2, alt: "Custom Sunglasses Boxes - Open" },
+        { src: sunglassesBoxes3, alt: "Custom Sunglasses Boxes - Group" },
+        { src: sunglassesBoxes4, alt: "Custom Sunglasses Boxes - Detail" },
+        { src: sunglassesBoxes5, alt: "Custom Sunglasses Boxes - Lifestyle" },
     ];
 
     return (
@@ -121,7 +123,7 @@ const SunglassesBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={sunglassesBoxeshero}
                                     alt="Custom Sunglasses Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -366,7 +368,7 @@ const SunglassesBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={sunglassesBoxes6}
                                     alt="Premium Custom Sunglasses Boxes Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -398,7 +400,7 @@ const SunglassesBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={sunglassesBoxes7}
                                     alt="Differentiate Your Eyewear Brand"
                                     className="w-full h-full object-cover"
                                 />
@@ -412,8 +414,7 @@ const SunglassesBoxes = () => {
                                 Differentiate Your <span className="text-primary">Eyewear Brand</span> From Others
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-                                At CustomPackMakers, we know that successful eyewear brands are built on details. To help you stand out in a crowded market, we create packaging that is as memorable as your product. Our expert design team assists you in selecting the right box style, material, and custom finishes to create a cohesive and luxurious presentation that resonates with your customers and enhances brand loyalty.
-                            </p>
+At CustomPackMakers, we firmly believe that successful, high-end eyewear brands are meticulously built on the finest details. To ensure you stand out in an increasingly crowded market, we craft bespoke packaging solutions that are just as memorable as your signature products. Our expert design team collaborates with you to select the ideal box style, premium materials, and sophisticated custom finishes. Together, we create a cohesive and luxurious presentation that deeply resonates with your customers, significantly enhancing brand loyalty while reflecting the true elegance of your eyewear collection.                            </p>
                         </div>
                     </div>
                 </div>

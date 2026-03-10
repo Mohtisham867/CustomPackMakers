@@ -28,7 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHero from "@/assets/automotive-products/spare-parts-boxes.webp";
+import sparepartsboxeshero from "@/assets/automotive-products/spare-parts-boxes/img-hero.png";
+import sparepartsboxesimg1 from "@/assets/automotive-products/spare-parts-boxes/img-1.png";
+import sparepartsboxesimg2 from "@/assets/automotive-products/spare-parts-boxes/img-2.png";
+import sparepartsboxesimg3 from "@/assets/automotive-products/spare-parts-boxes/img-3.png";
+import sparepartsboxesimg4 from "@/assets/automotive-products/spare-parts-boxes/img-4.png";
+import sparepartsboxesimg5 from "@/assets/automotive-products/spare-parts-boxes/img-5.png";
+import sparepartsboxesimg6 from "@/assets/automotive-products/spare-parts-boxes/img-whychoose.png";
+import sparepartsboxesimg7 from "@/assets/automotive-products/spare-parts-boxes/img-different.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const SparePartsBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: productHero, alt: "Custom Spare Parts Box - Front Stick" },
-        { src: productHero, alt: "Spare Parts Packaging - Side View" },
-        { src: productHero, alt: "Automotive Parts Box - Open" },
-        { src: productHero, alt: "Heavy Duty Parts Box" },
-        { src: productHero, alt: "Spare Parts Packaging - Stacked" },
+        { src: sparepartsboxesimg1, alt: "Custom Spare Parts Box - Front Stick" },
+        { src: sparepartsboxesimg2, alt: "Spare Parts Packaging - Side View" },
+        { src: sparepartsboxesimg3, alt: "Automotive Parts Box - Open" },
+        { src: sparepartsboxesimg4, alt: "Heavy Duty Parts Box" },
+        { src: sparepartsboxesimg5, alt: "Spare Parts Packaging - Stacked" },
     ];
 
     return (
@@ -115,7 +122,7 @@ const SparePartsBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHero}
+                                    src={sparepartsboxeshero}
                                     alt="Custom Spare Parts Boxes"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -369,7 +376,7 @@ const SparePartsBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHero}
+                                    src={sparepartsboxesimg1}
                                     alt="Professional spare parts packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -401,7 +408,7 @@ const SparePartsBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHero}
+                                    src={sparepartsboxesimg7}
                                     alt="Differentiate Your Spare Parts"
                                     className="w-full h-full object-cover"
                                 />

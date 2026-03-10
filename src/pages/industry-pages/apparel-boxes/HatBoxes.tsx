@@ -28,12 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Placeholder images
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import hatBoxeshero from "@/assets/apparel-boxes/hat-boxes/img-hero.png";
+import hatBoxes1 from "@/assets/apparel-boxes/hat-boxes/img-1.png";
+import hatBoxes2 from "@/assets/apparel-boxes/hat-boxes/img-2.png";
+import hatBoxes3 from "@/assets/apparel-boxes/hat-boxes/img-3.png";
+import hatBoxes4 from "@/assets/apparel-boxes/hat-boxes/img-4.png";
+import hatBoxes5 from "@/assets/apparel-boxes/hat-boxes/img-5.png";
+import hatBoxes6 from "@/assets/apparel-boxes/hat-boxes/img-whychoose.png";
+import hatBoxes7 from "@/assets/apparel-boxes/hat-boxes/img-defferent.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -43,11 +45,11 @@ const HatBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Custom Hat Box - Front View" },
-        { src: shoeBox2, alt: "Round Hat Box - Open" },
-        { src: shoeBox3, alt: "Luxury Millinery Box - Detail" },
-        { src: shoeBox4, alt: "Hat Box with Rope Handle" },
-        { src: shoeBoxHero, alt: "Hat Box - Lifestyle" },
+        { src: hatBoxes1, alt: "Custom Hat Box - Front View" },
+        { src: hatBoxes2, alt: "Round Hat Box - Open" },
+        { src: hatBoxes3, alt: "Luxury Millinery Box - Detail" },
+        { src: hatBoxes4, alt: "Hat Box with Rope Handle" },
+        { src: hatBoxes5, alt: "Hat Box - Lifestyle" },
     ];
 
     return (
@@ -120,7 +122,7 @@ const HatBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={hatBoxeshero}
                                     alt="Custom Hat Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -350,7 +352,7 @@ const HatBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={hatBoxes6}
                                     alt="Premium Custom Hat Boxes"
                                     className="w-full h-full object-cover"
                                 />
@@ -382,7 +384,7 @@ const HatBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={hatBoxes7}
                                     alt="Differentiate Your Hats"
                                     className="w-full h-full object-cover"
                                 />

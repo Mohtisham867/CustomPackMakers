@@ -29,11 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images specific to this page
-import subscriptionBoxes from "@/assets/game-boxes/gaming-subscription-box.webp";
-import heroImage from "@/assets/game-boxes/hero-game-boxes.webp";
-import customToyBoxes from "@/assets/game-boxes/custom-toy-boxes.webp";
-import playingCardBoxes from "@/assets/game-boxes/playing-card-boxes.webp";
-import boardGameBoxes from "@/assets/game-boxes/custom-board-game-boxes.webp";
+import subscriptionBoxeshero from "@/assets/game-boxes/gaming-subscription-box/img-hero.png";
+import subscriptionBoxes1 from "@/assets/game-boxes/gaming-subscription-box/img-1.png";
+import subscriptionBoxes2 from "@/assets/game-boxes/gaming-subscription-box/img-2.png";
+import subscriptionBoxes3 from "@/assets/game-boxes/gaming-subscription-box/img-3.png";
+import subscriptionBoxes4 from "@/assets/game-boxes/gaming-subscription-box/img-4.png";
+import subscriptionBoxes5 from "@/assets/game-boxes/gaming-subscription-box/img-5.png";
+import subscriptionBoxes6 from "@/assets/game-boxes/gaming-subscription-box/img-whychoose.png";
+import subscriptionBoxes7 from "@/assets/game-boxes/gaming-subscription-box/img-different.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -43,11 +46,11 @@ const GamingSubscriptionBox = () => {
 
     // Gallery images using the 5 available game images to satisfy layout requirements
     const productImages = [
-        { src: subscriptionBoxes, alt: "Gaming Subscription Box - Main Profile" },
-        { src: heroImage, alt: "Monthly Game Mailer Box" },
-        { src: customToyBoxes, alt: "Collectibles Inside Subscription" },
-        { src: playingCardBoxes, alt: "Card Game Monthly Insert" },
-        { src: boardGameBoxes, alt: "Premium Gaming Box Subscription" },
+        { src: subscriptionBoxes1, alt: "Gaming Subscription Box - Main Profile" },
+        { src: subscriptionBoxes2, alt: "Monthly Game Mailer Box" },
+        { src: subscriptionBoxes3, alt: "Collectibles Inside Subscription" },
+        { src: subscriptionBoxes4, alt: "Card Game Monthly Insert" },
+        { src: subscriptionBoxes5, alt: "Premium Gaming Box Subscription" },
     ];
 
     return (
@@ -62,8 +65,8 @@ const GamingSubscriptionBox = () => {
             <Header />
 
             {/* Breadcrumb */}
-            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
-                <div className="container mx-auto px-[30px] py-4">
+            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[140px]">
+                <div className="container mx-auto px-[30px] py-3">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem>
@@ -120,7 +123,7 @@ const GamingSubscriptionBox = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={subscriptionBoxes}
+                                    src={subscriptionBoxeshero}
                                     alt="Custom Gaming Subscription Box Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -381,7 +384,7 @@ const GamingSubscriptionBox = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={subscriptionBoxes}
+                                    src={subscriptionBoxes6}
                                     alt="Wholesale Custom Subscription Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -414,7 +417,7 @@ const GamingSubscriptionBox = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={subscriptionBoxes} alt="Differentiate Your Subscription Brand" className="w-full h-full object-cover" />
+                                <img src={subscriptionBoxes7} alt="Differentiate Your Subscription Brand" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

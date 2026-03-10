@@ -26,13 +26,13 @@ import kraftMailerBoxes from "@/assets/sustainable-packaging/kraft-mailer-boxes.
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Custom Kraft Soap Boxes", image: customKraftSoapBoxes, description: "Eco-friendly kraft soap packaging featuring organic textures and biodegradable materials for sustainable brands" },
-    { name: "Kraft Gift Boxes", image: kraftGiftBoxes, description: "Natural look gift boxes for all occasions featuring reinforced structural walls and elegant hemp closures" },
-    { name: "Kraft Mylar Bags", image: kraftMylarBags, description: "Sustainable flexible packaging solutions featuring high-barrier liners and eco-friendly kraft paper exteriors" },
-    { name: "Kraft Food Boxes", image: kraftFoodBoxes, description: "Food-safe biodegradable kraft boxes featuring leak-resistant linings and vibrant soy-based custom inks" },
-    { name: "Kraft Pie Boxes", image: kraftPieBoxes, description: "Sturdy kraft boxes for pastries and pies featuring clear compostable windows and reinforced easy-load design" },
-    { name: "Kraft Tuck Top Boxes", image: kraftTuckTopBoxes, description: "Versatile tuck top boxes in natural kraft featuring easy-assembly locks and sustainable recycled materials" },
-    { name: "Kraft Mailer Boxes", image: kraftMailerBoxes, description: "Durable shipping solutions made from recycled materials featuring high-strength walls and eco-friendly print" },
+    { name: "Custom Kraft Soap Boxes", image: customKraftSoapBoxes, description: "Eco-friendly kraft soap packaging featuring organic textures and biodegradable materials for sustainable brands", link: "/industries/sustainable-packaging/custom-kraft-soap-boxes" },
+    { name: "Kraft Gift Boxes", image: kraftGiftBoxes, description: "Natural look gift boxes for all occasions featuring reinforced structural walls and elegant hemp closures", link: "/industries/sustainable-packaging/kraft-gift-boxes" },
+    { name: "Kraft Mylar Bags", image: kraftMylarBags, description: "Sustainable flexible packaging solutions featuring high-barrier liners and eco-friendly kraft paper exteriors", link: "/industries/sustainable-packaging/kraft-mylar-bags" },
+    { name: "Kraft Food Boxes", image: kraftFoodBoxes, description: "Food-safe biodegradable kraft boxes featuring leak-resistant linings and vibrant soy-based custom inks", link: "/industries/sustainable-packaging/kraft-food-boxes" },
+    { name: "Kraft Pie Boxes", image: kraftPieBoxes, description: "Sturdy kraft boxes for pastries and pies featuring clear compostable windows and reinforced easy-load design", link: "/industries/sustainable-packaging/kraft-pie-boxes" },
+    { name: "Kraft Tuck Top Boxes", image: kraftTuckTopBoxes, description: "Versatile tuck top boxes in natural kraft featuring easy-assembly locks and sustainable recycled materials", link: "/industries/sustainable-packaging/kraft-tuck-top-boxes" },
+    { name: "Kraft Mailer Boxes", image: kraftMailerBoxes, description: "Durable shipping solutions made from recycled materials featuring high-strength walls and eco-friendly print", link: "/industries/sustainable-packaging/kraft-mailer-boxes" },
 ];
 
 const productOptions = [
@@ -122,28 +122,29 @@ const SustainablePackaging = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index} className="flex h-full">
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer w-full flex flex-col"
+                                >
+                                    <CardContent className="p-0 flex flex-col h-full">
+                                        <div className="w-full aspect-square overflow-hidden shrink-0">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border flex-grow">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

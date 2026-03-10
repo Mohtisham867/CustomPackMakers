@@ -29,19 +29,25 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImage from "@/assets/candy-products/Custom Candy Boxes hero.png";
-import chocolateBoxes from "@/assets/candy-products/chocolate-boxes.webp";
+import chocolateBoxesHero from "@/assets/candy-products/chocolate-boxes/img-hero.png";
+import chocolateBoxesImg1 from "@/assets/candy-products/chocolate-boxes/img-1.png";
+import chocolateBoxesImg2 from "@/assets/candy-products/chocolate-boxes/img-2.png";
+import chocolateBoxesImg3 from "@/assets/candy-products/chocolate-boxes/img-3.png";
+import chocolateBoxesImg4 from "@/assets/candy-products/chocolate-boxes/img-4.png";
+import chocolateBoxesImg5 from "@/assets/candy-products/chocolate-boxes/img-5.png";
+import chocolateBoxesImg6 from "@/assets/candy-products/chocolate-boxes/img-whychoose.png";
+import chocolateBoxesImg7 from "@/assets/candy-products/chocolate-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const ChocolateBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: chocolateBoxes, alt: "Custom Chocolate Boxes - Main View" },
-        { src: chocolateBoxes, alt: "Custom Chocolate Boxes - Gift View" },
-        { src: chocolateBoxes, alt: "Custom Chocolate Boxes - Side View" },
-        { src: chocolateBoxes, alt: "Custom Chocolate Boxes - Professional Shot" },
-        { src: heroImage, alt: "Custom Chocolate Boxes - Lifestyle" },
+        { src: chocolateBoxesImg1, alt: "Custom Chocolate Boxes - Main View" },
+        { src: chocolateBoxesImg2, alt: "Custom Chocolate Boxes - Gift View" },
+        { src: chocolateBoxesImg3, alt: "Custom Chocolate Boxes - Side View" },
+        { src: chocolateBoxesImg4, alt: "Custom Chocolate Boxes - Professional Shot" },
+        { src: chocolateBoxesImg5, alt: "Custom Chocolate Boxes - Lifestyle" },
     ];
 
     return (
@@ -110,7 +116,7 @@ const ChocolateBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={heroImage}
+                                    src={chocolateBoxesHero}
                                     alt="Luxury Chocolate Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -288,7 +294,7 @@ const ChocolateBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={chocolateBoxes} alt="Premium Custom Chocolate Box Packaging" className="w-full h-full object-cover" />
+                                <img src={chocolateBoxesImg6} alt="Premium Custom Chocolate Box Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Satisfying 600+ Luxury Chocolatiers</p>
@@ -315,7 +321,7 @@ const ChocolateBoxes = () => {
                         {/* LEFT: Image */}
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={chocolateBoxes} alt="Differentiate Your Chocolate Brand" className="w-full h-full object-cover" />
+                                <img src={chocolateBoxesImg7} alt="Differentiate Your Chocolate Brand" className="w-full h-full object-cover" />
                                 {/* Overlay for depth */}
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>

@@ -62,7 +62,6 @@ import WaterBottlePackaging from "./pages/industry-pages/beverage-boxes/WaterBot
 import MilkPackaging from "./pages/industry-pages/beverage-boxes/MilkPackaging";
 import SmoothiePackaging from "./pages/industry-pages/beverage-boxes/SmoothiePackaging";
 import CandleBoxes from "./pages/categories/CandleBoxes";
-import CustomCandleDisplayBoxes from "./pages/industry-pages/candle-boxes/CustomCandleDisplayBoxes";
 import CustomCandleJarBoxes from "./pages/industry-pages/candle-boxes/CustomCandleJarBoxes";
 import TwoPieceCandleBoxes from "./pages/industry-pages/candle-boxes/TwoPieceCandleBoxes";
 import CandleShippingBoxes from "./pages/industry-pages/candle-boxes/CandleShippingBoxes";
@@ -117,7 +116,6 @@ import BlankCigaretteBoxes from "./pages/industry-pages/cigarette-boxes/BlankCig
 import DisposableCigaretteBoxes from "./pages/industry-pages/cigarette-boxes/DisposableCigaretteBoxes";
 import LighterBoxes from "./pages/industry-pages/cigarette-boxes/LighterBoxes";
 import EmptyCigaretteBoxes from "./pages/industry-pages/cigarette-boxes/EmptyCigaretteBoxes";
-import CigaretteDisplayBoxes from "./pages/industry-pages/cigarette-boxes/CigaretteDisplayBoxes";
 import CardboardCigarBoxes from "./pages/industry-pages/cigarette-boxes/CardboardCigarBoxes";
 import CigaretteCartons from "./pages/industry-pages/cigarette-boxes/CigaretteCartons";
 import CosmeticBoxes from "./pages/categories/CosmeticBoxes";
@@ -138,6 +136,15 @@ import FoundationBoxes from "./pages/industry-pages/cosmetic-boxes/FoundationBox
 import LipBalmBoxes from "./pages/industry-pages/cosmetic-boxes/LipBalmBoxes";
 import NailBoxes from "./pages/industry-pages/cosmetic-boxes/NailBoxes";
 import CosmeticLabels from "./pages/industry-pages/cosmetic-boxes/CosmeticLabels";
+import JewelryBoxes from "./pages/categories/JewelryBoxes";
+import BraceletSquareBoxes from "./pages/industry-pages/jewelry-boxes/BraceletSquareBoxes";
+import CustomNecklaceLidOffPackaging from "@/pages/industry-pages/jewelry-boxes/CustomNecklaceLidOffPackaging";
+import PendantBoxes from "@/pages/industry-pages/jewelry-boxes/PendantBoxes";
+import BraceletBoxes from "@/pages/industry-pages/jewelry-boxes/BraceletBoxes";
+import RingBoxes from "@/pages/industry-pages/jewelry-boxes/RingBoxes";
+import EarringBoxes from "@/pages/industry-pages/jewelry-boxes/EarringBoxes";
+import LuxuryJewelryBoxes from "@/pages/industry-pages/jewelry-boxes/LuxuryJewelryBoxes";
+import NecklaceBoxes from "@/pages/industry-pages/jewelry-boxes/NecklaceBoxes";
 import LipTintPackaging from "./pages/industry-pages/cosmetic-boxes/LipTintPackaging";
 import CustomWigBoxes from "./pages/industry-pages/cosmetic-boxes/CustomWigBoxes";
 import SkinCarePackaging from "./pages/industry-pages/cosmetic-boxes/SkinCarePackaging";
@@ -242,16 +249,69 @@ import ThanksgivingFoodBoxes from "./pages/industry-pages/holiday-boxes/Thanksgi
 import CustomValentinesBoxes from "./pages/industry-pages/holiday-boxes/CustomValentinesBoxes";
 import HalloweenWindowBoxes from "./pages/industry-pages/holiday-boxes/HalloweenWindowBoxes";
 import ChristmasPillowBoxes from "./pages/industry-pages/holiday-boxes/ChristmasPillowBoxes";
-import JewelryBoxes from "./pages/categories/JewelryBoxes";
 import MarijuanaPackaging from "./pages/categories/MarijuanaPackaging";
 import PharmaPackaging from "./pages/categories/PharmaPackaging";
 import PreRollBoxes from "./pages/categories/PreRollBoxes";
+import HempPreRollBoxesCategory from "./pages/industry-pages/pre-roll-boxes/HempPreRollBoxes";
+import PreRollPackagingLabels from "./pages/industry-pages/pre-roll-boxes/PreRollPackagingLabels";
+import LuxuryPreRollPackaging from "./pages/industry-pages/pre-roll-boxes/LuxuryPreRollPackaging";
+import CustomPreRollConePackaging from "./pages/industry-pages/pre-roll-boxes/CustomPreRollConePackaging";
+import PreRollJointBoxes from "./pages/industry-pages/pre-roll-boxes/PreRollJointBoxes";
+import ChildResistantPreRollBoxCategory from "./pages/industry-pages/pre-roll-boxes/ChildResistantPreRollBox";
 import RetailBoxes from "./pages/categories/RetailBoxes";
+import CustomBusinessCards from "./pages/industry-pages/retail-boxes/CustomBusinessCards";
+import CustomMatchBoxes from "./pages/industry-pages/retail-boxes/CustomMatchBoxes";
+import DietarySupplementPackagingRetail from "./pages/industry-pages/retail-boxes/DietarySupplementPackaging";
+import BusinessLabels from "./pages/industry-pages/retail-boxes/BusinessLabels";
+import CustomBoxesWithLogo from "./pages/industry-pages/retail-boxes/CustomBoxesWithLogo";
+import ClamshellBoxes from "./pages/industry-pages/retail-boxes/ClamshellBoxes";
+import BarbieBoxes from "./pages/industry-pages/retail-boxes/BarbieBoxes";
+import FoldingCartons from "./pages/industry-pages/retail-boxes/FoldingCartons";
 import SoapBoxes from "./pages/categories/SoapBoxes";
+import BathBombPackaging from "./pages/industry-pages/soap-boxes/BathBombPackaging";
+import CustomHandmadeSoapBoxes from "./pages/industry-pages/soap-boxes/CustomHandmadeSoapBoxes";
+import CustomKraftSoapBoxes from "./pages/industry-pages/soap-boxes/CustomKraftSoapBoxes";
+import CustomSoapBarBoxes from "./pages/industry-pages/soap-boxes/CustomSoapBarBoxes";
+import CustomSoapWrappingPaper from "./pages/industry-pages/soap-boxes/CustomSoapWrappingPaper";
+import LuxurySoapPackaging from "./pages/industry-pages/soap-boxes/LuxurySoapPackaging";
+import SoapBarLabels from "./pages/industry-pages/soap-boxes/SoapBarLabels";
+import SoapSleeves from "./pages/industry-pages/soap-boxes/SoapSleeves";
+import SquareSoapBoxes from "./pages/industry-pages/soap-boxes/SquareSoapBoxes";
 import SportsBoxes from "./pages/categories/SportsBoxes";
+import CustomBaseballBoxes from "./pages/industry-pages/sports-boxes/CustomBaseballBoxes";
+import CustomGolfBallBoxes from "./pages/industry-pages/sports-boxes/CustomGolfBallBoxes";
+import FootballBoxes from "./pages/industry-pages/sports-boxes/FootballBoxes";
+import BasketballBoxes from "./pages/industry-pages/sports-boxes/BasketballBoxes";
+import TennisBallBoxes from "./pages/industry-pages/sports-boxes/TennisBallBoxes";
 import StationeryBoxes from "./pages/categories/StationeryBoxes";
+import CustomBusinessCardsStationery from "./pages/industry-pages/stationery-boxes/CustomBusinessCards";
+import DocumentFolder from "./pages/industry-pages/stationery-boxes/DocumentFolder";
+import PenGiftBoxes from "./pages/industry-pages/stationery-boxes/PenGiftBoxes";
+import MailingEnvelopes from "./pages/industry-pages/stationery-boxes/MailingEnvelopes";
+import InvitationBoxes from "./pages/industry-pages/stationery-boxes/InvitationBoxes";
+import MarkerBoxes from "./pages/industry-pages/stationery-boxes/MarkerBoxes";
+import StapleBoxes from "./pages/industry-pages/stationery-boxes/StapleBoxes";
+import CardboardPencilBoxes from "./pages/industry-pages/stationery-boxes/CardboardPencilBoxes";
+import PackagingInserts from "./pages/industry-pages/stationery-boxes/PackagingInserts";
+import PencilBoxes from "./pages/industry-pages/stationery-boxes/PencilBoxes";
+import CustomBookmarks from "./pages/industry-pages/stationery-boxes/CustomBookmarks";
+import BookBoxes from "./pages/industry-pages/stationery-boxes/BookBoxes";
 import DisplayBoxes from "./pages/categories/DisplayBoxes";
 import MailerBoxes from "./pages/categories/MailerBoxes";
+
+// Mailer Boxes Shapes & Styles
+import BlackMailerBoxes from "./pages/shapes-styles/mailer-boxes/BlackMailerBoxes";
+import BubbleMailers from "./pages/shapes-styles/mailer-boxes/BubbleMailers";
+import ColoredMailerBoxes from "./pages/shapes-styles/mailer-boxes/ColoredMailerBoxes";
+import CorrugatedMailerBoxes from "./pages/shapes-styles/mailer-boxes/CorrugatedMailerBoxes";
+import EarLockMailerBox from "./pages/shapes-styles/mailer-boxes/EarLockMailerBox";
+import FourByEightBubbleMailers from "./pages/shapes-styles/mailer-boxes/FourByEightBubbleMailers";
+import KraftBubbleMailers from "./pages/shapes-styles/mailer-boxes/KraftBubbleMailers";
+import KraftMailerBoxes from "./pages/shapes-styles/mailer-boxes/KraftMailerBoxes";
+import PolyBubbleMailers from "./pages/shapes-styles/mailer-boxes/PolyBubbleMailers";
+import TuckTopMailerBoxes from "./pages/shapes-styles/mailer-boxes/TuckTopMailerBoxes";
+import VinylRecordMailers from "./pages/shapes-styles/mailer-boxes/VinylRecordMailers";
+import WhiteMailerBoxes from "./pages/shapes-styles/mailer-boxes/WhiteMailerBoxes";
 import GableBoxes from "./pages/categories/GableBoxes";
 import RigidBoxes from "./pages/categories/RigidBoxes";
 import TuckBoxes from "./pages/categories/TuckBoxes";
@@ -260,17 +320,96 @@ import CardboardBoxes from "./pages/categories/CardboardBoxes";
 import SustainablePackaging from "./pages/categories/SustainablePackaging";
 import TeaCoffeeCups from "./pages/categories/TeaCoffeeCups";
 import ShippingBoxes from "./pages/categories/ShippingBoxes";
+// Shipping Boxes Shapes & Styles
+import ChineseTakeoutBoxesShipping from "./pages/shapes-styles/shipping-boxes/ChineseTakeoutBoxes";
+import DoubleWallTuckFrontShipping from "./pages/shapes-styles/shipping-boxes/DoubleWallTuckFront";
+import HempShippingBoxesShape from "./pages/shapes-styles/shipping-boxes/HempShippingBoxes";
+import CandleShippingBoxesShape from "./pages/shapes-styles/shipping-boxes/CandleShippingBoxes";
+import HatShippingBoxesShape from "./pages/shapes-styles/shipping-boxes/HatShippingBoxes";
+import EightBySixByFourShippingBoxes from "./pages/shapes-styles/shipping-boxes/EightBySixByFourShippingBoxes";
+import FiveByFiveByFiveBoxes from "./pages/shapes-styles/shipping-boxes/FiveByFiveByFiveBoxes";
+import WineShippingBoxes from "./pages/shapes-styles/shipping-boxes/WineShippingBoxes";
+import LongNarrowShippingBoxes from "./pages/shapes-styles/shipping-boxes/LongNarrowShippingBoxes";
+import ShippingLabelsShape from "./pages/shapes-styles/shipping-boxes/ShippingLabels";
+import WhiteShippingBoxesShipping from "./pages/shapes-styles/shipping-boxes/WhiteShippingBoxes";
+import DeliveryBoxesShipping from "./pages/shapes-styles/shipping-boxes/DeliveryBoxes";
 import VapeBoxes from "./pages/categories/VapeBoxes";
 import WeedBoxes from "./pages/categories/WeedBoxes";
+import WeedSubscriptionBox from "./pages/industry-pages/weed-boxes/WeedSubscriptionBox";
+import WeedMysteryBoxes from "./pages/industry-pages/weed-boxes/WeedMysteryBoxes";
+import MonthlyWeedBoxes from "./pages/industry-pages/weed-boxes/MonthlyWeedBoxes";
+import WeedGiftBoxes from "./pages/industry-pages/weed-boxes/WeedGiftBoxes";
 import SubscriptionBoxes from "./pages/categories/SubscriptionBoxes";
 import CustomShapeBoxes from "./pages/categories/CustomShapeBoxes";
 import StickersAndLabels from "./pages/categories/StickersAndLabels";
 import SleevesAndTrays from "./pages/categories/SleevesAndTrays";
 import CardstockBoxes from "./pages/categories/CardstockBoxes";
 import ChildResistantPackaging from "./pages/categories/ChildResistantPackaging";
+import ChildResistantMylarBags from "./pages/shapes-styles/child-resistant-packaging/ChildResistantMylarBags";
+import DispensaryMylarBags from "./pages/shapes-styles/custom-mylar-bags/DispensaryMylarBags";
+import DieCutMylarBags from "./pages/shapes-styles/custom-mylar-bags/DieCutMylarBags";
+import MylarVacuumSealBags from "./pages/shapes-styles/custom-mylar-bags/MylarVacuumSealBags";
+import MylarFoodStorageBags from "./pages/shapes-styles/custom-mylar-bags/MylarFoodStorageBags";
+import BlackMylarBags from "./pages/shapes-styles/custom-mylar-bags/BlackMylarBags";
+import SmellProofMylarBags from "./pages/shapes-styles/custom-mylar-bags/SmellProofMylarBags";
+import ChildResistantMylarBagsCategory from "./pages/shapes-styles/custom-mylar-bags/ChildResistantMylarBags";
+import ExoticMylarBags from "./pages/shapes-styles/custom-mylar-bags/ExoticMylarBags";
+import SmallMylarBags from "./pages/shapes-styles/custom-mylar-bags/SmallMylarBags";
+import HolographicMylarBags from "./pages/shapes-styles/custom-mylar-bags/HolographicMylarBags";
+import KraftMylarBags from "./pages/shapes-styles/custom-mylar-bags/KraftMylarBags";
+import MylarZiplockBags from "./pages/shapes-styles/custom-mylar-bags/MylarZiplockBags";
+import ClearMylarBags from "./pages/shapes-styles/custom-mylar-bags/ClearMylarBags";
+import ChildResistantBluntPackaging from "./pages/shapes-styles/child-resistant-packaging/ChildResistantBluntPackaging";
+import ChildResistantCigaretteBoxes from "./pages/shapes-styles/child-resistant-packaging/ChildResistantCigaretteBoxes";
+import ChildResistantJointPackaging from "./pages/shapes-styles/child-resistant-packaging/ChildResistantJointPackaging";
+import ChildResistantPreRollBox from "./pages/shapes-styles/child-resistant-packaging/ChildResistantPreRollBox";
 import CorrugatedBoxes from "./pages/categories/CorrugatedBoxes";
 import CustomKraftBoxes from "./pages/categories/CustomKraftBoxes";
 import CustomBags from "./pages/categories/CustomBags";
+import HeatSealMylarBags from "./pages/shapes-styles/custom-bags/HeatSealMylarBags";
+import WeedMylarBags from "./pages/shapes-styles/custom-bags/WeedMylarBags";
+import EdibleMylarBags from "./pages/shapes-styles/custom-bags/EdibleMylarBags";
+import PaperBagsWithHandlesCustomBags from "./pages/shapes-styles/custom-bags/PaperBagsWithHandles";
+import HolographicBagsCustomBags from "./pages/shapes-styles/custom-bags/HolographicBags";
+import KraftBags from "./pages/shapes-styles/custom-bags/KraftBags";
+import TakeOutBags from "./pages/shapes-styles/custom-bags/TakeOutBags";
+import TShirtBags from "./pages/shapes-styles/custom-bags/TShirtBags";
+import PaperGroceryBags from "./pages/shapes-styles/custom-bags/PaperGroceryBags";
+import VacuumSealWeedBags from "./pages/shapes-styles/custom-bags/VacuumSealWeedBags";
+import SmellProofWeedBags from "./pages/shapes-styles/custom-bags/SmellProofWeedBags";
+import WeedBags35 from "./pages/shapes-styles/custom-bags/WeedBags35";
+import SachetPackaging from "./pages/shapes-styles/custom-bags/SachetPackaging";
+import CoffeeBags from "./pages/shapes-styles/custom-bags/CoffeeBags";
+import FlatBottomBags from "./pages/shapes-styles/custom-bags/FlatBottomBags";
+import TinTiePaperBags from "./pages/shapes-styles/custom-bags/TinTiePaperBags";
+import CustomHandleBoxes from "./pages/shapes-styles/custom-shape-boxes/CustomHandleBoxes";
+import CustomPieBoxes from "./pages/shapes-styles/custom-shape-boxes/CustomPieBoxes";
+import BraceletSquareBoxesCustomShape from "./pages/shapes-styles/custom-shape-boxes/BraceletSquareBoxes";
+import CustomDieCutBoxes from "./pages/shapes-styles/custom-shape-boxes/CustomDieCutBoxes";
+import SquareSoapBoxesCustomShape from "./pages/shapes-styles/custom-shape-boxes/SquareSoapBoxes";
+import CustomPyramidBoxes from "./pages/shapes-styles/custom-shape-boxes/CustomPyramidBoxes";
+import HexagonBoxes from "./pages/shapes-styles/custom-shape-boxes/HexagonBoxes";
+import RectangularBoxes from "./pages/shapes-styles/custom-shape-boxes/RectangularBoxes";
+import TriangleBoxes from "./pages/shapes-styles/custom-shape-boxes/TriangleBoxes";
+import OctagonBoxes from "./pages/shapes-styles/custom-shape-boxes/OctagonBoxes";
+import SquareBoxes from "./pages/shapes-styles/custom-shape-boxes/SquareBoxes";
+import CubeBoxes from "./pages/shapes-styles/custom-shape-boxes/CubeBoxes";
+import CigaretteDisplayBoxes from "./pages/shapes-styles/display-boxes/CigaretteDisplayBoxes";
+import CosmeticDisplayBoxes from "./pages/shapes-styles/display-boxes/CosmeticDisplayBoxes";
+import ClearLidBoxes from "./pages/shapes-styles/display-boxes/ClearLidBoxes";
+import ProductDisplayBoxes from "./pages/shapes-styles/display-boxes/ProductDisplayBoxes";
+import CountertopDisplayBoxes from "./pages/shapes-styles/display-boxes/CountertopDisplayBoxes";
+import WatchDisplayBoxes from "./pages/shapes-styles/display-boxes/WatchDisplayBoxes";
+import HealthCounterDisplayBoxes from "./pages/shapes-styles/display-boxes/HealthCounterDisplayBoxes";
+import CandyDisplayBoxes from "./pages/shapes-styles/display-boxes/CandyDisplayBoxes";
+import CardboardDisplayBoxes from "./pages/shapes-styles/display-boxes/CardboardDisplayBoxes";
+import CBDDisplayBoxes from "./pages/shapes-styles/display-boxes/CBDDisplayBoxes";
+import CounterDisplayBoxes from "./pages/shapes-styles/display-boxes/CounterDisplayBoxes";
+import JewelryDisplayBoxes from "./pages/shapes-styles/display-boxes/JewelryDisplayBoxes";
+import LollipopDisplayBoxes from "./pages/shapes-styles/display-boxes/LollipopDisplayBoxes";
+import BrochureDisplayHolder from "./pages/shapes-styles/display-boxes/BrochureDisplayHolder";
+import CustomCandleDisplayBoxes from "./pages/shapes-styles/display-boxes/CustomCandleDisplayBoxes";
+import CustomPreRollDisplayBoxes from "./pages/shapes-styles/display-boxes/CustomPreRollDisplayBoxes";
 import HolographicBoxes from "./pages/categories/HolographicBoxes";
 import CustomPaperBags from "./pages/categories/CustomPaperBags";
 import HangTags from "./pages/categories/HangTags";
@@ -291,30 +430,124 @@ import PlasticLotionBottle from "./pages/categories/PlasticLotionBottle";
 import GlassCreamJars from "./pages/categories/GlassCreamJars";
 import CustomPreRollTubes from "./pages/categories/CustomPreRollTubes";
 import DropperBottles from "./pages/categories/DropperBottles";
-import CustomAutoBottomGableBags from "./pages/industry-pages/custom-paper-bags/CustomAutoBottomGableBags";
-import CustomPaperFoodBags from "./pages/industry-pages/custom-paper-bags/CustomPaperFoodBags";
-import CustomChristmasPaperBags from "./pages/industry-pages/custom-paper-bags/ChristmasPaperBags";
-import CustomChristmasGiftBags from "./pages/industry-pages/custom-paper-bags/ChristmasGiftBags";
-import CustomBrownPaperBags from "./pages/industry-pages/custom-paper-bags/CustomBrownPaperBags";
-import PaperShoppingBags from "./pages/industry-pages/custom-paper-bags/PaperShoppingBags";
-import WhitePaperBags from "./pages/industry-pages/custom-paper-bags/WhitePaperBags";
-import PaperGiftBags from "./pages/industry-pages/custom-paper-bags/PaperGiftBags";
-import PaperLunchBags from "./pages/industry-pages/custom-paper-bags/PaperLunchBags";
-import FriesBag from "./pages/industry-pages/custom-paper-bags/FriesBag";
-import GlassineBags from "./pages/industry-pages/custom-paper-bags/GlassineBags";
-import CandyBags from "./pages/industry-pages/custom-paper-bags/CandyBags";
-import BakeryBags from "./pages/industry-pages/custom-paper-bags/BakeryBags";
-import CookieBags from "./pages/industry-pages/custom-paper-bags/CookieBags";
-import GiftBags from "./pages/industry-pages/custom-paper-bags/GiftBags";
-import CarryOutBags from "./pages/industry-pages/custom-paper-bags/CarryOutBags";
-import ExoticWeedBag from "./pages/industry-pages/custom-paper-bags/ExoticWeedBag";
-import PaperBagsWithHandles from "./pages/industry-pages/custom-paper-bags/PaperBagsWithHandles";
+import CustomAutoBottomGableBags from "./pages/shapes-styles/custom-paper-bags/CustomAutoBottomGableBags";
+import CustomPaperFoodBags from "./pages/shapes-styles/custom-paper-bags/CustomPaperFoodBags";
+import CustomChristmasPaperBags from "./pages/shapes-styles/custom-paper-bags/ChristmasPaperBags";
+import CustomChristmasGiftBags from "./pages/shapes-styles/custom-paper-bags/ChristmasGiftBags";
+import CustomBrownPaperBags from "./pages/shapes-styles/custom-paper-bags/CustomBrownPaperBags";
+import PaperShoppingBags from "./pages/shapes-styles/custom-paper-bags/PaperShoppingBags";
+import WhitePaperBags from "./pages/shapes-styles/custom-paper-bags/WhitePaperBags";
+import PaperGiftBags from "./pages/shapes-styles/custom-paper-bags/PaperGiftBags";
+import PaperLunchBags from "./pages/shapes-styles/custom-paper-bags/PaperLunchBags";
+import FriesBag from "./pages/shapes-styles/custom-paper-bags/FriesBag";
+import GlassineBags from "./pages/shapes-styles/custom-paper-bags/GlassineBags";
+import CandyBags from "./pages/shapes-styles/custom-paper-bags/CandyBags";
+import BakeryBags from "./pages/shapes-styles/custom-paper-bags/BakeryBags";
+import CookieBags from "./pages/shapes-styles/custom-paper-bags/CookieBags";
+import GiftBags from "./pages/shapes-styles/custom-paper-bags/GiftBags";
+import CarryOutBags from "./pages/shapes-styles/custom-paper-bags/CarryOutBags";
+import ExoticWeedBag from "./pages/shapes-styles/custom-paper-bags/ExoticWeedBag";
+import PaperBagsWithHandles from "./pages/shapes-styles/custom-paper-bags/PaperBagsWithHandles";
 import JarsWithPump from "./pages/categories/JarsWithPump";
+
+import KraftGableBoxes from "./pages/shapes-styles/gable-boxes/KraftGableBoxes";
+import ChristmasGableBoxesShapes from "./pages/shapes-styles/gable-boxes/ChristmasGableBoxes";
+import WhiteGableBoxes from "./pages/shapes-styles/gable-boxes/WhiteGableBoxes";
+import LargeGableBoxes from "./pages/shapes-styles/gable-boxes/LargeGableBoxes";
+import GableGiftBoxesShapes from "./pages/shapes-styles/gable-boxes/GableGiftBoxes";
+import BlackGableBoxes from "./pages/shapes-styles/gable-boxes/BlackGableBoxes";
+import GableBoxesWithWindow from "./pages/shapes-styles/gable-boxes/GableBoxesWithWindow";
+import GableBags from "./pages/shapes-styles/gable-boxes/GableBags";
+import BlueGableBoxes from "./pages/shapes-styles/gable-boxes/BlueGableBoxes";
+import CardboardGableBoxes from "./pages/shapes-styles/gable-boxes/CardboardGableBoxes";
+import RedGableBoxes from "./pages/shapes-styles/gable-boxes/RedGableBoxes";
+import KraftPaperGableBox from "./pages/shapes-styles/gable-boxes/KraftPaperGableBox";
+import CustomDoorHangers from "./pages/shapes-styles/hang-tags/CustomDoorHangers";
+import HangTagsChristmasTags from "./pages/shapes-styles/hang-tags/ChristmasTags";
+import HangTagsGiftTags from "./pages/shapes-styles/hang-tags/GiftTags";
+import PaperTags from "./pages/shapes-styles/hang-tags/PaperTags";
+import ShapesStylesClothingHangTags from "./pages/shapes-styles/hang-tags/ClothingHangTags";
+import ShapesStylesJewelryHangTags from "./pages/shapes-styles/hang-tags/JewelryHangTags";
+import HangTagsCustomBookmarks from "./pages/shapes-styles/hang-tags/CustomBookmarks";
+import ShippingTags from "./pages/shapes-styles/hang-tags/ShippingTags";
+
+// Pillow Boxes Shapes & Styles
+import WhitePillowBoxes from "./pages/shapes-styles/pillow-boxes/WhitePillowBoxes";
+import SmallPillowBoxes from "./pages/shapes-styles/pillow-boxes/SmallPillowBoxes";
+import KraftPillowBoxes from "./pages/shapes-styles/pillow-boxes/KraftPillowBoxes";
+import LargePillowBoxes from "./pages/shapes-styles/pillow-boxes/LargePillowBoxes";
+import PillowBoxesWithHandle from "./pages/shapes-styles/pillow-boxes/PillowBoxesWithHandle";
+import BlackPillowBoxes from "./pages/shapes-styles/pillow-boxes/BlackPillowBoxes";
+import PillowBoxesWithWindow from "./pages/shapes-styles/pillow-boxes/PillowBoxesWithWindow";
+import CardboardPillowBoxes from "./pages/shapes-styles/pillow-boxes/CardboardPillowBoxes";
+import PaperPillowBox from "./pages/shapes-styles/pillow-boxes/PaperPillowBox";
+import PillowGiftBoxes from "./pages/shapes-styles/pillow-boxes/PillowGiftBoxes";
+
+// Shapes & Styles -> Rigid Boxes 
+
+import WalletBoxes from './pages/shapes-styles/rigid-boxes/WalletBoxes';
+import FlipTopBoxes from './pages/shapes-styles/rigid-boxes/FlipTopBoxes';
+import RigidGiftBoxes from './pages/shapes-styles/rigid-boxes/RigidGiftBoxes';
+import CreditCardBoxes from './pages/shapes-styles/rigid-boxes/CreditCardBoxes';
+import RigidSetupBoxes from './pages/shapes-styles/rigid-boxes/RigidSetupBoxes';
+import RibbonBoxes from './pages/shapes-styles/rigid-boxes/RibbonBoxes';
+import MagneticClosureBoxes from './pages/shapes-styles/rigid-boxes/MagneticClosureBoxes';
+import RigidPaperBoxes from './pages/shapes-styles/rigid-boxes/RigidPaperBoxes';
+import FlipTopBoxesWithMagneticClosure from './pages/shapes-styles/rigid-boxes/FlipTopBoxesWithMagneticClosure';
+
+
+
 import BoxByMaterials from "./pages/BoxByMaterials";
 import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/legal/PrivacyPolicy";
 import TermsOfService from "./pages/legal/TermsOfService";
 
+import MarijuanaEdiblesPackaging from "@/pages/industry-pages/marijuana-packaging/MarijuanaEdiblesPackaging";
+import MarijuanaLabels from "@/pages/industry-pages/marijuana-packaging/MarijuanaLabels";
+import MedicalMarijuanaPackaging from "@/pages/industry-pages/marijuana-packaging/MedicalMarijuanaPackaging";
+import MarijuanaCartridgePackaging from "@/pages/industry-pages/marijuana-packaging/MarijuanaCartridgePackaging";
+
+import CustomPillBoxes from "./pages/industry-pages/pharma-packaging/CustomPillBoxes";
+import CustomDispenserBoxes from "./pages/industry-pages/pharma-packaging/CustomDispenserBoxes";
+import DietarySupplementPackagingPharma from "./pages/industry-pages/pharma-packaging/DietarySupplementPackaging";
+import CustomMedicineBoxes from "./pages/industry-pages/pharma-packaging/CustomMedicineBoxes";
+import OliveOilBoxes from "./pages/industry-pages/pharma-packaging/OliveOilBoxes";
+import CondomBoxes from "./pages/industry-pages/pharma-packaging/CondomBoxes";
+import GlovesBoxes from "./pages/industry-pages/pharma-packaging/GlovesBoxes";
+import BandageBoxes from "./pages/industry-pages/pharma-packaging/BandageBoxes";
+
+import SustainableCustomKraftSoapBoxes from "./pages/industry-pages/sustainable-packaging/CustomKraftSoapBoxes";
+import SustainableKraftGiftBoxes from "./pages/industry-pages/sustainable-packaging/KraftGiftBoxes";
+import SustainableKraftMylarBags from "./pages/industry-pages/sustainable-packaging/KraftMylarBags";
+import SustainableKraftFoodBoxes from "./pages/industry-pages/sustainable-packaging/KraftFoodBoxes";
+import SustainableKraftPieBoxes from "./pages/industry-pages/sustainable-packaging/KraftPieBoxes";
+import SustainableKraftTuckTopBoxes from "./pages/industry-pages/sustainable-packaging/KraftTuckTopBoxes";
+import SustainableKraftMailerBoxes from "./pages/industry-pages/sustainable-packaging/KraftMailerBoxes";
+
+import CustomTeaBoxes from "./pages/industry-pages/tea-coffee-cups/CustomTeaBoxes";
+import CustomPrintedCoffeePackaging from "./pages/industry-pages/tea-coffee-cups/CustomPrintedCoffeePackaging";
+import CoffeeSleeves from "./pages/industry-pages/tea-coffee-cups/CoffeeSleeves";
+import CoffeeCupsWithLids from "./pages/industry-pages/tea-coffee-cups/CoffeeCupsWithLids";
+import DisposableCoffeeCups from "./pages/industry-pages/tea-coffee-cups/DisposableCoffeeCups";
+import PaperCoffeeCups from "./pages/industry-pages/tea-coffee-cups/PaperCoffeeCups";
+import ToGoCoffeeCups from "./pages/industry-pages/tea-coffee-cups/ToGoCoffeeCups";
+import CuteCoffeeCups from "./pages/industry-pages/tea-coffee-cups/CuteCoffeeCups";
+import CompostableCoffeeCups from "./pages/industry-pages/tea-coffee-cups/CompostableCoffeeCups";
+import DoubleWallCoffeeCups from "./pages/industry-pages/tea-coffee-cups/DoubleWallCoffeeCups";
+import RestaurantCoffeeCups from "./pages/industry-pages/tea-coffee-cups/RestaurantCoffeeCups";
+
+import CustomECigaretteBoxesVapeBoxes from "./pages/industry-pages/vape-boxes/CustomECigaretteBoxes";
+import CustomVapeCartridgeBoxes from "./pages/industry-pages/vape-boxes/CustomVapeCartridgeBoxes";
+import VapePenBoxes from "./pages/industry-pages/vape-boxes/VapePenBoxes";
+import CannabisVapePackagingVapeBoxes from "./pages/industry-pages/vape-boxes/CannabisVapePackaging";
+import OneMlVapeCartridgeBoxes from "./pages/industry-pages/vape-boxes/OneMlVapeCartridgeBoxes";
+import VapeDisplayBoxes from "./pages/industry-pages/vape-boxes/VapeDisplayBoxes";
+import DisposableVapeBoxes from "./pages/industry-pages/vape-boxes/DisposableVapeBoxes";
+import EmptyVapeCartridgeBoxes from "./pages/industry-pages/vape-boxes/EmptyVapeCartridgeBoxes";
+import DankVapePackaging from "./pages/industry-pages/vape-boxes/DankVapePackaging";
+import CBDVapeBoxesCategory from "./pages/industry-pages/vape-boxes/CBDVapeBoxes";
+import VapeJuiceBoxes from "./pages/industry-pages/vape-boxes/VapeJuiceBoxes";
+import JuulPackaging from "./pages/industry-pages/vape-boxes/JuulPackaging";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -458,6 +691,15 @@ const App = () => (
           <Route path="/industries/cosmetic-boxes/lip-balm-boxes" element={<LipBalmBoxes />} />
           <Route path="/industries/cosmetic-boxes/nail-boxes" element={<NailBoxes />} />
           <Route path="/industries/cosmetic-boxes/cosmetic-labels" element={<CosmeticLabels />} />
+          <Route path="/industries/jewelry-boxes" element={<JewelryBoxes />} />
+          <Route path="/industries/jewelry-boxes/bracelet-square-boxes" element={<BraceletSquareBoxes />} />
+          <Route path="/industries/jewelry-boxes/custom-necklace-lid-off-packaging" element={<CustomNecklaceLidOffPackaging />} />
+          <Route path="/industries/jewelry-boxes/pendant-boxes" element={<PendantBoxes />} />
+          <Route path="/industries/jewelry-boxes/bracelet-boxes" element={<BraceletBoxes />} />
+          <Route path="/industries/jewelry-boxes/ring-boxes" element={<RingBoxes />} />
+          <Route path="/industries/jewelry-boxes/earring-boxes" element={<EarringBoxes />} />
+          <Route path="/industries/jewelry-boxes/luxury-jewelry-boxes" element={<LuxuryJewelryBoxes />} />
+          <Route path="/industries/jewelry-boxes/necklace-boxes" element={<NecklaceBoxes />} />
           <Route path="/industries/cosmetic-boxes/lip-tint-packaging" element={<LipTintPackaging />} />
           <Route path="/industries/cosmetic-boxes/wig-boxes" element={<CustomWigBoxes />} />
           <Route path="/industries/cosmetic-boxes/skin-care-packaging" element={<SkinCarePackaging />} />
@@ -467,10 +709,10 @@ const App = () => (
           <Route path="/industries/custom-candy-boxes/custom-hard-candy-boxes" element={<CustomHardCandyBoxes />} />
           <Route path="/industries/custom-candy-boxes/chocolate-boxes" element={<ChocolateBoxesPage />} />
           <Route path="/industries/custom-candy-boxes/candy-apple-boxes" element={<CandyAppleBoxes />} />
-          <Route path="/industries/custom-candy-boxes/candy-boxes-window" element={<CandyBoxesWithWindow />} />
+          <Route path="/industries/custom-candy-boxes/candy-boxes-with-window" element={<CandyBoxesWithWindow />} />
           <Route path="/industries/custom-candy-boxes/custom-christmas-candy-boxes" element={<CustomChristmasCandyBoxesPage />} />
           <Route path="/industries/custom-candy-boxes/mylar-bags-for-candies" element={<MylarBagsForCandies />} />
-          <Route path="/industries/custom-candy-boxes/custom-candy-display-boxes" element={<CustomCandyDisplayBoxes />} />
+          <Route path="/industries/custom-candy-boxes/custom-candy-display-boxes" element={<CandyDisplayBoxes />} />
           <Route path="/industries/custom-cbd-boxes" element={<CbdBoxes />} />
           <Route path="/industries/custom-hemp-boxes" element={<HempBoxes />} />
           <Route path="/industries/custom-hemp-boxes/hemp-paper-boxes" element={<HempPaperBoxes />} />
@@ -558,6 +800,7 @@ const App = () => (
           <Route path="/industries/gift-boxes/gift-tags" element={<GiftTags />} />
           <Route path="/industries/gift-boxes/gable-gift-boxes" element={<GableGiftBoxes />} />
           <Route path="/industries/holographic-boxes" element={<HolographicBoxes />} />
+          <Route path="/industries/custom-paper-bags" element={<CustomPaperBags />} />
           <Route path="/industries/holiday-boxes" element={<HolidayBoxes />} />
           <Route path="/industries/holiday-boxes/christmas-gift-boxes" element={<HolidayChristmasGiftBoxes />} />
           <Route path="/industries/holiday-boxes/custom-halloween-boxes" element={<CustomHalloweenBoxes />} />
@@ -567,54 +810,272 @@ const App = () => (
           <Route path="/industries/holiday-boxes/custom-valentines-boxes" element={<CustomValentinesBoxes />} />
           <Route path="/industries/holiday-boxes/halloween-window-boxes" element={<HalloweenWindowBoxes />} />
           <Route path="/industries/holiday-boxes/christmas-pillow-boxes" element={<ChristmasPillowBoxes />} />
-          <Route path="/industries/jewelry-boxes" element={<JewelryBoxes />} />
-          <Route path="/industries/mailer-boxes" element={<MailerBoxes />} />
+          {/* Marijuana Packaging Category */}
           <Route path="/industries/marijuana-packaging" element={<MarijuanaPackaging />} />
+          <Route path="/industries/marijuana-packaging/marijuana-edibles-packaging" element={<MarijuanaEdiblesPackaging />} />
+          <Route path="/industries/marijuana-packaging/marijuana-labels" element={<MarijuanaLabels />} />
+          <Route path="/industries/marijuana-packaging/medical-marijuana-packaging" element={<MedicalMarijuanaPackaging />} />
+          <Route path="/industries/marijuana-packaging/marijuana-cartridge-packaging" element={<MarijuanaCartridgePackaging />} />
+          <Route path="/industries/mailer-boxes" element={<MailerBoxes />} />
+          <Route path="/shapes-styles/mailer-boxes/black-mailer-boxes" element={<BlackMailerBoxes />} />
+          <Route path="/shapes-styles/mailer-boxes/bubble-mailers" element={<BubbleMailers />} />
+          <Route path="/shapes-styles/mailer-boxes/colored-mailer-boxes" element={<ColoredMailerBoxes />} />
+          <Route path="/shapes-styles/mailer-boxes/corrugated-mailer-boxes" element={<CorrugatedMailerBoxes />} />
+          <Route path="/shapes-styles/mailer-boxes/ear-lock-mailer-box" element={<EarLockMailerBox />} />
+          <Route path="/shapes-styles/mailer-boxes/4x8-bubble-mailers" element={<FourByEightBubbleMailers />} />
+          <Route path="/shapes-styles/mailer-boxes/eco-friendly-bubble-mailers" element={<KraftBubbleMailers />} />
+          <Route path="/shapes-styles/mailer-boxes/kraft-mailer-boxes" element={<KraftMailerBoxes />} />
+          <Route path="/shapes-styles/mailer-boxes/poly-bubble-mailers" element={<PolyBubbleMailers />} />
+          <Route path="/shapes-styles/mailer-boxes/tuck-top-mailer-boxes" element={<TuckTopMailerBoxes />} />
+          <Route path="/shapes-styles/mailer-boxes/vinyl-record-mailers" element={<VinylRecordMailers />} />
+          <Route path="/shapes-styles/mailer-boxes/white-mailer-boxes" element={<WhiteMailerBoxes />} />
           <Route path="/categories/custom-mylar-bags" element={<CustomMylarBags />} />
+          <Route path="/shapes-styles/custom-mylar-bags/dispensary-mylar-bags" element={<DispensaryMylarBags />} />
+          <Route path="/shapes-styles/custom-mylar-bags/die-cut-mylar-bags" element={<DieCutMylarBags />} />
+          <Route path="/shapes-styles/custom-mylar-bags/mylar-vacuum-seal-bags" element={<MylarVacuumSealBags />} />
+          <Route path="/shapes-styles/custom-mylar-bags/mylar-food-storage-bags" element={<MylarFoodStorageBags />} />
+          <Route path="/shapes-styles/custom-mylar-bags/black-mylar-bags" element={<BlackMylarBags />} />
+          <Route path="/shapes-styles/custom-mylar-bags/smell-proof-mylar-bags" element={<SmellProofMylarBags />} />
+          <Route path="/shapes-styles/custom-mylar-bags/child-resistant-mylar-bags" element={<ChildResistantMylarBagsCategory />} />
+          <Route path="/shapes-styles/custom-mylar-bags/exotic-mylar-bags" element={<ExoticMylarBags />} />
+          <Route path="/shapes-styles/custom-mylar-bags/small-mylar-bags" element={<SmallMylarBags />} />
+          <Route path="/shapes-styles/custom-mylar-bags/holographic-mylar-bags" element={<HolographicMylarBags />} />
+          <Route path="/shapes-styles/custom-mylar-bags/kraft-mylar-bags" element={<KraftMylarBags />} />
+          <Route path="/shapes-styles/custom-mylar-bags/mylar-ziplock-bags" element={<MylarZiplockBags />} />
+          <Route path="/shapes-styles/custom-mylar-bags/clear-mylar-bags" element={<ClearMylarBags />} />
           <Route path="/shapes-styles/weed-bags" element={<WeedBags />} />
           <Route path="/shapes-styles/pillow-boxes" element={<PillowBoxes />} />
+          <Route path="/shapes-styles/pillow-boxes/white-pillow-boxes" element={<WhitePillowBoxes />} />
+          <Route path="/shapes-styles/pillow-boxes/small-pillow-boxes" element={<SmallPillowBoxes />} />
+          <Route path="/shapes-styles/pillow-boxes/kraft-pillow-boxes" element={<KraftPillowBoxes />} />
+          <Route path="/shapes-styles/pillow-boxes/large-pillow-boxes" element={<LargePillowBoxes />} />
+          <Route path="/shapes-styles/pillow-boxes/pillow-boxes-with-handle" element={<PillowBoxesWithHandle />} />
+          <Route path="/shapes-styles/pillow-boxes/black-pillow-boxes" element={<BlackPillowBoxes />} />
+          <Route path="/shapes-styles/pillow-boxes/pillow-boxes-with-window" element={<PillowBoxesWithWindow />} />
+          <Route path="/shapes-styles/pillow-boxes/cardboard-pillow-boxes" element={<CardboardPillowBoxes />} />
+          <Route path="/shapes-styles/pillow-boxes/paper-pillow-box" element={<PaperPillowBox />} />
+          <Route path="/shapes-styles/pillow-boxes/pillow-gift-boxes" element={<PillowGiftBoxes />} />
           <Route path="/shapes-styles/window-packaging" element={<WindowPackaging />} />
-          <Route path="/industries/custom-paper-bags" element={<CustomPaperBags />} />
-          <Route path="/industries/custom-paper-bags/custom-auto-bottom-gable-bags" element={<CustomAutoBottomGableBags />} />
-          <Route path="/industries/custom-paper-bags/custom-paper-food-bags" element={<CustomPaperFoodBags />} />
-          <Route path="/industries/custom-paper-bags/christmas-paper-bags" element={<CustomChristmasPaperBags />} />
-          <Route path="/industries/custom-paper-bags/christmas-gift-bags" element={<CustomChristmasGiftBags />} />
-          <Route path="/industries/custom-paper-bags/custom-brown-paper-bags" element={<CustomBrownPaperBags />} />
-          <Route path="/industries/custom-paper-bags/paper-shopping-bags" element={<PaperShoppingBags />} />
-          <Route path="/industries/custom-paper-bags/white-paper-bags" element={<WhitePaperBags />} />
-          <Route path="/industries/custom-paper-bags/paper-gift-bags" element={<PaperGiftBags />} />
-          <Route path="/industries/custom-paper-bags/paper-lunch-bags" element={<PaperLunchBags />} />
-          <Route path="/industries/custom-paper-bags/fries-bag" element={<FriesBag />} />
-          <Route path="/industries/custom-paper-bags/glassine-bags" element={<GlassineBags />} />
-          <Route path="/industries/custom-paper-bags/candy-bags" element={<CandyBags />} />
-          <Route path="/industries/custom-paper-bags/bakery-bags" element={<BakeryBags />} />
-          <Route path="/industries/custom-paper-bags/cookie-bags" element={<CookieBags />} />
-          <Route path="/industries/custom-paper-bags/gift-bags" element={<GiftBags />} />
-          <Route path="/industries/custom-paper-bags/carry-out-bags" element={<CarryOutBags />} />
-          <Route path="/industries/custom-paper-bags/exotic-weed-bag" element={<ExoticWeedBag />} />
-          <Route path="/industries/custom-paper-bags/paper-bags-with-handles" element={<PaperBagsWithHandles />} />
-          <Route path="/shapes-styles/hang-tags" element={<HangTags />} />
+          <Route path="/shapes-styles/custom-paper-bags" element={<CustomPaperBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/custom-auto-bottom-gable-bags" element={<CustomAutoBottomGableBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/custom-paper-food-bags" element={<CustomPaperFoodBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/christmas-paper-bags" element={<CustomChristmasPaperBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/christmas-gift-bags" element={<CustomChristmasGiftBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/custom-brown-paper-bags" element={<CustomBrownPaperBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/paper-shopping-bags" element={<PaperShoppingBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/white-paper-bags" element={<WhitePaperBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/paper-gift-bags" element={<PaperGiftBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/paper-lunch-bags" element={<PaperLunchBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/fries-bag" element={<FriesBag />} />
+          <Route path="/shapes-styles/custom-paper-bags/glassine-bags" element={<GlassineBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/candy-bags" element={<CandyBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/bakery-bags" element={<BakeryBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/cookie-bags" element={<CookieBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/gift-bags" element={<GiftBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/carry-out-bags" element={<CarryOutBags />} />
+          <Route path="/shapes-styles/custom-paper-bags/exotic-weed-bag" element={<ExoticWeedBag />} />
+          <Route path="/shapes-styles/custom-paper-bags/paper-bags-with-handles" element={<PaperBagsWithHandles />} />
+
+
           <Route path="/industries/pharma-packaging" element={<PharmaPackaging />} />
+          <Route path="/industries/pharma-packaging/custom-pill-boxes" element={<CustomPillBoxes />} />
+          <Route path="/industries/pharma-packaging/custom-dispenser-boxes" element={<CustomDispenserBoxes />} />
+          <Route path="/industries/pharma-packaging/dietary-supplement-packaging" element={<DietarySupplementPackagingPharma />} />
+          <Route path="/industries/pharma-packaging/custom-medicine-boxes" element={<CustomMedicineBoxes />} />
+          <Route path="/industries/pharma-packaging/olive-oil-boxes" element={<OliveOilBoxes />} />
+          <Route path="/industries/pharma-packaging/condom-boxes" element={<CondomBoxes />} />
+          <Route path="/industries/pharma-packaging/gloves-boxes" element={<GlovesBoxes />} />
+          <Route path="/industries/pharma-packaging/bandage-boxes" element={<BandageBoxes />} />
           <Route path="/industries/pre-roll-boxes" element={<PreRollBoxes />} />
+          <Route path="/industries/pre-roll-boxes/hemp-pre-roll-boxes" element={<HempPreRollBoxesCategory />} />
+          <Route path="/industries/pre-roll-boxes/custom-pre-roll-display-boxes" element={<CustomPreRollDisplayBoxes />} />
+          <Route path="/industries/pre-roll-boxes/pre-roll-packaging-labels" element={<PreRollPackagingLabels />} />
+          <Route path="/industries/pre-roll-boxes/luxury-pre-roll-packaging" element={<LuxuryPreRollPackaging />} />
+          <Route path="/industries/pre-roll-boxes/custom-pre-roll-cone-packaging" element={<CustomPreRollConePackaging />} />
+          <Route path="/industries/pre-roll-boxes/pre-roll-joint-boxes" element={<PreRollJointBoxes />} />
+          <Route path="/industries/pre-roll-boxes/child-resistant-pre-roll-box" element={<ChildResistantPreRollBoxCategory />} />
+
           <Route path="/industries/retail-boxes" element={<RetailBoxes />} />
+          <Route path="/industries/retail-boxes/custom-business-cards" element={<CustomBusinessCards />} />
+          <Route path="/industries/retail-boxes/custom-match-boxes" element={<CustomMatchBoxes />} />
+          <Route path="/industries/retail-boxes/dietary-supplement-packaging" element={<DietarySupplementPackagingRetail />} />
+          <Route path="/industries/retail-boxes/business-labels" element={<BusinessLabels />} />
+          <Route path="/industries/retail-boxes/custom-boxes-with-logo" element={<CustomBoxesWithLogo />} />
+          <Route path="/industries/retail-boxes/clamshell-boxes" element={<ClamshellBoxes />} />
+          <Route path="/industries/retail-boxes/barbie-boxes" element={<BarbieBoxes />} />
+          <Route path="/industries/retail-boxes/folding-cartons" element={<FoldingCartons />} />
           <Route path="/industries/rigid-boxes" element={<RigidBoxes />} />
           <Route path="/industries/soap-boxes" element={<SoapBoxes />} />
+          <Route path="/industries/soap-boxes/bath-bomb-packaging" element={<BathBombPackaging />} />
+          <Route path="/industries/soap-boxes/custom-handmade-soap-boxes" element={<CustomHandmadeSoapBoxes />} />
+          <Route path="/industries/soap-boxes/custom-kraft-soap-boxes" element={<CustomKraftSoapBoxes />} />
+          <Route path="/industries/soap-boxes/custom-soap-bar-boxes" element={<CustomSoapBarBoxes />} />
+          <Route path="/industries/soap-boxes/custom-soap-wrapping-paper" element={<CustomSoapWrappingPaper />} />
+          <Route path="/industries/soap-boxes/luxury-soap-packaging" element={<LuxurySoapPackaging />} />
+          <Route path="/industries/soap-boxes/soap-bar-labels" element={<SoapBarLabels />} />
+          <Route path="/industries/soap-boxes/soap-sleeves" element={<SoapSleeves />} />
+          <Route path="/industries/soap-boxes/square-soap-boxes" element={<SquareSoapBoxes />} />
           <Route path="/shapes-styles/shipping-boxes" element={<ShippingBoxes />} />
+          <Route path="/shapes-styles/shipping-boxes/chinese-takeout-boxes" element={<ChineseTakeoutBoxesShipping />} />
+          <Route path="/shapes-styles/shipping-boxes/double-wall-tuck-front" element={<DoubleWallTuckFrontShipping />} />
+          <Route path="/shapes-styles/shipping-boxes/hemp-shipping-boxes" element={<HempShippingBoxesShape />} />
+          <Route path="/shapes-styles/shipping-boxes/candle-shipping-boxes" element={<CandleShippingBoxesShape />} />
+          <Route path="/shapes-styles/shipping-boxes/hat-shipping-boxes" element={<HatShippingBoxesShape />} />
+          <Route path="/shapes-styles/shipping-boxes/8x6x4-shipping-boxes" element={<EightBySixByFourShippingBoxes />} />
+          <Route path="/shapes-styles/shipping-boxes/5x5x5-boxes" element={<FiveByFiveByFiveBoxes />} />
+          <Route path="/shapes-styles/shipping-boxes/wine-shipping-boxes" element={<WineShippingBoxes />} />
+          <Route path="/shapes-styles/shipping-boxes/long-narrow-shipping-boxes" element={<LongNarrowShippingBoxes />} />
+          <Route path="/shapes-styles/shipping-boxes/shipping-labels" element={<ShippingLabelsShape />} />
+          <Route path="/shapes-styles/shipping-boxes/white-shipping-boxes" element={<WhiteShippingBoxesShipping />} />
+          <Route path="/shapes-styles/shipping-boxes/delivery-boxes" element={<DeliveryBoxesShipping />} />
           <Route path="/industries/sports-boxes" element={<SportsBoxes />} />
+          <Route path="/industries/sports-boxes/custom-baseball-boxes" element={<CustomBaseballBoxes />} />
+          <Route path="/industries/sports-boxes/custom-golf-ball-boxes" element={<CustomGolfBallBoxes />} />
+          <Route path="/industries/sports-boxes/football-boxes" element={<FootballBoxes />} />
+          <Route path="/industries/sports-boxes/basketball-boxes" element={<BasketballBoxes />} />
+          <Route path="/industries/sports-boxes/tennis-ball-boxes" element={<TennisBallBoxes />} />
           <Route path="/industries/stationery-boxes" element={<StationeryBoxes />} />
+          <Route path="/industries/stationery-boxes/custom-business-cards" element={<CustomBusinessCardsStationery />} />
+          <Route path="/industries/stationery-boxes/document-folders" element={<DocumentFolder />} />
+          <Route path="/industries/stationery-boxes/pen-gift-boxes" element={<PenGiftBoxes />} />
+          <Route path="/industries/stationery-boxes/mailing-envelopes" element={<MailingEnvelopes />} />
+          <Route path="/industries/stationery-boxes/invitation-boxes" element={<InvitationBoxes />} />
+          <Route path="/industries/stationery-boxes/marker-boxes" element={<MarkerBoxes />} />
+          <Route path="/industries/stationery-boxes/staple-boxes" element={<StapleBoxes />} />
+          <Route path="/industries/stationery-boxes/cardboard-pencil-boxes" element={<CardboardPencilBoxes />} />
+          <Route path="/industries/stationery-boxes/packaging-inserts" element={<PackagingInserts />} />
+          <Route path="/industries/stationery-boxes/pencil-boxes" element={<PencilBoxes />} />
+          <Route path="/industries/stationery-boxes/custom-bookmarks" element={<CustomBookmarks />} />
+          <Route path="/industries/stationery-boxes/book-boxes" element={<BookBoxes />} />
           <Route path="/shapes-styles/subscription-boxes" element={<SubscriptionBoxes />} />
           <Route path="/industries/sustainable-packaging" element={<SustainablePackaging />} />
+          <Route path="/industries/sustainable-packaging/custom-kraft-soap-boxes" element={<SustainableCustomKraftSoapBoxes />} />
+          <Route path="/industries/sustainable-packaging/kraft-gift-boxes" element={<SustainableKraftGiftBoxes />} />
+          <Route path="/industries/sustainable-packaging/kraft-mylar-bags" element={<SustainableKraftMylarBags />} />
+          <Route path="/industries/sustainable-packaging/kraft-food-boxes" element={<SustainableKraftFoodBoxes />} />
+          <Route path="/industries/sustainable-packaging/kraft-pie-boxes" element={<SustainableKraftPieBoxes />} />
+          <Route path="/industries/sustainable-packaging/kraft-tuck-top-boxes" element={<SustainableKraftTuckTopBoxes />} />
+          <Route path="/industries/sustainable-packaging/kraft-mailer-boxes" element={<SustainableKraftMailerBoxes />} />
           <Route path="/industries/tea-and-coffee-cups" element={<TeaCoffeeCups />} />
+          <Route path="/industries/tea-coffee-cups/custom-tea-boxes" element={<CustomTeaBoxes />} />
+          <Route path="/industries/tea-coffee-cups/custom-printed-coffee-packaging" element={<CustomPrintedCoffeePackaging />} />
+          <Route path="/industries/tea-coffee-cups/coffee-sleeves" element={<CoffeeSleeves />} />
+          <Route path="/industries/tea-coffee-cups/coffee-cups-with-lids" element={<CoffeeCupsWithLids />} />
+          <Route path="/industries/tea-coffee-cups/disposable-coffee-cups" element={<DisposableCoffeeCups />} />
+          <Route path="/industries/tea-coffee-cups/paper-coffee-cups" element={<PaperCoffeeCups />} />
+          <Route path="/industries/tea-coffee-cups/to-go-coffee-cups" element={<ToGoCoffeeCups />} />
+          <Route path="/industries/tea-coffee-cups/cute-coffee-cups" element={<CuteCoffeeCups />} />
+          <Route path="/industries/tea-coffee-cups/compostable-coffee-cups" element={<CompostableCoffeeCups />} />
+          <Route path="/industries/tea-coffee-cups/double-wall-coffee-cups" element={<DoubleWallCoffeeCups />} />
+          <Route path="/industries/tea-coffee-cups/restaurant-coffee-cups" element={<RestaurantCoffeeCups />} />
           <Route path="/industries/tuck-boxes" element={<TuckBoxes />} />
           <Route path="/industries/vape-boxes" element={<VapeBoxes />} />
+          <Route path="/industries/vape-boxes/custom-e-cigarette-boxes" element={<CustomECigaretteBoxesVapeBoxes />} />
+          <Route path="/industries/vape-boxes/custom-vape-cartridge-boxes" element={<CustomVapeCartridgeBoxes />} />
+          <Route path="/industries/vape-boxes/vape-pen-boxes" element={<VapePenBoxes />} />
+          <Route path="/industries/vape-boxes/cannabis-vape-packaging" element={<CannabisVapePackagingVapeBoxes />} />
+          <Route path="/industries/vape-boxes/1ml-vape-cartridge-boxes" element={<OneMlVapeCartridgeBoxes />} />
+          <Route path="/industries/vape-boxes/vape-display-boxes" element={<VapeDisplayBoxes />} />
+          <Route path="/industries/vape-boxes/disposable-vape-boxes" element={<DisposableVapeBoxes />} />
+          <Route path="/industries/vape-boxes/empty-vape-cartridge-boxes" element={<EmptyVapeCartridgeBoxes />} />
+          <Route path="/industries/vape-boxes/dank-vape-packaging" element={<DankVapePackaging />} />
+          <Route path="/industries/vape-boxes/cbd-vape-boxes" element={<CBDVapeBoxesCategory />} />
+          <Route path="/industries/vape-boxes/vape-juice-boxes" element={<VapeJuiceBoxes />} />
+          <Route path="/industries/vape-boxes/juul-packaging" element={<JuulPackaging />} />
           <Route path="/industries/weed-boxes" element={<WeedBoxes />} />
+          <Route path="/industries/weed-boxes/weed-subscription-box" element={<WeedSubscriptionBox />} />
+          <Route path="/industries/weed-boxes/weed-mystery-boxes" element={<WeedMysteryBoxes />} />
+          <Route path="/industries/weed-boxes/monthly-weed-boxes" element={<MonthlyWeedBoxes />} />
+          <Route path="/industries/weed-boxes/weed-gift-boxes" element={<WeedGiftBoxes />} />
           <Route path="/shapes-styles/custom-shape-boxes" element={<CustomShapeBoxes />} />
+          <Route path="/shapes-styles/custom-shape-boxes/custom-handle-boxes" element={<CustomHandleBoxes />} />
+          <Route path="/shapes-styles/custom-shape-boxes/custom-pie-boxes" element={<CustomPieBoxes />} />
+          <Route path="/shapes-styles/custom-shape-boxes/bracelet-square-boxes" element={<BraceletSquareBoxesCustomShape />} />
+          <Route path="/shapes-styles/custom-shape-boxes/custom-die-cut-boxes" element={<CustomDieCutBoxes />} />
+          <Route path="/shapes-styles/custom-shape-boxes/square-soap-boxes" element={<SquareSoapBoxesCustomShape />} />
+          <Route path="/shapes-styles/custom-shape-boxes/custom-pyramid-boxes" element={<CustomPyramidBoxes />} />
+          <Route path="/shapes-styles/custom-shape-boxes/hexagon-boxes" element={<HexagonBoxes />} />
+          <Route path="/shapes-styles/custom-shape-boxes/rectangular-boxes" element={<RectangularBoxes />} />
+          <Route path="/shapes-styles/custom-shape-boxes/triangle-boxes" element={<TriangleBoxes />} />
+          <Route path="/shapes-styles/custom-shape-boxes/octagon-boxes" element={<OctagonBoxes />} />
+          <Route path="/shapes-styles/custom-shape-boxes/square-boxes" element={<SquareBoxes />} />
+          <Route path="/shapes-styles/custom-shape-boxes/cube-boxes" element={<CubeBoxes />} />
+          <Route path="/shapes-styles/display-boxes/brochure-display-holder" element={<BrochureDisplayHolder />} />
+          <Route path="/shapes-styles/display-boxes/custom-candle-display-boxes" element={<CustomCandleDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/custom-pre-roll-display-boxes" element={<CustomPreRollDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/vape-display-boxes" element={<VapeDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/cardboard-display-boxes" element={<CardboardDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/counter-display-boxes" element={<CounterDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/jewelry-display-boxes" element={<JewelryDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/cbd-display-boxes" element={<CBDDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/lollipop-display-boxes" element={<LollipopDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/cigarette-display-boxes" element={<CigaretteDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/cosmetic-display-boxes" element={<CosmeticDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/clear-lid-boxes" element={<ClearLidBoxes />} />
+          <Route path="/shapes-styles/display-boxes/product-display-boxes" element={<ProductDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/countertop-display-boxes" element={<CountertopDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/watch-display-boxes" element={<WatchDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/health-counter-display-boxes" element={<HealthCounterDisplayBoxes />} />
+          <Route path="/shapes-styles/display-boxes/candy-display-boxes" element={<CandyDisplayBoxes />} />
           <Route path="/shapes-styles/stickers-and-labels" element={<StickersAndLabels />} />
           <Route path="/shapes-styles/sleeves-and-trays" element={<SleevesAndTrays />} />
           <Route path="/shapes-styles" element={<ShapesStyles />} />
+          {/* Shapes & Styles -> Rigid Boxes */}
+          <Route path="/shapes-styles/rigid-boxes" element={<RigidBoxes />} />
+          <Route path="/shapes-styles/rigid-boxes/wallet-boxes" element={<WalletBoxes />} />
+          <Route path="/shapes-styles/rigid-boxes/flip-top-boxes" element={<FlipTopBoxes />} />
+          <Route path="/shapes-styles/rigid-boxes/rigid-gift-boxes" element={<RigidGiftBoxes />} />
+          <Route path="/shapes-styles/rigid-boxes/credit-card-boxes" element={<CreditCardBoxes />} />
+          <Route path="/shapes-styles/rigid-boxes/rigid-setup-boxes" element={<RigidSetupBoxes />} />
+          <Route path="/shapes-styles/rigid-boxes/ribbon-boxes" element={<RibbonBoxes />} />
+          <Route path="/shapes-styles/rigid-boxes/magnetic-closure-boxes" element={<MagneticClosureBoxes />} />
+          <Route path="/shapes-styles/rigid-boxes/rigid-paper-boxes" element={<RigidPaperBoxes />} />
+          <Route path="/shapes-styles/rigid-boxes/flip-top-boxes-with-magnetic-closure" element={<FlipTopBoxesWithMagneticClosure />} />
           <Route path="/shapes-styles/gable-boxes" element={<GableBoxes />} />
+          <Route path="/shapes-styles/gable-boxes/kraft-gable-boxes" element={<KraftGableBoxes />} />
+          <Route path="/shapes-styles/gable-boxes/christmas-gable-boxes" element={<ChristmasGableBoxesShapes />} />
+          <Route path="/shapes-styles/gable-boxes/white-gable-boxes" element={<WhiteGableBoxes />} />
+          <Route path="/shapes-styles/gable-boxes/large-gable-boxes" element={<LargeGableBoxes />} />
+          <Route path="/shapes-styles/gable-boxes/gable-gift-boxes" element={<GableGiftBoxesShapes />} />
+          <Route path="/shapes-styles/gable-boxes/black-gable-boxes" element={<BlackGableBoxes />} />
+          <Route path="/shapes-styles/gable-boxes/gable-boxes-with-window" element={<GableBoxesWithWindow />} />
+          <Route path="/shapes-styles/gable-boxes/gable-bags" element={<GableBags />} />
+          <Route path="/shapes-styles/gable-boxes/blue-gable-boxes" element={<BlueGableBoxes />} />
+          <Route path="/shapes-styles/gable-boxes/cardboard-gable-boxes" element={<CardboardGableBoxes />} />
+          <Route path="/shapes-styles/gable-boxes/red-gable-boxes" element={<RedGableBoxes />} />
+          <Route path="/shapes-styles/gable-boxes/kraft-paper-gable-box" element={<KraftPaperGableBox />} />
+          <Route path="/shapes-styles/hang-tags" element={<HangTags />} />
+          <Route path="/shapes-styles/hang-tags/custom-door-hangers" element={<CustomDoorHangers />} />
+          <Route path="/shapes-styles/hang-tags/christmas-tags" element={<HangTagsChristmasTags />} />
+          <Route path="/shapes-styles/hang-tags/gift-tags" element={<HangTagsGiftTags />} />
+          <Route path="/shapes-styles/hang-tags/paper-tags" element={<PaperTags />} />
+          <Route path="/shapes-styles/hang-tags/clothing-hang-tags" element={<ShapesStylesClothingHangTags />} />
+          <Route path="/shapes-styles/hang-tags/jewelry-hang-tags" element={<ShapesStylesJewelryHangTags />} />
+          <Route path="/shapes-styles/hang-tags/custom-bookmarks" element={<HangTagsCustomBookmarks />} />
+          <Route path="/shapes-styles/hang-tags/shipping-tags" element={<ShippingTags />} />
           <Route path="/shapes-styles/child-resistant-packaging" element={<ChildResistantPackaging />} />
+          <Route path="/shapes-styles/child-resistant-packaging/child-resistant-mylar-bags" element={<ChildResistantMylarBags />} />
+          <Route path="/shapes-styles/child-resistant-packaging/child-resistant-blunt-packaging" element={<ChildResistantBluntPackaging />} />
+          <Route path="/shapes-styles/child-resistant-packaging/child-resistant-cigarette-boxes" element={<ChildResistantCigaretteBoxes />} />
+          <Route path="/shapes-styles/child-resistant-packaging/child-resistant-joint-packaging" element={<ChildResistantJointPackaging />} />
+          <Route path="/shapes-styles/child-resistant-packaging/child-resistant-pre-roll-box" element={<ChildResistantPreRollBox />} />
           <Route path="/shapes-styles/custom-bags" element={<CustomBags />} />
+          <Route path="/shapes-styles/custom-bags/heat-seal-mylar-bags" element={<HeatSealMylarBags />} />
+          <Route path="/shapes-styles/custom-bags/weed-mylar-bags" element={<WeedMylarBags />} />
+          <Route path="/shapes-styles/custom-bags/edible-mylar-bags" element={<EdibleMylarBags />} />
+          <Route path="/shapes-styles/custom-bags/paper-bags-with-handles" element={<PaperBagsWithHandlesCustomBags />} />
+          <Route path="/shapes-styles/custom-bags/holographic-bags" element={<HolographicBagsCustomBags />} />
+          <Route path="/shapes-styles/custom-bags/kraft-bags" element={<KraftBags />} />
+          <Route path="/shapes-styles/custom-bags/take-out-bags" element={<TakeOutBags />} />
+          <Route path="/shapes-styles/custom-bags/t-shirt-bags" element={<TShirtBags />} />
+          <Route path="/shapes-styles/custom-bags/paper-grocery-bags" element={<PaperGroceryBags />} />
+          <Route path="/shapes-styles/custom-bags/vacuum-seal-weed-bags" element={<VacuumSealWeedBags />} />
+          <Route path="/shapes-styles/custom-bags/smell-proof-weed-bags" element={<SmellProofWeedBags />} />
+          <Route path="/shapes-styles/custom-bags/weed-bags-3-5" element={<WeedBags35 />} />
+          <Route path="/shapes-styles/custom-bags/sachet-packaging" element={<SachetPackaging />} />
+          <Route path="/shapes-styles/custom-bags/coffee-bags" element={<CoffeeBags />} />
+          <Route path="/shapes-styles/custom-bags/flat-bottom-bags" element={<FlatBottomBags />} />
+          <Route path="/shapes-styles/custom-bags/tin-tie-paper-bags" element={<TinTiePaperBags />} />
           <Route path="/packaging-hub" element={<PackagingHub />} />
           <Route path="/primary-packaging" element={<PrimaryPackaging />} />
           <Route path="/primary-packaging/glass-serum-bottle" element={<GlassSerumBottle />} />

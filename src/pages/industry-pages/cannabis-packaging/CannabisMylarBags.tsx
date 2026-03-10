@@ -19,7 +19,14 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productHero from "@/assets/cannabis-packaging/mylar-bags.webp";
+import mylarBagsHero from "@/assets/cannabis-packaging/mylar-bags/img-hero.png";
+import mylarBagsImg1 from "@/assets/cannabis-packaging/mylar-bags/img-1.png";
+import mylarBagsImg2 from "@/assets/cannabis-packaging/mylar-bags/img-2.png";
+import mylarBagsImg3 from "@/assets/cannabis-packaging/mylar-bags/img-3.png";
+import mylarBagsImg4 from "@/assets/cannabis-packaging/mylar-bags/img-4.png";
+import mylarBagsImg5 from "@/assets/cannabis-packaging/mylar-bags/img-5.png";
+import mylarBagsImg6 from "@/assets/cannabis-packaging/mylar-bags/img-whychoose.png";
+import mylarBagsImg7 from "@/assets/cannabis-packaging/mylar-bags/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 import tinctureBoxes from "@/assets/cannabis-packaging/tincture-boxes.png";
 import vapePackaging from "@/assets/cannabis-packaging/vape-packaging.png";
@@ -45,11 +52,11 @@ const CannabisMylarBags = () => {
     const [current, setCurrent] = useState(0);
     const [count, setCount] = useState(0);
     const productImages = [
-        { src: productHero, alt: "Custom Cannabis Mylar Bags" },
-        { src: productHero, alt: "Smell-Proof Mylar Bag Front" },
-        { src: productHero, alt: "Cannabis Mylar Bag Open" },
-        { src: productHero, alt: "Resealable Cannabis Bag" },
-        { src: productHero, alt: "Branded Cannabis Mylar Packaging" },
+        { src: mylarBagsImg1, alt: "Custom Cannabis Mylar Bags" },
+        { src: mylarBagsImg2, alt: "Smell-Proof Mylar Bag Front" },
+        { src: mylarBagsImg3, alt: "Cannabis Mylar Bag Open" },
+        { src: mylarBagsImg4, alt: "Resealable Cannabis Bag" },
+        { src: mylarBagsImg5, alt: "Branded Cannabis Mylar Packaging" },
     ];
     useEffect(() => {
         if (!api) return;
@@ -101,7 +108,7 @@ const CannabisMylarBags = () => {
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
-                                <img src={productHero} alt="Custom Cannabis Mylar Bags" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                                <img src={mylarBagsHero} alt="Custom Cannabis Mylar Bags" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                             </div>
                         </div>
                     </div>
@@ -305,7 +312,7 @@ const CannabisMylarBags = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productHero} alt="Professional cannabis mylar bag packaging" className="w-full h-full object-cover" />
+                                <img src={mylarBagsImg6} alt="Professional cannabis mylar bag packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -330,7 +337,7 @@ const CannabisMylarBags = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productHero} alt="Differentiate Your Cannabis Bag Brand" className="w-full h-full object-cover" />
+                                <img src={mylarBagsImg7} alt="Differentiate Your Cannabis Bag Brand" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />
@@ -338,7 +345,7 @@ const CannabisMylarBags = () => {
                         </div>
                         <div className="space-y-6 lg:pl-10">
                             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight">Differentiate Your <span className="text-primary">Flower Brand</span> From Others</h2>
-                            <p className="text-base text-slate-600 leading-relaxed max-w-xl">Full-wrap photographic printing on pharmaceutical-grade barrier bags gives your flower brand a visual impact no competitor can match. CR zippers, window cutouts, and embossed finishes transform a commodity bag into the premium brand touchpoint your product deserves.</p>
+                            <p className="text-base text-slate-600 leading-relaxed max-w-xl">At CustomPackMakers, we believe that full-wrap photographic printing on pharmaceutical-grade barrier bags provides your flower brand with a striking visual impact that no competitor can match. By strategically incorporating advanced features like secure CR zippers, custom window cutouts, and sophisticated embossed finishes, we transform a standard commodity bag into the premium brand touchpoint your high-quality product truly deserves. Our expert team ensures that every detail reflects excellence, effectively capturing consumer attention while maintaining product freshness and signaling a level of professionalism that builds lasting market authority.</p>
                         </div>
                     </div>
                 </div>

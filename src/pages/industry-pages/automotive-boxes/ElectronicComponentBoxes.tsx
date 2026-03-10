@@ -28,7 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHero from "@/assets/automotive-products/electronic-component-boxes.webp";
+import electroniccomponentboxeshero from "@/assets/automotive-products/electronic-component-boxes/img-hero.png";
+import electroniccomponentboxesimg1 from "@/assets/automotive-products/electronic-component-boxes/img-1.png";
+import electroniccomponentboxesimg2 from "@/assets/automotive-products/electronic-component-boxes/img-2.png";
+import electroniccomponentboxesimg3 from "@/assets/automotive-products/electronic-component-boxes/img-3.png";
+import electroniccomponentboxesimg4 from "@/assets/automotive-products/electronic-component-boxes/img-4.png";
+import electroniccomponentboxesimg5 from "@/assets/automotive-products/electronic-component-boxes/img-5.png";
+import electroniccomponentboxesimg6 from "@/assets/automotive-products/electronic-component-boxes/img-whychoose.png";
+import electroniccomponentboxesimg7 from "@/assets/automotive-products/electronic-component-boxes/img-different.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const ElectronicComponentBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: productHero, alt: "Custom Electronic Component Box" },
-        { src: productHero, alt: "Automotive Sensor Packaging" },
-        { src: productHero, alt: "ECU Protective Box - Open" },
-        { src: productHero, alt: "Anti-Static Electronics Box" },
-        { src: productHero, alt: "Car Audio Component Packaging" },
+        { src: electroniccomponentboxesimg1, alt: "Custom Electronic Component Box" },
+        { src: electroniccomponentboxesimg2, alt: "Automotive Sensor Packaging" },
+        { src: electroniccomponentboxesimg3, alt: "ECU Protective Box - Open" },
+        { src: electroniccomponentboxesimg4, alt: "Anti-Static Electronics Box" },
+        { src: electroniccomponentboxesimg5, alt: "Car Audio Component Packaging" },
     ];
 
     return (
@@ -115,7 +122,7 @@ const ElectronicComponentBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHero}
+                                    src={electroniccomponentboxeshero}
                                     alt="Custom Electronic Component Boxes"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -381,7 +388,7 @@ const ElectronicComponentBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHero}
+                                    src={electroniccomponentboxesimg6}
                                     alt="Professional electronics packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -413,7 +420,7 @@ const ElectronicComponentBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHero}
+                                    src={electroniccomponentboxesimg7}
                                     alt="Differentiate Your Electronics"
                                     className="w-full h-full object-cover"
                                 />

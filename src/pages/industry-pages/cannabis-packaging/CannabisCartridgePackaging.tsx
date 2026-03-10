@@ -19,7 +19,14 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productHero from "@/assets/marijuana-packaging/cartridge-packaging.webp";
+import cartridgePackagingHero from "@/assets/cannabis-packaging/cartridge-packaging/img-hero.png";
+import cartridgePackagingImg1 from "@/assets/cannabis-packaging/cartridge-packaging/img-1.png";
+import cartridgePackagingImg2 from "@/assets/cannabis-packaging/cartridge-packaging/img-2.png";
+import cartridgePackagingImg3 from "@/assets/cannabis-packaging/cartridge-packaging/img-3.png";
+import cartridgePackagingImg4 from "@/assets/cannabis-packaging/cartridge-packaging/img-4.png";
+import cartridgePackagingImg5 from "@/assets/cannabis-packaging/cartridge-packaging/img-5.png";
+import cartridgePackagingImg6 from "@/assets/cannabis-packaging/cartridge-packaging/img-whychoose.png";
+import cartridgePackagingImg7 from "@/assets/cannabis-packaging/cartridge-packaging/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 import tinctureBoxes from "@/assets/cannabis-packaging/tincture-boxes.png";
 import vapePackaging from "@/assets/cannabis-packaging/vape-packaging.png";
@@ -45,11 +52,11 @@ const CannabisCartridgePackaging = () => {
     const [current, setCurrent] = useState(0);
     const [count, setCount] = useState(0);
     const productImages = [
-        { src: productHero, alt: "Custom Cannabis Cartridge Packaging" },
-        { src: productHero, alt: "510 Thread Cartridge Box Front" },
-        { src: productHero, alt: "Cannabis Cartridge Box Open" },
-        { src: productHero, alt: "Child-Resistant Cartridge Packaging" },
-        { src: productHero, alt: "Branded Cannabis Cartridge Box" },
+        { src: cartridgePackagingImg1, alt: "Custom Cannabis Cartridge Packaging" },
+        { src: cartridgePackagingImg2, alt: "510 Thread Cartridge Box Front" },
+        { src: cartridgePackagingImg3, alt: "Cannabis Cartridge Box Open" },
+        { src: cartridgePackagingImg4, alt: "Child-Resistant Cartridge Packaging" },
+        { src: cartridgePackagingImg5, alt: "Branded Cannabis Cartridge Box" },
     ];
     useEffect(() => {
         if (!api) return;
@@ -101,7 +108,7 @@ const CannabisCartridgePackaging = () => {
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
-                                <img src={productHero} alt="Custom Cannabis Cartridge Packaging" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                                <img src={cartridgePackagingHero} alt="Custom Cannabis Cartridge Packaging" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                             </div>
                         </div>
                     </div>
@@ -304,7 +311,7 @@ const CannabisCartridgePackaging = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productHero} alt="Professional cannabis cartridge packaging" className="w-full h-full object-cover" />
+                                <img src={cartridgePackagingImg6} alt="Professional cannabis cartridge packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -329,7 +336,7 @@ const CannabisCartridgePackaging = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productHero} alt="Differentiate Your Cartridge Brand" className="w-full h-full object-cover" />
+                                <img src={cartridgePackagingImg7} alt="Differentiate Your Cartridge Brand" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

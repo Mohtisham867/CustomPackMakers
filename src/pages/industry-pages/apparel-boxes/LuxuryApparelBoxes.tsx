@@ -28,12 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Placeholder images
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import luxuryApparelBoxeshero from "@/assets/apparel-boxes/luxury-apparel-boxes/img-hero.png";
+import luxuryApparelBoxes1 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-1.png";
+import luxuryApparelBoxes2 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-2.png";
+import luxuryApparelBoxes3 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-3.png";
+import luxuryApparelBoxes4 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-4.png";
+import luxuryApparelBoxes5 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-5.png";
+import luxuryApparelBoxes6 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-whychoose.png";
+import luxuryApparelBoxes7 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-defferent.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -43,11 +45,11 @@ const LuxuryApparelBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Luxury Apparel Boxes - Front View" },
-        { src: shoeBox2, alt: "Luxury Apparel Boxes - Open" },
-        { src: shoeBox3, alt: "Luxury Apparel Boxes - Detail" },
-        { src: shoeBox4, alt: "Luxury Apparel Boxes - Texture" },
-        { src: shoeBoxHero, alt: "Luxury Apparel Boxes - Lifestyle" },
+        { src: luxuryApparelBoxes1, alt: "Luxury Apparel Boxes - Front View" },
+        { src: luxuryApparelBoxes2, alt: "Luxury Apparel Boxes - Open" },
+        { src: luxuryApparelBoxes3, alt: "Luxury Apparel Boxes - Detail" },
+        { src: luxuryApparelBoxes4, alt: "Luxury Apparel Boxes - Texture" },
+        { src: luxuryApparelBoxes5, alt: "Luxury Apparel Boxes - Lifestyle" },
     ];
 
     return (
@@ -120,7 +122,7 @@ const LuxuryApparelBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={luxuryApparelBoxeshero}
                                     alt="Luxury Apparel Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -354,7 +356,7 @@ const LuxuryApparelBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={luxuryApparelBoxes6}
                                     alt="Premium Luxury Apparel Boxes"
                                     className="w-full h-full object-cover"
                                 />
@@ -386,7 +388,7 @@ const LuxuryApparelBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={luxuryApparelBoxes7}
                                     alt="Differentiate Your Luxury Brand"
                                     className="w-full h-full object-cover"
                                 />

@@ -29,19 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import favorBoxes from "@/assets/gift-boxes/favor_boxes_square.webp";
-import heroImage from "@/assets/gift-boxes/gift hero.webp";
+import favorBoxeshero from "@/assets/gift-boxes/favor-boxes-square/img-hero.png";
+import favorBoxesimg1 from "@/assets/gift-boxes/favor-boxes-square/img-1.png";
+import favorBoxesimg2 from "@/assets/gift-boxes/favor-boxes-square/img-2.png";
+import favorBoxesimg3 from "@/assets/gift-boxes/favor-boxes-square/img-3.png";
+import favorBoxesimg4 from "@/assets/gift-boxes/favor-boxes-square/img-4.png";
+import favorBoxesimg5 from "@/assets/gift-boxes/favor-boxes-square/img-5.png";
+import favorBoxesimg6 from "@/assets/gift-boxes/favor-boxes-square/img-whychoose.png";
+import favorBoxesimg7 from "@/assets/gift-boxes/favor-boxes-square/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const FavorBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: favorBoxes, alt: "Favor Boxes - Main View" },
-        { src: heroImage, alt: "Favor Boxes - Lifestyle Shot" },
-        { src: favorBoxes, alt: "Favor Boxes - Side Angle" },
-        { src: heroImage, alt: "Favor Boxes - Detail Shot" },
-        { src: favorBoxes, alt: "Favor Boxes - Open View" },
+        { src: favorBoxesimg1, alt: "Favor Boxes - Main View" },
+        { src: favorBoxesimg2, alt: "Favor Boxes - Lifestyle Shot" },
+        { src: favorBoxesimg3, alt: "Favor Boxes - Side Angle" },
+        { src: favorBoxesimg4, alt: "Favor Boxes - Detail Shot" },
+        { src: favorBoxesimg5, alt: "Favor Boxes - Open View" },
     ];
 
     return (
@@ -112,7 +118,7 @@ const FavorBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={favorBoxes}
+                                    src={favorBoxeshero}
                                     alt="Custom Favor Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -350,7 +356,7 @@ const FavorBoxes = () => {
                         {/* RIGHT: Image */}
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={favorBoxes} alt="Premium Favor Packaging" className="w-full h-full object-cover" />
+                                <img src={favorBoxesimg6} alt="Premium Favor Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -377,7 +383,7 @@ const FavorBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={heroImage} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
+                                <img src={favorBoxesimg7} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

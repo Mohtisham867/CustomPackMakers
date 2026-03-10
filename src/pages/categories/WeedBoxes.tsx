@@ -22,10 +22,10 @@ import weedGiftBox from "@/assets/weed_boxes/weed-gift-box.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Weed Subscription Box", image: weedSubscriptionBox, description: "Monthly cannabis subscription packaging featuring discreet outer boxes and custom-fitted internal inserts" },
-    { name: "Weed Mystery Boxes", image: weedMysteryBox, description: "Exciting mystery box packaging for cannabis featuring surprise elements and high-impact custom graphics" },
-    { name: "Monthly Weed Boxes", image: monthlyWeedBox, description: "Regular monthly delivery packaging solutions featuring durable construction and professional brand marks" },
-    { name: "Weed Gift Boxes", image: weedGiftBox, description: "Premium gift packaging for cannabis products featuring luxury textures and elegant ribbon closures for gifts" },
+    { name: "Weed Subscription Box", image: weedSubscriptionBox, description: "Monthly cannabis subscription packaging featuring discreet outer boxes and custom-fitted internal inserts", slug: "/industries/weed-boxes/weed-subscription-box" },
+    { name: "Weed Mystery Boxes", image: weedMysteryBox, description: "Exciting mystery box packaging for cannabis featuring surprise elements and high-impact custom graphics", slug: "/industries/weed-boxes/weed-mystery-boxes" },
+    { name: "Monthly Weed Boxes", image: monthlyWeedBox, description: "Regular monthly delivery packaging solutions featuring durable construction and professional brand marks", slug: "/industries/weed-boxes/monthly-weed-boxes" },
+    { name: "Weed Gift Boxes", image: weedGiftBox, description: "Premium gift packaging for cannabis products featuring luxury textures and elegant ribbon closures for gifts", slug: "/industries/weed-boxes/weed-gift-boxes" },
 ];
 
 const productOptions = [
@@ -112,35 +112,36 @@ const WeedBoxes = () => {
 
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        {/* Product image placeholder - intentionally empty */}
-                                        {product.image ? (
-                                            <img
-                                                src={product.image}
-                                                alt={product.name}
-                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                            />
-                                        ) : (
-                                            <div className="w-full h-full bg-muted flex items-center justify-center">
-                                                <p className="text-muted-foreground text-xs">Image placeholder</p>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.slug} key={index}>
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                                            {/* Product image placeholder - intentionally empty */}
+                                            {product.image ? (
+                                                <img
+                                                    src={product.image}
+                                                    alt={product.name}
+                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                />
+                                            ) : (
+                                                <div className="w-full h-full bg-muted flex items-center justify-center">
+                                                    <p className="text-muted-foreground text-xs">Image placeholder</p>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

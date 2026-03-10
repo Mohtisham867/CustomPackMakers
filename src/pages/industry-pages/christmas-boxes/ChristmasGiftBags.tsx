@@ -16,7 +16,14 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productHero from "@/assets/christmas-products/christmas-gift-bags.webp";
+import christmasGiftBagsHero from "@/assets/christmas-products/christmas-gift-bags/img-hero.png";
+import christmasGiftBagsImg1 from "@/assets/christmas-products/christmas-gift-bags/img-1.png";
+import christmasGiftBagsImg2 from "@/assets/christmas-products/christmas-gift-bags/img-2.png";
+import christmasGiftBagsImg3 from "@/assets/christmas-products/christmas-gift-bags/img-3.png";
+import christmasGiftBagsImg4 from "@/assets/christmas-products/christmas-gift-bags/img-4.png";
+import christmasGiftBagsImg5 from "@/assets/christmas-products/christmas-gift-bags/img-5.png";
+import christmasGiftBagsImg6 from "@/assets/christmas-products/christmas-gift-bags/img-whychoose.png";
+import christmasGiftBagsImg7 from "@/assets/christmas-products/christmas-gift-bags/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 import christmasChocolateBoxes from "@/assets/christmas-products/christmas-chocolate-boxes.webp";
 import christmasTags from "@/assets/christmas-products/christmas-tags.webp";
@@ -60,11 +67,11 @@ const ChristmasGiftBags = () => {
     const [current, setCurrent] = useState(0);
     const [count, setCount] = useState(0);
     const productImages = [
-        { src: productHero, alt: "Christmas Gift Bags - Main View" },
-        { src: productHero, alt: "Christmas Gift Bags - Satin Handle" },
-        { src: productHero, alt: "Christmas Gift Bags - Foil Print" },
-        { src: productHero, alt: "Christmas Gift Bags - Grosgrain Handle" },
-        { src: productHero, alt: "Christmas Gift Bags - Large Size" },
+        { src: christmasGiftBagsImg1, alt: "Christmas Gift Bags - Main View" },
+        { src: christmasGiftBagsImg2, alt: "Christmas Gift Bags - Satin Handle" },
+        { src: christmasGiftBagsImg3, alt: "Christmas Gift Bags - Foil Print" },
+        { src: christmasGiftBagsImg4, alt: "Christmas Gift Bags - Grosgrain Handle" },
+        { src: christmasGiftBagsImg5, alt: "Christmas Gift Bags - Large Size" },
     ];
     useEffect(() => {
         if (!api) return;
@@ -108,7 +115,7 @@ const ChristmasGiftBags = () => {
                             <Button size="lg" className="rounded-full bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300" onClick={() => document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' })}>Get a Quote</Button>
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
-                            <img src={productHero} alt="Christmas Gift Bags" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            <img src={christmasGiftBagsHero} alt="Christmas Gift Bags" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                         </div>
                     </div>
                 </div>
@@ -254,7 +261,7 @@ const ChristmasGiftBags = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productHero} alt="Christmas gift bags" className="w-full h-full object-cover" />
+                                <img src={christmasGiftBagsImg6} alt="Christmas gift bags" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7"><p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p><p className="text-white/75 text-sm">Delivering premium packaging across North America</p></div>
                             </div>
@@ -270,7 +277,7 @@ const ChristmasGiftBags = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productHero} alt="Differentiate Your Christmas Gift Bags" className="w-full h-full object-cover" />
+                                <img src={christmasGiftBagsImg7} alt="Differentiate Your Christmas Gift Bags" className="w-full h-full object-cover" />
                             </div>
                         </div>
                         <div className="space-y-6 lg:pl-10">

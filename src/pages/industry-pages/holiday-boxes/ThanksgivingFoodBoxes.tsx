@@ -29,18 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import thanksgivingFoodBoxesHero from "@/assets/holiday-boxes/Thanksgiving Food Boxes.png";
+import thanksgivingFoodBoxesHero from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-hero.png";
+import thanksgivingFoodBoxesimg1 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-1.png";
+import thanksgivingFoodBoxesimg2 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-2.png";
+import thanksgivingFoodBoxesimg3 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-3.png";
+import thanksgivingFoodBoxesimg4 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-4.png";
+import thanksgivingFoodBoxesimg5 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-5.png";
+import thanksgivingFoodBoxesimg6 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-whychoose.png";
+import thanksgivingFoodBoxesimg7 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const ThanksgivingFoodBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: thanksgivingFoodBoxesHero, alt: "Thanksgiving Food Boxes - Main View" },
-        { src: thanksgivingFoodBoxesHero, alt: "Thanksgiving Food Boxes - Side Angle" },
-        { src: thanksgivingFoodBoxesHero, alt: "Thanksgiving Food Boxes - Open View" },
-        { src: thanksgivingFoodBoxesHero, alt: "Thanksgiving Food Boxes - Detail Shot" },
-        { src: thanksgivingFoodBoxesHero, alt: "Thanksgiving Food Boxes - Lifestyle Shot" },
+        { src: thanksgivingFoodBoxesimg1, alt: "Thanksgiving Food Boxes - Main View" },
+        { src: thanksgivingFoodBoxesimg2, alt: "Thanksgiving Food Boxes - Side Angle" },
+        { src: thanksgivingFoodBoxesimg3, alt: "Thanksgiving Food Boxes - Open View" },
+        { src: thanksgivingFoodBoxesimg4, alt: "Thanksgiving Food Boxes - Detail Shot" },
+        { src: thanksgivingFoodBoxesimg5, alt: "Thanksgiving Food Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -352,7 +359,7 @@ const ThanksgivingFoodBoxes = () => {
 
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={thanksgivingFoodBoxesHero} alt="Premium Packaging" className="w-full h-full object-cover" />
+                                <img src={thanksgivingFoodBoxesimg6} alt="Premium Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -378,7 +385,7 @@ const ThanksgivingFoodBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={thanksgivingFoodBoxesHero} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
+                                <img src={thanksgivingFoodBoxesimg7} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

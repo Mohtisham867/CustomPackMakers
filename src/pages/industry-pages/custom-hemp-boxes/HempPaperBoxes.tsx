@@ -15,7 +15,14 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productHero from "@/assets/hemp-boxes/custom-cbd-isolate-boxes.webp";
+import hempPaperHero from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-hero.png";
+import hempPaperImg1 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-1.png";
+import hempPaperImg2 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-2.png";
+import hempPaperImg3 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-3.png";
+import hempPaperImg4 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-4.png";
+import hempPaperImg5 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-5.png";
+import hempPaperImg6 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-whychoose.png";
+import hempPaperImg7 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const faqs = [
@@ -30,11 +37,11 @@ const HempPaperBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHero, alt: "Custom Hemp Paper Boxes Main" },
-        { src: productHero, alt: "Eco-Friendly Hemp Box View" },
-        { src: productHero, alt: "Sustainable Paper Packaging" },
-        { src: productHero, alt: "Natural Hemp Paper Box" },
-        { src: productHero, alt: "Premium Extra View" },
+        { src: hempPaperImg1, alt: "Custom Hemp Paper Boxes Main" },
+        { src: hempPaperImg2, alt: "Eco-Friendly Hemp Box View" },
+        { src: hempPaperImg3, alt: "Sustainable Paper Packaging" },
+        { src: hempPaperImg4, alt: "Natural Hemp Paper Box" },
+        { src: hempPaperImg5, alt: "Premium Extra View" },
     ];
 
     return (
@@ -78,7 +85,7 @@ const HempPaperBoxes = () => {
                             </Button>
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
-                            <img src={productHero} alt="Custom Hemp Paper Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            <img src={hempPaperHero} alt="Custom Hemp Paper Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                         </div>
                     </div>
                 </div>
@@ -251,7 +258,7 @@ const HempPaperBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productHero} alt="Sustainable Hemp Packaging Quality" className="w-full h-full object-cover" />
+                                <img src={hempPaperImg6} alt="Sustainable Hemp Packaging Quality" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Earth-First Packaging</p>
@@ -277,7 +284,7 @@ const HempPaperBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productHero} alt="Differentiate Your Eco-Friendly Brand" className="w-full h-full object-cover" />
+                                <img src={hempPaperImg7} alt="Differentiate Your Eco-Friendly Brand" className="w-full h-full object-cover" />
                             </div>
                         </div>
                         <div className="space-y-6 lg:pl-10">

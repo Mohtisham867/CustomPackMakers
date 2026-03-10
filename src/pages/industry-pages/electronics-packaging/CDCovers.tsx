@@ -29,18 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import cdCovers from "@/assets/electronics-boxes/cd-covers.webp";
+import cdCovershero from "@/assets/electronics-boxes/cd-covers/img-hero.png";
+import cdCovers1 from "@/assets/electronics-boxes/cd-covers/img-1.png";
+import cdCovers2 from "@/assets/electronics-boxes/cd-covers/img-2.png";
+import cdCovers3 from "@/assets/electronics-boxes/cd-covers/img-3.png";
+import cdCovers4 from "@/assets/electronics-boxes/cd-covers/img-4.png";
+import cdCovers5 from "@/assets/electronics-boxes/cd-covers/img-5.png";
+import cdCovers6 from "@/assets/electronics-boxes/cd-covers/img-whychoose.png";
+import cdCovers7 from "@/assets/electronics-boxes/cd-covers/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CDCovers = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: cdCovers, alt: "CD Covers - Main View" },
-        { src: cdCovers, alt: "CD Covers - Side Angle" },
-        { src: cdCovers, alt: "CD Covers - Open Box View" },
-        { src: cdCovers, alt: "CD Covers - Detail Shot" },
-        { src: cdCovers, alt: "CD Covers - Lifestyle Shot" },
+        { src: cdCovers1, alt: "CD Covers - Main View" },
+        { src: cdCovers2, alt: "CD Covers - Side Angle" },
+        { src: cdCovers3, alt: "CD Covers - Open Box View" },
+        { src: cdCovers4, alt: "CD Covers - Detail Shot" },
+        { src: cdCovers5, alt: "CD Covers - Lifestyle Shot" },
     ];
 
     return (
@@ -110,7 +117,7 @@ const CDCovers = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={cdCovers}
+                                    src={cdCovershero}
                                     alt="CD Covers Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -360,7 +367,7 @@ const CDCovers = () => {
                         {/* RIGHT: Image */}
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={cdCovers} alt="Premium Packaging" className="w-full h-full object-cover" />
+                                <img src={cdCovers6} alt="Premium Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -387,7 +394,7 @@ const CDCovers = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={cdCovers} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
+                                <img src={cdCovers7} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

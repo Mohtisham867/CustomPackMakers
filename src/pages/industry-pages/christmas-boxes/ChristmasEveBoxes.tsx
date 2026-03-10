@@ -16,7 +16,14 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productHero from "@/assets/christmas-products/christmas-eve-boxes.webp";
+import christmasEveBoxesHero from "@/assets/christmas-products/christmas-eve-boxes/img-hero.png";
+import christmasEveBoxesImg1 from "@/assets/christmas-products/christmas-eve-boxes/img-1.png";
+import christmasEveBoxesImg2 from "@/assets/christmas-products/christmas-eve-boxes/img-2.png";
+import christmasEveBoxesImg3 from "@/assets/christmas-products/christmas-eve-boxes/img-3.png";
+import christmasEveBoxesImg4 from "@/assets/christmas-products/christmas-eve-boxes/img-4.png";
+import christmasEveBoxesImg5 from "@/assets/christmas-products/christmas-eve-boxes/img-5.png";
+import christmasEveBoxesImg6 from "@/assets/christmas-products/christmas-eve-boxes/img-whychoose.png";
+import christmasEveBoxesImg7 from "@/assets/christmas-products/christmas-eve-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 import christmasChocolateBoxes from "@/assets/christmas-products/christmas-chocolate-boxes.webp";
 import christmasTags from "@/assets/christmas-products/christmas-tags.webp";
@@ -60,11 +67,11 @@ const ChristmasEveBoxes = () => {
     const [current, setCurrent] = useState(0);
     const [count, setCount] = useState(0);
     const productImages = [
-        { src: productHero, alt: "Christmas Eve Boxes - Main View" },
-        { src: productHero, alt: "Christmas Eve Boxes - Interior Compartments" },
-        { src: productHero, alt: "Christmas Eve Boxes - Name Panel" },
-        { src: productHero, alt: "Christmas Eve Boxes - Kraft Eco" },
-        { src: productHero, alt: "Christmas Eve Boxes - Family Set" },
+        { src: christmasEveBoxesImg1, alt: "Christmas Eve Boxes - Main View" },
+        { src: christmasEveBoxesImg2, alt: "Christmas Eve Boxes - Interior Compartments" },
+        { src: christmasEveBoxesImg3, alt: "Christmas Eve Boxes - Name Panel" },
+        { src: christmasEveBoxesImg4, alt: "Christmas Eve Boxes - Kraft Eco" },
+        { src: christmasEveBoxesImg5, alt: "Christmas Eve Boxes - Family Set" },
     ];
     useEffect(() => {
         if (!api) return;
@@ -108,7 +115,7 @@ const ChristmasEveBoxes = () => {
                             <Button size="lg" className="rounded-full bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300" onClick={() => document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' })}>Get a Quote</Button>
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
-                            <img src={productHero} alt="Christmas Eve Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            <img src={christmasEveBoxesHero} alt="Christmas Eve Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                         </div>
                     </div>
                 </div>
@@ -258,7 +265,7 @@ const ChristmasEveBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productHero} alt="Christmas Eve boxes" className="w-full h-full object-cover" />
+                                <img src={christmasEveBoxesImg6} alt="Christmas Eve boxes" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7"><p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p><p className="text-white/75 text-sm">Delivering premium packaging across North America</p></div>
                             </div>
@@ -274,7 +281,7 @@ const ChristmasEveBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productHero} alt="Differentiate Your Christmas Eve Boxes" className="w-full h-full object-cover" />
+                                <img src={christmasEveBoxesImg7} alt="Differentiate Your Christmas Eve Boxes" className="w-full h-full object-cover" />
                             </div>
                         </div>
                         <div className="space-y-6 lg:pl-10">

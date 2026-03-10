@@ -203,6 +203,8 @@ export const Header = () => {
     { label: "Custom Shape Boxes", href: "/shapes-styles/custom-shape-boxes" },
     { label: "Stickers and Labels", href: "/shapes-styles/stickers-and-labels" },
     { label: "Sleeves and Trays", href: "/shapes-styles/sleeves-and-trays" },
+    // { label: "Gable Boxes", href: "/shapes-styles/gable-boxes" },
+    // { label: "Hang Tags", href: "/shapes-styles/hang-tags" },
   ];
 
   const materialItems = [
@@ -230,10 +232,10 @@ export const Header = () => {
       <div className={`bg-background border-b border-border transition-all duration-300 relative z-[60] ${hideMainHeader ? '-translate-y-full opacity-0 h-0 overflow-hidden' : 'translate-y-0 opacity-100'
         }`}>
         <div className="container mx-auto px-[10px]">
-          <div className="flex items-center justify-between h-20 gap-4">
+          <div className="flex items-center justify-between h-[70px] gap-4">
             {/* Logo */}
             <a href="/" className="flex items-center group flex-shrink-0 cursor-pointer">
-              <img src={logo} alt="CustomPackMakers" className="h-12 md:h-16 w-auto object-contain mr-4 transition-transform " loading="lazy" />
+              <img src={logo} alt="CustomPackMakers" className="h-10 md:h-14 w-auto object-contain mr-4 transition-transform " loading="lazy" />
             </a>
 
             {/* Search Bar - Desktop */}
@@ -428,7 +430,7 @@ export const Header = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden fixed inset-x-0 top-[115px] bottom-0 bg-background border-b border-border shadow-lg overflow-y-auto z-50">
+        <div className="md:hidden fixed inset-x-0 top-[105px] bottom-0 bg-background border-b border-border shadow-lg overflow-y-auto z-50">
           {/* Mobile Search */}
           <div className="px-[10px] py-3 border-b border-border sticky top-0 bg-background z-10">
             <div className="relative search-container">

@@ -28,7 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHero from "@/assets/automotive-products/brake-pads-packaging.webp";
+import brakepadshero from "@/assets/automotive-products/brake-pads-packaging/img-hero.png";
+import brakepadimg1 from "@/assets/automotive-products/brake-pads-packaging/img-1.png";
+import brakepadimg2 from "@/assets/automotive-products/brake-pads-packaging/img-2.png";
+import brakepadimg3 from "@/assets/automotive-products/brake-pads-packaging/img-3.png";
+import brakepadimg4 from "@/assets/automotive-products/brake-pads-packaging/img-4.png";
+import brakepadimg5 from "@/assets/automotive-products/brake-pads-packaging/img-5.png";
+import brakepadimg6 from "@/assets/automotive-products/brake-pads-packaging/img-whychoose.png";
+import brakepadimg7 from "@/assets/automotive-products/brake-pads-packaging/img-different.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const BrakePadsPackaging = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: productHero, alt: "Custom Brake Pads Box" },
-        { src: productHero, alt: "Brake Pads Packaging - Side" },
-        { src: productHero, alt: "Automotive Brake Box - Open" },
-        { src: productHero, alt: "Heavy Duty Brake Packaging" },
-        { src: productHero, alt: "Branded Brake Parts Box" },
+        { src: brakepadimg1, alt: "Custom Brake Pads Box" },
+        { src: brakepadimg2, alt: "Brake Pads Packaging - Side" },
+        { src: brakepadimg3, alt: "Automotive Brake Box - Open" },
+        { src: brakepadimg4, alt: "Heavy Duty Brake Packaging" },
+        { src: brakepadimg5, alt: "Branded Brake Parts Box" },
     ];
 
     return (
@@ -115,7 +122,7 @@ const BrakePadsPackaging = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHero}
+                                    src={brakepadshero}
                                     alt="Custom Brake Pads Packaging"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -389,7 +396,7 @@ const BrakePadsPackaging = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHero}
+                                    src={brakepadimg6}
                                     alt="Professional brake pads packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -421,7 +428,7 @@ const BrakePadsPackaging = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHero}
+                                    src={brakepadimg7}
                                     alt="Differentiate Your Brake Brand"
                                     className="w-full h-full object-cover"
                                 />

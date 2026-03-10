@@ -25,10 +25,10 @@ import { SEOContent } from "@/components/SEOContent";
 
 
 const relatedProducts = [
-    { name: "Marijuana Edibles Packaging", image: marijuanaEdiblesPackaging, description: "Compliance-ready packaging for cannabis edibles featuring child-resistant seals and high-impact retail branding" },
-    { name: "Marijuana Labels", image: marijuanaLabels, description: "Custom labels and stickers for branding and compliance featuring durable adhesives and high-resolution print" },
-    { name: "Medical Marijuana Packaging", image: medicalMarijuanaPackaging, description: "Professional packaging for medical cannabis products designed for security, freshness, and regulatory compliance" },
-    { name: "Marijuana Cartridge Packaging", image: marijuanaCartridgePackaging, description: "Secure boxes for vape cartridges and batteries featuring precise inserts and professional retail presentation" },
+    { name: "Marijuana Edibles Packaging", image: marijuanaEdiblesPackaging, description: "Compliance-ready packaging for cannabis edibles featuring child-resistant seals and high-impact retail branding", link: "/industries/marijuana-packaging/marijuana-edibles-packaging" },
+    { name: "Marijuana Labels", image: marijuanaLabels, description: "Custom labels and stickers for branding and compliance featuring durable adhesives and high-resolution print", link: "/industries/marijuana-packaging/marijuana-labels" },
+    { name: "Medical Marijuana Packaging", image: medicalMarijuanaPackaging, description: "Professional packaging for medical cannabis products designed for security, freshness, and regulatory compliance", link: "/industries/marijuana-packaging/medical-marijuana-packaging" },
+    { name: "Marijuana Cartridge Packaging", image: marijuanaCartridgePackaging, description: "Secure boxes for vape cartridges and batteries featuring precise inserts and professional retail presentation", link: "/industries/marijuana-packaging/marijuana-cartridge-packaging" },
 ];
 
 const productOptions = [
@@ -44,8 +44,8 @@ const MarijuanaPackaging = () => {
             <Header />
 
             {/* Breadcrumb */}
-            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
-                <div className="container mx-auto px-4 py-4">
+            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[140px]">
+                <div className="container mx-auto px-4 py-3">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem>
@@ -69,7 +69,7 @@ const MarijuanaPackaging = () => {
             </div>
 
             {/* Hero Split Section */}
-            <section className="py-12 bg-background">
+            <section className="py-8 bg-background">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 items-start">
                         {/* Left Content */}
@@ -118,23 +118,25 @@ const MarijuanaPackaging = () => {
                                 key={index}
                                 className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
                             >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
+                                <Link to={product.link}>
+                                    <CardContent className="p-0">
+                                        <div className="w-full aspect-square overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Link>
                             </Card>
                         ))}
                     </div>

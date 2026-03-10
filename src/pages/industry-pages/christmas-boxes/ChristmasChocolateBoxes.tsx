@@ -16,7 +16,15 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productHero from "@/assets/christmas-products/christmas-chocolate-boxes.webp";
+import christmasChocolateBoxesHero from "@/assets/christmas-products/christmas-chocolate-boxes/img-hero.png";
+import christmasChocolateBoxesImg1 from "@/assets/christmas-products/christmas-chocolate-boxes/img-1.png";
+import christmasChocolateBoxesImg2 from "@/assets/christmas-products/christmas-chocolate-boxes/img-2.png";
+import christmasChocolateBoxesImg3 from "@/assets/christmas-products/christmas-chocolate-boxes/img-3.png";
+import christmasChocolateBoxesImg4 from "@/assets/christmas-products/christmas-chocolate-boxes/img-4.png";
+import christmasChocolateBoxesImg5 from "@/assets/christmas-products/christmas-chocolate-boxes/img-5.png";
+import christmasChocolateBoxesImg6 from "@/assets/christmas-products/christmas-chocolate-boxes/img-whychoose.png";
+import christmasChocolateBoxesImg7 from "@/assets/christmas-products/christmas-chocolate-boxes/img-different.png";
+
 import FAQimage from "@/assets/FAQ-image.png";
 import christmasTags from "@/assets/christmas-products/christmas-tags.webp";
 import christmasGableBoxes from "@/assets/christmas-products/christmas-gable-boxes.webp";
@@ -60,11 +68,11 @@ const ChristmasChocolateBoxes = () => {
     const [current, setCurrent] = useState(0);
     const [count, setCount] = useState(0);
     const productImages = [
-        { src: productHero, alt: "Christmas Chocolate Boxes - Main View" },
-        { src: productHero, alt: "Christmas Chocolate Boxes - Foil Accents" },
-        { src: productHero, alt: "Christmas Chocolate Boxes - Interior Insert" },
-        { src: productHero, alt: "Christmas Chocolate Boxes - Eco Kraft" },
-        { src: productHero, alt: "Christmas Chocolate Boxes - Gift Stack" },
+        { src: christmasChocolateBoxesImg1, alt: "Christmas Chocolate Boxes - Main View" },
+        { src: christmasChocolateBoxesImg2, alt: "Christmas Chocolate Boxes - Foil Accents" },
+        { src: christmasChocolateBoxesImg3, alt: "Christmas Chocolate Boxes - Interior Insert" },
+        { src: christmasChocolateBoxesImg4, alt: "Christmas Chocolate Boxes - Eco Kraft" },
+        { src: christmasChocolateBoxesImg5, alt: "Christmas Chocolate Boxes - Gift Stack" },
     ];
     useEffect(() => {
         if (!api) return;
@@ -109,7 +117,7 @@ const ChristmasChocolateBoxes = () => {
                             <Button size="lg" className="rounded-full bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300" onClick={() => document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' })}>Get a Quote</Button>
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
-                            <img src={productHero} alt="Christmas Chocolate Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            <img src={christmasChocolateBoxesHero} alt="Christmas Chocolate Boxes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                         </div>
                     </div>
                 </div>
@@ -270,7 +278,7 @@ const ChristmasChocolateBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productHero} alt="Christmas chocolate packaging" className="w-full h-full object-cover" />
+                                <img src={christmasChocolateBoxesImg6} alt="Christmas chocolate packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7"><p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p><p className="text-white/75 text-sm">Delivering premium packaging across North America</p></div>
                             </div>
@@ -287,7 +295,7 @@ const ChristmasChocolateBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productHero} alt="Differentiate Your Christmas Chocolate Brand" className="w-full h-full object-cover" />
+                                <img src={christmasChocolateBoxesImg7} alt="Differentiate Your Christmas Chocolate Brand" className="w-full h-full object-cover" />
                             </div>
                         </div>
                         <div className="space-y-6 lg:pl-10">

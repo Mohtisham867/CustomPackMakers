@@ -29,19 +29,26 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImage from "@/assets/candy-products/Custom Candy Boxes hero.png";
-import candyBoxesWindow from "@/assets/candy-products/candy-boxes-window.webp";
+import candyBoxesWindowHero from "@/assets/candy-products/candy-boxes-window/img-hero.png";
+import candyBoxeWindowImg1 from "@/assets/candy-products/candy-boxes-window/img-1.png";
+import candyBoxeWindowImg2 from "@/assets/candy-products/candy-boxes-window/img-2.png";
+import candyBoxeWindowImg3 from "@/assets/candy-products/candy-boxes-window/img-3.png";
+import candyBoxeWindowImg4 from "@/assets/candy-products/candy-boxes-window/img-4.png";
+import candyBoxeWindowImg5 from "@/assets/candy-products/candy-boxes-window/img-5.png";
+import candyBoxeWindowImg6 from "@/assets/candy-products/candy-boxes-window/img-whychoose.png";
+import candyBoxeWindowImg7 from "@/assets/candy-products/candy-boxes-window/img-different.png";
+
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CandyBoxesWithWindow = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: candyBoxesWindow, alt: "Custom Candy Boxes With Window - Main View" },
-        { src: candyBoxesWindow, alt: "Custom Candy Boxes With Window - Display View" },
-        { src: candyBoxesWindow, alt: "Custom Candy Boxes With Window - Side View" },
-        { src: candyBoxesWindow, alt: "Custom Candy Boxes With Window - Top Down View" },
-        { src: heroImage, alt: "Custom Candy Boxes With Window - Lifestyle" },
+        { src: candyBoxeWindowImg1, alt: "Custom Candy Boxes With Window - Main View" },
+        { src: candyBoxeWindowImg2, alt: "Custom Candy Boxes With Window - Display View" },
+        { src: candyBoxeWindowImg3, alt: "Custom Candy Boxes With Window - Side View" },
+        { src: candyBoxeWindowImg4, alt: "Custom Candy Boxes With Window - Top Down View" },
+        { src: candyBoxeWindowImg5, alt: "Custom Candy Boxes With Window - Lifestyle" },
     ];
 
     return (
@@ -110,7 +117,7 @@ const CandyBoxesWithWindow = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={heroImage}
+                                    src={candyBoxesWindowHero}
                                     alt="Custom Candy Boxes with Window Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -290,7 +297,7 @@ const CandyBoxesWithWindow = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={candyBoxesWindow} alt="Premium Custom Candy Box with Window" className="w-full h-full object-cover" />
+                                <img src={candyBoxeWindowImg6} alt="Premium Custom Candy Box with Window" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Satisfying 550+ Food Brands</p>
@@ -317,7 +324,7 @@ const CandyBoxesWithWindow = () => {
                         {/* LEFT: Image */}
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={candyBoxesWindow} alt="Differentiate Your Window Candy Brand" className="w-full h-full object-cover" />
+                                <img src={candyBoxeWindowImg7} alt="Differentiate Your Window Candy Brand" className="w-full h-full object-cover" />
                                 {/* Overlay for depth */}
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>

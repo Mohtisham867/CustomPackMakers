@@ -29,12 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images (using shoe box images as requested)
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.jpg";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe 4.webp";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import beltHero from "@/assets/apparel-boxes/belt-boxes/belt-hero.png";
+import beltBox1 from "@/assets/apparel-boxes/belt-boxes/belt-1.png";
+import beltBox2 from "@/assets/apparel-boxes/belt-boxes/belt-2.png";
+import beltBox3 from "@/assets/apparel-boxes/belt-boxes/belt-3.png";
+import beltBox4 from "@/assets/apparel-boxes/belt-boxes/belt-4.png";
+import beltBox5 from "@/assets/apparel-boxes/belt-boxes/belt-5.png";
+import beltBox6 from "@/assets/apparel-boxes/belt-boxes/belt-deferent.png";
+import beltBox7 from "@/assets/apparel-boxes/belt-boxes/belt-whychoose.png";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -44,11 +46,11 @@ const BeltBoxes = () => {
 
     // Placeholder gallery images
     const productImages = [
-        { src: shoeBox1, alt: "Custom Belt Boxes - Main View" },
-        { src: shoeBox2, alt: "Custom Belt Boxes - Side Angle" },
-        { src: shoeBox3, alt: "Custom Belt Boxes - Open View" },
-        { src: shoeBox4, alt: "Custom Belt Boxes - Detail Shot" },
-        { src: shoeBoxHero, alt: "Custom Belt Boxes - Lifestyle Shot" },
+        { src: beltBox1, alt: "Custom Belt Boxes - Main View" },
+        { src: beltBox2, alt: "Custom Belt Boxes - Side Angle" },
+        { src: beltBox3, alt: "Custom Belt Boxes - Open View" },
+        { src: beltBox4, alt: "Custom Belt Boxes - Detail Shot" },
+        { src: beltBox5, alt: "Custom Belt Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -121,9 +123,9 @@ const BeltBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={beltHero}
                                     alt="Custom Belt Boxes Hero"
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    className="w-full h-full object-cover "
                                 />
                             </div>
                         </div>
@@ -365,7 +367,7 @@ const BeltBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customShoeBoxes}
+                                    src={beltBox7}
                                     alt="Premium Custom Belt Box Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -397,7 +399,7 @@ const BeltBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={shoeBoxHero}
+                                    src={beltBox6}
                                     alt="Differentiate Your Belts"
                                     className="w-full h-full object-cover"
                                 />
@@ -411,8 +413,7 @@ const BeltBoxes = () => {
                                 Differentiate Your <span className="text-primary">Belts</span> From Others
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-                                At CustomPackMakers, we know that premium belts require premium presentation. To ensure your brand stands out, we use advanced printing and structural design to create boxes that scream quality. From custom shaped windows to premium rigid materials, our expert team helps you design packaging that not only protects your product but also enhances its appeal, helping you build a loyal customer base.
-                            </p>
+At CustomPackMakers, we firmly believe that premium belts deserve a presentation that reflects their true value. To ensure your brand consistently stands out in a competitive market, we utilize cutting-edge printing technology and innovative structural engineering to craft packaging that radiates superior quality. From bespoke custom-shaped windows to high-end rigid materials, our expert design team collaborates with you to create solutions that offer maximum protection while significantly enhancing visual appeal. By choosing our premium packaging, you are not just securing your product; you are building a lasting impression and a loyal customer base.                            </p>
                         </div>
                     </div>
                 </div>

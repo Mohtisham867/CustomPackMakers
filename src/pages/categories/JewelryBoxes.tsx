@@ -13,40 +13,29 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
+import jewelryBoxesHero from "@/assets/jewelry-boxes/Jewelry Boxes hero.webp";
 
-import heroImage from "@/assets/jewelry-boxes/Jewelry Boxes hero.webp";
-
-// Specific images
+// Import professional product images
 import braceletSquareBoxes from "@/assets/jewelry-boxes/Bracelet Square Boxes.webp";
-import braceletBoxes from "@/assets/jewelry-boxes/bracelet-boxes.webp";
 import necklaceLidOffBoxes from "@/assets/jewelry-boxes/necklace-lid-off-boxes.webp";
 import pendantBoxes from "@/assets/jewelry-boxes/Pendant Boxes.webp";
+import braceletBoxes from "@/assets/jewelry-boxes/bracelet-boxes.webp";
 import ringBoxes from "@/assets/jewelry-boxes/ring-boxes.webp";
 import earringBoxes from "@/assets/jewelry-boxes/Earring Boxes.webp";
 import luxuryJewelryBoxes from "@/assets/jewelry-boxes/luxury-jewelry-boxes.webp";
 import necklaceBoxes from "@/assets/jewelry-boxes/necklace-boxes.webp";
+
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Bracelet Square Boxes", image: braceletSquareBoxes, description: "Elegant square boxes for bracelets featuring soft-touch interiors and secure magnetic closures" },
-    { name: "Custom Necklace Lid Off Packaging", image: necklaceLidOffBoxes, description: "Premium lid-off boxes for necklaces with cushioned inserts and luxurious presentation design" },
-    { name: "Pendant Boxes", image: pendantBoxes, description: "Sophisticated packaging for pendants featuring protective cushioning and elegant exterior finishes" },
-    { name: "Bracelet Boxes", image: braceletBoxes, description: "Stylish and secure boxes for bracelets with velvet lining and premium construction materials" },
-    { name: "Ring Boxes", image: ringBoxes, description: "Classic boxes to showcase rings with cushioned slots and hinged lids for elegant presentation" },
-    { name: "Earring Boxes", image: earringBoxes, description: "Chic boxes for earrings and studs featuring secure holders and compact protective design" },
-    { name: "Luxury Jewelry Boxes", image: luxuryJewelryBoxes, description: "High-end packaging for luxury jewelry collections with premium materials and sophisticated finishes" },
-    { name: "Necklace Boxes", image: necklaceBoxes, description: "Beautiful boxes for all types of necklaces with protective padding and elegant display features" },
-];
-
-const productOptions = [
-    "Bracelet Square Boxes",
-    "Custom Necklace Lid Off Packaging",
-    "Pendant Boxes",
-    "Bracelet Boxes",
-    "Ring Boxes",
-    "Earring Boxes",
-    "Luxury Jewelry Boxes",
-    "Necklace Boxes",
+    { name: "Bracelet Square Boxes", image: braceletSquareBoxes, description: "Rigid square bracelet packaging with velvet inserts and premium finishing for elevated shelf and gifting presentation.", link: "/industries/jewelry-boxes/bracelet-square-boxes" },
+    { name: "Custom Necklace Lid Off Packaging", image: necklaceLidOffBoxes, description: "Two-piece necklace boxes with refined lift-off lids, anti-tarnish interiors, and luxury printing options.", link: "/industries/jewelry-boxes/custom-necklace-lid-off-packaging" },
+    { name: "Pendant Boxes", image: pendantBoxes, description: "Protective pendant boxes engineered to prevent chain tangling while preserving premium first-impression impact.", link: "/industries/jewelry-boxes/pendant-boxes" },
+    { name: "Bracelet Boxes", image: braceletBoxes, description: "Elegant bracelet gift boxes with secure inserts, rigid structures, and soft-touch finishes for luxury brands.", link: "/industries/jewelry-boxes/bracelet-boxes" },
+    { name: "Ring Boxes", image: ringBoxes, description: "High-end ring boxes with precision slots, anti-scratch lining, and premium branding for proposal and retail use.", link: "/industries/jewelry-boxes/ring-boxes" },
+    { name: "Earring Boxes", image: earringBoxes, description: "Compact earring packaging designed to secure studs and drops with elegant interior pads and print detailing.", link: "/industries/jewelry-boxes/earring-boxes" },
+    { name: "Luxury Jewelry Boxes", image: luxuryJewelryBoxes, description: "Statement packaging for premium jewelry collections featuring rigid board and couture finishing techniques.", link: "/industries/jewelry-boxes/luxury-jewelry-boxes" },
+    { name: "Necklace Boxes", image: necklaceBoxes, description: "Premium necklace boxes with tailored inserts to stabilize chains and elevate unboxing with refined branding.", link: "/industries/jewelry-boxes/necklace-boxes" },
 ];
 
 const JewelryBoxes = () => {
@@ -55,8 +44,8 @@ const JewelryBoxes = () => {
             <Header />
 
             {/* Breadcrumb */}
-            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
-                <div className="container mx-auto px-4 py-4">
+            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[140px]">
+                <div className="container mx-auto px-4 py-3">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem>
@@ -79,141 +68,109 @@ const JewelryBoxes = () => {
                 </div>
             </div>
 
-            {/* Hero Split Section */}
-            <section className="py-12 bg-background">
+            {/* Top Split Section */}
+            <main className="py-8">
                 <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 items-start">
-                        {/* Left Content */}
-                        <div className="space-y-6">
-                            <h1 className="text-4xl md:text-5xl font-bold text-foreground">
-                                Jewelry Boxes
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 mb-12 items-start">
+                        {/* Left Side */}
+                        <div className="space-y-6 text-center lg:text-left">
+                            <h1 className="text-4xl md:text-5xl font-bold text-foreground leading-tight">
+                                Custom Jewelry Boxes
                             </h1>
-                            <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4">
-                                Elegant, secure, and luxury packaging solutions for fine jewelry items.
-                                enhanced by our exquisite custom boxes designed to reflect the quality and beauty
-                                of the treasures they hold.
+                            <p className="text-lg text-muted-foreground leading-relaxed">
+                                Elevate your jewelry brand with our premium custom jewelry boxes. From engagement ring boxes to luxury necklace packaging, we provide high-end solutions featuring anti-tarnish linings, velvet inserts, and sophisticated finishes that create an unforgettable unboxing experience.
                             </p>
-                            <div className="pt-4 lg:pt-0">
+                            <div className="pt-4 lg:pt-0 mx-auto lg:mx-0">
                                 <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted mx-auto lg:mx-0">
                                     <img
-                                        src={heroImage}
-                                        alt="Luxury Jewelry Packaging"
+                                        src={jewelryBoxesHero}
+                                        alt="Custom Jewelry Boxes Collection"
                                         className="w-full h-full object-cover" loading="lazy"
                                     />
                                 </div>
                             </div>
                         </div>
 
-                        {/* Right Form */}
+                        {/* Right Side - Instant Quote Form */}
                         <div className="flex justify-end">
-                            <InstantQuoteFormCompact customProducts={productOptions} />
+                            <InstantQuoteFormCompact customProducts={relatedProducts.map(p => p.name)} />
                         </div>
                     </div>
-                </div>
-            </section>
 
-            {/* Related Products Section */}
-            <section className="py-16 bg-accent/20">
-                <div className="container mx-auto px-4">
-                    <div className="mb-12">
+                    {/* Related Products Section */}
+                    <section className="mt-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                            Fine Jewelry Packaging
+                            Premium Presentation for Your Jewelry Collection
                         </h2>
-                        <p className="text-lg text-muted-foreground max-w-3xl">
-                            Premium packaging solutions that complement the elegance of your jewelry.
+                        <p className="text-lg text-muted-foreground mb-8 max-w-3xl">
+                            Explore our extensive range of specialized jewelry packaging designed to protect delicate pieces and showcase your brand's commitment to luxury and craftsmanship.
                         </p>
-                    </div>
 
-                    <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-                        {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        ))}
-                    </div>
+                        <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+                            {relatedProducts.map((product, index) => (
+                                <Link key={index} to={product.link} className="block">
+                                    <Card className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full">
+                                        <CardContent className="p-0">
+                                            <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                                                <img
+                                                    src={product.image}
+                                                    alt={product.name}
+                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                />
+                                            </div>
+                                            <div className="p-4 border-t border-border">
+                                                <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                    {product.name}
+                                                </h3>
+                                                <p className="text-xs text-muted-foreground line-clamp-2 min-h-[3rem] block">
+                                                    {product.description}
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                </Link>
+                            ))}
+                        </div>
+                    </section>
                 </div>
-            </section>
+            </main>
 
-            {/* Brand Rating */}
-
+            {/* Main Quote Form at Bottom */}
             <BrandRating />
-
             <QuoteForm />
-
             <SEOContent>
-
-                <h2>The Ultimate Guide to Jewelry Boxes</h2>
+                <h2>The Ultimate Guide to Custom Jewelry Boxes</h2>
                 <p>
-                    In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
-                    Our <strong>Jewelry Boxes</strong> are engineered to deliver precisely that impact. merging superior structural integrity with breathtaking aesthetics, these boxes serve as the perfect ambassador for your products.
-                    Whether you are launching a new luxury line, shipping subscription kits, or displaying items on retail shelves, our custom packaging solutions are tailored to meet every nuance of your requirements.
+                    In the competitive world of luxury jewelry retail, packaging is an extension of the product itself. Our <strong>Custom Jewelry Boxes</strong> are designed to mirror the elegance and value of the treasures they hold. From the moment a customer receives their package, the quality of the box sets the stage for the brilliance within.
                 </p>
                 <p>
-                    We understand that the unboxing experience is a critical touchpoint for customer retention. That’s why we meticulously craft each box using premium-grade materials that scream quality from the first touch.
-                    From the robust protective outer layers to the refined interior finishes, every inch of our packaging is optimized to protect your merchandise while elevating your brand identity.
+                    We specialize in high-end structural design, utilizing rigid board and premium papers to create a sense of permanence and prestige. Whether you are a boutique designer or a national retail chain, our packaging solutions are engineered to enhance brand perception and ensure product safety.
                 </p>
 
-                <h3>Unmatched Material Quality & Durability</h3>
+                <h3>Luxury Materials & Protective Interiors</h3>
                 <p>
-                    The foundation of exceptional packaging lies in the materials used. We offer a diverse spectrum of stocks to suit different weight requirements and aesthetic preferences:
+                    Protecting delicate jewelry from scratches, tangling, and tarnishing is our top priority. We offer a variety of specialized interior options:
                 </p>
                 <ul>
-                    <li><strong>Corrugated Cardboard:</strong> Ideal for shipping and heavy-duty protection. Available in various flute sizes (E-flute, B-flute) to balance strength and printability.</li>
-                    <li><strong>Rigid Board:</strong> The epitome of luxury. This thick, unbending material is perfect for high-end gift sets, electronics, and premium cosmetics, often paired with magnetic closures.</li>
-                    <li><strong>Kraft Stock:</strong> An eco-friendly favorite. Biodegradable and recyclable, it offers a natural, rustic look that appeals to environmentally conscious consumers.</li>
-                    <li><strong>Cardstock (SBS/C1S):</strong> Lightweight and highly printable, making it perfect for retail shelves, cosmetics, and food packaging where graphical fidelity is paramount.</li>
+                    <li><strong>Anti-Tarnish Linings:</strong> Specialized fabrics to maintain the luster of silver and gold.</li>
+                    <li><strong>Velvet & Suede Inserts:</strong> Soft-touch materials that provide a luxury backdrop for your pieces.</li>
+                    <li><strong>Precision Foam Cutouts:</strong> Custom-fitted inserts that secure rings, earrings, and necklaces in place.</li>
+                    <li><strong>Ribbon Ties & Magnetic Closures:</strong> Functional details that add a layer of sophistication to the unboxing.</li>
                 </ul>
-                <p>
-                    Each material is tested for compression strength and edge crush resistance, ensuring your products arrive at their destination in pristine condition, regardless of the shipping rigors.
-                </p>
 
-                <h3>Advanced Printing & Finishing Options</h3>
+                <h3>Advanced Finishing for High-End Branding</h3>
                 <p>
-                    Transform your packaging into a work of art with our state-of-the-art printing capabilities. We utilize advanced offset and digital printing technologies to achieve vibrant, color-accurate results (CMYK & Pantone) that make your logo and artwork pop.
-                    Beyond standard printing, we offer a suite of premium finishing options to add tactile and visual depth:
+                    Your logo deserves the best presentation. We provide a full suite of printing and finishing techniques to make your brand stand out:
                 </p>
                 <ul>
-                    <li><strong>Spot UV:</strong> Create a striking contrast by adding a high-gloss coating to specific areas like logos or patterns against a matte background.</li>
-                    <li><strong>Foil Stamping:</strong> Add a touch of elegance with metallic gold, silver, or holographic foils that catch the light and convey luxury.</li>
-                    <li><strong>Embossing & Debossing:</strong> Add dimension to your packaging with raised (embossed) or recessed (debossed) elements for a premium tactile feel.</li>
-                    <li><strong>Matte & Gloss Lamination:</strong> Choose Soft-Touch Matte for a velvety smooth feel or High-Gloss for a vibrant, shiny finish that protects against scuffs.</li>
+                    <li><strong>Hot Foil Stamping:</strong> Add metallic gold, silver, or rose gold accents for a timeless luxury look.</li>
+                    <li><strong>Embossing & Debossing:</strong> Create tactile depth that customers can feel when they hold your box.</li>
+                    <li><strong>Spot UV & Soft-Touch Lamination:</strong> Modern finishes that offer a contrast between matte and gloss.</li>
                 </ul>
 
-                <h3>Comprehensive Size & Shape Customization</h3>
+                <h3>Wholesale Customization & Global Shipping</h3>
                 <p>
-                    One size does not fit all. We specialize in fully bespoke structural design. Whether you need a standard tuck-end box, a complex mailer with inserts, or a unique geometric shape to stand out on the shelf, we can engineer it.
-                    Our CAD specialists work with you to create die-lines that fit your product perfectly—minimizing movement and preventing damage.
-                </p>
-                <ul>
-                    <li><strong>Custom Inserts:</strong> Foam, cardboard, or molded pulp inserts custom-shaped to hold your product securely in place.</li>
-                    <li><strong>Window Cutouts:</strong> transparent PET windows to let customers see the product inside, building trust and driving sales.</li>
-                    <li><strong>Unique Closures:</strong> Magnetic catches, ribbon ties, tuck-tops, and auto-lock bottoms for convenience and security.</li>
-                </ul>
-
-                <h3>Wholesale Benefits & Scalability</h3>
-                <p>
-                    Whether you are a startup needing a small run to test the market or an established enterprise requiring thousands of units monthly, we scale with you.
-                    Our flexible production lines allow for competitive pricing on short runs and massive volume discounts on wholesale orders.
-                    Partnering with us means gaining a dedicated packaging team committed to your timeline, budget, and quality standards.
+                    We offer scalable production to meet your needs, whether you're launching a limited collection or stocking up for a peak season. Our manufacturing processes ensure consistent quality across every unit, with competitive wholesale pricing and reliable turnaround times.
                 </p>
             </SEOContent>
             <Footer />
