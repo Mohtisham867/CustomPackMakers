@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHeroImage from "@/assets/stationery-boxes/custom-bookmarks.webp";
+import bookmarksHero from "@/assets/stationery-boxes/custom-bookmarks/img-hero.png";
+import bookmarks1 from "@/assets/stationery-boxes/custom-bookmarks/img-1.png";
+import bookmarks2 from "@/assets/stationery-boxes/custom-bookmarks/img-2.png";
+import bookmarks3 from "@/assets/stationery-boxes/custom-bookmarks/img-3.png";
+import bookmarks4 from "@/assets/stationery-boxes/custom-bookmarks/img-4.png";
+import bookmarks5 from "@/assets/stationery-boxes/custom-bookmarks/img-5.png";
+import bookmarks6 from "@/assets/stationery-boxes/custom-bookmarks/img-whychoose.png";
+import bookmarks7 from "@/assets/stationery-boxes/custom-bookmarks/img-different.png";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const CustomBookmarks = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHeroImage, alt: "Custom Bookmarks - Main View" },
-        { src: productHeroImage, alt: "Custom Bookmarks - Angle View" },
-        { src: productHeroImage, alt: "Custom Bookmarks - Reading Context" },
-        { src: productHeroImage, alt: "Custom Bookmarks - Quality Finish" },
-        { src: productHeroImage, alt: "Custom Bookmarks - Retail Setting" },
+        { src: bookmarks1, alt: "Custom Bookmarks - Main View" },
+        { src: bookmarks2, alt: "Custom Bookmarks - Angle View" },
+        { src: bookmarks3, alt: "Custom Bookmarks - Reading Context" },
+        { src: bookmarks4, alt: "Custom Bookmarks - Quality Finish" },
+        { src: bookmarks5, alt: "Custom Bookmarks - Retail Setting" },
     ];
 
     return (
@@ -113,7 +120,7 @@ const CustomBookmarks = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={bookmarksHero}
                                     alt="Custom Bookmarks Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -366,7 +373,7 @@ const CustomBookmarks = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={bookmarks6}
                                     alt="Premium Custom Bookmarks Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -401,7 +408,7 @@ const CustomBookmarks = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={bookmarks7}
                                     alt="Differentiate Your Literary Marketing"
                                     className="w-full h-full object-cover"
                                 />
@@ -417,7 +424,7 @@ const CustomBookmarks = () => {
                                 Differentiate Your <span className="text-primary">Publishing Brand</span> From Others
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-                                At CustomPackMakers, we intimately understand that your printed bookmarks act forcefully as your brand's most critical repetitive tactile advertisement within highly competitive, deeply engaged literary spaces. To definitively ensure your promotional messages completely dominate overwhelming reader attention gracefully, we strictly deploy breathtakingly precise advanced printing presses flawlessly paired perfectly with exceptionally hefty premium cardstock engineering. Our exceedingly talented printing experts systematically innovate incredibly brilliant double-sided design applications efficiently eliminating wasted blank space entirely, exceptionally clean micro-perforated edges definitively preventing sudden embarrassing paper fraying, and exceedingly luxurious soft-touch coatings strictly calibrated perfectly to practically demand continuous pleasurable thumb rubbing. By flawlessly embedding these phenomenal tactical enhancements directly into your fundamental reading accessories, we practically guarantee breathtaking customer memory generation instantly.
+                                At CustomPackMakers, we intimately understand that your printed bookmarks act forcefully as your brand's most critical repetitive tactile advertisement within highly competitive, deeply engaged literary spaces. To definitively ensure your promotional messages completely dominate overwhelming reader attention gracefully, we strictly deploy breathtakingly precise advanced printing presses flawlessly paired perfectly with exceptionally hefty premium cardstock engineering. Our exceedingly talented printing experts systematically innovate incredibly brilliant double-sided design applications efficiently eliminating wasted blank space entirely, exceptionally clean micro-perforated edges definitively preventing sudden embarrassing.
                             </p>
                         </div>
                     </div>

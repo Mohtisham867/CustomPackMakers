@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHeroImage from "@/assets/stationery-boxes/pen-gift-box.png";
+import penGiftBoxesHero from "@/assets/stationery-boxes/pen-gift-box.png";
+import penGiftBoxes1 from "@/assets/stationery-boxes/pen-gift-box/img-1.png";
+import penGiftBoxes2 from "@/assets/stationery-boxes/pen-gift-box/img-2.png";
+import penGiftBoxes3 from "@/assets/stationery-boxes/pen-gift-box/img-3.png";
+import penGiftBoxes4 from "@/assets/stationery-boxes/pen-gift-box/img-4.png";
+import penGiftBoxes5 from "@/assets/stationery-boxes/pen-gift-box/img-5.png";
+import penGiftBoxes6 from "@/assets/stationery-boxes/pen-gift-box/img-whychoose.png";
+import penGiftBoxes7 from "@/assets/stationery-boxes/pen-gift-box/img-different.png";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const PenGiftBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHeroImage, alt: "Custom Pen Gift Boxes - Main View" },
-        { src: productHeroImage, alt: "Custom Pen Gift Boxes - Angle View" },
-        { src: productHeroImage, alt: "Custom Pen Gift Boxes - Inside Fitment" },
-        { src: productHeroImage, alt: "Custom Pen Gift Boxes - Quality Finish" },
-        { src: productHeroImage, alt: "Custom Pen Gift Boxes - Lifestyle Shot" },
+        { src: penGiftBoxes1, alt: "Custom Pen Gift Boxes - Main View" },
+        { src: penGiftBoxes2, alt: "Custom Pen Gift Boxes - Angle View" },
+        { src: penGiftBoxes3, alt: "Custom Pen Gift Boxes - Inside Fitment" },
+        { src: penGiftBoxes4, alt: "Custom Pen Gift Boxes - Quality Finish" },
+        { src: penGiftBoxes5, alt: "Custom Pen Gift Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -113,7 +120,7 @@ const PenGiftBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={penGiftBoxesHero}
                                     alt="Custom Pen Gift Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -368,7 +375,7 @@ const PenGiftBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={penGiftBoxes6}
                                     alt="Premium Custom Pen Gift Boxes Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -403,7 +410,7 @@ const PenGiftBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={penGiftBoxes7}
                                     alt="Differentiate Your Luxury Pens"
                                     className="w-full h-full object-cover"
                                 />

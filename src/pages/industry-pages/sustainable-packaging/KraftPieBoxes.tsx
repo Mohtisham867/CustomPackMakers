@@ -31,7 +31,14 @@ import { RelatedProductSustainable } from "@/components/RelatedProductSustainabl
 
 
 // Specific product images
-import productHeroImage from "@/assets/sustainable-packaging/kraft-pie-boxes.webp";
+import kraftPieBoxesHero from "@/assets/sustainable-packaging/kraft-pie-boxes/img-hero.png";
+import kraftPieBoxes1 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-1.png";
+import kraftPieBoxes2 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-2.png";
+import kraftPieBoxes3 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-3.png";
+import kraftPieBoxes4 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-4.png";
+import kraftPieBoxes5 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-5.png";
+import kraftPieBoxes6 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-whychoose.png";
+import kraftPieBoxes7 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-different.png";
 
 
 //FAQ image
@@ -44,11 +51,11 @@ const KraftPieBoxes = () => {
 
     // Product images for gallery
     const productImages = [
-        { src: productHeroImage, alt: "Kraft Pie Boxes - Main View" },
-        { src: productHeroImage, alt: "Kraft Pie Boxes - Window View" },
-        { src: productHeroImage, alt: "Kraft Pie Boxes - Open Box" },
-        { src: productHeroImage, alt: "Kraft Pie Boxes - Detail Shot" },
-        { src: productHeroImage, alt: "Kraft Pie Boxes - Lifestyle Shot" },
+        { src: kraftPieBoxes1, alt: "Kraft Pie Boxes - Main View" },
+        { src: kraftPieBoxes2, alt: "Kraft Pie Boxes - Window View" },
+        { src: kraftPieBoxes3, alt: "Kraft Pie Boxes - Open Box" },
+        { src: kraftPieBoxes4, alt: "Kraft Pie Boxes - Detail Shot" },
+        { src: kraftPieBoxes5, alt: "Kraft Pie Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -121,7 +128,7 @@ const KraftPieBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftPieBoxesHero}
                                     alt="Kraft Pie Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -392,7 +399,7 @@ const KraftPieBoxes = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftPieBoxes6}
                                     alt="Sustainable Kraft Bakery Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -433,7 +440,7 @@ const KraftPieBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftPieBoxes7}
                                     alt="Differentiate Your Eco Brand"
                                     className="w-full h-full object-cover"
                                 />

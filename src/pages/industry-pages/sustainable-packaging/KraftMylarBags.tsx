@@ -30,7 +30,14 @@ import { Plus, Minus } from "lucide-react";
 import { RelatedProductSustainable } from "@/components/RelatedProductSustainable";
 
 // Specific product images
-import productHeroImage from "@/assets/sustainable-packaging/kraft-mylar-bags.webp";
+import kraftMylarBagsHero from "@/assets/sustainable-packaging/kraft-mylar-bags/img-hero.png";
+import kraftMylarBags1 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-1.png";
+import kraftMylarBags2 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-2.png";
+import kraftMylarBags3 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-3.png";
+import kraftMylarBags4 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-4.png";
+import kraftMylarBags5 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-5.png";
+import kraftMylarBags6 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-whychoose.png";
+import kraftMylarBags7 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-different.png";
 
 //FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -40,11 +47,11 @@ const KraftMylarBags = () => {
 
     // Product images for gallery
     const productImages = [
-        { src: productHeroImage, alt: "Kraft Mylar Bags - Main View" },
-        { src: productHeroImage, alt: "Kraft Mylar Bags - Front Angle" },
-        { src: productHeroImage, alt: "Kraft Mylar Bags - Sealed View" },
-        { src: productHeroImage, alt: "Kraft Mylar Bags - Detail Shot" },
-        { src: productHeroImage, alt: "Kraft Mylar Bags - Lifestyle Shot" },
+        { src: kraftMylarBags1, alt: "Kraft Mylar Bags - Main View" },
+        { src: kraftMylarBags2, alt: "Kraft Mylar Bags - Front Angle" },
+        { src: kraftMylarBags3, alt: "Kraft Mylar Bags - Sealed View" },
+        { src: kraftMylarBags4, alt: "Kraft Mylar Bags - Detail Shot" },
+        { src: kraftMylarBags5, alt: "Kraft Mylar Bags - Lifestyle Shot" },
     ];
 
     return (
@@ -117,7 +124,7 @@ const KraftMylarBags = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftMylarBagsHero}
                                     alt="Kraft Mylar Bags Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -388,7 +395,7 @@ const KraftMylarBags = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftMylarBags6}
                                     alt="Sustainable Kraft Mylar Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -429,7 +436,7 @@ const KraftMylarBags = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftMylarBags7}
                                     alt="Differentiate Your Eco Brand"
                                     className="w-full h-full object-cover"
                                 />

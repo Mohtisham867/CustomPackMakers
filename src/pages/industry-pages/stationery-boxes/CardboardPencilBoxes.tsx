@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHeroImage from "@/assets/stationery-boxes/cardboard-pencil-boxes.webp";
+import cardboardPencilBoxesHero from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-hero.png";
+import cardboardPencilBoxes1 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-1.png";
+import cardboardPencilBoxes2 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-2.png";
+import cardboardPencilBoxes3 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-3.png";
+import cardboardPencilBoxes4 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-4.png";
+import cardboardPencilBoxes5 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-5.png";
+import cardboardPencilBoxes6 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-whychoose.png";
+import cardboardPencilBoxes7 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-different.png";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const CardboardPencilBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHeroImage, alt: "Custom Cardboard Pencil Boxes - Main View" },
-        { src: productHeroImage, alt: "Custom Cardboard Pencil Boxes - Angle View" },
-        { src: productHeroImage, alt: "Custom Cardboard Pencil Boxes - Inside Protection" },
-        { src: productHeroImage, alt: "Custom Cardboard Pencil Boxes - Eco Finish" },
-        { src: productHeroImage, alt: "Custom Cardboard Pencil Boxes - Educational Setting" },
+        { src: cardboardPencilBoxes1, alt: "Custom Cardboard Pencil Boxes - Main View" },
+        { src: cardboardPencilBoxes2, alt: "Custom Cardboard Pencil Boxes - Angle View" },
+        { src: cardboardPencilBoxes3, alt: "Custom Cardboard Pencil Boxes - Inside Protection" },
+        { src: cardboardPencilBoxes4, alt: "Custom Cardboard Pencil Boxes - Eco Finish" },
+        { src: cardboardPencilBoxes5, alt: "Custom Cardboard Pencil Boxes - Educational Setting" },
     ];
 
     return (
@@ -113,7 +120,7 @@ const CardboardPencilBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={cardboardPencilBoxesHero}
                                     alt="Custom Cardboard Pencil Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -367,7 +374,7 @@ const CardboardPencilBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={cardboardPencilBoxes6}
                                     alt="Premium Custom Cardboard Pencil Boxes Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -402,7 +409,7 @@ const CardboardPencilBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={cardboardPencilBoxes7}
                                     alt="Differentiate Your Educational Supplies"
                                     className="w-full h-full object-cover"
                                 />

@@ -28,19 +28,25 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productImage from "@/assets/weed_boxes/weed-subscription-box.webp";
-import heroImage from "@/assets/weed_boxes/weed-boxes-hero.webp";
+import weedSubscriptionBoxImagehero from "@/assets/weed_boxes/weed-subscription-box/img-hero.png";
+import weedSubscriptionBoxImage1 from "@/assets/weed_boxes/weed-subscription-box/img-1.png";
+import weedSubscriptionBoxImage2 from "@/assets/weed_boxes/weed-subscription-box/img-2.png";
+import weedSubscriptionBoxImage3 from "@/assets/weed_boxes/weed-subscription-box/img-3.png";
+import weedSubscriptionBoxImage4 from "@/assets/weed_boxes/weed-subscription-box/img-4.png";
+import weedSubscriptionBoxImage5 from "@/assets/weed_boxes/weed-subscription-box/img-5.png";
+import weedSubscriptionBoxImage6 from "@/assets/weed_boxes/weed-subscription-box/img-whychoose.png";
+import weedSubscriptionBoxImage7 from "@/assets/weed_boxes/weed-subscription-box/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const WeedSubscriptionBox = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productImage, alt: "Weed Subscription Box - Main View" },
-        { src: productImage, alt: "Weed Subscription Box - Side Angle" },
-        { src: productImage, alt: "Weed Subscription Box - Open Box View" },
-        { src: productImage, alt: "Weed Subscription Box - Detail Shot" },
-        { src: heroImage, alt: "Weed Subscription Box - Lifestyle Shot" },
+        { src: weedSubscriptionBoxImage1, alt: "Weed Subscription Box - Main View" },
+        { src: weedSubscriptionBoxImage2, alt: "Weed Subscription Box - Side Angle" },
+        { src: weedSubscriptionBoxImage3, alt: "Weed Subscription Box - Open Box View" },
+        { src: weedSubscriptionBoxImage4, alt: "Weed Subscription Box - Detail Shot" },
+        { src: weedSubscriptionBoxImage5, alt: "Weed Subscription Box - Lifestyle Shot" },
     ];
 
     return (
@@ -108,7 +114,7 @@ const WeedSubscriptionBox = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productImage}
+                                    src={weedSubscriptionBoxImagehero}
                                     alt="Weed Subscription Box Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -352,7 +358,7 @@ const WeedSubscriptionBox = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productImage}
+                                    src={weedSubscriptionBoxImage6}
                                     alt="Premium Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -384,7 +390,7 @@ const WeedSubscriptionBox = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={heroImage}
+                                    src={weedSubscriptionBoxImage7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

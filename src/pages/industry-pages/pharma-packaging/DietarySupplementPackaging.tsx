@@ -29,18 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import dietarySupplementPackaging from "@/assets/pharma-packaging/dietary_supplement_packaging.webp";
+import dietarySupplementPackaginghero from "@/assets/pharma-packaging/dietary_supplement_packaging/img-hero.png";
+import dietarySupplementPackagingimg1 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-1.png";
+import dietarySupplementPackagingimg2 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-2.png";
+import dietarySupplementPackagingimg3 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-3.png";
+import dietarySupplementPackagingimg4 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-4.png";
+import dietarySupplementPackagingimg5 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-5.png";
+import dietarySupplementPackagingimg6 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-whychoose.png";
+import dietarySupplementPackagingimg7 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const DietarySupplementPackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: dietarySupplementPackaging, alt: "Dietary Supplement Packaging - Main View" },
-        { src: dietarySupplementPackaging, alt: "Dietary Supplement Packaging - Side Angle" },
-        { src: dietarySupplementPackaging, alt: "Dietary Supplement Packaging - Open Box View" },
-        { src: dietarySupplementPackaging, alt: "Dietary Supplement Packaging - Detail Shot" },
-        { src: dietarySupplementPackaging, alt: "Dietary Supplement Packaging - Lifestyle Shot" },
+        { src: dietarySupplementPackagingimg1, alt: "Dietary Supplement Packaging - Main View" },
+        { src: dietarySupplementPackagingimg2, alt: "Dietary Supplement Packaging - Side Angle" },
+        { src: dietarySupplementPackagingimg3, alt: "Dietary Supplement Packaging - Open Box View" },
+        { src: dietarySupplementPackagingimg4, alt: "Dietary Supplement Packaging - Detail Shot" },
+        { src: dietarySupplementPackagingimg5, alt: "Dietary Supplement Packaging - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +118,7 @@ const DietarySupplementPackaging = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={dietarySupplementPackaging}
+                                    src={dietarySupplementPackaginghero}
                                     alt="Dietary Supplement Packaging Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -388,7 +395,7 @@ const DietarySupplementPackaging = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={dietarySupplementPackaging}
+                                    src={dietarySupplementPackagingimg6}
                                     alt="Premium Dietary Supplement Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -422,7 +429,7 @@ const DietarySupplementPackaging = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={dietarySupplementPackaging}
+                                    src={dietarySupplementPackagingimg7}
                                     alt="Differentiate Your Nutritional Supplements"
                                     className="w-full h-full object-cover"
                                 />

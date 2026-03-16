@@ -28,19 +28,25 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productImage from "@/assets/vape-boxes/Cannabis Vape Packaging.png";
-import heroImage from "@/assets/vape-boxes/vape-boxes-hero.webp";
+import cannabisvapepackagingImagehero from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-hero.png";
+import cannabisvapepackagingImage1 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-1.png";
+import cannabisvapepackagingImage2 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-2.png";
+import cannabisvapepackagingImage3 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-3.png";
+import cannabisvapepackagingImage4 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-4.png";
+import cannabisvapepackagingImage5 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-5.png";
+import cannabisvapepackagingImage6 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-whychoose.png";
+import cannabisvapepackagingImage7 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CannabisVapePackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productImage, alt: "Cannabis Vape Packaging - Main View" },
-        { src: productImage, alt: "Cannabis Vape Packaging - Side Angle" },
-        { src: productImage, alt: "Cannabis Vape Packaging - Open Box View" },
-        { src: productImage, alt: "Cannabis Vape Packaging - Detail Shot" },
-        { src: heroImage, alt: "Cannabis Vape Packaging - Lifestyle Shot" },
+        { src: cannabisvapepackagingImage1, alt: "Cannabis Vape Packaging - Main View" },
+        { src: cannabisvapepackagingImage2, alt: "Cannabis Vape Packaging - Side Angle" },
+        { src: cannabisvapepackagingImage3, alt: "Cannabis Vape Packaging - Open Box View" },
+        { src: cannabisvapepackagingImage4, alt: "Cannabis Vape Packaging - Detail Shot" },
+        { src: cannabisvapepackagingImage5, alt: "Cannabis Vape Packaging - Lifestyle Shot" },
     ];
 
     return (
@@ -108,7 +114,7 @@ const CannabisVapePackaging = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productImage}
+                                    src={cannabisvapepackagingImagehero}
                                     alt="Cannabis Vape Packaging Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -354,7 +360,7 @@ const CannabisVapePackaging = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productImage}
+                                    src={cannabisvapepackagingImage6}
                                     alt="Premium Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -386,7 +392,7 @@ const CannabisVapePackaging = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={heroImage}
+                                    src={cannabisvapepackagingImage7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

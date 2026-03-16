@@ -5,32 +5,41 @@ import { QuoteForm } from "@/components/QuoteForm";
 import { BrandRating } from "@/components/BrandRating";
 import { Card, CardContent } from "@/components/ui/card";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { RelatedProductDisplayBoxes } from "@/components/RelatedProductDisplayBoxes";
+import { RelatedProductPreRoll } from "@/components/RelatedProductPreRoll";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImg from "@/assets/display-boxes/custom-pre-roll-display-boxes.webp";
-import displayImg from "@/assets/display-boxes/display-boxes-hero.webp";
-import vapeImg from "@/assets/display-boxes/vape-display-boxes.webp";
-import cbdImg from "@/assets/display-boxes/cbd-display-boxes.webp";
+// Product Images (dedicated assets)
+import prerolldisplayhero from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-hero.png";
+import prerolldisplayimg1 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-1.png";
+import prerolldisplayimg2 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-2.png";
+import prerolldisplayimg3 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-3.png";
+import prerolldisplayimg4 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-4.png";
+import prerolldisplayimg5 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-5.png";
+import prerolldisplayimgWhyChoose from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-whychoose.png";
+import prerolldisplayimgDifferent from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CustomPreRollDisplayBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
-    const overviewTitle = "High-Visibility Pre-Roll Display Packaging for Dispensaries & Retailers";
+    const location = useLocation();
+
+    // Dynamic breadcrumb logic based on current URL path
+    const isIndustries = location.pathname.startsWith("/industries");
 
     const productImages = [
-        { src: heroImg, alt: "Pre-Roll Display Box - Main View" },
-        { src: displayImg, alt: "Cannabis Packaging - Retail View" },
-        { src: vapeImg, alt: "Vape & Pre-Roll Display Combo" },
-        { src: cbdImg, alt: "CBD Pre-Roll Display - Detail" },
-        { src: heroImg, alt: "Pre-Roll Box - Counter Setup" },
+        { src: prerolldisplayimg1, alt: "Custom Pre-Roll Display Boxes - Main View" },
+        { src: prerolldisplayimg2, alt: "Custom Pre-Roll Display Boxes - Side Angle" },
+        { src: prerolldisplayimg3, alt: "Custom Pre-Roll Display Boxes - Open View" },
+        { src: prerolldisplayimg4, alt: "Custom Pre-Roll Display Boxes - Detail Shot" },
+        { src: prerolldisplayimg5, alt: "Custom Pre-Roll Display Boxes - Lifestyle Shot" },
     ];
 
     const faqs = [
@@ -38,7 +47,7 @@ const CustomPreRollDisplayBoxes = () => {
         { id: "item-2", q: "Are these displays compliant with cannabis packaging regulations?", a: "Yes, we use CRL (Child Resistant) design principles where requested and provide ample surface area for state-mandated warning labels and THC/CBD potency information without obscuring your branding." },
         { id: "item-3", q: "Can I get a display with a built-in tester slot?", a: "Absolutely. We can engineer a dedicated front-row tester slot or a secure 'display-only' section that allows customers to view the product while keeping the sellable inventory protected." },
         { id: "item-4", q: "What materials ensure the best shelf stability?", a: "For counter placement, we highly recommend our 24pt SBS cardstock or E-flute corrugated board. These provide the 'pop-up' rigidity needed for interactive retail environments." },
-        { id: "item-5", q: "Do you offer holographic or metallic finishes?", a: "To stand out in a crowded dispensary, we offer holographic lamination, rainbow foil, and high-build spot UV. these 'Exotic' finishes are perfect for premium flower lines." }
+        { id: "item-5", q: "Do you offer holographic or metallic finishes?", a: "To stand out in a crowded dispensary, we offer holographic lamination, rainbow foil, and high-build spot UV. These 'Exotic' finishes are perfect for premium flower lines." }
     ];
 
     return (
@@ -49,15 +58,26 @@ const CustomPreRollDisplayBoxes = () => {
             </Helmet>
             <Header />
 
+            {/* Dynamic Breadcrumb */}
             <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
                 <div className="container mx-auto px-[30px] py-4">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem><BreadcrumbLink asChild><Link to="/">Home</Link></BreadcrumbLink></BreadcrumbItem>
                             <BreadcrumbSeparator />
-                            <BreadcrumbItem><BreadcrumbLink asChild><Link to="/shapes-styles">Shapes & Styles</Link></BreadcrumbLink></BreadcrumbItem>
-                            <BreadcrumbSeparator />
-                            <BreadcrumbItem><BreadcrumbLink asChild><Link to="/shapes-styles/display-boxes">Display Boxes</Link></BreadcrumbLink></BreadcrumbItem>
+                            {isIndustries ? (
+                                <>
+                                    <BreadcrumbItem><BreadcrumbLink asChild><Link to="/industries">Industries</Link></BreadcrumbLink></BreadcrumbItem>
+                                    <BreadcrumbSeparator />
+                                    <BreadcrumbItem><BreadcrumbLink asChild><Link to="/industries/pre-roll-boxes">Pre Roll Boxes</Link></BreadcrumbLink></BreadcrumbItem>
+                                </>
+                            ) : (
+                                <>
+                                    <BreadcrumbItem><BreadcrumbLink asChild><Link to="/shapes-styles">Shapes & Styles</Link></BreadcrumbLink></BreadcrumbItem>
+                                    <BreadcrumbSeparator />
+                                    <BreadcrumbItem><BreadcrumbLink asChild><Link to="/shapes-styles/display-boxes">Display Boxes</Link></BreadcrumbLink></BreadcrumbItem>
+                                </>
+                            )}
                             <BreadcrumbSeparator />
                             <BreadcrumbItem><BreadcrumbPage>Custom Pre-Roll Display Boxes</BreadcrumbPage></BreadcrumbItem>
                         </BreadcrumbList>
@@ -84,7 +104,7 @@ const CustomPreRollDisplayBoxes = () => {
                             </div>
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
-                            <img src={heroImg} alt="Pre-Roll Display Box Hero" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            <img src={prerolldisplayhero} alt="Pre-Roll Display Box Hero" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                         </div>
                     </div>
                 </div>
@@ -97,7 +117,7 @@ const CustomPreRollDisplayBoxes = () => {
                         <div className="w-10 h-1 bg-primary rounded-full" />
                         <span className="text-xs font-semibold tracking-widest text-primary uppercase">Product Overview</span>
                     </div>
-                    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 max-w-3xl">{overviewTitle}</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 max-w-3xl">High-Visibility Pre-Roll Display Packaging for Dispensaries & Retailers</h2>
                     <div className="text-muted-foreground leading-relaxed text-[15px] space-y-4 max-w-5xl">
                         <p>Our <strong className="text-foreground">custom pre-roll display boxes</strong> are the industry standard for dispensary presentation. In a market where brand recognition is everything, our countertop displays ensure your product is the first thing customers see. Each unit is engineered from premium E-flute corrugated or thick 24pt cardstock, providing the durability needed for busy retail environments.</p>
                         <p>We specialize in <strong className="text-foreground">dispensary-grade packaging</strong> that balances compliance with creativity. From gravity-fed dispensers to tiered display racks with precision-cut tube inserts, we provide the technical solutions to your retail challenges. Order wholesale with our 8–10 day turnaround and free shipping on all US orders.</p>
@@ -156,7 +176,7 @@ const CustomPreRollDisplayBoxes = () => {
                             <p>Pre-roll tubes are notoriously difficult to display without them tipping or looking disorganized. We use precision die-cutting to create individual 'locking slots' or tiered platforms that maintain perfect vertical alignment. This ensures that even as the display empties, the remaining product stays upright and presentable.</p>
                             <ul>
                                 <li><strong>Tiered Layouts:</strong> Provides maximum visibility for every single tube.</li>
-                                <li><strong>locking Inserts:</strong> Prevents tubes from rattling or falling during transit.</li>
+                                <li><strong>Locking Inserts:</strong> Prevents tubes from rattling or falling during transit.</li>
                                 <li><strong>Quick-Assemble Design:</strong> Ready for the retail floor in under 30 seconds.</li>
                             </ul>
                             <h3>Brand Differentiation in a Crowded Market</h3>
@@ -166,16 +186,15 @@ const CustomPreRollDisplayBoxes = () => {
                 </div>
             </section>
 
-            <RelatedProductDisplayBoxes />
+            {/* RELATED PRODUCTS - Dynamic based on route */}
+            {isIndustries ? <RelatedProductPreRoll /> : <RelatedProductDisplayBoxes />}
 
             {/* WHY CHOOSE US SECTION */}
             <section className="py-12 relative overflow-hidden" style={{ background: 'linear-gradient(160deg, #fafafa 0%, #f4f6ff 60%, #f0fdf8 100%)' }}>
-                {/* Subtle decorative blobs */}
                 <div className="absolute top-0 left-0 w-80 h-80 bg-primary/4 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl pointer-events-none" />
                 <div className="absolute bottom-0 right-0 w-96 h-96 bg-emerald-300/8 rounded-full translate-x-1/3 translate-y-1/3 blur-3xl pointer-events-none" />
 
                 <div className="container mx-auto px-[30px] relative z-10">
-                    {/* Centered Section Header */}
                     <div className="text-center mb-14">
                         <span className="inline-block text-xs font-semibold tracking-widest text-primary uppercase mb-3 bg-primary/10 px-4 py-1.5 rounded-full">Our Promise</span>
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 leading-tight">
@@ -187,10 +206,7 @@ const CustomPreRollDisplayBoxes = () => {
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 xl:gap-24 items-start">
-
-                        {/* LEFT: Luxury editorial typography */}
                         <div className="space-y-5">
-
                             {/* Feature 1 */}
                             <div className="flex gap-6 items-start group">
                                 <div className="flex-shrink-0 mt-1">
@@ -201,18 +217,13 @@ const CustomPreRollDisplayBoxes = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 className="text-lg font-bold text-slate-900 mb-2 tracking-tight">
-                                        Maximized Retail Visibility
-                                    </h3>
+                                    <h3 className="text-lg font-bold text-slate-900 mb-2 tracking-tight">Maximized Retail Visibility</h3>
                                     <p className="text-sm text-slate-500 leading-relaxed">
                                         Our custom display boxes are engineered to dominate retail space. We utilize high-impact header boards and tiered designs that keep products at the primary focal point, significantly increasing impulse purchase rates and overall brand visibility.
                                     </p>
                                 </div>
                             </div>
-
-                            {/* Thin divider */}
                             <div className="w-full h-px bg-slate-100" />
-
                             {/* Feature 2 */}
                             <div className="flex gap-6 items-start group">
                                 <div className="flex-shrink-0 mt-1">
@@ -223,18 +234,13 @@ const CustomPreRollDisplayBoxes = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 className="text-lg font-bold text-slate-900 mb-2 tracking-tight">
-                                        Elite Structural Engineering
-                                    </h3>
+                                    <h3 className="text-lg font-bold text-slate-900 mb-2 tracking-tight">Elite Structural Engineering</h3>
                                     <p className="text-sm text-slate-500 leading-relaxed">
                                         Built from high-caliper cardstock, our displays offer unmatched structural strength. Each unit is precision-cut to maintain integrity under product weight, ensuring your brand maintains a professional presence throughout the high-traffic retail cycle without sagging.
                                     </p>
                                 </div>
                             </div>
-
-                            {/* Thin divider */}
                             <div className="w-full h-px bg-slate-100" />
-
                             {/* Feature 3 */}
                             <div className="flex gap-6 items-start group">
                                 <div className="flex-shrink-0 mt-1">
@@ -245,9 +251,7 @@ const CustomPreRollDisplayBoxes = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 className="text-lg font-bold text-slate-900 mb-2 tracking-tight">
-                                        Premium Custom Finishing
-                                    </h3>
+                                    <h3 className="text-lg font-bold text-slate-900 mb-2 tracking-tight">Premium Custom Finishing</h3>
                                     <p className="text-sm text-slate-500 leading-relaxed">
                                         Elevate your retail presence with premium finishing. From vibrant offset printing to luxury spot UV and soft-touch lamination, we provide the aesthetic depth required to outshine competitors, delivering a cohesive, high-end presentation that reflects quality.
                                     </p>
@@ -257,17 +261,22 @@ const CustomPreRollDisplayBoxes = () => {
 
                         {/* RIGHT: High-impact visual */}
                         <div className="relative flex items-center justify-center py-8">
-                            <div className="relative w-full max-w-[480px] aspect-square rounded-3xl overflow-hidden shadow-2xl group">
-                                <img
-                                    src={heroImg}
-                                    alt="High-Performance Display Boxes"
-                                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                                />
+                            <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
+                                <img src={prerolldisplayimgWhyChoose} alt="Premium Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
-                                    <p className="text-white font-bold text-lg leading-snug mb-1">Retail Visibility Authority</p>
-                                    <p className="text-white/75 text-sm">Trusted by 500+ brands for high-impact point-of-sale displays.</p>
+                                    <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
+                                    <p className="text-white/75 text-sm">Delivering premium packaging across North America</p>
                                 </div>
+                            </div>
+                            {/* Badges */}
+                            <div className="absolute top-4 -right-2 lg:-right-6 bg-white rounded-2xl shadow-xl px-5 py-4 border border-slate-100/80 backdrop-blur-sm">
+                                <p className="text-2xl font-bold text-primary leading-none">98%</p>
+                                <p className="text-xs text-slate-400 mt-1 font-medium">Satisfaction Rate</p>
+                            </div>
+                            <div className="absolute bottom-4 -left-2 lg:-left-6 bg-white rounded-2xl shadow-xl px-5 py-4 border border-slate-100/80 backdrop-blur-sm">
+                                <p className="text-2xl font-bold text-emerald-500 leading-none">8–10</p>
+                                <p className="text-xs text-slate-400 mt-1 font-medium">Day Turnaround</p>
                             </div>
                         </div>
                     </div>
@@ -278,8 +287,13 @@ const CustomPreRollDisplayBoxes = () => {
             <section className="py-10 lg:py-12 bg-white overflow-hidden relative">
                 <div className="container mx-auto px-[5vw]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-                        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl">
-                            <img src={heroImg} alt="Differentiate Your Cannabis Brand" className="w-full h-full object-cover" />
+                        <div className="relative group">
+                            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
+                                <img src={prerolldisplayimgDifferent} alt="Differentiate Your Cannabis Brand" className="w-full h-full object-cover" />
+                                <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
+                            </div>
+                            <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />
+                            <div className="absolute -z-10 -top-8 -right-8 w-40 h-40 bg-secondary/10 rounded-full blur-3xl opacity-60" />
                         </div>
                         <div className="space-y-6 lg:pl-10">
                             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight">Differentiate Your <span className="text-primary">Cannabis Brand</span> From Others</h2>
@@ -297,10 +311,10 @@ const CustomPreRollDisplayBoxes = () => {
                             <h2 className="text-2xl md:text-3xl font-bold text-foreground">Frequently Asked Questions</h2>
                             <Accordion type="single" collapsible defaultValue="item-1" className="w-full space-y-2">
                                 {faqs.map((faq) => (
-                                    <AccordionItem key={faq.id} value={faq.id} className="border border-slate-200 rounded-lg bg-white overflow-hidden data-[state=open]:border-primary transition-all duration-300">
+                                    <AccordionItem key={faq.id} value={faq.id} className="border border-slate-200 rounded-lg bg-white overflow-hidden data-[state=open]:border-primary data-[state=open]:ring-1 data-[state=open]:ring-primary/20 data-[state=open]:bg-primary/5 transition-all duration-300">
                                         <AccordionTrigger className="px-5 py-3 hover:no-underline [&>svg]:hidden group">
                                             <span className="text-left font-semibold text-foreground text-base">{faq.q}</span>
-                                            <div className="shrink-0 ml-4 p-1 rounded-full bg-slate-100 group-data-[state=open]:bg-primary group-data-[state=open]:text-white trasition-colors duration-200">
+                                            <div className="shrink-0 ml-4 p-1 rounded-full bg-slate-100 group-data-[state=open]:bg-primary group-data-[state=open]:text-white transition-colors duration-200">
                                                 <Plus className="h-3 w-3 group-data-[state=open]:hidden" />
                                                 <Minus className="h-3 w-3 hidden group-data-[state=open]:block" />
                                             </div>

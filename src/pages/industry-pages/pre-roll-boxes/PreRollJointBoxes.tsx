@@ -14,17 +14,24 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { RelatedProductPreRoll } from "@/components/RelatedProductPreRoll";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
-import productImage from "@/assets/pre-roll-boxes/pre-roll-joint-boxes.webp";
+import prerolljointhero from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-hero.png";
+import prerolljointimg1 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-1.png";
+import prerolljointimg2 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-2.png";
+import prerolljointimg3 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-3.png";
+import prerolljointimg4 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-4.png";
+import prerolljointimg5 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-5.png";
+import prerolljointimg6 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-whychoose.png";
+import prerolljointimg7 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const PreRollJointBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
     const productImages = [
-        { src: productImage, alt: "Pre Roll Joint Boxes - Main View" },
-        { src: productImage, alt: "Pre Roll Joint Boxes - Side Angle" },
-        { src: productImage, alt: "Pre Roll Joint Boxes - Open View" },
-        { src: productImage, alt: "Pre Roll Joint Boxes - Detail Shot" },
-        { src: productImage, alt: "Pre Roll Joint Boxes - Lifestyle Shot" },
+        { src: prerolljointimg1, alt: "Pre Roll Joint Boxes - Main View" },
+        { src: prerolljointimg2, alt: "Pre Roll Joint Boxes - Side Angle" },
+        { src: prerolljointimg3, alt: "Pre Roll Joint Boxes - Open View" },
+        { src: prerolljointimg4, alt: "Pre Roll Joint Boxes - Detail Shot" },
+        { src: prerolljointimg5, alt: "Pre Roll Joint Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -69,7 +76,7 @@ const PreRollJointBoxes = () => {
                         </div>
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0">
-                                <img src={productImage} alt="Pre Roll Joint Boxes Hero" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                                <img src={prerolljointhero} alt="Pre Roll Joint Boxes Hero" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                             </div>
                         </div>
                     </div>
@@ -187,7 +194,7 @@ const PreRollJointBoxes = () => {
                         </div>
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productImage} alt="Premium Joint Box Packaging" className="w-full h-full object-cover" />
+                                <img src={prerolljointimg6} alt="Premium Joint Box Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7"><p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p><p className="text-white/75 text-sm">Delivering premium packaging across North America</p></div>
                             </div>
@@ -203,7 +210,7 @@ const PreRollJointBoxes = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productImage} alt="Differentiate Your Joint Box Packaging" className="w-full h-full object-cover" />
+                                <img src={prerolljointimg7} alt="Differentiate Your Joint Box Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                         </div>

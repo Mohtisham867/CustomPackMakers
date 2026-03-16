@@ -29,8 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Custom Golf Ball Boxes
-import productImage from "@/assets/sports-boxes/custom-golf-ball-boxes.webp";
-import golfHero from "@/assets/sports-boxes/sports-boxes-hero.webp";
+import golfHero from "@/assets/sports-boxes/custom-golf-ball-boxes/img-hero.png";
+import golf1 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-1.png";
+import golf2 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-2.png";
+import golf3 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-3.png";
+import golf4 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-4.png";
+import golf5 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-5.png";
+import golf6 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-whychoose.png";
+import golf7 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-different.png";
 
 //FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -40,11 +46,11 @@ const CustomGolfBallBoxes = () => {
 
     // Product images for gallery (5 thumbs as requested)
     const productImages = [
-        { src: productImage, alt: "Custom Golf Ball Boxes - Premium View" },
-        { src: golfHero, alt: "Custom Golf Ball Boxes - Detail View" },
-        { src: productImage, alt: "Custom Golf Ball Boxes - Internal Divider Shot" },
-        { src: golfHero, alt: "Custom Golf Ball Boxes - Multi-pack Layout" },
-        { src: productImage, alt: "Custom Golf Ball Boxes - Retail Shelf View" },
+        { src: golf1, alt: "Custom Golf Ball Boxes - Premium View" },
+        { src: golf2, alt: "Custom Golf Ball Boxes - Detail View" },
+        { src: golf3, alt: "Custom Golf Ball Boxes - Internal Divider Shot" },
+        { src: golf4, alt: "Custom Golf Ball Boxes - Multi-pack Layout" },
+        { src: golf5, alt: "Custom Golf Ball Boxes - Retail Shelf View" },
     ];
 
     return (
@@ -112,7 +118,7 @@ const CustomGolfBallBoxes = () => {
 
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <img
-                                src={productImage}
+                                src={golfHero}
                                 alt="Custom Golf Ball Boxes Hero"
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
@@ -341,7 +347,7 @@ const CustomGolfBallBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={golfHero}
+                                    src={golf6}
                                     alt="Premium Golf Ball Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -363,7 +369,7 @@ const CustomGolfBallBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productImage}
+                                    src={golf7}
                                     alt="Differentiate Your Golf Brand"
                                     className="w-full h-full object-cover"
                                 />

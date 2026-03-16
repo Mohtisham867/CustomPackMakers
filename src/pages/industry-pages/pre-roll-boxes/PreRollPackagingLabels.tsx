@@ -29,18 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productImage from "@/assets/pre-roll-boxes/pre-roll-packaging-labels.webp";
+import prerollpackaginglabelhero from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-hero.png";
+import prerollpackaginglabelimg1 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-1.png";
+import prerollpackaginglabelimg2 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-2.png";
+import prerollpackaginglabelimg3 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-3.png";
+import prerollpackaginglabelimg4 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-4.png";
+import prerollpackaginglabelimg5 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-5.png";
+import prerollpackaginglabelimg6 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-whychoose.png";
+import prerollpackaginglabelimg7 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const PreRollPackagingLabels = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productImage, alt: "Pre Roll Packaging Labels - Main View" },
-        { src: productImage, alt: "Pre Roll Packaging Labels - Side Angle" },
-        { src: productImage, alt: "Pre Roll Packaging Labels - Open View" },
-        { src: productImage, alt: "Pre Roll Packaging Labels - Detail Shot" },
-        { src: productImage, alt: "Pre Roll Packaging Labels - Lifestyle Shot" },
+        { src: prerollpackaginglabelimg1, alt: "Pre Roll Packaging Labels - Main View" },
+        { src: prerollpackaginglabelimg2, alt: "Pre Roll Packaging Labels - Side Angle" },
+        { src: prerollpackaginglabelimg3, alt: "Pre Roll Packaging Labels - Open View" },
+        { src: prerollpackaginglabelimg4, alt: "Pre Roll Packaging Labels - Detail Shot" },
+        { src: prerollpackaginglabelimg5, alt: "Pre Roll Packaging Labels - Lifestyle Shot" },
     ];
 
     return (
@@ -109,7 +116,7 @@ const PreRollPackagingLabels = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productImage}
+                                    src={prerollpackaginglabelhero}
                                     alt="Pre Roll Packaging Labels Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -345,7 +352,7 @@ const PreRollPackagingLabels = () => {
                         {/* RIGHT: Image */}
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
-                                <img src={productImage} alt="Premium Packaging" className="w-full h-full object-cover" />
+                                <img src={prerollpackaginglabelimg6} alt="Premium Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-7">
                                     <p className="text-white font-bold text-lg leading-snug mb-1">Trusted by 500+ Brands</p>
@@ -372,7 +379,7 @@ const PreRollPackagingLabels = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
-                                <img src={productImage} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
+                                <img src={prerollpackaginglabelimg7} alt="Differentiate Your Packaging" className="w-full h-full object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                             </div>
                             <div className="absolute -z-10 -bottom-8 -left-8 w-40 h-40 bg-primary/10 rounded-full blur-3xl opacity-60" />

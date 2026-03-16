@@ -28,19 +28,25 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productImage from "@/assets/vape-boxes/vape-pen-boxes.webp";
-import heroImage from "@/assets/vape-boxes/vape-boxes-hero.webp";
+import vapepenboxImagehero from "@/assets/vape-boxes/vape-pen-boxes/img-hero.png";
+import vapepenboxImage1 from "@/assets/vape-boxes/vape-pen-boxes/img-1.png";
+import vapepenboxImage2 from "@/assets/vape-boxes/vape-pen-boxes/img-2.png";
+import vapepenboxImage3 from "@/assets/vape-boxes/vape-pen-boxes/img-3.png";
+import vapepenboxImage4 from "@/assets/vape-boxes/vape-pen-boxes/img-4.png";
+import vapepenboxImage5 from "@/assets/vape-boxes/vape-pen-boxes/img-5.png";
+import vapepenboxImage6 from "@/assets/vape-boxes/vape-pen-boxes/img-whychoose.png";
+import vapepenboxImage7 from "@/assets/vape-boxes/vape-pen-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const VapePenBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productImage, alt: "Vape Pen Boxes - Main View" },
-        { src: productImage, alt: "Vape Pen Boxes - Side Angle" },
-        { src: productImage, alt: "Vape Pen Boxes - Open Box View" },
-        { src: productImage, alt: "Vape Pen Boxes - Detail Shot" },
-        { src: heroImage, alt: "Vape Pen Boxes - Lifestyle Shot" },
+        { src: vapepenboxImage1, alt: "Vape Pen Boxes - Main View" },
+        { src: vapepenboxImage2, alt: "Vape Pen Boxes - Side Angle" },
+        { src: vapepenboxImage3, alt: "Vape Pen Boxes - Open Box View" },
+        { src: vapepenboxImage4, alt: "Vape Pen Boxes - Detail Shot" },
+        { src: vapepenboxImage5, alt: "Vape Pen Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -108,7 +114,7 @@ const VapePenBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productImage}
+                                    src={vapepenboxImagehero}
                                     alt="Vape Pen Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -354,7 +360,7 @@ const VapePenBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productImage}
+                                    src={vapepenboxImage6}
                                     alt="Premium Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -386,7 +392,7 @@ const VapePenBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={heroImage}
+                                    src={vapepenboxImage7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

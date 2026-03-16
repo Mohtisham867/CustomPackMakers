@@ -29,8 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Football Boxes
-import productImage from "@/assets/sports-boxes/football-boxes.webp";
-import footballHero from "@/assets/sports-boxes/sports-boxes-hero.webp";
+import footballHero from "@/assets/sports-boxes/football-boxes/img-hero.png";
+import football1 from "@/assets/sports-boxes/football-boxes/img-1.png";
+import football2 from "@/assets/sports-boxes/football-boxes/img-2.png";
+import football3 from "@/assets/sports-boxes/football-boxes/img-3.png";
+import football4 from "@/assets/sports-boxes/football-boxes/img-4.png";
+import football5 from "@/assets/sports-boxes/football-boxes/img-5.png";
+import football6 from "@/assets/sports-boxes/football-boxes/img-whychoose.png";
+import football7 from "@/assets/sports-boxes/football-boxes/img-different.png";
 
 //FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -40,11 +46,11 @@ const FootballBoxes = () => {
 
     // Product images for gallery (5 thumbs as requested)
     const productImages = [
-        { src: productImage, alt: "Custom Football Boxes - Premium View" },
-        { src: footballHero, alt: "Custom Football Boxes - Field Side Shot" },
-        { src: productImage, alt: "Custom Football Boxes - Material Texture" },
-        { src: footballHero, alt: "Custom Football Boxes - Bulk Shipping View" },
-        { src: productImage, alt: "Custom Football Boxes - Retail Display" },
+        { src: football1, alt: "Custom Football Boxes - Premium View" },
+        { src: football2, alt: "Custom Football Boxes - Field Side Shot" },
+        { src: football3, alt: "Custom Football Boxes - Material Texture" },
+        { src: football4, alt: "Custom Football Boxes - Bulk Shipping View" },
+        { src: football5, alt: "Custom Football Boxes - Retail Display" },
     ];
 
     return (
@@ -112,7 +118,7 @@ const FootballBoxes = () => {
 
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <img
-                                src={productImage}
+                                src={footballHero}
                                 alt="Custom Football Boxes Hero"
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
@@ -341,7 +347,7 @@ const FootballBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={footballHero}
+                                    src={football6}
                                     alt="Premium Football Equipment Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -363,7 +369,7 @@ const FootballBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productImage}
+                                    src={football7}
                                     alt="Differentiate Your Football Brand"
                                     className="w-full h-full object-cover"
                                 />

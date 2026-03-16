@@ -29,18 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import dispenserBoxes from "@/assets/pharma-packaging/dispenser-boxes.webp";
+import dispenserBoxeshero from "@/assets/pharma-packaging/dispenser-boxes/img-hero.png";
+import dispenserBoxesimg1 from "@/assets/pharma-packaging/dispenser-boxes/img-1.png";
+import dispenserBoxesimg2 from "@/assets/pharma-packaging/dispenser-boxes/img-2.png";
+import dispenserBoxesimg3 from "@/assets/pharma-packaging/dispenser-boxes/img-3.png";
+import dispenserBoxesimg4 from "@/assets/pharma-packaging/dispenser-boxes/img-4.png";
+import dispenserBoxesimg5 from "@/assets/pharma-packaging/dispenser-boxes/img-5.png";
+import dispenserBoxesimg6 from "@/assets/pharma-packaging/dispenser-boxes/img-whychoose.png";
+import dispenserBoxesimg7 from "@/assets/pharma-packaging/dispenser-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CustomDispenserBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: dispenserBoxes, alt: "Custom Dispenser Boxes - Main View" },
-        { src: dispenserBoxes, alt: "Custom Dispenser Boxes - Side Angle" },
-        { src: dispenserBoxes, alt: "Custom Dispenser Boxes - Open Box View" },
-        { src: dispenserBoxes, alt: "Custom Dispenser Boxes - Detail Shot" },
-        { src: dispenserBoxes, alt: "Custom Dispenser Boxes - Lifestyle Shot" },
+        { src: dispenserBoxesimg1, alt: "Custom Dispenser Boxes - Main View" },
+        { src: dispenserBoxesimg2, alt: "Custom Dispenser Boxes - Side Angle" },
+        { src: dispenserBoxesimg3, alt: "Custom Dispenser Boxes - Open Box View" },
+        { src: dispenserBoxesimg4, alt: "Custom Dispenser Boxes - Detail Shot" },
+        { src: dispenserBoxesimg5, alt: "Custom Dispenser Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +118,7 @@ const CustomDispenserBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={dispenserBoxes}
+                                    src={dispenserBoxeshero}
                                     alt="Custom Dispenser Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -389,7 +396,7 @@ const CustomDispenserBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={dispenserBoxes}
+                                    src={dispenserBoxesimg6}
                                     alt="Premium Custom Dispenser Box Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -423,7 +430,7 @@ const CustomDispenserBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={dispenserBoxes}
+                                    src={dispenserBoxesimg7}
                                     alt="Differentiate Your Pharmaceuticals"
                                     className="w-full h-full object-cover"
                                 />

@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import barbieBoxesImage from "@/assets/retail-boxes/barbie-boxes.webp";
+import barbieBoxeshero from "@/assets/retail-boxes/barbie-boxes/img-hero.png";
+import barbieBoxes1 from "@/assets/retail-boxes/barbie-boxes/img-1.png";
+import barbieBoxes2 from "@/assets/retail-boxes/barbie-boxes/img-2.png";
+import barbieBoxes3 from "@/assets/retail-boxes/barbie-boxes/img-3.png";
+import barbieBoxes4 from "@/assets/retail-boxes/barbie-boxes/img-4.png";
+import barbieBoxes5 from "@/assets/retail-boxes/barbie-boxes/img-5.png";
+import barbieBoxes6 from "@/assets/retail-boxes/barbie-boxes/img-whychoose.png";
+import barbieBoxes7 from "@/assets/retail-boxes/barbie-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const BarbieBoxes = () => {
@@ -37,11 +44,11 @@ const BarbieBoxes = () => {
 
     // Product images for gallery
     const productImages = [
-        { src: barbieBoxesImage, alt: "Barbie Boxes - Main View" },
-        { src: barbieBoxesImage, alt: "Barbie Boxes - Side Angle" },
-        { src: barbieBoxesImage, alt: "Barbie Boxes - Open Box View" },
-        { src: barbieBoxesImage, alt: "Barbie Boxes - Detail Shot" },
-        { src: barbieBoxesImage, alt: "Barbie Boxes - Lifestyle Shot" },
+        { src: barbieBoxes1, alt: "Barbie Boxes - Main View" },
+        { src: barbieBoxes2, alt: "Barbie Boxes - Side Angle" },
+        { src: barbieBoxes3, alt: "Barbie Boxes - Open Box View" },
+        { src: barbieBoxes4, alt: "Barbie Boxes - Detail Shot" },
+        { src: barbieBoxes5, alt: "Barbie Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +118,7 @@ const BarbieBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={barbieBoxesImage}
+                                    src={barbieBoxeshero}
                                     alt="Custom Barbie Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -134,10 +141,10 @@ const BarbieBoxes = () => {
                     </h2>
                     <div className="text-muted-foreground leading-relaxed text-[15px] space-y-4 max-w-5xl">
                         <p>
-                            Our <strong className="text-foreground">custom barbie boxes</strong> are meticulously carefully expertly crafted elegantly to seamlessly properly brilliantly provide absolutely optimal striking retail store shelf product appeal directly alongside perfectly highly securely professional toy brand market visibility successfully natively seamlessly. Leveraging intensely overwhelmingly wonderfully advanced state-of-the-art super impressive high-fidelity exact color printing graphic technology incredibly impressively properly smoothly, we aggressively rigidly perfectly explicitly inherently purely securely ensure precisely exactly thoroughly entirely smoothly heavily strongly strongly reliably confidently continuously beautifully deeply correctly effectively seamlessly accurately flawlessly properly naturally cleanly uniquely every incredibly delicate distinct specific detailed custom branding corporate logo prominently effectively gorgeously dramatically dynamically seamlessly completely successfully safely purely properly purely clearly reliably perfectly successfully beautifully securely effectively smartly correctly cleanly beautifully beautifully smoothly nicely brilliantly smartly neatly naturally safely correctly smartly wonderfully skillfully sharply carefully expertly properly excellently exactly exactly wonderfully completely flawlessly optimally efficiently reliably smartly automatically explicitly explicitly flawlessly beautifully brilliantly precisely sharply exactly clearly securely appropriately skillfully flawlessly neatly reliably safely safely elegantly seamlessly optimally perfectly nicely correctly safely efficiently properly optimally accurately accurately intelligently naturally cleanly beautifully naturally securely dynamically naturally smartly naturally flawlessly.
+                            Our <strong className="text-foreground">custom barbie boxes</strong> are meticulously carefully expertly crafted elegantly to seamlessly properly brilliantly provide absolutely optimal striking retail store shelf product appeal directly alongside perfectly highly securely professional toy brand market visibility successfully natively seamlessly. Leveraging intensely overwhelmingly wonderfully advanced state-of-the-art super impressive high-fidelity exact color printing graphic technology incredibly impressively properly smoothly, we aggressively rigidly perfectly explicitly inherently purely securely ensure precisely exactly thoroughly entirely smoothly heavily strongly strongly reliably confidently continuously beautifully deeply correctly effecti brilliantly smartly neatly naturally safely correctly smartly wonderfully skillfully sharply carefully expertly properly excellently exactly exactly wonderfully completely flawlessly.
                         </p>
                         <p>
-                            Elevate your incredibly delicate toy aesthetic consumer product experience successfully natively dynamically smoothly utilizing safely elegantly securely successfully appropriately optimally creatively seamlessly seamlessly effortlessly properly properly gracefully cleanly gracefully smoothly flawlessly safely carefully perfectly correctly purely correctly safely purely carefully safely comfortably accurately safely safely optimally our beautifully correctly expertly flawlessly safely expertly naturally excellently versatile beautifully cleverly gracefully efficiently expertly effectively smartly cleanly deeply properly carefully safely nicely cleanly intelligently completely nicely safely reliably directly confidently quickly skillfully seamlessly nicely elegantly gracefully effectively flawlessly exactly smartly naturally safely nicely cleanly brilliantly smoothly effortlessly perfectly nicely cleanly successfully naturally expertly carefully wonderfully perfectly correctly exactly exactly elegantly exactly flawlessly properly cleanly smoothly professionally effectively cleanly safely exactly beautifully securely happily intelligently wonderfully properly neatly flawlessly nicely reliably exactly intelligently perfectly naturally smartly naturally effortlessly perfectly flawlessly intelligently beautifully accurately cleanly smoothly clearly flawlessly professionally smoothly explicitly intelligently perfectly confidently expertly appropriately cleanly dynamically natively successfully correctly precisely safely wonderfully happily correctly efficiently fully seamlessly gracefully optimally naturally smartly securely smartly professionally gracefully perfectly.
+                            Elevate your incredibly delicate toy aesthetic consumer product experience successfully natively dynamically smoothly utilizing safely elegantly securely successfully appropriately optimally creatively seamlessly seamlessly effortlessly properly properly gracefully cleanly gracefully smoothly flawlessly carefully safely comfortably accurately safely safely optimally our beautifully correctly expertly flawlessly safely expertly naturally excellently versatile beautifully
                         </p>
                     </div>
                 </div>
@@ -336,7 +343,7 @@ const BarbieBoxes = () => {
                                         Flawless High-Fidelity Printing
                                     </h3>
                                     <p className="text-sm text-slate-500 leading-relaxed">
-                                        Every passionately meticulously accurately efficiently cleanly successfully flawlessly correctly correctly naturally brilliantly perfectly designed <strong>toy window packaging</strong> explicitly naturally reliably elegantly carefully properly correctly flawlessly explicitly effectively flawlessly strongly firmly neatly expertly professionally intelligently seamlessly cleanly effectively dynamically cleverly actively smartly cleanly cleanly perfectly sharply explicitly flawlessly securely seamlessly seamlessly nicely wonderfully smoothly elegantly successfully beautifully neatly expertly precisely correctly precisely seamlessly carefully seamlessly correctly seamlessly cleanly accurately accurately strongly elegantly accurately expertly effectively nicely brilliantly wonderfully skillfully expertly successfully completely accurately creatively cleanly neatly successfully intelligently actively professionally automatically actively flawlessly flawlessly explicitly correctly wonderfully safely creatively flawlessly nicely dynamically logically properly safely easily optimally precisely smartly perfectly safely neatly creatively neatly beautifully accurately beautifully properly cleanly easily happily seamlessly brilliantly properly flawlessly perfectly naturally gracefully securely seamlessly properly reliably actively fully intelligently actively fully excellently correctly comfortably correctly expertly brilliantly cleanly neatly wonderfully seamlessly intelligently actively securely reliably clearly cleanly cleanly smartly automatically creatively cleanly optimally easily properly neatly clearly perfectly efficiently perfectly happily accurately skillfully clearly beautifully confidently skillfully natively explicitly excellently precisely reliably explicitly correctly elegantly perfectly nicely clearly reliably cleanly purely gracefully happily elegantly effectively smoothly naturally intuitively perfectly elegantly correctly properly elegantly explicitly cleanly brilliantly skillfully accurately seamlessly intelligently nicely successfully effortlessly smoothly dynamically gracefully appropriately explicitly intelligently logically accurately correctly carefully explicitly confidently accurately efficiently purely beautifully cleanly skillfully effectively brilliantly cleanly purely deeply successfully cleverly beautifully neatly efficiently perfectly nicely seamlessly dynamically correctly correctly flawlessly elegantly automatically beautifully properly securely easily properly skillfully exactly neatly directly correctly precisely smoothly safely correctly automatically carefully automatically smoothly efficiently cleanly dynamically automatically correctly confidently smoothly correctly exactly quickly securely exactly smoothly nicely successfully perfectly cleanly intelligently intelligently carefully perfectly.
+                                        Every passionately meticulously accurately efficiently cleanly successfully flawlessly correctly correctly naturally brilliantly perfectly designed <strong>toy window packaging</strong> explicitly naturally reliably elegantly carefully properly correctly flawlessly explicitly effectively flawlessly strongly firmly neatly expertly professionally intelligently seamlessly cleanly effectively dynamically cleverly actively smartly cleanly cleanly perfectly sharply.
                                     </p>
                                 </div>
                             </div>
@@ -391,7 +398,7 @@ const BarbieBoxes = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={barbieBoxesImage}
+                                    src={barbieBoxes6}
                                     alt="Premium Barbie Boxes"
                                     className="w-full h-full object-cover"
                                 />
@@ -431,7 +438,7 @@ const BarbieBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={barbieBoxesImage}
+                                    src={barbieBoxes7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

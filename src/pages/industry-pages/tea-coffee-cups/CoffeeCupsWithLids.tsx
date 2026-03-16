@@ -36,7 +36,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import heroImage from "@/assets/tea-coffee-cups/coffee-cups-with-lids.webp";
+import coffeeCupsWithLidsHero from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-hero.png";
+import coffeeCupsWithLids1 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-1.png";
+import coffeeCupsWithLids2 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-2.png";
+import coffeeCupsWithLids3 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-3.png";
+import coffeeCupsWithLids4 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-4.png";
+import coffeeCupsWithLids5 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-5.png";
+import coffeeCupsWithLids6 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-whychoose.png";
+import coffeeCupsWithLids7 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 // Related Products Carousel Images
@@ -87,11 +94,11 @@ const CoffeeCupsWithLids = () => {
     }, [api]);
 
     const productImages = [
-        { src: heroImage, alt: "Coffee Cups with Lids - Main View" },
-        { src: heroImage, alt: "Coffee Cups with Lids - Side Angle" },
-        { src: heroImage, alt: "Coffee Cups with Lids - Lid Detail View" },
-        { src: heroImage, alt: "Coffee Cups with Lids - Open View" },
-        { src: heroImage, alt: "Coffee Cups with Lids - Lifestyle Shot" },
+        { src: coffeeCupsWithLids1, alt: "Coffee Cups with Lids - Main View" },
+        { src: coffeeCupsWithLids2, alt: "Coffee Cups with Lids - Side Angle" },
+        { src: coffeeCupsWithLids3, alt: "Coffee Cups with Lids - Lid Detail View" },
+        { src: coffeeCupsWithLids4, alt: "Coffee Cups with Lids - Open View" },
+        { src: coffeeCupsWithLids5, alt: "Coffee Cups with Lids - Lifestyle Shot" },
     ];
 
     return (
@@ -164,7 +171,7 @@ const CoffeeCupsWithLids = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={heroImage}
+                                    src={coffeeCupsWithLidsHero}
                                     alt="Coffee Cups With Lids Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -566,7 +573,7 @@ const CoffeeCupsWithLids = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={heroImage}
+                                    src={coffeeCupsWithLids6}
                                     alt="Premium Custom Coffee Cups With Lids"
                                     className="w-full h-full object-cover"
                                 />
@@ -607,7 +614,7 @@ const CoffeeCupsWithLids = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={heroImage}
+                                    src={coffeeCupsWithLids7}
                                     alt="Differentiate Your Beverage Brands"
                                     className="w-full h-full object-cover"
                                 />

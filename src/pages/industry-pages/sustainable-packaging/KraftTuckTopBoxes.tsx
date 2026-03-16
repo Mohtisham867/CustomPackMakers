@@ -31,7 +31,14 @@ import { RelatedProductSustainable } from "@/components/RelatedProductSustainabl
 
 
 // Specific product images
-import productHeroImage from "@/assets/sustainable-packaging/kraft-tuck-top-boxes.webp";
+import kraftTuckTopBoxesHero from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-hero.png";
+import kraftTuckTopBoxes1 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-1.png";
+import kraftTuckTopBoxes2 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-2.png";
+import kraftTuckTopBoxes3 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-3.png";
+import kraftTuckTopBoxes4 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-4.png";
+import kraftTuckTopBoxes5 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-5.png";
+import kraftTuckTopBoxes6 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-whychoose.png";
+import kraftTuckTopBoxes7 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-different.png";
 
 
 //FAQ image
@@ -44,11 +51,11 @@ const KraftTuckTopBoxes = () => {
 
     // Product images for gallery
     const productImages = [
-        { src: productHeroImage, alt: "Kraft Tuck Top Boxes - Main View" },
-        { src: productHeroImage, alt: "Kraft Tuck Top Boxes - Flap Detail" },
-        { src: productHeroImage, alt: "Kraft Tuck Top Boxes - Open Box" },
-        { src: productHeroImage, alt: "Kraft Tuck Top Boxes - Detail Shot" },
-        { src: productHeroImage, alt: "Kraft Tuck Top Boxes - Lifestyle Shot" },
+        { src: kraftTuckTopBoxes1, alt: "Kraft Tuck Top Boxes - Main View" },
+        { src: kraftTuckTopBoxes2, alt: "Kraft Tuck Top Boxes - Flap Detail" },
+        { src: kraftTuckTopBoxes3, alt: "Kraft Tuck Top Boxes - Open Box" },
+        { src: kraftTuckTopBoxes4, alt: "Kraft Tuck Top Boxes - Detail Shot" },
+        { src: kraftTuckTopBoxes5, alt: "Kraft Tuck Top Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -121,7 +128,7 @@ const KraftTuckTopBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftTuckTopBoxesHero}
                                     alt="Kraft Tuck Top Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -392,7 +399,7 @@ const KraftTuckTopBoxes = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftTuckTopBoxes6}
                                     alt="Sustainable Kraft Retail Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -433,7 +440,7 @@ const KraftTuckTopBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftTuckTopBoxes7}
                                     alt="Differentiate Your Eco Brand"
                                     className="w-full h-full object-cover"
                                 />

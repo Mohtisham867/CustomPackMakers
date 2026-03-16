@@ -28,19 +28,25 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productImage from "@/assets/vape-boxes/1ml Vape Cartridge Boxes.png";
-import heroImage from "@/assets/vape-boxes/vape-boxes-hero.webp";
+import onemlimagehero from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-hero.png";
+import onemlimage1 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-1.png";
+import onemlimage2 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-2.png";
+import onemlimage3 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-3.png";
+import onemlimage4 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-4.png";
+import onemlimage5 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-5.png";
+import onemlimage6 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-whychoose.png";
+import onemlimage7 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const OneMlVapeCartridgeBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productImage, alt: "1ml Vape Cartridge Boxes - Main View" },
-        { src: productImage, alt: "1ml Vape Cartridge Boxes - Side Angle" },
-        { src: productImage, alt: "1ml Vape Cartridge Boxes - Open Box View" },
-        { src: productImage, alt: "1ml Vape Cartridge Boxes - Detail Shot" },
-        { src: heroImage, alt: "1ml Vape Cartridge Boxes - Lifestyle Shot" },
+        { src: onemlimage1, alt: "1ml Vape Cartridge Boxes - Main View" },
+        { src: onemlimage2, alt: "1ml Vape Cartridge Boxes - Side Angle" },
+        { src: onemlimage3, alt: "1ml Vape Cartridge Boxes - Open Box View" },
+        { src: onemlimage4, alt: "1ml Vape Cartridge Boxes - Detail Shot" },
+        { src: onemlimage5, alt: "1ml Vape Cartridge Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -108,7 +114,7 @@ const OneMlVapeCartridgeBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productImage}
+                                    src={onemlimagehero}
                                     alt="1ml Vape Cartridge Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -354,7 +360,7 @@ const OneMlVapeCartridgeBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productImage}
+                                    src={onemlimage6}
                                     alt="Premium Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -386,7 +392,7 @@ const OneMlVapeCartridgeBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={heroImage}
+                                    src={onemlimage7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

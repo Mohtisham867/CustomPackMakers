@@ -31,7 +31,14 @@ import { RelatedProductSustainable } from "@/components/RelatedProductSustainabl
 
 
 // Specific product images
-import productHeroImage from "@/assets/sustainable-packaging/kraft-mailer-boxes.webp";
+import kraftMailerBoxesHero from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-hero.png";
+import kraftMailerBoxes1 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-1.png";
+import kraftMailerBoxes2 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-2.png";
+import kraftMailerBoxes3 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-3.png";
+import kraftMailerBoxes4 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-4.png";
+import kraftMailerBoxes5 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-5.png";
+import kraftMailerBoxes6 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-whychoose.png";
+import kraftMailerBoxes7 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-different.png";
 
 
 //FAQ image
@@ -44,11 +51,11 @@ const KraftMailerBoxes = () => {
 
     // Product images for gallery
     const productImages = [
-        { src: productHeroImage, alt: "Kraft Mailer Boxes - Main View" },
-        { src: productHeroImage, alt: "Kraft Mailer Boxes - Front View" },
-        { src: productHeroImage, alt: "Kraft Mailer Boxes - Open Box" },
-        { src: productHeroImage, alt: "Kraft Mailer Boxes - Detail Shot" },
-        { src: productHeroImage, alt: "Kraft Mailer Boxes - Lifestyle Shot" },
+        { src: kraftMailerBoxes1, alt: "Kraft Mailer Boxes - Main View" },
+        { src: kraftMailerBoxes2, alt: "Kraft Mailer Boxes - Front View" },
+        { src: kraftMailerBoxes3, alt: "Kraft Mailer Boxes - Open Box" },
+        { src: kraftMailerBoxes4, alt: "Kraft Mailer Boxes - Detail Shot" },
+        { src: kraftMailerBoxes5, alt: "Kraft Mailer Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -121,7 +128,7 @@ const KraftMailerBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftMailerBoxesHero}
                                     alt="Kraft Mailer Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -392,7 +399,7 @@ const KraftMailerBoxes = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftMailerBoxes6}
                                     alt="Sustainable Corrugated Shipping Mailers"
                                     className="w-full h-full object-cover"
                                 />
@@ -433,7 +440,7 @@ const KraftMailerBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftMailerBoxes7}
                                     alt="Differentiate Your Eco Brand"
                                     className="w-full h-full object-cover"
                                 />

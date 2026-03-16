@@ -36,7 +36,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import heroImage from "@/assets/tea-coffee-cups/Cute Coffee Cups.png";
+import cuteCoffeeCupsHero from "@/assets/tea-coffee-cups/Cute-Coffee-Cups/img-hero.png";
+import cuteCoffeeCups1 from "@/assets/tea-coffee-cups/Cute-Coffee-Cups/img-1.png";
+import cuteCoffeeCups2 from "@/assets/tea-coffee-cups/Cute-Coffee-Cups/img-2.png";
+import cuteCoffeeCups3 from "@/assets/tea-coffee-cups/Cute-Coffee-Cups/img-3.png";
+import cuteCoffeeCups4 from "@/assets/tea-coffee-cups/Cute-Coffee-Cups/img-4.png";
+import cuteCoffeeCups5 from "@/assets/tea-coffee-cups/Cute-Coffee-Cups/img-5.png";
+import cuteCoffeeCups6 from "@/assets/tea-coffee-cups/Cute-Coffee-Cups/img-whychoose.png";
+import cuteCoffeeCups7 from "@/assets/tea-coffee-cups/Cute-Coffee-Cups/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 // Related Products Carousel Images
@@ -87,11 +94,11 @@ const CuteCoffeeCups = () => {
     }, [api]);
 
     const productImages = [
-        { src: heroImage, alt: "Cute Coffee Cups - Main View" },
-        { src: heroImage, alt: "Cute Coffee Cups - Side Angle" },
-        { src: heroImage, alt: "Cute Coffee Cups - Group View" },
-        { src: heroImage, alt: "Cute Coffee Cups - Detail Shot" },
-        { src: heroImage, alt: "Cute Coffee Cups - Lifestyle Shot" },
+        { src: cuteCoffeeCups1, alt: "Cute Coffee Cups - Main View" },
+        { src: cuteCoffeeCups2, alt: "Cute Coffee Cups - Side Angle" },
+        { src: cuteCoffeeCups3, alt: "Cute Coffee Cups - Group View" },
+        { src: cuteCoffeeCups4, alt: "Cute Coffee Cups - Detail Shot" },
+        { src: cuteCoffeeCups5, alt: "Cute Coffee Cups - Lifestyle Shot" },
     ];
 
     return (
@@ -164,7 +171,7 @@ const CuteCoffeeCups = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={heroImage}
+                                    src={cuteCoffeeCupsHero}
                                     alt="Cute Coffee Cups Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -566,7 +573,7 @@ const CuteCoffeeCups = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={heroImage}
+                                    src={cuteCoffeeCups6}
                                     alt="Premium Custom Cute Coffee Cups"
                                     className="w-full h-full object-cover"
                                 />
@@ -607,7 +614,7 @@ const CuteCoffeeCups = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={heroImage}
+                                    src={cuteCoffeeCups7}
                                     alt="Differentiate Your Beverage Brands"
                                     className="w-full h-full object-cover"
                                 />

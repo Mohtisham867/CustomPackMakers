@@ -36,7 +36,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import heroImage from "@/assets/tea-coffee-cups/Restaurant Coffee Cups.png";
+import restaurantcoffeecuphero from "@/assets/tea-coffee-cups/Restaurant-Coffee-Cups/img-hero.png";
+import restaurantcoffeecup1 from "@/assets/tea-coffee-cups/Restaurant-Coffee-Cups/img-1.png";
+import restaurantcoffeecup2 from "@/assets/tea-coffee-cups/Restaurant-Coffee-Cups/img-2.png";
+import restaurantcoffeecup3 from "@/assets/tea-coffee-cups/Restaurant-Coffee-Cups/img-3.png";
+import restaurantcoffeecup4 from "@/assets/tea-coffee-cups/Restaurant-Coffee-Cups/img-4.png";
+import restaurantcoffeecup5 from "@/assets/tea-coffee-cups/Restaurant-Coffee-Cups/img-5.png";
+import restaurantcoffeecup6 from "@/assets/tea-coffee-cups/Restaurant-Coffee-Cups/img-whychoose.png";
+import restaurantcoffeecup7 from "@/assets/tea-coffee-cups/Restaurant-Coffee-Cups/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 // Related Products Carousel Images
@@ -87,11 +94,11 @@ const RestaurantCoffeeCups = () => {
     }, [api]);
 
     const productImages = [
-        { src: heroImage, alt: "Restaurant Coffee Cups - Main View" },
-        { src: heroImage, alt: "Restaurant Coffee Cups - Side Angle" },
-        { src: heroImage, alt: "Restaurant Coffee Cups - Stacked View" },
-        { src: heroImage, alt: "Restaurant Coffee Cups - Detail Shot" },
-        { src: heroImage, alt: "Restaurant Coffee Cups - Lifestyle Shot" },
+        { src: restaurantcoffeecup1, alt: "Restaurant Coffee Cups - Main View" },
+        { src: restaurantcoffeecup2, alt: "Restaurant Coffee Cups - Side Angle" },
+        { src: restaurantcoffeecup3, alt: "Restaurant Coffee Cups - Stacked View" },
+        { src: restaurantcoffeecup4, alt: "Restaurant Coffee Cups - Detail Shot" },
+        { src: restaurantcoffeecup5, alt: "Restaurant Coffee Cups - Lifestyle Shot" },
     ];
 
     return (
@@ -164,7 +171,7 @@ const RestaurantCoffeeCups = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={heroImage}
+                                    src={restaurantcoffeecuphero}
                                     alt="Restaurant Coffee Cups Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -566,7 +573,7 @@ const RestaurantCoffeeCups = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={heroImage}
+                                    src={restaurantcoffeecup6}
                                     alt="Premium Custom Restaurant Coffee Cups"
                                     className="w-full h-full object-cover"
                                 />
@@ -607,7 +614,7 @@ const RestaurantCoffeeCups = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={heroImage}
+                                    src={restaurantcoffeecup7}
                                     alt="Differentiate Your Beverage Brands"
                                     className="w-full h-full object-cover"
                                 />

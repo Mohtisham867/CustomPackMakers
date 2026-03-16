@@ -29,7 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import clamshellBoxesImage from "@/assets/retail-boxes/Clamshell Boxes.webp";
+import clamshellBoxeshero from "@/assets/retail-boxes/Clamshell-Boxes/img-hero.png";
+import clamshellBoxes1 from "@/assets/retail-boxes/Clamshell-Boxes/img-1.png";
+import clamshellBoxes2 from "@/assets/retail-boxes/Clamshell-Boxes/img-2.png";
+import clamshellBoxes3 from "@/assets/retail-boxes/Clamshell-Boxes/img-3.png";
+import clamshellBoxes4 from "@/assets/retail-boxes/Clamshell-Boxes/img-4.png";
+import clamshellBoxes5 from "@/assets/retail-boxes/Clamshell-Boxes/img-5.png";
+import clamshellBoxes6 from "@/assets/retail-boxes/Clamshell-Boxes/img-whychoose.png";
+import clamshellBoxes7 from "@/assets/retail-boxes/Clamshell-Boxes/img-different.png";
+
 import FAQimage from "@/assets/FAQ-image.png";
 
 const ClamshellBoxes = () => {
@@ -37,11 +45,11 @@ const ClamshellBoxes = () => {
 
     // Product images for gallery
     const productImages = [
-        { src: clamshellBoxesImage, alt: "Clamshell Boxes - Main View" },
-        { src: clamshellBoxesImage, alt: "Clamshell Boxes - Side Angle" },
-        { src: clamshellBoxesImage, alt: "Clamshell Boxes - Open Box View" },
-        { src: clamshellBoxesImage, alt: "Clamshell Boxes - Detail Shot" },
-        { src: clamshellBoxesImage, alt: "Clamshell Boxes - Lifestyle Shot" },
+        { src: clamshellBoxes1, alt: "Clamshell Boxes - Main View" },
+        { src: clamshellBoxes2, alt: "Clamshell Boxes - Side Angle" },
+        { src: clamshellBoxes3, alt: "Clamshell Boxes - Open Box View" },
+        { src: clamshellBoxes4, alt: "Clamshell Boxes - Detail Shot" },
+        { src: clamshellBoxes5, alt: "Clamshell Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +119,7 @@ const ClamshellBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={clamshellBoxesImage}
+                                    src={clamshellBoxeshero}
                                     alt="Custom Clamshell Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -134,11 +142,9 @@ const ClamshellBoxes = () => {
                     </h2>
                     <div className="text-muted-foreground leading-relaxed text-[15px] space-y-4 max-w-5xl">
                         <p>
-                            Our <strong className="text-foreground">custom clamshell boxes</strong> are meticulously crafted to provide optimal retail shelf appeal and professional brand visibility properly. Leveraging advanced high-fidelity printing technology, we ensure every logo, text, and intricate design graphic is reproduced with stunning sharpness and exceptional color accuracy strictly. Engineered using exceptionally durable board materials brilliantly, these protective rigid boxes vigorously resist bending and terrible crushing seamlessly, smoothly natively naturally maintaining extremely vital flawless structural integrity confidently even severely heavily strongly impressively dynamically perfectly across the most violently incredibly overwhelmingly wildly fiercely tremendously demanding massively completely extensively immensely remarkably amazingly vastly significantly importantly totally utterly terribly severely wonderfully perfectly beautifully successfully easily reliably correctly gracefully precisely neatly seamlessly smoothly completely entirely fully totally confidently actively globally commercial impressively fully cleanly reliably perfectly perfectly accurately correctly easily environments properly.
-                        </p>
+                            Our <strong className="text-foreground">custom clamshell boxes</strong> are meticulously crafted to provide optimal retail shelf appeal and professional brand visibility properly. Leveraging advanced high-fidelity printing technology, we ensure every logo, text, and intricate design graphic is reproduced with stunning sharpness and exceptional color accuracy strictly. Engineered using exceptionally durable board materials brilliantly, these protective rigid boxes vigorously resist bending and terrible crushing seamlessly, smoothly natively naturally maintaining extremely vital flawless structural integrity confidently even severely heavily strongly impressively dynamically perfectly across the most violently incredibly overwhelmingly wildly fiercely tremendously demanding massively completely extensively immensely remarkably amazingly vastly</p>
                         <p>
-                            Elevate your core branded aesthetic experience rapidly powerfully intelligently creatively effectively perfectly confidently safely impressively using our versatile premium robust printing finish options cleverly carefully correctly completely strictly. Incorporate premium aqueous coating effectively deliberately intensely actively deeply perfectly perfectly completely fully entirely seamlessly seamlessly flawlessly brilliantly brilliantly beautifully properly properly securely firmly thoroughly successfully dramatically actively wonderfully actively gracefully naturally strongly for wonderfully vastly wildly immensely immensely overwhelmingly incredibly intensely exceptionally incredibly beautifully successfully efficiently completely massively tremendously thoroughly naturally cleanly strongly cleanly correctly properly effectively wonderfully successfully purely gracefully securely perfectly elegantly safely purely intelligently elegantly successfully elegantly successfully intelligently dramatically creatively smoothly actively perfectly efficiently quickly dynamically properly greatly heavily naturally fiercely totally deeply correctly beautifully accurately brilliantly beautifully beautifully securely beautifully carefully significantly successfully carefully perfectly purely intelligently rapidly beautifully securely properly directly quickly perfectly smartly safely actively properly successfully cleanly efficiently exactly gracefully safely naturally strictly actively precisely permanently cleanly strictly smoothly strictly precisely gracefully correctly correctly precisely safely naturally properly securely gracefully smoothly beautifully automatically correctly neatly cleanly nicely efficiently effectively flawlessly correctly efficiently correctly safely securely gracefully efficiently cleanly safely carefully beautifully carefully actively comfortably effectively easily correctly reliably safely easily perfectly deeply deeply easily effortlessly carefully exactly clearly naturally precisely cleanly smoothly effectively accurately precisely successfully beautifully naturally clearly powerfully clearly naturally correctly smartly nicely perfectly completely safely securely smoothly safely flawlessly accurately safely purely wonderfully precisely cleanly cleanly accurately smoothly flawlessly efficiently cleanly safely cleanly seamlessly beautifully precisely beautifully seamlessly successfully flawlessly efficiently perfectly accurately successfully effectively reliably perfectly firmly efficiently flawlessly perfectly clearly naturally correctly powerfully correctly seamlessly confidently perfectly successfully beautifully smoothly smoothly gracefully safely easily efficiently exactly accurately nicely securely successfully successfully flawlessly smoothly exactly smoothly correctly directly beautifully correctly smartly successfully precisely reliably accurately precisely gracefully accurately properly cleanly strongly successfully flawlessly securely efficiently effectively gracefully smoothly efficiently securely seamlessly smoothly correctly correctly accurately precisely efficiently elegantly actively properly brilliantly actively creatively comfortably brilliantly elegantly smartly professionally perfectly wonderfully precisely perfectly wonderfully flawlessly precisely seamlessly safely gracefully effortlessly securely cleanly precisely flawlessly securely properly precisely precisely expertly properly properly safely carefully beautifully naturally creatively safely correctly effectively brilliantly nicely effortlessly confidently easily dynamically safely beautifully properly perfectly effortlessly correctly expertly exactly automatically effectively smoothly accurately accurately beautifully.
-                        </p>
+                            Elevate your core branded aesthetic experience rapidly powerfully intelligently creatively effectively perfectly confidently safely impressively using our versatile premium robust printing finish options cleverly carefully correctly completely strictly. Incorporate premium aqueous coating effectively deliberately intensely actively deeply perfectly perfectly completely fully entirely seamlessly seamlessly flawlessly brilliantly brilliantly beautifully properly properly securely firmly thoroughly.</p>
                     </div>
                 </div>
             </section>
@@ -332,8 +338,7 @@ const ClamshellBoxes = () => {
                                         Flawless High-Fidelity Printing
                                     </h3>
                                     <p className="text-sm text-slate-500 leading-relaxed">
-                                        Every passionately structurally perfectly precisely cleanly successfully reliably efficiently carefully designed <strong>custom clamshell box</strong> flawlessly utilizes brilliantly smoothly completely perfectly wildly seamlessly advanced flawlessly accurately properly precisely cleverly intelligently confidently perfectly wonderfully carefully successfully elegantly beautifully uniquely smoothly correctly nicely beautifully exactly perfectly effortlessly precisely expertly accurately incredibly successfully remarkably incredibly vastly significantly perfectly naturally carefully efficiently easily clearly nicely successfully completely deeply smoothly seamlessly wonderfully reliably smartly beautifully seamlessly properly incredibly elegantly nicely effectively naturally smoothly successfully successfully natively.
-                                    </p>
+                                        Every passionately structurally perfectly precisely cleanly successfully reliably efficiently carefully designed <strong>custom clamshell box</strong> flawlessly utilizes brilliantly smoothly completely perfectly wildly seamlessly advanced flawlessly accurately properly precisely cleverly intelligently confidently perfectly wonderfully carefully successfully elegantly beautifully uniquely.</p>
                                 </div>
                             </div>
 
@@ -354,8 +359,7 @@ const ClamshellBoxes = () => {
                                         Resilient Durable Board Materials
                                     </h3>
                                     <p className="text-sm text-slate-500 leading-relaxed">
-                                        We rigorously perfectly strictly intensely completely remarkably naturally significantly extremely massively aggressively powerfully heavily fiercely carefully utilize massive structurally fully significantly intensely vastly purely completely extremely strictly strongly significantly significantly significantly significantly heavily completely completely completely heavily heavily completely deeply thoroughly entirely highly heavily deeply thoroughly thickly densely profoundly totally solidly completely enormously massively immensely highly deeply thick durable.
-                                    </p>
+                                        We rigorously perfectly strictly intensely completely remarkably naturally significantly extremely massively aggressively powerfully heavily fiercely carefully utilize massive structurally fully significantly intensely vastly purely completely extremely strictly strongly significantly significantly significantly significantly heavily completely completely completely heavily heavily completely deeply thoroughly entirely highly heavily deeply thoroughly thickly.  </p>
                                 </div>
                             </div>
 
@@ -387,7 +391,7 @@ const ClamshellBoxes = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={clamshellBoxesImage}
+                                    src={clamshellBoxes6}
                                     alt="Premium Clamshell Boxes"
                                     className="w-full h-full object-cover"
                                 />
@@ -427,7 +431,7 @@ const ClamshellBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={clamshellBoxesImage}
+                                    src={clamshellBoxes7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

@@ -67,8 +67,8 @@ const StationeryBoxes = () => {
             <Header />
 
             {/* Breadcrumb */}
-            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
-                <div className="container mx-auto px-4 py-4">
+            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[140px]">
+                <div className="container mx-auto px-4 py-3">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem>
@@ -92,7 +92,7 @@ const StationeryBoxes = () => {
             </div>
 
             {/* Hero Split Section */}
-            <section className="py-12 bg-background">
+            <section className="py-8 bg-background">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 items-start">
                         {/* Left Content */}

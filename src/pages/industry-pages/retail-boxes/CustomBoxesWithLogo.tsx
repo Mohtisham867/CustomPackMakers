@@ -29,7 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import customBoxesLogoImage from "@/assets/retail-boxes/Custom Boxes with Logo.webp";
+import customBoxesLogohero from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-hero.png";
+import customBoxesLogo1 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-1.png";
+import customBoxesLogo2 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-2.png";
+import customBoxesLogo3 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-3.png";
+import customBoxesLogo4 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-4.png";
+import customBoxesLogo5 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-5.png";
+import customBoxesLogo6 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-whychoose.png";
+import customBoxesLogo7 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-different.png";
+
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CustomBoxesWithLogo = () => {
@@ -37,11 +45,11 @@ const CustomBoxesWithLogo = () => {
 
     // Product images for gallery
     const productImages = [
-        { src: customBoxesLogoImage, alt: "Custom Boxes with Logo - Main View" },
-        { src: customBoxesLogoImage, alt: "Custom Boxes with Logo - Side Angle" },
-        { src: customBoxesLogoImage, alt: "Custom Boxes with Logo - Open Box View" },
-        { src: customBoxesLogoImage, alt: "Custom Boxes with Logo - Detail Shot" },
-        { src: customBoxesLogoImage, alt: "Custom Boxes with Logo - Lifestyle Shot" },
+        { src: customBoxesLogo1, alt: "Custom Boxes with Logo - Main View" },
+        { src: customBoxesLogo2, alt: "Custom Boxes with Logo - Side Angle" },
+        { src: customBoxesLogo3, alt: "Custom Boxes with Logo - Open Box View" },
+        { src: customBoxesLogo4, alt: "Custom Boxes with Logo - Detail Shot" },
+        { src: customBoxesLogo5, alt: "Custom Boxes with Logo - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +119,7 @@ const CustomBoxesWithLogo = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={customBoxesLogoImage}
+                                    src={customBoxesLogohero}
                                     alt="Custom Boxes With Logo Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -357,7 +365,7 @@ const CustomBoxesWithLogo = () => {
                                         Resilient Durable Board Materials
                                     </h3>
                                     <p className="text-sm text-slate-500 leading-relaxed">
-                                        We rigorously perfectly strictly intensely completely remarkably naturally significantly extremely massively aggressively powerfully heavily fiercely carefully utilize massive structurally fully significantly intensely vastly purely completely extremely strictly strongly significantly significantly significantly significantly heavily completely completely completely heavily heavily completely deeply thoroughly entirely highly heavily deeply thoroughly thickly densely profoundly totally solidly completely enormously massively immensely highly deeply thick deeply robustly entirely incredibly completely fully utterly vastly totally structurally solid structurally strongly completely absolutely entirely totally completely extremely strictly severely absolutely strictly terribly critically extremely massively carefully extremely thoroughly fiercely fiercely fiercely thick durable premium brilliant cardstocks dramatically completely securely severely effectively aggressively universally dynamically actively continuously safely preventing preventing preventing preventing frustrating extremely intensely completely wildly badly completely deeply fully terribly fiercely intensely extremely totally fully intensely totally utterly strongly immensely intensely totally effectively thoroughly securely preventing incredibly significantly effectively effectively completely completely extensively dynamically entirely thoroughly heavily severely heavily immensely dynamically totally preventing fiercely totally utterly totally dramatically completely dramatically fiercely severely totally incredibly significantly severely dramatically strongly strongly completely efficiently entirely entirely effectively entirely completely completely safely severely totally severely effectively totally absolutely utterly utterly completely tremendously successfully fully utterly terribly violently completely tremendously violently dramatically severely significantly completely continuously totally completely entirely utterly fiercely completely terribly fiercely thoroughly thoroughly entirely successfully entirely completely successfully effectively directly preventing incredibly securely perfectly deeply correctly firmly effectively efficiently precisely directly naturally purely exclusively strongly strongly strictly accurately securely perfectly naturally automatically correctly securely exclusively smoothly perfectly fiercely fiercely intelligently dynamically properly elegantly seamlessly beautifully proudly dramatically confidently accurately properly perfectly permanently properly beautifully properly successfully properly effectively permanently naturally continuously beautifully correctly seamlessly effectively reliably correctly nicely purely smoothly safely proudly correctly correctly effectively seamlessly completely preventing preventing safely firmly firmly severely effectively reliably incredibly flawlessly correctly incredibly flawlessly correctly nicely rapidly smoothly fully perfectly safely securely nicely completely safely firmly properly completely effectively flawlessly correctly rapidly securely properly seamlessly completely wonderfully nicely seamlessly perfectly nicely fully totally cleanly preventing effectively successfully safely seamlessly correctly perfectly wonderfully securely cleanly securely directly heavily securely successfully effectively effectively safely efficiently safely completely correctly properly successfully smoothly permanently dynamically brilliantly dynamically beautifully dramatically successfully actively naturally cleanly safely flawlessly actively perfectly safely strongly securely flawlessly nicely perfectly successfully properly reliably perfectly perfectly significantly firmly safely elegantly fiercely intelligently continuously efficiently smoothly accurately completely correctly gracefully cleverly successfully correctly completely securely nicely cleanly properly properly seamlessly effectively wonderfully efficiently safely properly beautifully reliably exactly perfectly brilliantly beautifully easily seamlessly actively wonderfully reliably exactly effectively correctly clearly perfectly clearly naturally correctly properly expertly perfectly actively nicely purely clearly beautifully correctly precisely safely properly efficiently precisely gracefully firmly smartly reliably perfectly carefully carefully cleanly exactly wonderfully correctly directly easily gracefully cleverly perfectly properly safely properly smoothly successfully neatly purely seamlessly securely continuously easily deeply seamlessly cleanly naturally beautifully clearly gracefully easily reliably accurately purely properly cleanly safely beautifully cleverly clearly fully seamlessly safely gracefully effectively correctly precisely perfectly perfectly wonderfully exactly beautifully perfectly comfortably securely.
+                                        We rigorously perfectly strictly intensely completely remarkably naturally significantly extremely massively aggressively powerfully heavily fiercely carefully utilize massive structurally fully significantly intensely vastly purely completely extremely strictly strongly significantly significantly significantly significantly heavily completely .
                                     </p>
                                 </div>
                             </div>
@@ -390,7 +398,7 @@ const CustomBoxesWithLogo = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={customBoxesLogoImage}
+                                    src={customBoxesLogo6}
                                     alt="Premium Branded Boxes"
                                     className="w-full h-full object-cover"
                                 />
@@ -430,7 +438,7 @@ const CustomBoxesWithLogo = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={customBoxesLogoImage}
+                                    src={customBoxesLogo7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

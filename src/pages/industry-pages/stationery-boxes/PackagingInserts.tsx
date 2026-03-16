@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHeroImage from "@/assets/stationery-boxes/packaging-inserts.webp";
+import packagingInsertsHero from "@/assets/stationery-boxes/packaging-inserts/img-hero.png";
+import packagingInserts1 from "@/assets/stationery-boxes/packaging-inserts/img-1.png";
+import packagingInserts2 from "@/assets/stationery-boxes/packaging-inserts/img-2.png";
+import packagingInserts3 from "@/assets/stationery-boxes/packaging-inserts/img-3.png";
+import packagingInserts4 from "@/assets/stationery-boxes/packaging-inserts/img-4.png";
+import packagingInserts5 from "@/assets/stationery-boxes/packaging-inserts/img-5.png";
+import packagingInserts6 from "@/assets/stationery-boxes/packaging-inserts/img-whychoose.png";
+import packagingInserts7 from "@/assets/stationery-boxes/packaging-inserts/img-different.png";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const PackagingInserts = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHeroImage, alt: "Custom Packaging Inserts - Main View" },
-        { src: productHeroImage, alt: "Custom Packaging Inserts - Angle View" },
-        { src: productHeroImage, alt: "Custom Packaging Inserts - Fitment Detail" },
-        { src: productHeroImage, alt: "Custom Packaging Inserts - Material Quality" },
-        { src: productHeroImage, alt: "Custom Packaging Inserts - Presentation Setting" },
+        { src: packagingInserts1, alt: "Custom Packaging Inserts - Main View" },
+        { src: packagingInserts2, alt: "Custom Packaging Inserts - Angle View" },
+        { src: packagingInserts3, alt: "Custom Packaging Inserts - Fitment Detail" },
+        { src: packagingInserts4, alt: "Custom Packaging Inserts - Material Quality" },
+        { src: packagingInserts5, alt: "Custom Packaging Inserts - Presentation Setting" },
     ];
 
     return (
@@ -113,7 +120,7 @@ const PackagingInserts = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={packagingInsertsHero}
                                     alt="Custom Packaging Inserts Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -367,7 +374,7 @@ const PackagingInserts = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={packagingInserts6}
                                     alt="Premium Custom Packaging Inserts Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -402,7 +409,7 @@ const PackagingInserts = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={packagingInserts7}
                                     alt="Differentiate Your Protective Packaging"
                                     className="w-full h-full object-cover"
                                 />

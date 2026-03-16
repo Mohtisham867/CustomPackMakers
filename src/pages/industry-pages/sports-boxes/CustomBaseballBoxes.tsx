@@ -29,8 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Custom Baseball Boxes
-import productImage from "@/assets/sports-boxes/custom-baseball-boxes.webp";
-import baseballHero from "@/assets/sports-boxes/sports-boxes-hero.webp";
+import baseballHero from "@/assets/sports-boxes/custom-baseball-boxes/img-hero.png";
+import baseball1 from "@/assets/sports-boxes/custom-baseball-boxes/img-1.png";
+import baseball2 from "@/assets/sports-boxes/custom-baseball-boxes/img-2.png";
+import baseball3 from "@/assets/sports-boxes/custom-baseball-boxes/img-3.png";
+import baseball4 from "@/assets/sports-boxes/custom-baseball-boxes/img-4.png";
+import baseball5 from "@/assets/sports-boxes/custom-baseball-boxes/img-5.png";
+import baseball6 from "@/assets/sports-boxes/custom-baseball-boxes/img-whychoose.png";
+import baseball7 from "@/assets/sports-boxes/custom-baseball-boxes/img-different.png";
 
 //FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -40,11 +46,11 @@ const CustomBaseballBoxes = () => {
 
     // Product images for gallery (5 thumbs as requested)
     const productImages = [
-        { src: productImage, alt: "Custom Baseball Boxes - Premium View" },
-        { src: baseballHero, alt: "Custom Baseball Boxes - Action Shot" },
-        { src: productImage, alt: "Custom Baseball Boxes - Structural Detail" },
-        { src: baseballHero, alt: "Custom Baseball Boxes - Branding Surface" },
-        { src: productImage, alt: "Custom Baseball Boxes - Retail Presentation" },
+        { src: baseball1, alt: "Custom Baseball Boxes - Premium View" },
+        { src: baseball2, alt: "Custom Baseball Boxes - Action Shot" },
+        { src: baseball3, alt: "Custom Baseball Boxes - Structural Detail" },
+        { src: baseball4, alt: "Custom Baseball Boxes - Branding Surface" },
+        { src: baseball5, alt: "Custom Baseball Boxes - Retail Presentation" },
     ];
 
     return (
@@ -112,7 +118,7 @@ const CustomBaseballBoxes = () => {
 
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <img
-                                src={productImage}
+                                src={baseballHero}
                                 alt="Custom Baseball Boxes Hero"
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
@@ -347,7 +353,7 @@ const CustomBaseballBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={baseballHero}
+                                    src={baseball6}
                                     alt="Premium Baseball Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -369,7 +375,7 @@ const CustomBaseballBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productImage}
+                                    src={baseball7}
                                     alt="Differentiate Your Baseball Brand"
                                     className="w-full h-full object-cover"
                                 />

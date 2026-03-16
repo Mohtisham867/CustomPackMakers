@@ -29,7 +29,16 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import matchBoxesImage from "@/assets/retail-boxes/Custom Match Boxes.webp";
+import matchBoxeshero from "@/assets/retail-boxes/Custom-Match-Boxes/img-hero.png";
+import matchBoxes1 from "@/assets/retail-boxes/Custom-Match-Boxes/img-1.png";
+import matchBoxes2 from "@/assets/retail-boxes/Custom-Match-Boxes/img-2.png";
+import matchBoxes3 from "@/assets/retail-boxes/Custom-Match-Boxes/img-3.png";
+import matchBoxes4 from "@/assets/retail-boxes/Custom-Match-Boxes/img-4.png";
+import matchBoxes5 from "@/assets/retail-boxes/Custom-Match-Boxes/img-5.png";
+import matchBoxes6 from "@/assets/retail-boxes/Custom-Match-Boxes/img-whychoose.png";
+import matchBoxes7 from "@/assets/retail-boxes/Custom-Match-Boxes/img-different.png";
+
+
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CustomMatchBoxes = () => {
@@ -37,11 +46,11 @@ const CustomMatchBoxes = () => {
 
     // Product images for gallery
     const productImages = [
-        { src: matchBoxesImage, alt: "Custom Match Boxes - Main View" },
-        { src: matchBoxesImage, alt: "Custom Match Boxes - Side Angle" },
-        { src: matchBoxesImage, alt: "Custom Match Boxes - Open Box View" },
-        { src: matchBoxesImage, alt: "Custom Match Boxes - Detail Shot" },
-        { src: matchBoxesImage, alt: "Custom Match Boxes - Lifestyle Shot" },
+        { src: matchBoxes1, alt: "Custom Match Boxes - Main View" },
+        { src: matchBoxes2, alt: "Custom Match Boxes - Side Angle" },
+        { src: matchBoxes3, alt: "Custom Match Boxes - Open Box View" },
+        { src: matchBoxes4, alt: "Custom Match Boxes - Detail Shot" },
+        { src: matchBoxes5, alt: "Custom Match Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +120,7 @@ const CustomMatchBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={matchBoxesImage}
+                                    src={matchBoxeshero}
                                     alt="Custom Match Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -390,7 +399,7 @@ const CustomMatchBoxes = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={matchBoxesImage}
+                                    src={matchBoxes6}
                                     alt="Premium Custom Match Boxes"
                                     className="w-full h-full object-cover"
                                 />
@@ -430,7 +439,7 @@ const CustomMatchBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={matchBoxesImage}
+                                    src={matchBoxes7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

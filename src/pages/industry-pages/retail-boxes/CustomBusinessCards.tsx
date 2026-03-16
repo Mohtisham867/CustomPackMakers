@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import businessCardsImage from "@/assets/retail-boxes/Custom Business Cards.webp";
+import businessCardshero from "@/assets/retail-boxes/Custom-Business-Cards/img-hero.png";
+import businessCards1 from "@/assets/retail-boxes/Custom-Business-Cards/img-1.png";
+import businessCards2 from "@/assets/retail-boxes/Custom-Business-Cards/img-2.png";
+import businessCards3 from "@/assets/retail-boxes/Custom-Business-Cards/img-3.png";
+import businessCards4 from "@/assets/retail-boxes/Custom-Business-Cards/img-4.png";
+import businessCards5 from "@/assets/retail-boxes/Custom-Business-Cards/img-5.png";
+import businessCards6 from "@/assets/retail-boxes/Custom-Business-Cards/img-whychoose.png";
+import businessCards7 from "@/assets/retail-boxes/Custom-Business-Cards/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CustomBusinessCards = () => {
@@ -37,11 +44,11 @@ const CustomBusinessCards = () => {
 
     // Product images for gallery
     const productImages = [
-        { src: businessCardsImage, alt: "Custom Business Cards - Main View" },
-        { src: businessCardsImage, alt: "Custom Business Cards - Side Angle" },
-        { src: businessCardsImage, alt: "Custom Business Cards - Open Box View" },
-        { src: businessCardsImage, alt: "Custom Business Cards - Detail Shot" },
-        { src: businessCardsImage, alt: "Custom Business Cards - Lifestyle Shot" },
+        { src: businessCards1, alt: "Custom Business Cards - Main View" },
+        { src: businessCards2, alt: "Custom Business Cards - Side Angle" },
+        { src: businessCards3, alt: "Custom Business Cards - Open Box View" },
+        { src: businessCards4, alt: "Custom Business Cards - Detail Shot" },
+        { src: businessCards5, alt: "Custom Business Cards - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +118,7 @@ const CustomBusinessCards = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={businessCardsImage}
+                                    src={businessCardshero}
                                     alt="Custom Business Cards Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -390,7 +397,7 @@ const CustomBusinessCards = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={businessCardsImage}
+                                    src={businessCards6}
                                     alt="Premium Custom Business Cards"
                                     className="w-full h-full object-cover"
                                 />
@@ -430,7 +437,7 @@ const CustomBusinessCards = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={businessCardsImage}
+                                    src={businessCards7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import pillBoxes from "@/assets/pharma-packaging/pill-boxes.webp";
+import pillBoxesHero from "@/assets/pharma-packaging/pill-boxes/img-hero.png";
+import pillBoxesimg1 from "@/assets/pharma-packaging/pill-boxes/img-1.png";
+import pillBoxesimg2 from "@/assets/pharma-packaging/pill-boxes/img-2.png";
+import pillBoxesimg3 from "@/assets/pharma-packaging/pill-boxes/img-3.png";
+import pillBoxesimg4 from "@/assets/pharma-packaging/pill-boxes/img-4.png";
+import pillBoxesimg5 from "@/assets/pharma-packaging/pill-boxes/img-5.png";
+import pillBoxesimg6 from "@/assets/pharma-packaging/pill-boxes/img-whychoose.png";
+import pillBoxesimg7 from "@/assets/pharma-packaging/pill-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CustomPillBoxes = () => {
@@ -37,11 +44,11 @@ const CustomPillBoxes = () => {
 
     // Using the same image for the gallery since we only have one product image
     const productImages = [
-        { src: pillBoxes, alt: "Custom Pill Boxes - Main View" },
-        { src: pillBoxes, alt: "Custom Pill Boxes - Side Angle" },
-        { src: pillBoxes, alt: "Custom Pill Boxes - Open Box View" },
-        { src: pillBoxes, alt: "Custom Pill Boxes - Detail Shot" },
-        { src: pillBoxes, alt: "Custom Pill Boxes - Lifestyle Shot" },
+        { src: pillBoxesimg1, alt: "Custom Pill Boxes - Main View" },
+        { src: pillBoxesimg2, alt: "Custom Pill Boxes - Side Angle" },
+        { src: pillBoxesimg3, alt: "Custom Pill Boxes - Open Box View" },
+        { src: pillBoxesimg4, alt: "Custom Pill Boxes - Detail Shot" },
+        { src: pillBoxesimg5, alt: "Custom Pill Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -114,7 +121,7 @@ const CustomPillBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={pillBoxes}
+                                    src={pillBoxesHero}
                                     alt="Custom Pill Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -404,7 +411,7 @@ const CustomPillBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={pillBoxes}
+                                    src={pillBoxesimg6}
                                     alt="Premium Custom Pill Box Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -438,7 +445,7 @@ const CustomPillBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={pillBoxes}
+                                    src={pillBoxesimg7}
                                     alt="Differentiate Your Pharmaceuticals"
                                     className="w-full h-full object-cover"
                                 />

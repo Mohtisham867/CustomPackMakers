@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHeroImage from "@/assets/stationery-boxes/document-folder.png";
+import documentFolderHero from "@/assets/stationery-boxes/document-folder/img-hero.png";
+import documentFolder1 from "@/assets/stationery-boxes/document-folder/img-1.png";
+import documentFolder2 from "@/assets/stationery-boxes/document-folder/img-2.png";
+import documentFolder3 from "@/assets/stationery-boxes/document-folder/img-3.png";
+import documentFolder4 from "@/assets/stationery-boxes/document-folder/img-4.png";
+import documentFolder5 from "@/assets/stationery-boxes/document-folder/img-5.png";
+import documentFolder6 from "@/assets/stationery-boxes/document-folder/img-whychoose.png";
+import documentFolder7 from "@/assets/stationery-boxes/document-folder/img-different.png";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const DocumentFolder = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHeroImage, alt: "Custom Document Folder - Main View" },
-        { src: productHeroImage, alt: "Custom Document Folder - Angle View" },
-        { src: productHeroImage, alt: "Custom Document Folder - Inside View" },
-        { src: productHeroImage, alt: "Custom Document Folder - Quality Finish" },
-        { src: productHeroImage, alt: "Custom Document Folder - Lifestyle Shot" },
+        { src: documentFolder1, alt: "Custom Document Folder - Main View" },
+        { src: documentFolder2, alt: "Custom Document Folder - Angle View" },
+        { src: documentFolder3, alt: "Custom Document Folder - Inside View" },
+        { src: documentFolder4, alt: "Custom Document Folder - Quality Finish" },
+        { src: documentFolder5, alt: "Custom Document Folder - Lifestyle Shot" },
     ];
 
     return (
@@ -113,7 +120,7 @@ const DocumentFolder = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={documentFolderHero}
                                     alt="Custom Document Folder Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -370,7 +377,7 @@ const DocumentFolder = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={documentFolder6}
                                     alt="Premium Custom Document Folders"
                                     className="w-full h-full object-cover"
                                 />
@@ -405,7 +412,7 @@ const DocumentFolder = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={documentFolder7}
                                     alt="Differentiate Your Folders"
                                     className="w-full h-full object-cover"
                                 />

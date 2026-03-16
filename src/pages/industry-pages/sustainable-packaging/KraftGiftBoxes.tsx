@@ -31,7 +31,14 @@ import { RelatedProductSustainable } from "@/components/RelatedProductSustainabl
 
 
 // Specific product images
-import productHeroImage from "@/assets/sustainable-packaging/kraft-gift-boxes.webp";
+import kraftGiftBoxesHero from "@/assets/sustainable-packaging/kraft-gift-boxes/img-hero.png";
+import kraftGiftBoxes1 from "@/assets/sustainable-packaging/kraft-gift-boxes/img-1.png";
+import kraftGiftBoxes2 from "@/assets/sustainable-packaging/kraft-gift-boxes/img-2.png";
+import kraftGiftBoxes3 from "@/assets/sustainable-packaging/kraft-gift-boxes/img-3.png";
+import kraftGiftBoxes4 from "@/assets/sustainable-packaging/kraft-gift-boxes/img-4.png";
+import kraftGiftBoxes5 from "@/assets/sustainable-packaging/kraft-gift-boxes/img-5.png";
+import kraftGiftBoxes6 from "@/assets/sustainable-packaging/kraft-gift-boxes/img-whychoose.png";
+import kraftGiftBoxes7 from "@/assets/sustainable-packaging/kraft-gift-boxes/img-different.png";
 
 
 //FAQ image
@@ -44,11 +51,11 @@ const KraftGiftBoxes = () => {
 
     // Product images for gallery
     const productImages = [
-        { src: productHeroImage, alt: "Kraft Gift Boxes - Main View" },
-        { src: productHeroImage, alt: "Kraft Gift Boxes - Side Angle" },
-        { src: productHeroImage, alt: "Kraft Gift Boxes - Open Box View" },
-        { src: productHeroImage, alt: "Kraft Gift Boxes - Detail Shot" },
-        { src: productHeroImage, alt: "Kraft Gift Boxes - Lifestyle Shot" },
+        { src: kraftGiftBoxes1, alt: "Kraft Gift Boxes - Main View" },
+        { src: kraftGiftBoxes2, alt: "Kraft Gift Boxes - Side Angle" },
+        { src: kraftGiftBoxes3, alt: "Kraft Gift Boxes - Open Box View" },
+        { src: kraftGiftBoxes4, alt: "Kraft Gift Boxes - Detail Shot" },
+        { src: kraftGiftBoxes5, alt: "Kraft Gift Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -121,7 +128,7 @@ const KraftGiftBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftGiftBoxesHero}
                                     alt="Kraft Gift Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -393,7 +400,7 @@ const KraftGiftBoxes = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftGiftBoxes6}
                                     alt="Sustainable Kraft Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -434,7 +441,7 @@ const KraftGiftBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={kraftGiftBoxes7}
                                     alt="Differentiate Your Eco Brand"
                                     className="w-full h-full object-cover"
                                 />

@@ -29,18 +29,26 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import oliveOilBoxes from "@/assets/pharma-packaging/olive-oil-boxes.webp";
+import oliveOilBoxeshero from "@/assets/pharma-packaging/olive-oil-boxes/img-hero.png";
+import oliveOilBoxesimg1 from "@/assets/pharma-packaging/olive-oil-boxes/img-1.png";
+import oliveOilBoxesimg2 from "@/assets/pharma-packaging/olive-oil-boxes/img-2.png";
+import oliveOilBoxesimg3 from "@/assets/pharma-packaging/olive-oil-boxes/img-3.png";
+import oliveOilBoxesimg4 from "@/assets/pharma-packaging/olive-oil-boxes/img-4.png";
+import oliveOilBoxesimg5 from "@/assets/pharma-packaging/olive-oil-boxes/img-5.png";
+import oliveOilBoxesimg6 from "@/assets/pharma-packaging/olive-oil-boxes/img-whychoose.png";
+import oliveOilBoxesimg7 from "@/assets/pharma-packaging/olive-oil-boxes/img-different.png";
+
 import FAQimage from "@/assets/FAQ-image.png";
 
 const OliveOilBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: oliveOilBoxes, alt: "Custom Olive Oil Boxes - Main View" },
-        { src: oliveOilBoxes, alt: "Custom Olive Oil Boxes - Side Angle" },
-        { src: oliveOilBoxes, alt: "Custom Olive Oil Boxes - Open Box View" },
-        { src: oliveOilBoxes, alt: "Custom Olive Oil Boxes - Detail Shot" },
-        { src: oliveOilBoxes, alt: "Custom Olive Oil Boxes - Lifestyle Shot" },
+        { src: oliveOilBoxesimg1, alt: "Custom Olive Oil Boxes - Main View" },
+        { src: oliveOilBoxesimg2, alt: "Custom Olive Oil Boxes - Side Angle" },
+        { src: oliveOilBoxesimg3, alt: "Custom Olive Oil Boxes - Open Box View" },
+        { src: oliveOilBoxesimg4, alt: "Custom Olive Oil Boxes - Detail Shot" },
+        { src: oliveOilBoxesimg5, alt: "Custom Olive Oil Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +119,7 @@ const OliveOilBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={oliveOilBoxes}
+                                    src={oliveOilBoxeshero}
                                     alt="Custom Olive Oil Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -382,7 +390,7 @@ const OliveOilBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={oliveOilBoxes}
+                                    src={oliveOilBoxesimg6}
                                     alt="Premium Custom Olive Oil Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -416,7 +424,7 @@ const OliveOilBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={oliveOilBoxes}
+                                    src={oliveOilBoxesimg7}
                                     alt="Differentiate Your Extract Products"
                                     className="w-full h-full object-cover"
                                 />

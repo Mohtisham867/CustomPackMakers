@@ -36,7 +36,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import heroImage from "@/assets/tea-coffee-cups/to-go-coffee-cups.webp";
+import toGoCoffeeCupsHero from "@/assets/tea-coffee-cups/to-go-coffee-cups/img-hero.png";
+import toGoCoffeeCups1 from "@/assets/tea-coffee-cups/to-go-coffee-cups/img-1.png";
+import toGoCoffeeCups2 from "@/assets/tea-coffee-cups/to-go-coffee-cups/img-2.png";
+import toGoCoffeeCups3 from "@/assets/tea-coffee-cups/to-go-coffee-cups/img-3.png";
+import toGoCoffeeCups4 from "@/assets/tea-coffee-cups/to-go-coffee-cups/img-4.png";
+import toGoCoffeeCups5 from "@/assets/tea-coffee-cups/to-go-coffee-cups/img-5.png";
+import toGoCoffeeCups6 from "@/assets/tea-coffee-cups/to-go-coffee-cups/img-whychoose.png";
+import toGoCoffeeCups7 from "@/assets/tea-coffee-cups/to-go-coffee-cups/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 // Related Products Carousel Images
@@ -87,11 +94,11 @@ const ToGoCoffeeCups = () => {
     }, [api]);
 
     const productImages = [
-        { src: heroImage, alt: "To Go Coffee Cups - Main View" },
-        { src: heroImage, alt: "To Go Coffee Cups - Side Angle" },
-        { src: heroImage, alt: "To Go Coffee Cups - In Hand" },
-        { src: heroImage, alt: "To Go Coffee Cups - Detail Shot" },
-        { src: heroImage, alt: "To Go Coffee Cups - Lifestyle Shot" },
+        { src: toGoCoffeeCups1, alt: "To Go Coffee Cups - Main View" },
+        { src: toGoCoffeeCups2, alt: "To Go Coffee Cups - Side Angle" },
+        { src: toGoCoffeeCups3, alt: "To Go Coffee Cups - In Hand" },
+        { src: toGoCoffeeCups4, alt: "To Go Coffee Cups - Detail Shot" },
+        { src: toGoCoffeeCups5, alt: "To Go Coffee Cups - Lifestyle Shot" },
     ];
 
     return (
@@ -164,7 +171,7 @@ const ToGoCoffeeCups = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={heroImage}
+                                    src={toGoCoffeeCupsHero}
                                     alt="To Go Coffee Cups Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -566,7 +573,7 @@ const ToGoCoffeeCups = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={heroImage}
+                                    src={toGoCoffeeCups6}
                                     alt="Premium Custom To Go Coffee Cups"
                                     className="w-full h-full object-cover"
                                 />
@@ -607,7 +614,7 @@ const ToGoCoffeeCups = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={heroImage}
+                                    src={toGoCoffeeCups7}
                                     alt="Differentiate Your Beverage Brands"
                                     className="w-full h-full object-cover"
                                 />

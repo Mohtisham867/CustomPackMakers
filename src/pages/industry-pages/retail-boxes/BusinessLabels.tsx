@@ -29,7 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import businessLabelsImage from "@/assets/retail-boxes/Business Labels.webp";
+import businessLabelshero from "@/assets/retail-boxes/Business-Labels/img-hero.png";
+import businessLabels1 from "@/assets/retail-boxes/Business-Labels/img-1.png";
+import businessLabels2 from "@/assets/retail-boxes/Business-Labels/img-2.png";
+import businessLabels3 from "@/assets/retail-boxes/Business-Labels/img-3.png";
+import businessLabels4 from "@/assets/retail-boxes/Business-Labels/img-4.png";
+import businessLabels5 from "@/assets/retail-boxes/Business-Labels/img-5.png";
+import businessLabels6 from "@/assets/retail-boxes/Business-Labels/img-whychoose.png";
+import businessLabels7 from "@/assets/retail-boxes/Business-Labels/img-different.png";
+
 import FAQimage from "@/assets/FAQ-image.png";
 
 const BusinessLabels = () => {
@@ -37,11 +45,11 @@ const BusinessLabels = () => {
 
     // Product images for gallery
     const productImages = [
-        { src: businessLabelsImage, alt: "Business Labels - Main View" },
-        { src: businessLabelsImage, alt: "Business Labels - Side Angle" },
-        { src: businessLabelsImage, alt: "Business Labels - Application View" },
-        { src: businessLabelsImage, alt: "Business Labels - Detail Shot" },
-        { src: businessLabelsImage, alt: "Business Labels - Lifestyle Shot" },
+        { src: businessLabels1, alt: "Business Labels - Main View" },
+        { src: businessLabels2, alt: "Business Labels - Side Angle" },
+        { src: businessLabels3, alt: "Business Labels - Application View" },
+        { src: businessLabels4, alt: "Business Labels - Detail Shot" },
+        { src: businessLabels5, alt: "Business Labels - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +119,7 @@ const BusinessLabels = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={businessLabelsImage}
+                                    src={businessLabelshero}
                                     alt="Custom Business Labels Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -390,7 +398,7 @@ const BusinessLabels = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={businessLabelsImage}
+                                    src={businessLabels6}
                                     alt="Premium Business Labels"
                                     className="w-full h-full object-cover"
                                 />
@@ -430,7 +438,7 @@ const BusinessLabels = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={businessLabelsImage}
+                                    src={businessLabels7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

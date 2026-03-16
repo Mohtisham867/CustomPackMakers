@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHeroImage from "@/assets/stationery-boxes/marker-boxes.webp";
+import markerBoxesHero from "@/assets/stationery-boxes/marker-boxes/img-hero.png";
+import markerBoxes1 from "@/assets/stationery-boxes/marker-boxes/img-1.png";
+import markerBoxes2 from "@/assets/stationery-boxes/marker-boxes/img-2.png";
+import markerBoxes3 from "@/assets/stationery-boxes/marker-boxes/img-3.png";
+import markerBoxes4 from "@/assets/stationery-boxes/marker-boxes/img-4.png";
+import markerBoxes5 from "@/assets/stationery-boxes/marker-boxes/img-5.png";
+import markerBoxes6 from "@/assets/stationery-boxes/marker-boxes/img-whychoose.png";
+import markerBoxes7 from "@/assets/stationery-boxes/marker-boxes/img-different.png";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const MarkerBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHeroImage, alt: "Custom Marker Boxes - Main View" },
-        { src: productHeroImage, alt: "Custom Marker Boxes - Angle View" },
-        { src: productHeroImage, alt: "Custom Marker Boxes - Inside Fitment" },
-        { src: productHeroImage, alt: "Custom Marker Boxes - Quality Finish" },
-        { src: productHeroImage, alt: "Custom Marker Boxes - Studio Setting" },
+        { src: markerBoxes1, alt: "Custom Marker Boxes - Main View" },
+        { src: markerBoxes2, alt: "Custom Marker Boxes - Angle View" },
+        { src: markerBoxes3, alt: "Custom Marker Boxes - Inside Fitment" },
+        { src: markerBoxes4, alt: "Custom Marker Boxes - Quality Finish" },
+        { src: markerBoxes5, alt: "Custom Marker Boxes - Studio Setting" },
     ];
 
     return (
@@ -113,7 +120,7 @@ const MarkerBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={markerBoxesHero}
                                     alt="Custom Marker Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -368,7 +375,7 @@ const MarkerBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={markerBoxes6}
                                     alt="Premium Custom Marker Boxes Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -403,7 +410,7 @@ const MarkerBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={markerBoxes7}
                                     alt="Differentiate Your Art Supplies"
                                     className="w-full h-full object-cover"
                                 />

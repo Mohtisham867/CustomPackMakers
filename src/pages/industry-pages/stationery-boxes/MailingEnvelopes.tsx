@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHeroImage from "@/assets/stationery-boxes/mailing-envelopes.webp";
+import mailingEnvelopesHero from "@/assets/stationery-boxes/mailing-envelopes/img-hero.png";
+import mailingEnvelopes1 from "@/assets/stationery-boxes/mailing-envelopes/img-1.png";
+import mailingEnvelopes2 from "@/assets/stationery-boxes/mailing-envelopes/img-2.png";
+import mailingEnvelopes3 from "@/assets/stationery-boxes/mailing-envelopes/img-3.png";
+import mailingEnvelopes4 from "@/assets/stationery-boxes/mailing-envelopes/img-4.png";
+import mailingEnvelopes5 from "@/assets/stationery-boxes/mailing-envelopes/img-5.png";
+import mailingEnvelopes6 from "@/assets/stationery-boxes/mailing-envelopes/img-whychoose.png";
+import mailingEnvelopes7 from "@/assets/stationery-boxes/mailing-envelopes/img-different.png";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const MailingEnvelopes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHeroImage, alt: "Custom Mailing Envelopes - Main View" },
-        { src: productHeroImage, alt: "Custom Mailing Envelopes - Angle View" },
-        { src: productHeroImage, alt: "Custom Mailing Envelopes - Seal Detail" },
-        { src: productHeroImage, alt: "Custom Mailing Envelopes - Quality Finish" },
-        { src: productHeroImage, alt: "Custom Mailing Envelopes - Lifestyle Shot" },
+        { src: mailingEnvelopes1, alt: "Custom Mailing Envelopes - Main View" },
+        { src: mailingEnvelopes2, alt: "Custom Mailing Envelopes - Angle View" },
+        { src: mailingEnvelopes3, alt: "Custom Mailing Envelopes - Seal Detail" },
+        { src: mailingEnvelopes4, alt: "Custom Mailing Envelopes - Quality Finish" },
+        { src: mailingEnvelopes5, alt: "Custom Mailing Envelopes - Lifestyle Shot" },
     ];
 
     return (
@@ -113,7 +120,7 @@ const MailingEnvelopes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={mailingEnvelopesHero}
                                     alt="Custom Mailing Envelopes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -368,7 +375,7 @@ const MailingEnvelopes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={mailingEnvelopes6}
                                     alt="Premium Custom Mailing Envelopes Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -403,7 +410,7 @@ const MailingEnvelopes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={mailingEnvelopes7}
                                     alt="Differentiate Your Correspondence"
                                     className="w-full h-full object-cover"
                                 />

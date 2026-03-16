@@ -28,19 +28,25 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productImage from "@/assets/vape-boxes/disposable-vape-boxes.webp";
-import heroImage from "@/assets/vape-boxes/vape-boxes-hero.webp";
+import disposableVapeImagehero from "@/assets/vape-boxes/disposable-vape-boxes/img-hero.png";
+import disposableVapeImage1 from "@/assets/vape-boxes/disposable-vape-boxes/img-1.png";
+import disposableVapeImage2 from "@/assets/vape-boxes/disposable-vape-boxes/img-2.png";
+import disposableVapeImage3 from "@/assets/vape-boxes/disposable-vape-boxes/img-3.png";
+import disposableVapeImage4 from "@/assets/vape-boxes/disposable-vape-boxes/img-4.png";
+import disposableVapeImage5 from "@/assets/vape-boxes/disposable-vape-boxes/img-5.png";
+import disposableVapeImage6 from "@/assets/vape-boxes/disposable-vape-boxes/img-whychoose.png";
+import disposableVapeImage7 from "@/assets/vape-boxes/disposable-vape-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const DisposableVapeBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productImage, alt: "Disposable Vape Boxes - Main View" },
-        { src: productImage, alt: "Disposable Vape Boxes - Side Angle" },
-        { src: productImage, alt: "Disposable Vape Boxes - Open Box View" },
-        { src: productImage, alt: "Disposable Vape Boxes - Detail Shot" },
-        { src: heroImage, alt: "Disposable Vape Boxes - Lifestyle Shot" },
+        { src: disposableVapeImage1, alt: "Disposable Vape Boxes - Main View" },
+        { src: disposableVapeImage2, alt: "Disposable Vape Boxes - Side Angle" },
+        { src: disposableVapeImage3, alt: "Disposable Vape Boxes - Open Box View" },
+        { src: disposableVapeImage4, alt: "Disposable Vape Boxes - Detail Shot" },
+        { src: disposableVapeImage5, alt: "Disposable Vape Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -108,7 +114,7 @@ const DisposableVapeBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productImage}
+                                    src={disposableVapeImagehero}
                                     alt="Disposable Vape Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -354,7 +360,7 @@ const DisposableVapeBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productImage}
+                                    src={disposableVapeImage6}
                                     alt="Premium Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -386,7 +392,7 @@ const DisposableVapeBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={heroImage}
+                                    src={disposableVapeImage7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

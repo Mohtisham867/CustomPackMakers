@@ -28,19 +28,25 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productImage from "@/assets/vape-boxes/juul-packaging.webp";
-import heroImage from "@/assets/vape-boxes/vape-boxes-hero.webp";
+import juulPackagingImagehero from "@/assets/vape-boxes/juul-packaging/img-hero.png";
+import juulPackagingImage1 from "@/assets/vape-boxes/juul-packaging/img-1.png";
+import juulPackagingImage2 from "@/assets/vape-boxes/juul-packaging/img-2.png";
+import juulPackagingImage3 from "@/assets/vape-boxes/juul-packaging/img-3.png";
+import juulPackagingImage4 from "@/assets/vape-boxes/juul-packaging/img-4.png";
+import juulPackagingImage5 from "@/assets/vape-boxes/juul-packaging/img-5.png";
+import juulPackagingImage6 from "@/assets/vape-boxes/juul-packaging/img-whychoose.png";
+import juulPackagingImage7 from "@/assets/vape-boxes/juul-packaging/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const JuulPackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productImage, alt: "Juul Packaging - Main View" },
-        { src: productImage, alt: "Juul Packaging - Side Angle" },
-        { src: productImage, alt: "Juul Packaging - Open Box View" },
-        { src: productImage, alt: "Juul Packaging - Detail Shot" },
-        { src: heroImage, alt: "Juul Packaging - Lifestyle Shot" },
+        { src: juulPackagingImage1, alt: "Juul Packaging - Main View" },
+        { src: juulPackagingImage2, alt: "Juul Packaging - Side Angle" },
+        { src: juulPackagingImage3, alt: "Juul Packaging - Open Box View" },
+        { src: juulPackagingImage4, alt: "Juul Packaging - Detail Shot" },
+        { src: juulPackagingImage5, alt: "Juul Packaging - Lifestyle Shot" },
     ];
 
     return (
@@ -108,7 +114,7 @@ const JuulPackaging = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productImage}
+                                    src={juulPackagingImagehero}
                                     alt="Juul Packaging Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -352,7 +358,7 @@ const JuulPackaging = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productImage}
+                                    src={juulPackagingImage6}
                                     alt="Premium Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -384,7 +390,7 @@ const JuulPackaging = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={heroImage}
+                                    src={juulPackagingImage7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

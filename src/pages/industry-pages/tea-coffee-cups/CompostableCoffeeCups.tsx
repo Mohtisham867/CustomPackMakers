@@ -36,6 +36,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
+import compostablecoffeecuphero from "@/assets/tea-coffee-cups/Compostable-Coffee-Cups/img-hero.png";
 import heroImage from "@/assets/tea-coffee-cups/compostable-coffee-cups.webp";
 import FAQimage from "@/assets/FAQ-image.png";
 
@@ -164,7 +165,7 @@ const CompostableCoffeeCups = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={heroImage}
+                                    src={compostablecoffeecuphero}
                                     alt="Compostable Coffee Cups Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />

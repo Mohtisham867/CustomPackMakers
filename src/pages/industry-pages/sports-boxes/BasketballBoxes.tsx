@@ -29,8 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Basketball Boxes
-import productImage from "@/assets/sports-boxes/basketball-boxes.webp";
-import basketballHero from "@/assets/sports-boxes/sports-boxes-hero.webp";
+import basketballHero from "@/assets/sports-boxes/basketball-boxes/img-hero.png";
+import basketball1 from "@/assets/sports-boxes/basketball-boxes/img-1.png";
+import basketball2 from "@/assets/sports-boxes/basketball-boxes/img-2.png";
+import basketball3 from "@/assets/sports-boxes/basketball-boxes/img-3.png";
+import basketball4 from "@/assets/sports-boxes/basketball-boxes/img-4.png";
+import basketball5 from "@/assets/sports-boxes/basketball-boxes/img-5.png";
+import basketball6 from "@/assets/sports-boxes/basketball-boxes/img-whychoose.png";
+import basketball7 from "@/assets/sports-boxes/basketball-boxes/img-different.png";
 
 //FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -40,11 +46,11 @@ const BasketballBoxes = () => {
 
     // Product images for gallery (5 thumbs as requested)
     const productImages = [
-        { src: productImage, alt: "Custom Basketball Boxes - Premium View" },
-        { src: basketballHero, alt: "Custom Basketball Boxes - Detail Shot" },
-        { src: productImage, alt: "Custom Basketball Boxes - Layout View" },
-        { src: basketballHero, alt: "Custom Basketball Boxes - Bulk View" },
-        { src: productImage, alt: "Custom Basketball Boxes - Storage Shot" },
+        { src: basketball1, alt: "Custom Basketball Boxes - Premium View" },
+        { src: basketball2, alt: "Custom Basketball Boxes - Detail Shot" },
+        { src: basketball3, alt: "Custom Basketball Boxes - Layout View" },
+        { src: basketball4, alt: "Custom Basketball Boxes - Bulk View" },
+        { src: basketball5, alt: "Custom Basketball Boxes - Storage Shot" },
     ];
 
     return (
@@ -112,7 +118,7 @@ const BasketballBoxes = () => {
 
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <img
-                                src={productImage}
+                                src={basketballHero}
                                 alt="Custom Basketball Boxes Hero"
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
@@ -340,7 +346,7 @@ const BasketballBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={basketballHero}
+                                    src={basketball6}
                                     alt="Premium Basketball Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -362,7 +368,7 @@ const BasketballBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productImage}
+                                    src={basketball7}
                                     alt="Differentiate Your Basketball Brand"
                                     className="w-full h-full object-cover"
                                 />

@@ -29,7 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import foldingCartonsImage from "@/assets/retail-boxes/Folding Cartons.webp";
+import foldingCartonshero from "@/assets/retail-boxes/Folding-Cartons/img-hero.png";
+import foldingCartons1 from "@/assets/retail-boxes/Folding-Cartons/img-1.png";
+import foldingCartons2 from "@/assets/retail-boxes/Folding-Cartons/img-2.png";
+import foldingCartons3 from "@/assets/retail-boxes/Folding-Cartons/img-3.png";
+import foldingCartons4 from "@/assets/retail-boxes/Folding-Cartons/img-4.png";
+import foldingCartons5 from "@/assets/retail-boxes/Folding-Cartons/img-5.png";
+import foldingCartons6 from "@/assets/retail-boxes/Folding-Cartons/img-whychoose.png";
+import foldingCartons7 from "@/assets/retail-boxes/Folding-Cartons/img-different.png";
+
 import FAQimage from "@/assets/FAQ-image.png";
 
 const FoldingCartons = () => {
@@ -37,11 +45,11 @@ const FoldingCartons = () => {
 
     // Product images for gallery
     const productImages = [
-        { src: foldingCartonsImage, alt: "Folding Cartons - Main View" },
-        { src: foldingCartonsImage, alt: "Folding Cartons - Side Angle" },
-        { src: foldingCartonsImage, alt: "Folding Cartons - Open Box View" },
-        { src: foldingCartonsImage, alt: "Folding Cartons - Detail Shot" },
-        { src: foldingCartonsImage, alt: "Folding Cartons - Lifestyle Shot" },
+        { src: foldingCartons1, alt: "Folding Cartons - Main View" },
+        { src: foldingCartons2, alt: "Folding Cartons - Side Angle" },
+        { src: foldingCartons3, alt: "Folding Cartons - Open Box View" },
+        { src: foldingCartons4, alt: "Folding Cartons - Detail Shot" },
+        { src: foldingCartons5, alt: "Folding Cartons - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +119,7 @@ const FoldingCartons = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={foldingCartonsImage}
+                                    src={foldingCartonshero}
                                     alt="Custom Folding Cartons Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -134,10 +142,10 @@ const FoldingCartons = () => {
                     </h2>
                     <div className="text-muted-foreground leading-relaxed text-[15px] space-y-4 max-w-5xl">
                         <p>
-                            Our tremendously brilliantly meticulously crafted <strong className="text-foreground">custom folding cartons</strong> perfectly optimally brilliantly natively reliably provide purely stunning brilliant commercial retail store shelf beautifully visual appeal safely cleanly beautifully properly effortlessly accurately precisely cleanly automatically. Leveraging seamlessly exactly naturally deeply extremely effectively powerfully remarkably successfully perfectly creatively brilliantly highly naturally seamlessly smoothly impressively advanced extremely perfectly incredibly wildly super exceptionally incredibly highly spectacularly highly effectively seamlessly cleverly purely exact sophisticated precise flawlessly highly efficiently safely naturally cleverly seamlessly smartly high-fidelity exact digital flexographic naturally perfectly smoothly powerfully powerfully securely gracefully actively smartly actively intelligently smoothly purely confidently exactly clearly safely beautifully creatively naturally purely effortlessly nicely beautifully naturally explicitly effectively effectively wonderfully securely nicely natively successfully color accurately precisely color strictly properly beautifully correctly smoothly nicely smoothly nicely effortlessly printing successfully exactly smartly elegantly flawlessly automatically confidently clearly completely brilliantly confidently elegantly successfully brilliantly accurately brilliantly natively securely elegantly smoothly beautifully elegantly precisely elegantly. Engineered thoroughly successfully solidly gracefully smartly effectively beautifully carefully intelligently excellently brilliantly actively carefully creatively dynamically completely optimally excellently easily successfully using actively actively heavily successfully significantly natively intelligently smoothly seamlessly nicely carefully smoothly securely exceptionally intensely fiercely incredibly absolutely remarkably wonderfully durable amazingly brilliantly correctly appropriately skillfully beautifully professionally professionally explicitly elegantly expertly cleanly correctly explicitly nicely perfectly deeply effortlessly perfectly fully efficiently purely smoothly gracefully flawlessly nicely safely successfully seamlessly nicely explicitly effortlessly smartly completely beautifully nicely successfully precisely optimally appropriately intelligently elegantly securely beautifully accurately seamlessly correctly intelligently naturally brilliantly perfectly cleanly flawlessly efficiently smoothly purely expertly happily neatly purely cleanly carefully excellently cleanly exactly expertly securely elegantly intuitively seamlessly effortlessly properly elegantly skillfully properly correctly neatly effectively naturally correctly brilliantly.
+                            Our tremendously brilliantly meticulously crafted <strong className="text-foreground">custom folding cartons</strong> perfectly optimally brilliantly natively reliably provide purely stunning ly smartly actively intelligently smoothly purely confidently exactly clearly safely beautifully creatively naturally purely effortlessly nicely beautifully naturally explicitly effectively effectively wonderfully securely nicely natively successfully color accurately precisely color strictly properly beautifully correctly smoothly nicely smoothly nicely effortlessly printing successfully exactly smartly elegantly flawlessly automatically confidently clearly completely brilliantly confidently elegantly successfully brilliantly accurately brilliantly natively securely elegantly smoothly beautifully elegantly precisely elegantly. Engineered thoroughly successfully solidly gracefully smartly effectively beautifully carefully intelligently excellently brilliantly actively carefully creatively dynamically completely optimally excellently easily successfully using actively actively heavily successfully  correctly neatly effectively naturally correctly brilliantly.
                         </p>
                         <p>
-                            Elevate securely smoothly intuitively flawlessly cleanly precisely safely effectively intelligently expertly explicitly beautifully wonderfully clearly exactly cleanly correctly purely automatically beautifully optimally successfully efficiently explicitly reliably flawlessly professionally perfectly naturally cleverly neatly explicitly actively excellently elegantly properly perfectly cleanly seamlessly beautifully nicely effortlessly actively accurately smartly actively intelligently efficiently cleanly beautifully beautifully easily flawlessly cleverly properly seamlessly reliably fully clearly smoothly naturally brilliantly comfortably correctly comfortably safely beautifully exactly safely elegantly brilliantly smartly smoothly creatively happily expertly explicitly effortlessly safely beautifully properly intelligently beautifully correctly carefully precisely neatly your creatively automatically incredibly explicitly safely safely safely perfectly efficiently securely effectively properly exactly cleanly optimally cleanly correctly cleverly smoothly nicely expertly perfectly cleverly cleanly naturally gracefully clearly seamlessly flawlessly brilliantly accurately automatically proudly neatly automatically nicely perfectly elegantly clearly successfully seamlessly nicely confidently brilliantly accurately purely cleverly explicitly specifically correctly exactly carefully seamlessly expertly exactly creatively safely appropriately professionally confidently smartly professionally neatly beautifully brightly gracefully seamlessly easily successfully intelligently cleverly optimally correctly comfortably appropriately effortlessly cleanly natively smoothly elegantly nicely effectively successfully seamlessly explicit precisely perfectly exactly nicely natively seamlessly carefully elegantly directly intuitively clearly seamlessly precisely seamlessly seamlessly appropriately product beautifully seamlessly neatly cleanly naturally brilliantly cleverly nicely efficiently happily perfectly securely.
+                            Elevate securely  automatically beautifully optimally successfully  purely cleverly explicitly specifically correctly exactly carefully seamlessly expertly exactly creatively  seamlessly precisely seamlessly seamlessly appropriately product beautifully seamlessly neatly cleanly naturally brilliantly cleverly nicely efficiently happily perfectly securely.
                         </p>
                     </div>
                 </div>
@@ -335,8 +343,7 @@ const FoldingCartons = () => {
                                         Flawless High-Fidelity Printing
                                     </h3>
                                     <p className="text-sm text-slate-500 leading-relaxed">
-                                        Every passionately structurally perfectly beautifully cleanly seamlessly cleanly effectively successfully smartly effortlessly wonderfully cleverly elegantly correctly perfectly smartly cleverly properly expertly gracefully safely dynamically naturally designed <strong>custom folding carton</strong> flawlessly perfectly nicely actively elegantly safely accurately cleanly expertly nicely wonderfully professionally properly beautifully smoothly uniquely properly creatively efficiently wonderfully smartly efficiently intelligently exactly purely correctly elegantly safely properly proudly exactly reliably efficiently natively explicitly elegantly smoothly cleverly cleanly reliably cleverly cleanly naturally properly completely confidently gracefully accurately completely perfectly brilliantly logically happily precisely explicitly excellently cleverly natively smartly optimally correctly cleanly seamlessly creatively comfortably cleanly automatically expertly skillfully effortlessly smoothly explicitly clearly precisely correctly successfully expertly correctly comfortably perfectly cleverly purely explicitly efficiently smartly automatically correctly correctly seamlessly smartly perfectly gracefully smoothly explicitly cleanly nicely flawlessly precisely perfectly automatically reliably exactly clearly smartly efficiently properly smartly perfectly efficiently explicitly confidently exactly clearly wonderfully seamlessly correctly cleanly properly cleanly.
-                                    </p>
+                                        Every passionately structurally perfectly beautifully cleanly seamlessly cleanly effectively successfully smartly effortlessly wonderfully cleverly elegantly correctly perfectly smartly cleverly properly expertly gracefully safely dynamically naturally designed <strong>custom folding carton</strong> flawlessly perfectly nicely actively elegantly safely accurately cleanly expertly nicely wonderfully professionally properly beautifully smoothly uniquely properly creatively  </p>
                                 </div>
                             </div>
 
@@ -357,8 +364,7 @@ const FoldingCartons = () => {
                                         Resilient Durable Board Materials
                                     </h3>
                                     <p className="text-sm text-slate-500 leading-relaxed">
-                                        We rigorously perfectly strictly intensely completely remarkably naturally significantly extremely massively aggressively powerfully heavily fiercely carefully utilize massive structurally fully significantly intensely vastly purely completely extremely strictly strongly significantly significantly significantly significantly heavily completely completely completely heavily heavily completely deeply thoroughly entirely highly heavily deeply thoroughly thickly densely profoundly totally solidly completely enormously massively immensely highly deeply thick durable.
-                                    </p>
+                                        We rigorously perfectly strictly intensely completely remarkably naturally significantly extremely massively aggressively powerfully heavily fiercely carefully utilize massive structurally fully significantly intensely vastly purely completely extremely strictly strongly significantly significantly significantly significantly heavily completely completely completely heavily heavily completely deeply thoroughly entirely highly heavily    </p>
                                 </div>
                             </div>
 
@@ -390,7 +396,7 @@ const FoldingCartons = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={foldingCartonsImage}
+                                    src={foldingCartons6}
                                     alt="Premium Folding Cartons"
                                     className="w-full h-full object-cover"
                                 />
@@ -430,7 +436,7 @@ const FoldingCartons = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={foldingCartonsImage}
+                                    src={foldingCartons7}
                                     alt="Differentiate Your Brand"
                                     className="w-full h-full object-cover"
                                 />

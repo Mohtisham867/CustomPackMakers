@@ -29,18 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import condomBoxes from "@/assets/pharma-packaging/condom-boxes.webp";
+import condomBoxeshero from "@/assets/pharma-packaging/condom-boxes/img-hero.png";
+import condomBoxesimg1 from "@/assets/pharma-packaging/condom-boxes/img-1.png";
+import condomBoxesimg2 from "@/assets/pharma-packaging/condom-boxes/img-2.png";
+import condomBoxesimg3 from "@/assets/pharma-packaging/condom-boxes/img-3.png";
+import condomBoxesimg4 from "@/assets/pharma-packaging/condom-boxes/img-4.png";
+import condomBoxesimg5 from "@/assets/pharma-packaging/condom-boxes/img-5.png";
+import condomBoxesimg6 from "@/assets/pharma-packaging/condom-boxes/img-whychoose.png";
+import condomBoxesimg7 from "@/assets/pharma-packaging/condom-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CondomBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: condomBoxes, alt: "Custom Condom Boxes - Main View" },
-        { src: condomBoxes, alt: "Custom Condom Boxes - Side Angle" },
-        { src: condomBoxes, alt: "Custom Condom Boxes - Open Box View" },
-        { src: condomBoxes, alt: "Custom Condom Boxes - Detail Shot" },
-        { src: condomBoxes, alt: "Custom Condom Boxes - Lifestyle Shot" },
+        { src: condomBoxesimg1, alt: "Custom Condom Boxes - Main View" },
+        { src: condomBoxesimg2, alt: "Custom Condom Boxes - Side Angle" },
+        { src: condomBoxesimg3, alt: "Custom Condom Boxes - Open Box View" },
+        { src: condomBoxesimg4, alt: "Custom Condom Boxes - Detail Shot" },
+        { src: condomBoxesimg5, alt: "Custom Condom Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +118,7 @@ const CondomBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={condomBoxes}
+                                    src={condomBoxeshero}
                                     alt="Custom Condom Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -382,7 +389,7 @@ const CondomBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={condomBoxes}
+                                    src={condomBoxesimg6}
                                     alt="Premium Custom Personal Care Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -416,7 +423,7 @@ const CondomBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={condomBoxes}
+                                    src={condomBoxesimg7}
                                     alt="Differentiate Your Personal Care Products"
                                     className="w-full h-full object-cover"
                                 />

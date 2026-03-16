@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHeroImage from "@/assets/stationery-boxes/pencil-boxes.webp";
+import pencilBoxesHero from "@/assets/stationery-boxes/pencil-boxes/img-hero.png";
+import pencilBoxes1 from "@/assets/stationery-boxes/pencil-boxes/img-1.png";
+import pencilBoxes2 from "@/assets/stationery-boxes/pencil-boxes/img-2.png";
+import pencilBoxes3 from "@/assets/stationery-boxes/pencil-boxes/img-3.png";
+import pencilBoxes4 from "@/assets/stationery-boxes/pencil-boxes/img-4.png";
+import pencilBoxes5 from "@/assets/stationery-boxes/pencil-boxes/img-5.png";
+import pencilBoxes6 from "@/assets/stationery-boxes/pencil-boxes/img-whychoose.png";
+import pencilBoxes7 from "@/assets/stationery-boxes/pencil-boxes/img-different.png";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const PencilBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHeroImage, alt: "Custom Pencil Boxes - Main View" },
-        { src: productHeroImage, alt: "Custom Pencil Boxes - Angle View" },
-        { src: productHeroImage, alt: "Custom Pencil Boxes - Inside Fitment" },
-        { src: productHeroImage, alt: "Custom Pencil Boxes - Quality Finish" },
-        { src: productHeroImage, alt: "Custom Pencil Boxes - Retail Setting" },
+        { src: pencilBoxes1, alt: "Custom Pencil Boxes - Main View" },
+        { src: pencilBoxes2, alt: "Custom Pencil Boxes - Angle View" },
+        { src: pencilBoxes3, alt: "Custom Pencil Boxes - Inside Fitment" },
+        { src: pencilBoxes4, alt: "Custom Pencil Boxes - Quality Finish" },
+        { src: pencilBoxes5, alt: "Custom Pencil Boxes - Retail Setting" },
     ];
 
     return (
@@ -113,7 +120,7 @@ const PencilBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={pencilBoxesHero}
                                     alt="Custom Pencil Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -367,7 +374,7 @@ const PencilBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={pencilBoxes6}
                                     alt="Premium Custom Pencil Boxes Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -402,7 +409,7 @@ const PencilBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={pencilBoxes7}
                                     alt="Differentiate Your Writing Supplies"
                                     className="w-full h-full object-cover"
                                 />
@@ -418,7 +425,7 @@ const PencilBoxes = () => {
                                 Differentiate Your <span className="text-primary">Artistic Supplies</span> From Others
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-                                At CustomPackMakers, we intimately understand that your distinctive pencil packaging acts forcefully as your brand's absolutely most critical visual salesperson within highly competitive, deeply crowded stationery aisles. To definitively ensure your professional writing instruments completely dominate overwhelming retail environments gracefully, we strictly deploy breathtakingly precise printing presses flawlessly paired perfectly with exceptionally durable structural paperboard engineering. Our exceedingly talented industrial packaging designers systematically innovate brilliant cohesive structural displays brilliantly eliminating damaging graphite friction completely, exceptionally robust interlocking bottom closures definitively preventing sudden humiliating structural ruptures gracefully, and exceedingly satisfying magnetic closure mechanisms strictly calibrated perfectly for incredibly dramatic reveal unboxings. By flawlessly embedding these phenomenal functional innovations directly alongside intensely vibrant corporate graphics, we practically guarantee breathtaking customer loyalty generation instantly.
+                                At CustomPackMakers, we intimately understand that your distinctive pencil packaging acts forcefully as your brand's absolutely most critical visual salesperson within highly competitive, deeply crowded stationery aisles. To definitively ensure your professional writing instruments completely dominate overwhelming retail environments gracefully, we strictly deploy breathtakingly precise printing presses flawlessly paired perfectly with exceptionally durable structural paperboard engineering. Our exceedingly talented industrial packaging designers systematically innovate brilliant cohesive structural displays brilliantly eliminating damaging graphite friction completely, exceptionally robust interlocking bottom closures definitively preventing sudden .
                             </p>
                         </div>
                     </div>

@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHeroImage from "@/assets/stationery-boxes/Book Box.png";
+import bookBoxesHero from "@/assets/stationery-boxes/Book-Box/img-hero.png";
+import bookBoxes1 from "@/assets/stationery-boxes/Book-Box/img-1.png";
+import bookBoxes2 from "@/assets/stationery-boxes/Book-Box/img-2.png";
+import bookBoxes3 from "@/assets/stationery-boxes/Book-Box/img-3.png";
+import bookBoxes4 from "@/assets/stationery-boxes/Book-Box/img-4.png";
+import bookBoxes5 from "@/assets/stationery-boxes/Book-Box/img-5.png";
+import bookBoxes6 from "@/assets/stationery-boxes/Book-Box/img-whychoose.png";
+import bookBoxes7 from "@/assets/stationery-boxes/Book-Box/img-different.png";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const BookBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHeroImage, alt: "Custom Book Boxes - Main View" },
-        { src: productHeroImage, alt: "Custom Book Boxes - Angle View" },
-        { src: productHeroImage, alt: "Custom Book Boxes - Inside View" },
-        { src: productHeroImage, alt: "Custom Book Boxes - Material Detail" },
-        { src: productHeroImage, alt: "Custom Book Boxes - Branding Finish" },
+        { src: bookBoxes1, alt: "Custom Book Boxes - Main View" },
+        { src: bookBoxes2, alt: "Custom Book Boxes - Angle View" },
+        { src: bookBoxes3, alt: "Custom Book Boxes - Inside View" },
+        { src: bookBoxes4, alt: "Custom Book Boxes - Material Detail" },
+        { src: bookBoxes5, alt: "Custom Book Boxes - Branding Finish" },
     ];
 
     return (
@@ -113,7 +120,7 @@ const BookBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={bookBoxesHero}
                                     alt="Custom Book Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -367,7 +374,7 @@ const BookBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={bookBoxes6}
                                     alt="Premium Custom Book Boxes Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -402,7 +409,7 @@ const BookBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={bookBoxes7}
                                     alt="Differentiate Your Literary Shipping"
                                     className="w-full h-full object-cover"
                                 />
@@ -418,7 +425,7 @@ const BookBoxes = () => {
                                 Differentiate Your <span className="text-primary">Publishing Fulfillment</span> From Others
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-                                At CustomPackMakers, we intimately understand your protective shipping exterior acts significantly as your brand's absolutely crucial first physical interaction concerning highly anticipated literary deliveries. To definitively ensure your spectacular published works completely dominate incredibly demanding modern unboxing expectations gracefully, we strictly deploy breathtakingly robust structural engineering flawlessly paired perfectly with insanely crisp automated printing presses. Our exceedingly talented industrial designers systematically innovate brilliant cohesive folding architectures entirely eliminating destructive internal friction, exceptionally robust double-walled siding definitively preventing catastrophic crushing under immense warehouse weights, and exceedingly satisfying integrated opening strips strictly calibrated perfectly for incredibly dramatic reveal moments. By flawlessly embedding these phenomenal structural safeguards directly alongside intensely vibrant corporate graphics, we practically guarantee breathtaking reader loyalty generation instantly.
+                                At CustomPackMakers, we intimately understand your protective shipping exterior acts significantly as your brand's absolutely crucial first physical interaction concerning highly anticipated literary deliveries. To definitively ensure your spectacular published works completely dominate incredibly demanding modern unboxing expectations gracefully, we strictly deploy breathtakingly robust structural engineering flawlessly paired perfectly with insanely crisp automated printing presses. Our exceedingly talented industrial designers systematically innovate brilliant cohesive folding architectures entirely eliminating destructive internal friction, exceptionally robust double-walled siding.
                             </p>
                         </div>
                     </div>

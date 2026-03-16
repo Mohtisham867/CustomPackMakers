@@ -36,7 +36,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import heroImage from "@/assets/tea-coffee-cups/Double wall cofee cups.png";
+import doublewallcoffeecuphero from "@/assets/tea-coffee-cups/Double-wall-cofee-cups/img-hero.png";
+import doublewallcoffeecup1 from "@/assets/tea-coffee-cups/Double-wall-cofee-cups/img-1.png";
+import doublewallcoffeecup2 from "@/assets/tea-coffee-cups/Double-wall-cofee-cups/img-2.png";
+import doublewallcoffeecup3 from "@/assets/tea-coffee-cups/Double-wall-cofee-cups/img-3.png";
+import doublewallcoffeecup4 from "@/assets/tea-coffee-cups/Double-wall-cofee-cups/img-4.png";
+import doublewallcoffeecup5 from "@/assets/tea-coffee-cups/Double-wall-cofee-cups/img-5.png";
+import doublewallcoffeecup6 from "@/assets/tea-coffee-cups/Double-wall-cofee-cups/img-whychoose.png";
+import doublewallcoffeecup7 from "@/assets/tea-coffee-cups/Double-wall-cofee-cups/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 // Related Products Carousel Images
@@ -87,11 +94,11 @@ const DoubleWallCoffeeCups = () => {
     }, [api]);
 
     const productImages = [
-        { src: heroImage, alt: "Double Wall Coffee Cups - Main View" },
-        { src: heroImage, alt: "Double Wall Coffee Cups - Side Angle" },
-        { src: heroImage, alt: "Double Wall Coffee Cups - Cutaway View" },
-        { src: heroImage, alt: "Double Wall Coffee Cups - Detail Shot" },
-        { src: heroImage, alt: "Double Wall Coffee Cups - Lifestyle Shot" },
+        { src: doublewallcoffeecup1, alt: "Double Wall Coffee Cups - Main View" },
+        { src: doublewallcoffeecup2, alt: "Double Wall Coffee Cups - Side Angle" },
+        { src: doublewallcoffeecup3, alt: "Double Wall Coffee Cups - Cutaway View" },
+        { src: doublewallcoffeecup4, alt: "Double Wall Coffee Cups - Detail Shot" },
+        { src: doublewallcoffeecup5, alt: "Double Wall Coffee Cups - Lifestyle Shot" },
     ];
 
     return (
@@ -164,7 +171,7 @@ const DoubleWallCoffeeCups = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={heroImage}
+                                    src={doublewallcoffeecuphero}
                                     alt="Double Wall Coffee Cups Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -566,7 +573,7 @@ const DoubleWallCoffeeCups = () => {
                             {/* Square image container */}
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={heroImage}
+                                    src={doublewallcoffeecup6}
                                     alt="Premium Custom Double Wall Coffee Cups"
                                     className="w-full h-full object-cover"
                                 />
@@ -607,7 +614,7 @@ const DoubleWallCoffeeCups = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={heroImage}
+                                    src={doublewallcoffeecup7}
                                     alt="Differentiate Your Beverage Brands"
                                     className="w-full h-full object-cover"
                                 />

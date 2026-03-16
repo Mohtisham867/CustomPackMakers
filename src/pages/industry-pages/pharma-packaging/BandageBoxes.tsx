@@ -29,18 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import bandageBoxes from "@/assets/pharma-packaging/bandage-boxes.webp";
+import bandageBoxeshero from "@/assets/pharma-packaging/bandage-boxes/img-hero.png";
+import bandageBoxesimg1 from "@/assets/pharma-packaging/bandage-boxes/img-1.png";
+import bandageBoxesimg2 from "@/assets/pharma-packaging/bandage-boxes/img-2.png";
+import bandageBoxesimg3 from "@/assets/pharma-packaging/bandage-boxes/img-3.png";
+import bandageBoxesimg4 from "@/assets/pharma-packaging/bandage-boxes/img-4.png";
+import bandageBoxesimg5 from "@/assets/pharma-packaging/bandage-boxes/img-5.png";
+import bandageBoxesimg6 from "@/assets/pharma-packaging/bandage-boxes/img-whychoose.png";
+import bandageBoxesimg7 from "@/assets/pharma-packaging/bandage-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const BandageBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: bandageBoxes, alt: "Custom Bandage Boxes - Main View" },
-        { src: bandageBoxes, alt: "Custom Bandage Boxes - Side Angle" },
-        { src: bandageBoxes, alt: "Custom Bandage Boxes - Open Box View" },
-        { src: bandageBoxes, alt: "Custom Bandage Boxes - Detail Shot" },
-        { src: bandageBoxes, alt: "Custom Bandage Boxes - Lifestyle Shot" },
+        { src: bandageBoxesimg1, alt: "Custom Bandage Boxes - Main View" },
+        { src: bandageBoxesimg2, alt: "Custom Bandage Boxes - Side Angle" },
+        { src: bandageBoxesimg3, alt: "Custom Bandage Boxes - Open Box View" },
+        { src: bandageBoxesimg4, alt: "Custom Bandage Boxes - Detail Shot" },
+        { src: bandageBoxesimg5, alt: "Custom Bandage Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +118,7 @@ const BandageBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={bandageBoxes}
+                                    src={bandageBoxeshero}
                                     alt="Custom Bandage Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -381,7 +388,7 @@ const BandageBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={bandageBoxes}
+                                    src={bandageBoxesimg6}
                                     alt="Premium Custom First-Aid Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -415,7 +422,7 @@ const BandageBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={bandageBoxes}
+                                    src={bandageBoxesimg7}
                                     alt="Differentiate Your First-Aid Products"
                                     className="w-full h-full object-cover"
                                 />

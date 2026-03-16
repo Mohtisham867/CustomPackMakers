@@ -29,18 +29,25 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import medicineBoxes from "@/assets/pharma-packaging/medicine-boxes.webp";
+import medicineBoxeshero from "@/assets/pharma-packaging/medicine-boxes/img-hero.png";
+import medicineBoxesimg1 from "@/assets/pharma-packaging/medicine-boxes/img-1.png";
+import medicineBoxesimg2 from "@/assets/pharma-packaging/medicine-boxes/img-2.png";
+import medicineBoxesimg3 from "@/assets/pharma-packaging/medicine-boxes/img-3.png";
+import medicineBoxesimg4 from "@/assets/pharma-packaging/medicine-boxes/img-4.png";
+import medicineBoxesimg5 from "@/assets/pharma-packaging/medicine-boxes/img-5.png";
+import medicineBoxesimg6 from "@/assets/pharma-packaging/medicine-boxes/img-whychoose.png";
+import medicineBoxesimg7 from "@/assets/pharma-packaging/medicine-boxes/img-different.png";
 import FAQimage from "@/assets/FAQ-image.png";
 
 const CustomMedicineBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: medicineBoxes, alt: "Custom Medicine Boxes - Main View" },
-        { src: medicineBoxes, alt: "Custom Medicine Boxes - Side Angle" },
-        { src: medicineBoxes, alt: "Custom Medicine Boxes - Open Box View" },
-        { src: medicineBoxes, alt: "Custom Medicine Boxes - Detail Shot" },
-        { src: medicineBoxes, alt: "Custom Medicine Boxes - Lifestyle Shot" },
+        { src: medicineBoxesimg1, alt: "Custom Medicine Boxes - Main View" },
+        { src: medicineBoxesimg2, alt: "Custom Medicine Boxes - Side Angle" },
+        { src: medicineBoxesimg3, alt: "Custom Medicine Boxes - Open Box View" },
+        { src: medicineBoxesimg4, alt: "Custom Medicine Boxes - Detail Shot" },
+        { src: medicineBoxesimg5, alt: "Custom Medicine Boxes - Lifestyle Shot" },
     ];
 
     return (
@@ -111,7 +118,7 @@ const CustomMedicineBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={medicineBoxes}
+                                    src={medicineBoxeshero}
                                     alt="Custom Medicine Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -385,7 +392,7 @@ const CustomMedicineBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={medicineBoxes}
+                                    src={medicineBoxesimg6}
                                     alt="Premium Custom Medicine Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -419,7 +426,7 @@ const CustomMedicineBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={medicineBoxes}
+                                    src={medicineBoxesimg7}
                                     alt="Differentiate Your Medical Products"
                                     className="w-full h-full object-cover"
                                 />

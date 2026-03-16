@@ -29,7 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHeroImage from "@/assets/stationery-boxes/invitation-boxes.webp";
+import invitationBoxesHero from "@/assets/stationery-boxes/invitation-boxes/img-hero.png";
+import invitationBoxes1 from "@/assets/stationery-boxes/invitation-boxes/img-1.png";
+import invitationBoxes2 from "@/assets/stationery-boxes/invitation-boxes/img-2.png";
+import invitationBoxes3 from "@/assets/stationery-boxes/invitation-boxes/img-3.png";
+import invitationBoxes4 from "@/assets/stationery-boxes/invitation-boxes/img-4.png";
+import invitationBoxes5 from "@/assets/stationery-boxes/invitation-boxes/img-5.png";
+import invitationBoxes6 from "@/assets/stationery-boxes/invitation-boxes/img-whychoose.png";
+import invitationBoxes7 from "@/assets/stationery-boxes/invitation-boxes/img-different.png";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -38,11 +45,11 @@ const InvitationBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
 
     const productImages = [
-        { src: productHeroImage, alt: "Custom Invitation Boxes - Main View" },
-        { src: productHeroImage, alt: "Custom Invitation Boxes - Angle View" },
-        { src: productHeroImage, alt: "Custom Invitation Boxes - Ribbon Detail" },
-        { src: productHeroImage, alt: "Custom Invitation Boxes - Quality Finish" },
-        { src: productHeroImage, alt: "Custom Invitation Boxes - Event Setting" },
+        { src: invitationBoxes1, alt: "Custom Invitation Boxes - Main View" },
+        { src: invitationBoxes2, alt: "Custom Invitation Boxes - Angle View" },
+        { src: invitationBoxes3, alt: "Custom Invitation Boxes - Ribbon Detail" },
+        { src: invitationBoxes4, alt: "Custom Invitation Boxes - Quality Finish" },
+        { src: invitationBoxes5, alt: "Custom Invitation Boxes - Event Setting" },
     ];
 
     return (
@@ -113,7 +120,7 @@ const InvitationBoxes = () => {
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200">
                                 <img
-                                    src={productHeroImage}
+                                    src={invitationBoxesHero}
                                     alt="Custom Invitation Boxes Hero"
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
@@ -368,7 +375,7 @@ const InvitationBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={productHeroImage}
+                                    src={invitationBoxes6}
                                     alt="Premium Custom Invitation Boxes Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -403,7 +410,7 @@ const InvitationBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productHeroImage}
+                                    src={invitationBoxes7}
                                     alt="Differentiate Your Event"
                                     className="w-full h-full object-cover"
                                 />

@@ -29,8 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Tennis Ball Boxes
-import productImage from "@/assets/sports-boxes/tennis-ball-boxes.webp";
-import tennisHero from "@/assets/sports-boxes/sports-boxes-hero.webp";
+import tennisHero from "@/assets/sports-boxes/tennis-ball-boxes/img-hero.png";
+import tennis1 from "@/assets/sports-boxes/tennis-ball-boxes/img-1.png";
+import tennis2 from "@/assets/sports-boxes/tennis-ball-boxes/img-2.png";
+import tennis3 from "@/assets/sports-boxes/tennis-ball-boxes/img-3.png";
+import tennis4 from "@/assets/sports-boxes/tennis-ball-boxes/img-4.png";
+import tennis5 from "@/assets/sports-boxes/tennis-ball-boxes/img-5.png";
+import tennis6 from "@/assets/sports-boxes/tennis-ball-boxes/img-whychoose.png";
+import tennis7 from "@/assets/sports-boxes/tennis-ball-boxes/img-different.png";
 
 //FAQ image
 import FAQimage from "@/assets/FAQ-image.png";
@@ -40,11 +46,11 @@ const TennisBallBoxes = () => {
 
     // Product images for gallery (5 thumbs as requested)
     const productImages = [
-        { src: productImage, alt: "Custom Tennis Ball Boxes - Premium View" },
-        { src: tennisHero, alt: "Custom Tennis Ball Boxes - Court Action" },
-        { src: productImage, alt: "Custom Tennis Ball Boxes - Cylinder View" },
-        { src: tennisHero, alt: "Custom Tennis Ball Boxes - Retail Stack" },
-        { src: productImage, alt: "Custom Tennis Ball Boxes - Logo Print Shot" },
+        { src: tennis1, alt: "Custom Tennis Ball Boxes - Premium View" },
+        { src: tennis2, alt: "Custom Tennis Ball Boxes - Court Action" },
+        { src: tennis3, alt: "Custom Tennis Ball Boxes - Cylinder View" },
+        { src: tennis4, alt: "Custom Tennis Ball Boxes - Retail Stack" },
+        { src: tennis5, alt: "Custom Tennis Ball Boxes - Logo Print Shot" },
     ];
 
     return (
@@ -112,7 +118,7 @@ const TennisBallBoxes = () => {
 
                         <div className="lg:col-span-5 relative w-full h-[300px] md:h-[400px] overflow-hidden rounded-xl shadow-2xl bg-muted group">
                             <img
-                                src={productImage}
+                                src={tennisHero}
                                 alt="Custom Tennis Ball Boxes Hero"
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
@@ -340,7 +346,7 @@ const TennisBallBoxes = () => {
                         <div className="relative flex items-center justify-center py-8">
                             <div className="relative w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl" style={{ aspectRatio: '1/1' }}>
                                 <img
-                                    src={tennisHero}
+                                    src={tennis6}
                                     alt="Premium Tennis Ball Packaging"
                                     className="w-full h-full object-cover"
                                 />
@@ -362,7 +368,7 @@ const TennisBallBoxes = () => {
                         <div className="relative group">
                             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2.5rem] border border-primary/20 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02]">
                                 <img
-                                    src={productImage}
+                                    src={tennis7}
                                     alt="Differentiate Your Tennis Brand"
                                     className="w-full h-full object-cover"
                                 />
