@@ -26,14 +26,14 @@ import cookieBoxesWithWindow from "@/assets/window-packaging/cookie-boxes-with-w
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Candle Boxes With Window", image: candleBoxesWithWindow, description: "Showcase your candles with elegance and transparency featuring precise die-cut windows and luxury print" },
-    { name: "Gable Boxes with Window", image: gableBoxesWithWindow, description: "Convenient handle boxes with a peek-inside window featuring easy-carry design and sturdy retail display" },
-    { name: "Halloween Window Boxes", image: halloweenWindowBoxes, description: "Spooky and fun window boxes for Halloween treats featuring thematic graphics and clear viewing panels" },
-    { name: "Soap Boxes With Window", image: soapBoxesWithWindow, description: "Let customers smell and see your handmade soaps featuring breathable windows and moisture-proof coatings" },
-    { name: "Pillow Boxes With Window", image: pillowBoxesWithWindow, description: "Unique curved boxes with a stylish display window featuring elegant shapes and premium decorative prints" },
-    { name: "Kraft Paper Boxes With Window", image: kraftPaperBoxesWithWindow, description: "Eco-friendly natural look with product visibility featuring sustainable kraft board and clear PET windows" },
-    { name: "Candy Boxes With Window", image: candyBoxesWithWindow, description: "Perfect for displaying colorful candies and sweets featuring grease-proof linings and vibrant graphics" },
-    { name: "Cookie Boxes With Window", image: cookieBoxesWithWindow, description: "Keep cookies fresh while showing them off featuring food-safe materials and elegant professional designs" },
+    { name: "Candle Boxes With Window", link: "/shapes-styles/window-packaging/candle-boxes-with-window", image: candleBoxesWithWindow, description: "Showcase your candles with elegance and transparency featuring precise die-cut windows and luxury print" },
+    { name: "Gable Boxes with Window", link: "/shapes-styles/window-packaging/gable-boxes-with-window", image: gableBoxesWithWindow, description: "Convenient handle boxes with a peek-inside window featuring easy-carry design and sturdy retail display" },
+    { name: "Halloween Window Boxes", link: "/shapes-styles/window-packaging/halloween-window-boxes", image: halloweenWindowBoxes, description: "Spooky and fun window boxes for Halloween treats featuring thematic graphics and clear viewing panels" },
+    { name: "Soap Boxes With Window", link: "/shapes-styles/window-packaging/soap-boxes-with-window", image: soapBoxesWithWindow, description: "Let customers smell and see your handmade soaps featuring breathable windows and moisture-proof coatings" },
+    { name: "Pillow Boxes With Window", link: "/shapes-styles/window-packaging/pillow-boxes-with-window", image: pillowBoxesWithWindow, description: "Unique curved boxes with a stylish display window featuring elegant shapes and premium decorative prints" },
+    { name: "Kraft Paper Boxes With Window", link: "/shapes-styles/window-packaging/kraft-paper-boxes-with-window", image: kraftPaperBoxesWithWindow, description: "Eco-friendly natural look with product visibility featuring sustainable kraft board and clear PET windows" },
+    { name: "Candy Boxes With Window", link: "/shapes-styles/window-packaging/candy-boxes-with-window", image: candyBoxesWithWindow, description: "Perfect for displaying colorful candies and sweets featuring grease-proof linings and vibrant graphics" },
+    { name: "Cookie Boxes With Window", link: "/shapes-styles/window-packaging/cookie-boxes-with-window", image: cookieBoxesWithWindow, description: "Keep cookies fresh while showing them off featuring food-safe materials and elegant professional designs" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -113,35 +113,36 @@ const WindowPackaging = () => {
 
                     <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        {/* Product image placeholder */}
-                                        {product.image ? (
-                                            <img
-                                                src={product.image}
-                                                alt={product.name}
-                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                            />
-                                        ) : (
-                                            <div className="w-full h-full bg-muted flex items-center justify-center">
-                                                <p className="text-muted-foreground text-xs">Image placeholder</p>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index}>
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                                >
+                                    <CardContent className="p-0 flex flex-col h-full">
+                                        <div className="h-48 lg:h-72 w-full shrink-0 bg-gray-50 rounded-t-lg overflow-hidden">
+                                            {/* Product image placeholder */}
+                                            {product.image ? (
+                                                <img
+                                                    src={product.image}
+                                                    alt={product.name}
+                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                />
+                                            ) : (
+                                                <div className="w-full h-full bg-muted flex items-center justify-center">
+                                                    <p className="text-muted-foreground text-xs">Image placeholder</p>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="p-4 border-t border-border flex-1">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

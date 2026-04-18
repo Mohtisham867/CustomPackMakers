@@ -70,7 +70,7 @@ import CandleBoxesWithInserts from "./pages/industry-pages/candle-boxes/CandleBo
 import CandleLabels from "./pages/industry-pages/candle-boxes/CandleLabels";
 import CandleBoxesWithWindow from "./pages/industry-pages/candle-boxes/CandleBoxesWithWindow";
 import WaxMeltPackaging from "./pages/industry-pages/candle-boxes/WaxMeltPackaging";
-import CandleSubscriptionBoxes from "./pages/industry-pages/candle-boxes/CandleSubscriptionBoxes";
+import CandleSubscriptionBoxesIndustry from "./pages/industry-pages/candle-boxes/CandleSubscriptionBoxes";
 import LuxuryCandleBoxes from "./pages/industry-pages/candle-boxes/LuxuryCandleBoxes";
 import WishesCandleBoxes from "./pages/industry-pages/candle-boxes/WishesCandleBoxes";
 import CandleDustCovers from "./pages/industry-pages/candle-boxes/CandleDustCovers";
@@ -83,7 +83,7 @@ import ChocolateGiftBoxes from "./pages/industry-pages/chocolate-boxes/Chocolate
 import ChristmasChocolateBoxes from "./pages/industry-pages/chocolate-boxes/ChristmasChocolateBoxes";
 import MushroomChocolateBarPackaging from "./pages/industry-pages/chocolate-boxes/MushroomChocolateBarPackaging";
 import ChocolateBarPackaging from "./pages/industry-pages/chocolate-boxes/ChocolateBarPackaging";
-import ChocolateSubscriptionBox from "./pages/industry-pages/chocolate-boxes/ChocolateSubscriptionBox";
+import ChocolateSubscriptionBoxIndustry from "./pages/industry-pages/chocolate-boxes/ChocolateSubscriptionBox";
 import CannabisPackaging from "./pages/categories/CannabisPackaging";
 import CannabisTinctureBoxes from "./pages/industry-pages/cannabis-packaging/CannabisTinctureBoxes";
 import CannabisVapePackaging from "./pages/industry-pages/cannabis-packaging/CannabisVapePackaging";
@@ -376,8 +376,6 @@ import TakeOutBags from "./pages/shapes-styles/custom-bags/TakeOutBags";
 import TShirtBags from "./pages/shapes-styles/custom-bags/TShirtBags";
 import PaperGroceryBags from "./pages/shapes-styles/custom-bags/PaperGroceryBags";
 import VacuumSealWeedBags from "./pages/shapes-styles/custom-bags/VacuumSealWeedBags";
-import SmellProofWeedBags from "./pages/shapes-styles/custom-bags/SmellProofWeedBags";
-import WeedBags35 from "./pages/shapes-styles/custom-bags/WeedBags35";
 import SachetPackaging from "./pages/shapes-styles/custom-bags/SachetPackaging";
 import CoffeeBags from "./pages/shapes-styles/custom-bags/CoffeeBags";
 import FlatBottomBags from "./pages/shapes-styles/custom-bags/FlatBottomBags";
@@ -415,7 +413,26 @@ import CustomPaperBags from "./pages/categories/CustomPaperBags";
 import HangTags from "./pages/categories/HangTags";
 import PillowBoxes from "./pages/categories/PillowBoxes";
 import WeedBags from "./pages/categories/WeedBags";
+
+// Weed Bags - Shapes & Styles
+import ExoticWeedBag from "./pages/shapes-styles/weed-bags/ExoticWeedBag";
+import SmellProofWeedBags from "./pages/shapes-styles/weed-bags/SmellProofWeedBags";
+import WeedBags35 from "./pages/shapes-styles/weed-bags/WeedBags35";
+import ZipWeedBags from "./pages/shapes-styles/weed-bags/ZipWeedBags";
+import WeedPoundBags from "./pages/shapes-styles/weed-bags/WeedPoundBags";
+
 import WindowPackaging from "./pages/categories/WindowPackaging";
+
+// Window Packaging - Shapes & Styles
+import CandleBoxesWithWindowWP from "./pages/shapes-styles/window-packaging/CandleBoxesWithWindow";
+import GableBoxesWithWindowWP from "./pages/shapes-styles/window-packaging/GableBoxesWithWindow";
+import HalloweenWindowBoxesWP from "./pages/shapes-styles/window-packaging/HalloweenWindowBoxes";
+import SoapBoxesWithWindowWP from "./pages/shapes-styles/window-packaging/SoapBoxesWithWindow";
+import PillowBoxesWithWindowWP from "./pages/shapes-styles/window-packaging/PillowBoxesWithWindow";
+import KraftPaperBoxesWithWindowWP from "./pages/shapes-styles/window-packaging/KraftPaperBoxesWithWindow";
+import CandyBoxesWithWindowWP from "./pages/shapes-styles/window-packaging/CandyBoxesWithWindow";
+import CookieBoxesWithWindowWP from "./pages/shapes-styles/window-packaging/CookieBoxesWithWindow";
+
 import GlassSerumBottle from "./pages/categories/GlassSerumBottle";
 import PlasticCleanserTube from "./pages/categories/PlasticCleanserTube";
 import PlasticMistBottle from "./pages/categories/PlasticMistBottle";
@@ -446,7 +463,6 @@ import BakeryBags from "./pages/shapes-styles/custom-paper-bags/BakeryBags";
 import CookieBags from "./pages/shapes-styles/custom-paper-bags/CookieBags";
 import GiftBags from "./pages/shapes-styles/custom-paper-bags/GiftBags";
 import CarryOutBags from "./pages/shapes-styles/custom-paper-bags/CarryOutBags";
-import ExoticWeedBag from "./pages/shapes-styles/custom-paper-bags/ExoticWeedBag";
 import PaperBagsWithHandles from "./pages/shapes-styles/custom-paper-bags/PaperBagsWithHandles";
 import JarsWithPump from "./pages/categories/JarsWithPump";
 
@@ -548,6 +564,101 @@ import DankVapePackaging from "./pages/industry-pages/vape-boxes/DankVapePackagi
 import CBDVapeBoxesCategory from "./pages/industry-pages/vape-boxes/CBDVapeBoxes";
 import VapeJuiceBoxes from "./pages/industry-pages/vape-boxes/VapeJuiceBoxes";
 import JuulPackaging from "./pages/industry-pages/vape-boxes/JuulPackaging";
+import RollEndTraySleeves from "./pages/shapes-styles/sleeves-trays/RollEndTray";
+import CustomBowlSleevesSleeves from "./pages/shapes-styles/sleeves-trays/CustomBowlSleeves";
+import CustomDrawerPaperBoxesSleeves from "./pages/shapes-styles/sleeves-trays/CustomDrawerPaperBoxes";
+import PaperFoodTraysSleeves from "./pages/shapes-styles/sleeves-trays/PaperFoodTrays";
+import HotDogSleevesSleeves from "./pages/shapes-styles/sleeves-trays/HotDogSleeves";
+import CupSleevesSleeves from "./pages/shapes-styles/sleeves-trays/CupSleeves";
+import CoffeeSleevesSleeves from "./pages/shapes-styles/sleeves-trays/CoffeeSleeves";
+import PackagingSleevesSleeves from "./pages/shapes-styles/sleeves-trays/PackagingSleeves";
+import SoapSleevesSleeves from "./pages/shapes-styles/sleeves-trays/SoapSleeves";
+import GiftCardSleevesSleeves from "./pages/shapes-styles/sleeves-trays/GiftCardSleeves";
+import PackagingInsertsSleeves from "./pages/shapes-styles/sleeves-trays/PackagingInserts";
+import FoamInsertsSleeves from "./pages/shapes-styles/sleeves-trays/FoamInserts";
+import SlideBoxesSleeves from "./pages/shapes-styles/sleeves-trays/SlideBoxes";
+import SleeveBoxesSleeves from "./pages/shapes-styles/sleeves-trays/SleeveBoxes";
+import CustomShrinkSleevesSleeves from "./pages/shapes-styles/sleeves-trays/CustomShrinkSleeves";
+import SoapPackagingSleevesSleeves from "./pages/shapes-styles/sleeves-trays/SoapPackagingSleeves";
+import TrayBoxesSleeves from "./pages/shapes-styles/sleeves-trays/TrayBoxes";
+import KraftSleeveBoxesSleeves from "./pages/shapes-styles/sleeves-trays/KraftSleeveBoxes";
+import CustomConeSleeveSleeves from "./pages/shapes-styles/sleeves-trays/CustomConeSleeve";
+import BagLabelsStickers from "./pages/shapes-styles/stickers-labels/BagLabels";
+import BathBombLabelsStickers from "./pages/shapes-styles/stickers-labels/BathBombLabels";
+import BodyButterLabelsStickers from "./pages/shapes-styles/stickers-labels/BodyButterLabels";
+import BottleLabelsStickers from "./pages/shapes-styles/stickers-labels/BottleLabels";
+import BusinessLabelsStickers from "./pages/shapes-styles/stickers-labels/business-labels";
+import BusinessStickersStickers from "./pages/shapes-styles/stickers-labels/BusinessStickers";
+import CandleLabelsStickers from "./pages/shapes-styles/stickers-labels/CandleLabels";
+import ChapstickLabelsStickers from "./pages/shapes-styles/stickers-labels/ChapstickLabels";
+import ChristmasStickersStickers from "./pages/shapes-styles/stickers-labels/christmas-stickers";
+import CircleLabelsStickers from "./pages/shapes-styles/stickers-labels/circle-labels";
+import CircleStickersStickers from "./pages/shapes-styles/stickers-labels/circle-stickers";
+import ColorLabelsStickers from "./pages/shapes-styles/stickers-labels/ColorLabels";
+import CookieLabelsStickers from "./pages/shapes-styles/stickers-labels/CookieLabels";
+import CosmeticLabelsStickers from "./pages/shapes-styles/stickers-labels/CosmeticLabels";
+import CustomRollLabelsStickers from "./pages/shapes-styles/stickers-labels/CustomRollLabels";
+import DecalsStickers from "./pages/shapes-styles/stickers-labels/Decals";
+import DieCutStickersStickers from "./pages/shapes-styles/stickers-labels/die-cut-stickers";
+import FoodLabelsStickers from "./pages/shapes-styles/stickers-labels/food-labels";
+import HoneyLabelsStickers from "./pages/shapes-styles/stickers-labels/HoneyLabels";
+import IceCreamLabelsStickers from "./pages/shapes-styles/stickers-labels/IceCreamLabels";
+import KraftLabelsStickers from "./pages/shapes-styles/stickers-labels/KraftLabels";
+import LipBalmLabelsStickers from "./pages/shapes-styles/stickers-labels/LipBalmLabels";
+import LotionLabelsStickers from "./pages/shapes-styles/stickers-labels/LotionLabels";
+import MetallicLabelsStickers from "./pages/shapes-styles/stickers-labels/MetallicLabels";
+import PackagingLabelsStickers from "./pages/shapes-styles/stickers-labels/PackagingLabels";
+import PaperStickersStickers from "./pages/shapes-styles/stickers-labels/paper-stickers";
+import PreRollPackagingLabelsStickers from "./pages/shapes-styles/stickers-labels/pre-roll-packaging-labels";
+import PrivateLabelPackagingStickers from "./pages/shapes-styles/stickers-labels/PrivateLabelPackaging";
+import SoapBarLabelsStickers from "./pages/shapes-styles/stickers-labels/soap-bar-labels";
+import SoapLabelsStickers from "./pages/shapes-styles/stickers-labels/SoapLabels";
+import SprayBottleLabelsStickers from "./pages/shapes-styles/stickers-labels/SprayBottleLabels";
+import TableTentsStickers from "./pages/shapes-styles/stickers-labels/table-tents";
+import VinylStickersStickers from "./pages/shapes-styles/stickers-labels/VinylStickers";
+import WaterproofLabelsStickers from "./pages/shapes-styles/stickers-labels/WaterproofLabels";
+import WineLabelsStickers from "./pages/shapes-styles/stickers-labels/WineLabels";
+
+// Subscription Boxes - Shapes & Styles
+import CandleSubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/CandleSubscriptionBoxes";
+import CBDSubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/CBDSubscriptionBoxes";
+import ChocolateSubscriptionBox from "./pages/shapes-styles/subscription-boxes/ChocolateSubscriptionBox";
+import CosmeticSubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/CosmeticSubscriptionBoxes";
+import SoapSubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/SoapSubscriptionBoxes";
+import StationerySubscriptionBox from "./pages/shapes-styles/subscription-boxes/StationerySubscriptionBox";
+import SubscriptionBoxesForMen from "./pages/shapes-styles/subscription-boxes/SubscriptionBoxesForMen";
+import SubscriptionBoxesForKids from "./pages/shapes-styles/subscription-boxes/SubscriptionBoxesForKids";
+import FoodSubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/FoodSubscriptionBoxes";
+import MysterySubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/MysterySubscriptionBoxes";
+import CandySubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/CandySubscriptionBoxes";
+import ArtSubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/ArtSubscriptionBoxes";
+import PetFoodSubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/PetFoodSubscriptionBoxes";
+import GolfSubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/GolfSubscriptionBoxes";
+import SubscriptionBoxesForWomen from "./pages/shapes-styles/subscription-boxes/SubscriptionBoxesForWomen";
+import MonthlySubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/MonthlySubscriptionBoxes";
+import HarryPotterSubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/HarryPotterSubscriptionBoxes";
+import SportsSubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/SportsSubscriptionBoxes";
+import DisneySubscriptionBoxes from "./pages/shapes-styles/subscription-boxes/DisneySubscriptionBoxes";
+
+// Tuck Boxes - Shapes & Styles (Batch 1)
+import ReverseTuckEnd from "./pages/shapes-styles/tuck-boxes/ReverseTuckEnd";
+import ReverseTuckEndBoxes from "./pages/shapes-styles/tuck-boxes/ReverseTuckEndBoxes";
+import StraightTuckEnd from "./pages/shapes-styles/tuck-boxes/StraightTuckEnd";
+import StraightTuckEndBoxes from "./pages/shapes-styles/tuck-boxes/StraightTuckEndBoxes";
+import TuckTopBox from "./pages/shapes-styles/tuck-boxes/TuckTopBox";
+import TuckTopBoxes from "./pages/shapes-styles/tuck-boxes/TuckTopBoxes";
+import TuckTopSnapBottomBox from "./pages/shapes-styles/tuck-boxes/TuckTopSnapBottomBox";
+import TuckTopAutoBottomBox from "./pages/shapes-styles/tuck-boxes/TuckTopAutoBottomBox";
+
+// Tuck Boxes - Shapes & Styles (Batch 2)
+import TuckFrontBoxes from "./pages/shapes-styles/tuck-boxes/TuckFrontBoxes";
+import DoubleWallTuckFront from "./pages/shapes-styles/tuck-boxes/DoubleWallTuckFront";
+import DoubleWallTuckTopBoxes from "./pages/shapes-styles/tuck-boxes/DoubleWallTuckTopBoxes";
+import ReverseTuckWithCustomizeWindow from "./pages/shapes-styles/tuck-boxes/ReverseTuckWithCustomizeWindow";
+import StraightTuckWithCustomizeWindow from "./pages/shapes-styles/tuck-boxes/StraightTuckWithCustomizeWindow";
+import ReverseTuckWithHangTab from "./pages/shapes-styles/tuck-boxes/ReverseTuckWithHangTab";
+import StraightTuckWithHangTab from "./pages/shapes-styles/tuck-boxes/StraightTuckWithHangTab";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -623,7 +734,7 @@ const App = () => (
           <Route path="/industries/candle-boxes/candle-labels" element={<CandleLabels />} />
           <Route path="/industries/candle-boxes/candle-boxes-window" element={<CandleBoxesWithWindow />} />
           <Route path="/industries/candle-boxes/wax-melt-packaging" element={<WaxMeltPackaging />} />
-          <Route path="/industries/candle-boxes/candle-subscription-boxes" element={<CandleSubscriptionBoxes />} />
+          <Route path="/industries/candle-boxes/candle-subscription-boxes" element={<CandleSubscriptionBoxesIndustry />} />
           <Route path="/industries/candle-boxes/luxury-candle-boxes" element={<LuxuryCandleBoxes />} />
           <Route path="/industries/candle-boxes/16-wishes-candle-boxes" element={<WishesCandleBoxes />} />
           <Route path="/industries/candle-boxes/candle-dust-covers" element={<CandleDustCovers />} />
@@ -646,7 +757,7 @@ const App = () => (
           <Route path="/industries/chocolate-boxes/christmas-chocolate-boxes" element={<ChristmasChocolateBoxes />} />
           <Route path="/industries/chocolate-boxes/mushroom-chocolate-bar-packaging" element={<MushroomChocolateBarPackaging />} />
           <Route path="/industries/chocolate-boxes/chocolate-bar-packaging" element={<ChocolateBarPackaging />} />
-          <Route path="/industries/chocolate-boxes/chocolate-subscription-box" element={<ChocolateSubscriptionBox />} />
+          <Route path="/industries/chocolate-boxes/chocolate-subscription-box" element={<ChocolateSubscriptionBoxIndustry />} />
           <Route path="/industries/christmas-boxes" element={<ChristmasBoxes />} />
           <Route path="/industries/christmas-boxes/christmas-chocolate-boxes" element={<ChristmasChocolateBoxesPage />} />
           <Route path="/industries/christmas-boxes/christmas-tags" element={<ChristmasTags />} />
@@ -844,6 +955,11 @@ const App = () => (
           <Route path="/shapes-styles/custom-mylar-bags/mylar-ziplock-bags" element={<MylarZiplockBags />} />
           <Route path="/shapes-styles/custom-mylar-bags/clear-mylar-bags" element={<ClearMylarBags />} />
           <Route path="/shapes-styles/weed-bags" element={<WeedBags />} />
+          <Route path="/shapes-styles/weed-bags/exotic-weed-bag" element={<ExoticWeedBag />} />
+          <Route path="/shapes-styles/weed-bags/smell-proof-weed-bags" element={<SmellProofWeedBags />} />
+          <Route path="/shapes-styles/weed-bags/weed-bags-3-5" element={<WeedBags35 />} />
+          <Route path="/shapes-styles/weed-bags/zip-weed-bags" element={<ZipWeedBags />} />
+          <Route path="/shapes-styles/weed-bags/weed-pound-bags" element={<WeedPoundBags />} />
           <Route path="/shapes-styles/pillow-boxes" element={<PillowBoxes />} />
           <Route path="/shapes-styles/pillow-boxes/white-pillow-boxes" element={<WhitePillowBoxes />} />
           <Route path="/shapes-styles/pillow-boxes/small-pillow-boxes" element={<SmallPillowBoxes />} />
@@ -856,6 +972,15 @@ const App = () => (
           <Route path="/shapes-styles/pillow-boxes/paper-pillow-box" element={<PaperPillowBox />} />
           <Route path="/shapes-styles/pillow-boxes/pillow-gift-boxes" element={<PillowGiftBoxes />} />
           <Route path="/shapes-styles/window-packaging" element={<WindowPackaging />} />
+          <Route path="/categories/window-packaging" element={<WindowPackaging />} />
+          <Route path="/shapes-styles/window-packaging/candle-boxes-with-window" element={<CandleBoxesWithWindowWP />} />
+          <Route path="/shapes-styles/window-packaging/gable-boxes-with-window" element={<GableBoxesWithWindowWP />} />
+          <Route path="/shapes-styles/window-packaging/halloween-window-boxes" element={<HalloweenWindowBoxesWP />} />
+          <Route path="/shapes-styles/window-packaging/soap-boxes-with-window" element={<SoapBoxesWithWindowWP />} />
+          <Route path="/shapes-styles/window-packaging/pillow-boxes-with-window" element={<PillowBoxesWithWindowWP />} />
+          <Route path="/shapes-styles/window-packaging/kraft-paper-boxes-with-window" element={<KraftPaperBoxesWithWindowWP />} />
+          <Route path="/shapes-styles/window-packaging/candy-boxes-with-window" element={<CandyBoxesWithWindowWP />} />
+          <Route path="/shapes-styles/window-packaging/cookie-boxes-with-window" element={<CookieBoxesWithWindowWP />} />
           <Route path="/shapes-styles/custom-paper-bags" element={<CustomPaperBags />} />
           <Route path="/shapes-styles/custom-paper-bags/custom-auto-bottom-gable-bags" element={<CustomAutoBottomGableBags />} />
           <Route path="/shapes-styles/custom-paper-bags/custom-paper-food-bags" element={<CustomPaperFoodBags />} />
@@ -873,7 +998,6 @@ const App = () => (
           <Route path="/shapes-styles/custom-paper-bags/cookie-bags" element={<CookieBags />} />
           <Route path="/shapes-styles/custom-paper-bags/gift-bags" element={<GiftBags />} />
           <Route path="/shapes-styles/custom-paper-bags/carry-out-bags" element={<CarryOutBags />} />
-          <Route path="/shapes-styles/custom-paper-bags/exotic-weed-bag" element={<ExoticWeedBag />} />
           <Route path="/shapes-styles/custom-paper-bags/paper-bags-with-handles" element={<PaperBagsWithHandles />} />
 
 
@@ -969,6 +1093,26 @@ const App = () => (
           <Route path="/industries/tea-coffee-cups/double-wall-coffee-cups" element={<DoubleWallCoffeeCups />} />
           <Route path="/industries/tea-coffee-cups/restaurant-coffee-cups" element={<RestaurantCoffeeCups />} />
           <Route path="/industries/tuck-boxes" element={<TuckBoxes />} />
+          
+          {/* Tuck Boxes Shapes & Styles (Batch 1) */}
+          <Route path="/shapes-styles/tuck-boxes/reverse-tuck-end" element={<ReverseTuckEnd />} />
+          <Route path="/shapes-styles/tuck-boxes/reverse-tuck-end-boxes" element={<ReverseTuckEndBoxes />} />
+          <Route path="/shapes-styles/tuck-boxes/straight-tuck-end" element={<StraightTuckEnd />} />
+          <Route path="/shapes-styles/tuck-boxes/straight-tuck-end-boxes" element={<StraightTuckEndBoxes />} />
+          <Route path="/shapes-styles/tuck-boxes/tuck-top-box" element={<TuckTopBox />} />
+          <Route path="/shapes-styles/tuck-boxes/tuck-top-boxes" element={<TuckTopBoxes />} />
+          <Route path="/shapes-styles/tuck-boxes/tuck-top-snap-bottom-box" element={<TuckTopSnapBottomBox />} />
+          <Route path="/shapes-styles/tuck-boxes/tuck-top-auto-bottom-box" element={<TuckTopAutoBottomBox />} />
+          
+          {/* Tuck Boxes Shapes & Styles (Batch 2) */}
+          <Route path="/shapes-styles/tuck-boxes/tuck-front-boxes" element={<TuckFrontBoxes />} />
+          <Route path="/shapes-styles/tuck-boxes/double-wall-tuck-front" element={<DoubleWallTuckFront />} />
+          <Route path="/shapes-styles/tuck-boxes/double-wall-tuck-top-boxes" element={<DoubleWallTuckTopBoxes />} />
+          <Route path="/shapes-styles/tuck-boxes/reverse-tuck-with-customize-window" element={<ReverseTuckWithCustomizeWindow />} />
+          <Route path="/shapes-styles/tuck-boxes/straight-tuck-with-customize-window" element={<StraightTuckWithCustomizeWindow />} />
+          <Route path="/shapes-styles/tuck-boxes/reverse-tuck-with-hang-tab" element={<ReverseTuckWithHangTab />} />
+          <Route path="/shapes-styles/tuck-boxes/straight-tuck-with-hang-tab" element={<StraightTuckWithHangTab />} />
+
           <Route path="/industries/vape-boxes" element={<VapeBoxes />} />
           <Route path="/industries/vape-boxes/custom-e-cigarette-boxes" element={<CustomECigaretteBoxesVapeBoxes />} />
           <Route path="/industries/vape-boxes/custom-vape-cartridge-boxes" element={<CustomVapeCartridgeBoxes />} />
@@ -1019,6 +1163,25 @@ const App = () => (
           <Route path="/shapes-styles/display-boxes/candy-display-boxes" element={<CandyDisplayBoxes />} />
           <Route path="/shapes-styles/stickers-and-labels" element={<StickersAndLabels />} />
           <Route path="/shapes-styles/sleeves-and-trays" element={<SleevesAndTrays />} />
+          <Route path="/shapes-styles/sleeves-trays/roll-end-tray" element={<RollEndTraySleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/custom-bowl-sleeves" element={<CustomBowlSleevesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/custom-drawer-paper-boxes" element={<CustomDrawerPaperBoxesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/paper-food-trays" element={<PaperFoodTraysSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/hot-dog-sleeves" element={<HotDogSleevesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/cup-sleeves" element={<CupSleevesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/coffee-sleeves" element={<CoffeeSleevesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/packaging-sleeves" element={<PackagingSleevesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/soap-sleeves" element={<SoapSleevesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/gift-card-sleeves" element={<GiftCardSleevesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/packaging-inserts" element={<PackagingInsertsSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/foam-inserts" element={<FoamInsertsSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/slide-boxes" element={<SlideBoxesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/sleeve-boxes" element={<SleeveBoxesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/custom-shrink-sleeves" element={<CustomShrinkSleevesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/soap-packaging-sleeves" element={<SoapPackagingSleevesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/tray-boxes" element={<TrayBoxesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/kraft-sleeve-boxes" element={<KraftSleeveBoxesSleeves />} />
+          <Route path="/shapes-styles/sleeves-trays/custom-cone-sleeve" element={<CustomConeSleeveSleeves />} />
           <Route path="/shapes-styles" element={<ShapesStyles />} />
           {/* Shapes & Styles -> Rigid Boxes */}
           <Route path="/shapes-styles/rigid-boxes" element={<RigidBoxes />} />
@@ -1096,6 +1259,61 @@ const App = () => (
           <Route path="/box-by-materials" element={<BoxByMaterials />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/shapes-styles/stickers-labels/bag-labels" element={<BagLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/bath-bomb-labels" element={<BathBombLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/body-butter-labels" element={<BodyButterLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/bottle-labels" element={<BottleLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/business-labels" element={<BusinessLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/business-stickers" element={<BusinessStickersStickers />} />
+          <Route path="/shapes-styles/stickers-labels/candle-labels" element={<CandleLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/chapstick-labels" element={<ChapstickLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/christmas-stickers" element={<ChristmasStickersStickers />} />
+          <Route path="/shapes-styles/stickers-labels/circle-labels" element={<CircleLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/circle-stickers" element={<CircleStickersStickers />} />
+          <Route path="/shapes-styles/stickers-labels/color-labels" element={<ColorLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/cookie-labels" element={<CookieLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/cosmetic-labels" element={<CosmeticLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/custom-roll-labels" element={<CustomRollLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/decals" element={<DecalsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/die-cut-stickers" element={<DieCutStickersStickers />} />
+          <Route path="/shapes-styles/stickers-labels/food-labels" element={<FoodLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/honey-labels" element={<HoneyLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/ice-cream-labels" element={<IceCreamLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/kraft-labels" element={<KraftLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/lip-balm-labels" element={<LipBalmLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/lotion-labels" element={<LotionLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/metallic-labels" element={<MetallicLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/packaging-labels" element={<PackagingLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/paper-stickers" element={<PaperStickersStickers />} />
+          <Route path="/shapes-styles/stickers-labels/pre-roll-packaging-labels" element={<PreRollPackagingLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/private-label-packaging" element={<PrivateLabelPackagingStickers />} />
+          <Route path="/shapes-styles/stickers-labels/soap-bar-labels" element={<SoapBarLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/soap-labels" element={<SoapLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/spray-bottle-labels" element={<SprayBottleLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/table-tents" element={<TableTentsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/vinyl-stickers" element={<VinylStickersStickers />} />
+          <Route path="/shapes-styles/stickers-labels/waterproof-labels" element={<WaterproofLabelsStickers />} />
+          <Route path="/shapes-styles/stickers-labels/wine-labels" element={<WineLabelsStickers />} />
+          {/* Subscription Boxes Routes */}
+          <Route path="/shapes-styles/subscription-boxes/candle-subscription-boxes" element={<CandleSubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/cbd-subscription-boxes" element={<CBDSubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/chocolate-subscription-box" element={<ChocolateSubscriptionBox />} />
+          <Route path="/shapes-styles/subscription-boxes/cosmetic-subscription-boxes" element={<CosmeticSubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/soap-subscription-boxes" element={<SoapSubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/stationery-subscription-box" element={<StationerySubscriptionBox />} />
+          <Route path="/shapes-styles/subscription-boxes/subscription-boxes-for-men" element={<SubscriptionBoxesForMen />} />
+          <Route path="/shapes-styles/subscription-boxes/subscription-boxes-for-kids" element={<SubscriptionBoxesForKids />} />
+          <Route path="/shapes-styles/subscription-boxes/food-subscription-boxes" element={<FoodSubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/mystery-subscription-boxes" element={<MysterySubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/candy-subscription-boxes" element={<CandySubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/art-subscription-boxes" element={<ArtSubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/pet-food-subscription-boxes" element={<PetFoodSubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/golf-subscription-boxes" element={<GolfSubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/subscription-boxes-for-women" element={<SubscriptionBoxesForWomen />} />
+          <Route path="/shapes-styles/subscription-boxes/monthly-subscription-boxes" element={<MonthlySubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/harry-potter-subscription-boxes" element={<HarryPotterSubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/sports-subscription-boxes" element={<SportsSubscriptionBoxes />} />
+          <Route path="/shapes-styles/subscription-boxes/disney-subscription-boxes" element={<DisneySubscriptionBoxes />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

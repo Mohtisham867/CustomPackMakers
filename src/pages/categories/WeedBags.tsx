@@ -24,11 +24,11 @@ import weedPoundBags from "@/assets/weed-bags/weed-pound-bags.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Exotic Weed Bag", image: exoticWeedBag, description: "Vibrant designs for your premium exotic strains featuring holographic effects and high-barrier protection" },
-    { name: "Smell Proof Weed Bags", image: smellProofWeedBags, description: "Advanced odor-barrier material for discretion featuring multi-layer films and secure airtight zippers" },
-    { name: "Weed Bags 3.5", image: weedBags35, description: "Perfectly sized 3.5g pouches for retail flower featuring child-resistant seals and vibrant custom prints" },
-    { name: "Zip Weed Bags", image: zipWeedBags, description: "Reliable resealable zipper for freshness and safety featuring durable materials and high-impact branding" },
-    { name: "Weed Pound Bags", image: weedPoundBags, description: "Heavy-duty bulk storage bags for larger quantities featuring reinforced seams and superior odor control" },
+    { name: "Exotic Weed Bag", image: exoticWeedBag, link: "/shapes-styles/weed-bags/exotic-weed-bag", description: "Vibrant designs for your premium exotic strains featuring holographic effects and high-barrier protection" },
+    { name: "Smell Proof Weed Bags", image: smellProofWeedBags, link: "/shapes-styles/weed-bags/smell-proof-weed-bags", description: "Advanced odor-barrier material for discretion featuring multi-layer films and secure airtight zippers" },
+    { name: "Weed Bags 3.5", image: weedBags35, link: "/shapes-styles/weed-bags/weed-bags-3-5", description: "Perfectly sized 3.5g pouches for retail flower featuring child-resistant seals and vibrant custom prints" },
+    { name: "Zip Weed Bags", image: zipWeedBags, link: "/shapes-styles/weed-bags/zip-weed-bags", description: "Reliable resealable zipper for freshness and safety featuring durable materials and high-impact branding" },
+    { name: "Weed Pound Bags", image: weedPoundBags, link: "/shapes-styles/weed-bags/weed-pound-bags", description: "Heavy-duty bulk storage bags for larger quantities featuring reinforced seams and superior odor control" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -108,28 +108,29 @@ const WeedBags = () => {
 
                     <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                        />
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link key={index} to={product.link} className="block">
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

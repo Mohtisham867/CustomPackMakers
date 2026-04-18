@@ -38,25 +38,25 @@ import customConeSleeveImg from "@/assets/sleeves-and-trays/custom-cone-sleeve.w
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [
-    { name: "Roll End Tray", image: rollEndTrayImg, description: "Self-locking tray box for retail and food featuring reinforced corners and easy-stacking structural design", isPlaceholder: false },
-    { name: "Custom Bowl Sleeves", image: customBowlSleevesImg, description: "Branded sleeves for takeout bowls and containers designed for heat insulation and high-impact food branding", isPlaceholder: false },
-    { name: "Custom Drawer Paper Boxes", image: customDrawerPaperBoxesImg, description: "Premium sliding drawer boxes for luxury gifts featuring smooth-glide action and elegant ribbon pull tabs", isPlaceholder: false },
-    { name: "Paper Food Trays", image: paperFoodTraysImg, description: "Disposable trays for street food and events designed with moisture-resistant coatings and easy-carry edges", isPlaceholder: false },
-    { name: "Hot Dog Sleeves", image: hotDogSleevesImg, description: "Convenient paper sleeves for hot dogs and sausages featuring grease-proof linings and vibrant food graphics", isPlaceholder: false },
-    { name: "Cup Sleeves", image: cupSleevesImg, description: "Protective sleeves for hot beverage cups designed with insulating corrugated texture and custom brand marks", isPlaceholder: false },
-    { name: "Coffee Sleeves", image: coffeeSleevesImg, description: "Insulating sleeves for coffee cups with custom print featuring recycled materials and superior heat protection", isPlaceholder: false },
-    { name: "Packaging Sleeves", image: packagingSleevesImg, description: "Versatile paper sleeves to brand any box or item featuring cost-effective customization and premium finishes", isPlaceholder: false },
-    { name: "Soap Sleeves", image: soapSleevesImg, description: "Minimalist packaging band for soap bars featuring elegant textures and organic-style branding for retail", isPlaceholder: false },
-    { name: "Gift Card Sleeves", image: giftCardSleevesImg, description: "Small sleeves designed to hold gift cards elegantly featuring precise die-cuts and luxury paper finishes", isPlaceholder: false },
-    { name: "Packaging Inserts", image: packagingInsertsImg, description: "Custom inserts to secure products within a box featuring custom-fitted shapes and protective cushioning", isPlaceholder: false },
-    { name: "Foam Inserts", image: foamInsertsImg, description: "Protective foam cutouts for delicate items featuring precision laser-cutting for a perfect snug fit", isPlaceholder: false },
-    { name: "Slide Boxes", image: slideBoxesImg, description: "Two-piece boxes with a sliding tray mechanism designed for a premium unboxing experience and high security", isPlaceholder: false },
-    { name: "Sleeve Boxes", image: sleeveBoxesImg, description: "Tray and sleeve combination for a premium unboxing featuring sleek slide-out action and durable construction", isPlaceholder: false },
-    { name: "Custom Shrink Sleeves", image: customShrinkSleevesImg, description: "Full-body labels that shrink to fit container contours featuring 360-degree graphics and tamper evidence", isPlaceholder: false },
-    { name: "Soap Packaging Sleeves", image: soapPackagingSleevesImg, description: "Branded wraps for handmade soaps featuring moisture-proof coatings and vibrant full-color custom designs", isPlaceholder: false },
-    { name: "Tray Boxes", image: trayBoxesImg, description: "Open top boxes perfect for product display featuring sturdy sidewalls and high-impact interior printing", isPlaceholder: false },
-    { name: "Kraft Sleeve Boxes", image: kraftSleeveBoxesImg, description: "Eco-friendly kraft slide boxes for a natural look featuring biodegradable material and minimalist branding", isPlaceholder: false },
-    { name: "Custom Cone Sleeve", image: customConeSleeveImg, description: "Printed paper sleeves for ice cream cones featuring food-safe materials and colorful child-friendly designs", isPlaceholder: false },
+    { name: "Roll End Tray", image: rollEndTrayImg, description: "Self-locking tray box for retail and food featuring reinforced corners and easy-stacking structural design", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/roll-end-tray" },
+    { name: "Custom Bowl Sleeves", image: customBowlSleevesImg, description: "Branded sleeves for takeout bowls and containers designed for heat insulation and high-impact food branding", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/custom-bowl-sleeves" },
+    { name: "Custom Drawer Paper Boxes", image: customDrawerPaperBoxesImg, description: "Premium sliding drawer boxes for luxury gifts featuring smooth-glide action and elegant ribbon pull tabs", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/custom-drawer-paper-boxes" },
+    { name: "Paper Food Trays", image: paperFoodTraysImg, description: "Disposable trays for street food and events designed with moisture-resistant coatings and easy-carry edges", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/paper-food-trays" },
+    { name: "Hot Dog Sleeves", image: hotDogSleevesImg, description: "Convenient paper sleeves for hot dogs and sausages featuring grease-proof linings and vibrant food graphics", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/hot-dog-sleeves" },
+    { name: "Cup Sleeves", image: cupSleevesImg, description: "Protective sleeves for hot beverage cups designed with insulating corrugated texture and custom brand marks", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/cup-sleeves" },
+    { name: "Coffee Sleeves", image: coffeeSleevesImg, description: "Insulating sleeves for coffee cups with custom print featuring recycled materials and superior heat protection", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/coffee-sleeves" },
+    { name: "Packaging Sleeves", image: packagingSleevesImg, description: "Versatile paper sleeves to brand any box or item featuring cost-effective customization and premium finishes", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/packaging-sleeves" },
+    { name: "Soap Sleeves", image: soapSleevesImg, description: "Minimalist packaging band for soap bars featuring elegant textures and organic-style branding for retail", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/soap-sleeves" },
+    { name: "Gift Card Sleeves", image: giftCardSleevesImg, description: "Small sleeves designed to hold gift cards elegantly featuring precise die-cuts and luxury paper finishes", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/gift-card-sleeves" },
+    { name: "Packaging Inserts", image: packagingInsertsImg, description: "Custom inserts to secure products within a box featuring custom-fitted shapes and protective cushioning", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/packaging-inserts" },
+    { name: "Foam Inserts", image: foamInsertsImg, description: "Protective foam cutouts for delicate items featuring precision laser-cutting for a perfect snug fit", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/foam-inserts" },
+    { name: "Slide Boxes", image: slideBoxesImg, description: "Two-piece boxes with a sliding tray mechanism designed for a premium unboxing experience and high security", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/slide-boxes" },
+    { name: "Sleeve Boxes", image: sleeveBoxesImg, description: "Tray and sleeve combination for a premium unboxing featuring sleek slide-out action and durable construction", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/sleeve-boxes" },
+    { name: "Custom Shrink Sleeves", image: customShrinkSleevesImg, description: "Full-body labels that shrink to fit container contours featuring 360-degree graphics and tamper evidence", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/custom-shrink-sleeves" },
+    { name: "Soap Packaging Sleeves", image: soapPackagingSleevesImg, description: "Branded wraps for handmade soaps featuring moisture-proof coatings and vibrant full-color custom designs", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/soap-packaging-sleeves" },
+    { name: "Tray Boxes", image: trayBoxesImg, description: "Open top boxes perfect for product display featuring sturdy sidewalls and high-impact interior printing", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/tray-boxes" },
+    { name: "Kraft Sleeve Boxes", image: kraftSleeveBoxesImg, description: "Eco-friendly kraft slide boxes for a natural look featuring biodegradable material and minimalist branding", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/kraft-sleeve-boxes" },
+    { name: "Custom Cone Sleeve", image: customConeSleeveImg, description: "Printed paper sleeves for ice cream cones featuring food-safe materials and colorful child-friendly designs", isPlaceholder: false, link: "/shapes-styles/sleeves-trays/custom-cone-sleeve" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -134,35 +134,36 @@ const SleevesAndTrays = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer text-left"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden relative">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className={`w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110 ${product.isPlaceholder ? 'opacity-80' : ''}`} loading="lazy"
-                                        />
-                                        {product.isPlaceholder && (
-                                            <div className="absolute inset-0 flex items-center justify-center bg-black/5">
-                                                <span className="bg-white/90 px-2 py-1 text-xs rounded shadow-sm text-foreground/70 font-medium">Image Coming Soon</span>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.link} key={index} className="block">
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer text-left h-full"
+                                >
+                                    <CardContent className="p-0">
+                                        <div className="w-full aspect-square overflow-hidden relative">
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className={`w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110 ${product.isPlaceholder ? 'opacity-80' : ''}`} loading="lazy"
+                                            />
+                                            {product.isPlaceholder && (
+                                                <div className="absolute inset-0 flex items-center justify-center bg-black/5">
+                                                    <span className="bg-white/90 px-2 py-1 text-xs rounded shadow-sm text-foreground/70 font-medium">Image Coming Soon</span>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="p-4 border-t border-border">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

@@ -40,25 +40,25 @@ import { SEOContent } from "@/components/SEOContent";
 const placeholderImage = subscriptionBoxesHero;
 
 const relatedProducts = [
-    { name: "Candle Subscription Boxes", image: candleSubscriptionBox, description: "Elegant packaging for scented candle subscriptions featuring protective inserts for fragile glass jars" },
-    { name: "CBD Subscription Boxes", image: cbdSubscriptionBox, description: "Secure and professional boxes for CBD products ensuring compliant labeling and child-resistant safety" },
-    { name: "Chocolate Subscription Box", image: chocolateSubscriptionBox, description: "Luxurious packaging for gourmet chocolates featuring temperature-resistant materials and elegant presentation" },
-    { name: "Cosmetic Subscription Boxes", image: cosmeticSubscriptionBox, description: "Chic designs for beauty and makeup subscriptions featuring glamorous finishes and partitioned compartments" },
-    { name: "Soap Subscription Boxes", image: soapSubscriptionBox, description: "Fresh and clean packaging for artisanal soaps featuring breathable paperboard and moisture protection" },
-    { name: "Stationery Subscription Box", image: stationerySubscriptionBox, description: "Creative boxes for paper and writing supplies featuring protective flat designs for cards and notebooks" },
-    { name: "Subscription Boxes For Men", image: subscriptionBoxesForMen, description: "Masculine and bold designs for men's products featuring robust construction and minimalist aesthetics" },
-    { name: "Subscription Boxes For Kids", image: subscriptionBoxesForKids, description: "Fun and colorful boxes to excite children featuring playful illustrations and safe protective materials" },
-    { name: "Food Subscription Boxes", image: foodSubscriptionBoxes, description: "Durable packaging for gourmet food deliveries featuring thermal insulation and food-safe interior coatings" },
-    { name: "Mystery Subscription Boxes", image: mysterySubscriptionBoxes, description: "Intriguing designs for surprise box subscriptions featuring opaque packaging and curiosity-building graphics" },
-    { name: "Candy Subscription Boxes", image: candySubscriptionBoxes, description: "Sweet and vibrant packaging for candy lovers featuring bright colors and secure seals for freshness" },
-    { name: "Art Subscription Boxes", image: artSubscriptionBoxes, description: "Artistic and inspiring boxes for creative supplies featuring durable protection for delicate craft items" },
-    { name: "Pet Food Subscription Boxes", image: petFoodSubscriptionBoxes, description: "Sturdy boxes for heavy pet food deliveries featuring reinforced corrugated board and tear-resistant handles" },
-    { name: "Golf Subscription Boxes", image: golfSubscriptionBoxes, description: "Sporty and premium boxes for golf enthusiasts featuring protective spacers for clubs and accessories" },
-    { name: "Subscription Boxes For Women", image: subscriptionBoxesForWomen, description: "Elegant and stylish boxes for women's lifestyle products featuring floral prints and soft-touch finishes" },
-    { name: "Monthly Subscription Boxes", image: monthlySubscriptionBoxes, description: "Reliable packaging for recurring monthly deliveries featuring consistent branding and durable shipping board" },
-    { name: "Harry Potter Subscription Boxes", image: harryPotterSubscriptionBoxes, description: "Magical wizard-themed boxes for fans featuring cryptic designs and high-fidelity thematic illustrations" },
-    { name: "Sports Subscription Boxes", image: sportsSubscriptionBoxes, description: "Dynamic designs for sports gear and memorabilia featuring action-oriented graphics and robust protection" },
-    { name: "Disney Subscription Boxes", image: disneySubscriptionBoxes, description: "Fairytale-themed boxes for magical unboxing moments featuring iconic characters and enchanting color palettes" },
+    { name: "Candle Subscription Boxes", image: candleSubscriptionBox, description: "Elegant packaging for scented candle subscriptions featuring protective inserts for fragile glass jars" , link: "/shapes-styles/subscription-boxes/candle-subscription-boxes" },
+    { name: "CBD Subscription Boxes", image: cbdSubscriptionBox, description: "Secure and professional boxes for CBD products ensuring compliant labeling and child-resistant safety" , link: "/shapes-styles/subscription-boxes/cbd-subscription-boxes" },
+    { name: "Chocolate Subscription Box", image: chocolateSubscriptionBox, description: "Luxurious packaging for gourmet chocolates featuring temperature-resistant materials and elegant presentation" , link: "/shapes-styles/subscription-boxes/chocolate-subscription-box" },
+    { name: "Cosmetic Subscription Boxes", image: cosmeticSubscriptionBox, description: "Chic designs for beauty and makeup subscriptions featuring glamorous finishes and partitioned compartments" , link: "/shapes-styles/subscription-boxes/cosmetic-subscription-boxes" },
+    { name: "Soap Subscription Boxes", image: soapSubscriptionBox, description: "Fresh and clean packaging for artisanal soaps featuring breathable paperboard and moisture protection" , link: "/shapes-styles/subscription-boxes/soap-subscription-boxes" },
+    { name: "Stationery Subscription Box", image: stationerySubscriptionBox, description: "Creative boxes for paper and writing supplies featuring protective flat designs for cards and notebooks" , link: "/shapes-styles/subscription-boxes/stationery-subscription-box" },
+    { name: "Subscription Boxes For Men", image: subscriptionBoxesForMen, description: "Masculine and bold designs for men's products featuring robust construction and minimalist aesthetics" , link: "/shapes-styles/subscription-boxes/subscription-boxes-for-men" },
+    { name: "Subscription Boxes For Kids", image: subscriptionBoxesForKids, description: "Fun and colorful boxes to excite children featuring playful illustrations and safe protective materials" , link: "/shapes-styles/subscription-boxes/subscription-boxes-for-kids" },
+    { name: "Food Subscription Boxes", image: foodSubscriptionBoxes, description: "Durable packaging for gourmet food deliveries featuring thermal insulation and food-safe interior coatings" , link: "/shapes-styles/subscription-boxes/food-subscription-boxes" },
+    { name: "Mystery Subscription Boxes", image: mysterySubscriptionBoxes, description: "Intriguing designs for surprise box subscriptions featuring opaque packaging and curiosity-building graphics" , link: "/shapes-styles/subscription-boxes/mystery-subscription-boxes" },
+    { name: "Candy Subscription Boxes", image: candySubscriptionBoxes, description: "Sweet and vibrant packaging for candy lovers featuring bright colors and secure seals for freshness" , link: "/shapes-styles/subscription-boxes/candy-subscription-boxes" },
+    { name: "Art Subscription Boxes", image: artSubscriptionBoxes, description: "Artistic and inspiring boxes for creative supplies featuring durable protection for delicate craft items" , link: "/shapes-styles/subscription-boxes/art-subscription-boxes" },
+    { name: "Pet Food Subscription Boxes", image: petFoodSubscriptionBoxes, description: "Sturdy boxes for heavy pet food deliveries featuring reinforced corrugated board and tear-resistant handles" , link: "/shapes-styles/subscription-boxes/pet-food-subscription-boxes" },
+    { name: "Golf Subscription Boxes", image: golfSubscriptionBoxes, description: "Sporty and premium boxes for golf enthusiasts featuring protective spacers for clubs and accessories" , link: "/shapes-styles/subscription-boxes/golf-subscription-boxes" },
+    { name: "Subscription Boxes For Women", image: subscriptionBoxesForWomen, description: "Elegant and stylish boxes for women's lifestyle products featuring floral prints and soft-touch finishes" , link: "/shapes-styles/subscription-boxes/subscription-boxes-for-women" },
+    { name: "Monthly Subscription Boxes", image: monthlySubscriptionBoxes, description: "Reliable packaging for recurring monthly deliveries featuring consistent branding and durable shipping board" , link: "/shapes-styles/subscription-boxes/monthly-subscription-boxes" },
+    { name: "Harry Potter Subscription Boxes", image: harryPotterSubscriptionBoxes, description: "Magical wizard-themed boxes for fans featuring cryptic designs and high-fidelity thematic illustrations" , link: "/shapes-styles/subscription-boxes/harry-potter-subscription-boxes" },
+    { name: "Sports Subscription Boxes", image: sportsSubscriptionBoxes, description: "Dynamic designs for sports gear and memorabilia featuring action-oriented graphics and robust protection" , link: "/shapes-styles/subscription-boxes/sports-subscription-boxes" },
+    { name: "Disney Subscription Boxes", image: disneySubscriptionBoxes, description: "Fairytale-themed boxes for magical unboxing moments featuring iconic characters and enchanting color palettes" , link: "/shapes-styles/subscription-boxes/disney-subscription-boxes" },
 ];
 
 const productOptions = relatedProducts.map(p => p.name);
@@ -138,10 +138,11 @@ const SubscriptionBoxes = () => {
 
                     <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer text-left"
-                            >
+                            product.link ? (
+                                <Link key={index} to={product.link} className="block">
+                                    <Card
+                                        className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer text-left h-full"
+                                    >
                                 <CardContent className="p-0">
                                     <div className="w-full aspect-square overflow-hidden relative">
                                         {product.image ? (
@@ -173,6 +174,44 @@ const SubscriptionBoxes = () => {
                                     </div>
                                 </CardContent>
                             </Card>
+                                </Link>
+                            ) : (
+                                <Card
+                                    key={index}
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer text-left h-full"
+                                >
+                                <CardContent className="p-0">
+                                    <div className="w-full aspect-square overflow-hidden relative">
+                                        {product.image ? (
+                                            <img
+                                                src={product.image}
+                                                alt={product.name}
+                                                className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                            />
+                                        ) : (
+                                            <div className="w-full h-full bg-muted flex items-center justify-center relative overflow-hidden">
+                                                <img
+                                                    src={placeholderImage}
+                                                    className="absolute inset-0 w-full h-full object-cover opacity-20 blur-sm scale-150"
+                                                    alt="placeholder background" loading="lazy"
+                                                />
+                                                <span className="relative z-10 text-muted-foreground/50 text-xs font-medium px-2 text-center">
+                                                    Image Coming Soon
+                                                </span>
+                                            </div>
+                                        )}
+                                    </div>
+                                    <div className="p-4 border-t border-border">
+                                        <h3 className="font-semibold text-foreground text-sm mb-2">
+                                            {product.name}
+                                        </h3>
+                                        <p className="text-xs text-muted-foreground line-clamp-2">
+                                            {product.description}
+                                        </p>
+                                    </div>
+                                </CardContent>
+                            </Card>
+                            )
                         ))}
                     </div>
                 </div>

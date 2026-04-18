@@ -202,35 +202,39 @@ const StickersAndLabels = () => {
                     </div>
 
                     <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-                        {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer text-left"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="w-full aspect-square overflow-hidden relative">
-                                        <img
-                                            src={product.image}
-                                            alt={product.name}
-                                            className={`w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110 ${product.image === placeholder ? 'opacity-80' : ''}`} loading="lazy"
-                                        />
-                                        {product.image === placeholder && (
-                                            <div className="absolute inset-0 flex items-center justify-center bg-black/5">
-                                                <span className="bg-white/90 px-2 py-1 text-xs rounded shadow-sm text-foreground/70 font-medium">Image Coming Soon</span>
+                        {relatedProducts.map((product, index) => {
+                            const slug = product.name.replace(/\s+/g, '-').toLowerCase();
+                            return (
+                                <Link to={`/shapes-styles/stickers-labels/${slug}`} key={index}>
+                                    <Card
+                                        className="h-full overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer text-left"
+                                    >
+                                        <CardContent className="p-0">
+                                            <div className="w-full aspect-square overflow-hidden relative">
+                                                <img
+                                                    src={product.image}
+                                                    alt={product.name}
+                                                    className={`w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110 ${product.image === placeholder ? 'opacity-80' : ''}`} loading="lazy"
+                                                />
+                                                {product.image === placeholder && (
+                                                    <div className="absolute inset-0 flex items-center justify-center bg-black/5">
+                                                        <span className="bg-white/90 px-2 py-1 text-xs rounded shadow-sm text-foreground/70 font-medium">Image Coming Soon</span>
+                                                    </div>
+                                                )}
                                             </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        ))}
+                                            <div className="p-4 border-t border-border">
+                                                <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                    {product.name}
+                                                </h3>
+                                                <p className="text-xs text-muted-foreground line-clamp-2">
+                                                    {product.description}
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                </Link>
+                            );
+                        })}
                     </div>
                 </div>
             </section>

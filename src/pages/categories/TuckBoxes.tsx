@@ -13,11 +13,12 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/tuck-boxes/tuck hero.webp";
+import heroImage from "@/assets/tuck-boxes/tuck-hero.webp";
+
 // Product Images
 import reverseTuckEnd from "@/assets/tuck-boxes/reverse-tuck-end.webp";
 import reverseTuckEndBoxes from "@/assets/tuck-boxes/reverse-tuck-end-boxes.webp";
-import straightTuckEnd from "@/assets/tuck-boxes/Straight Tuck End.webp";
+import straightTuckEnd from "@/assets/tuck-boxes/straight-tuck-end.webp";
 import straightTuckEndBoxes from "@/assets/tuck-boxes/straight-tuck-end-boxes.webp";
 import tuckTopBox from "@/assets/tuck-boxes/tuck-top-box.webp";
 import tuckTopBoxes from "@/assets/tuck-boxes/tuck-top-boxes.webp";
@@ -51,21 +52,21 @@ const tuckBoxProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Reverse Tuck End", image: reverseTuckEnd, description: "Classic reverse tuck closure designed for secure packaging and easy assembly across various retail sectors." },
-    { name: "Reverse Tuck End Boxes", image: reverseTuckEndBoxes, description: "Versatile reverse tuck boxes suitable for a wide range of products requiring reliable and elegant packaging." },
-    { name: "Straight Tuck End", image: straightTuckEnd, description: "Clean straight tuck design offering a premium look with perfectly aligned closures for high-end retail displays." },
-    { name: "Straight Tuck End Boxes", image: straightTuckEndBoxes, description: "Standard straight tuck packaging solutions engineered for ease of use and professional product presentation." },
-    { name: "Tuck Top Box", image: tuckTopBox, description: "Simple and effective tuck top closure providing convenient access and secure containment for your retail goods." },
-    { name: "Tuck Top Boxes", image: tuckTopBoxes, description: "Reliable tuck top boxes perfect for retail display and organized storage, featuring durable construction." },
-    { name: "Tuck Top Snap Bottom Box", image: tuckTopSnapBottom, description: "Hybrid design featuring a secure snap-lock bottom and easy tuck top access for heavy or fragile products." },
-    { name: "Tuck Top Auto Bottom Box", image: tuckTopAutoBottom, description: "Quick-assembly auto bottom combined with a convenient tuck top to streamline your high-volume packaging line." },
-    { name: "Tuck Front Boxes", image: tuckFrontBoxes, description: "Durable tuck front design providing enhanced protection and a clean exterior surface for prominent branding." },
-    { name: "Double Wall Tuck Front", image: doubleWallTuckFront, description: "Extra sturdy double wall construction offering maximum crush resistance for shipping and retail of heavier items." },
-    { name: "Double Wall Tuck Top Boxes", image: doubleWallTuckTopBoxes, description: "Reinforced top tuck design engineered specifically for heavier items requiring added structural security." },
-    { name: "Straight Tuck with Hang Tab", image: straightTuckHangTab, description: "Retail-ready packaging featuring an integrated hang tab for convenient pegboard display and easy visibility." },
-    { name: "Reverse Tuck with Hang Tab", image: reverseTuckHangTab, description: "Functional reverse tuck style with a built-in hang tab designed for efficient vertical retail merchandising." },
-    { name: "Straight Tuck with Customize Window", image: straightTuckWindow, description: "Showcase your products through a custom clear window combined with a premium straight tuck closure design." },
-    { name: "Reverse Tuck with Customize Window", image: reverseTuckWindow, description: "Professional reverse tuck box featuring a large product window to boost consumer interest and brand trust." },
+    { name: "Reverse Tuck End", image: reverseTuckEnd, description: "Classic reverse tuck closure designed for secure packaging and easy assembly across various retail sectors.", link: "/shapes-styles/tuck-boxes/reverse-tuck-end" },
+    { name: "Reverse Tuck End Boxes", image: reverseTuckEndBoxes, description: "Versatile reverse tuck boxes suitable for a wide range of products requiring reliable and elegant packaging.", link: "/shapes-styles/tuck-boxes/reverse-tuck-end-boxes" },
+    { name: "Straight Tuck End", image: straightTuckEnd, description: "Clean straight tuck design offering a premium look with perfectly aligned closures for high-end retail displays.", link: "/shapes-styles/tuck-boxes/straight-tuck-end" },
+    { name: "Straight Tuck End Boxes", image: straightTuckEndBoxes, description: "Standard straight tuck packaging solutions engineered for ease of use and professional product presentation.", link: "/shapes-styles/tuck-boxes/straight-tuck-end-boxes" },
+    { name: "Tuck Top Box", image: tuckTopBox, description: "Simple and effective tuck top closure providing convenient access and secure containment for your retail goods.", link: "/shapes-styles/tuck-boxes/tuck-top-box" },
+    { name: "Tuck Top Boxes", image: tuckTopBoxes, description: "Reliable tuck top boxes perfect for retail display and organized storage, featuring durable construction.", link: "/shapes-styles/tuck-boxes/tuck-top-boxes" },
+    { name: "Tuck Top Snap Bottom Box", image: tuckTopSnapBottom, description: "Hybrid design featuring a secure snap-lock bottom and easy tuck top access for heavy or fragile products.", link: "/shapes-styles/tuck-boxes/tuck-top-snap-bottom-box" },
+    { name: "Tuck Top Auto Bottom Box", image: tuckTopAutoBottom, description: "Quick-assembly auto bottom combined with a convenient tuck top to streamline your high-volume packaging line.", link: "/shapes-styles/tuck-boxes/tuck-top-auto-bottom-box" },
+    { name: "Tuck Front Boxes", image: tuckFrontBoxes, description: "Durable tuck front design providing enhanced protection and a clean exterior surface for prominent branding.", link: "/shapes-styles/tuck-boxes/tuck-front-boxes" },
+    { name: "Double Wall Tuck Front", image: doubleWallTuckFront, description: "Extra sturdy double wall construction offering maximum crush resistance for shipping and retail of heavier items.", link: "/shapes-styles/tuck-boxes/double-wall-tuck-front" },
+    { name: "Double Wall Tuck Top Boxes", image: doubleWallTuckTopBoxes, description: "Reinforced top tuck design engineered specifically for heavier items requiring added structural security.", link: "/shapes-styles/tuck-boxes/double-wall-tuck-top-boxes" },
+    { name: "Straight Tuck with Hang Tab", image: straightTuckHangTab, description: "Retail-ready packaging featuring an integrated hang tab for convenient pegboard display and easy visibility.", link: "/shapes-styles/tuck-boxes/straight-tuck-with-hang-tab" },
+    { name: "Reverse Tuck with Hang Tab", image: reverseTuckHangTab, description: "Functional reverse tuck style with a built-in hang tab designed for efficient vertical retail merchandising.", link: "/shapes-styles/tuck-boxes/reverse-tuck-with-hang-tab" },
+    { name: "Straight Tuck with Customize Window", image: straightTuckWindow, description: "Showcase your products through a custom clear window combined with a premium straight tuck closure design.", link: "/shapes-styles/tuck-boxes/straight-tuck-with-customize-window" },
+    { name: "Reverse Tuck with Customize Window", image: reverseTuckWindow, description: "Professional reverse tuck box featuring a large product window to boost consumer interest and brand trust.", link: "/shapes-styles/tuck-boxes/reverse-tuck-with-customize-window" },
 ];
 
 const TuckBoxes = () => {
@@ -74,8 +75,8 @@ const TuckBoxes = () => {
             <Header />
 
             {/* Breadcrumb */}
-            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
-                <div className="container mx-auto px-4 py-4">
+            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[110px] md:mt-[140px]">
+                <div className="container mx-auto px-4 py-3">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem>
@@ -99,7 +100,7 @@ const TuckBoxes = () => {
             </div>
 
             {/* Top Split Section */}
-            <main className="py-16">
+            <main className="py-8">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 mb-12 items-start">
                         {/* Left Side */}
@@ -113,7 +114,7 @@ const TuckBoxes = () => {
                                 From reverse tuck end to auto-lock styles, customize your packaging solution.
                             </p>
                             <div className="flex justify-center lg:justify-start">
-                                <div className="w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg">
+                                <div className="relative w-full max-w-[480px] h-[300px] overflow-hidden rounded-lg shadow-lg bg-muted">
                                     <img
                                         src={heroImage}
                                         alt="Tuck Boxes Hero"
@@ -141,40 +142,38 @@ const TuckBoxes = () => {
 
                         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                             {relatedProducts.map((product, index) => (
-                                <Card
-                                    key={index}
-                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                                >
-                                    <CardContent className="p-0">
-                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                            <img
-                                                src={product.image}
-                                                alt={product.name}
-                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                            />
-                                        </div>
-                                        <div className="p-4 border-t border-border">
-                                            <h3 className="font-semibold text-foreground text-sm mb-2">
-                                                {product.name}
-                                            </h3>
-                                            <p className="text-xs text-muted-foreground line-clamp-2">
-                                                {product.description}
-                                            </p>
-                                        </div>
-                                    </CardContent>
-                                </Card>
+                                <Link to={product.link} key={index} className="block group">
+                                    <Card
+                                        className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full"
+                                    >
+                                        <CardContent className="p-0">
+                                            <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden relative">
+                                                <img
+                                                    src={product.image}
+                                                    alt={product.name}
+                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                />
+                                            </div>
+                                            <div className="p-4 border-t border-border">
+                                                <h3 className="font-semibold text-foreground text-sm mb-2 group-hover:text-primary transition-colors">
+                                                    {product.name}
+                                                </h3>
+                                                <p className="text-xs text-muted-foreground line-clamp-2">
+                                                    {product.description}
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                </Link>
                             ))}
                         </div>
                     </section>
                 </div>
             </main>
 
-            {/* Main Quote Form at Bottom */}
-            {/* Brand Rating */}
             <BrandRating />
             <QuoteForm />
             <SEOContent>
-
                 <h2>The Ultimate Guide to Tuck Boxes</h2>
                 <p>
                     In the competitive world of retail and e-commerce, packaging is no longer just a container—it's a powerful marketing tool that communicates your brand's value instantly.
