@@ -659,6 +659,72 @@ import StraightTuckWithCustomizeWindow from "./pages/shapes-styles/tuck-boxes/St
 import ReverseTuckWithHangTab from "./pages/shapes-styles/tuck-boxes/ReverseTuckWithHangTab";
 import StraightTuckWithHangTab from "./pages/shapes-styles/tuck-boxes/StraightTuckWithHangTab";
 
+// Kraft Boxes - Batch 1 (Box by Material)
+import KraftHandleBoxes from "./pages/box-by-material/kraft-boxes/CustomHandleBoxes";
+import KraftPaperCups from "./pages/box-by-material/kraft-boxes/CustomPaperCups";
+import KraftSandwichBoxesMaterial from "./pages/box-by-material/kraft-boxes/KraftSandwichBoxes";
+import CustomKraftSoapBoxesMaterial from "./pages/box-by-material/kraft-boxes/CustomKraftSoapBoxes";
+import KraftPillowBoxesMaterial from "./pages/box-by-material/kraft-boxes/KraftPillowBoxes";
+import KraftJewelryBoxesMaterial from "./pages/box-by-material/kraft-boxes/KraftJewelryBoxes";
+import KraftGableBoxesMaterial from "./pages/box-by-material/kraft-boxes/KraftGableBoxes";
+import KraftLabelsMaterial from "./pages/box-by-material/kraft-boxes/KraftLabels";
+import PaperTubePackagingMaterial from "./pages/box-by-material/kraft-boxes/PaperTubePackaging";
+import KraftGiftBoxesMaterial from "./pages/box-by-material/kraft-boxes/KraftGiftBoxes";
+import KraftBubbleMailersMaterial from "./pages/box-by-material/kraft-boxes/KraftBubbleMailers";
+
+// Kraft Boxes - Batch 2 (Box by Material)
+import KraftCorrugatedBoxesMaterial from "./pages/box-by-material/kraft-boxes/KraftCorrugatedBoxes";
+import KraftTakeawayBoxesMaterial from "./pages/box-by-material/kraft-boxes/KraftTakeawayBoxes";
+import KraftPaperBoxesWithWindowMaterial from "./pages/box-by-material/kraft-boxes/KraftPaperBoxesWithWindow";
+import KraftCupcakeBoxesMaterial from "./pages/box-by-material/kraft-boxes/KraftCupcakeBoxes";
+import KraftBagsMaterial from "./pages/box-by-material/kraft-boxes/KraftBags";
+import KraftPieBoxesMaterial from "./pages/box-by-material/kraft-boxes/KraftPieBoxes";
+import WhiteKraftBoxesMaterial from "./pages/box-by-material/kraft-boxes/WhiteKraftBoxes";
+import SmallKraftBoxesMaterial from "./pages/box-by-material/kraft-boxes/SmallKraftBoxes";
+import KraftBoxesWithLidsMaterial from "./pages/box-by-material/kraft-boxes/KraftBoxesWithLids";
+import KraftTuckTopBoxesMaterial from "./pages/box-by-material/kraft-boxes/KraftTuckTopBoxes";
+import KraftShippingLabelsMaterial from "./pages/box-by-material/kraft-boxes/KraftShippingLabels";
+
+// Corrugated Boxes - Product Pages
+import CorrugatedBoxesWithLidsMaterial from "./pages/box-by-material/corrugated-boxes/CorrugatedBoxesWithLids";
+import CorrugatedMailerBoxesMaterial from "./pages/box-by-material/corrugated-boxes/CorrugatedMailerBoxes";
+import KraftCorrugatedBoxesCorrugatedMaterial from "./pages/box-by-material/corrugated-boxes/KraftCorrugatedBoxes";
+import WhiteCorrugatedBoxesMaterial from "./pages/box-by-material/corrugated-boxes/WhiteCorrugatedBoxes";
+
+// Rigid Boxes - Product Pages (box-by-material)
+import WalletBoxesMaterial from "./pages/box-by-material/rigid-boxes/WalletBoxes";
+import FlipTopBoxesMaterial from "./pages/box-by-material/rigid-boxes/FlipTopBoxes";
+import RigidGiftBoxesMaterial from "./pages/box-by-material/rigid-boxes/RigidGiftBoxes";
+import CreditCardBoxesMaterial from "./pages/box-by-material/rigid-boxes/CreditCardBoxes";
+import RigidSetupBoxesMaterial from "./pages/box-by-material/rigid-boxes/RigidSetupBoxes";
+import RibbonBoxesMaterial from "./pages/box-by-material/rigid-boxes/RibbonBoxes";
+import MagneticClosureBoxesMaterial from "./pages/box-by-material/rigid-boxes/MagneticClosureBoxes";
+import RigidPaperBoxesMaterial from "./pages/box-by-material/rigid-boxes/RigidPaperBoxes";
+import FlipTopBoxesWithMagneticClosureMaterial from "./pages/box-by-material/rigid-boxes/FlipTopBoxesWithMagneticClosure";
+
+// Holographic Boxes - Product Pages (box-by-material)
+import HolographicMylarBagsMaterial from "./pages/box-by-material/holographic-boxes/HolographicMylarBags";
+import HolographicBagsMaterial from "./pages/box-by-material/holographic-boxes/HolographicBags";
+import HolographicFoilingBoxesMaterial from "./pages/box-by-material/holographic-boxes/HolographicFoilingBoxes";
+
+// Cardboard Boxes - Product Pages
+import HempCardboardBoxesBoxByMaterial from "./pages/box-by-material/cardboard-boxes/HempCardboardBoxes";
+import CardboardCigaretteBoxesBoxByMaterial from "./pages/box-by-material/cardboard-boxes/CardboardCigaretteBoxes";
+import CardboardGiftBoxesBoxByMaterial from "./pages/box-by-material/cardboard-boxes/CardboardGiftBoxes";
+import BlackCardboardBoxesBoxByMaterial from "./pages/box-by-material/cardboard-boxes/BlackCardboardBoxes";
+import WhiteCardboardBoxesBoxByMaterial from "./pages/box-by-material/cardboard-boxes/WhiteCardboardBoxes";
+import CardboardDividerBoxesBoxByMaterial from "./pages/box-by-material/cardboard-boxes/CardboardDividerBoxes";
+import CardboardJewelryBoxesBoxByMaterial from "./pages/box-by-material/cardboard-boxes/CardboardJewelryBoxes";
+import CardboardBoxWithHandleBoxByMaterial from "./pages/box-by-material/cardboard-boxes/CardboardBoxWithHandle";
+import AmmoCardboardBoxBoxByMaterial from "./pages/box-by-material/cardboard-boxes/AmmoCardboardBox";
+import CardboardInsertsBoxByMaterial from "./pages/box-by-material/cardboard-boxes/CardboardInserts";
+import PaperboardBoxesBoxByMaterial from "./pages/box-by-material/cardboard-boxes/PaperboardBoxes";
+import CardboardShoeBoxesBoxByMaterial from "./pages/box-by-material/cardboard-boxes/CardboardShoeBoxes";
+import CardboardBoxWithInsertsBoxByMaterial from "./pages/box-by-material/cardboard-boxes/CardboardBoxWithInserts";
+import CardboardCigarBoxesBoxByMaterial from "./pages/box-by-material/cardboard-boxes/CardboardCigarBoxes";
+import CosmeticCardboardBoxesBoxByMaterial from "./pages/box-by-material/cardboard-boxes/CosmeticCardboardBoxes";
+import CardboardSoapBoxesBoxByMaterial from "./pages/box-by-material/cardboard-boxes/CardboardSoapBoxes";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -1257,6 +1323,74 @@ const App = () => (
           <Route path="/primary-packaging/dropper-bottles" element={<DropperBottles />} />
           <Route path="/primary-packaging/jars-with-pump" element={<JarsWithPump />} />
           <Route path="/box-by-materials" element={<BoxByMaterials />} />
+          <Route path="/box-by-material/kraft-boxes" element={<CustomKraftBoxes />} />
+          
+          {/* Kraft Boxes - Product Pages (Batch 1) */}
+          <Route path="/box-by-material/kraft-boxes/custom-handle-boxes" element={<KraftHandleBoxes />} />
+          <Route path="/box-by-material/kraft-boxes/custom-paper-cups" element={<KraftPaperCups />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-sandwich-boxes" element={<KraftSandwichBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/custom-kraft-soap-boxes" element={<CustomKraftSoapBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-pillow-boxes" element={<KraftPillowBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-jewelry-boxes" element={<KraftJewelryBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-gable-boxes" element={<KraftGableBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-labels" element={<KraftLabelsMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/paper-tube-packaging" element={<PaperTubePackagingMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-gift-boxes" element={<KraftGiftBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-bubble-mailers" element={<KraftBubbleMailersMaterial />} />
+
+          {/* Kraft Boxes - Product Pages (Batch 2) */}
+          <Route path="/box-by-material/kraft-boxes/kraft-corrugated-boxes" element={<KraftCorrugatedBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-takeaway-boxes" element={<KraftTakeawayBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-paper-boxes-with-window" element={<KraftPaperBoxesWithWindowMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-cupcake-boxes" element={<KraftCupcakeBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-bags" element={<KraftBagsMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-pie-boxes" element={<KraftPieBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/white-kraft-boxes" element={<WhiteKraftBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/small-kraft-boxes" element={<SmallKraftBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-boxes-with-lids" element={<KraftBoxesWithLidsMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/kraft-tuck-top-boxes" element={<KraftTuckTopBoxesMaterial />} />
+          <Route path="/box-by-material/kraft-boxes/shipping-labels" element={<KraftShippingLabelsMaterial />} />
+
+          {/* Cardboard Boxes - Product Pages */}
+          <Route path="/box-by-material/cardboard-boxes/hemp-cardboard-boxes" element={<HempCardboardBoxesBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/cardboard-cigarette-boxes" element={<CardboardCigaretteBoxesBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/cardboard-gift-boxes" element={<CardboardGiftBoxesBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/black-cardboard-boxes" element={<BlackCardboardBoxesBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/white-cardboard-boxes" element={<WhiteCardboardBoxesBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/cardboard-divider-boxes" element={<CardboardDividerBoxesBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/cardboard-jewelry-boxes" element={<CardboardJewelryBoxesBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/cardboard-box-with-handle" element={<CardboardBoxWithHandleBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/ammo-cardboard-boxes" element={<AmmoCardboardBoxBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/cardboard-inserts" element={<CardboardInsertsBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/paperboard-boxes" element={<PaperboardBoxesBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/cardboard-shoe-boxes" element={<CardboardShoeBoxesBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/cardboard-box-with-inserts" element={<CardboardBoxWithInsertsBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/cardboard-cigar-boxes" element={<CardboardCigarBoxesBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/cosmetic-cardboard-boxes" element={<CosmeticCardboardBoxesBoxByMaterial />} />
+          <Route path="/box-by-material/cardboard-boxes/cardboard-soap-boxes" element={<CardboardSoapBoxesBoxByMaterial />} />
+
+          {/* Corrugated Boxes - Product Pages */}
+          <Route path="/box-by-material/corrugated-boxes/corrugated-boxes-with-lids" element={<CorrugatedBoxesWithLidsMaterial />} />
+          <Route path="/box-by-material/corrugated-boxes/corrugated-mailer-boxes" element={<CorrugatedMailerBoxesMaterial />} />
+          <Route path="/box-by-material/corrugated-boxes/kraft-corrugated-boxes" element={<KraftCorrugatedBoxesCorrugatedMaterial />} />
+          <Route path="/box-by-material/corrugated-boxes/white-corrugated-boxes" element={<WhiteCorrugatedBoxesMaterial />} />
+
+          {/* Rigid Boxes - Product Pages (box-by-material) */}
+          <Route path="/box-by-material/rigid-boxes/wallet-boxes" element={<WalletBoxesMaterial />} />
+          <Route path="/box-by-material/rigid-boxes/flip-top-boxes" element={<FlipTopBoxesMaterial />} />
+          <Route path="/box-by-material/rigid-boxes/rigid-gift-boxes" element={<RigidGiftBoxesMaterial />} />
+          <Route path="/box-by-material/rigid-boxes/credit-card-boxes" element={<CreditCardBoxesMaterial />} />
+          <Route path="/box-by-material/rigid-boxes/rigid-setup-boxes" element={<RigidSetupBoxesMaterial />} />
+          <Route path="/box-by-material/rigid-boxes/ribbon-boxes" element={<RibbonBoxesMaterial />} />
+          <Route path="/box-by-material/rigid-boxes/magnetic-closure-boxes" element={<MagneticClosureBoxesMaterial />} />
+          <Route path="/box-by-material/rigid-boxes/rigid-paper-boxes" element={<RigidPaperBoxesMaterial />} />
+          <Route path="/box-by-material/rigid-boxes/flip-top-boxes-with-magnetic-closure" element={<FlipTopBoxesWithMagneticClosureMaterial />} />
+
+          {/* Holographic Boxes - Product Pages (box-by-material) */}
+          <Route path="/box-by-material/holographic-boxes/holographic-mylar-bags" element={<HolographicMylarBagsMaterial />} />
+          <Route path="/box-by-material/holographic-boxes/holographic-bags" element={<HolographicBagsMaterial />} />
+          <Route path="/box-by-material/holographic-boxes/holographic-foiling-boxes" element={<HolographicFoilingBoxesMaterial />} />
+
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/shapes-styles/stickers-labels/bag-labels" element={<BagLabelsStickers />} />

@@ -39,15 +39,15 @@ const rigidBoxProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Wallet Boxes", image: walletBoxes, description: "Premium wallet packaging featuring luxury finishes and protective inserts for a high-end retail presentation", path: "/shapes-styles/rigid-boxes/wallet-boxes" },
-    { name: "Flip Top Boxes", image: flipTopBoxes, description: "Elegant flip-top rigid boxes with magnetic closures and sophisticated designs for premium gift packaging", path: "/shapes-styles/rigid-boxes/flip-top-boxes" },
-    { name: "Rigid Gift Boxes", image: rigidGiftBoxes, description: "Luxury gift box solutions handcrafted with durable board and custom finishes to elevate your brand identity", path: "/shapes-styles/rigid-boxes/rigid-gift-boxes" },
-    { name: "Credit Card Boxes", image: creditCardBoxes, description: "Secure credit card packaging with custom inserts and professional branding for financial products", useCover: true, path: "/shapes-styles/rigid-boxes/credit-card-boxes" },
-    { name: "Rigid Setup Boxes", image: rigidSetupBoxes, description: "High-end setup boxes offering superior structural integrity and a premium unboxing experience for luxury items", useCover: true, path: "/shapes-styles/rigid-boxes/rigid-setup-boxes" },
-    { name: "Ribbon Boxes", image: ribbonBoxes, description: "Decorative ribbon closure boxes perfect for special gift presentations and luxury brand storytelling", useCover: true, path: "/shapes-styles/rigid-boxes/ribbon-boxes" },
-    { name: "Magnetic Closure Boxes", image: magneticClosureBoxes, description: "Premium magnetic closure packaging combining sleek aesthetics with functional security for high-value goods", useCover: true, path: "/shapes-styles/rigid-boxes/magnetic-closure-boxes" },
-    { name: "Rigid Paper Boxes", image: rigidPaperBoxes, description: "Durable rigid paperboard boxes designed for maximum protection and elegant retail shelf presence", useCover: true, path: "/shapes-styles/rigid-boxes/rigid-paper-boxes" },
-    { name: "Flip Top Boxes With Magnetic Closure", image: flipTopMagneticClosure, description: "Flip-top boxes with secure magnetic seals providing a refined and modern packaging solution for tech and gifts", useCover: true, path: "/shapes-styles/rigid-boxes/flip-top-boxes-with-magnetic-closure" },
+    { name: "Wallet Boxes", image: walletBoxes, description: "Premium wallet packaging featuring luxury finishes and protective inserts for a high-end retail presentation", path: "/box-by-material/rigid-boxes/wallet-boxes" },
+    { name: "Flip Top Boxes", image: flipTopBoxes, description: "Elegant flip-top rigid boxes with magnetic closures and sophisticated designs for premium gift packaging", path: "/box-by-material/rigid-boxes/flip-top-boxes" },
+    { name: "Rigid Gift Boxes", image: rigidGiftBoxes, description: "Luxury gift box solutions handcrafted with durable board and custom finishes to elevate your brand identity", path: "/box-by-material/rigid-boxes/rigid-gift-boxes" },
+    { name: "Credit Card Boxes", image: creditCardBoxes, description: "Secure credit card packaging with custom inserts and professional branding for financial products", useCover: true, path: "/box-by-material/rigid-boxes/credit-card-boxes" },
+    { name: "Rigid Setup Boxes", image: rigidSetupBoxes, description: "High-end setup boxes offering superior structural integrity and a premium unboxing experience for luxury items", useCover: true, path: "/box-by-material/rigid-boxes/rigid-setup-boxes" },
+    { name: "Ribbon Boxes", image: ribbonBoxes, description: "Decorative ribbon closure boxes perfect for special gift presentations and luxury brand storytelling", useCover: true, path: "/box-by-material/rigid-boxes/ribbon-boxes" },
+    { name: "Magnetic Closure Boxes", image: magneticClosureBoxes, description: "Premium magnetic closure packaging combining sleek aesthetics with functional security for high-value goods", useCover: true, path: "/box-by-material/rigid-boxes/magnetic-closure-boxes" },
+    { name: "Rigid Paper Boxes", image: rigidPaperBoxes, description: "Durable rigid paperboard boxes designed for maximum protection and elegant retail shelf presence", useCover: true, path: "/box-by-material/rigid-boxes/rigid-paper-boxes" },
+    { name: "Flip Top Boxes With Magnetic Closure", image: flipTopMagneticClosure, description: "Flip-top boxes with secure magnetic seals providing a refined and modern packaging solution for tech and gifts", useCover: true, path: "/box-by-material/rigid-boxes/flip-top-boxes-with-magnetic-closure" },
 ];
 
 const RigidBoxes = () => {
@@ -56,8 +56,8 @@ const RigidBoxes = () => {
             <Header />
 
             {/* Breadcrumb */}
-            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
-                <div className="container mx-auto px-4 py-4">
+            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[140px]">
+                <div className="container mx-auto px-4 py-3">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem>
@@ -81,7 +81,7 @@ const RigidBoxes = () => {
             </div>
 
             {/* Top Split Section */}
-            <main className="py-16">
+            <main className="py-10">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 mb-12 items-start">
                         {/* Left Side */}

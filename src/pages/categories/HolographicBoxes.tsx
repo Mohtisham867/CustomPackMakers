@@ -27,9 +27,9 @@ const holographicBoxProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Holographic Mylar Bags", image: holographicMylarBags, description: "Flexible metallic pouches with rainbow finish designed for maximum barrier protection and stunning shelf impact" },
-    { name: "Holographic Bags", image: holographicBags, description: "Premium shiny retail and gift bags featuring eye-catching iridescent effects and durable carrying handles" },
-    { name: "Holographic Foiling Boxes", image: holographicFoilingBoxes, description: "Luxury boxes with stamped holographic foil designed to create a premium, futuristic brand experience" },
+    { name: "Holographic Mylar Bags", image: holographicMylarBags, description: "Flexible metallic pouches with rainbow finish designed for maximum barrier protection and stunning shelf impact", path: "/box-by-material/holographic-boxes/holographic-mylar-bags" },
+    { name: "Holographic Bags", image: holographicBags, description: "Premium shiny retail and gift bags featuring eye-catching iridescent effects and durable carrying handles", path: "/box-by-material/holographic-boxes/holographic-bags" },
+    { name: "Holographic Foiling Boxes", image: holographicFoilingBoxes, description: "Luxury boxes with stamped holographic foil designed to create a premium, futuristic brand experience", path: "/box-by-material/holographic-boxes/holographic-foiling-boxes" },
 ];
 
 const HolographicBoxes = () => {
@@ -38,8 +38,8 @@ const HolographicBoxes = () => {
             <Header />
 
             {/* Breadcrumb */}
-            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
-                <div className="container mx-auto px-4 py-4">
+            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[140px]">
+                <div className="container mx-auto px-4 py-3">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem>
@@ -63,13 +63,13 @@ const HolographicBoxes = () => {
             </div>
 
             {/* Hero Split Section */}
-            <section className="py-12 bg-background">
+            <section className="py-8 bg-background">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 items-start">
                         {/* Left Content */}
                         <div className="space-y-6 text-center lg:text-left">
                             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-                                Custom Holographic Boxes
+                                Holographic Boxes
                             </h1>
                             <p className="text-[16px] text-muted-foreground leading-relaxed line-clamp-4">
                                 Captivate your customers with our mesmerizing holographic packaging.
@@ -108,34 +108,35 @@ const HolographicBoxes = () => {
 
                     <div className="grid grid-cols-2 sm:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedProducts.map((product, index) => (
-                            <Card
-                                key={index}
-                                className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                            >
-                                <CardContent className="p-0">
-                                    <div className="h-48 lg:h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden">
-                                        {product.image ? (
-                                            <img
-                                                src={product.image}
-                                                alt={product.name}
-                                                className="h-full w-auto object-contain mx-auto transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                            />
-                                        ) : (
-                                            <div className="w-full h-full bg-muted flex items-center justify-center">
-                                                <p className="text-muted-foreground text-xs">Image placeholder</p>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="p-4 border-t border-border">
-                                        <h3 className="font-semibold text-foreground text-sm mb-2">
-                                            {product.name}
-                                        </h3>
-                                        <p className="text-xs text-muted-foreground line-clamp-2">
-                                            {product.description}
-                                        </p>
-                                    </div>
-                                </CardContent>
-                            </Card>
+                            <Link to={product.path} key={index} className="block group">
+                                <Card
+                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 cursor-pointer h-full"
+                                >
+                                    <CardContent className="p-0 flex flex-col h-full">
+                                        <div className="h-48 lg:h-72 w-full flex items-center justify-center bg-gray-50 rounded-t-lg overflow-hidden shrink-0">
+                                            {product.image ? (
+                                                <img
+                                                    src={product.image}
+                                                    alt={product.name}
+                                                    className="h-full w-auto object-contain mx-auto transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                />
+                                            ) : (
+                                                <div className="w-full h-full bg-muted flex items-center justify-center">
+                                                    <p className="text-muted-foreground text-xs">Image placeholder</p>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="p-4 border-t border-border flex-grow">
+                                            <h3 className="font-semibold text-foreground text-sm mb-2 group-hover:text-primary transition-colors">
+                                                {product.name}
+                                            </h3>
+                                            <p className="text-xs text-muted-foreground line-clamp-2">
+                                                {product.description}
+                                            </p>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         ))}
                     </div>
                 </div>

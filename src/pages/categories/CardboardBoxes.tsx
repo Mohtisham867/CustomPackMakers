@@ -53,22 +53,22 @@ const cardboardBoxProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Hemp Cardboard Boxes", image: hempCardboardBoxes, description: "Eco-friendly hemp cardboard packaging solutions crafted from sustainable and biodegradable materials" },
-    { name: "Cardboard Cigarette Boxes", image: cardboardCigaretteBoxes, description: "Custom cigarette cardboard boxes featuring durable construction and high-quality vibrant printing" },
-    { name: "Cardboard Gift Boxes", image: cardboardGiftBoxes, description: "Decorative gift cardboard boxes perfect for special occasions with elegant finishes and secure closures" },
-    { name: "Black Cardboard Boxes", image: blackCardboardBoxes, description: "Sleek black cardboard packaging with a luxury matte finish designed for premium product presentation" },
-    { name: "White Cardboard Boxes", image: whiteCardboardBoxes, description: "Clean white cardboard boxes offering a professional aesthetic for medical and cosmetic retail items" },
-    { name: "Cardboard Divider Boxes", image: cardboardDividerBoxes, description: "Boxes with custom cardboard dividers to organize and protect delicate multiple product kits safely" },
-    { name: "Cardboard Jewelry Boxes", image: cardboardJewelryBoxes, description: "Elegant jewelry cardboard boxes featuring soft inserts and premium branding for luxury accessories" },
-    { name: "Cardboard Box With Handle", image: cardboardBoxWithHandle, description: "Convenient handled cardboard boxes designed for easy transport and attractive retail gift display" },
-    { name: "Ammo Cardboard Boxes", image: ammoCardboardBoxes, description: "Secure ammunition packaging engineered for heavy-duty protection and organized storage requirements" },
-    { name: "Cardboard Inserts", image: cardboardInserts, description: "Custom cardboard insert solutions designed to hold products securely and prevent movement in transit" },
-    { name: "Paperboard Boxes", image: paperboardBoxes, description: "Versatile paperboard packaging offering lightweight durability and exceptional surface for branding" },
-    { name: "Cardboard Shoe Boxes", image: cardboardShoeBoxes, description: "Durable shoe cardboard boxes with reinforced corners and elegant designs for footwear retail brands" },
-    { name: "Cardboard Box With Inserts", image: cardboardBoxWithInserts, description: "Boxes with protective custom inserts tailored to fit your specific product dimensions perfectly" },
-    { name: "Cardboard Cigar Boxes", image: cardboardCigarBoxes, description: "Premium cigar cardboard boxes utilizing high-quality board and sophisticated logo printing techniques" },
-    { name: "Cosmetic Cardboard Boxes", image: cosmeticCardboardBoxes, description: "Beauty product cardboard packaging designed with glam finishes to stand out on crowded retail shelves" },
-    { name: "Cardboard Soap Boxes", image: cardboardSoapBoxes, description: "Custom soap cardboard boxes featuring breathable materials and rustic aesthetic for natural brands" },
+    { name: "Hemp Cardboard Boxes", image: hempCardboardBoxes, description: "Eco-friendly hemp cardboard packaging solutions crafted from sustainable and biodegradable materials", link: "/box-by-material/cardboard-boxes/hemp-cardboard-boxes" },
+    { name: "Cardboard Cigarette Boxes", image: cardboardCigaretteBoxes, description: "Custom cigarette cardboard boxes featuring durable construction and high-quality vibrant printing", link: "/box-by-material/cardboard-boxes/cardboard-cigarette-boxes" },
+    { name: "Cardboard Gift Boxes", image: cardboardGiftBoxes, description: "Decorative gift cardboard boxes perfect for special occasions with elegant finishes and secure closures", link: "/box-by-material/cardboard-boxes/cardboard-gift-boxes" },
+    { name: "Black Cardboard Boxes", image: blackCardboardBoxes, description: "Sleek black cardboard packaging with a luxury matte finish designed for premium product presentation", link: "/box-by-material/cardboard-boxes/black-cardboard-boxes" },
+    { name: "White Cardboard Boxes", image: whiteCardboardBoxes, description: "Clean white cardboard boxes offering a professional aesthetic for medical and cosmetic retail items", link: "/box-by-material/cardboard-boxes/white-cardboard-boxes" },
+    { name: "Cardboard Divider Boxes", image: cardboardDividerBoxes, description: "Boxes with custom cardboard dividers to organize and protect delicate multiple product kits safely", link: "/box-by-material/cardboard-boxes/cardboard-divider-boxes" },
+    { name: "Cardboard Jewelry Boxes", image: cardboardJewelryBoxes, description: "Elegant jewelry cardboard boxes featuring soft inserts and premium branding for luxury accessories", link: "/box-by-material/cardboard-boxes/cardboard-jewelry-boxes" },
+    { name: "Cardboard Box With Handle", image: cardboardBoxWithHandle, description: "Convenient handled cardboard boxes designed for easy transport and attractive retail gift display", link: "/box-by-material/cardboard-boxes/cardboard-box-with-handle" },
+    { name: "Ammo Cardboard Boxes", image: ammoCardboardBoxes, description: "Secure ammunition packaging engineered for heavy-duty protection and organized storage requirements", link: "/box-by-material/cardboard-boxes/ammo-cardboard-boxes" },
+    { name: "Cardboard Inserts", image: cardboardInserts, description: "Custom cardboard insert solutions designed to hold products securely and prevent movement in transit", link: "/box-by-material/cardboard-boxes/cardboard-inserts" },
+    { name: "Paperboard Boxes", image: paperboardBoxes, description: "Versatile paperboard packaging offering lightweight durability and exceptional surface for branding", link: "/box-by-material/cardboard-boxes/paperboard-boxes" },
+    { name: "Cardboard Shoe Boxes", image: cardboardShoeBoxes, description: "Durable shoe cardboard boxes with reinforced corners and elegant designs for footwear retail brands", link: "/box-by-material/cardboard-boxes/cardboard-shoe-boxes" },
+    { name: "Cardboard Box With Inserts", image: cardboardBoxWithInserts, description: "Boxes with protective custom inserts tailored to fit your specific product dimensions perfectly", link: "/box-by-material/cardboard-boxes/cardboard-box-with-inserts" },
+    { name: "Cardboard Cigar Boxes", image: cardboardCigarBoxes, description: "Premium cigar cardboard boxes utilizing high-quality board and sophisticated logo printing techniques", link: "/box-by-material/cardboard-boxes/cardboard-cigar-boxes" },
+    { name: "Cosmetic Cardboard Boxes", image: cosmeticCardboardBoxes, description: "Beauty product cardboard packaging designed with glam finishes to stand out on crowded retail shelves", link: "/box-by-material/cardboard-boxes/cosmetic-cardboard-boxes" },
+    { name: "Cardboard Soap Boxes", image: cardboardSoapBoxes, description: "Custom soap cardboard boxes featuring breathable materials and rustic aesthetic for natural brands", link: "/box-by-material/cardboard-boxes/cardboard-soap-boxes" },
 ];
 
 const CardboardBoxes = () => {
@@ -143,34 +143,35 @@ const CardboardBoxes = () => {
 
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                             {relatedProducts.map((product, index) => (
-                                <Card
-                                    key={index}
-                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                                >
-                                    <CardContent className="p-0">
-                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                            {product.image ? (
-                                                <img
-                                                    src={product.image}
-                                                    alt={product.name}
-                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                                />
-                                            ) : (
-                                                <div className="w-full h-full flex items-center justify-center bg-gray-200">
-                                                    <span className="text-gray-400 text-xs">Image Placeholder</span>
-                                                </div>
-                                            )}
-                                        </div>
-                                        <div className="p-4 border-t border-border">
-                                            <h3 className="font-semibold text-foreground text-sm mb-2">
-                                                {product.name}
-                                            </h3>
-                                            <p className="text-xs text-muted-foreground">
-                                                {product.description}
-                                            </p>
-                                        </div>
-                                    </CardContent>
-                                </Card>
+                                <Link to={product.link} key={index} className="block group">
+                                    <Card
+                                        className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 cursor-pointer h-full"
+                                    >
+                                        <CardContent className="p-0">
+                                            <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
+                                                {product.image ? (
+                                                    <img
+                                                        src={product.image}
+                                                        alt={product.name}
+                                                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                    />
+                                                ) : (
+                                                    <div className="w-full h-full flex items-center justify-center bg-gray-200">
+                                                        <span className="text-gray-400 text-xs">Image Placeholder</span>
+                                                    </div>
+                                                )}
+                                            </div>
+                                            <div className="p-4 border-t border-border">
+                                                <h3 className="font-semibold text-foreground text-sm mb-2 group-hover:text-primary transition-colors">
+                                                    {product.name}
+                                                </h3>
+                                                <p className="text-xs text-muted-foreground">
+                                                    {product.description}
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                </Link>
                             ))}
                         </div>
                     </section>

@@ -29,10 +29,10 @@ const corrugatedBoxProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Corrugated Boxes With Lids", image: corrugatedBoxesWithLids, description: "Sturdy two-piece corrugated boxes featuring reliable stackability and secure containment for shipping" },
-    { name: "Corrugated Mailer Boxes", image: corrugatedMailerBoxes, description: "Self-locking secure mailer packaging designed for e-commerce deliveries and premium unboxing impact" },
-    { name: "Kraft Corrugated Boxes", image: kraftCorrugatedBoxes, description: "Natural brown shipping containers crafted from sustainable recycled board for eco-conscious brands" },
-    { name: "White Corrugated Boxes", image: whiteCorrugatedBoxes, description: "Clean white corrugated packaging providing a professional aesthetic for your retail and shipping needs" },
+    { name: "Corrugated Boxes With Lids", image: corrugatedBoxesWithLids, description: "Sturdy two-piece corrugated boxes featuring reliable stackability and secure containment for shipping", link: "/box-by-material/corrugated-boxes/corrugated-boxes-with-lids" },
+    { name: "Corrugated Mailer Boxes", image: corrugatedMailerBoxes, description: "Self-locking secure mailer packaging designed for e-commerce deliveries and premium unboxing impact", link: "/box-by-material/corrugated-boxes/corrugated-mailer-boxes" },
+    { name: "Kraft Corrugated Boxes", image: kraftCorrugatedBoxes, description: "Natural brown shipping containers crafted from sustainable recycled board for eco-conscious brands", link: "/box-by-material/corrugated-boxes/kraft-corrugated-boxes" },
+    { name: "White Corrugated Boxes", image: whiteCorrugatedBoxes, description: "Clean white corrugated packaging providing a professional aesthetic for your retail and shipping needs", link: "/box-by-material/corrugated-boxes/white-corrugated-boxes" },
 ];
 
 const CorrugatedBoxes = () => {
@@ -41,8 +41,8 @@ const CorrugatedBoxes = () => {
             <Header />
 
             {/* Breadcrumb */}
-            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
-                <div className="container mx-auto px-[10px] py-4">
+            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[80px] md:mt-[140px]">
+                <div className="container mx-auto px-[10px] py-3">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem>
@@ -66,7 +66,7 @@ const CorrugatedBoxes = () => {
             </div>
 
             {/* Top Split Section */}
-            <main className="py-16">
+            <main className="py-10">
                 <div className="container mx-auto px-[10px]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 mb-12 items-start">
                         {/* Left Side */}
@@ -107,34 +107,35 @@ const CorrugatedBoxes = () => {
 
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                             {relatedProducts.map((product, index) => (
-                                <Card
-                                    key={index}
-                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                                >
-                                    <CardContent className="p-0">
-                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                            {product.image ? (
-                                                <img
-                                                    src={product.image}
-                                                    alt={product.name}
-                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                                />
-                                            ) : (
-                                                <div className="w-full h-full flex items-center justify-center bg-gray-200">
-                                                    <span className="text-gray-400 text-xs">Image Placeholder</span>
-                                                </div>
-                                            )}
-                                        </div>
-                                        <div className="p-4 border-t border-border">
-                                            <h3 className="font-semibold text-foreground text-sm mb-2">
-                                                {product.name}
-                                            </h3>
-                                            <p className="text-xs text-muted-foreground">
-                                                {product.description}
-                                            </p>
-                                        </div>
-                                    </CardContent>
-                                </Card>
+                                <Link to={product.link} key={index} className="block h-full">
+                                    <Card
+                                        className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer h-full flex flex-col"
+                                    >
+                                        <CardContent className="p-0 flex flex-col flex-grow">
+                                            <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden flex-shrink-0">
+                                                {product.image ? (
+                                                    <img
+                                                        src={product.image}
+                                                        alt={product.name}
+                                                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
+                                                    />
+                                                ) : (
+                                                    <div className="w-full h-full flex items-center justify-center bg-gray-200">
+                                                        <span className="text-gray-400 text-xs">Image Placeholder</span>
+                                                    </div>
+                                                )}
+                                            </div>
+                                            <div className="p-4 border-t border-border flex-grow">
+                                                <h3 className="font-semibold text-foreground text-sm mb-2">
+                                                    {product.name}
+                                                </h3>
+                                                <p className="text-xs text-muted-foreground">
+                                                    {product.description}
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                </Link>
                             ))}
                         </div>
                     </section>

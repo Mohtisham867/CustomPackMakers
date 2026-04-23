@@ -70,28 +70,28 @@ const kraftBoxProducts = [
 ];
 
 const relatedProducts = [
-    { name: "Custom Handle Boxes", image: customHandleBoxesV2, description: "Convenient kraft boxes with built-in handles designed for easy transport and attractive retail display" },
-    { name: "Custom Paper Cups", image: customPaperCupsV2, description: "Eco-friendly disposable kraft paper cups featuring high-heat resistance and custom branding surfaces" },
-    { name: "Kraft Sandwich Boxes", image: kraftSandwichBoxesV2, description: "Wedge-shaped boxes with clear windows designed for sandwiches and fresh deli product presentations" },
-    { name: "Custom Kraft Soap Boxes", image: customKraftSoapBoxesV2, description: "Natural rustic packaging for handmade soaps featuring breathable materials and organic brand appeal" },
-    { name: "Kraft Pillow Boxes", image: kraftPillowBoxesV2, description: "Unique pillow-shaped gift and favor boxes crafted from durable sustainable cardstock for unique gifting" },
-    { name: "Kraft Jewelry Boxes", image: kraftJewelryBoxesV2, description: "Elegant brown paper boxes for jewelry featuring soft inserts and premium custom logo printing options" },
-    { name: "Kraft Gable Boxes", image: kraftGableBoxesV2, description: "Classic barn-style containers with handles perfect for holiday treats and seasonal gift presentations" },
-    { name: "Kraft Labels", image: kraftLabelsV2, description: "Rustic brown kraft paper stickers and labels designed to complement your eco-friendly brand identity" },
-    { name: "Paper Tube Packaging", image: paperTubePackagingV2, description: "Cylindrical kraft tubes for various products offering superior protection and unique retail shelf presence" },
-    { name: "Kraft Gift Boxes", image: kraftGiftBoxesV2, description: "Beautifully simple gift boxes for any occasion featuring robust construction and elegant organic finishes" },
-    { name: "Kraft Bubble Mailers", image: kraftBubbleMailers, description: "Padded protective envelopes for shipping small items securely with eco-friendly kraft paper exteriors" },
-    { name: "Kraft Corrugated Boxes", image: kraftCorrugatedBoxes, description: "Durable fluted boxes for shipping and storage engineered for maximum crush resistance and safety" },
-    { name: "Kraft Takeaway Boxes", image: kraftTakeawayBoxes, description: "Grease-resistant food pails and containers designed for sustainable and professional takeout services" },
-    { name: "Kraft Paper Boxes With Window", image: kraftPaperBoxesWithWindow, description: "Display your products through a clear window while maintaining a natural and sustainable aesthetic look" },
-    { name: "Kraft Cupcake Boxes", image: kraftCupcakeBoxes, description: "Secure holders for cupcakes with viewing windows and festive designs for a professional baker's finish" },
-    { name: "Kraft Bags", image: kraftBags, description: "Sturdy kraft shopping bags with twisted handles and reinforced bases for reliable retail use and carry" },
-    { name: "Kraft Pie Boxes", image: kraftPieBoxes, description: "Perfectly sized boxes for pies and tarts featuring grease-resistant coatings and secure closure tabs" },
-    { name: "White Kraft Boxes", image: whiteKraftBoxes, description: "Bleached white kraft paper for a clean and professional look with eco-friendly material benefits" },
-    { name: "Small Kraft Boxes", image: smallKraftBoxes, description: "Tiny boxes for favors, samples, or small luxury items featuring durable cardstock and organic charm" },
-    { name: "Kraft Boxes With Lids", image: kraftBoxesWithLids, description: "Classic two-piece telescopic kraft boxes designed for premium storage and high-end gift presentation" },
-    { name: "Kraft Tuck Top Boxes", image: kraftTuckTopBoxes, description: "Simple tuck-top retail packaging boxes offering easy assembly and secure product containment features" },
-    { name: "Shipping Labels", image: kraftShippingLabels, description: "Essential shipping labels designed to adhere securely to your packages with clear informational layout" },
+    { name: "Custom Handle Boxes", path: "/box-by-material/kraft-boxes/custom-handle-boxes", image: customHandleBoxesV2, description: "Convenient kraft boxes with built-in handles designed for easy transport and attractive retail display" },
+    { name: "Custom Paper Cups", path: "/box-by-material/kraft-boxes/custom-paper-cups", image: customPaperCupsV2, description: "Eco-friendly disposable kraft paper cups featuring high-heat resistance and custom branding surfaces" },
+    { name: "Kraft Sandwich Boxes", path: "/box-by-material/kraft-boxes/kraft-sandwich-boxes", image: kraftSandwichBoxesV2, description: "Wedge-shaped boxes with clear windows designed for sandwiches and fresh deli product presentations" },
+    { name: "Custom Kraft Soap Boxes", path: "/box-by-material/kraft-boxes/custom-kraft-soap-boxes", image: customKraftSoapBoxesV2, description: "Natural rustic packaging for handmade soaps featuring breathable materials and organic brand appeal" },
+    { name: "Kraft Pillow Boxes", path: "/box-by-material/kraft-boxes/kraft-pillow-boxes", image: kraftPillowBoxesV2, description: "Unique pillow-shaped gift and favor boxes crafted from durable sustainable cardstock for unique gifting" },
+    { name: "Kraft Jewelry Boxes", path: "/box-by-material/kraft-boxes/kraft-jewelry-boxes", image: kraftJewelryBoxesV2, description: "Elegant brown paper boxes for jewelry featuring soft inserts and premium custom logo printing options" },
+    { name: "Kraft Gable Boxes", path: "/box-by-material/kraft-boxes/kraft-gable-boxes", image: kraftGableBoxesV2, description: "Classic barn-style containers with handles perfect for holiday treats and seasonal gift presentations" },
+    { name: "Kraft Labels", path: "/box-by-material/kraft-boxes/kraft-labels", image: kraftLabelsV2, description: "Rustic brown kraft paper stickers and labels designed to complement your eco-friendly brand identity" },
+    { name: "Paper Tube Packaging", path: "/box-by-material/kraft-boxes/paper-tube-packaging", image: paperTubePackagingV2, description: "Cylindrical kraft tubes for various products offering superior protection and unique retail shelf presence" },
+    { name: "Kraft Gift Boxes", path: "/box-by-material/kraft-boxes/kraft-gift-boxes", image: kraftGiftBoxesV2, description: "Beautifully simple gift boxes for any occasion featuring robust construction and elegant organic finishes" },
+    { name: "Kraft Bubble Mailers", path: "/box-by-material/kraft-boxes/kraft-bubble-mailers", image: kraftBubbleMailers, description: "Padded protective envelopes for shipping small items securely with eco-friendly kraft paper exteriors" },
+    { name: "Kraft Corrugated Boxes", path: "/box-by-material/kraft-boxes/kraft-corrugated-boxes", image: kraftCorrugatedBoxes, description: "Durable fluted boxes for shipping and storage engineered for maximum crush resistance and safety" },
+    { name: "Kraft Takeaway Boxes", path: "/box-by-material/kraft-boxes/kraft-takeaway-boxes", image: kraftTakeawayBoxes, description: "Grease-resistant food pails and containers designed for sustainable and professional takeout services" },
+    { name: "Kraft Paper Boxes With Window", path: "/box-by-material/kraft-boxes/kraft-paper-boxes-with-window", image: kraftPaperBoxesWithWindow, description: "Display your products through a clear window while maintaining a natural and sustainable aesthetic look" },
+    { name: "Kraft Cupcake Boxes", path: "/box-by-material/kraft-boxes/kraft-cupcake-boxes", image: kraftCupcakeBoxes, description: "Secure holders for cupcakes with viewing windows and festive designs for a professional baker's finish" },
+    { name: "Kraft Bags", path: "/box-by-material/kraft-boxes/kraft-bags", image: kraftBags, description: "Sturdy kraft shopping bags with twisted handles and reinforced bases for reliable retail use and carry" },
+    { name: "Kraft Pie Boxes", path: "/box-by-material/kraft-boxes/kraft-pie-boxes", image: kraftPieBoxes, description: "Perfectly sized boxes for pies and tarts featuring grease-resistant coatings and secure closure tabs" },
+    { name: "White Kraft Boxes", path: "/box-by-material/kraft-boxes/white-kraft-boxes", image: whiteKraftBoxes, description: "Bleached white kraft paper for a clean and professional look with eco-friendly material benefits" },
+    { name: "Small Kraft Boxes", path: "/box-by-material/kraft-boxes/small-kraft-boxes", image: smallKraftBoxes, description: "Tiny boxes for favors, samples, or small luxury items featuring durable cardstock and organic charm" },
+    { name: "Kraft Boxes With Lids", path: "/box-by-material/kraft-boxes/kraft-boxes-with-lids", image: kraftBoxesWithLids, description: "Classic two-piece telescopic kraft boxes designed for premium storage and high-end gift presentation" },
+    { name: "Kraft Tuck Top Boxes", path: "/box-by-material/kraft-boxes/kraft-tuck-top-boxes", image: kraftTuckTopBoxes, description: "Simple tuck-top retail packaging boxes offering easy assembly and secure product containment features" },
+    { name: "Shipping Labels", path: "/box-by-material/kraft-boxes/shipping-labels", image: kraftShippingLabels, description: "Essential shipping labels designed to adhere securely to your packages with clear informational layout" },
 ];
 
 const CustomKraftBoxes = () => {
@@ -100,8 +100,8 @@ const CustomKraftBoxes = () => {
             <Header />
 
             {/* Breadcrumb */}
-            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[120px] md:mt-[160px]">
-                <div className="container mx-auto px-[10px] py-4">
+            <div className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-[100px] md:mt-[140px]">
+                <div className="container mx-auto px-[10px] py-3">
                     <Breadcrumb>
                         <BreadcrumbList>
                             <BreadcrumbItem>
@@ -125,13 +125,13 @@ const CustomKraftBoxes = () => {
             </div>
 
             {/* Top Split Section */}
-            <main className="py-16">
+            <main className="py-8">
                 <div className="container mx-auto px-[10px]">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-16 mb-12 items-start">
                         {/* Left Side */}
                         <div className="space-y-6 text-center lg:text-left">
                             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-                                Custom Kraft Boxes
+                                Custom <span className="text-primary">Kraft</span> Boxes
                             </h1>
                             <p className="text-muted-foreground leading-relaxed text-[16px] px-4 lg:px-0">
                                 Discover our eco-friendly Custom Kraft Boxes, designed for sustainability without compromising on style.
@@ -157,6 +157,10 @@ const CustomKraftBoxes = () => {
 
                     {/* Related Products Section */}
                     <section className="mt-16">
+                        <div className="flex items-center gap-3 mb-4">
+                            <div className="w-10 h-1 bg-primary rounded-full" />
+                            <span className="text-xs font-semibold tracking-widest text-primary uppercase">Sustainable Selection</span>
+                        </div>
                         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
                             Explore Sustainable Kraft Packaging
                         </h2>
@@ -167,34 +171,36 @@ const CustomKraftBoxes = () => {
 
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                             {relatedProducts.map((product, index) => (
-                                <Card
-                                    key={index}
-                                    className="overflow-hidden border-border bg-card hover:shadow-lg transition-all duration-300 group cursor-pointer"
-                                >
-                                    <CardContent className="p-0">
-                                        <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden">
-                                            {product.image ? (
-                                                <img
-                                                    src={product.image}
-                                                    alt={product.name}
-                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" loading="lazy"
-                                                />
-                                            ) : (
-                                                <div className="w-full h-full flex items-center justify-center bg-gray-200">
-                                                    <span className="text-gray-400 text-xs">Image Placeholder</span>
-                                                </div>
-                                            )}
-                                        </div>
-                                        <div className="p-4 border-t border-border">
-                                            <h3 className="font-semibold text-foreground text-sm mb-2">
-                                                {product.name}
-                                            </h3>
-                                            <p className="text-xs text-muted-foreground">
-                                                {product.description}
-                                            </p>
-                                        </div>
-                                    </CardContent>
-                                </Card>
+                                <Link to={product.path || "#"} key={index} className="group">
+                                    <Card
+                                        className="overflow-hidden border-border bg-card hover:shadow-xl transition-all duration-500 group-hover:-translate-y-2"
+                                    >
+                                        <CardContent className="p-0">
+                                            <div className="h-48 lg:h-72 w-full bg-gray-50 rounded-t-lg overflow-hidden relative">
+                                                {product.image ? (
+                                                    <img
+                                                        src={product.image}
+                                                        alt={product.name}
+                                                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy"
+                                                    />
+                                                ) : (
+                                                    <div className="w-full h-full flex items-center justify-center bg-gray-200">
+                                                        <span className="text-gray-400 text-xs">Image Placeholder</span>
+                                                    </div>
+                                                )}
+                                                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+                                            </div>
+                                            <div className="p-5 border-t border-border">
+                                                <h3 className="font-bold text-foreground text-[15px] mb-2 group-hover:text-primary transition-colors duration-300">
+                                                    {product.name}
+                                                </h3>
+                                                <p className="text-xs text-muted-foreground leading-relaxed line-clamp-2">
+                                                    {product.description}
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                </Link>
                             ))}
                         </div>
                     </section>
