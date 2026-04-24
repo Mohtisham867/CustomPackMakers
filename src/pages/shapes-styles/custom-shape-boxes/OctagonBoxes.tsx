@@ -16,7 +16,6 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ValueLabel"; // Check if this exists or use regular Label
 import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { RelatedProductCustomShapeBoxes } from "@/components/RelatedProductCustomShapeBoxes";
 
