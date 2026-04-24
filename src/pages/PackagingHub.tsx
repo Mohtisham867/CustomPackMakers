@@ -26,7 +26,7 @@ import rigidHero from "@/assets/rigid-boxes/rigid-boxes-hero-v2.webp";
 import cosmeticHero from "@/assets/cosmetic-boxes/hero.webp";
 import mailerBoxes from "@/assets/mailer-boxes/mailer-boxes-hero.webp";
 import mylarBags from "@/assets/mylar-bags/mylar-bags-hero.webp";
-import apparelHero from "@/assets/apparel-boxes/Apparel boxe hero.png";
+import apparelHero from "@/assets/apparel-boxes/Apparel boxe hero.webp";
 import cannabisHero from "@/assets/cannabis-packaging/hero.webp";
 import foodBoxes from "@/assets/food-boxes/hero.webp";
 import jewelryBoxes from "@/assets/jewelry-boxes/Jewelry Boxes hero.webp";

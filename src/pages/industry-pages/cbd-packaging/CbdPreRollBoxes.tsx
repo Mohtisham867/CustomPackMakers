@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import cbdPreRollBoxes from "@/assets/cbd-boxes/cbd-pre-roll-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CbdPreRollBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

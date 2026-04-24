@@ -29,17 +29,17 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import lingerieBoxesHero from "@/assets/apparel-boxes/lingerie-boxes/lingerie-hero.png";
-import lingerieBoxes1 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-1.png";
-import lingerieBoxes2 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-2.png";
-import lingerieBoxes3 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-3.png";
-import lingerieBoxes4 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-4.png";
-import lingerieBoxes5 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-5.png";
-import lingerieBoxes6 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-whychoose.png";
-import lingerieBoxes7 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-defferent.png";
+import lingerieBoxesHero from "@/assets/apparel-boxes/lingerie-boxes/lingerie-hero.webp";
+import lingerieBoxes1 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-1.webp";
+import lingerieBoxes2 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-2.webp";
+import lingerieBoxes3 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-3.webp";
+import lingerieBoxes4 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-4.webp";
+import lingerieBoxes5 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-5.webp";
+import lingerieBoxes6 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-whychoose.webp";
+import lingerieBoxes7 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-defferent.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const LingerieBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

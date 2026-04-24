@@ -29,17 +29,17 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import sunglassesBoxeshero from "@/assets/apparel-boxes/sunglasses-boxes/img-hero.png";
-import sunglassesBoxes1 from "@/assets/apparel-boxes/sunglasses-boxes/img-1.png";
-import sunglassesBoxes2 from "@/assets/apparel-boxes/sunglasses-boxes/img-2.png";
-import sunglassesBoxes3 from "@/assets/apparel-boxes/sunglasses-boxes/img-3.png";
-import sunglassesBoxes4 from "@/assets/apparel-boxes/sunglasses-boxes/img-4.png";
-import sunglassesBoxes5 from "@/assets/apparel-boxes/sunglasses-boxes/img-5.png";
-import sunglassesBoxes6 from "@/assets/apparel-boxes/sunglasses-boxes/img-whychoose.png";
-import sunglassesBoxes7 from "@/assets/apparel-boxes/sunglasses-boxes/img-deferent.png";
+import sunglassesBoxeshero from "@/assets/apparel-boxes/sunglasses-boxes/img-hero.webp";
+import sunglassesBoxes1 from "@/assets/apparel-boxes/sunglasses-boxes/img-1.webp";
+import sunglassesBoxes2 from "@/assets/apparel-boxes/sunglasses-boxes/img-2.webp";
+import sunglassesBoxes3 from "@/assets/apparel-boxes/sunglasses-boxes/img-3.webp";
+import sunglassesBoxes4 from "@/assets/apparel-boxes/sunglasses-boxes/img-4.webp";
+import sunglassesBoxes5 from "@/assets/apparel-boxes/sunglasses-boxes/img-5.webp";
+import sunglassesBoxes6 from "@/assets/apparel-boxes/sunglasses-boxes/img-whychoose.webp";
+import sunglassesBoxes7 from "@/assets/apparel-boxes/sunglasses-boxes/img-deferent.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const SunglassesBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Package, Search, Phone, Mail, Gift, ChevronDown, Shirt, Car, Cake, Wine, Flame, Leaf, Candy, TreePine, Cigarette, Sparkles, ShoppingCart, Laptop, UtensilsCrossed, Flower2, Gamepad2, GiftIcon, Calendar, Gem, Pill, Scroll, Tag } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.webp";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 

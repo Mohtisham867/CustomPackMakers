@@ -15,7 +15,7 @@ const TermsOfService = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0 overflow-hidden">
                     <img
-                        src="/src/assets/legal_hero_bg.png"
+                        src="/src/assets/legal_hero_bg.webp"
                         alt="Background"
                         className="w-full h-full object-cover opacity-40"
                     />

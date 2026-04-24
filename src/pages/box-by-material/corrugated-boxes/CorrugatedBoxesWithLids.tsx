@@ -30,7 +30,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Product images for Corrugated Boxes With Lids
 import corrugatedBoxesWithLids from "@/assets/corrugated-boxes-with-lids.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CorrugatedBoxesWithLids = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import heroImg from "@/assets/stickers-and-labels/soap-bar-labels.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const SoapBarLabels = () => {
     const [selectedImage, setSelectedImage] = useState(0);

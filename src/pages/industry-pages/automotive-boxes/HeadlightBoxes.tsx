@@ -28,17 +28,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import headlighthero from "@/assets/automotive-products/headlight-boxes/img-hero.png";
-import headlight1 from "@/assets/automotive-products/headlight-boxes/img-1.png";
-import headlight2 from "@/assets/automotive-products/headlight-boxes/img-2.png";
-import headlight3 from "@/assets/automotive-products/headlight-boxes/img-3.png";
-import headlight4 from "@/assets/automotive-products/headlight-boxes/img-4.png";
-import headlight5 from "@/assets/automotive-products/headlight-boxes/img-5.png";
-import headlight6 from "@/assets/automotive-products/headlight-boxes/img-whychoose.png";
-import headlight7 from "@/assets/automotive-products/headlight-boxes/img-different.png";
+import headlighthero from "@/assets/automotive-products/headlight-boxes/img-hero.webp";
+import headlight1 from "@/assets/automotive-products/headlight-boxes/img-1.webp";
+import headlight2 from "@/assets/automotive-products/headlight-boxes/img-2.webp";
+import headlight3 from "@/assets/automotive-products/headlight-boxes/img-3.webp";
+import headlight4 from "@/assets/automotive-products/headlight-boxes/img-4.webp";
+import headlight5 from "@/assets/automotive-products/headlight-boxes/img-5.webp";
+import headlight6 from "@/assets/automotive-products/headlight-boxes/img-whychoose.webp";
+import headlight7 from "@/assets/automotive-products/headlight-boxes/img-different.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const HeadlightBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

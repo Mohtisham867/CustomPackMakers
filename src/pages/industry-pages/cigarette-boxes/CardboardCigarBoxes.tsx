@@ -17,7 +17,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Plus, Minus } from "lucide-react";
 
 import productHero from "@/assets/cigarette-boxes/cardboard-cigar-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 import eCigaretteBoxes from "@/assets/cigarette-boxes/e-cigarette-boxes.webp";
 import hempCigaretteBoxes from "@/assets/cigarette-boxes/hemp-cigarette-boxes.webp";
 import paperCigaretteBoxes from "@/assets/cigarette-boxes/paper-cigarette-boxes.webp";

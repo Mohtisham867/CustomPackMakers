@@ -32,7 +32,7 @@ import { Plus, Minus } from "lucide-react";
 import heroImage from "@/assets/cardboard-boxes/cardboard-box-with-handle.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CardboardBoxWithHandle = () => {
     const [selectedImage, setSelectedImage] = useState(0);

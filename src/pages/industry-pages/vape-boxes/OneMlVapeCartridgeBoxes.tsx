@@ -28,15 +28,15 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import onemlimagehero from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-hero.png";
-import onemlimage1 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-1.png";
-import onemlimage2 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-2.png";
-import onemlimage3 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-3.png";
-import onemlimage4 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-4.png";
-import onemlimage5 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-5.png";
-import onemlimage6 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-whychoose.png";
-import onemlimage7 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import onemlimagehero from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-hero.webp";
+import onemlimage1 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-1.webp";
+import onemlimage2 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-2.webp";
+import onemlimage3 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-3.webp";
+import onemlimage4 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-4.webp";
+import onemlimage5 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-5.webp";
+import onemlimage6 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-whychoose.webp";
+import onemlimage7 from "@/assets/vape-boxes/1ml-Vape-Cartridge-Boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const OneMlVapeCartridgeBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

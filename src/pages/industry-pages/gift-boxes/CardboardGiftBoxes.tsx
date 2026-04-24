@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import cardboardGiftBoxeshero from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-hero.png";
-import cardboardGiftBoxesimg1 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-1.png";
-import cardboardGiftBoxesimg2 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-2.png";
-import cardboardGiftBoxesimg3 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-3.png";
-import cardboardGiftBoxesimg4 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-4.png";
-import cardboardGiftBoxesimg5 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-5.png";
-import cardboardGiftBoxesimg6 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-whychoose.png";
-import cardboardGiftBoxesimg7 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import cardboardGiftBoxeshero from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-hero.webp";
+import cardboardGiftBoxesimg1 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-1.webp";
+import cardboardGiftBoxesimg2 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-2.webp";
+import cardboardGiftBoxesimg3 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-3.webp";
+import cardboardGiftBoxesimg4 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-4.webp";
+import cardboardGiftBoxesimg5 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-5.webp";
+import cardboardGiftBoxesimg6 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-whychoose.webp";
+import cardboardGiftBoxesimg7 from "@/assets/gift-boxes/Cardboard-Gift-Boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CardboardGiftBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

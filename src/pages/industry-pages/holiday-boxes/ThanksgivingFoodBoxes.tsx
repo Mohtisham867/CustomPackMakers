@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import thanksgivingFoodBoxesHero from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-hero.png";
-import thanksgivingFoodBoxesimg1 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-1.png";
-import thanksgivingFoodBoxesimg2 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-2.png";
-import thanksgivingFoodBoxesimg3 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-3.png";
-import thanksgivingFoodBoxesimg4 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-4.png";
-import thanksgivingFoodBoxesimg5 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-5.png";
-import thanksgivingFoodBoxesimg6 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-whychoose.png";
-import thanksgivingFoodBoxesimg7 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import thanksgivingFoodBoxesHero from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-hero.webp";
+import thanksgivingFoodBoxesimg1 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-1.webp";
+import thanksgivingFoodBoxesimg2 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-2.webp";
+import thanksgivingFoodBoxesimg3 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-3.webp";
+import thanksgivingFoodBoxesimg4 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-4.webp";
+import thanksgivingFoodBoxesimg5 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-5.webp";
+import thanksgivingFoodBoxesimg6 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-whychoose.webp";
+import thanksgivingFoodBoxesimg7 from "@/assets/holiday-boxes/Thanksgiving-Food-Boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ThanksgivingFoodBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

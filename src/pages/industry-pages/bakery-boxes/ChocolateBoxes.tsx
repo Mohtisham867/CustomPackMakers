@@ -18,7 +18,7 @@ import img2 from '@/assets/bakery-products/custom-cake-boxes.webp';
 import img3 from '@/assets/bakery-products/pastry-boxes.webp';
 import img4 from '@/assets/bakery-products/donut-boxes.webp';
 import img5 from '@/assets/bakery-products/muffin-boxes.webp';
-import FAQimage from '@/assets/FAQ-image.png';
+import FAQimage from '@/assets/FAQ-image.webp';
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 const ChocolateBoxes = () => {

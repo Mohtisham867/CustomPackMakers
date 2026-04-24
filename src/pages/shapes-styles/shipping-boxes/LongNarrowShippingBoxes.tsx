@@ -32,7 +32,7 @@ import { Plus, Minus } from "lucide-react";
 import heroImage from "@/assets/shipping-boxes/long-narrow-shipping-boxes.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const LongNarrowShippingBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

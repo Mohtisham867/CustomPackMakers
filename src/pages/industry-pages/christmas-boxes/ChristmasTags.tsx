@@ -16,16 +16,16 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import christmasTagsHero from "@/assets/christmas-products/christmas-tags/img-hero.png";
-import christmasTagsImg1 from "@/assets/christmas-products/christmas-tags/img-1.png";
-import christmasTagsImg2 from "@/assets/christmas-products/christmas-tags/img-2.png";
-import christmasTagsImg3 from "@/assets/christmas-products/christmas-tags/img-3.png";
-import christmasTagsImg4 from "@/assets/christmas-products/christmas-tags/img-4.png";
-import christmasTagsImg5 from "@/assets/christmas-products/christmas-tags/img-5.png";
-import christmasTagsImg6 from "@/assets/christmas-products/christmas-tags/img-whychoose.png";
-import christmasTagsImg7 from "@/assets/christmas-products/christmas-tags/img-different.png";
+import christmasTagsHero from "@/assets/christmas-products/christmas-tags/img-hero.webp";
+import christmasTagsImg1 from "@/assets/christmas-products/christmas-tags/img-1.webp";
+import christmasTagsImg2 from "@/assets/christmas-products/christmas-tags/img-2.webp";
+import christmasTagsImg3 from "@/assets/christmas-products/christmas-tags/img-3.webp";
+import christmasTagsImg4 from "@/assets/christmas-products/christmas-tags/img-4.webp";
+import christmasTagsImg5 from "@/assets/christmas-products/christmas-tags/img-5.webp";
+import christmasTagsImg6 from "@/assets/christmas-products/christmas-tags/img-whychoose.webp";
+import christmasTagsImg7 from "@/assets/christmas-products/christmas-tags/img-different.webp";
 
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 import christmasChocolateBoxes from "@/assets/christmas-products/christmas-chocolate-boxes.webp";
 import christmasGableBoxes from "@/assets/christmas-products/christmas-gable-boxes.webp";
 import christmasCupcakeBoxes from "@/assets/christmas-products/christmas-cupcake-boxes.webp";

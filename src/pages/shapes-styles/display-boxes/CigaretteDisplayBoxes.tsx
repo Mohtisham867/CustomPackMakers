@@ -19,7 +19,7 @@ import heroImg from "@/assets/display-boxes/cigarette-display-boxes.webp";
 import displayImg from "@/assets/display-boxes/display-boxes-hero.webp";
 import productImg from "@/assets/display-boxes/product-display-boxes.webp";
 import vapeImg from "@/assets/display-boxes/vape-display-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CigaretteDisplayBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

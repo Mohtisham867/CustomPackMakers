@@ -17,13 +17,13 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Plus, Minus } from "lucide-react";
 
 import heroImage from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import img1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import img2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.png";
-import img3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import img4 from "@/assets/apparel-boxes/shoe-boxes/shoe-4.png";
-import img5 from "@/assets/apparel-boxes/shoe-boxes/deferent.png";
-import imgHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
-import FAQimage from "@/assets/FAQ-image.png";
+import img1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.webp";
+import img2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.webp";
+import img3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.webp";
+import img4 from "@/assets/apparel-boxes/shoe-boxes/shoe-4.webp";
+import img5 from "@/assets/apparel-boxes/shoe-boxes/deferent.webp";
+import imgHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const SoapSleeves = () => {
     const [selectedImage, setSelectedImage] = useState(0);

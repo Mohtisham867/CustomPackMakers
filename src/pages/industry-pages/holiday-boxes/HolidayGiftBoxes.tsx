@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import holidayGiftBoxesHero from "@/assets/holiday-boxes/holiday-gift-boxes/img-hero.png";
-import holidayGiftBoxesimg1 from "@/assets/holiday-boxes/holiday-gift-boxes/img-1.png";
-import holidayGiftBoxesimg2 from "@/assets/holiday-boxes/holiday-gift-boxes/img-2.png";
-import holidayGiftBoxesimg3 from "@/assets/holiday-boxes/holiday-gift-boxes/img-3.png";
-import holidayGiftBoxesimg4 from "@/assets/holiday-boxes/holiday-gift-boxes/img-4.png";
-import holidayGiftBoxesimg5 from "@/assets/holiday-boxes/holiday-gift-boxes/img-5.png";
-import holidayGiftBoxesimg6 from "@/assets/holiday-boxes/holiday-gift-boxes/img-whychoose.png";
-import holidayGiftBoxesimg7 from "@/assets/holiday-boxes/holiday-gift-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import holidayGiftBoxesHero from "@/assets/holiday-boxes/holiday-gift-boxes/img-hero.webp";
+import holidayGiftBoxesimg1 from "@/assets/holiday-boxes/holiday-gift-boxes/img-1.webp";
+import holidayGiftBoxesimg2 from "@/assets/holiday-boxes/holiday-gift-boxes/img-2.webp";
+import holidayGiftBoxesimg3 from "@/assets/holiday-boxes/holiday-gift-boxes/img-3.webp";
+import holidayGiftBoxesimg4 from "@/assets/holiday-boxes/holiday-gift-boxes/img-4.webp";
+import holidayGiftBoxesimg5 from "@/assets/holiday-boxes/holiday-gift-boxes/img-5.webp";
+import holidayGiftBoxesimg6 from "@/assets/holiday-boxes/holiday-gift-boxes/img-whychoose.webp";
+import holidayGiftBoxesimg7 from "@/assets/holiday-boxes/holiday-gift-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const HolidayGiftBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

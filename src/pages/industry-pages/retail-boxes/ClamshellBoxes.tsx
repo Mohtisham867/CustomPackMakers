@@ -29,16 +29,16 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import clamshellBoxeshero from "@/assets/retail-boxes/Clamshell-Boxes/img-hero.png";
-import clamshellBoxes1 from "@/assets/retail-boxes/Clamshell-Boxes/img-1.png";
-import clamshellBoxes2 from "@/assets/retail-boxes/Clamshell-Boxes/img-2.png";
-import clamshellBoxes3 from "@/assets/retail-boxes/Clamshell-Boxes/img-3.png";
-import clamshellBoxes4 from "@/assets/retail-boxes/Clamshell-Boxes/img-4.png";
-import clamshellBoxes5 from "@/assets/retail-boxes/Clamshell-Boxes/img-5.png";
-import clamshellBoxes6 from "@/assets/retail-boxes/Clamshell-Boxes/img-whychoose.png";
-import clamshellBoxes7 from "@/assets/retail-boxes/Clamshell-Boxes/img-different.png";
+import clamshellBoxeshero from "@/assets/retail-boxes/Clamshell-Boxes/img-hero.webp";
+import clamshellBoxes1 from "@/assets/retail-boxes/Clamshell-Boxes/img-1.webp";
+import clamshellBoxes2 from "@/assets/retail-boxes/Clamshell-Boxes/img-2.webp";
+import clamshellBoxes3 from "@/assets/retail-boxes/Clamshell-Boxes/img-3.webp";
+import clamshellBoxes4 from "@/assets/retail-boxes/Clamshell-Boxes/img-4.webp";
+import clamshellBoxes5 from "@/assets/retail-boxes/Clamshell-Boxes/img-5.webp";
+import clamshellBoxes6 from "@/assets/retail-boxes/Clamshell-Boxes/img-whychoose.webp";
+import clamshellBoxes7 from "@/assets/retail-boxes/Clamshell-Boxes/img-different.webp";
 
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ClamshellBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

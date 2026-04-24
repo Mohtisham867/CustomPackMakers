@@ -13,15 +13,15 @@ import { Label } from '@/components/ui/label';
 import { TechnicalSpecsSection } from '@/components/TechnicalSpecsSection';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Plus, Minus } from 'lucide-react';
-import breadpackaginghero from '@/assets/bakery-products/Bread-Packaging/img-hero.png';
-import breadpackagingimg1 from '@/assets/bakery-products/Bread-Packaging/img-1.png';
-import breadpackagingimg2 from '@/assets/bakery-products/Bread-Packaging/img-2.png';
-import breadpackagingimg3 from '@/assets/bakery-products/Bread-Packaging/img-3.png';
-import breadpackagingimg4 from '@/assets/bakery-products/Bread-Packaging/img-4.png';
-import breadpackagingimg5 from '@/assets/bakery-products/Bread-Packaging/img-5.png';
-import breadpackagingimg6 from '@/assets/bakery-products/Bread-Packaging/img-whychoose.png';
-import breadpackagingimg7 from '@/assets/bakery-products/Bread-Packaging/img-different.png';
-import FAQimage from '@/assets/FAQ-image.png';
+import breadpackaginghero from '@/assets/bakery-products/Bread-Packaging/img-hero.webp';
+import breadpackagingimg1 from '@/assets/bakery-products/Bread-Packaging/img-1.webp';
+import breadpackagingimg2 from '@/assets/bakery-products/Bread-Packaging/img-2.webp';
+import breadpackagingimg3 from '@/assets/bakery-products/Bread-Packaging/img-3.webp';
+import breadpackagingimg4 from '@/assets/bakery-products/Bread-Packaging/img-4.webp';
+import breadpackagingimg5 from '@/assets/bakery-products/Bread-Packaging/img-5.webp';
+import breadpackagingimg6 from '@/assets/bakery-products/Bread-Packaging/img-whychoose.webp';
+import breadpackagingimg7 from '@/assets/bakery-products/Bread-Packaging/img-different.webp';
+import FAQimage from '@/assets/FAQ-image.webp';
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 const BreadPackaging = () => {

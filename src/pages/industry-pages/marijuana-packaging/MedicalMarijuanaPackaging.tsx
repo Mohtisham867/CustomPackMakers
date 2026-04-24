@@ -30,15 +30,15 @@ import { RelatedProductMarijuana } from "@/components/RelatedProductMarijuana";
 
 
 // Specific product images
-import medicalPackagingHero from "@/assets/marijuana-packaging/medical-packaging/img-hero.png";
-import medicalPackaging1 from "@/assets/marijuana-packaging/medical-packaging/img-1.png";
-import medicalPackaging2 from "@/assets/marijuana-packaging/medical-packaging/img-2.png";
-import medicalPackaging3 from "@/assets/marijuana-packaging/medical-packaging/img-3.png";
-import medicalPackaging4 from "@/assets/marijuana-packaging/medical-packaging/img-4.png";
-import medicalPackaging5 from "@/assets/marijuana-packaging/medical-packaging/img-5.png";
-import medicalPackaging6 from "@/assets/marijuana-packaging/medical-packaging/img-whychoose.png";
-import medicalPackaging7 from "@/assets/marijuana-packaging/medical-packaging/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import medicalPackagingHero from "@/assets/marijuana-packaging/medical-packaging/img-hero.webp";
+import medicalPackaging1 from "@/assets/marijuana-packaging/medical-packaging/img-1.webp";
+import medicalPackaging2 from "@/assets/marijuana-packaging/medical-packaging/img-2.webp";
+import medicalPackaging3 from "@/assets/marijuana-packaging/medical-packaging/img-3.webp";
+import medicalPackaging4 from "@/assets/marijuana-packaging/medical-packaging/img-4.webp";
+import medicalPackaging5 from "@/assets/marijuana-packaging/medical-packaging/img-5.webp";
+import medicalPackaging6 from "@/assets/marijuana-packaging/medical-packaging/img-whychoose.webp";
+import medicalPackaging7 from "@/assets/marijuana-packaging/medical-packaging/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 
 

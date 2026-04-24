@@ -31,7 +31,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Product images
 import kraftTuckTopBoxes from "@/assets/kraft-boxes/kraft-tuck-top-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const KraftTuckTopBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

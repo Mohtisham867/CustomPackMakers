@@ -29,8 +29,8 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import softwareBoxes from "@/assets/electronics-boxes/Software Boxes.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import softwareBoxes from "@/assets/electronics-boxes/Software Boxes.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const SoftwareBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

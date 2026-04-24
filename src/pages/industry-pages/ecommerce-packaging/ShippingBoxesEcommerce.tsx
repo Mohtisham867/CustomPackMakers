@@ -30,7 +30,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ShippingBoxesEcommerce = () => {
     const [selectedImage, setSelectedImage] = useState(0);

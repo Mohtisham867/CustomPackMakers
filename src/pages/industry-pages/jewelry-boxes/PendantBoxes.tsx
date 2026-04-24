@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import pendantBoxesHero from "@/assets/jewelry-boxes/Pendant-Boxes/img-hero.png";
-import pendantBoxes1 from "@/assets/jewelry-boxes/Pendant-Boxes/img-1.png";
-import pendantBoxes2 from "@/assets/jewelry-boxes/Pendant-Boxes/img-2.png";
-import pendantBoxes3 from "@/assets/jewelry-boxes/Pendant-Boxes/img-3.png";
-import pendantBoxes4 from "@/assets/jewelry-boxes/Pendant-Boxes/img-4.png";
-import pendantBoxes5 from "@/assets/jewelry-boxes/Pendant-Boxes/img-5.png";
-import pendantBoxes6 from "@/assets/jewelry-boxes/Pendant-Boxes/img-whychoose.png";
-import pendantBoxes7 from "@/assets/jewelry-boxes/Pendant-Boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import pendantBoxesHero from "@/assets/jewelry-boxes/Pendant-Boxes/img-hero.webp";
+import pendantBoxes1 from "@/assets/jewelry-boxes/Pendant-Boxes/img-1.webp";
+import pendantBoxes2 from "@/assets/jewelry-boxes/Pendant-Boxes/img-2.webp";
+import pendantBoxes3 from "@/assets/jewelry-boxes/Pendant-Boxes/img-3.webp";
+import pendantBoxes4 from "@/assets/jewelry-boxes/Pendant-Boxes/img-4.webp";
+import pendantBoxes5 from "@/assets/jewelry-boxes/Pendant-Boxes/img-5.webp";
+import pendantBoxes6 from "@/assets/jewelry-boxes/Pendant-Boxes/img-whychoose.webp";
+import pendantBoxes7 from "@/assets/jewelry-boxes/Pendant-Boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const PendantBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -13,15 +13,15 @@ import { Label } from '@/components/ui/label';
 import { TechnicalSpecsSection } from '@/components/TechnicalSpecsSection';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Plus, Minus } from 'lucide-react';
-import cookieBoxesHero from '@/assets/bakery-products/cookie-boxes/img-hero.png';
-import cookieimg1 from '@/assets/bakery-products/cookie-boxes/img-1.png';
-import cookieimg2 from '@/assets/bakery-products/cookie-boxes/img-2.png';
-import cookieimg3 from '@/assets/bakery-products/cookie-boxes/img-3.png';
-import cookieimg4 from '@/assets/bakery-products/cookie-boxes/img-4.png';
-import cookieimg5 from '@/assets/bakery-products/cookie-boxes/img-5.png';
-import cookieimg6 from '@/assets/bakery-products/cookie-boxes/img-whychoose.png';
-import cookieimg7 from '@/assets/bakery-products/cookie-boxes/img-different.png';
-import FAQimage from '@/assets/FAQ-image.png';
+import cookieBoxesHero from '@/assets/bakery-products/cookie-boxes/img-hero.webp';
+import cookieimg1 from '@/assets/bakery-products/cookie-boxes/img-1.webp';
+import cookieimg2 from '@/assets/bakery-products/cookie-boxes/img-2.webp';
+import cookieimg3 from '@/assets/bakery-products/cookie-boxes/img-3.webp';
+import cookieimg4 from '@/assets/bakery-products/cookie-boxes/img-4.webp';
+import cookieimg5 from '@/assets/bakery-products/cookie-boxes/img-5.webp';
+import cookieimg6 from '@/assets/bakery-products/cookie-boxes/img-whychoose.webp';
+import cookieimg7 from '@/assets/bakery-products/cookie-boxes/img-different.webp';
+import FAQimage from '@/assets/FAQ-image.webp';
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 const CookieBoxes = () => {

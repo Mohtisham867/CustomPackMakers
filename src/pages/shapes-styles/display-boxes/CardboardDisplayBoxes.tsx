@@ -19,7 +19,7 @@ import heroImg from "@/assets/display-boxes/cardboard-display-boxes.webp";
 import displayImg from "@/assets/display-boxes/display-boxes-hero.webp";
 import productImg from "@/assets/display-boxes/product-display-boxes.webp";
 import countertopImg from "@/assets/display-boxes/countertop-display-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CardboardDisplayBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

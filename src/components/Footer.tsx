@@ -1,5 +1,5 @@
 import { Package, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, ShieldCheck, Star, Award, CreditCard } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.webp";
 import googleReviewsBadge from "@/assets/google_reviews_badge.webp";
 import trustpilotBadge from "@/assets/trustpilot_reviews_badge.webp";
 import { Separator } from "@/components/ui/separator";

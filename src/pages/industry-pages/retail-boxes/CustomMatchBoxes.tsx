@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import matchBoxeshero from "@/assets/retail-boxes/Custom-Match-Boxes/img-hero.png";
-import matchBoxes1 from "@/assets/retail-boxes/Custom-Match-Boxes/img-1.png";
-import matchBoxes2 from "@/assets/retail-boxes/Custom-Match-Boxes/img-2.png";
-import matchBoxes3 from "@/assets/retail-boxes/Custom-Match-Boxes/img-3.png";
-import matchBoxes4 from "@/assets/retail-boxes/Custom-Match-Boxes/img-4.png";
-import matchBoxes5 from "@/assets/retail-boxes/Custom-Match-Boxes/img-5.png";
-import matchBoxes6 from "@/assets/retail-boxes/Custom-Match-Boxes/img-whychoose.png";
-import matchBoxes7 from "@/assets/retail-boxes/Custom-Match-Boxes/img-different.png";
+import matchBoxeshero from "@/assets/retail-boxes/Custom-Match-Boxes/img-hero.webp";
+import matchBoxes1 from "@/assets/retail-boxes/Custom-Match-Boxes/img-1.webp";
+import matchBoxes2 from "@/assets/retail-boxes/Custom-Match-Boxes/img-2.webp";
+import matchBoxes3 from "@/assets/retail-boxes/Custom-Match-Boxes/img-3.webp";
+import matchBoxes4 from "@/assets/retail-boxes/Custom-Match-Boxes/img-4.webp";
+import matchBoxes5 from "@/assets/retail-boxes/Custom-Match-Boxes/img-5.webp";
+import matchBoxes6 from "@/assets/retail-boxes/Custom-Match-Boxes/img-whychoose.webp";
+import matchBoxes7 from "@/assets/retail-boxes/Custom-Match-Boxes/img-different.webp";
 
 
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomMatchBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

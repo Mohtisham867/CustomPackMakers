@@ -29,16 +29,16 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import businessLabelshero from "@/assets/retail-boxes/Business-Labels/img-hero.png";
-import businessLabels1 from "@/assets/retail-boxes/Business-Labels/img-1.png";
-import businessLabels2 from "@/assets/retail-boxes/Business-Labels/img-2.png";
-import businessLabels3 from "@/assets/retail-boxes/Business-Labels/img-3.png";
-import businessLabels4 from "@/assets/retail-boxes/Business-Labels/img-4.png";
-import businessLabels5 from "@/assets/retail-boxes/Business-Labels/img-5.png";
-import businessLabels6 from "@/assets/retail-boxes/Business-Labels/img-whychoose.png";
-import businessLabels7 from "@/assets/retail-boxes/Business-Labels/img-different.png";
+import businessLabelshero from "@/assets/retail-boxes/Business-Labels/img-hero.webp";
+import businessLabels1 from "@/assets/retail-boxes/Business-Labels/img-1.webp";
+import businessLabels2 from "@/assets/retail-boxes/Business-Labels/img-2.webp";
+import businessLabels3 from "@/assets/retail-boxes/Business-Labels/img-3.webp";
+import businessLabels4 from "@/assets/retail-boxes/Business-Labels/img-4.webp";
+import businessLabels5 from "@/assets/retail-boxes/Business-Labels/img-5.webp";
+import businessLabels6 from "@/assets/retail-boxes/Business-Labels/img-whychoose.webp";
+import businessLabels7 from "@/assets/retail-boxes/Business-Labels/img-different.webp";
 
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const BusinessLabels = () => {
     const [selectedImage, setSelectedImage] = useState(0);

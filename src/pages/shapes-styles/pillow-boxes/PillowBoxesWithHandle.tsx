@@ -15,7 +15,7 @@ import { RelatedProductPillowBoxes } from "@/components/RelatedProductPillowBoxe
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 import heroImg from "@/assets/pillow-boxes/pillow_boxes_with_handle.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const productName = "Custom Pillow Boxes With Handle";
 const overviewTitle = "Curved Pillow Packaging With Built-In Carrying Handle for Retail Convenience";

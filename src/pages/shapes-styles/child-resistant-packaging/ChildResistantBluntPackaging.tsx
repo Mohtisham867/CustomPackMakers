@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import bluntPackagingHero from "@/assets/child-resistant-packaging/child-resistant-blunt-packaging.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChildResistantBluntPackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

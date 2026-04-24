@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import stapleBoxesHero from "@/assets/stationery-boxes/staple-boxes/img-hero.png";
-import stapleBoxes1 from "@/assets/stationery-boxes/staple-boxes/img-1.png";
-import stapleBoxes2 from "@/assets/stationery-boxes/staple-boxes/img-2.png";
-import stapleBoxes3 from "@/assets/stationery-boxes/staple-boxes/img-3.png";
-import stapleBoxes4 from "@/assets/stationery-boxes/staple-boxes/img-4.png";
-import stapleBoxes5 from "@/assets/stationery-boxes/staple-boxes/img-5.png";
-import stapleBoxes6 from "@/assets/stationery-boxes/staple-boxes/img-whychoose.png";
-import stapleBoxes7 from "@/assets/stationery-boxes/staple-boxes/img-different.png";
+import stapleBoxesHero from "@/assets/stationery-boxes/staple-boxes/img-hero.webp";
+import stapleBoxes1 from "@/assets/stationery-boxes/staple-boxes/img-1.webp";
+import stapleBoxes2 from "@/assets/stationery-boxes/staple-boxes/img-2.webp";
+import stapleBoxes3 from "@/assets/stationery-boxes/staple-boxes/img-3.webp";
+import stapleBoxes4 from "@/assets/stationery-boxes/staple-boxes/img-4.webp";
+import stapleBoxes5 from "@/assets/stationery-boxes/staple-boxes/img-5.webp";
+import stapleBoxes6 from "@/assets/stationery-boxes/staple-boxes/img-whychoose.webp";
+import stapleBoxes7 from "@/assets/stationery-boxes/staple-boxes/img-different.webp";
 
 // FAQ Image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const StapleBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -16,16 +16,16 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import christmasChocolateBoxesHero from "@/assets/christmas-products/christmas-chocolate-boxes/img-hero.png";
-import christmasChocolateBoxesImg1 from "@/assets/christmas-products/christmas-chocolate-boxes/img-1.png";
-import christmasChocolateBoxesImg2 from "@/assets/christmas-products/christmas-chocolate-boxes/img-2.png";
-import christmasChocolateBoxesImg3 from "@/assets/christmas-products/christmas-chocolate-boxes/img-3.png";
-import christmasChocolateBoxesImg4 from "@/assets/christmas-products/christmas-chocolate-boxes/img-4.png";
-import christmasChocolateBoxesImg5 from "@/assets/christmas-products/christmas-chocolate-boxes/img-5.png";
-import christmasChocolateBoxesImg6 from "@/assets/christmas-products/christmas-chocolate-boxes/img-whychoose.png";
-import christmasChocolateBoxesImg7 from "@/assets/christmas-products/christmas-chocolate-boxes/img-different.png";
+import christmasChocolateBoxesHero from "@/assets/christmas-products/christmas-chocolate-boxes/img-hero.webp";
+import christmasChocolateBoxesImg1 from "@/assets/christmas-products/christmas-chocolate-boxes/img-1.webp";
+import christmasChocolateBoxesImg2 from "@/assets/christmas-products/christmas-chocolate-boxes/img-2.webp";
+import christmasChocolateBoxesImg3 from "@/assets/christmas-products/christmas-chocolate-boxes/img-3.webp";
+import christmasChocolateBoxesImg4 from "@/assets/christmas-products/christmas-chocolate-boxes/img-4.webp";
+import christmasChocolateBoxesImg5 from "@/assets/christmas-products/christmas-chocolate-boxes/img-5.webp";
+import christmasChocolateBoxesImg6 from "@/assets/christmas-products/christmas-chocolate-boxes/img-whychoose.webp";
+import christmasChocolateBoxesImg7 from "@/assets/christmas-products/christmas-chocolate-boxes/img-different.webp";
 
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 import christmasTags from "@/assets/christmas-products/christmas-tags.webp";
 import christmasGableBoxes from "@/assets/christmas-products/christmas-gable-boxes.webp";
 import christmasCupcakeBoxes from "@/assets/christmas-products/christmas-cupcake-boxes.webp";

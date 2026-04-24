@@ -20,15 +20,15 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import halloweenWindowBoxesHero from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-hero.png";
-import halloweenWindowBoxesimg1 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-1.png";
-import halloweenWindowBoxesimg2 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-2.png";
-import halloweenWindowBoxesimg3 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-3.png";
-import halloweenWindowBoxesimg4 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-4.png";
-import halloweenWindowBoxesimg5 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-5.png";
-import halloweenWindowBoxesimg6 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-whychoose.png";
-import halloweenWindowBoxesimg7 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import halloweenWindowBoxesHero from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-hero.webp";
+import halloweenWindowBoxesimg1 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-1.webp";
+import halloweenWindowBoxesimg2 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-2.webp";
+import halloweenWindowBoxesimg3 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-3.webp";
+import halloweenWindowBoxesimg4 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-4.webp";
+import halloweenWindowBoxesimg5 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-5.webp";
+import halloweenWindowBoxesimg6 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-whychoose.webp";
+import halloweenWindowBoxesimg7 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", question: "Do you offer rush shipping for Halloween window box orders?", answer: "Yes, we prominently offer extremely rapid expedited rush holiday manufacturing incredibly reliably ensuring intensely stressed massive retail corporate brands safely wonderfully receive their massive crucial wholesale seasonal custom boxes heavily well before the critical hectic Halloween deadline entirely perfectly." },

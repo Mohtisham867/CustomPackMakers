@@ -29,16 +29,16 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import braceletSquareBoxesHero from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-hero.png";
-import braceletSquareBoxes1 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-1.png";
-import braceletSquareBoxes2 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-2.png";
-import braceletSquareBoxes3 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-3.png";
-import braceletSquareBoxes4 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-4.png";
-import braceletSquareBoxes5 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-5.png";
-import braceletSquareBoxes6 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-whychoose.png";
-import braceletSquareBoxes7 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-different.png";
+import braceletSquareBoxesHero from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-hero.webp";
+import braceletSquareBoxes1 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-1.webp";
+import braceletSquareBoxes2 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-2.webp";
+import braceletSquareBoxes3 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-3.webp";
+import braceletSquareBoxes4 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-4.webp";
+import braceletSquareBoxes5 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-5.webp";
+import braceletSquareBoxes6 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-whychoose.webp";
+import braceletSquareBoxes7 from "@/assets/jewelry-boxes/Bracelet-Square-Boxes/img-different.webp";
 
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const BraceletSquareBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

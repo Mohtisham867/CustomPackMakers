@@ -30,7 +30,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Product images for White Corrugated Boxes
 import whiteCorrugatedBoxes from "@/assets/white-corrugated-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const WhiteCorrugatedBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

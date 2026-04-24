@@ -29,17 +29,17 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import apparelgiftboxehero from "@/assets/apparel-boxes/apparel-gift-boxes/img-hero.png";
-import apparelgift1 from "@/assets/apparel-boxes/apparel-gift-boxes/img-1.png";
-import apparelgift2 from "@/assets/apparel-boxes/apparel-gift-boxes/img-2.png";
-import apparelgift3 from "@/assets/apparel-boxes/apparel-gift-boxes/img-3.png";
-import apparelgift4 from "@/assets/apparel-boxes/apparel-gift-boxes/img-4.png";
-import apparelgift5 from "@/assets/apparel-boxes/apparel-gift-boxes/img-5.png";
-import apparelgift6 from "@/assets/apparel-boxes/apparel-gift-boxes/img-whychoose.png";
-import apparelgift7 from "@/assets/apparel-boxes/apparel-gift-boxes/img-defferent.png"
+import apparelgiftboxehero from "@/assets/apparel-boxes/apparel-gift-boxes/img-hero.webp";
+import apparelgift1 from "@/assets/apparel-boxes/apparel-gift-boxes/img-1.webp";
+import apparelgift2 from "@/assets/apparel-boxes/apparel-gift-boxes/img-2.webp";
+import apparelgift3 from "@/assets/apparel-boxes/apparel-gift-boxes/img-3.webp";
+import apparelgift4 from "@/assets/apparel-boxes/apparel-gift-boxes/img-4.webp";
+import apparelgift5 from "@/assets/apparel-boxes/apparel-gift-boxes/img-5.webp";
+import apparelgift6 from "@/assets/apparel-boxes/apparel-gift-boxes/img-whychoose.webp";
+import apparelgift7 from "@/assets/apparel-boxes/apparel-gift-boxes/img-defferent.webp"
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ApparelGiftBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);
@@ -415,7 +415,7 @@ const ApparelGiftBoxes = () => {
                                 Differentiate Your <span className="text-primary">Apparel Brand</span> From Others
                             </h2>
                             <p className="text-base text-slate-600 leading-relaxed max-w-xl">
-In today’s highly competitive marketplace, distinctive packaging is often the ultimate deciding factor for discerning customers. At CustomPackMakers, our bespoke apparel gift boxes are meticulously designed to help your brand stand out prominently on the retail shelf and remain memorable in the minds of your audience. By strategically incorporating innovative structural designs, luxury finishes, and sophisticated branded elements, we help you create a signature packaging style. This premium presentation not only reinforces long-term brand loyalty but also actively encourages repeat business through an unforgettable customer experience.                            </p>
+                                In today’s highly competitive marketplace, distinctive packaging is often the ultimate deciding factor for discerning customers. At CustomPackMakers, our bespoke apparel gift boxes are meticulously designed to help your brand stand out prominently on the retail shelf and remain memorable in the minds of your audience. By strategically incorporating innovative structural designs, luxury finishes, and sophisticated branded elements, we help you create a signature packaging style. This premium presentation not only reinforces long-term brand loyalty but also actively encourages repeat business through an unforgettable customer experience.                            </p>
                         </div>
                     </div>
                 </div>

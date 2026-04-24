@@ -32,7 +32,7 @@ import { Plus, Minus } from "lucide-react";
 import heroImage from "@/assets/shipping-boxes/shipping-labels.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ShippingLabels = () => {
     const [selectedImage, setSelectedImage] = useState(0);

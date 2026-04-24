@@ -19,7 +19,7 @@ import heroImg from "@/assets/display-boxes/watch-display-boxes.webp";
 import displayImg from "@/assets/display-boxes/display-boxes-hero.webp";
 import jewelryImg from "@/assets/display-boxes/jewelry-display-boxes.webp";
 import productImg from "@/assets/display-boxes/product-display-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const WatchDisplayBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

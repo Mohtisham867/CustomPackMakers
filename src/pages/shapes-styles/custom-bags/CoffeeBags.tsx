@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import fallbackHero from "@/assets/custom_bags/coffee-bags.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CoffeeBags = () => {
     const [selectedImage, setSelectedImage] = useState(0);

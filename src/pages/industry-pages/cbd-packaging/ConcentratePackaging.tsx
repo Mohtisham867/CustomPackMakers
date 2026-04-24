@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import concentratePackagingHero from "@/assets/cbd-boxes/cbd-gummies-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ConcentratePackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

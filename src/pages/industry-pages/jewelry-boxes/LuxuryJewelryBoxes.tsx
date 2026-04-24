@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import luxuryJewelryBoxeshero from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-hero.png";
-import luxuryJewelryBoxes1 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-1.png";
-import luxuryJewelryBoxes2 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-2.png";
-import luxuryJewelryBoxes3 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-3.png";
-import luxuryJewelryBoxes4 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-4.png";
-import luxuryJewelryBoxes5 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-5.png";
-import luxuryJewelryBoxes6 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-whychoose.png";
-import luxuryJewelryBoxes7 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import luxuryJewelryBoxeshero from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-hero.webp";
+import luxuryJewelryBoxes1 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-1.webp";
+import luxuryJewelryBoxes2 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-2.webp";
+import luxuryJewelryBoxes3 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-3.webp";
+import luxuryJewelryBoxes4 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-4.webp";
+import luxuryJewelryBoxes5 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-5.webp";
+import luxuryJewelryBoxes6 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-whychoose.webp";
+import luxuryJewelryBoxes7 from "@/assets/jewelry-boxes/luxury-jewelry-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const LuxuryJewelryBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

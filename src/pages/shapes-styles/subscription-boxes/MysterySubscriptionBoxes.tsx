@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import heroImage from "@/assets/subscription-boxes/mystery-subscription-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const MysterySubscriptionBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

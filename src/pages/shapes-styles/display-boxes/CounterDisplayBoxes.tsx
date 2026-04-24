@@ -19,7 +19,7 @@ import heroImg from "@/assets/display-boxes/counter-display-boxes.webp";
 import displayImg from "@/assets/display-boxes/display-boxes-hero.webp";
 import productImg from "@/assets/display-boxes/product-display-boxes.webp";
 import healthImg from "@/assets/display-boxes/health-counter-display-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CounterDisplayBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

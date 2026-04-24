@@ -34,7 +34,7 @@ import heroImage from "@/assets/soap-boxes/soap hero.webp";
 import customImage1 from "@/assets/soap-boxes/custom-kraft-soap-boxes.webp";
 import customImage2 from "@/assets/soap-boxes/square-soap-boxes.webp";
 import diffImage from "@/assets/soap-boxes/luxury-soap-packaging.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const LuxurySoapPackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

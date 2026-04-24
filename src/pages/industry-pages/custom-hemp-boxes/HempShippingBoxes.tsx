@@ -15,15 +15,15 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import hempShippingHero from "@/assets/hemp-boxes/hemp-shipping-boxes/img-hero.png";
-import hempShippingImg1 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-1.png";
-import hempShippingImg2 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-2.png";
-import hempShippingImg3 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-3.png";
-import hempShippingImg4 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-4.png";
-import hempShippingImg5 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-5.png";
-import hempShippingImg6 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-whychoose.png";
-import hempShippingImg7 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import hempShippingHero from "@/assets/hemp-boxes/hemp-shipping-boxes/img-hero.webp";
+import hempShippingImg1 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-1.webp";
+import hempShippingImg2 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-2.webp";
+import hempShippingImg3 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-3.webp";
+import hempShippingImg4 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-4.webp";
+import hempShippingImg5 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-5.webp";
+import hempShippingImg6 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-whychoose.webp";
+import hempShippingImg7 from "@/assets/hemp-boxes/hemp-shipping-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", q: "Are hemp shipping boxes strong enough for heavy wholesale orders?", a: "Absolutely. Hemp fibers are significantly stronger than traditional tree-pulp fibers. When processed into corrugated board, hemp creates a shipping box with superior edge-crush test (ECT) ratings and burst strength, making them ideal for heavy, dense retail shipments." },

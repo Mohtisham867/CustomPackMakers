@@ -29,17 +29,17 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images (using shoe box images as requested)
-import tieBox from "@/assets/apparel-boxes/tie-boxes/why-choose.png";
-import tieBox1 from "@/assets/apparel-boxes/tie-boxes/tie-1.png";
-import tieBox2 from "@/assets/apparel-boxes/tie-boxes/tie-2.png";
-import tieBox3 from "@/assets/apparel-boxes/tie-boxes/tie-3.png";
-import tieBox4 from "@/assets/apparel-boxes/tie-boxes/tie-4.png";
-import tieBox5 from "@/assets/apparel-boxes/tie-boxes/tie-5.png";
-import tieBox6 from "@/assets/apparel-boxes/tie-boxes/deferent.png";
-import tieBoxHero from "@/assets/apparel-boxes/tie-boxes/tie-hero.png";
+import tieBox from "@/assets/apparel-boxes/tie-boxes/why-choose.webp";
+import tieBox1 from "@/assets/apparel-boxes/tie-boxes/tie-1.webp";
+import tieBox2 from "@/assets/apparel-boxes/tie-boxes/tie-2.webp";
+import tieBox3 from "@/assets/apparel-boxes/tie-boxes/tie-3.webp";
+import tieBox4 from "@/assets/apparel-boxes/tie-boxes/tie-4.webp";
+import tieBox5 from "@/assets/apparel-boxes/tie-boxes/tie-5.webp";
+import tieBox6 from "@/assets/apparel-boxes/tie-boxes/deferent.webp";
+import tieBoxHero from "@/assets/apparel-boxes/tie-boxes/tie-hero.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const TieBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

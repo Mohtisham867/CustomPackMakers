@@ -28,17 +28,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Placeholder images
-import hoodiePackaginghero from "@/assets/apparel-boxes/hoodie-packaging/img-hero.png";
-import hoodiePackaging1 from "@/assets/apparel-boxes/hoodie-packaging/img-1.png";
-import hoodiePackaging2 from "@/assets/apparel-boxes/hoodie-packaging/img-2.png";
-import hoodiePackaging3 from "@/assets/apparel-boxes/hoodie-packaging/img-3.png";
-import hoodiePackaging4 from "@/assets/apparel-boxes/hoodie-packaging/img-4.png";
-import hoodiePackaging5 from "@/assets/apparel-boxes/hoodie-packaging/img-5.png";
-import hoodiePackaging6 from "@/assets/apparel-boxes/hoodie-packaging/img-whychoose.png";
-import hoodiePackaging7 from "@/assets/apparel-boxes/hoodie-packaging/img-defferent.png";
+import hoodiePackaginghero from "@/assets/apparel-boxes/hoodie-packaging/img-hero.webp";
+import hoodiePackaging1 from "@/assets/apparel-boxes/hoodie-packaging/img-1.webp";
+import hoodiePackaging2 from "@/assets/apparel-boxes/hoodie-packaging/img-2.webp";
+import hoodiePackaging3 from "@/assets/apparel-boxes/hoodie-packaging/img-3.webp";
+import hoodiePackaging4 from "@/assets/apparel-boxes/hoodie-packaging/img-4.webp";
+import hoodiePackaging5 from "@/assets/apparel-boxes/hoodie-packaging/img-5.webp";
+import hoodiePackaging6 from "@/assets/apparel-boxes/hoodie-packaging/img-whychoose.webp";
+import hoodiePackaging7 from "@/assets/apparel-boxes/hoodie-packaging/img-defferent.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const HoodiePackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

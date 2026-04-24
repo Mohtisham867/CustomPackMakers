@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Football Boxes
-import footballHero from "@/assets/sports-boxes/football-boxes/img-hero.png";
-import football1 from "@/assets/sports-boxes/football-boxes/img-1.png";
-import football2 from "@/assets/sports-boxes/football-boxes/img-2.png";
-import football3 from "@/assets/sports-boxes/football-boxes/img-3.png";
-import football4 from "@/assets/sports-boxes/football-boxes/img-4.png";
-import football5 from "@/assets/sports-boxes/football-boxes/img-5.png";
-import football6 from "@/assets/sports-boxes/football-boxes/img-whychoose.png";
-import football7 from "@/assets/sports-boxes/football-boxes/img-different.png";
+import footballHero from "@/assets/sports-boxes/football-boxes/img-hero.webp";
+import football1 from "@/assets/sports-boxes/football-boxes/img-1.webp";
+import football2 from "@/assets/sports-boxes/football-boxes/img-2.webp";
+import football3 from "@/assets/sports-boxes/football-boxes/img-3.webp";
+import football4 from "@/assets/sports-boxes/football-boxes/img-4.webp";
+import football5 from "@/assets/sports-boxes/football-boxes/img-5.webp";
+import football6 from "@/assets/sports-boxes/football-boxes/img-whychoose.webp";
+import football7 from "@/assets/sports-boxes/football-boxes/img-different.webp";
 
 //FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const FootballBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

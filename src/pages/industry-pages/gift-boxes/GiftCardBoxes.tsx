@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import giftCardBoxeshero from "@/assets/gift-boxes/Gift-Card-Boxes/img-hero.png";
-import giftCardBoxesimg1 from "@/assets/gift-boxes/Gift-Card-Boxes/img-1.png";
-import giftCardBoxesimg2 from "@/assets/gift-boxes/Gift-Card-Boxes/img-2.png";
-import giftCardBoxesimg3 from "@/assets/gift-boxes/Gift-Card-Boxes/img-3.png";
-import giftCardBoxesimg4 from "@/assets/gift-boxes/Gift-Card-Boxes/img-4.png";
-import giftCardBoxesimg5 from "@/assets/gift-boxes/Gift-Card-Boxes/img-5.png";
-import giftCardBoxesimg6 from "@/assets/gift-boxes/Gift-Card-Boxes/img-whychoose.png";
-import giftCardBoxesimg7 from "@/assets/gift-boxes/Gift-Card-Boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import giftCardBoxeshero from "@/assets/gift-boxes/Gift-Card-Boxes/img-hero.webp";
+import giftCardBoxesimg1 from "@/assets/gift-boxes/Gift-Card-Boxes/img-1.webp";
+import giftCardBoxesimg2 from "@/assets/gift-boxes/Gift-Card-Boxes/img-2.webp";
+import giftCardBoxesimg3 from "@/assets/gift-boxes/Gift-Card-Boxes/img-3.webp";
+import giftCardBoxesimg4 from "@/assets/gift-boxes/Gift-Card-Boxes/img-4.webp";
+import giftCardBoxesimg5 from "@/assets/gift-boxes/Gift-Card-Boxes/img-5.webp";
+import giftCardBoxesimg6 from "@/assets/gift-boxes/Gift-Card-Boxes/img-whychoose.webp";
+import giftCardBoxesimg7 from "@/assets/gift-boxes/Gift-Card-Boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const GiftCardBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -28,17 +28,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import carcleaningkitboxeshero from "@/assets/automotive-products/car-cleaning-kits-boxes/img-hero.png";
-import carcleaningkitboxes1 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-1.png";
-import carcleaningkitboxes2 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-2.png";
-import carcleaningkitboxes3 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-3.png";
-import carcleaningkitboxes4 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-4.png";
-import carcleaningkitboxes5 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-5.png";
-import carcleaningkitboxes6 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-whychoose.png";
-import carcleaningkitboxes7 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-different.png";
+import carcleaningkitboxeshero from "@/assets/automotive-products/car-cleaning-kits-boxes/img-hero.webp";
+import carcleaningkitboxes1 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-1.webp";
+import carcleaningkitboxes2 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-2.webp";
+import carcleaningkitboxes3 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-3.webp";
+import carcleaningkitboxes4 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-4.webp";
+import carcleaningkitboxes5 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-5.webp";
+import carcleaningkitboxes6 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-whychoose.webp";
+import carcleaningkitboxes7 from "@/assets/automotive-products/car-cleaning-kits-boxes/img-different.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CarCleaningKitsBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -15,7 +15,7 @@ import { RelatedProductCustomBags } from "@/components/RelatedProductCustomBags"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 import fallbackHero from "@/assets/custom_bags/smell-proof-weed-bags.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const SmellProofWeedBags = () => {
     const [selectedImage, setSelectedImage] = useState(0);

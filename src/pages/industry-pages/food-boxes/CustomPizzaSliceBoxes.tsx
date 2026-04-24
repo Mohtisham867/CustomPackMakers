@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import pizzaSliceBoxhero from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-hero.png";
-import pizzaSliceBox1 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-1.png";
-import pizzaSliceBox2 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-2.png";
-import pizzaSliceBox3 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-3.png";
-import pizzaSliceBox4 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-4.png";
-import pizzaSliceBox5 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-5.png";
-import pizzaSliceBox6 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-whychoose.png";
-import pizzaSliceBox7 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import pizzaSliceBoxhero from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-hero.webp";
+import pizzaSliceBox1 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-1.webp";
+import pizzaSliceBox2 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-2.webp";
+import pizzaSliceBox3 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-3.webp";
+import pizzaSliceBox4 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-4.webp";
+import pizzaSliceBox5 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-5.webp";
+import pizzaSliceBox6 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-whychoose.webp";
+import pizzaSliceBox7 from "@/assets/food-boxes/Custom Pizza Slice Boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomPizzaSliceBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -29,16 +29,16 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import candyBoxesWindowHero from "@/assets/candy-products/candy-boxes-window/img-hero.png";
-import candyBoxeWindowImg1 from "@/assets/candy-products/candy-boxes-window/img-1.png";
-import candyBoxeWindowImg2 from "@/assets/candy-products/candy-boxes-window/img-2.png";
-import candyBoxeWindowImg3 from "@/assets/candy-products/candy-boxes-window/img-3.png";
-import candyBoxeWindowImg4 from "@/assets/candy-products/candy-boxes-window/img-4.png";
-import candyBoxeWindowImg5 from "@/assets/candy-products/candy-boxes-window/img-5.png";
-import candyBoxeWindowImg6 from "@/assets/candy-products/candy-boxes-window/img-whychoose.png";
-import candyBoxeWindowImg7 from "@/assets/candy-products/candy-boxes-window/img-different.png";
+import candyBoxesWindowHero from "@/assets/candy-products/candy-boxes-window/img-hero.webp";
+import candyBoxeWindowImg1 from "@/assets/candy-products/candy-boxes-window/img-1.webp";
+import candyBoxeWindowImg2 from "@/assets/candy-products/candy-boxes-window/img-2.webp";
+import candyBoxeWindowImg3 from "@/assets/candy-products/candy-boxes-window/img-3.webp";
+import candyBoxeWindowImg4 from "@/assets/candy-products/candy-boxes-window/img-4.webp";
+import candyBoxeWindowImg5 from "@/assets/candy-products/candy-boxes-window/img-5.webp";
+import candyBoxeWindowImg6 from "@/assets/candy-products/candy-boxes-window/img-whychoose.webp";
+import candyBoxeWindowImg7 from "@/assets/candy-products/candy-boxes-window/img-different.webp";
 
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CandyBoxesWithWindow = () => {
     const [selectedImage, setSelectedImage] = useState(0);

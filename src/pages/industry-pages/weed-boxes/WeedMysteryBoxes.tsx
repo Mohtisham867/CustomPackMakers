@@ -28,15 +28,15 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import weedMysteryBoxesImagehero from "@/assets/weed_boxes/weed-mystery-box/img-hero.png";
-import weedMysteryBoxesImage1 from "@/assets/weed_boxes/weed-mystery-box/img-1.png";
-import weedMysteryBoxesImage2 from "@/assets/weed_boxes/weed-mystery-box/img-2.png";
-import weedMysteryBoxesImage3 from "@/assets/weed_boxes/weed-mystery-box/img-3.png";
-import weedMysteryBoxesImage4 from "@/assets/weed_boxes/weed-mystery-box/img-4.png";
-import weedMysteryBoxesImage5 from "@/assets/weed_boxes/weed-mystery-box/img-5.png";
-import weedMysteryBoxesImage6 from "@/assets/weed_boxes/weed-mystery-box/img-whychoose.png";
-import weedMysteryBoxesImage7 from "@/assets/weed_boxes/weed-mystery-box/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import weedMysteryBoxesImagehero from "@/assets/weed_boxes/weed-mystery-box/img-hero.webp";
+import weedMysteryBoxesImage1 from "@/assets/weed_boxes/weed-mystery-box/img-1.webp";
+import weedMysteryBoxesImage2 from "@/assets/weed_boxes/weed-mystery-box/img-2.webp";
+import weedMysteryBoxesImage3 from "@/assets/weed_boxes/weed-mystery-box/img-3.webp";
+import weedMysteryBoxesImage4 from "@/assets/weed_boxes/weed-mystery-box/img-4.webp";
+import weedMysteryBoxesImage5 from "@/assets/weed_boxes/weed-mystery-box/img-5.webp";
+import weedMysteryBoxesImage6 from "@/assets/weed_boxes/weed-mystery-box/img-whychoose.webp";
+import weedMysteryBoxesImage7 from "@/assets/weed_boxes/weed-mystery-box/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const WeedMysteryBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

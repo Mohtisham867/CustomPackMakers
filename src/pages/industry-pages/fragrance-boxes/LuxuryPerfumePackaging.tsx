@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images specific to this page
-import luxuryPerfumePackaginghero from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-hero.png";
-import luxuryPerfumePackagingimg1 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-1.png";
-import luxuryPerfumePackagingimg2 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-2.png";
-import luxuryPerfumePackagingimg3 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-3.png";
-import luxuryPerfumePackagingimg4 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-4.png";
-import luxuryPerfumePackagingimg5 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-5.png";
-import luxuryPerfumePackagingimg6 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-whychoose.png";
-import luxuryPerfumePackagingimg7 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-different.png";
+import luxuryPerfumePackaginghero from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-hero.webp";
+import luxuryPerfumePackagingimg1 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-1.webp";
+import luxuryPerfumePackagingimg2 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-2.webp";
+import luxuryPerfumePackagingimg3 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-3.webp";
+import luxuryPerfumePackagingimg4 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-4.webp";
+import luxuryPerfumePackagingimg5 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-5.webp";
+import luxuryPerfumePackagingimg6 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-whychoose.webp";
+import luxuryPerfumePackagingimg7 from "@/assets/fragrance-boxes/luxury-perfume-packaging/img-different.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const LuxuryPerfumePackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

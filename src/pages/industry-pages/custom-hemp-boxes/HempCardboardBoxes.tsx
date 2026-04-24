@@ -15,15 +15,15 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import hempCardboardHero from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-hero.png";
-import hempCardboardImg1 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-1.png";
-import hempCardboardImg2 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-2.png";
-import hempCardboardImg3 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-3.png";
-import hempCardboardImg4 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-4.png";
-import hempCardboardImg5 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-5.png";
-import hempCardboardImg6 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-whychoose.png";
-import hempCardboardImg7 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import hempCardboardHero from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-hero.webp";
+import hempCardboardImg1 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-1.webp";
+import hempCardboardImg2 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-2.webp";
+import hempCardboardImg3 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-3.webp";
+import hempCardboardImg4 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-4.webp";
+import hempCardboardImg5 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-5.webp";
+import hempCardboardImg6 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-whychoose.webp";
+import hempCardboardImg7 from "@/assets/hemp-boxes/hemp-cardboard-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", q: "How does hemp cardboard differ from traditional corrugated cardboard?", a: "While visually similar to high-quality kraft corrugated, hemp cardboard utilizes hemp hurd and fibers in its fluting and liner boards. Hemp fibers are longer and stronger than wood pulp, meaning our hemp cardboard provides superior crush resistance and tensile strength even at somewhat lighter board weights, all while being significantly more sustainable." },

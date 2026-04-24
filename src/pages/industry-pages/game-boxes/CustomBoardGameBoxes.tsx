@@ -36,7 +36,7 @@ import playingCardBoxes from "@/assets/game-boxes/playing-card-boxes.webp";
 import subscriptionBoxes from "@/assets/game-boxes/gaming-subscription-box.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomBoardGameBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

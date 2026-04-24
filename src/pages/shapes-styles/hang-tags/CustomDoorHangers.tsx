@@ -29,7 +29,7 @@ import { Plus, Minus } from "lucide-react";
 
 import productHero from "@/assets/hang-tags/custom-door-hangers.webp";
 import hangTagsHero from "@/assets/hang-tags/hang-tags-hero.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomDoorHangers = () => {
     const [selectedImage, setSelectedImage] = useState(0);

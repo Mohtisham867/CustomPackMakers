@@ -15,15 +15,15 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import hempGiftHero from "@/assets/hemp-boxes/hemp-gift-boxes/img-hero.png";
-import hempGiftImg1 from "@/assets/hemp-boxes/hemp-gift-boxes/img-1.png";
-import hempGiftImg2 from "@/assets/hemp-boxes/hemp-gift-boxes/img-2.png";
-import hempGiftImg3 from "@/assets/hemp-boxes/hemp-gift-boxes/img-3.png";
-import hempGiftImg4 from "@/assets/hemp-boxes/hemp-gift-boxes/img-4.png";
-import hempGiftImg5 from "@/assets/hemp-boxes/hemp-gift-boxes/img-5.png";
-import hempGiftImg6 from "@/assets/hemp-boxes/hemp-gift-boxes/img-whychoose.png";
-import hempGiftImg7 from "@/assets/hemp-boxes/hemp-gift-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import hempGiftHero from "@/assets/hemp-boxes/hemp-gift-boxes/img-hero.webp";
+import hempGiftImg1 from "@/assets/hemp-boxes/hemp-gift-boxes/img-1.webp";
+import hempGiftImg2 from "@/assets/hemp-boxes/hemp-gift-boxes/img-2.webp";
+import hempGiftImg3 from "@/assets/hemp-boxes/hemp-gift-boxes/img-3.webp";
+import hempGiftImg4 from "@/assets/hemp-boxes/hemp-gift-boxes/img-4.webp";
+import hempGiftImg5 from "@/assets/hemp-boxes/hemp-gift-boxes/img-5.webp";
+import hempGiftImg6 from "@/assets/hemp-boxes/hemp-gift-boxes/img-whychoose.webp";
+import hempGiftImg7 from "@/assets/hemp-boxes/hemp-gift-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", q: "Do you offer rigid two-piece styles for custom hemp gift boxes?", a: "Yes, we specialize in high-end rigid formats. We construct these luxury two-piece boxes by wrapping our thick, durable chipboard core entirely in premium, textured hemp paper. The result is a highly structured, unyielding box that feels incredibly substantial in the hand." },

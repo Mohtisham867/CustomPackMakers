@@ -30,17 +30,17 @@ import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent"
 
 // Placeholder images (using shoe box images as requested)
 import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import cufflinkBox1 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-1.png";
-import cufflinkBox2 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-2.png";
-import cufflinkBox3 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-3.png";
-import cufflinkBox4 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-4.png";
-import cufflinkBox5 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-5.png";
-import cufflinkBox6 from "@/assets/apparel-boxes/cufflink-boxes/deferent.png";
-import cufflinkBox7 from "@/assets/apparel-boxes/cufflink-boxes/why-choos.png";
-import cufflinkBoxHero from "@/assets/apparel-boxes/cufflink-boxes/cufflink-packaging-hero.png";
+import cufflinkBox1 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-1.webp";
+import cufflinkBox2 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-2.webp";
+import cufflinkBox3 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-3.webp";
+import cufflinkBox4 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-4.webp";
+import cufflinkBox5 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-5.webp";
+import cufflinkBox6 from "@/assets/apparel-boxes/cufflink-boxes/deferent.webp";
+import cufflinkBox7 from "@/assets/apparel-boxes/cufflink-boxes/why-choos.webp";
+import cufflinkBoxHero from "@/assets/apparel-boxes/cufflink-boxes/cufflink-packaging-hero.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CufflinkBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import heroImg from "@/assets/mailer-boxes/tuck-top-mailer-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const TuckTopMailerBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

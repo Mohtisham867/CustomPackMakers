@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import paperFoodTrayshero from "@/assets/food-boxes/paper-food-trays/img-hero.png";
-import paperFoodTrays1 from "@/assets/food-boxes/paper-food-trays/img-1.png";
-import paperFoodTrays2 from "@/assets/food-boxes/paper-food-trays/img-2.png";
-import paperFoodTrays3 from "@/assets/food-boxes/paper-food-trays/img-3.png";
-import paperFoodTrays4 from "@/assets/food-boxes/paper-food-trays/img-4.png";
-import paperFoodTrays5 from "@/assets/food-boxes/paper-food-trays/img-5.png";
-import paperFoodTrays6 from "@/assets/food-boxes/paper-food-trays/img-whychoose.png";
-import paperFoodTrays7 from "@/assets/food-boxes/paper-food-trays/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import paperFoodTrayshero from "@/assets/food-boxes/paper-food-trays/img-hero.webp";
+import paperFoodTrays1 from "@/assets/food-boxes/paper-food-trays/img-1.webp";
+import paperFoodTrays2 from "@/assets/food-boxes/paper-food-trays/img-2.webp";
+import paperFoodTrays3 from "@/assets/food-boxes/paper-food-trays/img-3.webp";
+import paperFoodTrays4 from "@/assets/food-boxes/paper-food-trays/img-4.webp";
+import paperFoodTrays5 from "@/assets/food-boxes/paper-food-trays/img-5.webp";
+import paperFoodTrays6 from "@/assets/food-boxes/paper-food-trays/img-whychoose.webp";
+import paperFoodTrays7 from "@/assets/food-boxes/paper-food-trays/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const PaperFoodTrays = () => {
     const [selectedImage, setSelectedImage] = useState(0);

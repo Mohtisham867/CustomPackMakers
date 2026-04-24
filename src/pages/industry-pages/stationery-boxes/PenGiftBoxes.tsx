@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import penGiftBoxesHero from "@/assets/stationery-boxes/pen-gift-box.png";
-import penGiftBoxes1 from "@/assets/stationery-boxes/pen-gift-box/img-1.png";
-import penGiftBoxes2 from "@/assets/stationery-boxes/pen-gift-box/img-2.png";
-import penGiftBoxes3 from "@/assets/stationery-boxes/pen-gift-box/img-3.png";
-import penGiftBoxes4 from "@/assets/stationery-boxes/pen-gift-box/img-4.png";
-import penGiftBoxes5 from "@/assets/stationery-boxes/pen-gift-box/img-5.png";
-import penGiftBoxes6 from "@/assets/stationery-boxes/pen-gift-box/img-whychoose.png";
-import penGiftBoxes7 from "@/assets/stationery-boxes/pen-gift-box/img-different.png";
+import penGiftBoxesHero from "@/assets/stationery-boxes/pen-gift-box.webp";
+import penGiftBoxes1 from "@/assets/stationery-boxes/pen-gift-box/img-1.webp";
+import penGiftBoxes2 from "@/assets/stationery-boxes/pen-gift-box/img-2.webp";
+import penGiftBoxes3 from "@/assets/stationery-boxes/pen-gift-box/img-3.webp";
+import penGiftBoxes4 from "@/assets/stationery-boxes/pen-gift-box/img-4.webp";
+import penGiftBoxes5 from "@/assets/stationery-boxes/pen-gift-box/img-5.webp";
+import penGiftBoxes6 from "@/assets/stationery-boxes/pen-gift-box/img-whychoose.webp";
+import penGiftBoxes7 from "@/assets/stationery-boxes/pen-gift-box/img-different.webp";
 
 // FAQ Image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const PenGiftBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

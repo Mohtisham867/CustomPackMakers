@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import chocolateGiftBoxeshero from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-hero.png";
-import chocolateGiftBoxesimg1 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-1.png";
-import chocolateGiftBoxesimg2 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-2.png";
-import chocolateGiftBoxesimg3 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-3.png";
-import chocolateGiftBoxesimg4 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-4.png";
-import chocolateGiftBoxesimg5 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-5.png";
-import chocolateGiftBoxesimg6 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-whychoose.png";
-import chocolateGiftBoxesimg7 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import chocolateGiftBoxeshero from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-hero.webp";
+import chocolateGiftBoxesimg1 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-1.webp";
+import chocolateGiftBoxesimg2 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-2.webp";
+import chocolateGiftBoxesimg3 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-3.webp";
+import chocolateGiftBoxesimg4 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-4.webp";
+import chocolateGiftBoxesimg5 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-5.webp";
+import chocolateGiftBoxesimg6 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-whychoose.webp";
+import chocolateGiftBoxesimg7 from "@/assets/gift-boxes/Chocolate-Gift-Boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChocolateGiftBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -37,7 +37,7 @@ import placeholder3 from "@/assets/holographic-bags.webp";
 import placeholder4 from "@/assets/holographic-foiling-boxes.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const HolographicMylarBagsMaterial = () => {
     const [selectedImage, setSelectedImage] = useState(0);

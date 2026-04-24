@@ -20,15 +20,15 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import christmasPillowBoxesHero from "@/assets/holiday-boxes/christmas-pillow-boxe/img-hero.png";
-import christmasPillowBoxesimg1 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-1.png";
-import christmasPillowBoxesimg2 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-2.png";
-import christmasPillowBoxesimg3 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-3.png";
-import christmasPillowBoxesimg4 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-4.png";
-import christmasPillowBoxesimg5 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-5.png";
-import christmasPillowBoxesimg6 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-whychoose.png";
-import christmasPillowBoxesimg7 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import christmasPillowBoxesHero from "@/assets/holiday-boxes/christmas-pillow-boxe/img-hero.webp";
+import christmasPillowBoxesimg1 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-1.webp";
+import christmasPillowBoxesimg2 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-2.webp";
+import christmasPillowBoxesimg3 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-3.webp";
+import christmasPillowBoxesimg4 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-4.webp";
+import christmasPillowBoxesimg5 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-5.webp";
+import christmasPillowBoxesimg6 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-whychoose.webp";
+import christmasPillowBoxesimg7 from "@/assets/holiday-boxes/christmas-pillow-boxe/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", question: "Do you offer rush shipping for Christmas pillow box orders?", answer: "Yes, we prominently offer extremely rapid expedited rush holiday manufacturing incredibly reliably ensuring intensely stressed massive retail corporate brands safely wonderfully receive their massive crucial wholesale seasonal custom boxes heavily well before the critical hectic Christmas deadline entirely perfectly." },

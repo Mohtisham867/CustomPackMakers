@@ -14,15 +14,15 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import donutBoxehero from "@/assets/bakery-products/donut-boxes/img-hero.png";
-import donutimg1 from "@/assets/bakery-products/donut-boxes/img-1.png";
-import donutimg2 from "@/assets/bakery-products/donut-boxes/img-2.png";
-import donutimg3 from "@/assets/bakery-products/donut-boxes/img-3.png";
-import donutimg4 from "@/assets/bakery-products/donut-boxes/img-4.png";
-import donutimg5 from "@/assets/bakery-products/donut-boxes/img-5.png";
-import donutimg6 from "@/assets/bakery-products/donut-boxes/img-whychoose.png";
-import donutimg7 from "@/assets/bakery-products/donut-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import donutBoxehero from "@/assets/bakery-products/donut-boxes/img-hero.webp";
+import donutimg1 from "@/assets/bakery-products/donut-boxes/img-1.webp";
+import donutimg2 from "@/assets/bakery-products/donut-boxes/img-2.webp";
+import donutimg3 from "@/assets/bakery-products/donut-boxes/img-3.webp";
+import donutimg4 from "@/assets/bakery-products/donut-boxes/img-4.webp";
+import donutimg5 from "@/assets/bakery-products/donut-boxes/img-5.webp";
+import donutimg6 from "@/assets/bakery-products/donut-boxes/img-whychoose.webp";
+import donutimg7 from "@/assets/bakery-products/donut-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 const faqs = [

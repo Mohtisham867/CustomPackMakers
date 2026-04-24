@@ -15,7 +15,7 @@ import { RelatedProductPillowBoxes } from "@/components/RelatedProductPillowBoxe
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 import heroImg from "@/assets/pillow-boxes/small_pillow_boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const productName = "Custom Small Pillow Boxes";
 const overviewTitle = "Compact Curved Packaging Designed for Jewelry, Candy & Petite Gifts";

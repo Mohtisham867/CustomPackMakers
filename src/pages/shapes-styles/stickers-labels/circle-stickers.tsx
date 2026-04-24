@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import heroImg from "@/assets/stickers-and-labels/circle-labels.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CircleStickers = () => {
     const [selectedImage, setSelectedImage] = useState(0);

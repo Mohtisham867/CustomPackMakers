@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import bookBoxesHero from "@/assets/stationery-boxes/Book-Box/img-hero.png";
-import bookBoxes1 from "@/assets/stationery-boxes/Book-Box/img-1.png";
-import bookBoxes2 from "@/assets/stationery-boxes/Book-Box/img-2.png";
-import bookBoxes3 from "@/assets/stationery-boxes/Book-Box/img-3.png";
-import bookBoxes4 from "@/assets/stationery-boxes/Book-Box/img-4.png";
-import bookBoxes5 from "@/assets/stationery-boxes/Book-Box/img-5.png";
-import bookBoxes6 from "@/assets/stationery-boxes/Book-Box/img-whychoose.png";
-import bookBoxes7 from "@/assets/stationery-boxes/Book-Box/img-different.png";
+import bookBoxesHero from "@/assets/stationery-boxes/Book-Box/img-hero.webp";
+import bookBoxes1 from "@/assets/stationery-boxes/Book-Box/img-1.webp";
+import bookBoxes2 from "@/assets/stationery-boxes/Book-Box/img-2.webp";
+import bookBoxes3 from "@/assets/stationery-boxes/Book-Box/img-3.webp";
+import bookBoxes4 from "@/assets/stationery-boxes/Book-Box/img-4.webp";
+import bookBoxes5 from "@/assets/stationery-boxes/Book-Box/img-5.webp";
+import bookBoxes6 from "@/assets/stationery-boxes/Book-Box/img-whychoose.webp";
+import bookBoxes7 from "@/assets/stationery-boxes/Book-Box/img-different.webp";
 
 // FAQ Image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const BookBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

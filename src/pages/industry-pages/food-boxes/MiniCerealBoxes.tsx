@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import miniCerealBoxeshero from "@/assets/food-boxes/mini-cereal-boxes/img-hero.png";
-import miniCerealBoxes1 from "@/assets/food-boxes/mini-cereal-boxes/img-1.png";
-import miniCerealBoxes2 from "@/assets/food-boxes/mini-cereal-boxes/img-2.png";
-import miniCerealBoxes3 from "@/assets/food-boxes/mini-cereal-boxes/img-3.png";
-import miniCerealBoxes4 from "@/assets/food-boxes/mini-cereal-boxes/img-4.png";
-import miniCerealBoxes5 from "@/assets/food-boxes/mini-cereal-boxes/img-5.png";
-import miniCerealBoxes6 from "@/assets/food-boxes/mini-cereal-boxes/img-whychoose.png";
-import miniCerealBoxes7 from "@/assets/food-boxes/mini-cereal-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import miniCerealBoxeshero from "@/assets/food-boxes/mini-cereal-boxes/img-hero.webp";
+import miniCerealBoxes1 from "@/assets/food-boxes/mini-cereal-boxes/img-1.webp";
+import miniCerealBoxes2 from "@/assets/food-boxes/mini-cereal-boxes/img-2.webp";
+import miniCerealBoxes3 from "@/assets/food-boxes/mini-cereal-boxes/img-3.webp";
+import miniCerealBoxes4 from "@/assets/food-boxes/mini-cereal-boxes/img-4.webp";
+import miniCerealBoxes5 from "@/assets/food-boxes/mini-cereal-boxes/img-5.webp";
+import miniCerealBoxes6 from "@/assets/food-boxes/mini-cereal-boxes/img-whychoose.webp";
+import miniCerealBoxes7 from "@/assets/food-boxes/mini-cereal-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const MiniCerealBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

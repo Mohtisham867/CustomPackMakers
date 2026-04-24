@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import essentialOilBoxes from "@/assets/cbd-boxes/essential-oil-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const EssentialOilBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

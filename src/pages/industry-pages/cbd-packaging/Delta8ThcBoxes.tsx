@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import delta8ThcBoxes from "@/assets/cbd-boxes/delta-8-thc-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const Delta8ThcBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

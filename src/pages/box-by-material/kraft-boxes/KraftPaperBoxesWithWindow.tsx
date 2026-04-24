@@ -31,7 +31,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Product images
 import kraftWindowHero from "@/assets/kraft-boxes/kraft-paper-boxes-with-window.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const KraftPaperBoxesWithWindow = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import cigaretteBoxesHero from "@/assets/child-resistant-packaging/child-resistant-cigarette-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChildResistantCigaretteBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

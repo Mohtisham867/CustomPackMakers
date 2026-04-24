@@ -15,15 +15,15 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import hempPaperHero from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-hero.png";
-import hempPaperImg1 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-1.png";
-import hempPaperImg2 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-2.png";
-import hempPaperImg3 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-3.png";
-import hempPaperImg4 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-4.png";
-import hempPaperImg5 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-5.png";
-import hempPaperImg6 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-whychoose.png";
-import hempPaperImg7 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import hempPaperHero from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-hero.webp";
+import hempPaperImg1 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-1.webp";
+import hempPaperImg2 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-2.webp";
+import hempPaperImg3 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-3.webp";
+import hempPaperImg4 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-4.webp";
+import hempPaperImg5 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-5.webp";
+import hempPaperImg6 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-whychoose.webp";
+import hempPaperImg7 from "@/assets/hemp-boxes/Hemp-Paper-Boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", q: "Can you print high-resolution imagery on textured hemp paper?", a: "Yes, despite the natural texture of hemp paper, our advanced printing presses are calibrated to deliver high-resolution imagery and crisp typography. We utilize specialized soy-based inks that absorb perfectly into the fibers, providing vibrant color reproduction without losing the authentic, organic feel of the board." },

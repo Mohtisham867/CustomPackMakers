@@ -31,18 +31,18 @@ import { RelatedProductSustainable } from "@/components/RelatedProductSustainabl
 
 
 // Specific product images
-import kraftTuckTopBoxesHero from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-hero.png";
-import kraftTuckTopBoxes1 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-1.png";
-import kraftTuckTopBoxes2 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-2.png";
-import kraftTuckTopBoxes3 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-3.png";
-import kraftTuckTopBoxes4 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-4.png";
-import kraftTuckTopBoxes5 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-5.png";
-import kraftTuckTopBoxes6 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-whychoose.png";
-import kraftTuckTopBoxes7 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-different.png";
+import kraftTuckTopBoxesHero from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-hero.webp";
+import kraftTuckTopBoxes1 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-1.webp";
+import kraftTuckTopBoxes2 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-2.webp";
+import kraftTuckTopBoxes3 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-3.webp";
+import kraftTuckTopBoxes4 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-4.webp";
+import kraftTuckTopBoxes5 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-5.webp";
+import kraftTuckTopBoxes6 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-whychoose.webp";
+import kraftTuckTopBoxes7 from "@/assets/sustainable-packaging/kraft-tuck-top-boxes/img-different.webp";
 
 
 //FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 
 

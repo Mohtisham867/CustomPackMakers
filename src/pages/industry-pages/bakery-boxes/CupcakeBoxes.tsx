@@ -13,15 +13,15 @@ import { Label } from '@/components/ui/label';
 import { TechnicalSpecsSection } from '@/components/TechnicalSpecsSection';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Plus, Minus } from 'lucide-react';
-import cupcakeBoxeshero from '@/assets/bakery-products/cupcake-boxes/img-hero.png';
-import cupcakeBoxesimg1 from '@/assets/bakery-products/cupcake-boxes/img-1.png';
-import cupcakeBoxesimg2 from '@/assets/bakery-products/cupcake-boxes/img-2.png';
-import cupcakeBoxesimg3 from '@/assets/bakery-products/cupcake-boxes/img-3.png';
-import cupcakeBoxesimg4 from '@/assets/bakery-products/cupcake-boxes/img-4.png';
-import cupcakeBoxesimg5 from '@/assets/bakery-products/cupcake-boxes/img-5.png';
-import cupcakeBoxesimg6 from '@/assets/bakery-products/cupcake-boxes/img-whychoose.png';
-import cupcakeBoxesimg7 from '@/assets/bakery-products/cupcake-boxes/img-different.png';
-import FAQimage from '@/assets/FAQ-image.png';
+import cupcakeBoxeshero from '@/assets/bakery-products/cupcake-boxes/img-hero.webp';
+import cupcakeBoxesimg1 from '@/assets/bakery-products/cupcake-boxes/img-1.webp';
+import cupcakeBoxesimg2 from '@/assets/bakery-products/cupcake-boxes/img-2.webp';
+import cupcakeBoxesimg3 from '@/assets/bakery-products/cupcake-boxes/img-3.webp';
+import cupcakeBoxesimg4 from '@/assets/bakery-products/cupcake-boxes/img-4.webp';
+import cupcakeBoxesimg5 from '@/assets/bakery-products/cupcake-boxes/img-5.webp';
+import cupcakeBoxesimg6 from '@/assets/bakery-products/cupcake-boxes/img-whychoose.webp';
+import cupcakeBoxesimg7 from '@/assets/bakery-products/cupcake-boxes/img-different.webp';
+import FAQimage from '@/assets/FAQ-image.webp';
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 const CupcakeBoxes = () => {

@@ -28,15 +28,15 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import weedGiftBoxImagehero from "@/assets/weed_boxes/weed-gift-box/img-hero.png";
-import weedGiftBoxImage1 from "@/assets/weed_boxes/weed-gift-box/img-1.png";
-import weedGiftBoxImage2 from "@/assets/weed_boxes/weed-gift-box/img-2.png";
-import weedGiftBoxImage3 from "@/assets/weed_boxes/weed-gift-box/img-3.png";
-import weedGiftBoxImage4 from "@/assets/weed_boxes/weed-gift-box/img-4.png";
-import weedGiftBoxImage5 from "@/assets/weed_boxes/weed-gift-box/img-5.png";
-import weedGiftBoxImage6 from "@/assets/weed_boxes/weed-gift-box/img-whychoose.png";
-import weedGiftBoxImage7 from "@/assets/weed_boxes/weed-gift-box/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import weedGiftBoxImagehero from "@/assets/weed_boxes/weed-gift-box/img-hero.webp";
+import weedGiftBoxImage1 from "@/assets/weed_boxes/weed-gift-box/img-1.webp";
+import weedGiftBoxImage2 from "@/assets/weed_boxes/weed-gift-box/img-2.webp";
+import weedGiftBoxImage3 from "@/assets/weed_boxes/weed-gift-box/img-3.webp";
+import weedGiftBoxImage4 from "@/assets/weed_boxes/weed-gift-box/img-4.webp";
+import weedGiftBoxImage5 from "@/assets/weed_boxes/weed-gift-box/img-5.webp";
+import weedGiftBoxImage6 from "@/assets/weed_boxes/weed-gift-box/img-whychoose.webp";
+import weedGiftBoxImage7 from "@/assets/weed_boxes/weed-gift-box/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const WeedGiftBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

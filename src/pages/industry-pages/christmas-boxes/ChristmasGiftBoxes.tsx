@@ -17,7 +17,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Plus, Minus } from "lucide-react";
 
 import productHero from "@/assets/christmas-products/christmas-gift-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 import christmasChocolateBoxes from "@/assets/christmas-products/christmas-chocolate-boxes.webp";
 import christmasTags from "@/assets/christmas-products/christmas-tags.webp";
 import christmasGableBoxes from "@/assets/christmas-products/christmas-gable-boxes.webp";

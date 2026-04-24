@@ -18,7 +18,7 @@ import { Plus, Minus } from "lucide-react";
 import heroImg from "@/assets/display-boxes/vape-display-boxes.webp";
 import displayImg from "@/assets/display-boxes/display-boxes-hero.webp";
 import cbdImg from "@/assets/display-boxes/cbd-display-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const VapeDisplayBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

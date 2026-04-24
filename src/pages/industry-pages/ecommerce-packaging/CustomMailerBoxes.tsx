@@ -1,4 +1,4 @@
-import productHero from "@/assets/e-commerce/Mailer box.png";
+import productHero from "@/assets/e-commerce/Mailer box.webp";
 import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -30,7 +30,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomMailerBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

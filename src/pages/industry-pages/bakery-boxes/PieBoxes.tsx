@@ -13,15 +13,15 @@ import { Label } from '@/components/ui/label';
 import { TechnicalSpecsSection } from '@/components/TechnicalSpecsSection';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Plus, Minus } from 'lucide-react';
-import pieboxehero from '@/assets/bakery-products/Pie-Boxes/img-hero.png';
-import pieimg1 from '@/assets/bakery-products/Pie-Boxes/img-1.png';
-import pieimg2 from '@/assets/bakery-products/Pie-Boxes/img-2.png';
-import pieimg3 from '@/assets/bakery-products/Pie-Boxes/img-3.png';
-import pieimg4 from '@/assets/bakery-products/Pie-Boxes/img-4.png';
-import pieimg5 from '@/assets/bakery-products/Pie-Boxes/img-5.png';
-import pieimg6 from '@/assets/bakery-products/Pie-Boxes/img-whychoose.png';
-import pieimg7 from '@/assets/bakery-products/Pie-Boxes/img-different.png';
-import FAQimage from '@/assets/FAQ-image.png';
+import pieboxehero from '@/assets/bakery-products/Pie-Boxes/img-hero.webp';
+import pieimg1 from '@/assets/bakery-products/Pie-Boxes/img-1.webp';
+import pieimg2 from '@/assets/bakery-products/Pie-Boxes/img-2.webp';
+import pieimg3 from '@/assets/bakery-products/Pie-Boxes/img-3.webp';
+import pieimg4 from '@/assets/bakery-products/Pie-Boxes/img-4.webp';
+import pieimg5 from '@/assets/bakery-products/Pie-Boxes/img-5.webp';
+import pieimg6 from '@/assets/bakery-products/Pie-Boxes/img-whychoose.webp';
+import pieimg7 from '@/assets/bakery-products/Pie-Boxes/img-different.webp';
+import FAQimage from '@/assets/FAQ-image.webp';
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 const PieBoxes = () => {

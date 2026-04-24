@@ -13,15 +13,15 @@ import { Label } from '@/components/ui/label';
 import { TechnicalSpecsSection } from '@/components/TechnicalSpecsSection';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Plus, Minus } from 'lucide-react';
-import macaronboxeshero from '@/assets/bakery-products/Macaron-Boxes/img-hero.png';
-import macronimg1 from '@/assets/bakery-products/Macaron-Boxes/img-1.png';
-import macronimg2 from '@/assets/bakery-products/Macaron-Boxes/img-2.png';
-import macronimg3 from '@/assets/bakery-products/Macaron-Boxes/img-3.png';
-import macronimg4 from '@/assets/bakery-products/Macaron-Boxes/img-4.png';
-import macronimg5 from '@/assets/bakery-products/Macaron-Boxes/img-5.png';
-import macronimg6 from '@/assets/bakery-products/Macaron-Boxes/img-whychoose.png';
-import macronimg7 from '@/assets/bakery-products/Macaron-Boxes/img-different.png';
-import FAQimage from '@/assets/FAQ-image.png';
+import macaronboxeshero from '@/assets/bakery-products/Macaron-Boxes/img-hero.webp';
+import macronimg1 from '@/assets/bakery-products/Macaron-Boxes/img-1.webp';
+import macronimg2 from '@/assets/bakery-products/Macaron-Boxes/img-2.webp';
+import macronimg3 from '@/assets/bakery-products/Macaron-Boxes/img-3.webp';
+import macronimg4 from '@/assets/bakery-products/Macaron-Boxes/img-4.webp';
+import macronimg5 from '@/assets/bakery-products/Macaron-Boxes/img-5.webp';
+import macronimg6 from '@/assets/bakery-products/Macaron-Boxes/img-whychoose.webp';
+import macronimg7 from '@/assets/bakery-products/Macaron-Boxes/img-different.webp';
+import FAQimage from '@/assets/FAQ-image.webp';
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 const MacaronBoxes = () => {

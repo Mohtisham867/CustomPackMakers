@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import heroImage from "@/assets/subscription-boxes/food-subscription-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const FoodSubscriptionBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -15,15 +15,15 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import teaboxeshero from "@/assets/hemp-boxes/hemp-tea-bags/img-hero.png";
-import teaboxesimg1 from "@/assets/hemp-boxes/hemp-tea-bags/img-1.png";
-import teaboxesimg2 from "@/assets/hemp-boxes/hemp-tea-bags/img-2.png";
-import teaboxesimg3 from "@/assets/hemp-boxes/hemp-tea-bags/img-3.png";
-import teaboxesimg4 from "@/assets/hemp-boxes/hemp-tea-bags/img-4.png";
-import teaboxesimg5 from "@/assets/hemp-boxes/hemp-tea-bags/img-5.png";
-import teaboxesimg6 from "@/assets/hemp-boxes/hemp-tea-bags/img-whychoose.png";
-import teaboxesimg7 from "@/assets/hemp-boxes/hemp-tea-bags/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import teaboxeshero from "@/assets/hemp-boxes/hemp-tea-bags/img-hero.webp";
+import teaboxesimg1 from "@/assets/hemp-boxes/hemp-tea-bags/img-1.webp";
+import teaboxesimg2 from "@/assets/hemp-boxes/hemp-tea-bags/img-2.webp";
+import teaboxesimg3 from "@/assets/hemp-boxes/hemp-tea-bags/img-3.webp";
+import teaboxesimg4 from "@/assets/hemp-boxes/hemp-tea-bags/img-4.webp";
+import teaboxesimg5 from "@/assets/hemp-boxes/hemp-tea-bags/img-5.webp";
+import teaboxesimg6 from "@/assets/hemp-boxes/hemp-tea-bags/img-whychoose.webp";
+import teaboxesimg7 from "@/assets/hemp-boxes/hemp-tea-bags/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", q: "Will hemp packaging alter the flavor or aroma of my loose-leaf tea?", a: "No. Our premium hemp cardstock is completely odorless and tasteless. Furthermore, we seal the interior of the boxes with food-safe, plant-based barriers that ensure the delicate volatile oils and aromas of your tea remain perfectly preserved without any external contamination." },

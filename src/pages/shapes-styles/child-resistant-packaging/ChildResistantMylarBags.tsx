@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import mylarBagsHero from "@/assets/child-resistant-packaging/child-resistant-mylar-bags.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChildResistantMylarBags = () => {
     const [selectedImage, setSelectedImage] = useState(0);

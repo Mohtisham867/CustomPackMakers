@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import condomBoxeshero from "@/assets/pharma-packaging/condom-boxes/img-hero.png";
-import condomBoxesimg1 from "@/assets/pharma-packaging/condom-boxes/img-1.png";
-import condomBoxesimg2 from "@/assets/pharma-packaging/condom-boxes/img-2.png";
-import condomBoxesimg3 from "@/assets/pharma-packaging/condom-boxes/img-3.png";
-import condomBoxesimg4 from "@/assets/pharma-packaging/condom-boxes/img-4.png";
-import condomBoxesimg5 from "@/assets/pharma-packaging/condom-boxes/img-5.png";
-import condomBoxesimg6 from "@/assets/pharma-packaging/condom-boxes/img-whychoose.png";
-import condomBoxesimg7 from "@/assets/pharma-packaging/condom-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import condomBoxeshero from "@/assets/pharma-packaging/condom-boxes/img-hero.webp";
+import condomBoxesimg1 from "@/assets/pharma-packaging/condom-boxes/img-1.webp";
+import condomBoxesimg2 from "@/assets/pharma-packaging/condom-boxes/img-2.webp";
+import condomBoxesimg3 from "@/assets/pharma-packaging/condom-boxes/img-3.webp";
+import condomBoxesimg4 from "@/assets/pharma-packaging/condom-boxes/img-4.webp";
+import condomBoxesimg5 from "@/assets/pharma-packaging/condom-boxes/img-5.webp";
+import condomBoxesimg6 from "@/assets/pharma-packaging/condom-boxes/img-whychoose.webp";
+import condomBoxesimg7 from "@/assets/pharma-packaging/condom-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CondomBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

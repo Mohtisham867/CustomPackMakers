@@ -29,17 +29,17 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import socksBoxeshero from "@/assets/apparel-boxes/socks-boxes/img-hero.png";
-import socksboxe1 from "@/assets/apparel-boxes/socks-boxes/img-1.png";
-import socksboxe2 from "@/assets/apparel-boxes/socks-boxes/img-2.png";
-import socksboxe3 from "@/assets/apparel-boxes/socks-boxes/img-3.png";
-import socksboxe4 from "@/assets/apparel-boxes/socks-boxes/img-4.png";
-import socksboxe5 from "@/assets/apparel-boxes/socks-boxes/img-5.png";
-import socksboxe6 from "@/assets/apparel-boxes/socks-boxes/img-whychoose.png";
-import socksboxe7 from "@/assets/apparel-boxes/socks-boxes/img-defferent.png";
+import socksBoxeshero from "@/assets/apparel-boxes/socks-boxes/img-hero.webp";
+import socksboxe1 from "@/assets/apparel-boxes/socks-boxes/img-1.webp";
+import socksboxe2 from "@/assets/apparel-boxes/socks-boxes/img-2.webp";
+import socksboxe3 from "@/assets/apparel-boxes/socks-boxes/img-3.webp";
+import socksboxe4 from "@/assets/apparel-boxes/socks-boxes/img-4.webp";
+import socksboxe5 from "@/assets/apparel-boxes/socks-boxes/img-5.webp";
+import socksboxe6 from "@/assets/apparel-boxes/socks-boxes/img-whychoose.webp";
+import socksboxe7 from "@/assets/apparel-boxes/socks-boxes/img-defferent.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const SocksBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -30,7 +30,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Specific product images
 import heroImg from "@/assets/mailer-boxes/vinyl-record-mailers.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const VinylRecordMailers = () => {
     const [selectedImage, setSelectedImage] = useState(0);

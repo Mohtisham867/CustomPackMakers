@@ -28,15 +28,15 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import cannabisvapepackagingImagehero from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-hero.png";
-import cannabisvapepackagingImage1 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-1.png";
-import cannabisvapepackagingImage2 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-2.png";
-import cannabisvapepackagingImage3 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-3.png";
-import cannabisvapepackagingImage4 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-4.png";
-import cannabisvapepackagingImage5 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-5.png";
-import cannabisvapepackagingImage6 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-whychoose.png";
-import cannabisvapepackagingImage7 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import cannabisvapepackagingImagehero from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-hero.webp";
+import cannabisvapepackagingImage1 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-1.webp";
+import cannabisvapepackagingImage2 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-2.webp";
+import cannabisvapepackagingImage3 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-3.webp";
+import cannabisvapepackagingImage4 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-4.webp";
+import cannabisvapepackagingImage5 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-5.webp";
+import cannabisvapepackagingImage6 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-whychoose.webp";
+import cannabisvapepackagingImage7 from "@/assets/vape-boxes/Cannabis-Vape-Packaging/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CannabisVapePackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

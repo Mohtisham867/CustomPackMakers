@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import jointPackagingHero from "@/assets/child-resistant-packaging/child-resistant-joint-packaging.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChildResistantJointPackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

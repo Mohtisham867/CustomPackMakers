@@ -31,7 +31,7 @@ import { Plus, Minus } from "lucide-react";
 
 
 // Image Imports
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 import mainBeardOil from "@/assets/cosmetic-boxes/Custom Beard Oil Boxes.webp";
 
 const CustomBeardOilBoxes = () => {

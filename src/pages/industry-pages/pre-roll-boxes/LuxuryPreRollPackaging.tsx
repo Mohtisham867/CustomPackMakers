@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import luxuryprerollpackaginghero from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-hero.png";
-import luxuryprerollpackagingimg1 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-1.png";
-import luxuryprerollpackagingimg2 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-2.png";
-import luxuryprerollpackagingimg3 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-3.png";
-import luxuryprerollpackagingimg4 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-4.png";
-import luxuryprerollpackagingimg5 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-5.png";
-import luxuryprerollpackagingimg6 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-whychoose.png";
-import luxuryprerollpackagingimg7 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import luxuryprerollpackaginghero from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-hero.webp";
+import luxuryprerollpackagingimg1 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-1.webp";
+import luxuryprerollpackagingimg2 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-2.webp";
+import luxuryprerollpackagingimg3 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-3.webp";
+import luxuryprerollpackagingimg4 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-4.webp";
+import luxuryprerollpackagingimg5 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-5.webp";
+import luxuryprerollpackagingimg6 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-whychoose.webp";
+import luxuryprerollpackagingimg7 from "@/assets/pre-roll-boxes/luxury-pre-roll-packaging/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const LuxuryPreRollPackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

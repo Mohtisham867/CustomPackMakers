@@ -29,17 +29,17 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import tShirtBoxehero from "@/assets/apparel-boxes/tshirt-boxes/img-hero.png";
-import tShirtBox1 from "@/assets/apparel-boxes/tshirt-boxes/img-1.png";
-import tShirtBox2 from "@/assets/apparel-boxes/tshirt-boxes/img-2.png";
-import tShirtBox3 from "@/assets/apparel-boxes/tshirt-boxes/img-3.png";
-import tShirtBox4 from "@/assets/apparel-boxes/tshirt-boxes/img-4.png";
-import tShirtBox5 from "@/assets/apparel-boxes/tshirt-boxes/img-5.png";
-import tShirtBox6 from "@/assets/apparel-boxes/tshirt-boxes/img-whychoose.png";
-import tShirtBox7 from "@/assets/apparel-boxes/tshirt-boxes/img-defferent.png";
+import tShirtBoxehero from "@/assets/apparel-boxes/tshirt-boxes/img-hero.webp";
+import tShirtBox1 from "@/assets/apparel-boxes/tshirt-boxes/img-1.webp";
+import tShirtBox2 from "@/assets/apparel-boxes/tshirt-boxes/img-2.webp";
+import tShirtBox3 from "@/assets/apparel-boxes/tshirt-boxes/img-3.webp";
+import tShirtBox4 from "@/assets/apparel-boxes/tshirt-boxes/img-4.webp";
+import tShirtBox5 from "@/assets/apparel-boxes/tshirt-boxes/img-5.webp";
+import tShirtBox6 from "@/assets/apparel-boxes/tshirt-boxes/img-whychoose.webp";
+import tShirtBox7 from "@/assets/apparel-boxes/tshirt-boxes/img-defferent.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const TShirtBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

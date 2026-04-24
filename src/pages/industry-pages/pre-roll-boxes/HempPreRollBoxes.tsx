@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import hempprerollhero from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-hero.png";
-import hempprerollimg1 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-1.png";
-import hempprerollimg2 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-2.png";
-import hempprerollimg3 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-3.png";
-import hempprerollimg4 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-4.png";
-import hempprerollimg5 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-5.png";
-import hempprerollimg6 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-whychoose.png";
-import hempprerollimg7 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import hempprerollhero from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-hero.webp";
+import hempprerollimg1 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-1.webp";
+import hempprerollimg2 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-2.webp";
+import hempprerollimg3 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-3.webp";
+import hempprerollimg4 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-4.webp";
+import hempprerollimg5 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-5.webp";
+import hempprerollimg6 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-whychoose.webp";
+import hempprerollimg7 from "@/assets/pre-roll-boxes/hemp-pre-roll-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const HempPreRollBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -29,9 +29,9 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImage from "@/assets/candy-products/Custom Candy Boxes hero.png";
+import heroImage from "@/assets/candy-products/Custom Candy Boxes hero.webp";
 import gummyBoxes from "@/assets/candy-products/custom-gummy-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomGummyBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

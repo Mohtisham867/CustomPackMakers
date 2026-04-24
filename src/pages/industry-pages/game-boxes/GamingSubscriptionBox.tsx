@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images specific to this page
-import subscriptionBoxeshero from "@/assets/game-boxes/gaming-subscription-box/img-hero.png";
-import subscriptionBoxes1 from "@/assets/game-boxes/gaming-subscription-box/img-1.png";
-import subscriptionBoxes2 from "@/assets/game-boxes/gaming-subscription-box/img-2.png";
-import subscriptionBoxes3 from "@/assets/game-boxes/gaming-subscription-box/img-3.png";
-import subscriptionBoxes4 from "@/assets/game-boxes/gaming-subscription-box/img-4.png";
-import subscriptionBoxes5 from "@/assets/game-boxes/gaming-subscription-box/img-5.png";
-import subscriptionBoxes6 from "@/assets/game-boxes/gaming-subscription-box/img-whychoose.png";
-import subscriptionBoxes7 from "@/assets/game-boxes/gaming-subscription-box/img-different.png";
+import subscriptionBoxeshero from "@/assets/game-boxes/gaming-subscription-box/img-hero.webp";
+import subscriptionBoxes1 from "@/assets/game-boxes/gaming-subscription-box/img-1.webp";
+import subscriptionBoxes2 from "@/assets/game-boxes/gaming-subscription-box/img-2.webp";
+import subscriptionBoxes3 from "@/assets/game-boxes/gaming-subscription-box/img-3.webp";
+import subscriptionBoxes4 from "@/assets/game-boxes/gaming-subscription-box/img-4.webp";
+import subscriptionBoxes5 from "@/assets/game-boxes/gaming-subscription-box/img-5.webp";
+import subscriptionBoxes6 from "@/assets/game-boxes/gaming-subscription-box/img-whychoose.webp";
+import subscriptionBoxes7 from "@/assets/game-boxes/gaming-subscription-box/img-different.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const GamingSubscriptionBox = () => {
     const [selectedImage, setSelectedImage] = useState(0);

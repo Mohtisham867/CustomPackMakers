@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Basketball Boxes
-import basketballHero from "@/assets/sports-boxes/basketball-boxes/img-hero.png";
-import basketball1 from "@/assets/sports-boxes/basketball-boxes/img-1.png";
-import basketball2 from "@/assets/sports-boxes/basketball-boxes/img-2.png";
-import basketball3 from "@/assets/sports-boxes/basketball-boxes/img-3.png";
-import basketball4 from "@/assets/sports-boxes/basketball-boxes/img-4.png";
-import basketball5 from "@/assets/sports-boxes/basketball-boxes/img-5.png";
-import basketball6 from "@/assets/sports-boxes/basketball-boxes/img-whychoose.png";
-import basketball7 from "@/assets/sports-boxes/basketball-boxes/img-different.png";
+import basketballHero from "@/assets/sports-boxes/basketball-boxes/img-hero.webp";
+import basketball1 from "@/assets/sports-boxes/basketball-boxes/img-1.webp";
+import basketball2 from "@/assets/sports-boxes/basketball-boxes/img-2.webp";
+import basketball3 from "@/assets/sports-boxes/basketball-boxes/img-3.webp";
+import basketball4 from "@/assets/sports-boxes/basketball-boxes/img-4.webp";
+import basketball5 from "@/assets/sports-boxes/basketball-boxes/img-5.webp";
+import basketball6 from "@/assets/sports-boxes/basketball-boxes/img-whychoose.webp";
+import basketball7 from "@/assets/sports-boxes/basketball-boxes/img-different.webp";
 
 //FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const BasketballBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

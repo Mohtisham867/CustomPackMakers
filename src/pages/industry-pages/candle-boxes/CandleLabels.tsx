@@ -29,7 +29,7 @@ import subscriptionImg from "@/assets/candle-products/candle-subscription-boxes.
 import luxuryImg from "@/assets/candle-products/luxury-candle-boxes.webp";
 import wishesImg from "@/assets/candle-products/16 Wishes Candle Boxes.webp";
 import dustImg from "@/assets/candle-products/Candle Dust Covers.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const carouselProducts = [
     { name: "Custom Candle Display Boxes", image: displayImg, description: "Showcase candles with elegant display boxes featuring window cutouts and premium presentation finishes", link: "/industries/candle-boxes/custom-candle-display-boxes" },

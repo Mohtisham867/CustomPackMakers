@@ -29,17 +29,17 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import underwearBoxeshero from "@/assets/apparel-boxes/underwear-boxes/img-hero.png";
-import underwearBoxes1 from "@/assets/apparel-boxes/underwear-boxes/img-1.png";
-import underwearBoxes2 from "@/assets/apparel-boxes/underwear-boxes/img-2.png";
-import underwearBoxes3 from "@/assets/apparel-boxes/underwear-boxes/img-3.png";
-import underwearBoxes4 from "@/assets/apparel-boxes/underwear-boxes/img-4.png";
-import underwearBoxes5 from "@/assets/apparel-boxes/underwear-boxes/img-5.png";
-import underwearBoxes6 from "@/assets/apparel-boxes/underwear-boxes/img-whychoose.png";
-import underwearBoxes7 from "@/assets/apparel-boxes/underwear-boxes/img-defferent.png";
+import underwearBoxeshero from "@/assets/apparel-boxes/underwear-boxes/img-hero.webp";
+import underwearBoxes1 from "@/assets/apparel-boxes/underwear-boxes/img-1.webp";
+import underwearBoxes2 from "@/assets/apparel-boxes/underwear-boxes/img-2.webp";
+import underwearBoxes3 from "@/assets/apparel-boxes/underwear-boxes/img-3.webp";
+import underwearBoxes4 from "@/assets/apparel-boxes/underwear-boxes/img-4.webp";
+import underwearBoxes5 from "@/assets/apparel-boxes/underwear-boxes/img-5.webp";
+import underwearBoxes6 from "@/assets/apparel-boxes/underwear-boxes/img-whychoose.webp";
+import underwearBoxes7 from "@/assets/apparel-boxes/underwear-boxes/img-defferent.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const UnderwearBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

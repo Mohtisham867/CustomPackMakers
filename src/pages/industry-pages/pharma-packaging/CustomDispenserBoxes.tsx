@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import dispenserBoxeshero from "@/assets/pharma-packaging/dispenser-boxes/img-hero.png";
-import dispenserBoxesimg1 from "@/assets/pharma-packaging/dispenser-boxes/img-1.png";
-import dispenserBoxesimg2 from "@/assets/pharma-packaging/dispenser-boxes/img-2.png";
-import dispenserBoxesimg3 from "@/assets/pharma-packaging/dispenser-boxes/img-3.png";
-import dispenserBoxesimg4 from "@/assets/pharma-packaging/dispenser-boxes/img-4.png";
-import dispenserBoxesimg5 from "@/assets/pharma-packaging/dispenser-boxes/img-5.png";
-import dispenserBoxesimg6 from "@/assets/pharma-packaging/dispenser-boxes/img-whychoose.png";
-import dispenserBoxesimg7 from "@/assets/pharma-packaging/dispenser-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import dispenserBoxeshero from "@/assets/pharma-packaging/dispenser-boxes/img-hero.webp";
+import dispenserBoxesimg1 from "@/assets/pharma-packaging/dispenser-boxes/img-1.webp";
+import dispenserBoxesimg2 from "@/assets/pharma-packaging/dispenser-boxes/img-2.webp";
+import dispenserBoxesimg3 from "@/assets/pharma-packaging/dispenser-boxes/img-3.webp";
+import dispenserBoxesimg4 from "@/assets/pharma-packaging/dispenser-boxes/img-4.webp";
+import dispenserBoxesimg5 from "@/assets/pharma-packaging/dispenser-boxes/img-5.webp";
+import dispenserBoxesimg6 from "@/assets/pharma-packaging/dispenser-boxes/img-whychoose.webp";
+import dispenserBoxesimg7 from "@/assets/pharma-packaging/dispenser-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomDispenserBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

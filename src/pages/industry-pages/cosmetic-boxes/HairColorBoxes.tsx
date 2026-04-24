@@ -31,7 +31,7 @@ import { Plus, Minus } from "lucide-react";
 
 
 // Image Imports
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 import mainHairColor from "@/assets/cosmetic-boxes/hair-color-boxes.webp";
 
 const HairColorBoxes = () => {

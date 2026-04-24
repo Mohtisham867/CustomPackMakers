@@ -15,15 +15,15 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import eliquidboxehero from "@/assets/hemp-boxes/e-liquid-boxes/img-hero.png";
-import eliquidboxeimg1 from "@/assets/hemp-boxes/e-liquid-boxes/img-1.png";
-import eliquidboxeimg2 from "@/assets/hemp-boxes/e-liquid-boxes/img-2.png";
-import eliquidboxeimg3 from "@/assets/hemp-boxes/e-liquid-boxes/img-3.png";
-import eliquidboxeimg4 from "@/assets/hemp-boxes/e-liquid-boxes/img-4.png";
-import eliquidboxeimg5 from "@/assets/hemp-boxes/e-liquid-boxes/img-5.png";
-import eliquidboxeimg6 from "@/assets/hemp-boxes/e-liquid-boxes/img-whychoose.png";
-import eliquidboxeimg7 from "@/assets/hemp-boxes/e-liquid-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import eliquidboxehero from "@/assets/hemp-boxes/e-liquid-boxes/img-hero.webp";
+import eliquidboxeimg1 from "@/assets/hemp-boxes/e-liquid-boxes/img-1.webp";
+import eliquidboxeimg2 from "@/assets/hemp-boxes/e-liquid-boxes/img-2.webp";
+import eliquidboxeimg3 from "@/assets/hemp-boxes/e-liquid-boxes/img-3.webp";
+import eliquidboxeimg4 from "@/assets/hemp-boxes/e-liquid-boxes/img-4.webp";
+import eliquidboxeimg5 from "@/assets/hemp-boxes/e-liquid-boxes/img-5.webp";
+import eliquidboxeimg6 from "@/assets/hemp-boxes/e-liquid-boxes/img-whychoose.webp";
+import eliquidboxeimg7 from "@/assets/hemp-boxes/e-liquid-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", q: "Are hemp e-liquid boxes strong enough to protect glass vape juice bottles?", a: "Yes, absolutely. We utilize high-density hemp folding carton board specifically engineered to absorb shock. Whether you are packaging small 10ml plastic drippers or heavy 60ml and 120ml glass dropper bottles, our hemp boxes provide a tough outer shell that minimizes impact damage during transit." },

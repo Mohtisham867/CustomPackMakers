@@ -28,17 +28,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Placeholder images
-import hatBoxeshero from "@/assets/apparel-boxes/hat-boxes/img-hero.png";
-import hatBoxes1 from "@/assets/apparel-boxes/hat-boxes/img-1.png";
-import hatBoxes2 from "@/assets/apparel-boxes/hat-boxes/img-2.png";
-import hatBoxes3 from "@/assets/apparel-boxes/hat-boxes/img-3.png";
-import hatBoxes4 from "@/assets/apparel-boxes/hat-boxes/img-4.png";
-import hatBoxes5 from "@/assets/apparel-boxes/hat-boxes/img-5.png";
-import hatBoxes6 from "@/assets/apparel-boxes/hat-boxes/img-whychoose.png";
-import hatBoxes7 from "@/assets/apparel-boxes/hat-boxes/img-defferent.png";
+import hatBoxeshero from "@/assets/apparel-boxes/hat-boxes/img-hero.webp";
+import hatBoxes1 from "@/assets/apparel-boxes/hat-boxes/img-1.webp";
+import hatBoxes2 from "@/assets/apparel-boxes/hat-boxes/img-2.webp";
+import hatBoxes3 from "@/assets/apparel-boxes/hat-boxes/img-3.webp";
+import hatBoxes4 from "@/assets/apparel-boxes/hat-boxes/img-4.webp";
+import hatBoxes5 from "@/assets/apparel-boxes/hat-boxes/img-5.webp";
+import hatBoxes6 from "@/assets/apparel-boxes/hat-boxes/img-whychoose.webp";
+import hatBoxes7 from "@/assets/apparel-boxes/hat-boxes/img-defferent.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const HatBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

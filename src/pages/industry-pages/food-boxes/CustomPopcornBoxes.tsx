@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import popcornBoxeshero from "@/assets/food-boxes/popcorn-boxes/img-hero.png";
-import popcornBoxes1 from "@/assets/food-boxes/popcorn-boxes/img-1.png";
-import popcornBoxes2 from "@/assets/food-boxes/popcorn-boxes/img-2.png";
-import popcornBoxes3 from "@/assets/food-boxes/popcorn-boxes/img-3.png";
-import popcornBoxes4 from "@/assets/food-boxes/popcorn-boxes/img-4.png";
-import popcornBoxes5 from "@/assets/food-boxes/popcorn-boxes/img-5.png";
-import popcornBoxes6 from "@/assets/food-boxes/popcorn-boxes/img-whychoose.png";
-import popcornBoxes7 from "@/assets/food-boxes/popcorn-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import popcornBoxeshero from "@/assets/food-boxes/popcorn-boxes/img-hero.webp";
+import popcornBoxes1 from "@/assets/food-boxes/popcorn-boxes/img-1.webp";
+import popcornBoxes2 from "@/assets/food-boxes/popcorn-boxes/img-2.webp";
+import popcornBoxes3 from "@/assets/food-boxes/popcorn-boxes/img-3.webp";
+import popcornBoxes4 from "@/assets/food-boxes/popcorn-boxes/img-4.webp";
+import popcornBoxes5 from "@/assets/food-boxes/popcorn-boxes/img-5.webp";
+import popcornBoxes6 from "@/assets/food-boxes/popcorn-boxes/img-whychoose.webp";
+import popcornBoxes7 from "@/assets/food-boxes/popcorn-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomPopcornBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

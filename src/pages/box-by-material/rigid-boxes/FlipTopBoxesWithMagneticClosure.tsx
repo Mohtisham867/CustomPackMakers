@@ -37,7 +37,7 @@ import placeholder3 from "@/assets/rigid-boxes/rigid-gift-boxes-v2.webp";
 import placeholder4 from "@/assets/rigid-boxes/wallet-boxes-v2.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const FlipTopBoxesWithMagneticClosureMaterial = () => {
     const [selectedImage, setSelectedImage] = useState(0);

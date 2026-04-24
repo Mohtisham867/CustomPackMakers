@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import heroImg from "@/assets/mailer-boxes/colored-mailer-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ColoredMailerBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

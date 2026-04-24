@@ -15,15 +15,15 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import hempCigaretteHero from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-hero.png";
-import hempCigaretteImg1 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-1.png";
-import hempCigaretteImg2 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-2.png";
-import hempCigaretteImg3 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-3.png";
-import hempCigaretteImg4 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-4.png";
-import hempCigaretteImg5 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-5.png";
-import hempCigaretteImg6 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-whychoose.png";
-import hempCigaretteImg7 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import hempCigaretteHero from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-hero.webp";
+import hempCigaretteImg1 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-1.webp";
+import hempCigaretteImg2 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-2.webp";
+import hempCigaretteImg3 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-3.webp";
+import hempCigaretteImg4 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-4.webp";
+import hempCigaretteImg5 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-5.webp";
+import hempCigaretteImg6 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-whychoose.webp";
+import hempCigaretteImg7 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", q: "Do your hemp cigarette boxes come completely fully assembled?", a: "To minimize your shipping costs and reduce necessary warehouse space, our custom hemp cigarette boxes are typically shipped flat (unassembled). However, they are engineered with intuitive auto-bottom or standard tuck-end designs, allowing for incredibly fast, manual assembly on your production line." },

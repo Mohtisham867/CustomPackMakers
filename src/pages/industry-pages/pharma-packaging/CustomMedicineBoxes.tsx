@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import medicineBoxeshero from "@/assets/pharma-packaging/medicine-boxes/img-hero.png";
-import medicineBoxesimg1 from "@/assets/pharma-packaging/medicine-boxes/img-1.png";
-import medicineBoxesimg2 from "@/assets/pharma-packaging/medicine-boxes/img-2.png";
-import medicineBoxesimg3 from "@/assets/pharma-packaging/medicine-boxes/img-3.png";
-import medicineBoxesimg4 from "@/assets/pharma-packaging/medicine-boxes/img-4.png";
-import medicineBoxesimg5 from "@/assets/pharma-packaging/medicine-boxes/img-5.png";
-import medicineBoxesimg6 from "@/assets/pharma-packaging/medicine-boxes/img-whychoose.png";
-import medicineBoxesimg7 from "@/assets/pharma-packaging/medicine-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import medicineBoxeshero from "@/assets/pharma-packaging/medicine-boxes/img-hero.webp";
+import medicineBoxesimg1 from "@/assets/pharma-packaging/medicine-boxes/img-1.webp";
+import medicineBoxesimg2 from "@/assets/pharma-packaging/medicine-boxes/img-2.webp";
+import medicineBoxesimg3 from "@/assets/pharma-packaging/medicine-boxes/img-3.webp";
+import medicineBoxesimg4 from "@/assets/pharma-packaging/medicine-boxes/img-4.webp";
+import medicineBoxesimg5 from "@/assets/pharma-packaging/medicine-boxes/img-5.webp";
+import medicineBoxesimg6 from "@/assets/pharma-packaging/medicine-boxes/img-whychoose.webp";
+import medicineBoxesimg7 from "@/assets/pharma-packaging/medicine-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomMedicineBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

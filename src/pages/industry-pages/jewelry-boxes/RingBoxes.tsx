@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import ringBoxesHero from "@/assets/jewelry-boxes/ring-boxes/img-hero.png";
-import ringBoxes1 from "@/assets/jewelry-boxes/ring-boxes/img-1.png";
-import ringBoxes2 from "@/assets/jewelry-boxes/ring-boxes/img-2.png";
-import ringBoxes3 from "@/assets/jewelry-boxes/ring-boxes/img-3.png";
-import ringBoxes4 from "@/assets/jewelry-boxes/ring-boxes/img-4.png";
-import ringBoxes5 from "@/assets/jewelry-boxes/ring-boxes/img-5.png";
-import ringBoxes6 from "@/assets/jewelry-boxes/ring-boxes/img-whychoose.png";
-import ringBoxes7 from "@/assets/jewelry-boxes/ring-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import ringBoxesHero from "@/assets/jewelry-boxes/ring-boxes/img-hero.webp";
+import ringBoxes1 from "@/assets/jewelry-boxes/ring-boxes/img-1.webp";
+import ringBoxes2 from "@/assets/jewelry-boxes/ring-boxes/img-2.webp";
+import ringBoxes3 from "@/assets/jewelry-boxes/ring-boxes/img-3.webp";
+import ringBoxes4 from "@/assets/jewelry-boxes/ring-boxes/img-4.webp";
+import ringBoxes5 from "@/assets/jewelry-boxes/ring-boxes/img-5.webp";
+import ringBoxes6 from "@/assets/jewelry-boxes/ring-boxes/img-whychoose.webp";
+import ringBoxes7 from "@/assets/jewelry-boxes/ring-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const RingBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

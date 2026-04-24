@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import cbdChocolateBoxes from "@/assets/cbd-boxes/cbd-chocolate-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CbdChocolateBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

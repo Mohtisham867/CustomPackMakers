@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import heroImg from "@/assets/stickers-and-labels/die-cut-stickers.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const DieCutStickers = () => {
     const [selectedImage, setSelectedImage] = useState(0);

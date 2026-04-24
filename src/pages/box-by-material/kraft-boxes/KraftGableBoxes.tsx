@@ -31,7 +31,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Images
 import heroImg from "@/assets/kraft-boxes/kraft-gable-boxes-v2.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const KraftGableBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

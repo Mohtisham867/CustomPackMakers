@@ -17,15 +17,15 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Plus, Minus } from "lucide-react";
 
 // Product Images (dedicated assets)
-import prerolldisplayhero from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-hero.png";
-import prerolldisplayimg1 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-1.png";
-import prerolldisplayimg2 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-2.png";
-import prerolldisplayimg3 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-3.png";
-import prerolldisplayimg4 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-4.png";
-import prerolldisplayimg5 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-5.png";
-import prerolldisplayimgWhyChoose from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-whychoose.png";
-import prerolldisplayimgDifferent from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import prerolldisplayhero from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-hero.webp";
+import prerolldisplayimg1 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-1.webp";
+import prerolldisplayimg2 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-2.webp";
+import prerolldisplayimg3 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-3.webp";
+import prerolldisplayimg4 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-4.webp";
+import prerolldisplayimg5 from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-5.webp";
+import prerolldisplayimgWhyChoose from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-whychoose.webp";
+import prerolldisplayimgDifferent from "@/assets/pre-roll-boxes/custom-pre-roll-display-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomPreRollDisplayBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

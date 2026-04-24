@@ -15,7 +15,7 @@ import { RelatedProductPillowBoxes } from "@/components/RelatedProductPillowBoxe
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 import heroImg from "@/assets/pillow-boxes/pillow_gift_boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const productName = "Custom Pillow Gift Boxes";
 const overviewTitle = "Beautifully Curated Gift Packaging With the Iconic Curved Pillow Form";

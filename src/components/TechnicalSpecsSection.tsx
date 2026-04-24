@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // Technical Specifications Images
-import offsetPress from "@/assets/Technical-Specifications-images/OffsetPress.jpg";
+import offsetPress from "@/assets/Technical-Specifications-images/OffsetPress.webp";
 import digitalPrinting from "@/assets/Technical-Specifications-images/digital-printing.webp";
 import screenPrinting from "@/assets/Technical-Specifications-images/Screen-Printing.webp";
 
@@ -9,20 +9,20 @@ import screenPrinting from "@/assets/Technical-Specifications-images/Screen-Prin
 import metallicInks from "@/assets/Technical-Specifications-images/Metallic-Inks.webp";
 import fluorescentInks from "@/assets/Technical-Specifications-images/Fluorescent-Color-Inks.webp";
 import soyBasedInks from "@/assets/Technical-Specifications-images/Soy-based-inks.avif";
-import oilBasedInks from "@/assets/Technical-Specifications-images/Oil-based-inks.jpg";
-import waterBasedInks from "@/assets/Technical-Specifications-images/Water-based-inks.jpg";
-import uvInks from "@/assets/Technical-Specifications-images/UV-inks.jpg";
+import oilBasedInks from "@/assets/Technical-Specifications-images/Oil-based-inks.webp";
+import waterBasedInks from "@/assets/Technical-Specifications-images/Water-based-inks.webp";
+import uvInks from "@/assets/Technical-Specifications-images/UV-inks.webp";
 import foodSafeInks from "@/assets/Technical-Specifications-images/Food-safe-inks.webp";
 import pmsColors from "@/assets/Technical-Specifications-images/PMS-color-Matching.webp";
 
 // Technical Specifications Images - Finishing
-import glossLamination from "@/assets/Technical-Specifications-images/gloss-lamination-page.jpg";
-import matteLamination from "@/assets/Technical-Specifications-images/Matte-Lamination.jpg";
-import spotUV from "@/assets/Technical-Specifications-images/Spot-UV-Coating.jpg";
+import glossLamination from "@/assets/Technical-Specifications-images/gloss-lamination-page.webp";
+import matteLamination from "@/assets/Technical-Specifications-images/Matte-Lamination.webp";
+import spotUV from "@/assets/Technical-Specifications-images/Spot-UV-Coating.webp";
 import foilStamping from "@/assets/Technical-Specifications-images/Foil-Stamping.webp";
-import aqueousCoating from "@/assets/Technical-Specifications-images/Aqueous-Coating.png";
-import embossing from "@/assets/Technical-Specifications-images/Embossing.jpg";
-import debossing from "@/assets/Technical-Specifications-images/Debossing.jpg";
+import aqueousCoating from "@/assets/Technical-Specifications-images/Aqueous-Coating.webp";
+import embossing from "@/assets/Technical-Specifications-images/Embossing.webp";
+import debossing from "@/assets/Technical-Specifications-images/Debossing.webp";
 import antiScratchLamination from "@/assets/Technical-Specifications-images/Anti-Scratch-Lamination.webp";
 
 

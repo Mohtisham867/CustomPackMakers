@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/candy-products/Custom Candy Boxes hero.png";
+import heroImage from "@/assets/candy-products/Custom Candy Boxes hero.webp";
 import gummyBoxes from "@/assets/candy-products/custom-gummy-boxes.webp";
 import lollipopBoxes from "@/assets/candy-products/custom-lollipop-boxes.webp";
 import hardCandyBoxes from "@/assets/candy-products/custom-hard-candy-boxes.webp";

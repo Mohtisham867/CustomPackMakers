@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import cardboardPencilBoxesHero from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-hero.png";
-import cardboardPencilBoxes1 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-1.png";
-import cardboardPencilBoxes2 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-2.png";
-import cardboardPencilBoxes3 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-3.png";
-import cardboardPencilBoxes4 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-4.png";
-import cardboardPencilBoxes5 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-5.png";
-import cardboardPencilBoxes6 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-whychoose.png";
-import cardboardPencilBoxes7 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-different.png";
+import cardboardPencilBoxesHero from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-hero.webp";
+import cardboardPencilBoxes1 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-1.webp";
+import cardboardPencilBoxes2 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-2.webp";
+import cardboardPencilBoxes3 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-3.webp";
+import cardboardPencilBoxes4 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-4.webp";
+import cardboardPencilBoxes5 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-5.webp";
+import cardboardPencilBoxes6 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-whychoose.webp";
+import cardboardPencilBoxes7 from "@/assets/stationery-boxes/cardboard-pencil-boxes/img-different.webp";
 
 // FAQ Image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CardboardPencilBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

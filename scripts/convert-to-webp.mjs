@@ -6,13 +6,15 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const assetsDir = path.join(__dirname, 'src', 'assets');
-const srcDir = path.join(__dirname, 'src');
+const assetsDir = path.join(__dirname, '..', 'src', 'assets');
+const srcDir = path.join(__dirname, '..', 'src');
 const MAX_WIDTH = 1920; // Max width for hero images
 
 // Track conversions for reporting
 const conversions = [];
+const deletions = [];
 const codeUpdates = [];
+const errors = [];
 
 async function convertImageToWebP(imagePath) {
     try {
@@ -56,12 +58,14 @@ async function convertImageToWebP(imagePath) {
         console.log(`✅ Converted: ${path.basename(imagePath)} (${savings}% smaller)`);
         return { originalPath: imagePath, webpPath };
     } catch (err) {
+        errors.push(imagePath);
         console.error(`❌ Error converting ${path.basename(imagePath)}:`, err.message);
         return null;
     }
 }
 
 async function processDirectory(dir) {
+    if (!fs.existsSync(dir)) return;
     const files = fs.readdirSync(dir, { withFileTypes: true });
 
     for (const file of files) {
@@ -76,6 +80,7 @@ async function processDirectory(dir) {
 }
 
 function updateCodeReferences(dir) {
+    if (!fs.existsSync(dir)) return;
     const files = fs.readdirSync(dir, { withFileTypes: true });
 
     for (const file of files) {
@@ -106,26 +111,56 @@ function updateCodeReferences(dir) {
 
             if (modified) {
                 fs.writeFileSync(fullPath, content, 'utf8');
-                codeUpdates.push(path.relative(__dirname, fullPath));
-                console.log(`📝 Updated: ${path.relative(__dirname, fullPath)}`);
+                codeUpdates.push(path.relative(path.join(__dirname, '..'), fullPath));
+                console.log(`📝 Updated: ${path.relative(path.join(__dirname, '..'), fullPath)}`);
             }
         }
     }
 }
 
-console.log('🚀 Starting WebP Conversion Process...\n');
-console.log('Step 1: Converting images to WebP...\n');
+// ─── STEP 3: Delete original PNG/JPG files ─────────────
+function deleteOriginals(dir) {
+    if (!fs.existsSync(dir)) return;
+    const files = fs.readdirSync(dir, { withFileTypes: true });
 
+    for (const file of files) {
+        const fullPath = path.join(dir, file.name);
+        if (file.isDirectory()) {
+            deleteOriginals(fullPath);
+        } else if (file.name.match(/\.(png|jpg|jpeg)$/i)) {
+            const webpPath = fullPath.replace(/\.(png|jpg|jpeg)$/i, '.webp');
+            if (fs.existsSync(webpPath)) {
+                fs.unlinkSync(fullPath);
+                deletions.push(path.basename(fullPath));
+                console.log(`🗑️  Deleted: ${path.basename(fullPath)}`);
+            } else {
+                console.log(`⚠️  Skipping delete (no WebP found): ${path.basename(fullPath)}`);
+            }
+        }
+    }
+}
+
+console.log('🚀 Starting SITE-WIDE WebP Conversion Process...\n');
+
+// Step 1: Convert images
+console.log('Step 1: Converting remaining images to WebP...\n');
 await processDirectory(assetsDir);
 
+// Step 2: Update references
 console.log('\n✨ Image conversion complete!\n');
-console.log('Step 2: Updating code references...\n');
-
+console.log('Step 2: Updating code references site-wide...\n');
 updateCodeReferences(srcDir);
+
+// Step 3: Delete originals
+console.log('\n━'.repeat(60));
+console.log('\n🗑️  Step 3: Deleting original PNG/JPG files...\n');
+deleteOriginals(assetsDir);
 
 console.log('\n📊 Conversion Summary:');
 console.log(`   Images converted: ${conversions.length}`);
 console.log(`   Code files updated: ${codeUpdates.length}`);
+console.log(`   Originals deleted: ${deletions.length}`);
+console.log(`   Errors: ${errors.length}`);
 
 if (conversions.length > 0) {
     console.log('\n💾 Size Savings:');

@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import cdCovershero from "@/assets/electronics-boxes/cd-covers/img-hero.png";
-import cdCovers1 from "@/assets/electronics-boxes/cd-covers/img-1.png";
-import cdCovers2 from "@/assets/electronics-boxes/cd-covers/img-2.png";
-import cdCovers3 from "@/assets/electronics-boxes/cd-covers/img-3.png";
-import cdCovers4 from "@/assets/electronics-boxes/cd-covers/img-4.png";
-import cdCovers5 from "@/assets/electronics-boxes/cd-covers/img-5.png";
-import cdCovers6 from "@/assets/electronics-boxes/cd-covers/img-whychoose.png";
-import cdCovers7 from "@/assets/electronics-boxes/cd-covers/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import cdCovershero from "@/assets/electronics-boxes/cd-covers/img-hero.webp";
+import cdCovers1 from "@/assets/electronics-boxes/cd-covers/img-1.webp";
+import cdCovers2 from "@/assets/electronics-boxes/cd-covers/img-2.webp";
+import cdCovers3 from "@/assets/electronics-boxes/cd-covers/img-3.webp";
+import cdCovers4 from "@/assets/electronics-boxes/cd-covers/img-4.webp";
+import cdCovers5 from "@/assets/electronics-boxes/cd-covers/img-5.webp";
+import cdCovers6 from "@/assets/electronics-boxes/cd-covers/img-whychoose.webp";
+import cdCovers7 from "@/assets/electronics-boxes/cd-covers/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CDCovers = () => {
     const [selectedImage, setSelectedImage] = useState(0);

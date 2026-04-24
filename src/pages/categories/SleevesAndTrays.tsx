@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import sleevesTraysHero from "@/assets/sleeves-and-trays/Sleeves and Trays hero.png";
+import sleevesTraysHero from "@/assets/sleeves-and-trays/Sleeves and Trays hero.webp";
 import placeholder from "@/assets/sleeves-and-trays/placeholder.webp";
 import rollEndTrayImg from "@/assets/sleeves-and-trays/roll-end-tray.webp";
 import customBowlSleevesImg from "@/assets/sleeves-and-trays/custom-bowl-sleeves.webp";

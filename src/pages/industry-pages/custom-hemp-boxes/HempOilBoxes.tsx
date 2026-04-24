@@ -15,15 +15,15 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import hempOilHero from "@/assets/hemp-boxes/hemp-oil-boxes/img-hero.png";
-import hempOilImg1 from "@/assets/hemp-boxes/hemp-oil-boxes/img-1.png";
-import hempOilImg2 from "@/assets/hemp-boxes/hemp-oil-boxes/img-2.png";
-import hempOilImg3 from "@/assets/hemp-boxes/hemp-oil-boxes/img-3.png";
-import hempOilImg4 from "@/assets/hemp-boxes/hemp-oil-boxes/img-4.png";
-import hempOilImg5 from "@/assets/hemp-boxes/hemp-oil-boxes/img-5.png";
-import hempOilImg6 from "@/assets/hemp-boxes/hemp-oil-boxes/img-whychoose.png";
-import hempOilImg7 from "@/assets/hemp-boxes/hemp-oil-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import hempOilHero from "@/assets/hemp-boxes/hemp-oil-boxes/img-hero.webp";
+import hempOilImg1 from "@/assets/hemp-boxes/hemp-oil-boxes/img-1.webp";
+import hempOilImg2 from "@/assets/hemp-boxes/hemp-oil-boxes/img-2.webp";
+import hempOilImg3 from "@/assets/hemp-boxes/hemp-oil-boxes/img-3.webp";
+import hempOilImg4 from "@/assets/hemp-boxes/hemp-oil-boxes/img-4.webp";
+import hempOilImg5 from "@/assets/hemp-boxes/hemp-oil-boxes/img-5.webp";
+import hempOilImg6 from "@/assets/hemp-boxes/hemp-oil-boxes/img-whychoose.webp";
+import hempOilImg7 from "@/assets/hemp-boxes/hemp-oil-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", q: "Do your hemp oil boxes include inserts to hold dropper bottles securely?", a: "Yes, we highly recommend custom inserts for oil tincture packaging. We create precisely die-cut inserts from hemp paper or sustainable molded pulp that contour perfectly to your specific 15ml, 30ml, or 60ml glass bottles, immobilizing them safely during transit." },

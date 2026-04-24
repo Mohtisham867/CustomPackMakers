@@ -15,15 +15,15 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import cbdoilboxeshero from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-hero.png";
-import cbdoilboxesimg1 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-1.png";
-import cbdoilboxesimg2 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-2.png";
-import cbdoilboxesimg3 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-3.png";
-import cbdoilboxesimg4 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-4.png";
-import cbdoilboxesimg5 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-5.png";
-import cbdoilboxesimg6 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-whychoose.png";
-import cbdoilboxesimg7 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import cbdoilboxeshero from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-hero.webp";
+import cbdoilboxesimg1 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-1.webp";
+import cbdoilboxesimg2 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-2.webp";
+import cbdoilboxesimg3 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-3.webp";
+import cbdoilboxesimg4 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-4.webp";
+import cbdoilboxesimg5 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-5.webp";
+import cbdoilboxesimg6 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-whychoose.webp";
+import cbdoilboxesimg7 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", q: "Are hemp boxes strong enough to protect heavy CBD tincture bottles?", a: "Absolutely. Hemp bast fibers are significantly longer and tougher than standard wood pulp, meaning our hemp cardstock naturally possesses higher tensile strength. This structural rigidity provides exceptional shock absorption, fiercely protecting fragile glass dropper bottles from shattering during the rigorous shipping process." },

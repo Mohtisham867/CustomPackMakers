@@ -30,7 +30,7 @@ import { Plus, Minus } from "lucide-react";
 
 import productImg from "@/assets/window-packaging/kraft-paper-boxes-with-window.webp";
 import customHeroImage from "@/assets/window-packaging/window-packaging-hero.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const KraftPaperBoxesWithWindow = () => {
     const [selectedImage, setSelectedImage] = useState(0);

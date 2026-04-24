@@ -19,7 +19,7 @@ import heroImg from "@/assets/display-boxes/lollipop-display-boxes.webp";
 import displayImg from "@/assets/display-boxes/display-boxes-hero.webp";
 import productImg from "@/assets/display-boxes/product-display-boxes.webp";
 import candyImg from "@/assets/display-boxes/candy-display-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const LollipopDisplayBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

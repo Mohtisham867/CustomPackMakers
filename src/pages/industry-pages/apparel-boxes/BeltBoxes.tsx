@@ -29,17 +29,17 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images (using shoe box images as requested)
-import beltHero from "@/assets/apparel-boxes/belt-boxes/belt-hero.png";
-import beltBox1 from "@/assets/apparel-boxes/belt-boxes/belt-1.png";
-import beltBox2 from "@/assets/apparel-boxes/belt-boxes/belt-2.png";
-import beltBox3 from "@/assets/apparel-boxes/belt-boxes/belt-3.png";
-import beltBox4 from "@/assets/apparel-boxes/belt-boxes/belt-4.png";
-import beltBox5 from "@/assets/apparel-boxes/belt-boxes/belt-5.png";
-import beltBox6 from "@/assets/apparel-boxes/belt-boxes/belt-deferent.png";
-import beltBox7 from "@/assets/apparel-boxes/belt-boxes/belt-whychoose.png";
+import beltHero from "@/assets/apparel-boxes/belt-boxes/belt-hero.webp";
+import beltBox1 from "@/assets/apparel-boxes/belt-boxes/belt-1.webp";
+import beltBox2 from "@/assets/apparel-boxes/belt-boxes/belt-2.webp";
+import beltBox3 from "@/assets/apparel-boxes/belt-boxes/belt-3.webp";
+import beltBox4 from "@/assets/apparel-boxes/belt-boxes/belt-4.webp";
+import beltBox5 from "@/assets/apparel-boxes/belt-boxes/belt-5.webp";
+import beltBox6 from "@/assets/apparel-boxes/belt-boxes/belt-deferent.webp";
+import beltBox7 from "@/assets/apparel-boxes/belt-boxes/belt-whychoose.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const BeltBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

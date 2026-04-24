@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import preRollBoxHero from "@/assets/child-resistant-packaging/child-resistant-pre-roll-box.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChildResistantPreRollBox = () => {
     const [selectedImage, setSelectedImage] = useState(0);

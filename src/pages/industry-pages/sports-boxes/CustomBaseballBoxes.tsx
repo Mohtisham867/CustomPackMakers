@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Custom Baseball Boxes
-import baseballHero from "@/assets/sports-boxes/custom-baseball-boxes/img-hero.png";
-import baseball1 from "@/assets/sports-boxes/custom-baseball-boxes/img-1.png";
-import baseball2 from "@/assets/sports-boxes/custom-baseball-boxes/img-2.png";
-import baseball3 from "@/assets/sports-boxes/custom-baseball-boxes/img-3.png";
-import baseball4 from "@/assets/sports-boxes/custom-baseball-boxes/img-4.png";
-import baseball5 from "@/assets/sports-boxes/custom-baseball-boxes/img-5.png";
-import baseball6 from "@/assets/sports-boxes/custom-baseball-boxes/img-whychoose.png";
-import baseball7 from "@/assets/sports-boxes/custom-baseball-boxes/img-different.png";
+import baseballHero from "@/assets/sports-boxes/custom-baseball-boxes/img-hero.webp";
+import baseball1 from "@/assets/sports-boxes/custom-baseball-boxes/img-1.webp";
+import baseball2 from "@/assets/sports-boxes/custom-baseball-boxes/img-2.webp";
+import baseball3 from "@/assets/sports-boxes/custom-baseball-boxes/img-3.webp";
+import baseball4 from "@/assets/sports-boxes/custom-baseball-boxes/img-4.webp";
+import baseball5 from "@/assets/sports-boxes/custom-baseball-boxes/img-5.webp";
+import baseball6 from "@/assets/sports-boxes/custom-baseball-boxes/img-whychoose.webp";
+import baseball7 from "@/assets/sports-boxes/custom-baseball-boxes/img-different.webp";
 
 //FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomBaseballBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

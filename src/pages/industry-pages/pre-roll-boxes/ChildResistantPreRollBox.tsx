@@ -14,15 +14,15 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { RelatedProductPreRoll } from "@/components/RelatedProductPreRoll";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
-import childresistantprerollhero from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-hero.png";
-import childresistantpreroll1 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-1.png";
-import childresistantpreroll2 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-2.png";
-import childresistantpreroll3 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-3.png";
-import childresistantpreroll4 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-4.png";
-import childresistantpreroll5 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-5.png";
-import childresistantpreroll6 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-whychoose.png";
-import childresistantpreroll7 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import childresistantprerollhero from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-hero.webp";
+import childresistantpreroll1 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-1.webp";
+import childresistantpreroll2 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-2.webp";
+import childresistantpreroll3 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-3.webp";
+import childresistantpreroll4 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-4.webp";
+import childresistantpreroll5 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-5.webp";
+import childresistantpreroll6 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-whychoose.webp";
+import childresistantpreroll7 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChildResistantPreRollBox = () => {
     const [selectedImage, setSelectedImage] = useState(0);

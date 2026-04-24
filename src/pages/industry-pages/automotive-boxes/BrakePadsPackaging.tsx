@@ -28,17 +28,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import brakepadshero from "@/assets/automotive-products/brake-pads-packaging/img-hero.png";
-import brakepadimg1 from "@/assets/automotive-products/brake-pads-packaging/img-1.png";
-import brakepadimg2 from "@/assets/automotive-products/brake-pads-packaging/img-2.png";
-import brakepadimg3 from "@/assets/automotive-products/brake-pads-packaging/img-3.png";
-import brakepadimg4 from "@/assets/automotive-products/brake-pads-packaging/img-4.png";
-import brakepadimg5 from "@/assets/automotive-products/brake-pads-packaging/img-5.png";
-import brakepadimg6 from "@/assets/automotive-products/brake-pads-packaging/img-whychoose.png";
-import brakepadimg7 from "@/assets/automotive-products/brake-pads-packaging/img-different.png";
+import brakepadshero from "@/assets/automotive-products/brake-pads-packaging/img-hero.webp";
+import brakepadimg1 from "@/assets/automotive-products/brake-pads-packaging/img-1.webp";
+import brakepadimg2 from "@/assets/automotive-products/brake-pads-packaging/img-2.webp";
+import brakepadimg3 from "@/assets/automotive-products/brake-pads-packaging/img-3.webp";
+import brakepadimg4 from "@/assets/automotive-products/brake-pads-packaging/img-4.webp";
+import brakepadimg5 from "@/assets/automotive-products/brake-pads-packaging/img-5.webp";
+import brakepadimg6 from "@/assets/automotive-products/brake-pads-packaging/img-whychoose.webp";
+import brakepadimg7 from "@/assets/automotive-products/brake-pads-packaging/img-different.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const BrakePadsPackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

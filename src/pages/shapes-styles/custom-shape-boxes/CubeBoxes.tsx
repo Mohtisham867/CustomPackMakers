@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import heroImg from "@/assets/custom-shape-boxes/cube-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 import placeholderImage from "@/assets/custom-shape-boxes/placeholder.webp";
 
 // We extract 'overviewTitle' to ensure no white screen crash.

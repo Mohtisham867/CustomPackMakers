@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import necklaceBoxeshero from "@/assets/jewelry-boxes/necklace-boxes/img-hero.png";
-import necklaceBoxes1 from "@/assets/jewelry-boxes/necklace-boxes/img-1.png";
-import necklaceBoxes2 from "@/assets/jewelry-boxes/necklace-boxes/img-2.png";
-import necklaceBoxes3 from "@/assets/jewelry-boxes/necklace-boxes/img-3.png";
-import necklaceBoxes4 from "@/assets/jewelry-boxes/necklace-boxes/img-4.png";
-import necklaceBoxes5 from "@/assets/jewelry-boxes/necklace-boxes/img-5.png";
-import necklaceBoxes6 from "@/assets/jewelry-boxes/necklace-boxes/img-whychoose.png";
-import necklaceBoxes7 from "@/assets/jewelry-boxes/necklace-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import necklaceBoxeshero from "@/assets/jewelry-boxes/necklace-boxes/img-hero.webp";
+import necklaceBoxes1 from "@/assets/jewelry-boxes/necklace-boxes/img-1.webp";
+import necklaceBoxes2 from "@/assets/jewelry-boxes/necklace-boxes/img-2.webp";
+import necklaceBoxes3 from "@/assets/jewelry-boxes/necklace-boxes/img-3.webp";
+import necklaceBoxes4 from "@/assets/jewelry-boxes/necklace-boxes/img-4.webp";
+import necklaceBoxes5 from "@/assets/jewelry-boxes/necklace-boxes/img-5.webp";
+import necklaceBoxes6 from "@/assets/jewelry-boxes/necklace-boxes/img-whychoose.webp";
+import necklaceBoxes7 from "@/assets/jewelry-boxes/necklace-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const NecklaceBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

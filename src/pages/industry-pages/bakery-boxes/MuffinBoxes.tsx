@@ -13,15 +13,15 @@ import { Label } from '@/components/ui/label';
 import { TechnicalSpecsSection } from '@/components/TechnicalSpecsSection';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Plus, Minus } from 'lucide-react';
-import muffinboxehero from '@/assets/bakery-products/muffin-boxes/img-hero.png';
-import muffinimg1 from '@/assets/bakery-products/muffin-boxes/img-1.png';
-import muffinimg2 from '@/assets/bakery-products/muffin-boxes/img-2.png';
-import muffinimg3 from '@/assets/bakery-products/muffin-boxes/img-3.png';
-import muffinimg4 from '@/assets/bakery-products/muffin-boxes/img-4.png';
-import muffinimg5 from '@/assets/bakery-products/muffin-boxes/img-5.png';
-import muffinimg6 from '@/assets/bakery-products/muffin-boxes/img-whychoose.png';
-import muffinimg7 from '@/assets/bakery-products/muffin-boxes/img-different.png';
-import FAQimage from '@/assets/FAQ-image.png';
+import muffinboxehero from '@/assets/bakery-products/muffin-boxes/img-hero.webp';
+import muffinimg1 from '@/assets/bakery-products/muffin-boxes/img-1.webp';
+import muffinimg2 from '@/assets/bakery-products/muffin-boxes/img-2.webp';
+import muffinimg3 from '@/assets/bakery-products/muffin-boxes/img-3.webp';
+import muffinimg4 from '@/assets/bakery-products/muffin-boxes/img-4.webp';
+import muffinimg5 from '@/assets/bakery-products/muffin-boxes/img-5.webp';
+import muffinimg6 from '@/assets/bakery-products/muffin-boxes/img-whychoose.webp';
+import muffinimg7 from '@/assets/bakery-products/muffin-boxes/img-different.webp';
+import FAQimage from '@/assets/FAQ-image.webp';
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 const MuffinBoxes = () => {

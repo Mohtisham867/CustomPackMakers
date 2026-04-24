@@ -28,15 +28,15 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import juulPackagingImagehero from "@/assets/vape-boxes/juul-packaging/img-hero.png";
-import juulPackagingImage1 from "@/assets/vape-boxes/juul-packaging/img-1.png";
-import juulPackagingImage2 from "@/assets/vape-boxes/juul-packaging/img-2.png";
-import juulPackagingImage3 from "@/assets/vape-boxes/juul-packaging/img-3.png";
-import juulPackagingImage4 from "@/assets/vape-boxes/juul-packaging/img-4.png";
-import juulPackagingImage5 from "@/assets/vape-boxes/juul-packaging/img-5.png";
-import juulPackagingImage6 from "@/assets/vape-boxes/juul-packaging/img-whychoose.png";
-import juulPackagingImage7 from "@/assets/vape-boxes/juul-packaging/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import juulPackagingImagehero from "@/assets/vape-boxes/juul-packaging/img-hero.webp";
+import juulPackagingImage1 from "@/assets/vape-boxes/juul-packaging/img-1.webp";
+import juulPackagingImage2 from "@/assets/vape-boxes/juul-packaging/img-2.webp";
+import juulPackagingImage3 from "@/assets/vape-boxes/juul-packaging/img-3.webp";
+import juulPackagingImage4 from "@/assets/vape-boxes/juul-packaging/img-4.webp";
+import juulPackagingImage5 from "@/assets/vape-boxes/juul-packaging/img-5.webp";
+import juulPackagingImage6 from "@/assets/vape-boxes/juul-packaging/img-whychoose.webp";
+import juulPackagingImage7 from "@/assets/vape-boxes/juul-packaging/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const JuulPackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -28,15 +28,15 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import eCigaretteBoxImagehero from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-hero.png";
-import eCigaretteBoxImage1 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-1.png";
-import eCigaretteBoxImage2 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-2.png";
-import eCigaretteBoxImage3 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-3.png";
-import eCigaretteBoxImage4 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-4.png";
-import eCigaretteBoxImage5 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-5.png";
-import eCigaretteBoxImage6 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-whychoose.png";
-import eCigaretteBoxImage7 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import eCigaretteBoxImagehero from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-hero.webp";
+import eCigaretteBoxImage1 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-1.webp";
+import eCigaretteBoxImage2 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-2.webp";
+import eCigaretteBoxImage3 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-3.webp";
+import eCigaretteBoxImage4 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-4.webp";
+import eCigaretteBoxImage5 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-5.webp";
+import eCigaretteBoxImage6 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-whychoose.webp";
+import eCigaretteBoxImage7 from "@/assets/vape-boxes/custom-e-cigarette-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomECigaretteBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

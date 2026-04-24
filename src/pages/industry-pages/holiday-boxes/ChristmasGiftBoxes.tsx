@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import christmasGiftBoxHero from "@/assets/holiday-boxes/christmas-gift-boxes/img-hero.png";
-import christmasGiftBoximg1 from "@/assets/holiday-boxes/christmas-gift-boxes/img-1.png";
-import christmasGiftBoximg2 from "@/assets/holiday-boxes/christmas-gift-boxes/img-2.png";
-import christmasGiftBoximg3 from "@/assets/holiday-boxes/christmas-gift-boxes/img-3.png";
-import christmasGiftBoximg4 from "@/assets/holiday-boxes/christmas-gift-boxes/img-4.png";
-import christmasGiftBoximg5 from "@/assets/holiday-boxes/christmas-gift-boxes/img-5.png";
-import christmasGiftBoximg6 from "@/assets/holiday-boxes/christmas-gift-boxes/img-whychoose.png";
-import christmasGiftBoximg7 from "@/assets/holiday-boxes/christmas-gift-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import christmasGiftBoxHero from "@/assets/holiday-boxes/christmas-gift-boxes/img-hero.webp";
+import christmasGiftBoximg1 from "@/assets/holiday-boxes/christmas-gift-boxes/img-1.webp";
+import christmasGiftBoximg2 from "@/assets/holiday-boxes/christmas-gift-boxes/img-2.webp";
+import christmasGiftBoximg3 from "@/assets/holiday-boxes/christmas-gift-boxes/img-3.webp";
+import christmasGiftBoximg4 from "@/assets/holiday-boxes/christmas-gift-boxes/img-4.webp";
+import christmasGiftBoximg5 from "@/assets/holiday-boxes/christmas-gift-boxes/img-5.webp";
+import christmasGiftBoximg6 from "@/assets/holiday-boxes/christmas-gift-boxes/img-whychoose.webp";
+import christmasGiftBoximg7 from "@/assets/holiday-boxes/christmas-gift-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChristmasGiftBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

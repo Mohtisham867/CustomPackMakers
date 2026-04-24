@@ -31,7 +31,7 @@ import { Plus, Minus } from "lucide-react";
 // Assets
 import productHero from "@/assets/gable-boxes/christmas-gable-boxes.webp";
 import gableHero from "@/assets/gable-boxes/gable-boxes-hero.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChristmasGableBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import tinctureBoxes from "@/assets/cbd-boxes/tincture-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const TinctureBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -30,7 +30,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Specific product images
 import heroImg from "@/assets/mailer-boxes/4x8-bubble-mailers.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const FourByEightBubbleMailers = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -30,7 +30,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Images
 import glovesBoxes from "@/assets/pharma-packaging/gloves-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const GlovesBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

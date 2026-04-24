@@ -14,7 +14,7 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { RelatedProductStickersLabels } from "@/components/RelatedProductStickersLabels";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 import heroImg from "@/assets/stickers-and-labels/soap-labels.webp";
 
 const SoapLabels = () => {

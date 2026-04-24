@@ -15,7 +15,7 @@ import { RelatedProductCustomBags } from "@/components/RelatedProductCustomBags"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 import fallbackHero from "@/assets/custom_bags/take-out-bags.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const TakeOutBags = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import giftTagshero from "@/assets/gift-boxes/Gift-Tags/img-hero.png";
-import giftTagsimg1 from "@/assets/gift-boxes/Gift-Tags/img-1.png";
-import giftTagsimg2 from "@/assets/gift-boxes/Gift-Tags/img-2.png";
-import giftTagsimg3 from "@/assets/gift-boxes/Gift-Tags/img-3.png";
-import giftTagsimg4 from "@/assets/gift-boxes/Gift-Tags/img-4.png";
-import giftTagsimg5 from "@/assets/gift-boxes/Gift-Tags/img-5.png";
-import giftTagsimg6 from "@/assets/gift-boxes/Gift-Tags/img-whychoose.png";
-import giftTagsimg7 from "@/assets/gift-boxes/Gift-Tags/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import giftTagshero from "@/assets/gift-boxes/Gift-Tags/img-hero.webp";
+import giftTagsimg1 from "@/assets/gift-boxes/Gift-Tags/img-1.webp";
+import giftTagsimg2 from "@/assets/gift-boxes/Gift-Tags/img-2.webp";
+import giftTagsimg3 from "@/assets/gift-boxes/Gift-Tags/img-3.webp";
+import giftTagsimg4 from "@/assets/gift-boxes/Gift-Tags/img-4.webp";
+import giftTagsimg5 from "@/assets/gift-boxes/Gift-Tags/img-5.webp";
+import giftTagsimg6 from "@/assets/gift-boxes/Gift-Tags/img-whychoose.webp";
+import giftTagsimg7 from "@/assets/gift-boxes/Gift-Tags/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const GiftTags = () => {
     const [selectedImage, setSelectedImage] = useState(0);

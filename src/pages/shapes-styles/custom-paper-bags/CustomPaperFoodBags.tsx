@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import fallbackImage from "@/assets/custom-paper-bags/custom-paper-food-bags.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomPaperFoodBags = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -28,15 +28,15 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import cbdVapeImagehero from "@/assets/vape-boxes/cbd-vape-boxes/img-hero.png";
-import cbdVapeImage1 from "@/assets/vape-boxes/cbd-vape-boxes/img-1.png";
-import cbdVapeImage2 from "@/assets/vape-boxes/cbd-vape-boxes/img-2.png";
-import cbdVapeImage3 from "@/assets/vape-boxes/cbd-vape-boxes/img-3.png";
-import cbdVapeImage4 from "@/assets/vape-boxes/cbd-vape-boxes/img-4.png";
-import cbdVapeImage5 from "@/assets/vape-boxes/cbd-vape-boxes/img-5.png";
-import cbdVapeImage6 from "@/assets/vape-boxes/cbd-vape-boxes/img-whychoose.png";
-import cbdVapeImage7 from "@/assets/vape-boxes/cbd-vape-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import cbdVapeImagehero from "@/assets/vape-boxes/cbd-vape-boxes/img-hero.webp";
+import cbdVapeImage1 from "@/assets/vape-boxes/cbd-vape-boxes/img-1.webp";
+import cbdVapeImage2 from "@/assets/vape-boxes/cbd-vape-boxes/img-2.webp";
+import cbdVapeImage3 from "@/assets/vape-boxes/cbd-vape-boxes/img-3.webp";
+import cbdVapeImage4 from "@/assets/vape-boxes/cbd-vape-boxes/img-4.webp";
+import cbdVapeImage5 from "@/assets/vape-boxes/cbd-vape-boxes/img-5.webp";
+import cbdVapeImage6 from "@/assets/vape-boxes/cbd-vape-boxes/img-whychoose.webp";
+import cbdVapeImage7 from "@/assets/vape-boxes/cbd-vape-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CBDVapeBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

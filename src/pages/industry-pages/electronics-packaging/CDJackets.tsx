@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import cdJacketshero from "@/assets/electronics-boxes/cd-jackets/img-hero.png";
-import cdJackets1 from "@/assets/electronics-boxes/cd-jackets/img-1.png";
-import cdJackets2 from "@/assets/electronics-boxes/cd-jackets/img-2.png";
-import cdJackets3 from "@/assets/electronics-boxes/cd-jackets/img-3.png";
-import cdJackets4 from "@/assets/electronics-boxes/cd-jackets/img-4.png";
-import cdJackets5 from "@/assets/electronics-boxes/cd-jackets/img-5.png";
-import cdJackets6 from "@/assets/electronics-boxes/cd-jackets/img-whychoose.png";
-import cdJackets7 from "@/assets/electronics-boxes/cd-jackets/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import cdJacketshero from "@/assets/electronics-boxes/cd-jackets/img-hero.webp";
+import cdJackets1 from "@/assets/electronics-boxes/cd-jackets/img-1.webp";
+import cdJackets2 from "@/assets/electronics-boxes/cd-jackets/img-2.webp";
+import cdJackets3 from "@/assets/electronics-boxes/cd-jackets/img-3.webp";
+import cdJackets4 from "@/assets/electronics-boxes/cd-jackets/img-4.webp";
+import cdJackets5 from "@/assets/electronics-boxes/cd-jackets/img-5.webp";
+import cdJackets6 from "@/assets/electronics-boxes/cd-jackets/img-whychoose.webp";
+import cdJackets7 from "@/assets/electronics-boxes/cd-jackets/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CDJackets = () => {
     const [selectedImage, setSelectedImage] = useState(0);

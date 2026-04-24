@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import heroImg from "@/assets/tuck-boxes/straight-tuck-with-hang-tab.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const StraightTuckWithHangTab = () => {
     const [selectedImage, setSelectedImage] = useState(0);

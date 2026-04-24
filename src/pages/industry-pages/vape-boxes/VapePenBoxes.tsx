@@ -28,15 +28,15 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import vapepenboxImagehero from "@/assets/vape-boxes/vape-pen-boxes/img-hero.png";
-import vapepenboxImage1 from "@/assets/vape-boxes/vape-pen-boxes/img-1.png";
-import vapepenboxImage2 from "@/assets/vape-boxes/vape-pen-boxes/img-2.png";
-import vapepenboxImage3 from "@/assets/vape-boxes/vape-pen-boxes/img-3.png";
-import vapepenboxImage4 from "@/assets/vape-boxes/vape-pen-boxes/img-4.png";
-import vapepenboxImage5 from "@/assets/vape-boxes/vape-pen-boxes/img-5.png";
-import vapepenboxImage6 from "@/assets/vape-boxes/vape-pen-boxes/img-whychoose.png";
-import vapepenboxImage7 from "@/assets/vape-boxes/vape-pen-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import vapepenboxImagehero from "@/assets/vape-boxes/vape-pen-boxes/img-hero.webp";
+import vapepenboxImage1 from "@/assets/vape-boxes/vape-pen-boxes/img-1.webp";
+import vapepenboxImage2 from "@/assets/vape-boxes/vape-pen-boxes/img-2.webp";
+import vapepenboxImage3 from "@/assets/vape-boxes/vape-pen-boxes/img-3.webp";
+import vapepenboxImage4 from "@/assets/vape-boxes/vape-pen-boxes/img-4.webp";
+import vapepenboxImage5 from "@/assets/vape-boxes/vape-pen-boxes/img-5.webp";
+import vapepenboxImage6 from "@/assets/vape-boxes/vape-pen-boxes/img-whychoose.webp";
+import vapepenboxImage7 from "@/assets/vape-boxes/vape-pen-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const VapePenBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

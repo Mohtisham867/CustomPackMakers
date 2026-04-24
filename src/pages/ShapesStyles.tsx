@@ -12,18 +12,18 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import childResistantPackaging from "@/assets/box-shapes/child-resistant-packaging.png";
+import childResistantPackaging from "@/assets/box-shapes/child-resistant-packaging.webp";
 import customBags from "@/assets/box-shapes/custom-bags.webp";
-import customMylarBags from "@/assets/box-shapes/custom-mylar-bags.png";
+import customMylarBags from "@/assets/box-shapes/custom-mylar-bags.webp";
 import customPaperBags from "@/assets/box-shapes/custom-paper-bags.webp";
 import customShapeBoxes from "@/assets/box-shapes/custom-shape-boxes.webp";
-import displayBoxes from "@/assets/box-shapes/display-boxes.png";
-import gableBoxes from "@/assets/box-shapes/Gable box.png";
+import displayBoxes from "@/assets/box-shapes/display-boxes.webp";
+import gableBoxes from "@/assets/box-shapes/Gable box.webp";
 import hangTags from "@/assets/box-shapes/hang-tags.webp";
 import mailerBoxes from "@/assets/box-shapes/mailer-boxes.webp";
 import pillowBoxes from "@/assets/box-shapes/pillow-boxes.webp";
-import rigidBoxes from "@/assets/box-shapes/rigid-boxes.png";
-import shippingBoxes from "@/assets/box-shapes/shipping-boxes.png";
+import rigidBoxes from "@/assets/box-shapes/rigid-boxes.webp";
+import shippingBoxes from "@/assets/box-shapes/shipping-boxes.webp";
 import sleeveAndTray from "@/assets/box-shapes/sleeve-and-tray.webp";
 import stickersAndLabels from "@/assets/box-shapes/stickers-and-labels.webp";
 import subscriptionBoxes from "@/assets/box-shapes/subscription-boxes.webp";

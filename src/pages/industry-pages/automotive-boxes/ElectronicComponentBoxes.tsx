@@ -28,17 +28,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import electroniccomponentboxeshero from "@/assets/automotive-products/electronic-component-boxes/img-hero.png";
-import electroniccomponentboxesimg1 from "@/assets/automotive-products/electronic-component-boxes/img-1.png";
-import electroniccomponentboxesimg2 from "@/assets/automotive-products/electronic-component-boxes/img-2.png";
-import electroniccomponentboxesimg3 from "@/assets/automotive-products/electronic-component-boxes/img-3.png";
-import electroniccomponentboxesimg4 from "@/assets/automotive-products/electronic-component-boxes/img-4.png";
-import electroniccomponentboxesimg5 from "@/assets/automotive-products/electronic-component-boxes/img-5.png";
-import electroniccomponentboxesimg6 from "@/assets/automotive-products/electronic-component-boxes/img-whychoose.png";
-import electroniccomponentboxesimg7 from "@/assets/automotive-products/electronic-component-boxes/img-different.png";
+import electroniccomponentboxeshero from "@/assets/automotive-products/electronic-component-boxes/img-hero.webp";
+import electroniccomponentboxesimg1 from "@/assets/automotive-products/electronic-component-boxes/img-1.webp";
+import electroniccomponentboxesimg2 from "@/assets/automotive-products/electronic-component-boxes/img-2.webp";
+import electroniccomponentboxesimg3 from "@/assets/automotive-products/electronic-component-boxes/img-3.webp";
+import electroniccomponentboxesimg4 from "@/assets/automotive-products/electronic-component-boxes/img-4.webp";
+import electroniccomponentboxesimg5 from "@/assets/automotive-products/electronic-component-boxes/img-5.webp";
+import electroniccomponentboxesimg6 from "@/assets/automotive-products/electronic-component-boxes/img-whychoose.webp";
+import electroniccomponentboxesimg7 from "@/assets/automotive-products/electronic-component-boxes/img-different.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ElectronicComponentBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

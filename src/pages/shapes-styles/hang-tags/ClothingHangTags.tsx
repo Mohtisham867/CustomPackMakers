@@ -16,7 +16,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Plus, Minus } from "lucide-react";
 import productHero from "@/assets/hang-tags/clothing-hang-tags.webp";
 import hangTagsHero from "@/assets/hang-tags/hang-tags-hero.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ClothingHangTags = () => {
     const [selectedImage, setSelectedImage] = useState(0);

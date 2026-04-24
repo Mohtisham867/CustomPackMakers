@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import businessCardshero from "@/assets/retail-boxes/Custom-Business-Cards/img-hero.png";
-import businessCards1 from "@/assets/retail-boxes/Custom-Business-Cards/img-1.png";
-import businessCards2 from "@/assets/retail-boxes/Custom-Business-Cards/img-2.png";
-import businessCards3 from "@/assets/retail-boxes/Custom-Business-Cards/img-3.png";
-import businessCards4 from "@/assets/retail-boxes/Custom-Business-Cards/img-4.png";
-import businessCards5 from "@/assets/retail-boxes/Custom-Business-Cards/img-5.png";
-import businessCards6 from "@/assets/retail-boxes/Custom-Business-Cards/img-whychoose.png";
-import businessCards7 from "@/assets/retail-boxes/Custom-Business-Cards/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import businessCardshero from "@/assets/retail-boxes/Custom-Business-Cards/img-hero.webp";
+import businessCards1 from "@/assets/retail-boxes/Custom-Business-Cards/img-1.webp";
+import businessCards2 from "@/assets/retail-boxes/Custom-Business-Cards/img-2.webp";
+import businessCards3 from "@/assets/retail-boxes/Custom-Business-Cards/img-3.webp";
+import businessCards4 from "@/assets/retail-boxes/Custom-Business-Cards/img-4.webp";
+import businessCards5 from "@/assets/retail-boxes/Custom-Business-Cards/img-5.webp";
+import businessCards6 from "@/assets/retail-boxes/Custom-Business-Cards/img-whychoose.webp";
+import businessCards7 from "@/assets/retail-boxes/Custom-Business-Cards/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomBusinessCards = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -28,17 +28,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Placeholder images
-import luxuryApparelBoxeshero from "@/assets/apparel-boxes/luxury-apparel-boxes/img-hero.png";
-import luxuryApparelBoxes1 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-1.png";
-import luxuryApparelBoxes2 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-2.png";
-import luxuryApparelBoxes3 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-3.png";
-import luxuryApparelBoxes4 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-4.png";
-import luxuryApparelBoxes5 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-5.png";
-import luxuryApparelBoxes6 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-whychoose.png";
-import luxuryApparelBoxes7 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-defferent.png";
+import luxuryApparelBoxeshero from "@/assets/apparel-boxes/luxury-apparel-boxes/img-hero.webp";
+import luxuryApparelBoxes1 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-1.webp";
+import luxuryApparelBoxes2 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-2.webp";
+import luxuryApparelBoxes3 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-3.webp";
+import luxuryApparelBoxes4 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-4.webp";
+import luxuryApparelBoxes5 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-5.webp";
+import luxuryApparelBoxes6 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-whychoose.webp";
+import luxuryApparelBoxes7 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-defferent.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const LuxuryApparelBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -13,13 +13,13 @@ import { useState, useEffect } from "react";
 // Import professional product images
 import hairDryerBoxes from "@/assets/electronics-boxes/hair-dryer-packaging.webp";
 import chargerBoxes from "@/assets/charger_kabel_packaging.webp";
-import batteryBoxes from "@/assets/electronics-boxes/battery-packaging.jpeg";
+import batteryBoxes from "@/assets/electronics-boxes/battery-packaging.webp";
 import cdJackets from "@/assets/electronics-boxes/cd-jackets.webp";
 import cdCovers from "@/assets/electronics-boxes/cd-covers.webp";
 import cameraPackaging from "@/assets/electronics-boxes/camera-packaging.webp";
-import phoneBoxes from "@/assets/electronics-boxes/Phone Boxes.png";
-import headphonePackaging from "@/assets/electronics-boxes/Headphone Packaging.png";
-import softwareBoxes from "@/assets/electronics-boxes/Software Boxes.png";
+import phoneBoxes from "@/assets/electronics-boxes/Phone Boxes.webp";
+import headphonePackaging from "@/assets/electronics-boxes/Headphone Packaging.webp";
+import softwareBoxes from "@/assets/electronics-boxes/Software Boxes.webp";
 
 // Related products from Electronics Boxes category
 const relatedProducts = [

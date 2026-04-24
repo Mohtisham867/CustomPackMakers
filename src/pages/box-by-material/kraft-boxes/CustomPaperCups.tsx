@@ -31,7 +31,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Images
 import heroImg from "@/assets/kraft-boxes/custom-paper-cups-v2.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomPaperCups = () => {
     const [selectedImage, setSelectedImage] = useState(0);

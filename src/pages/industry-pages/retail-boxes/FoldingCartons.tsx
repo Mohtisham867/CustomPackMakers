@@ -29,16 +29,16 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import foldingCartonshero from "@/assets/retail-boxes/Folding-Cartons/img-hero.png";
-import foldingCartons1 from "@/assets/retail-boxes/Folding-Cartons/img-1.png";
-import foldingCartons2 from "@/assets/retail-boxes/Folding-Cartons/img-2.png";
-import foldingCartons3 from "@/assets/retail-boxes/Folding-Cartons/img-3.png";
-import foldingCartons4 from "@/assets/retail-boxes/Folding-Cartons/img-4.png";
-import foldingCartons5 from "@/assets/retail-boxes/Folding-Cartons/img-5.png";
-import foldingCartons6 from "@/assets/retail-boxes/Folding-Cartons/img-whychoose.png";
-import foldingCartons7 from "@/assets/retail-boxes/Folding-Cartons/img-different.png";
+import foldingCartonshero from "@/assets/retail-boxes/Folding-Cartons/img-hero.webp";
+import foldingCartons1 from "@/assets/retail-boxes/Folding-Cartons/img-1.webp";
+import foldingCartons2 from "@/assets/retail-boxes/Folding-Cartons/img-2.webp";
+import foldingCartons3 from "@/assets/retail-boxes/Folding-Cartons/img-3.webp";
+import foldingCartons4 from "@/assets/retail-boxes/Folding-Cartons/img-4.webp";
+import foldingCartons5 from "@/assets/retail-boxes/Folding-Cartons/img-5.webp";
+import foldingCartons6 from "@/assets/retail-boxes/Folding-Cartons/img-whychoose.webp";
+import foldingCartons7 from "@/assets/retail-boxes/Folding-Cartons/img-different.webp";
 
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const FoldingCartons = () => {
     const [selectedImage, setSelectedImage] = useState(0);

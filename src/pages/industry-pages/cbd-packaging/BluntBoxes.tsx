@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import bluntBoxes from "@/assets/cbd-boxes/blunt-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const BluntBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

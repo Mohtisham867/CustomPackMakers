@@ -19,21 +19,21 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import mylarBagsHero from "@/assets/cannabis-packaging/mylar-bags/img-hero.png";
-import mylarBagsImg1 from "@/assets/cannabis-packaging/mylar-bags/img-1.png";
-import mylarBagsImg2 from "@/assets/cannabis-packaging/mylar-bags/img-2.png";
-import mylarBagsImg3 from "@/assets/cannabis-packaging/mylar-bags/img-3.png";
-import mylarBagsImg4 from "@/assets/cannabis-packaging/mylar-bags/img-4.png";
-import mylarBagsImg5 from "@/assets/cannabis-packaging/mylar-bags/img-5.png";
-import mylarBagsImg6 from "@/assets/cannabis-packaging/mylar-bags/img-whychoose.png";
-import mylarBagsImg7 from "@/assets/cannabis-packaging/mylar-bags/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
-import tinctureBoxes from "@/assets/cannabis-packaging/tincture-boxes.png";
-import vapePackaging from "@/assets/cannabis-packaging/vape-packaging.png";
-import seedPackaging from "@/assets/cannabis-packaging/seed-packaging.png";
-import cigaretteBoxes from "@/assets/cannabis-packaging/Cannabis Cigarette Boxes.png";
+import mylarBagsHero from "@/assets/cannabis-packaging/mylar-bags/img-hero.webp";
+import mylarBagsImg1 from "@/assets/cannabis-packaging/mylar-bags/img-1.webp";
+import mylarBagsImg2 from "@/assets/cannabis-packaging/mylar-bags/img-2.webp";
+import mylarBagsImg3 from "@/assets/cannabis-packaging/mylar-bags/img-3.webp";
+import mylarBagsImg4 from "@/assets/cannabis-packaging/mylar-bags/img-4.webp";
+import mylarBagsImg5 from "@/assets/cannabis-packaging/mylar-bags/img-5.webp";
+import mylarBagsImg6 from "@/assets/cannabis-packaging/mylar-bags/img-whychoose.webp";
+import mylarBagsImg7 from "@/assets/cannabis-packaging/mylar-bags/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
+import tinctureBoxes from "@/assets/cannabis-packaging/tincture-boxes.webp";
+import vapePackaging from "@/assets/cannabis-packaging/vape-packaging.webp";
+import seedPackaging from "@/assets/cannabis-packaging/seed-packaging.webp";
+import cigaretteBoxes from "@/assets/cannabis-packaging/Cannabis Cigarette Boxes.webp";
 import mylarBags from "@/assets/cannabis-packaging/mylar-bags.webp";
-import flowerPackaging from "@/assets/cannabis-packaging/flower-packaging.png";
+import flowerPackaging from "@/assets/cannabis-packaging/flower-packaging.webp";
 import cartridgePackaging from "@/assets/marijuana-packaging/cartridge-packaging.webp";
 
 const relatedProducts = [

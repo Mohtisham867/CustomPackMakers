@@ -28,17 +28,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import airfilterboxeshero from "@/assets/automotive-products/air-filter-boxes/img-hero.png";
-import airfilterboxesimg1 from "@/assets/automotive-products/air-filter-boxes/img-1.png";
-import airfilterboxesimg2 from "@/assets/automotive-products/air-filter-boxes/img-2.png";
-import airfilterboxesimg3 from "@/assets/automotive-products/air-filter-boxes/img-3.png";
-import airfilterboxesimg4 from "@/assets/automotive-products/air-filter-boxes/img-4.png";
-import airfilterboxesimg5 from "@/assets/automotive-products/air-filter-boxes/img-5.png";
-import airfilterboxesimg6 from "@/assets/automotive-products/air-filter-boxes/img-whychoose.png";
-import airfilterboxesimg7 from "@/assets/automotive-products/air-filter-boxes/img-different.png";
+import airfilterboxeshero from "@/assets/automotive-products/air-filter-boxes/img-hero.webp";
+import airfilterboxesimg1 from "@/assets/automotive-products/air-filter-boxes/img-1.webp";
+import airfilterboxesimg2 from "@/assets/automotive-products/air-filter-boxes/img-2.webp";
+import airfilterboxesimg3 from "@/assets/automotive-products/air-filter-boxes/img-3.webp";
+import airfilterboxesimg4 from "@/assets/automotive-products/air-filter-boxes/img-4.webp";
+import airfilterboxesimg5 from "@/assets/automotive-products/air-filter-boxes/img-5.webp";
+import airfilterboxesimg6 from "@/assets/automotive-products/air-filter-boxes/img-whychoose.webp";
+import airfilterboxesimg7 from "@/assets/automotive-products/air-filter-boxes/img-different.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const AirFilterBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -30,15 +30,15 @@ import { Plus, Minus } from "lucide-react";
 
 // Reusing existing images 
 import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.jpg";
-import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.png";
-import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.jpg";
-import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe-4.png";
-import shoeBox5 from "@/assets/apparel-boxes/shoe-boxes/deferent.png";
-import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.jpg";
+import shoeBox1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.webp";
+import shoeBox2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.webp";
+import shoeBox3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.webp";
+import shoeBox4 from "@/assets/apparel-boxes/shoe-boxes/shoe-4.webp";
+import shoeBox5 from "@/assets/apparel-boxes/shoe-boxes/deferent.webp";
+import shoeBoxHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.webp";
 
 //FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 // Placeholder specifically for related products
 import { RelatedProductRigidBoxes } from "@/components/RelatedProductRigidBoxes";

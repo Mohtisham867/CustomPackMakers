@@ -30,15 +30,15 @@ import { RelatedProductMarijuana } from "@/components/RelatedProductMarijuana";
 
 
 // Specific product images
-import cartridgePackagingHero from "@/assets/marijuana-packaging/cartridge-packaging/img-hero.png";
-import cartridgePackaging1 from "@/assets/marijuana-packaging/cartridge-packaging/img-1.png";
-import cartridgePackaging2 from "@/assets/marijuana-packaging/cartridge-packaging/img-2.png";
-import cartridgePackaging3 from "@/assets/marijuana-packaging/cartridge-packaging/img-3.png";
-import cartridgePackaging4 from "@/assets/marijuana-packaging/cartridge-packaging/img-4.png";
-import cartridgePackaging5 from "@/assets/marijuana-packaging/cartridge-packaging/img-5.png";
-import cartridgePackaging6 from "@/assets/marijuana-packaging/cartridge-packaging/img-whychoose.png";
-import cartridgePackaging7 from "@/assets/marijuana-packaging/cartridge-packaging/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import cartridgePackagingHero from "@/assets/marijuana-packaging/cartridge-packaging/img-hero.webp";
+import cartridgePackaging1 from "@/assets/marijuana-packaging/cartridge-packaging/img-1.webp";
+import cartridgePackaging2 from "@/assets/marijuana-packaging/cartridge-packaging/img-2.webp";
+import cartridgePackaging3 from "@/assets/marijuana-packaging/cartridge-packaging/img-3.webp";
+import cartridgePackaging4 from "@/assets/marijuana-packaging/cartridge-packaging/img-4.webp";
+import cartridgePackaging5 from "@/assets/marijuana-packaging/cartridge-packaging/img-5.webp";
+import cartridgePackaging6 from "@/assets/marijuana-packaging/cartridge-packaging/img-whychoose.webp";
+import cartridgePackaging7 from "@/assets/marijuana-packaging/cartridge-packaging/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 
 

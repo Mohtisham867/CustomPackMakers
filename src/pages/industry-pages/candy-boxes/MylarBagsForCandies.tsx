@@ -29,15 +29,15 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import mylarBagsHero from "@/assets/candy-products/mylar-bags-candies/img-hero.png";
-import mylarBagsImg1 from "@/assets/candy-products/mylar-bags-candies/img-1.png";
-import mylarBagsImg2 from "@/assets/candy-products/mylar-bags-candies/img-2.png";
-import mylarBagsImg3 from "@/assets/candy-products/mylar-bags-candies/img-3.png";
-import mylarBagsImg4 from "@/assets/candy-products/mylar-bags-candies/img-4.png";
-import mylarBagsImg5 from "@/assets/candy-products/mylar-bags-candies/img-5.png";
-import mylarBagsImg6 from "@/assets/candy-products/mylar-bags-candies/img-whychoose.png";
-import mylarBagsImg7 from "@/assets/candy-products/mylar-bags-candies/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import mylarBagsHero from "@/assets/candy-products/mylar-bags-candies/img-hero.webp";
+import mylarBagsImg1 from "@/assets/candy-products/mylar-bags-candies/img-1.webp";
+import mylarBagsImg2 from "@/assets/candy-products/mylar-bags-candies/img-2.webp";
+import mylarBagsImg3 from "@/assets/candy-products/mylar-bags-candies/img-3.webp";
+import mylarBagsImg4 from "@/assets/candy-products/mylar-bags-candies/img-4.webp";
+import mylarBagsImg5 from "@/assets/candy-products/mylar-bags-candies/img-5.webp";
+import mylarBagsImg6 from "@/assets/candy-products/mylar-bags-candies/img-whychoose.webp";
+import mylarBagsImg7 from "@/assets/candy-products/mylar-bags-candies/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const MylarBagsForCandies = () => {
     const [selectedImage, setSelectedImage] = useState(0);

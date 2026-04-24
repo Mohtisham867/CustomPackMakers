@@ -14,15 +14,15 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { RelatedProductPreRoll } from "@/components/RelatedProductPreRoll";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
-import prerolljointhero from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-hero.png";
-import prerolljointimg1 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-1.png";
-import prerolljointimg2 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-2.png";
-import prerolljointimg3 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-3.png";
-import prerolljointimg4 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-4.png";
-import prerolljointimg5 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-5.png";
-import prerolljointimg6 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-whychoose.png";
-import prerolljointimg7 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import prerolljointhero from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-hero.webp";
+import prerolljointimg1 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-1.webp";
+import prerolljointimg2 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-2.webp";
+import prerolljointimg3 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-3.webp";
+import prerolljointimg4 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-4.webp";
+import prerolljointimg5 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-5.webp";
+import prerolljointimg6 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-whychoose.webp";
+import prerolljointimg7 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const PreRollJointBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

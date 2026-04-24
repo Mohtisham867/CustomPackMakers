@@ -29,16 +29,16 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images specific to this page
-import customToyBoxeshero from "@/assets/game-boxes/custom-toy-boxes/img-hero.png";
-import customToyBoxes1 from "@/assets/game-boxes/custom-toy-boxes/img-1.png";
-import customToyBoxes2 from "@/assets/game-boxes/custom-toy-boxes/img-2.png";
-import customToyBoxes3 from "@/assets/game-boxes/custom-toy-boxes/img-3.png";
-import customToyBoxes4 from "@/assets/game-boxes/custom-toy-boxes/img-4.png";
-import customToyBoxes5 from "@/assets/game-boxes/custom-toy-boxes/img-5.png";
-import customToyBoxes6 from "@/assets/game-boxes/custom-toy-boxes/img-whychoose.png";
-import customToyBoxes7 from "@/assets/game-boxes/custom-toy-boxes/img-different.png";
+import customToyBoxeshero from "@/assets/game-boxes/custom-toy-boxes/img-hero.webp";
+import customToyBoxes1 from "@/assets/game-boxes/custom-toy-boxes/img-1.webp";
+import customToyBoxes2 from "@/assets/game-boxes/custom-toy-boxes/img-2.webp";
+import customToyBoxes3 from "@/assets/game-boxes/custom-toy-boxes/img-3.webp";
+import customToyBoxes4 from "@/assets/game-boxes/custom-toy-boxes/img-4.webp";
+import customToyBoxes5 from "@/assets/game-boxes/custom-toy-boxes/img-5.webp";
+import customToyBoxes6 from "@/assets/game-boxes/custom-toy-boxes/img-whychoose.webp";
+import customToyBoxes7 from "@/assets/game-boxes/custom-toy-boxes/img-different.webp";
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomToyBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

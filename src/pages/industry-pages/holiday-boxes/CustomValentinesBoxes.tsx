@@ -20,15 +20,15 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import valentinesBoxesHero from "@/assets/holiday-boxes/valentines-boxes/img-hero.png";
-import valentinesBoxesimg1 from "@/assets/holiday-boxes/valentines-boxes/img-1.png";
-import valentinesBoxesimg2 from "@/assets/holiday-boxes/valentines-boxes/img-2.png";
-import valentinesBoxesimg3 from "@/assets/holiday-boxes/valentines-boxes/img-3.png";
-import valentinesBoxesimg4 from "@/assets/holiday-boxes/valentines-boxes/img-4.png";
-import valentinesBoxesimg5 from "@/assets/holiday-boxes/valentines-boxes/img-5.png";
-import valentinesBoxesimg6 from "@/assets/holiday-boxes/valentines-boxes/img-whychoose.png";
-import valentinesBoxesimg7 from "@/assets/holiday-boxes/valentines-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import valentinesBoxesHero from "@/assets/holiday-boxes/valentines-boxes/img-hero.webp";
+import valentinesBoxesimg1 from "@/assets/holiday-boxes/valentines-boxes/img-1.webp";
+import valentinesBoxesimg2 from "@/assets/holiday-boxes/valentines-boxes/img-2.webp";
+import valentinesBoxesimg3 from "@/assets/holiday-boxes/valentines-boxes/img-3.webp";
+import valentinesBoxesimg4 from "@/assets/holiday-boxes/valentines-boxes/img-4.webp";
+import valentinesBoxesimg5 from "@/assets/holiday-boxes/valentines-boxes/img-5.webp";
+import valentinesBoxesimg6 from "@/assets/holiday-boxes/valentines-boxes/img-whychoose.webp";
+import valentinesBoxesimg7 from "@/assets/holiday-boxes/valentines-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", question: "Do you offer rush shipping for Valentine's Day orders?", answer: "Yes, we prominently offer extremely rapid expedited rush holiday manufacturing incredibly reliably ensuring intensely stressed massive retail corporate brands safely wonderfully receive their massive crucial wholesale seasonal custom boxes heavily well before the critical hectic Valentine's Day deadline entirely perfectly." },

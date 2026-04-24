@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import phoneBoxeshero from "@/assets/electronics-boxes/Phone-Boxes/img-hero.png";
-import phoneBoxes1 from "@/assets/electronics-boxes/Phone-Boxes/img-1.png";
-import phoneBoxes2 from "@/assets/electronics-boxes/Phone-Boxes/img-2.png";
-import phoneBoxes3 from "@/assets/electronics-boxes/Phone-Boxes/img-3.png";
-import phoneBoxes4 from "@/assets/electronics-boxes/Phone-Boxes/img-4.png";
-import phoneBoxes5 from "@/assets/electronics-boxes/Phone-Boxes/img-5.png";
-import phoneBoxes6 from "@/assets/electronics-boxes/Phone-Boxes/img-whychoose.png";
-import phoneBoxes7 from "@/assets/electronics-boxes/Phone-Boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import phoneBoxeshero from "@/assets/electronics-boxes/Phone-Boxes/img-hero.webp";
+import phoneBoxes1 from "@/assets/electronics-boxes/Phone-Boxes/img-1.webp";
+import phoneBoxes2 from "@/assets/electronics-boxes/Phone-Boxes/img-2.webp";
+import phoneBoxes3 from "@/assets/electronics-boxes/Phone-Boxes/img-3.webp";
+import phoneBoxes4 from "@/assets/electronics-boxes/Phone-Boxes/img-4.webp";
+import phoneBoxes5 from "@/assets/electronics-boxes/Phone-Boxes/img-5.webp";
+import phoneBoxes6 from "@/assets/electronics-boxes/Phone-Boxes/img-whychoose.webp";
+import phoneBoxes7 from "@/assets/electronics-boxes/Phone-Boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const PhoneBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

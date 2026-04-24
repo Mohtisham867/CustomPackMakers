@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import heroImg from "@/assets/tuck-boxes/reverse-tuck-end-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ReverseTuckEndBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

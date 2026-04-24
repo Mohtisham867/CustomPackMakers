@@ -29,8 +29,8 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import headphoneBoxes from "@/assets/electronics-boxes/Headphone Packaging.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import headphoneBoxes from "@/assets/electronics-boxes/Headphone Packaging.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const HeadphonePackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

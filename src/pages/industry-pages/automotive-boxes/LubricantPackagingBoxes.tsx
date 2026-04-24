@@ -28,17 +28,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import lubricantpackaginghero from "@/assets/automotive-products/lubricant-packaging/img-hero.png";
-import lubricantpackagingimg1 from "@/assets/automotive-products/lubricant-packaging/img-1.png";
-import lubricantpackagingimg2 from "@/assets/automotive-products/lubricant-packaging/img-2.png";
-import lubricantpackagingimg3 from "@/assets/automotive-products/lubricant-packaging/img-3.png";
-import lubricantpackagingimg4 from "@/assets/automotive-products/lubricant-packaging/img-4.png";
-import lubricantpackagingimg5 from "@/assets/automotive-products/lubricant-packaging/img-5.png";
-import lubricantpackagingimg6 from "@/assets/automotive-products/lubricant-packaging/img-whychoose.png";
-import lubricantpackagingimg7 from "@/assets/automotive-products/lubricant-packaging/img-different.png";
+import lubricantpackaginghero from "@/assets/automotive-products/lubricant-packaging/img-hero.webp";
+import lubricantpackagingimg1 from "@/assets/automotive-products/lubricant-packaging/img-1.webp";
+import lubricantpackagingimg2 from "@/assets/automotive-products/lubricant-packaging/img-2.webp";
+import lubricantpackagingimg3 from "@/assets/automotive-products/lubricant-packaging/img-3.webp";
+import lubricantpackagingimg4 from "@/assets/automotive-products/lubricant-packaging/img-4.webp";
+import lubricantpackagingimg5 from "@/assets/automotive-products/lubricant-packaging/img-5.webp";
+import lubricantpackagingimg6 from "@/assets/automotive-products/lubricant-packaging/img-whychoose.webp";
+import lubricantpackagingimg7 from "@/assets/automotive-products/lubricant-packaging/img-different.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const LubricantPackagingBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

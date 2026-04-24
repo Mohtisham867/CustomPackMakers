@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import chargerBoxeshero from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-hero.png";
-import chargerBoxes1 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-1.png";
-import chargerBoxes2 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-2.png";
-import chargerBoxes3 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-3.png";
-import chargerBoxes4 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-4.png";
-import chargerBoxes5 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-5.png";
-import chargerBoxes6 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-whychoose.png";
-import chargerBoxes7 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import chargerBoxeshero from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-hero.webp";
+import chargerBoxes1 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-1.webp";
+import chargerBoxes2 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-2.webp";
+import chargerBoxes3 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-3.webp";
+import chargerBoxes4 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-4.webp";
+import chargerBoxes5 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-5.webp";
+import chargerBoxes6 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-whychoose.webp";
+import chargerBoxes7 from "@/assets/electronics-boxes/cell-phone-charger-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CellPhoneChargerBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

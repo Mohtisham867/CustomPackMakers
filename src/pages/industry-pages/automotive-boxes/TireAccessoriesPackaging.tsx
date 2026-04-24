@@ -28,17 +28,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import tireaccessorieshero from "@/assets/automotive-products/tire-accessories-packaging/img-hero.png";
-import tireaccessories1 from "@/assets/automotive-products/tire-accessories-packaging/img-1.png";
-import tireaccessories2 from "@/assets/automotive-products/tire-accessories-packaging/img-2.png";
-import tireaccessories3 from "@/assets/automotive-products/tire-accessories-packaging/img-3.png";
-import tireaccessories4 from "@/assets/automotive-products/tire-accessories-packaging/img-4.png";
-import tireaccessories5 from "@/assets/automotive-products/tire-accessories-packaging/img-4.png";
-import tireaccessories6 from "@/assets/automotive-products/tire-accessories-packaging/img-whychoose.png";
-import tireaccessories7 from "@/assets/automotive-products/tire-accessories-packaging/img-4.png";
+import tireaccessorieshero from "@/assets/automotive-products/tire-accessories-packaging/img-hero.webp";
+import tireaccessories1 from "@/assets/automotive-products/tire-accessories-packaging/img-1.webp";
+import tireaccessories2 from "@/assets/automotive-products/tire-accessories-packaging/img-2.webp";
+import tireaccessories3 from "@/assets/automotive-products/tire-accessories-packaging/img-3.webp";
+import tireaccessories4 from "@/assets/automotive-products/tire-accessories-packaging/img-4.webp";
+import tireaccessories5 from "@/assets/automotive-products/tire-accessories-packaging/img-4.webp";
+import tireaccessories6 from "@/assets/automotive-products/tire-accessories-packaging/img-whychoose.webp";
+import tireaccessories7 from "@/assets/automotive-products/tire-accessories-packaging/img-4.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const TireAccessoriesPackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

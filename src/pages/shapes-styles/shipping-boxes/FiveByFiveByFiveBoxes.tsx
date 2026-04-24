@@ -32,7 +32,7 @@ import { Plus, Minus } from "lucide-react";
 import heroImage from "@/assets/shipping-boxes/5x5x5-boxes.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const FiveByFiveByFiveBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

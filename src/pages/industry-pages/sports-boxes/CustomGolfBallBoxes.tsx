@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Custom Golf Ball Boxes
-import golfHero from "@/assets/sports-boxes/custom-golf-ball-boxes/img-hero.png";
-import golf1 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-1.png";
-import golf2 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-2.png";
-import golf3 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-3.png";
-import golf4 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-4.png";
-import golf5 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-5.png";
-import golf6 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-whychoose.png";
-import golf7 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-different.png";
+import golfHero from "@/assets/sports-boxes/custom-golf-ball-boxes/img-hero.webp";
+import golf1 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-1.webp";
+import golf2 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-2.webp";
+import golf3 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-3.webp";
+import golf4 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-4.webp";
+import golf5 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-5.webp";
+import golf6 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-whychoose.webp";
+import golf7 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-different.webp";
 
 //FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomGolfBallBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -31,7 +31,7 @@ import { Plus, Minus } from "lucide-react";
 
 
 // Image Imports
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 import mainLipBalm from "@/assets/cosmetic-boxes/Lip Balm Boxes.webp";
 
 const LipBalmBoxes = () => {

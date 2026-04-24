@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import earringBoxesHero from "@/assets/jewelry-boxes/Earring-Boxes/img-hero.png";
-import earringBoxes1 from "@/assets/jewelry-boxes/Earring-Boxes/img-1.png";
-import earringBoxes2 from "@/assets/jewelry-boxes/Earring-Boxes/img-2.png";
-import earringBoxes3 from "@/assets/jewelry-boxes/Earring-Boxes/img-3.png";
-import earringBoxes4 from "@/assets/jewelry-boxes/Earring-Boxes/img-4.png";
-import earringBoxes5 from "@/assets/jewelry-boxes/Earring-Boxes/img-5.png";
-import earringBoxes6 from "@/assets/jewelry-boxes/Earring-Boxes/img-whychoose.png";
-import earringBoxes7 from "@/assets/jewelry-boxes/Earring-Boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import earringBoxesHero from "@/assets/jewelry-boxes/Earring-Boxes/img-hero.webp";
+import earringBoxes1 from "@/assets/jewelry-boxes/Earring-Boxes/img-1.webp";
+import earringBoxes2 from "@/assets/jewelry-boxes/Earring-Boxes/img-2.webp";
+import earringBoxes3 from "@/assets/jewelry-boxes/Earring-Boxes/img-3.webp";
+import earringBoxes4 from "@/assets/jewelry-boxes/Earring-Boxes/img-4.webp";
+import earringBoxes5 from "@/assets/jewelry-boxes/Earring-Boxes/img-5.webp";
+import earringBoxes6 from "@/assets/jewelry-boxes/Earring-Boxes/img-whychoose.webp";
+import earringBoxes7 from "@/assets/jewelry-boxes/Earring-Boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const EarringBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

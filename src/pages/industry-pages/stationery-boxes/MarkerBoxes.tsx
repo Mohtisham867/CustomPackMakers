@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import markerBoxesHero from "@/assets/stationery-boxes/marker-boxes/img-hero.png";
-import markerBoxes1 from "@/assets/stationery-boxes/marker-boxes/img-1.png";
-import markerBoxes2 from "@/assets/stationery-boxes/marker-boxes/img-2.png";
-import markerBoxes3 from "@/assets/stationery-boxes/marker-boxes/img-3.png";
-import markerBoxes4 from "@/assets/stationery-boxes/marker-boxes/img-4.png";
-import markerBoxes5 from "@/assets/stationery-boxes/marker-boxes/img-5.png";
-import markerBoxes6 from "@/assets/stationery-boxes/marker-boxes/img-whychoose.png";
-import markerBoxes7 from "@/assets/stationery-boxes/marker-boxes/img-different.png";
+import markerBoxesHero from "@/assets/stationery-boxes/marker-boxes/img-hero.webp";
+import markerBoxes1 from "@/assets/stationery-boxes/marker-boxes/img-1.webp";
+import markerBoxes2 from "@/assets/stationery-boxes/marker-boxes/img-2.webp";
+import markerBoxes3 from "@/assets/stationery-boxes/marker-boxes/img-3.webp";
+import markerBoxes4 from "@/assets/stationery-boxes/marker-boxes/img-4.webp";
+import markerBoxes5 from "@/assets/stationery-boxes/marker-boxes/img-5.webp";
+import markerBoxes6 from "@/assets/stationery-boxes/marker-boxes/img-whychoose.webp";
+import markerBoxes7 from "@/assets/stationery-boxes/marker-boxes/img-different.webp";
 
 // FAQ Image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const MarkerBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

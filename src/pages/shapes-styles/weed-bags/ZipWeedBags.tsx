@@ -36,7 +36,7 @@ import smellProofWeedBags from "@/assets/weed-bags/smell-proof-weed-bags.webp";
 import weedBags35 from "@/assets/weed-bags/weed-bags-3-5.webp";
 
 // FAQ image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ZipWeedBags = () => {
     const [selectedImage, setSelectedImage] = useState(0);

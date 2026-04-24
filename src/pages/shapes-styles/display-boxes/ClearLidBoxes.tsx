@@ -19,7 +19,7 @@ import heroImg from "@/assets/display-boxes/clear-lid-boxes.webp";
 import displayImg from "@/assets/display-boxes/display-boxes-hero.webp";
 import productImg from "@/assets/display-boxes/product-display-boxes.webp";
 import watchImg from "@/assets/display-boxes/watch-display-boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ClearLidBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

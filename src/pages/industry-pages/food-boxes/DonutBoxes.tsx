@@ -29,15 +29,15 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import donutBoxeshero from "@/assets/food-boxes/donut-boxes/img-hero.png";
-import donutBoxes1 from "@/assets/food-boxes/donut-boxes/img-1.png";
-import donutBoxes2 from "@/assets/food-boxes/donut-boxes/img-2.png";
-import donutBoxes3 from "@/assets/food-boxes/donut-boxes/img-3.png";
-import donutBoxes4 from "@/assets/food-boxes/donut-boxes/img-4.png";
-import donutBoxes5 from "@/assets/food-boxes/donut-boxes/img-5.png";
-import donutBoxes6 from "@/assets/food-boxes/donut-boxes/img-whychoose.png";
-import donutBoxes7 from "@/assets/food-boxes/donut-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import donutBoxeshero from "@/assets/food-boxes/donut-boxes/img-hero.webp";
+import donutBoxes1 from "@/assets/food-boxes/donut-boxes/img-1.webp";
+import donutBoxes2 from "@/assets/food-boxes/donut-boxes/img-2.webp";
+import donutBoxes3 from "@/assets/food-boxes/donut-boxes/img-3.webp";
+import donutBoxes4 from "@/assets/food-boxes/donut-boxes/img-4.webp";
+import donutBoxes5 from "@/assets/food-boxes/donut-boxes/img-5.webp";
+import donutBoxes6 from "@/assets/food-boxes/donut-boxes/img-whychoose.webp";
+import donutBoxes7 from "@/assets/food-boxes/donut-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const DonutBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -15,15 +15,15 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import hempPreRollHero from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-hero.png";
-import hempPreRollImg1 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-1.png";
-import hempPreRollImg2 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-2.png";
-import hempPreRollImg3 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-3.png";
-import hempPreRollImg4 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-4.png";
-import hempPreRollImg5 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-5.png";
-import hempPreRollImg6 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-whychoose.png";
-import hempPreRollImg7 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import hempPreRollHero from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-hero.webp";
+import hempPreRollImg1 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-1.webp";
+import hempPreRollImg2 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-2.webp";
+import hempPreRollImg3 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-3.webp";
+import hempPreRollImg4 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-4.webp";
+import hempPreRollImg5 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-5.webp";
+import hempPreRollImg6 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-whychoose.webp";
+import hempPreRollImg7 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [
     { id: "item-1", q: "Do your hemp pre-roll boxes come with certified child-resistant locks?", a: "Yes, we specialize in manufacturing hemp pre-roll packaging with compliant, certified child-resistant (CR) mechanisms. From pinch-and-pull slider trays to secure locking button flaps, our designs meet strict regulatory standards while maintaining a sleek, organic look." },

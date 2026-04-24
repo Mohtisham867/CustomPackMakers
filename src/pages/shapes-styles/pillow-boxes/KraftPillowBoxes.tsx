@@ -15,7 +15,7 @@ import { RelatedProductPillowBoxes } from "@/components/RelatedProductPillowBoxe
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 import heroImg from "@/assets/pillow-boxes/kraft_pillow_boxes.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const productName = "Custom Kraft Pillow Boxes";
 const overviewTitle = "Eco-Friendly Kraft Pillow Packaging With Natural Artisan Appeal";

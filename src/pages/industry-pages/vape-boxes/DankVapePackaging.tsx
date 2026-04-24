@@ -30,7 +30,7 @@ import { Plus, Minus } from "lucide-react";
 
 import productImage from "@/assets/vape-boxes/dank-vape-packaging.webp";
 import heroImage from "@/assets/vape-boxes/vape-boxes-hero.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const DankVapePackaging = () => {
     const [selectedImage, setSelectedImage] = useState(0);

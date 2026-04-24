@@ -29,17 +29,17 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import documentFolderHero from "@/assets/stationery-boxes/document-folder/img-hero.png";
-import documentFolder1 from "@/assets/stationery-boxes/document-folder/img-1.png";
-import documentFolder2 from "@/assets/stationery-boxes/document-folder/img-2.png";
-import documentFolder3 from "@/assets/stationery-boxes/document-folder/img-3.png";
-import documentFolder4 from "@/assets/stationery-boxes/document-folder/img-4.png";
-import documentFolder5 from "@/assets/stationery-boxes/document-folder/img-5.png";
-import documentFolder6 from "@/assets/stationery-boxes/document-folder/img-whychoose.png";
-import documentFolder7 from "@/assets/stationery-boxes/document-folder/img-different.png";
+import documentFolderHero from "@/assets/stationery-boxes/document-folder/img-hero.webp";
+import documentFolder1 from "@/assets/stationery-boxes/document-folder/img-1.webp";
+import documentFolder2 from "@/assets/stationery-boxes/document-folder/img-2.webp";
+import documentFolder3 from "@/assets/stationery-boxes/document-folder/img-3.webp";
+import documentFolder4 from "@/assets/stationery-boxes/document-folder/img-4.webp";
+import documentFolder5 from "@/assets/stationery-boxes/document-folder/img-5.webp";
+import documentFolder6 from "@/assets/stationery-boxes/document-folder/img-whychoose.webp";
+import documentFolder7 from "@/assets/stationery-boxes/document-folder/img-different.webp";
 
 // FAQ Image
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const DocumentFolder = () => {
     const [selectedImage, setSelectedImage] = useState(0);

@@ -29,16 +29,16 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import oliveOilBoxeshero from "@/assets/pharma-packaging/olive-oil-boxes/img-hero.png";
-import oliveOilBoxesimg1 from "@/assets/pharma-packaging/olive-oil-boxes/img-1.png";
-import oliveOilBoxesimg2 from "@/assets/pharma-packaging/olive-oil-boxes/img-2.png";
-import oliveOilBoxesimg3 from "@/assets/pharma-packaging/olive-oil-boxes/img-3.png";
-import oliveOilBoxesimg4 from "@/assets/pharma-packaging/olive-oil-boxes/img-4.png";
-import oliveOilBoxesimg5 from "@/assets/pharma-packaging/olive-oil-boxes/img-5.png";
-import oliveOilBoxesimg6 from "@/assets/pharma-packaging/olive-oil-boxes/img-whychoose.png";
-import oliveOilBoxesimg7 from "@/assets/pharma-packaging/olive-oil-boxes/img-different.png";
+import oliveOilBoxeshero from "@/assets/pharma-packaging/olive-oil-boxes/img-hero.webp";
+import oliveOilBoxesimg1 from "@/assets/pharma-packaging/olive-oil-boxes/img-1.webp";
+import oliveOilBoxesimg2 from "@/assets/pharma-packaging/olive-oil-boxes/img-2.webp";
+import oliveOilBoxesimg3 from "@/assets/pharma-packaging/olive-oil-boxes/img-3.webp";
+import oliveOilBoxesimg4 from "@/assets/pharma-packaging/olive-oil-boxes/img-4.webp";
+import oliveOilBoxesimg5 from "@/assets/pharma-packaging/olive-oil-boxes/img-5.webp";
+import oliveOilBoxesimg6 from "@/assets/pharma-packaging/olive-oil-boxes/img-whychoose.webp";
+import oliveOilBoxesimg7 from "@/assets/pharma-packaging/olive-oil-boxes/img-different.webp";
 
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const OliveOilBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

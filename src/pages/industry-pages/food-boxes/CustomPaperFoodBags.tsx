@@ -30,7 +30,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Product images
 import productImage from "@/assets/food-boxes/paper-food-bags.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomPaperFoodBags = () => {
     const [selectedImage, setSelectedImage] = useState(0);

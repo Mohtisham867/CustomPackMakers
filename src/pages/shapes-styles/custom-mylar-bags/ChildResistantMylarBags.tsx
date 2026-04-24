@@ -15,7 +15,7 @@ import { RelatedProductCustomMylarBags } from "@/components/RelatedProductCustom
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 import fallbackHero from "@/assets/mylar-bags/child-resistant-mylar-bags-premium-v2.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChildResistantMylarBags = () => {
     const [selectedImage, setSelectedImage] = useState(0);

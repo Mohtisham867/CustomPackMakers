@@ -30,15 +30,15 @@ import { RelatedProductMarijuana } from "@/components/RelatedProductMarijuana";
 
 
 // Specific product images
-import labelsHero from "@/assets/marijuana-packaging/labels/img-hero.png";
-import labels1 from "@/assets/marijuana-packaging/labels/img-1.png";
-import labels2 from "@/assets/marijuana-packaging/labels/img-2.png";
-import labels3 from "@/assets/marijuana-packaging/labels/img-3.png";
-import labels4 from "@/assets/marijuana-packaging/labels/img-4.png";
-import labels5 from "@/assets/marijuana-packaging/labels/img-5.png";
-import labels6 from "@/assets/marijuana-packaging/labels/img-whychoose.png";
-import labels7 from "@/assets/marijuana-packaging/labels/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import labelsHero from "@/assets/marijuana-packaging/labels/img-hero.webp";
+import labels1 from "@/assets/marijuana-packaging/labels/img-1.webp";
+import labels2 from "@/assets/marijuana-packaging/labels/img-2.webp";
+import labels3 from "@/assets/marijuana-packaging/labels/img-3.webp";
+import labels4 from "@/assets/marijuana-packaging/labels/img-4.webp";
+import labels5 from "@/assets/marijuana-packaging/labels/img-5.webp";
+import labels6 from "@/assets/marijuana-packaging/labels/img-whychoose.webp";
+import labels7 from "@/assets/marijuana-packaging/labels/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 
 

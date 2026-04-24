@@ -28,7 +28,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 import heroImg from "@/assets/tuck-boxes/tuck-top-box.webp";
-import FAQimage from "@/assets/FAQ-image.png";
+import FAQimage from "@/assets/FAQ-image.webp";
 
 const TuckTopBox = () => {
     const [selectedImage, setSelectedImage] = useState(0);

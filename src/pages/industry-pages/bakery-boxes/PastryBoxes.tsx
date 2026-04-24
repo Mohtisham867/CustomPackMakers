@@ -16,15 +16,15 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import pastryBoxeshero from "@/assets/bakery-products/pastry-boxes/img-hero.png";
-import pastryBoxesimg1 from "@/assets/bakery-products/pastry-boxes/img-1.png";
-import pastryBoxesimg2 from "@/assets/bakery-products/pastry-boxes/img-2.png";
-import pastryBoxesimg3 from "@/assets/bakery-products/pastry-boxes/img-3.png";
-import pastryBoxesimg4 from "@/assets/bakery-products/pastry-boxes/img-4.png";
-import pastryBoxesimg5 from "@/assets/bakery-products/pastry-boxes/img-5.png";
-import pastryBoxesimg6 from "@/assets/bakery-products/pastry-boxes/img-whychoose.png";
-import pastryBoxesimg7 from "@/assets/bakery-products/pastry-boxes/img-different.png";
-import FAQimage from "@/assets/FAQ-image.png";
+import pastryBoxeshero from "@/assets/bakery-products/pastry-boxes/img-hero.webp";
+import pastryBoxesimg1 from "@/assets/bakery-products/pastry-boxes/img-1.webp";
+import pastryBoxesimg2 from "@/assets/bakery-products/pastry-boxes/img-2.webp";
+import pastryBoxesimg3 from "@/assets/bakery-products/pastry-boxes/img-3.webp";
+import pastryBoxesimg4 from "@/assets/bakery-products/pastry-boxes/img-4.webp";
+import pastryBoxesimg5 from "@/assets/bakery-products/pastry-boxes/img-5.webp";
+import pastryBoxesimg6 from "@/assets/bakery-products/pastry-boxes/img-whychoose.webp";
+import pastryBoxesimg7 from "@/assets/bakery-products/pastry-boxes/img-different.webp";
+import FAQimage from "@/assets/FAQ-image.webp";
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 
 
