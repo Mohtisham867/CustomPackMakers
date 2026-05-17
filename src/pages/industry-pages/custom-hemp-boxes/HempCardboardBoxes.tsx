@@ -15,14 +15,14 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import hempCardboardHero from "@/assets/industry/custom-hemp-boxes/hemp-cardboard-boxes/img-hero.webp";
-import hempCardboardImg1 from "@/assets/industry/custom-hemp-boxes/hemp-cardboard-boxes/img-1.webp";
-import hempCardboardImg2 from "@/assets/industry/custom-hemp-boxes/hemp-cardboard-boxes/img-2.webp";
-import hempCardboardImg3 from "@/assets/industry/custom-hemp-boxes/hemp-cardboard-boxes/img-3.webp";
-import hempCardboardImg4 from "@/assets/industry/custom-hemp-boxes/hemp-cardboard-boxes/img-4.webp";
-import hempCardboardImg5 from "@/assets/industry/custom-hemp-boxes/hemp-cardboard-boxes/img-5.webp";
-import hempCardboardImg6 from "@/assets/industry/custom-hemp-boxes/hemp-cardboard-boxes/img-whychoose.webp";
-import hempCardboardImg7 from "@/assets/industry/custom-hemp-boxes/hemp-cardboard-boxes/img-different.webp";
+import hempCardboardHero from "@/assets/industry/custom-hemp-boxes/Hemp-Cardboard-Boxes/img-hero.webp";
+import hempCardboardImg1 from "@/assets/industry/custom-hemp-boxes/Hemp-Cardboard-Boxes/img-1.webp";
+import hempCardboardImg2 from "@/assets/industry/custom-hemp-boxes/Hemp-Cardboard-Boxes/img-2.webp";
+import hempCardboardImg3 from "@/assets/industry/custom-hemp-boxes/Hemp-Cardboard-Boxes/img-3.webp";
+import hempCardboardImg4 from "@/assets/industry/custom-hemp-boxes/Hemp-Cardboard-Boxes/img-4.webp";
+import hempCardboardImg5 from "@/assets/industry/custom-hemp-boxes/Hemp-Cardboard-Boxes/img-5.webp";
+import hempCardboardImg6 from "@/assets/industry/custom-hemp-boxes/Hemp-Cardboard-Boxes/img-whychoose.webp";
+import hempCardboardImg7 from "@/assets/industry/custom-hemp-boxes/Hemp-Cardboard-Boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [

@@ -36,7 +36,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import compostablecoffeecuphero from "@/assets/industry/tea-coffee-cups/Compostable-Coffee-Cups/img-hero.webp";
+import compostablecoffeecuphero from "@/assets/industry/tea-coffee-cups/compostable-coffee-cups/img-hero.webp";
 import heroImage from "@/assets/industry/tea-coffee-cups/compostable-coffee-cups.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 

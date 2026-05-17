@@ -20,14 +20,14 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import christmasPillowBoxesHero from "@/assets/industry/holiday-boxes/christmas-pillow-boxe/img-hero.webp";
-import christmasPillowBoxesimg1 from "@/assets/industry/holiday-boxes/christmas-pillow-boxe/img-1.webp";
-import christmasPillowBoxesimg2 from "@/assets/industry/holiday-boxes/christmas-pillow-boxe/img-2.webp";
-import christmasPillowBoxesimg3 from "@/assets/industry/holiday-boxes/christmas-pillow-boxe/img-3.webp";
-import christmasPillowBoxesimg4 from "@/assets/industry/holiday-boxes/christmas-pillow-boxe/img-4.webp";
-import christmasPillowBoxesimg5 from "@/assets/industry/holiday-boxes/christmas-pillow-boxe/img-5.webp";
-import christmasPillowBoxesimg6 from "@/assets/industry/holiday-boxes/christmas-pillow-boxe/img-whychoose.webp";
-import christmasPillowBoxesimg7 from "@/assets/industry/holiday-boxes/christmas-pillow-boxe/img-different.webp";
+import christmasPillowBoxesHero from "@/assets/industry/holiday-boxes/Christmas-pillow-boxe/img-hero.webp";
+import christmasPillowBoxesimg1 from "@/assets/industry/holiday-boxes/Christmas-pillow-boxe/img-1.webp";
+import christmasPillowBoxesimg2 from "@/assets/industry/holiday-boxes/Christmas-pillow-boxe/img-2.webp";
+import christmasPillowBoxesimg3 from "@/assets/industry/holiday-boxes/Christmas-pillow-boxe/img-3.webp";
+import christmasPillowBoxesimg4 from "@/assets/industry/holiday-boxes/Christmas-pillow-boxe/img-4.webp";
+import christmasPillowBoxesimg5 from "@/assets/industry/holiday-boxes/Christmas-pillow-boxe/img-5.webp";
+import christmasPillowBoxesimg6 from "@/assets/industry/holiday-boxes/Christmas-pillow-boxe/img-whychoose.webp";
+import christmasPillowBoxesimg7 from "@/assets/industry/holiday-boxes/Christmas-pillow-boxe/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [

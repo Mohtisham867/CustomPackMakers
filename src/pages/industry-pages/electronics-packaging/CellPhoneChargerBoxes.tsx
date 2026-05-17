@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import chargerBoxeshero from "@/assets/industry/electronics-packaging/cell-phone-charger-boxes/img-hero.webp";
-import chargerBoxes1 from "@/assets/industry/electronics-packaging/cell-phone-charger-boxes/img-1.webp";
-import chargerBoxes2 from "@/assets/industry/electronics-packaging/cell-phone-charger-boxes/img-2.webp";
-import chargerBoxes3 from "@/assets/industry/electronics-packaging/cell-phone-charger-boxes/img-3.webp";
-import chargerBoxes4 from "@/assets/industry/electronics-packaging/cell-phone-charger-boxes/img-4.webp";
-import chargerBoxes5 from "@/assets/industry/electronics-packaging/cell-phone-charger-boxes/img-5.webp";
-import chargerBoxes6 from "@/assets/industry/electronics-packaging/cell-phone-charger-boxes/img-whychoose.webp";
-import chargerBoxes7 from "@/assets/industry/electronics-packaging/cell-phone-charger-boxes/img-different.webp";
+import chargerBoxeshero from "@/assets/industry/electronics-packaging/Cell-Phone-Charger-Boxes/img-hero.webp";
+import chargerBoxes1 from "@/assets/industry/electronics-packaging/Cell-Phone-Charger-Boxes/img-1.webp";
+import chargerBoxes2 from "@/assets/industry/electronics-packaging/Cell-Phone-Charger-Boxes/img-2.webp";
+import chargerBoxes3 from "@/assets/industry/electronics-packaging/Cell-Phone-Charger-Boxes/img-3.webp";
+import chargerBoxes4 from "@/assets/industry/electronics-packaging/Cell-Phone-Charger-Boxes/img-4.webp";
+import chargerBoxes5 from "@/assets/industry/electronics-packaging/Cell-Phone-Charger-Boxes/img-5.webp";
+import chargerBoxes6 from "@/assets/industry/electronics-packaging/Cell-Phone-Charger-Boxes/img-whychoose.webp";
+import chargerBoxes7 from "@/assets/industry/electronics-packaging/Cell-Phone-Charger-Boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CellPhoneChargerBoxes = () => {
