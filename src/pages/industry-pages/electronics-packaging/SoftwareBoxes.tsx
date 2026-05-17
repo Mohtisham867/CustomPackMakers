@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import softwareBoxes from "@/assets/electronics-boxes/Software Boxes.webp";
+import softwareBoxes from "@/assets/industry/electronics-packaging/Software Boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const SoftwareBoxes = () => {

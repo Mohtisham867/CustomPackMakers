@@ -14,17 +14,17 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/holiday-boxes/holiday-boxes-hero.webp";
+import heroImage from "@/assets/industry/holiday-boxes/holiday-boxes-hero.webp";
 
 // Specific images
-import christmasGiftBoxes from "@/assets/holiday-boxes/christmas-gift-boxes.webp";
-import halloweenBoxes from "@/assets/holiday-boxes/halloween-boxes.webp";
-import holidayGiftBoxes from "@/assets/holiday-boxes/holiday-gift-boxes.webp";
-import thanksgivingBoxes from "@/assets/holiday-boxes/thanksgiving-boxes.webp";
-import thanksgivingFoodBoxes from "@/assets/holiday-boxes/Thanksgiving Food Boxes.webp";
-import valentinesBoxes from "@/assets/holiday-boxes/valentines-boxes.webp";
-import halloweenWindowBoxes from "@/assets/holiday-boxes/Halloween Window Boxes.webp";
-import christmasPillowBoxes from "@/assets/holiday-boxes/Christmas pillow.webp";
+import christmasGiftBoxes from "@/assets/industry/holiday-boxes/christmas-gift-boxes.webp";
+import halloweenBoxes from "@/assets/industry/holiday-boxes/halloween-boxes.webp";
+import holidayGiftBoxes from "@/assets/industry/holiday-boxes/holiday-gift-boxes.webp";
+import thanksgivingBoxes from "@/assets/industry/holiday-boxes/thanksgiving-boxes.webp";
+import thanksgivingFoodBoxes from "@/assets/industry/holiday-boxes/Thanksgiving Food Boxes.webp";
+import valentinesBoxes from "@/assets/industry/holiday-boxes/valentines-boxes.webp";
+import halloweenWindowBoxes from "@/assets/industry/holiday-boxes/Halloween Window Boxes.webp";
+import christmasPillowBoxes from "@/assets/industry/holiday-boxes/Christmas pillow.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

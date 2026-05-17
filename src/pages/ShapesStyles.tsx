@@ -12,26 +12,26 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import childResistantPackaging from "@/assets/box-shapes/child-resistant-packaging.webp";
-import customBags from "@/assets/box-shapes/custom-bags.webp";
-import customMylarBags from "@/assets/box-shapes/custom-mylar-bags.webp";
-import customPaperBags from "@/assets/box-shapes/custom-paper-bags.webp";
-import customShapeBoxes from "@/assets/box-shapes/custom-shape-boxes.webp";
-import displayBoxes from "@/assets/box-shapes/display-boxes.webp";
-import gableBoxes from "@/assets/box-shapes/Gable box.webp";
-import hangTags from "@/assets/box-shapes/hang-tags.webp";
-import mailerBoxes from "@/assets/box-shapes/mailer-boxes.webp";
-import pillowBoxes from "@/assets/box-shapes/pillow-boxes.webp";
-import rigidBoxes from "@/assets/box-shapes/rigid-boxes.webp";
-import shippingBoxes from "@/assets/box-shapes/shipping-boxes.webp";
-import sleeveAndTray from "@/assets/box-shapes/sleeve-and-tray.webp";
-import stickersAndLabels from "@/assets/box-shapes/stickers-and-labels.webp";
-import subscriptionBoxes from "@/assets/box-shapes/subscription-boxes.webp";
-import tuckBoxes from "@/assets/box-shapes/tuck-boxes.webp";
-import weedBags from "@/assets/box-shapes/weed-bags.webp";
-import windowPackaging from "@/assets/box-shapes/window-packaging.webp";
+import childResistantPackaging from "@/assets/shape-style/box-shapes/child-resistant-packaging.webp";
+import customBags from "@/assets/shape-style/box-shapes/custom-bags.webp";
+import customMylarBags from "@/assets/shape-style/box-shapes/custom-mylar-bags.webp";
+import customPaperBags from "@/assets/shape-style/box-shapes/custom-paper-bags.webp";
+import customShapeBoxes from "@/assets/shape-style/box-shapes/custom-shape-boxes.webp";
+import displayBoxes from "@/assets/shape-style/box-shapes/display-boxes.webp";
+import gableBoxes from "@/assets/shape-style/box-shapes/Gable box.webp";
+import hangTags from "@/assets/shape-style/box-shapes/hang-tags.webp";
+import mailerBoxes from "@/assets/shape-style/box-shapes/mailer-boxes.webp";
+import pillowBoxes from "@/assets/shape-style/box-shapes/pillow-boxes.webp";
+import rigidBoxes from "@/assets/shape-style/box-shapes/rigid-boxes.webp";
+import shippingBoxes from "@/assets/shape-style/box-shapes/shipping-boxes.webp";
+import sleeveAndTray from "@/assets/shape-style/box-shapes/sleeve-and-tray.webp";
+import stickersAndLabels from "@/assets/shape-style/box-shapes/stickers-and-labels.webp";
+import subscriptionBoxes from "@/assets/shape-style/box-shapes/subscription-boxes.webp";
+import tuckBoxes from "@/assets/shape-style/box-shapes/tuck-boxes.webp";
+import weedBags from "@/assets/shape-style/box-shapes/weed-bags.webp";
+import windowPackaging from "@/assets/shape-style/box-shapes/window-packaging.webp";
 
-import heroBackground from "@/assets/shapes-styles-hero-bg.webp";
+import heroBackground from "@/assets/shape-style/shapes-styles-hero-bg.webp";
 
 
 const shapesStyles = [

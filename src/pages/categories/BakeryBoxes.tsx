@@ -15,19 +15,19 @@ import {
 import { Link } from "react-router-dom";
 
 // Import hero image
-import bakeryHeroImage from "@/assets/bakery-products/Hero.webp";
+import bakeryHeroImage from "@/assets/industry/bakery-boxes/Hero.webp";
 
 // Import bakery product images
-import customCakeBoxes from "@/assets/bakery-products/custom-cake-boxes.webp";
-import pastryBoxes from "@/assets/bakery-products/pastry-boxes.webp";
-import donutBoxes from "@/assets/bakery-products/donut-boxes.webp";
-import cookieBoxes from "@/assets/bakery-products/cookie-boxes.webp";
-import cupcakeBoxes from "@/assets/bakery-products/cupcake-boxes.webp";
-import pieBoxes from "@/assets/bakery-products/Pie Boxes.webp";
-import muffinBoxes from "@/assets/bakery-products/muffin-boxes.webp";
-import breadPackaging from "@/assets/bakery-products/Bread Packaging.webp";
-import macaronBoxes from "@/assets/bakery-products/Macaron Boxes.webp";
-import chocolateBoxes from "@/assets/bakery-products/Chocolate Boxes.webp";
+import customCakeBoxes from "@/assets/industry/bakery-boxes/custom-cake-boxes.webp";
+import pastryBoxes from "@/assets/industry/bakery-boxes/pastry-boxes.webp";
+import donutBoxes from "@/assets/industry/bakery-boxes/donut-boxes.webp";
+import cookieBoxes from "@/assets/industry/bakery-boxes/cookie-boxes.webp";
+import cupcakeBoxes from "@/assets/industry/bakery-boxes/cupcake-boxes.webp";
+import pieBoxes from "@/assets/industry/bakery-boxes/Pie Boxes.webp";
+import muffinBoxes from "@/assets/industry/bakery-boxes/muffin-boxes.webp";
+import breadPackaging from "@/assets/industry/bakery-boxes/Bread Packaging.webp";
+import macaronBoxes from "@/assets/industry/bakery-boxes/Macaron Boxes.webp";
+import chocolateBoxes from "@/assets/industry/bakery-boxes/Chocolate Boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

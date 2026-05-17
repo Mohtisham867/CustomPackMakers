@@ -16,19 +16,19 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productHero from "@/assets/cigarette-boxes/hemp-cigarette-boxes.webp";
+import productHero from "@/assets/industry/cigarette-boxes/hemp-cigarette-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
-import eCigaretteBoxes from "@/assets/cigarette-boxes/e-cigarette-boxes.webp";
-import hempCigaretteBoxes from "@/assets/cigarette-boxes/hemp-cigarette-boxes.webp";
-import paperCigaretteBoxes from "@/assets/cigarette-boxes/paper-cigarette-boxes.webp";
-import cardboardCigaretteBoxes from "@/assets/cigarette-boxes/cardboard-cigarette-boxes.webp";
-import blankCigaretteBoxes from "@/assets/cigarette-boxes/blank-cigarette-boxes.webp";
-import disposableCigaretteBoxes from "@/assets/cigarette-boxes/disposable-cigarette-boxes.webp";
-import lighterBoxes from "@/assets/cigarette-boxes/lighter-boxes.webp";
-import emptyCigaretteBoxes from "@/assets/cigarette-boxes/empty-cigarette-boxes.webp";
-import cigaretteDisplayBoxes from "@/assets/cigarette-boxes/cigarette-display-boxes.webp";
-import cardboardCigarBoxes from "@/assets/cigarette-boxes/cardboard-cigar-boxes.webp";
-import cigaretteCartons from "@/assets/cigarette-boxes/cigarette-cartons.webp";
+import eCigaretteBoxes from "@/assets/industry/cigarette-boxes/e-cigarette-boxes.webp";
+import hempCigaretteBoxes from "@/assets/industry/cigarette-boxes/hemp-cigarette-boxes.webp";
+import paperCigaretteBoxes from "@/assets/industry/cigarette-boxes/paper-cigarette-boxes.webp";
+import cardboardCigaretteBoxes from "@/assets/industry/cigarette-boxes/cardboard-cigarette-boxes.webp";
+import blankCigaretteBoxes from "@/assets/industry/cigarette-boxes/blank-cigarette-boxes.webp";
+import disposableCigaretteBoxes from "@/assets/industry/cigarette-boxes/disposable-cigarette-boxes.webp";
+import lighterBoxes from "@/assets/industry/cigarette-boxes/lighter-boxes.webp";
+import emptyCigaretteBoxes from "@/assets/industry/cigarette-boxes/empty-cigarette-boxes.webp";
+import cigaretteDisplayBoxes from "@/assets/industry/cigarette-boxes/cigarette-display-boxes.webp";
+import cardboardCigarBoxes from "@/assets/industry/cigarette-boxes/cardboard-cigar-boxes.webp";
+import cigaretteCartons from "@/assets/industry/cigarette-boxes/cigarette-cartons.webp";
 
 const carouselProducts = [
     { name: "Custom E-Cigarette Boxes", image: eCigaretteBoxes, link: "/industries/cigarette-boxes/custom-e-cigarette-boxes", desc: "Modern packaging for electronic cigarettes featuring sleek designs and high-quality protective finishes." },

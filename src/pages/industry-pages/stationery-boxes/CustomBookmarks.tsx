@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import bookmarksHero from "@/assets/stationery-boxes/custom-bookmarks/img-hero.webp";
-import bookmarks1 from "@/assets/stationery-boxes/custom-bookmarks/img-1.webp";
-import bookmarks2 from "@/assets/stationery-boxes/custom-bookmarks/img-2.webp";
-import bookmarks3 from "@/assets/stationery-boxes/custom-bookmarks/img-3.webp";
-import bookmarks4 from "@/assets/stationery-boxes/custom-bookmarks/img-4.webp";
-import bookmarks5 from "@/assets/stationery-boxes/custom-bookmarks/img-5.webp";
-import bookmarks6 from "@/assets/stationery-boxes/custom-bookmarks/img-whychoose.webp";
-import bookmarks7 from "@/assets/stationery-boxes/custom-bookmarks/img-different.webp";
+import bookmarksHero from "@/assets/industry/stationery-boxes/custom-bookmarks/img-hero.webp";
+import bookmarks1 from "@/assets/industry/stationery-boxes/custom-bookmarks/img-1.webp";
+import bookmarks2 from "@/assets/industry/stationery-boxes/custom-bookmarks/img-2.webp";
+import bookmarks3 from "@/assets/industry/stationery-boxes/custom-bookmarks/img-3.webp";
+import bookmarks4 from "@/assets/industry/stationery-boxes/custom-bookmarks/img-4.webp";
+import bookmarks5 from "@/assets/industry/stationery-boxes/custom-bookmarks/img-5.webp";
+import bookmarks6 from "@/assets/industry/stationery-boxes/custom-bookmarks/img-whychoose.webp";
+import bookmarks7 from "@/assets/industry/stationery-boxes/custom-bookmarks/img-different.webp";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.webp";

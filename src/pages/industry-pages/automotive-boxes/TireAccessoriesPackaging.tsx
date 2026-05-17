@@ -28,14 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import tireaccessorieshero from "@/assets/automotive-products/tire-accessories-packaging/img-hero.webp";
-import tireaccessories1 from "@/assets/automotive-products/tire-accessories-packaging/img-1.webp";
-import tireaccessories2 from "@/assets/automotive-products/tire-accessories-packaging/img-2.webp";
-import tireaccessories3 from "@/assets/automotive-products/tire-accessories-packaging/img-3.webp";
-import tireaccessories4 from "@/assets/automotive-products/tire-accessories-packaging/img-4.webp";
-import tireaccessories5 from "@/assets/automotive-products/tire-accessories-packaging/img-4.webp";
-import tireaccessories6 from "@/assets/automotive-products/tire-accessories-packaging/img-whychoose.webp";
-import tireaccessories7 from "@/assets/automotive-products/tire-accessories-packaging/img-4.webp";
+import tireaccessorieshero from "@/assets/industry/automotive-boxes/tire-accessories-packaging/img-hero.webp";
+import tireaccessories1 from "@/assets/industry/automotive-boxes/tire-accessories-packaging/img-1.webp";
+import tireaccessories2 from "@/assets/industry/automotive-boxes/tire-accessories-packaging/img-2.webp";
+import tireaccessories3 from "@/assets/industry/automotive-boxes/tire-accessories-packaging/img-3.webp";
+import tireaccessories4 from "@/assets/industry/automotive-boxes/tire-accessories-packaging/img-4.webp";
+import tireaccessories5 from "@/assets/industry/automotive-boxes/tire-accessories-packaging/img-4.webp";
+import tireaccessories6 from "@/assets/industry/automotive-boxes/tire-accessories-packaging/img-whychoose.webp";
+import tireaccessories7 from "@/assets/industry/automotive-boxes/tire-accessories-packaging/img-4.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

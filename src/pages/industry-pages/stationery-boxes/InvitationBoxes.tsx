@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import invitationBoxesHero from "@/assets/stationery-boxes/invitation-boxes/img-hero.webp";
-import invitationBoxes1 from "@/assets/stationery-boxes/invitation-boxes/img-1.webp";
-import invitationBoxes2 from "@/assets/stationery-boxes/invitation-boxes/img-2.webp";
-import invitationBoxes3 from "@/assets/stationery-boxes/invitation-boxes/img-3.webp";
-import invitationBoxes4 from "@/assets/stationery-boxes/invitation-boxes/img-4.webp";
-import invitationBoxes5 from "@/assets/stationery-boxes/invitation-boxes/img-5.webp";
-import invitationBoxes6 from "@/assets/stationery-boxes/invitation-boxes/img-whychoose.webp";
-import invitationBoxes7 from "@/assets/stationery-boxes/invitation-boxes/img-different.webp";
+import invitationBoxesHero from "@/assets/industry/stationery-boxes/invitation-boxes/img-hero.webp";
+import invitationBoxes1 from "@/assets/industry/stationery-boxes/invitation-boxes/img-1.webp";
+import invitationBoxes2 from "@/assets/industry/stationery-boxes/invitation-boxes/img-2.webp";
+import invitationBoxes3 from "@/assets/industry/stationery-boxes/invitation-boxes/img-3.webp";
+import invitationBoxes4 from "@/assets/industry/stationery-boxes/invitation-boxes/img-4.webp";
+import invitationBoxes5 from "@/assets/industry/stationery-boxes/invitation-boxes/img-5.webp";
+import invitationBoxes6 from "@/assets/industry/stationery-boxes/invitation-boxes/img-whychoose.webp";
+import invitationBoxes7 from "@/assets/industry/stationery-boxes/invitation-boxes/img-different.webp";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.webp";

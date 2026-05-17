@@ -11,14 +11,14 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Import Hang Tag Images
-import customDoorHangers from "@/assets/hang-tags/custom-door-hangers.webp";
-import christmasTags from "@/assets/hang-tags/christmas-tags.webp";
-import giftTags from "@/assets/hang-tags/gift-tags.webp";
-import paperTags from "@/assets/hang-tags/paper-tags.webp";
-import clothingHangTags from "@/assets/hang-tags/clothing-hang-tags.webp";
-import jewelryHangTags from "@/assets/hang-tags/jewelry-hang-tags.webp";
-import customBookmarks from "@/assets/hang-tags/custom-bookmarks.webp";
-import shippingTags from "@/assets/hang-tags/shipping-tags.webp";
+import customDoorHangers from "@/assets/shape-style/hang-tags/custom-door-hangers.webp";
+import christmasTags from "@/assets/shape-style/hang-tags/christmas-tags.webp";
+import giftTags from "@/assets/shape-style/hang-tags/gift-tags.webp";
+import paperTags from "@/assets/shape-style/hang-tags/paper-tags.webp";
+import clothingHangTags from "@/assets/shape-style/hang-tags/clothing-hang-tags.webp";
+import jewelryHangTags from "@/assets/shape-style/hang-tags/jewelry-hang-tags.webp";
+import customBookmarks from "@/assets/shape-style/hang-tags/custom-bookmarks.webp";
+import shippingTags from "@/assets/shape-style/hang-tags/shipping-tags.webp";
 
 const relatedProducts = [
     { name: "Custom Door Hangers", image: customDoorHangers, description: "Professional door hangers for marketing and alerts designed with durable cardstock and custom die-cut holes", link: "/shapes-styles/hang-tags/custom-door-hangers" },

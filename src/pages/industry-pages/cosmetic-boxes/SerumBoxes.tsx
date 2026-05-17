@@ -32,7 +32,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Image Imports
 import FAQimage from "@/assets/FAQ-image.webp";
-import mainSerum from "@/assets/cosmetic-boxes/Serum Boxes.webp";
+import mainSerum from "@/assets/industry/cosmetic-boxes/Serum Boxes.webp";
 
 const SerumBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

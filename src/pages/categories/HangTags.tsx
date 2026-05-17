@@ -13,16 +13,16 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import hangTagsHero from "@/assets/hang-tags/hang-tags-hero.webp";
+import hangTagsHero from "@/assets/shape-style/hang-tags/hang-tags-hero.webp";
 
-import customDoorHangers from "@/assets/hang-tags/custom-door-hangers.webp";
-import christmasTags from "@/assets/hang-tags/christmas-tags.webp";
-import giftTags from "@/assets/hang-tags/gift-tags.webp";
-import paperTags from "@/assets/hang-tags/paper-tags.webp";
-import clothingHangTags from "@/assets/hang-tags/clothing-hang-tags.webp";
-import jewelryHangTags from "@/assets/hang-tags/jewelry-hang-tags.webp";
-import customBookmarks from "@/assets/hang-tags/custom-bookmarks.webp";
-import shippingTags from "@/assets/hang-tags/shipping-tags.webp";
+import customDoorHangers from "@/assets/shape-style/hang-tags/custom-door-hangers.webp";
+import christmasTags from "@/assets/shape-style/hang-tags/christmas-tags.webp";
+import giftTags from "@/assets/shape-style/hang-tags/gift-tags.webp";
+import paperTags from "@/assets/shape-style/hang-tags/paper-tags.webp";
+import clothingHangTags from "@/assets/shape-style/hang-tags/clothing-hang-tags.webp";
+import jewelryHangTags from "@/assets/shape-style/hang-tags/jewelry-hang-tags.webp";
+import customBookmarks from "@/assets/shape-style/hang-tags/custom-bookmarks.webp";
+import shippingTags from "@/assets/shape-style/hang-tags/shipping-tags.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

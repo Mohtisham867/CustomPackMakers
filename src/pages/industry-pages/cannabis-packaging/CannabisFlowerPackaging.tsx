@@ -19,22 +19,22 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import flowerPackagingHero from "@/assets/cannabis-packaging/flower-packaging/img-hero.webp";
-import flowerPackagingImg1 from "@/assets/cannabis-packaging/flower-packaging/img-1.webp";
-import flowerPackagingImg2 from "@/assets/cannabis-packaging/flower-packaging/img-2.webp";
-import flowerPackagingImg3 from "@/assets/cannabis-packaging/flower-packaging/img-3.webp";
-import flowerPackagingImg4 from "@/assets/cannabis-packaging/flower-packaging/img-4.webp";
-import flowerPackagingImg5 from "@/assets/cannabis-packaging/flower-packaging/img-5.webp";
-import flowerPackagingImg6 from "@/assets/cannabis-packaging/flower-packaging/img-whychoose.webp";
-import flowerPackagingImg7 from "@/assets/cannabis-packaging/flower-packaging/img-different.webp";
+import flowerPackagingHero from "@/assets/industry/cannabis-packaging/flower-packaging/img-hero.webp";
+import flowerPackagingImg1 from "@/assets/industry/cannabis-packaging/flower-packaging/img-1.webp";
+import flowerPackagingImg2 from "@/assets/industry/cannabis-packaging/flower-packaging/img-2.webp";
+import flowerPackagingImg3 from "@/assets/industry/cannabis-packaging/flower-packaging/img-3.webp";
+import flowerPackagingImg4 from "@/assets/industry/cannabis-packaging/flower-packaging/img-4.webp";
+import flowerPackagingImg5 from "@/assets/industry/cannabis-packaging/flower-packaging/img-5.webp";
+import flowerPackagingImg6 from "@/assets/industry/cannabis-packaging/flower-packaging/img-whychoose.webp";
+import flowerPackagingImg7 from "@/assets/industry/cannabis-packaging/flower-packaging/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
-import tinctureBoxes from "@/assets/cannabis-packaging/tincture-boxes.webp";
-import vapePackaging from "@/assets/cannabis-packaging/vape-packaging.webp";
-import seedPackaging from "@/assets/cannabis-packaging/seed-packaging.webp";
-import cigaretteBoxes from "@/assets/cannabis-packaging/Cannabis Cigarette Boxes.webp";
-import mylarBags from "@/assets/cannabis-packaging/mylar-bags.webp";
-import flowerPackaging from "@/assets/cannabis-packaging/flower-packaging.webp";
-import cartridgePackaging from "@/assets/marijuana-packaging/cartridge-packaging.webp";
+import tinctureBoxes from "@/assets/industry/cannabis-packaging/tincture-boxes.webp";
+import vapePackaging from "@/assets/industry/cannabis-packaging/vape-packaging.webp";
+import seedPackaging from "@/assets/industry/cannabis-packaging/seed-packaging.webp";
+import cigaretteBoxes from "@/assets/industry/cannabis-packaging/Cannabis Cigarette Boxes.webp";
+import mylarBags from "@/assets/industry/cannabis-packaging/mylar-bags.webp";
+import flowerPackaging from "@/assets/industry/cannabis-packaging/flower-packaging.webp";
+import cartridgePackaging from "@/assets/industry/marijuana-packaging/cartridge-packaging.webp";
 
 const relatedProducts = [
     { name: "Cannabis Tincture Boxes", image: tinctureBoxes, description: "Child-resistant tincture packaging with dropper-safe inserts and compliant regulatory labeling.", link: "/industries/cannabis-packaging/cannabis-tincture-boxes" },

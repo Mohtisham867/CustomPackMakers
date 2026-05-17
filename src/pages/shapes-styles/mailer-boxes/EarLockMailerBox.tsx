@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific product images
-import heroImg from "@/assets/mailer-boxes/ear-lock-mailer-box-updated.webp";
+import heroImg from "@/assets/shape-style/mailer-boxes/ear-lock-mailer-box-updated.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const EarLockMailerBox = () => {

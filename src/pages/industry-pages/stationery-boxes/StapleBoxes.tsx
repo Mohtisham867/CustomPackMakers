@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import stapleBoxesHero from "@/assets/stationery-boxes/staple-boxes/img-hero.webp";
-import stapleBoxes1 from "@/assets/stationery-boxes/staple-boxes/img-1.webp";
-import stapleBoxes2 from "@/assets/stationery-boxes/staple-boxes/img-2.webp";
-import stapleBoxes3 from "@/assets/stationery-boxes/staple-boxes/img-3.webp";
-import stapleBoxes4 from "@/assets/stationery-boxes/staple-boxes/img-4.webp";
-import stapleBoxes5 from "@/assets/stationery-boxes/staple-boxes/img-5.webp";
-import stapleBoxes6 from "@/assets/stationery-boxes/staple-boxes/img-whychoose.webp";
-import stapleBoxes7 from "@/assets/stationery-boxes/staple-boxes/img-different.webp";
+import stapleBoxesHero from "@/assets/industry/stationery-boxes/staple-boxes/img-hero.webp";
+import stapleBoxes1 from "@/assets/industry/stationery-boxes/staple-boxes/img-1.webp";
+import stapleBoxes2 from "@/assets/industry/stationery-boxes/staple-boxes/img-2.webp";
+import stapleBoxes3 from "@/assets/industry/stationery-boxes/staple-boxes/img-3.webp";
+import stapleBoxes4 from "@/assets/industry/stationery-boxes/staple-boxes/img-4.webp";
+import stapleBoxes5 from "@/assets/industry/stationery-boxes/staple-boxes/img-5.webp";
+import stapleBoxes6 from "@/assets/industry/stationery-boxes/staple-boxes/img-whychoose.webp";
+import stapleBoxes7 from "@/assets/industry/stationery-boxes/staple-boxes/img-different.webp";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.webp";

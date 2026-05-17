@@ -15,14 +15,14 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import hempCigaretteHero from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-hero.webp";
-import hempCigaretteImg1 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-1.webp";
-import hempCigaretteImg2 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-2.webp";
-import hempCigaretteImg3 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-3.webp";
-import hempCigaretteImg4 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-4.webp";
-import hempCigaretteImg5 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-5.webp";
-import hempCigaretteImg6 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-whychoose.webp";
-import hempCigaretteImg7 from "@/assets/hemp-boxes/hemp-cigarette-boxes/img-different.webp";
+import hempCigaretteHero from "@/assets/industry/custom-hemp-boxes/hemp-cigarette-boxes/img-hero.webp";
+import hempCigaretteImg1 from "@/assets/industry/custom-hemp-boxes/hemp-cigarette-boxes/img-1.webp";
+import hempCigaretteImg2 from "@/assets/industry/custom-hemp-boxes/hemp-cigarette-boxes/img-2.webp";
+import hempCigaretteImg3 from "@/assets/industry/custom-hemp-boxes/hemp-cigarette-boxes/img-3.webp";
+import hempCigaretteImg4 from "@/assets/industry/custom-hemp-boxes/hemp-cigarette-boxes/img-4.webp";
+import hempCigaretteImg5 from "@/assets/industry/custom-hemp-boxes/hemp-cigarette-boxes/img-5.webp";
+import hempCigaretteImg6 from "@/assets/industry/custom-hemp-boxes/hemp-cigarette-boxes/img-whychoose.webp";
+import hempCigaretteImg7 from "@/assets/industry/custom-hemp-boxes/hemp-cigarette-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [

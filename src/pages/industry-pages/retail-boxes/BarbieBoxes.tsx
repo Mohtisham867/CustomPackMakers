@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import barbieBoxeshero from "@/assets/retail-boxes/barbie-boxes/img-hero.webp";
-import barbieBoxes1 from "@/assets/retail-boxes/barbie-boxes/img-1.webp";
-import barbieBoxes2 from "@/assets/retail-boxes/barbie-boxes/img-2.webp";
-import barbieBoxes3 from "@/assets/retail-boxes/barbie-boxes/img-3.webp";
-import barbieBoxes4 from "@/assets/retail-boxes/barbie-boxes/img-4.webp";
-import barbieBoxes5 from "@/assets/retail-boxes/barbie-boxes/img-5.webp";
-import barbieBoxes6 from "@/assets/retail-boxes/barbie-boxes/img-whychoose.webp";
-import barbieBoxes7 from "@/assets/retail-boxes/barbie-boxes/img-different.webp";
+import barbieBoxeshero from "@/assets/industry/retail-boxes/barbie-boxes/img-hero.webp";
+import barbieBoxes1 from "@/assets/industry/retail-boxes/barbie-boxes/img-1.webp";
+import barbieBoxes2 from "@/assets/industry/retail-boxes/barbie-boxes/img-2.webp";
+import barbieBoxes3 from "@/assets/industry/retail-boxes/barbie-boxes/img-3.webp";
+import barbieBoxes4 from "@/assets/industry/retail-boxes/barbie-boxes/img-4.webp";
+import barbieBoxes5 from "@/assets/industry/retail-boxes/barbie-boxes/img-5.webp";
+import barbieBoxes6 from "@/assets/industry/retail-boxes/barbie-boxes/img-whychoose.webp";
+import barbieBoxes7 from "@/assets/industry/retail-boxes/barbie-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const BarbieBoxes = () => {

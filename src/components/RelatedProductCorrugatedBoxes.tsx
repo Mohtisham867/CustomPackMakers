@@ -11,10 +11,10 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Generated Images
-import corrugatedBoxesWithLids from "@/assets/corrugated-boxes-with-lids.webp";
-import corrugatedMailerBoxes from "@/assets/corrugated-mailer-boxes.webp";
-import kraftCorrugatedBoxes from "@/assets/kraft-corrugated-boxes.webp";
-import whiteCorrugatedBoxes from "@/assets/white-corrugated-boxes.webp";
+import corrugatedBoxesWithLids from "@/assets/material/corrugated-boxes/corrugated-boxes-with-lids.webp";
+import corrugatedMailerBoxes from "@/assets/material/corrugated-boxes/corrugated-mailer-boxes.webp";
+import kraftCorrugatedBoxes from "@/assets/material/corrugated-boxes/kraft-corrugated-boxes.webp";
+import whiteCorrugatedBoxes from "@/assets/material/corrugated-boxes/white-corrugated-boxes.webp";
 
 // Related products from Corrugated Boxes category
 const relatedProducts = [

@@ -26,14 +26,14 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import cakeboxehero from "@/assets/bakery-products/custom-cake-boxes/img-hero.webp";
-import cakeboxeimg1  from "@/assets/bakery-products/custom-cake-boxes/img-1.webp";
-import cakeboxeimg2 from "@/assets/bakery-products/custom-cake-boxes/img-2.webp";
-import cakeboxeimg3 from "@/assets/bakery-products/custom-cake-boxes/img-3.webp";
-import cakeboxeimg4 from "@/assets/bakery-products/custom-cake-boxes/img-4.webp";
-import cakeboxeimg5 from "@/assets/bakery-products/custom-cake-boxes/img-5.webp";
-import cakeboxeimg6 from "@/assets/bakery-products/custom-cake-boxes/img-whychoose.webp";
-import cakeboxeimg7 from "@/assets/bakery-products/custom-cake-boxes/img-dfferent.webp";
+import cakeboxehero from "@/assets/industry/bakery-boxes/custom-cake-boxes/img-hero.webp";
+import cakeboxeimg1  from "@/assets/industry/bakery-boxes/custom-cake-boxes/img-1.webp";
+import cakeboxeimg2 from "@/assets/industry/bakery-boxes/custom-cake-boxes/img-2.webp";
+import cakeboxeimg3 from "@/assets/industry/bakery-boxes/custom-cake-boxes/img-3.webp";
+import cakeboxeimg4 from "@/assets/industry/bakery-boxes/custom-cake-boxes/img-4.webp";
+import cakeboxeimg5 from "@/assets/industry/bakery-boxes/custom-cake-boxes/img-5.webp";
+import cakeboxeimg6 from "@/assets/industry/bakery-boxes/custom-cake-boxes/img-whychoose.webp";
+import cakeboxeimg7 from "@/assets/industry/bakery-boxes/custom-cake-boxes/img-dfferent.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 

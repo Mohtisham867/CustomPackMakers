@@ -28,14 +28,14 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import monthlyWeedBoxImagehero from "@/assets/weed_boxes/monthly-weed-box/img-hero.webp";
-import monthlyWeedBoxImage1 from "@/assets/weed_boxes/monthly-weed-box/img-1.webp";
-import monthlyWeedBoxImage2 from "@/assets/weed_boxes/monthly-weed-box/img-2.webp";
-import monthlyWeedBoxImage3 from "@/assets/weed_boxes/monthly-weed-box/img-3.webp";
-import monthlyWeedBoxImage4 from "@/assets/weed_boxes/monthly-weed-box/img-4.webp";
-import monthlyWeedBoxImage5 from "@/assets/weed_boxes/monthly-weed-box/img-5.webp";
-import monthlyWeedBoxImage6 from "@/assets/weed_boxes/monthly-weed-box/img-whychoose.webp";
-import monthlyWeedBoxImage7 from "@/assets/weed_boxes/monthly-weed-box/img-different.webp";
+import monthlyWeedBoxImagehero from "@/assets/industry/weed-boxes/monthly-weed-box/img-hero.webp";
+import monthlyWeedBoxImage1 from "@/assets/industry/weed-boxes/monthly-weed-box/img-1.webp";
+import monthlyWeedBoxImage2 from "@/assets/industry/weed-boxes/monthly-weed-box/img-2.webp";
+import monthlyWeedBoxImage3 from "@/assets/industry/weed-boxes/monthly-weed-box/img-3.webp";
+import monthlyWeedBoxImage4 from "@/assets/industry/weed-boxes/monthly-weed-box/img-4.webp";
+import monthlyWeedBoxImage5 from "@/assets/industry/weed-boxes/monthly-weed-box/img-5.webp";
+import monthlyWeedBoxImage6 from "@/assets/industry/weed-boxes/monthly-weed-box/img-whychoose.webp";
+import monthlyWeedBoxImage7 from "@/assets/industry/weed-boxes/monthly-weed-box/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const MonthlyWeedBoxes = () => {

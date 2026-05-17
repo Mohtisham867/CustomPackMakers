@@ -13,17 +13,17 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import jewelryBoxesHero from "@/assets/jewelry-boxes/Jewelry Boxes hero.webp";
+import jewelryBoxesHero from "@/assets/industry/jewelry-boxes/Jewelry Boxes hero.webp";
 
 // Import professional product images
-import braceletSquareBoxes from "@/assets/jewelry-boxes/Bracelet Square Boxes.webp";
-import necklaceLidOffBoxes from "@/assets/jewelry-boxes/necklace-lid-off-boxes.webp";
-import pendantBoxes from "@/assets/jewelry-boxes/Pendant Boxes.webp";
-import braceletBoxes from "@/assets/jewelry-boxes/bracelet-boxes.webp";
-import ringBoxes from "@/assets/jewelry-boxes/ring-boxes.webp";
-import earringBoxes from "@/assets/jewelry-boxes/Earring Boxes.webp";
-import luxuryJewelryBoxes from "@/assets/jewelry-boxes/luxury-jewelry-boxes.webp";
-import necklaceBoxes from "@/assets/jewelry-boxes/necklace-boxes.webp";
+import braceletSquareBoxes from "@/assets/industry/jewelry-boxes/Bracelet Square Boxes.webp";
+import necklaceLidOffBoxes from "@/assets/industry/jewelry-boxes/necklace-lid-off-boxes.webp";
+import pendantBoxes from "@/assets/industry/jewelry-boxes/Pendant Boxes.webp";
+import braceletBoxes from "@/assets/industry/jewelry-boxes/bracelet-boxes.webp";
+import ringBoxes from "@/assets/industry/jewelry-boxes/ring-boxes.webp";
+import earringBoxes from "@/assets/industry/jewelry-boxes/Earring Boxes.webp";
+import luxuryJewelryBoxes from "@/assets/industry/jewelry-boxes/luxury-jewelry-boxes.webp";
+import necklaceBoxes from "@/assets/industry/jewelry-boxes/necklace-boxes.webp";
 
 import { SEOContent } from "@/components/SEOContent";
 

@@ -29,14 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import hatShippingBoxeshero from "@/assets/apparel-boxes/hat-shipping-boxes/img-hero.webp";
-import hatShippingBoxes1 from "@/assets/apparel-boxes/hat-shipping-boxes/img-1.webp";
-import hatShippingBoxes2 from "@/assets/apparel-boxes/hat-shipping-boxes/img-2.webp";
-import hatShippingBoxes3 from "@/assets/apparel-boxes/hat-shipping-boxes/img-3.webp";
-import hatShippingBoxes4 from "@/assets/apparel-boxes/hat-shipping-boxes/img-4.webp";
-import hatShippingBoxes5 from "@/assets/apparel-boxes/hat-shipping-boxes/img-5.webp";
-import hatShippingBoxes6 from "@/assets/apparel-boxes/hat-shipping-boxes/img-whychoose.webp";
-import hatShippingBoxes7 from "@/assets/apparel-boxes/hat-shipping-boxes/img-defferent.webp";
+import hatShippingBoxeshero from "@/assets/industry/apparel-boxes/hat-shipping-boxes/img-hero.webp";
+import hatShippingBoxes1 from "@/assets/industry/apparel-boxes/hat-shipping-boxes/img-1.webp";
+import hatShippingBoxes2 from "@/assets/industry/apparel-boxes/hat-shipping-boxes/img-2.webp";
+import hatShippingBoxes3 from "@/assets/industry/apparel-boxes/hat-shipping-boxes/img-3.webp";
+import hatShippingBoxes4 from "@/assets/industry/apparel-boxes/hat-shipping-boxes/img-4.webp";
+import hatShippingBoxes5 from "@/assets/industry/apparel-boxes/hat-shipping-boxes/img-5.webp";
+import hatShippingBoxes6 from "@/assets/industry/apparel-boxes/hat-shipping-boxes/img-whychoose.webp";
+import hatShippingBoxes7 from "@/assets/industry/apparel-boxes/hat-shipping-boxes/img-defferent.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

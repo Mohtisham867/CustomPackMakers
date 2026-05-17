@@ -32,7 +32,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Image Imports
 import FAQimage from "@/assets/FAQ-image.webp";
-import mainFoundation from "@/assets/cosmetic-boxes/Foundation Boxes.webp";
+import mainFoundation from "@/assets/industry/cosmetic-boxes/Foundation Boxes.webp";
 
 const FoundationBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

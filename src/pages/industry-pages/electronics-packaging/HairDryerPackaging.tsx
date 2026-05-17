@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import hairDryerPackagingHero from "@/assets/electronics-boxes/hair-dryer-packaging/img-hero.webp";
-import hairDryerPackaging1 from "@/assets/electronics-boxes/hair-dryer-packaging/img-1.webp";
-import hairDryerPackaging2 from "@/assets/electronics-boxes/hair-dryer-packaging/img-2.webp";
-import hairDryerPackaging3 from "@/assets/electronics-boxes/hair-dryer-packaging/img-3.webp";
-import hairDryerPackaging4 from "@/assets/electronics-boxes/hair-dryer-packaging/img-4.webp";
-import hairDryerPackaging5 from "@/assets/electronics-boxes/hair-dryer-packaging/img-5.webp";
-import hairDryerPackaging6 from "@/assets/electronics-boxes/hair-dryer-packaging/img-whychoose.webp";
-import hairDryerPackaging7 from "@/assets/electronics-boxes/hair-dryer-packaging/img-different.webp";
+import hairDryerPackagingHero from "@/assets/industry/electronics-packaging/hair-dryer-packaging/img-hero.webp";
+import hairDryerPackaging1 from "@/assets/industry/electronics-packaging/hair-dryer-packaging/img-1.webp";
+import hairDryerPackaging2 from "@/assets/industry/electronics-packaging/hair-dryer-packaging/img-2.webp";
+import hairDryerPackaging3 from "@/assets/industry/electronics-packaging/hair-dryer-packaging/img-3.webp";
+import hairDryerPackaging4 from "@/assets/industry/electronics-packaging/hair-dryer-packaging/img-4.webp";
+import hairDryerPackaging5 from "@/assets/industry/electronics-packaging/hair-dryer-packaging/img-5.webp";
+import hairDryerPackaging6 from "@/assets/industry/electronics-packaging/hair-dryer-packaging/img-whychoose.webp";
+import hairDryerPackaging7 from "@/assets/industry/electronics-packaging/hair-dryer-packaging/img-different.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

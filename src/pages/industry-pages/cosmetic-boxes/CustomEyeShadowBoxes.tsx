@@ -32,7 +32,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Image Imports
 import FAQimage from "@/assets/FAQ-image.webp";
-import mainEyeShadow from "@/assets/cosmetic-boxes/Custom Eye Shadow Boxes.webp";
+import mainEyeShadow from "@/assets/industry/cosmetic-boxes/Custom Eye Shadow Boxes.webp";
 
 const CustomEyeShadowBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

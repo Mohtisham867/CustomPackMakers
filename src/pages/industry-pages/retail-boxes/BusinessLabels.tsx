@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import businessLabelshero from "@/assets/retail-boxes/Business-Labels/img-hero.webp";
-import businessLabels1 from "@/assets/retail-boxes/Business-Labels/img-1.webp";
-import businessLabels2 from "@/assets/retail-boxes/Business-Labels/img-2.webp";
-import businessLabels3 from "@/assets/retail-boxes/Business-Labels/img-3.webp";
-import businessLabels4 from "@/assets/retail-boxes/Business-Labels/img-4.webp";
-import businessLabels5 from "@/assets/retail-boxes/Business-Labels/img-5.webp";
-import businessLabels6 from "@/assets/retail-boxes/Business-Labels/img-whychoose.webp";
-import businessLabels7 from "@/assets/retail-boxes/Business-Labels/img-different.webp";
+import businessLabelshero from "@/assets/industry/retail-boxes/Business-Labels/img-hero.webp";
+import businessLabels1 from "@/assets/industry/retail-boxes/Business-Labels/img-1.webp";
+import businessLabels2 from "@/assets/industry/retail-boxes/Business-Labels/img-2.webp";
+import businessLabels3 from "@/assets/industry/retail-boxes/Business-Labels/img-3.webp";
+import businessLabels4 from "@/assets/industry/retail-boxes/Business-Labels/img-4.webp";
+import businessLabels5 from "@/assets/industry/retail-boxes/Business-Labels/img-5.webp";
+import businessLabels6 from "@/assets/industry/retail-boxes/Business-Labels/img-whychoose.webp";
+import businessLabels7 from "@/assets/industry/retail-boxes/Business-Labels/img-different.webp";
 
 import FAQimage from "@/assets/FAQ-image.webp";
 

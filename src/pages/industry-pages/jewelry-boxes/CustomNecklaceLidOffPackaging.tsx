@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import necklaceLidOffBoxesHero from "@/assets/jewelry-boxes/necklace-lid-off-boxes/img-hero.webp";
-import necklaceLidOffBoxes1 from "@/assets/jewelry-boxes/necklace-lid-off-boxes/img-1.webp";
-import necklaceLidOffBoxes2 from "@/assets/jewelry-boxes/necklace-lid-off-boxes/img-2.webp";
-import necklaceLidOffBoxes3 from "@/assets/jewelry-boxes/necklace-lid-off-boxes/img-3.webp";
-import necklaceLidOffBoxes4 from "@/assets/jewelry-boxes/necklace-lid-off-boxes/img-4.webp";
-import necklaceLidOffBoxes5 from "@/assets/jewelry-boxes/necklace-lid-off-boxes/img-5.webp";
-import necklaceLidOffBoxes6 from "@/assets/jewelry-boxes/necklace-lid-off-boxes/img-whychoose.webp";
-import necklaceLidOffBoxes7 from "@/assets/jewelry-boxes/necklace-lid-off-boxes/img-different.webp";
+import necklaceLidOffBoxesHero from "@/assets/industry/jewelry-boxes/necklace-lid-off-boxes/img-hero.webp";
+import necklaceLidOffBoxes1 from "@/assets/industry/jewelry-boxes/necklace-lid-off-boxes/img-1.webp";
+import necklaceLidOffBoxes2 from "@/assets/industry/jewelry-boxes/necklace-lid-off-boxes/img-2.webp";
+import necklaceLidOffBoxes3 from "@/assets/industry/jewelry-boxes/necklace-lid-off-boxes/img-3.webp";
+import necklaceLidOffBoxes4 from "@/assets/industry/jewelry-boxes/necklace-lid-off-boxes/img-4.webp";
+import necklaceLidOffBoxes5 from "@/assets/industry/jewelry-boxes/necklace-lid-off-boxes/img-5.webp";
+import necklaceLidOffBoxes6 from "@/assets/industry/jewelry-boxes/necklace-lid-off-boxes/img-whychoose.webp";
+import necklaceLidOffBoxes7 from "@/assets/industry/jewelry-boxes/necklace-lid-off-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomNecklaceLidOffPackaging = () => {

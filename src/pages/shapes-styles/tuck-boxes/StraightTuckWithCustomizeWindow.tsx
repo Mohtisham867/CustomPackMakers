@@ -27,7 +27,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImg from "@/assets/tuck-boxes/straight-tuck-with-customize-window.webp";
+import heroImg from "@/assets/shape-style/tuck-boxes/straight-tuck-with-customize-window.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const StraightTuckWithCustomizeWindow = () => {

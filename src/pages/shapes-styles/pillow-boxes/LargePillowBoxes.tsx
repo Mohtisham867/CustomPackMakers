@@ -14,7 +14,7 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { RelatedProductPillowBoxes } from "@/components/RelatedProductPillowBoxes";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
-import heroImg from "@/assets/pillow-boxes/large_pillow_boxes.webp";
+import heroImg from "@/assets/shape-style/pillow-boxes/large_pillow_boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const productName = "Custom Large Pillow Boxes";

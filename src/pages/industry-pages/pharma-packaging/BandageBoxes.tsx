@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import bandageBoxeshero from "@/assets/pharma-packaging/bandage-boxes/img-hero.webp";
-import bandageBoxesimg1 from "@/assets/pharma-packaging/bandage-boxes/img-1.webp";
-import bandageBoxesimg2 from "@/assets/pharma-packaging/bandage-boxes/img-2.webp";
-import bandageBoxesimg3 from "@/assets/pharma-packaging/bandage-boxes/img-3.webp";
-import bandageBoxesimg4 from "@/assets/pharma-packaging/bandage-boxes/img-4.webp";
-import bandageBoxesimg5 from "@/assets/pharma-packaging/bandage-boxes/img-5.webp";
-import bandageBoxesimg6 from "@/assets/pharma-packaging/bandage-boxes/img-whychoose.webp";
-import bandageBoxesimg7 from "@/assets/pharma-packaging/bandage-boxes/img-different.webp";
+import bandageBoxeshero from "@/assets/industry/pharma-packaging/bandage-boxes/img-hero.webp";
+import bandageBoxesimg1 from "@/assets/industry/pharma-packaging/bandage-boxes/img-1.webp";
+import bandageBoxesimg2 from "@/assets/industry/pharma-packaging/bandage-boxes/img-2.webp";
+import bandageBoxesimg3 from "@/assets/industry/pharma-packaging/bandage-boxes/img-3.webp";
+import bandageBoxesimg4 from "@/assets/industry/pharma-packaging/bandage-boxes/img-4.webp";
+import bandageBoxesimg5 from "@/assets/industry/pharma-packaging/bandage-boxes/img-5.webp";
+import bandageBoxesimg6 from "@/assets/industry/pharma-packaging/bandage-boxes/img-whychoose.webp";
+import bandageBoxesimg7 from "@/assets/industry/pharma-packaging/bandage-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const BandageBoxes = () => {

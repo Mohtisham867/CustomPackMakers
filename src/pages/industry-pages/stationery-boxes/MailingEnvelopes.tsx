@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import mailingEnvelopesHero from "@/assets/stationery-boxes/mailing-envelopes/img-hero.webp";
-import mailingEnvelopes1 from "@/assets/stationery-boxes/mailing-envelopes/img-1.webp";
-import mailingEnvelopes2 from "@/assets/stationery-boxes/mailing-envelopes/img-2.webp";
-import mailingEnvelopes3 from "@/assets/stationery-boxes/mailing-envelopes/img-3.webp";
-import mailingEnvelopes4 from "@/assets/stationery-boxes/mailing-envelopes/img-4.webp";
-import mailingEnvelopes5 from "@/assets/stationery-boxes/mailing-envelopes/img-5.webp";
-import mailingEnvelopes6 from "@/assets/stationery-boxes/mailing-envelopes/img-whychoose.webp";
-import mailingEnvelopes7 from "@/assets/stationery-boxes/mailing-envelopes/img-different.webp";
+import mailingEnvelopesHero from "@/assets/industry/stationery-boxes/mailing-envelopes/img-hero.webp";
+import mailingEnvelopes1 from "@/assets/industry/stationery-boxes/mailing-envelopes/img-1.webp";
+import mailingEnvelopes2 from "@/assets/industry/stationery-boxes/mailing-envelopes/img-2.webp";
+import mailingEnvelopes3 from "@/assets/industry/stationery-boxes/mailing-envelopes/img-3.webp";
+import mailingEnvelopes4 from "@/assets/industry/stationery-boxes/mailing-envelopes/img-4.webp";
+import mailingEnvelopes5 from "@/assets/industry/stationery-boxes/mailing-envelopes/img-5.webp";
+import mailingEnvelopes6 from "@/assets/industry/stationery-boxes/mailing-envelopes/img-whychoose.webp";
+import mailingEnvelopes7 from "@/assets/industry/stationery-boxes/mailing-envelopes/img-different.webp";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.webp";

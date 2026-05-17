@@ -29,14 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import sunglassesBoxeshero from "@/assets/apparel-boxes/sunglasses-boxes/img-hero.webp";
-import sunglassesBoxes1 from "@/assets/apparel-boxes/sunglasses-boxes/img-1.webp";
-import sunglassesBoxes2 from "@/assets/apparel-boxes/sunglasses-boxes/img-2.webp";
-import sunglassesBoxes3 from "@/assets/apparel-boxes/sunglasses-boxes/img-3.webp";
-import sunglassesBoxes4 from "@/assets/apparel-boxes/sunglasses-boxes/img-4.webp";
-import sunglassesBoxes5 from "@/assets/apparel-boxes/sunglasses-boxes/img-5.webp";
-import sunglassesBoxes6 from "@/assets/apparel-boxes/sunglasses-boxes/img-whychoose.webp";
-import sunglassesBoxes7 from "@/assets/apparel-boxes/sunglasses-boxes/img-deferent.webp";
+import sunglassesBoxeshero from "@/assets/industry/apparel-boxes/sunglasses-boxes/img-hero.webp";
+import sunglassesBoxes1 from "@/assets/industry/apparel-boxes/sunglasses-boxes/img-1.webp";
+import sunglassesBoxes2 from "@/assets/industry/apparel-boxes/sunglasses-boxes/img-2.webp";
+import sunglassesBoxes3 from "@/assets/industry/apparel-boxes/sunglasses-boxes/img-3.webp";
+import sunglassesBoxes4 from "@/assets/industry/apparel-boxes/sunglasses-boxes/img-4.webp";
+import sunglassesBoxes5 from "@/assets/industry/apparel-boxes/sunglasses-boxes/img-5.webp";
+import sunglassesBoxes6 from "@/assets/industry/apparel-boxes/sunglasses-boxes/img-whychoose.webp";
+import sunglassesBoxes7 from "@/assets/industry/apparel-boxes/sunglasses-boxes/img-deferent.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

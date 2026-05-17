@@ -14,7 +14,7 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { RelatedProductCustomBags } from "@/components/RelatedProductCustomBags";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
-import fallbackHero from "@/assets/custom_bags/vacuum-seal-weed-bags.webp";
+import fallbackHero from "@/assets/shape-style/custom-bags/vacuum-seal-weed-bags.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const VacuumSealWeedBags = () => {

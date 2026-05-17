@@ -14,21 +14,21 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/stationery-boxes/stationery-boxes-hero.webp";
+import heroImage from "@/assets/industry/stationery-boxes/stationery-boxes-hero.webp";
 
 // Product images
-import businessCards from "@/assets/stationery-boxes/custom-business-cards.webp";
-import documentFolder from "@/assets/stationery-boxes/document-folder.webp";
-import penGiftBoxes from "@/assets/stationery-boxes/pen-gift-box.webp";
-import mailingEnvelopes from "@/assets/stationery-boxes/mailing-envelopes.webp";
-import invitationBoxes from "@/assets/stationery-boxes/invitation-boxes.webp";
-import markerBoxes from "@/assets/stationery-boxes/marker-boxes.webp";
-import stapleBoxes from "@/assets/stationery-boxes/staple-boxes.webp";
-import cardboardPencilBoxes from "@/assets/stationery-boxes/cardboard-pencil-boxes.webp";
-import packagingInserts from "@/assets/stationery-boxes/packaging-inserts.webp";
-import pencilBoxes from "@/assets/stationery-boxes/pencil-boxes.webp";
-import customBookmarks from "@/assets/stationery-boxes/custom-bookmarks.webp";
-import bookBoxes from "@/assets/stationery-boxes/Book Box.webp";
+import businessCards from "@/assets/industry/stationery-boxes/custom-business-cards.webp";
+import documentFolder from "@/assets/industry/stationery-boxes/document-folder.webp";
+import penGiftBoxes from "@/assets/industry/stationery-boxes/pen-gift-box.webp";
+import mailingEnvelopes from "@/assets/industry/stationery-boxes/mailing-envelopes.webp";
+import invitationBoxes from "@/assets/industry/stationery-boxes/invitation-boxes.webp";
+import markerBoxes from "@/assets/industry/stationery-boxes/marker-boxes.webp";
+import stapleBoxes from "@/assets/industry/stationery-boxes/staple-boxes.webp";
+import cardboardPencilBoxes from "@/assets/industry/stationery-boxes/cardboard-pencil-boxes.webp";
+import packagingInserts from "@/assets/industry/stationery-boxes/packaging-inserts.webp";
+import pencilBoxes from "@/assets/industry/stationery-boxes/pencil-boxes.webp";
+import customBookmarks from "@/assets/industry/stationery-boxes/custom-bookmarks.webp";
+import bookBoxes from "@/assets/industry/stationery-boxes/Book Box.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

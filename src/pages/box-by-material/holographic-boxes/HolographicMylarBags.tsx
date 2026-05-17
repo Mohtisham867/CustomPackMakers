@@ -30,11 +30,11 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import holographicMylarBags from "@/assets/holographic-mylar-bags.webp";
-import placeholder1 from "@/assets/holographic-boxes-hero.webp";
-import placeholder2 from "@/assets/holographic-mylar-bags.webp";
-import placeholder3 from "@/assets/holographic-bags.webp";
-import placeholder4 from "@/assets/holographic-foiling-boxes.webp";
+import holographicMylarBags from "@/assets/material/holographic-boxes/holographic-mylar-bags.webp";
+import placeholder1 from "@/assets/material/holographic-boxes/holographic-boxes-hero.webp";
+import placeholder2 from "@/assets/material/holographic-boxes/holographic-mylar-bags.webp";
+import placeholder3 from "@/assets/material/holographic-boxes/holographic-bags.webp";
+import placeholder4 from "@/assets/material/holographic-boxes/holographic-foiling-boxes.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

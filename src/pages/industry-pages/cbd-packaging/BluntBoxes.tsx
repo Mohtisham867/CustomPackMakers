@@ -27,7 +27,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import bluntBoxes from "@/assets/cbd-boxes/blunt-boxes.webp";
+import bluntBoxes from "@/assets/industry/cbd-packaging/blunt-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const BluntBoxes = () => {

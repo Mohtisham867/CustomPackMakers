@@ -27,7 +27,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import essentialOilBoxes from "@/assets/cbd-boxes/essential-oil-boxes.webp";
+import essentialOilBoxes from "@/assets/industry/cbd-packaging/essential-oil-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const EssentialOilBoxes = () => {

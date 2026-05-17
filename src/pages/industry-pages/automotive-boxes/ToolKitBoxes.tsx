@@ -28,9 +28,9 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import productHero from "@/assets/automotive-products/tool-kit-boxes.webp";
-import tootkitimg6 from "@/assets/automotive-products/tool-kit-boxes/img-whychoose.webp";
-import tootkitimg7 from "@/assets/automotive-products/tool-kit-boxes/img-different.webp";
+import productHero from "@/assets/industry/automotive-boxes/tool-kit-boxes.webp";
+import tootkitimg6 from "@/assets/industry/automotive-boxes/tool-kit-boxes/img-whychoose.webp";
+import tootkitimg7 from "@/assets/industry/automotive-boxes/tool-kit-boxes/img-different.webp";
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";
 

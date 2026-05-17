@@ -13,19 +13,19 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import automotiveBoxesHero from "@/assets/automotive-products/Automotive Boxes hero.webp";
+import automotiveBoxesHero from "@/assets/industry/automotive-boxes/Automotive Boxes hero.webp";
 
 // Import professional product images
-import carAccessoriesBoxes from "@/assets/automotive-products/car-accessories-boxes.webp";
-import sparePartsBoxes from "@/assets/automotive-products/spare-parts-boxes.webp";
-import lubricantPackaging from "@/assets/automotive-products/lubricant-packaging.webp";
-import electronicComponentBoxes from "@/assets/automotive-products/electronic-component-boxes.webp";
-import brakePadsPackaging from "@/assets/automotive-products/brake-pads-packaging.webp";
-import airFilterBoxes from "@/assets/automotive-products/air-filter-boxes.webp";
-import toolKitBoxes from "@/assets/automotive-products/tool-kit-boxes.webp";
-import tireAccessoriesPackaging from "@/assets/automotive-products/tire-accessories-packaging.webp";
-import headlightBoxes from "@/assets/automotive-products/headlight-boxes.webp";
-import carCleaningKitsBoxes from "@/assets/automotive-products/car-cleaning-kits-boxes.webp";
+import carAccessoriesBoxes from "@/assets/industry/automotive-boxes/car-accessories-boxes.webp";
+import sparePartsBoxes from "@/assets/industry/automotive-boxes/spare-parts-boxes.webp";
+import lubricantPackaging from "@/assets/industry/automotive-boxes/lubricant-packaging.webp";
+import electronicComponentBoxes from "@/assets/industry/automotive-boxes/electronic-component-boxes.webp";
+import brakePadsPackaging from "@/assets/industry/automotive-boxes/brake-pads-packaging.webp";
+import airFilterBoxes from "@/assets/industry/automotive-boxes/air-filter-boxes.webp";
+import toolKitBoxes from "@/assets/industry/automotive-boxes/tool-kit-boxes.webp";
+import tireAccessoriesPackaging from "@/assets/industry/automotive-boxes/tire-accessories-packaging.webp";
+import headlightBoxes from "@/assets/industry/automotive-boxes/headlight-boxes.webp";
+import carCleaningKitsBoxes from "@/assets/industry/automotive-boxes/car-cleaning-kits-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

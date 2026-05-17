@@ -31,14 +31,14 @@ import { RelatedProductSustainable } from "@/components/RelatedProductSustainabl
 
 
 // Specific product images
-import kraftPieBoxesHero from "@/assets/sustainable-packaging/kraft-pie-boxes/img-hero.webp";
-import kraftPieBoxes1 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-1.webp";
-import kraftPieBoxes2 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-2.webp";
-import kraftPieBoxes3 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-3.webp";
-import kraftPieBoxes4 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-4.webp";
-import kraftPieBoxes5 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-5.webp";
-import kraftPieBoxes6 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-whychoose.webp";
-import kraftPieBoxes7 from "@/assets/sustainable-packaging/kraft-pie-boxes/img-different.webp";
+import kraftPieBoxesHero from "@/assets/industry/sustainable-packaging/kraft-pie-boxes/img-hero.webp";
+import kraftPieBoxes1 from "@/assets/industry/sustainable-packaging/kraft-pie-boxes/img-1.webp";
+import kraftPieBoxes2 from "@/assets/industry/sustainable-packaging/kraft-pie-boxes/img-2.webp";
+import kraftPieBoxes3 from "@/assets/industry/sustainable-packaging/kraft-pie-boxes/img-3.webp";
+import kraftPieBoxes4 from "@/assets/industry/sustainable-packaging/kraft-pie-boxes/img-4.webp";
+import kraftPieBoxes5 from "@/assets/industry/sustainable-packaging/kraft-pie-boxes/img-5.webp";
+import kraftPieBoxes6 from "@/assets/industry/sustainable-packaging/kraft-pie-boxes/img-whychoose.webp";
+import kraftPieBoxes7 from "@/assets/industry/sustainable-packaging/kraft-pie-boxes/img-different.webp";
 
 
 //FAQ image

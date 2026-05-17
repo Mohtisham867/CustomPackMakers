@@ -16,13 +16,13 @@ import { RelatedProductSleevesTrays } from "@/components/RelatedProductSleevesTr
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImage from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import img1 from "@/assets/apparel-boxes/shoe-boxes/shoe 1.webp";
-import img2 from "@/assets/apparel-boxes/shoe-boxes/shoe 2.webp";
-import img3 from "@/assets/apparel-boxes/shoe-boxes/shoe 3.webp";
-import img4 from "@/assets/apparel-boxes/shoe-boxes/shoe-4.webp";
-import img5 from "@/assets/apparel-boxes/shoe-boxes/deferent.webp";
-import imgHero from "@/assets/apparel-boxes/shoe-boxes/shoe 5.webp";
+import heroImage from "@/assets/industry/apparel-boxes/custom-shoe-boxes.webp";
+import img1 from "@/assets/industry/apparel-boxes/shoe-boxes/shoe 1.webp";
+import img2 from "@/assets/industry/apparel-boxes/shoe-boxes/shoe 2.webp";
+import img3 from "@/assets/industry/apparel-boxes/shoe-boxes/shoe 3.webp";
+import img4 from "@/assets/industry/apparel-boxes/shoe-boxes/shoe-4.webp";
+import img5 from "@/assets/industry/apparel-boxes/shoe-boxes/deferent.webp";
+import imgHero from "@/assets/industry/apparel-boxes/shoe-boxes/shoe 5.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const TrayBoxes = () => {

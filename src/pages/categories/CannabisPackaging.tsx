@@ -13,14 +13,14 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/cannabis-packaging/hero.webp";
-import cannabisTinctureBoxes from "@/assets/cannabis-packaging/tincture-boxes.webp";
-import cannabisVapePackaging from "@/assets/cannabis-packaging/vape-packaging.webp";
-import cannabisSeedPackaging from "@/assets/cannabis-packaging/seed-packaging.webp";
-import cannabisCigaretteBoxes from "@/assets/cannabis-packaging/Cannabis Cigarette Boxes.webp";
-import cannabisMylarBags from "@/assets/cannabis-packaging/mylar-bags.webp";
-import cannabisFlowerPackaging from "@/assets/cannabis-packaging/flower-packaging.webp";
-import cannabisCartridgePackaging from "@/assets/marijuana-packaging/cartridge-packaging.webp";
+import heroImage from "@/assets/industry/cannabis-packaging/hero.webp";
+import cannabisTinctureBoxes from "@/assets/industry/cannabis-packaging/tincture-boxes.webp";
+import cannabisVapePackaging from "@/assets/industry/cannabis-packaging/vape-packaging.webp";
+import cannabisSeedPackaging from "@/assets/industry/cannabis-packaging/seed-packaging.webp";
+import cannabisCigaretteBoxes from "@/assets/industry/cannabis-packaging/Cannabis Cigarette Boxes.webp";
+import cannabisMylarBags from "@/assets/industry/cannabis-packaging/mylar-bags.webp";
+import cannabisFlowerPackaging from "@/assets/industry/cannabis-packaging/flower-packaging.webp";
+import cannabisCartridgePackaging from "@/assets/industry/marijuana-packaging/cartridge-packaging.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

@@ -15,14 +15,14 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import eliquidboxehero from "@/assets/hemp-boxes/e-liquid-boxes/img-hero.webp";
-import eliquidboxeimg1 from "@/assets/hemp-boxes/e-liquid-boxes/img-1.webp";
-import eliquidboxeimg2 from "@/assets/hemp-boxes/e-liquid-boxes/img-2.webp";
-import eliquidboxeimg3 from "@/assets/hemp-boxes/e-liquid-boxes/img-3.webp";
-import eliquidboxeimg4 from "@/assets/hemp-boxes/e-liquid-boxes/img-4.webp";
-import eliquidboxeimg5 from "@/assets/hemp-boxes/e-liquid-boxes/img-5.webp";
-import eliquidboxeimg6 from "@/assets/hemp-boxes/e-liquid-boxes/img-whychoose.webp";
-import eliquidboxeimg7 from "@/assets/hemp-boxes/e-liquid-boxes/img-different.webp";
+import eliquidboxehero from "@/assets/industry/custom-hemp-boxes/e-liquid-boxes/img-hero.webp";
+import eliquidboxeimg1 from "@/assets/industry/custom-hemp-boxes/e-liquid-boxes/img-1.webp";
+import eliquidboxeimg2 from "@/assets/industry/custom-hemp-boxes/e-liquid-boxes/img-2.webp";
+import eliquidboxeimg3 from "@/assets/industry/custom-hemp-boxes/e-liquid-boxes/img-3.webp";
+import eliquidboxeimg4 from "@/assets/industry/custom-hemp-boxes/e-liquid-boxes/img-4.webp";
+import eliquidboxeimg5 from "@/assets/industry/custom-hemp-boxes/e-liquid-boxes/img-5.webp";
+import eliquidboxeimg6 from "@/assets/industry/custom-hemp-boxes/e-liquid-boxes/img-whychoose.webp";
+import eliquidboxeimg7 from "@/assets/industry/custom-hemp-boxes/e-liquid-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [

@@ -16,28 +16,28 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import christmasTagsHero from "@/assets/christmas-products/christmas-tags/img-hero.webp";
-import christmasTagsImg1 from "@/assets/christmas-products/christmas-tags/img-1.webp";
-import christmasTagsImg2 from "@/assets/christmas-products/christmas-tags/img-2.webp";
-import christmasTagsImg3 from "@/assets/christmas-products/christmas-tags/img-3.webp";
-import christmasTagsImg4 from "@/assets/christmas-products/christmas-tags/img-4.webp";
-import christmasTagsImg5 from "@/assets/christmas-products/christmas-tags/img-5.webp";
-import christmasTagsImg6 from "@/assets/christmas-products/christmas-tags/img-whychoose.webp";
-import christmasTagsImg7 from "@/assets/christmas-products/christmas-tags/img-different.webp";
+import christmasTagsHero from "@/assets/industry/christmas-boxes/christmas-tags/img-hero.webp";
+import christmasTagsImg1 from "@/assets/industry/christmas-boxes/christmas-tags/img-1.webp";
+import christmasTagsImg2 from "@/assets/industry/christmas-boxes/christmas-tags/img-2.webp";
+import christmasTagsImg3 from "@/assets/industry/christmas-boxes/christmas-tags/img-3.webp";
+import christmasTagsImg4 from "@/assets/industry/christmas-boxes/christmas-tags/img-4.webp";
+import christmasTagsImg5 from "@/assets/industry/christmas-boxes/christmas-tags/img-5.webp";
+import christmasTagsImg6 from "@/assets/industry/christmas-boxes/christmas-tags/img-whychoose.webp";
+import christmasTagsImg7 from "@/assets/industry/christmas-boxes/christmas-tags/img-different.webp";
 
 import FAQimage from "@/assets/FAQ-image.webp";
-import christmasChocolateBoxes from "@/assets/christmas-products/christmas-chocolate-boxes.webp";
-import christmasGableBoxes from "@/assets/christmas-products/christmas-gable-boxes.webp";
-import christmasCupcakeBoxes from "@/assets/christmas-products/christmas-cupcake-boxes.webp";
-import christmasCandyBoxes from "@/assets/christmas-products/christmas-candy-boxes.webp";
-import christmasGiftBoxes from "@/assets/christmas-products/christmas-gift-boxes.webp";
-import christmasEveBoxes from "@/assets/christmas-products/christmas-eve-boxes.webp";
-import christmasTreatBoxes from "@/assets/christmas-products/christmas-treat-boxes.webp";
-import christmasPaperBags from "@/assets/christmas-products/christmas-paper-bags.webp";
-import christmasGiftBags from "@/assets/christmas-products/christmas-gift-bags.webp";
-import christmasFavorBoxes from "@/assets/christmas-products/christmas-favor-boxes.webp";
-import christmasStickers from "@/assets/christmas-products/christmas-stickers.webp";
-import adventCalendarBoxes from "@/assets/christmas-products/advent-calendar-boxes.webp";
+import christmasChocolateBoxes from "@/assets/industry/christmas-boxes/christmas-chocolate-boxes.webp";
+import christmasGableBoxes from "@/assets/industry/christmas-boxes/christmas-gable-boxes.webp";
+import christmasCupcakeBoxes from "@/assets/industry/christmas-boxes/christmas-cupcake-boxes.webp";
+import christmasCandyBoxes from "@/assets/industry/christmas-boxes/christmas-candy-boxes.webp";
+import christmasGiftBoxes from "@/assets/industry/christmas-boxes/christmas-gift-boxes.webp";
+import christmasEveBoxes from "@/assets/industry/christmas-boxes/christmas-eve-boxes.webp";
+import christmasTreatBoxes from "@/assets/industry/christmas-boxes/christmas-treat-boxes.webp";
+import christmasPaperBags from "@/assets/industry/christmas-boxes/christmas-paper-bags.webp";
+import christmasGiftBags from "@/assets/industry/christmas-boxes/christmas-gift-bags.webp";
+import christmasFavorBoxes from "@/assets/industry/christmas-boxes/christmas-favor-boxes.webp";
+import christmasStickers from "@/assets/industry/christmas-boxes/christmas-stickers.webp";
+import adventCalendarBoxes from "@/assets/industry/christmas-boxes/advent-calendar-boxes.webp";
 
 const carouselProducts = [
     { name: "Christmas Chocolate Boxes", image: christmasChocolateBoxes, link: "/industries/christmas-boxes/christmas-chocolate-boxes", desc: "Festive chocolate packaging with foil stamping and food-safe inserts." },

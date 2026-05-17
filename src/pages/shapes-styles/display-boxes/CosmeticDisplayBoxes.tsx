@@ -15,10 +15,10 @@ import { RelatedProductDisplayBoxes } from "@/components/RelatedProductDisplayBo
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImg from "@/assets/display-boxes/cosmetic-display-boxes.webp";
-import displayImg from "@/assets/display-boxes/display-boxes-hero.webp";
-import productImg from "@/assets/display-boxes/product-display-boxes.webp";
-import makeupImg from "@/assets/display-boxes/jewelry-display-boxes.webp"; // Using jewelry as placeholder for luxury feel
+import heroImg from "@/assets/shape-style/display-boxes/cosmetic-display-boxes.webp";
+import displayImg from "@/assets/shape-style/display-boxes/display-boxes-hero.webp";
+import productImg from "@/assets/shape-style/display-boxes/product-display-boxes.webp";
+import makeupImg from "@/assets/shape-style/display-boxes/jewelry-display-boxes.webp"; // Using jewelry as placeholder for luxury feel
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CosmeticDisplayBoxes = () => {

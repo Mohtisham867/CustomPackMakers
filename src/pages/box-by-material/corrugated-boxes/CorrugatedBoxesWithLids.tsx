@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images for Corrugated Boxes With Lids
-import corrugatedBoxesWithLids from "@/assets/corrugated-boxes-with-lids.webp";
+import corrugatedBoxesWithLids from "@/assets/material/corrugated-boxes/corrugated-boxes-with-lids.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CorrugatedBoxesWithLids = () => {

@@ -11,23 +11,23 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Import professional product images
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import cufflinkBoxes from "@/assets/apparel-boxes/cufflink-boxes.webp";
-import tieBoxes from "@/assets/apparel-boxes/tie-boxes.webp";
-import beltBoxes from "@/assets/apparel-boxes/belt-boxes.webp";
-import clothingBoxes from "@/assets/apparel-boxes/clothing-boxes.webp";
-import lingerieBoxes from "@/assets/apparel-boxes/lingerie-boxes.webp";
-import underwearBoxes from "@/assets/apparel-boxes/underwear-boxes.webp";
-import tshirtBoxes from "@/assets/apparel-boxes/tshirt-boxes.webp";
-import socksBoxes from "@/assets/apparel-boxes/socks-boxes.webp";
-import clothingHangTags from "@/assets/apparel-boxes/clothing-hang-tags.webp";
-import hatShippingBoxes from "@/assets/apparel-boxes/hat-shipping-boxes.webp";
-import sunglassesBoxes from "@/assets/apparel-boxes/sunglasses-boxes.webp";
-import apparelGiftBoxes from "@/assets/apparel-boxes/apparel-gift-boxes.webp";
-import hoodiePackaging from "@/assets/apparel-boxes/hoodie-packaging.webp";
-import weddingDressBoxes from "@/assets/apparel-boxes/wedding-dress-boxes.webp";
-import hatBoxes from "@/assets/apparel-boxes/hat-boxes.webp";
-import luxuryApparelBoxes from "@/assets/apparel-boxes/luxury-apparel-boxes.webp";
+import customShoeBoxes from "@/assets/industry/apparel-boxes/custom-shoe-boxes.webp";
+import cufflinkBoxes from "@/assets/industry/apparel-boxes/cufflink-boxes.webp";
+import tieBoxes from "@/assets/industry/apparel-boxes/tie-boxes.webp";
+import beltBoxes from "@/assets/industry/apparel-boxes/belt-boxes.webp";
+import clothingBoxes from "@/assets/industry/apparel-boxes/clothing-boxes.webp";
+import lingerieBoxes from "@/assets/industry/apparel-boxes/lingerie-boxes.webp";
+import underwearBoxes from "@/assets/industry/apparel-boxes/underwear-boxes.webp";
+import tshirtBoxes from "@/assets/industry/apparel-boxes/tshirt-boxes.webp";
+import socksBoxes from "@/assets/industry/apparel-boxes/socks-boxes.webp";
+import clothingHangTags from "@/assets/industry/apparel-boxes/clothing-hang-tags.webp";
+import hatShippingBoxes from "@/assets/industry/apparel-boxes/hat-shipping-boxes.webp";
+import sunglassesBoxes from "@/assets/industry/apparel-boxes/sunglasses-boxes.webp";
+import apparelGiftBoxes from "@/assets/industry/apparel-boxes/apparel-gift-boxes.webp";
+import hoodiePackaging from "@/assets/industry/apparel-boxes/hoodie-packaging.webp";
+import weddingDressBoxes from "@/assets/industry/apparel-boxes/wedding-dress-boxes.webp";
+import hatBoxes from "@/assets/industry/apparel-boxes/hat-boxes.webp";
+import luxuryApparelBoxes from "@/assets/industry/apparel-boxes/luxury-apparel-boxes.webp";
 
 // Related products from Apparel Boxes category
 const relatedProducts = [

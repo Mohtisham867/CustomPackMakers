@@ -14,17 +14,17 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/retail-boxes/retail hero.webp";
+import heroImage from "@/assets/industry/retail-boxes/retail hero.webp";
 
 // Specific images maps
-import businessCards from "@/assets/retail-boxes/Custom Business Cards.webp";
-import matchBoxes from "@/assets/retail-boxes/Custom Match Boxes.webp";
-import supplementPackaging from "@/assets/retail-boxes/dietary_supplement_packaging.webp";
-import businessLabels from "@/assets/retail-boxes/Business Labels.webp";
-import boxesWithLogo from "@/assets/retail-boxes/Custom Boxes with Logo.webp";
-import clamshellBoxes from "@/assets/retail-boxes/Clamshell Boxes.webp";
-import barbieBoxes from "@/assets/retail-boxes/barbie-boxes.webp";
-import foldingCartons from "@/assets/retail-boxes/Folding Cartons.webp";
+import businessCards from "@/assets/industry/retail-boxes/Custom Business Cards.webp";
+import matchBoxes from "@/assets/industry/retail-boxes/Custom Match Boxes.webp";
+import supplementPackaging from "@/assets/industry/retail-boxes/dietary_supplement_packaging.webp";
+import businessLabels from "@/assets/industry/retail-boxes/Business Labels.webp";
+import boxesWithLogo from "@/assets/industry/retail-boxes/Custom Boxes with Logo.webp";
+import clamshellBoxes from "@/assets/industry/retail-boxes/Clamshell Boxes.webp";
+import barbieBoxes from "@/assets/industry/retail-boxes/barbie-boxes.webp";
+import foldingCartons from "@/assets/industry/retail-boxes/Folding Cartons.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

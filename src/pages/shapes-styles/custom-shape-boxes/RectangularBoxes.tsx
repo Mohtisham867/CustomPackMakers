@@ -28,9 +28,9 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImg from "@/assets/custom-shape-boxes/rectangular-boxes.webp";
+import heroImg from "@/assets/shape-style/custom-shape-boxes/rectangular-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
-import placeholderImage from "@/assets/custom-shape-boxes/placeholder.webp";
+import placeholderImage from "@/assets/shape-style/custom-shape-boxes/placeholder.webp";
 
 // We extract 'overviewTitle' to ensure no white screen crash.
 const overviewTitle = "The Universal Standard: Efficient Rectangular Packaging";

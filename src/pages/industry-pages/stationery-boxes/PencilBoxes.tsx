@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import pencilBoxesHero from "@/assets/stationery-boxes/pencil-boxes/img-hero.webp";
-import pencilBoxes1 from "@/assets/stationery-boxes/pencil-boxes/img-1.webp";
-import pencilBoxes2 from "@/assets/stationery-boxes/pencil-boxes/img-2.webp";
-import pencilBoxes3 from "@/assets/stationery-boxes/pencil-boxes/img-3.webp";
-import pencilBoxes4 from "@/assets/stationery-boxes/pencil-boxes/img-4.webp";
-import pencilBoxes5 from "@/assets/stationery-boxes/pencil-boxes/img-5.webp";
-import pencilBoxes6 from "@/assets/stationery-boxes/pencil-boxes/img-whychoose.webp";
-import pencilBoxes7 from "@/assets/stationery-boxes/pencil-boxes/img-different.webp";
+import pencilBoxesHero from "@/assets/industry/stationery-boxes/pencil-boxes/img-hero.webp";
+import pencilBoxes1 from "@/assets/industry/stationery-boxes/pencil-boxes/img-1.webp";
+import pencilBoxes2 from "@/assets/industry/stationery-boxes/pencil-boxes/img-2.webp";
+import pencilBoxes3 from "@/assets/industry/stationery-boxes/pencil-boxes/img-3.webp";
+import pencilBoxes4 from "@/assets/industry/stationery-boxes/pencil-boxes/img-4.webp";
+import pencilBoxes5 from "@/assets/industry/stationery-boxes/pencil-boxes/img-5.webp";
+import pencilBoxes6 from "@/assets/industry/stationery-boxes/pencil-boxes/img-whychoose.webp";
+import pencilBoxes7 from "@/assets/industry/stationery-boxes/pencil-boxes/img-different.webp";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.webp";

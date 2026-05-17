@@ -32,7 +32,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Image Imports
 import FAQimage from "@/assets/FAQ-image.webp";
-import mainBeardOil from "@/assets/cosmetic-boxes/Custom Beard Oil Boxes.webp";
+import mainBeardOil from "@/assets/industry/cosmetic-boxes/Custom Beard Oil Boxes.webp";
 
 const CustomBeardOilBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

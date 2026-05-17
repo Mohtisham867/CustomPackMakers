@@ -11,14 +11,14 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Import product images
-import favorBoxes from "@/assets/gift-boxes/favor_boxes_square.webp";
-import giftCardBoxes from "@/assets/gift-boxes/Gift Card Boxes.webp";
-import customPrintedGiftBoxes from "@/assets/gift-boxes/Custom Printed Gift Boxes.webp";
-import hempGiftBoxes from "@/assets/gift-boxes/Hemp Gift Boxes.webp";
-import cardboardGiftBoxes from "@/assets/gift-boxes/Cardboard Gift Boxes.webp";
-import chocolateGiftBoxes from "@/assets/gift-boxes/Chocolate Gift Boxes.webp";
-import giftTags from "@/assets/gift-boxes/Gift Tags.webp";
-import gableGiftBoxes from "@/assets/gable-boxes/gable-gift-boxes.webp";
+import favorBoxes from "@/assets/industry/gift-boxes/favor_boxes_square.webp";
+import giftCardBoxes from "@/assets/industry/gift-boxes/Gift Card Boxes.webp";
+import customPrintedGiftBoxes from "@/assets/industry/gift-boxes/Custom Printed Gift Boxes.webp";
+import hempGiftBoxes from "@/assets/industry/gift-boxes/Hemp Gift Boxes.webp";
+import cardboardGiftBoxes from "@/assets/industry/gift-boxes/Cardboard Gift Boxes.webp";
+import chocolateGiftBoxes from "@/assets/industry/gift-boxes/Chocolate Gift Boxes.webp";
+import giftTags from "@/assets/industry/gift-boxes/Gift Tags.webp";
+import gableGiftBoxes from "@/assets/shape-style/gable-boxes/gable-gift-boxes.webp";
 
 // Related products from Gift Boxes category
 const relatedProducts = [

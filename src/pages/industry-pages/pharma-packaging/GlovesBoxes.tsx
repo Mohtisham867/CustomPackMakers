@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import glovesBoxes from "@/assets/pharma-packaging/gloves-boxes.webp";
+import glovesBoxes from "@/assets/industry/pharma-packaging/gloves-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const GlovesBoxes = () => {

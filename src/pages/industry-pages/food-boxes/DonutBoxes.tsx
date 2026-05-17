@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import donutBoxeshero from "@/assets/food-boxes/donut-boxes/img-hero.webp";
-import donutBoxes1 from "@/assets/food-boxes/donut-boxes/img-1.webp";
-import donutBoxes2 from "@/assets/food-boxes/donut-boxes/img-2.webp";
-import donutBoxes3 from "@/assets/food-boxes/donut-boxes/img-3.webp";
-import donutBoxes4 from "@/assets/food-boxes/donut-boxes/img-4.webp";
-import donutBoxes5 from "@/assets/food-boxes/donut-boxes/img-5.webp";
-import donutBoxes6 from "@/assets/food-boxes/donut-boxes/img-whychoose.webp";
-import donutBoxes7 from "@/assets/food-boxes/donut-boxes/img-different.webp";
+import donutBoxeshero from "@/assets/industry/food-boxes/donut-boxes/img-hero.webp";
+import donutBoxes1 from "@/assets/industry/food-boxes/donut-boxes/img-1.webp";
+import donutBoxes2 from "@/assets/industry/food-boxes/donut-boxes/img-2.webp";
+import donutBoxes3 from "@/assets/industry/food-boxes/donut-boxes/img-3.webp";
+import donutBoxes4 from "@/assets/industry/food-boxes/donut-boxes/img-4.webp";
+import donutBoxes5 from "@/assets/industry/food-boxes/donut-boxes/img-5.webp";
+import donutBoxes6 from "@/assets/industry/food-boxes/donut-boxes/img-whychoose.webp";
+import donutBoxes7 from "@/assets/industry/food-boxes/donut-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const DonutBoxes = () => {

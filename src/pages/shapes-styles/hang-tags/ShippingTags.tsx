@@ -14,8 +14,8 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { RelatedProductHangTags } from "@/components/RelatedProductHangTags";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
-import productHero from "@/assets/hang-tags/shipping-tags.webp";
-import hangTagsHero from "@/assets/hang-tags/hang-tags-hero.webp";
+import productHero from "@/assets/shape-style/hang-tags/shipping-tags.webp";
+import hangTagsHero from "@/assets/shape-style/hang-tags/hang-tags-hero.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const ShippingTags = () => {

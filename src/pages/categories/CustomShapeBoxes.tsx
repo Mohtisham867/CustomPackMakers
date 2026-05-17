@@ -15,20 +15,20 @@ import {
 import { Link } from "react-router-dom";
 
 // Images
-import customShapeHero from "@/assets/custom-shape-boxes/custom-shape-boxes-hero.webp";
-import placeholder from "@/assets/custom-shape-boxes/placeholder.webp";
-import customHandleBoxesImg from "@/assets/custom-shape-boxes/custom-handle-boxes.webp";
-import customPieBoxesImg from "@/assets/custom-shape-boxes/custom-pie-boxes.webp";
-import braceletSquareBoxesImg from "@/assets/custom-shape-boxes/bracelet-square-boxes.webp";
-import customDieCutBoxesImg from "@/assets/custom-shape-boxes/custom-die-cut-boxes.webp";
-import squareSoapBoxesImg from "@/assets/custom-shape-boxes/square-soap-boxes.webp";
-import customPyramidBoxesImg from "@/assets/custom-shape-boxes/custom-pyramid-boxes.webp";
-import hexagonBoxesImg from "@/assets/custom-shape-boxes/hexagon-boxes.webp";
-import rectangularBoxesImg from "@/assets/custom-shape-boxes/rectangular-boxes.webp";
-import triangleBoxesImg from "@/assets/custom-shape-boxes/triangle-boxes.webp";
-import octagonBoxesImg from "@/assets/custom-shape-boxes/octagon-boxes.webp";
-import squareBoxesImg from "@/assets/custom-shape-boxes/square-boxes.webp";
-import cubeBoxesImg from "@/assets/custom-shape-boxes/cube-boxes.webp";
+import customShapeHero from "@/assets/shape-style/custom-shape-boxes/custom-shape-boxes-hero.webp";
+import placeholder from "@/assets/shape-style/custom-shape-boxes/placeholder.webp";
+import customHandleBoxesImg from "@/assets/shape-style/custom-shape-boxes/custom-handle-boxes.webp";
+import customPieBoxesImg from "@/assets/shape-style/custom-shape-boxes/custom-pie-boxes.webp";
+import braceletSquareBoxesImg from "@/assets/shape-style/custom-shape-boxes/bracelet-square-boxes.webp";
+import customDieCutBoxesImg from "@/assets/shape-style/custom-shape-boxes/custom-die-cut-boxes.webp";
+import squareSoapBoxesImg from "@/assets/shape-style/custom-shape-boxes/square-soap-boxes.webp";
+import customPyramidBoxesImg from "@/assets/shape-style/custom-shape-boxes/custom-pyramid-boxes.webp";
+import hexagonBoxesImg from "@/assets/shape-style/custom-shape-boxes/hexagon-boxes.webp";
+import rectangularBoxesImg from "@/assets/shape-style/custom-shape-boxes/rectangular-boxes.webp";
+import triangleBoxesImg from "@/assets/shape-style/custom-shape-boxes/triangle-boxes.webp";
+import octagonBoxesImg from "@/assets/shape-style/custom-shape-boxes/octagon-boxes.webp";
+import squareBoxesImg from "@/assets/shape-style/custom-shape-boxes/square-boxes.webp";
+import cubeBoxesImg from "@/assets/shape-style/custom-shape-boxes/cube-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 // Placeholder assignments

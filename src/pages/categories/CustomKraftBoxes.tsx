@@ -15,33 +15,33 @@ import {
 import { Link } from "react-router-dom";
 
 // Generated Images
-import customHandleBoxesV2 from "@/assets/kraft-boxes/custom-handle-boxes-v2.webp";
-import customPaperCupsV2 from "@/assets/kraft-boxes/custom-paper-cups-v2.webp";
-import kraftSandwichBoxesV2 from "@/assets/kraft-boxes/kraft-sandwich-boxes-v2.webp";
-import customKraftSoapBoxesV2 from "@/assets/kraft-boxes/custom-kraft-soap-boxes-v2.webp";
-import kraftPillowBoxesV2 from "@/assets/kraft-boxes/kraft-pillow-boxes-v2.webp";
-import kraftJewelryBoxesV2 from "@/assets/kraft-boxes/kraft-jewelry-boxes-v2.webp";
-import kraftGableBoxesV2 from "@/assets/kraft-boxes/kraft-gable-boxes-v2.webp";
-import kraftLabelsV2 from "@/assets/kraft-boxes/kraft-labels-v2.webp";
-import paperTubePackagingV2 from "@/assets/kraft-boxes/paper-tube-packaging-v2.webp";
-import kraftGiftBoxesV2 from "@/assets/kraft-boxes/kraft-gift-boxes-v2.webp";
+import customHandleBoxesV2 from "@/assets/material/kraft-boxes/custom-handle-boxes-v2.webp";
+import customPaperCupsV2 from "@/assets/material/kraft-boxes/custom-paper-cups-v2.webp";
+import kraftSandwichBoxesV2 from "@/assets/material/kraft-boxes/kraft-sandwich-boxes-v2.webp";
+import customKraftSoapBoxesV2 from "@/assets/material/kraft-boxes/custom-kraft-soap-boxes-v2.webp";
+import kraftPillowBoxesV2 from "@/assets/material/kraft-boxes/kraft-pillow-boxes-v2.webp";
+import kraftJewelryBoxesV2 from "@/assets/material/kraft-boxes/kraft-jewelry-boxes-v2.webp";
+import kraftGableBoxesV2 from "@/assets/material/kraft-boxes/kraft-gable-boxes-v2.webp";
+import kraftLabelsV2 from "@/assets/material/kraft-boxes/kraft-labels-v2.webp";
+import paperTubePackagingV2 from "@/assets/material/kraft-boxes/paper-tube-packaging-v2.webp";
+import kraftGiftBoxesV2 from "@/assets/material/kraft-boxes/kraft-gift-boxes-v2.webp";
 
 // Remaining Old/Other Images
-import kraftBubbleMailers from "@/assets/kraft-boxes/kraft-bubble-mailers.webp";
-import kraftCorrugatedBoxes from "@/assets/kraft-boxes/kraft-corrugated-boxes.webp";
-import kraftTakeawayBoxes from "@/assets/kraft-boxes/kraft-takeaway-boxes.webp";
-import kraftPaperBoxesWithWindow from "@/assets/kraft-boxes/kraft-paper-boxes-with-window.webp";
-import kraftCupcakeBoxes from "@/assets/kraft-boxes/kraft-cupcake-boxes.webp";
-import kraftBags from "@/assets/kraft-boxes/kraft-bags.webp";
-import kraftPieBoxes from "@/assets/kraft-boxes/kraft-pie-boxes.webp";
-import whiteKraftBoxes from "@/assets/kraft-boxes/white-kraft-boxes.webp";
-import smallKraftBoxes from "@/assets/kraft-boxes/small-kraft-boxes.webp";
-import kraftBoxesWithLids from "@/assets/kraft-boxes/kraft-boxes-with-lids.webp";
-import kraftTuckTopBoxes from "@/assets/kraft-boxes/kraft-tuck-top-boxes.webp";
-import kraftShippingLabels from "@/assets/kraft-boxes/kraft-shipping-labels.webp";
+import kraftBubbleMailers from "@/assets/material/kraft-boxes/kraft-bubble-mailers.webp";
+import kraftCorrugatedBoxes from "@/assets/material/kraft-boxes/kraft-corrugated-boxes.webp";
+import kraftTakeawayBoxes from "@/assets/material/kraft-boxes/kraft-takeaway-boxes.webp";
+import kraftPaperBoxesWithWindow from "@/assets/material/kraft-boxes/kraft-paper-boxes-with-window.webp";
+import kraftCupcakeBoxes from "@/assets/material/kraft-boxes/kraft-cupcake-boxes.webp";
+import kraftBags from "@/assets/material/kraft-boxes/kraft-bags.webp";
+import kraftPieBoxes from "@/assets/material/kraft-boxes/kraft-pie-boxes.webp";
+import whiteKraftBoxes from "@/assets/material/kraft-boxes/white-kraft-boxes.webp";
+import smallKraftBoxes from "@/assets/material/kraft-boxes/small-kraft-boxes.webp";
+import kraftBoxesWithLids from "@/assets/material/kraft-boxes/kraft-boxes-with-lids.webp";
+import kraftTuckTopBoxes from "@/assets/material/kraft-boxes/kraft-tuck-top-boxes.webp";
+import kraftShippingLabels from "@/assets/material/kraft-boxes/kraft-shipping-labels.webp";
 
 // Hero Image
-import kraftBoxesHeroV2 from "@/assets/kraft-boxes/kraft-boxes-hero-v2.webp";
+import kraftBoxesHeroV2 from "@/assets/material/kraft-boxes/kraft-boxes-hero-v2.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const kraftBoxProducts = [

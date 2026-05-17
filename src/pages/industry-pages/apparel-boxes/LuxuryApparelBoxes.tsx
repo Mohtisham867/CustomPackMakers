@@ -28,14 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Placeholder images
-import luxuryApparelBoxeshero from "@/assets/apparel-boxes/luxury-apparel-boxes/img-hero.webp";
-import luxuryApparelBoxes1 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-1.webp";
-import luxuryApparelBoxes2 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-2.webp";
-import luxuryApparelBoxes3 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-3.webp";
-import luxuryApparelBoxes4 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-4.webp";
-import luxuryApparelBoxes5 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-5.webp";
-import luxuryApparelBoxes6 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-whychoose.webp";
-import luxuryApparelBoxes7 from "@/assets/apparel-boxes/luxury-apparel-boxes/img-defferent.webp";
+import luxuryApparelBoxeshero from "@/assets/industry/apparel-boxes/luxury-apparel-boxes/img-hero.webp";
+import luxuryApparelBoxes1 from "@/assets/industry/apparel-boxes/luxury-apparel-boxes/img-1.webp";
+import luxuryApparelBoxes2 from "@/assets/industry/apparel-boxes/luxury-apparel-boxes/img-2.webp";
+import luxuryApparelBoxes3 from "@/assets/industry/apparel-boxes/luxury-apparel-boxes/img-3.webp";
+import luxuryApparelBoxes4 from "@/assets/industry/apparel-boxes/luxury-apparel-boxes/img-4.webp";
+import luxuryApparelBoxes5 from "@/assets/industry/apparel-boxes/luxury-apparel-boxes/img-5.webp";
+import luxuryApparelBoxes6 from "@/assets/industry/apparel-boxes/luxury-apparel-boxes/img-whychoose.webp";
+import luxuryApparelBoxes7 from "@/assets/industry/apparel-boxes/luxury-apparel-boxes/img-defferent.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

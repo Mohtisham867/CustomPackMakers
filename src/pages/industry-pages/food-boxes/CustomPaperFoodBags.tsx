@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import productImage from "@/assets/food-boxes/paper-food-bags.webp";
+import productImage from "@/assets/industry/food-boxes/paper-food-bags.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomPaperFoodBags = () => {

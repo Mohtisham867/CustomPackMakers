@@ -11,18 +11,18 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Images
-import customHandleBoxesImg from "@/assets/custom-shape-boxes/custom-handle-boxes.webp";
-import customPieBoxesImg from "@/assets/custom-shape-boxes/custom-pie-boxes.webp";
-import braceletSquareBoxesImg from "@/assets/custom-shape-boxes/bracelet-square-boxes.webp";
-import customDieCutBoxesImg from "@/assets/custom-shape-boxes/custom-die-cut-boxes.webp";
-import squareSoapBoxesImg from "@/assets/custom-shape-boxes/square-soap-boxes.webp";
-import customPyramidBoxesImg from "@/assets/custom-shape-boxes/custom-pyramid-boxes.webp";
-import hexagonBoxesImg from "@/assets/custom-shape-boxes/hexagon-boxes.webp";
-import rectangularBoxesImg from "@/assets/custom-shape-boxes/rectangular-boxes.webp";
-import triangleBoxesImg from "@/assets/custom-shape-boxes/triangle-boxes.webp";
-import octagonBoxesImg from "@/assets/custom-shape-boxes/octagon-boxes.webp";
-import squareBoxesImg from "@/assets/custom-shape-boxes/square-boxes.webp";
-import cubeBoxesImg from "@/assets/custom-shape-boxes/cube-boxes.webp";
+import customHandleBoxesImg from "@/assets/shape-style/custom-shape-boxes/custom-handle-boxes.webp";
+import customPieBoxesImg from "@/assets/shape-style/custom-shape-boxes/custom-pie-boxes.webp";
+import braceletSquareBoxesImg from "@/assets/shape-style/custom-shape-boxes/bracelet-square-boxes.webp";
+import customDieCutBoxesImg from "@/assets/shape-style/custom-shape-boxes/custom-die-cut-boxes.webp";
+import squareSoapBoxesImg from "@/assets/shape-style/custom-shape-boxes/square-soap-boxes.webp";
+import customPyramidBoxesImg from "@/assets/shape-style/custom-shape-boxes/custom-pyramid-boxes.webp";
+import hexagonBoxesImg from "@/assets/shape-style/custom-shape-boxes/hexagon-boxes.webp";
+import rectangularBoxesImg from "@/assets/shape-style/custom-shape-boxes/rectangular-boxes.webp";
+import triangleBoxesImg from "@/assets/shape-style/custom-shape-boxes/triangle-boxes.webp";
+import octagonBoxesImg from "@/assets/shape-style/custom-shape-boxes/octagon-boxes.webp";
+import squareBoxesImg from "@/assets/shape-style/custom-shape-boxes/square-boxes.webp";
+import cubeBoxesImg from "@/assets/shape-style/custom-shape-boxes/cube-boxes.webp";
 
 const relatedProducts = [
     { name: "Custom Handle Boxes", image: customHandleBoxesImg, description: "Boxes with integrated handles for convenient carrying and high-impact retail branding visibility", link: "/shapes-styles/custom-shape-boxes/custom-handle-boxes" },

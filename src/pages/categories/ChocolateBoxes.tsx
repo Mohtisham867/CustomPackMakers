@@ -13,17 +13,17 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/chocolate-boxes-hero.webp";
-import artisanChocolateBox from "@/assets/chocolate-products/Artisan Chocolate Box.webp";
-import chocolateMilkBoxes from "@/assets/chocolate-products/chocolate-milk-boxes.webp";
-import chocolateCandyBoxes from "@/assets/chocolate-products/chocolate-candy-boxes.webp";
-import luxuryChocolateBoxes from "@/assets/chocolate-products/luxury-chocolate-boxes.webp";
-import chocolateBombBoxes from "@/assets/chocolate-products/chocolate-bomb-boxes.webp";
-import chocolateGiftBoxes from "@/assets/chocolate-products/chocolate-gift-boxes.webp";
-import christmasChocolateBoxes from "@/assets/chocolate-products/christmas-chocolate-boxes.webp";
-import mushroomChocolateBarPackaging from "@/assets/chocolate-products/Mushroom Chocolate Bar Packaging.webp";
-import chocolateBarPackaging from "@/assets/chocolate-products/Chocolate Bar Packaging.webp";
-import chocolateSubscriptionBox from "@/assets/chocolate-products/chocolate-subscription-box.webp";
+import heroImage from "@/assets/industry/chocolate-boxes/chocolate-boxes-hero.webp";
+import artisanChocolateBox from "@/assets/industry/chocolate-boxes/Artisan Chocolate Box.webp";
+import chocolateMilkBoxes from "@/assets/industry/chocolate-boxes/chocolate-milk-boxes.webp";
+import chocolateCandyBoxes from "@/assets/industry/chocolate-boxes/chocolate-candy-boxes.webp";
+import luxuryChocolateBoxes from "@/assets/industry/chocolate-boxes/luxury-chocolate-boxes.webp";
+import chocolateBombBoxes from "@/assets/industry/chocolate-boxes/chocolate-bomb-boxes.webp";
+import chocolateGiftBoxes from "@/assets/industry/chocolate-boxes/chocolate-gift-boxes.webp";
+import christmasChocolateBoxes from "@/assets/industry/chocolate-boxes/christmas-chocolate-boxes.webp";
+import mushroomChocolateBarPackaging from "@/assets/industry/chocolate-boxes/Mushroom Chocolate Bar Packaging.webp";
+import chocolateBarPackaging from "@/assets/industry/chocolate-boxes/Chocolate Bar Packaging.webp";
+import chocolateSubscriptionBox from "@/assets/industry/chocolate-boxes/chocolate-subscription-box.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

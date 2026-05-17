@@ -28,7 +28,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import jointPackagingHero from "@/assets/child-resistant-packaging/child-resistant-joint-packaging.webp";
+import jointPackagingHero from "@/assets/shape-style/child-resistant-packaging/child-resistant-joint-packaging.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChildResistantJointPackaging = () => {

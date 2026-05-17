@@ -28,7 +28,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import mylarBagsHero from "@/assets/child-resistant-packaging/child-resistant-mylar-bags.webp";
+import mylarBagsHero from "@/assets/shape-style/child-resistant-packaging/child-resistant-mylar-bags.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChildResistantMylarBags = () => {

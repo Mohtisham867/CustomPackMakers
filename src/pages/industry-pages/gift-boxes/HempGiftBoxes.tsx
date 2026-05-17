@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import hempGiftBoxeshero from "@/assets/gift-boxes/Hemp-Gift-Boxes/img-hero.webp";
-import hempGiftBoxesimg1 from "@/assets/gift-boxes/Hemp-Gift-Boxes/img-1.webp";
-import hempGiftBoxesimg2 from "@/assets/gift-boxes/Hemp-Gift-Boxes/img-2.webp";
-import hempGiftBoxesimg3 from "@/assets/gift-boxes/Hemp-Gift-Boxes/img-3.webp";
-import hempGiftBoxesimg4 from "@/assets/gift-boxes/Hemp-Gift-Boxes/img-4.webp";
-import hempGiftBoxesimg5 from "@/assets/gift-boxes/Hemp-Gift-Boxes/img-5.webp";
-import hempGiftBoxesimg6 from "@/assets/gift-boxes/Hemp-Gift-Boxes/img-whychoose.webp";
-import hempGiftBoxesimg7 from "@/assets/gift-boxes/Hemp-Gift-Boxes/img-different.webp";
+import hempGiftBoxeshero from "@/assets/industry/gift-boxes/Hemp-Gift-Boxes/img-hero.webp";
+import hempGiftBoxesimg1 from "@/assets/industry/gift-boxes/Hemp-Gift-Boxes/img-1.webp";
+import hempGiftBoxesimg2 from "@/assets/industry/gift-boxes/Hemp-Gift-Boxes/img-2.webp";
+import hempGiftBoxesimg3 from "@/assets/industry/gift-boxes/Hemp-Gift-Boxes/img-3.webp";
+import hempGiftBoxesimg4 from "@/assets/industry/gift-boxes/Hemp-Gift-Boxes/img-4.webp";
+import hempGiftBoxesimg5 from "@/assets/industry/gift-boxes/Hemp-Gift-Boxes/img-5.webp";
+import hempGiftBoxesimg6 from "@/assets/industry/gift-boxes/Hemp-Gift-Boxes/img-whychoose.webp";
+import hempGiftBoxesimg7 from "@/assets/industry/gift-boxes/Hemp-Gift-Boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const HempGiftBoxes = () => {

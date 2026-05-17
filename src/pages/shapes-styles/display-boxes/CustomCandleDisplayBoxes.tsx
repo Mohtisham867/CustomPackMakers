@@ -15,10 +15,10 @@ import { RelatedProductDisplayBoxes } from "@/components/RelatedProductDisplayBo
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImg from "@/assets/display-boxes/custom-candle-display-boxes.webp";
-import displayImg from "@/assets/display-boxes/display-boxes-hero.webp";
-import jewelryImg from "@/assets/display-boxes/jewelry-display-boxes.webp";
-import cosmeticImg from "@/assets/display-boxes/cosmetic-display-boxes.webp";
+import heroImg from "@/assets/shape-style/display-boxes/custom-candle-display-boxes.webp";
+import displayImg from "@/assets/shape-style/display-boxes/display-boxes-hero.webp";
+import jewelryImg from "@/assets/shape-style/display-boxes/jewelry-display-boxes.webp";
+import cosmeticImg from "@/assets/shape-style/display-boxes/cosmetic-display-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomCandleDisplayBoxes = () => {

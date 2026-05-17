@@ -29,7 +29,7 @@ import { Plus, Minus } from "lucide-react";
 
 
 import FAQimage from "@/assets/FAQ-image.webp";
-import cbdFlowerBoxes from "@/assets/cannabis-packaging/flower-packaging.webp";
+import cbdFlowerBoxes from "@/assets/industry/cannabis-packaging/flower-packaging.webp";
 
 const CustomCbdFlowerBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

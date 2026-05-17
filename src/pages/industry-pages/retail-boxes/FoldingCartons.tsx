@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import foldingCartonshero from "@/assets/retail-boxes/Folding-Cartons/img-hero.webp";
-import foldingCartons1 from "@/assets/retail-boxes/Folding-Cartons/img-1.webp";
-import foldingCartons2 from "@/assets/retail-boxes/Folding-Cartons/img-2.webp";
-import foldingCartons3 from "@/assets/retail-boxes/Folding-Cartons/img-3.webp";
-import foldingCartons4 from "@/assets/retail-boxes/Folding-Cartons/img-4.webp";
-import foldingCartons5 from "@/assets/retail-boxes/Folding-Cartons/img-5.webp";
-import foldingCartons6 from "@/assets/retail-boxes/Folding-Cartons/img-whychoose.webp";
-import foldingCartons7 from "@/assets/retail-boxes/Folding-Cartons/img-different.webp";
+import foldingCartonshero from "@/assets/industry/retail-boxes/Folding-Cartons/img-hero.webp";
+import foldingCartons1 from "@/assets/industry/retail-boxes/Folding-Cartons/img-1.webp";
+import foldingCartons2 from "@/assets/industry/retail-boxes/Folding-Cartons/img-2.webp";
+import foldingCartons3 from "@/assets/industry/retail-boxes/Folding-Cartons/img-3.webp";
+import foldingCartons4 from "@/assets/industry/retail-boxes/Folding-Cartons/img-4.webp";
+import foldingCartons5 from "@/assets/industry/retail-boxes/Folding-Cartons/img-5.webp";
+import foldingCartons6 from "@/assets/industry/retail-boxes/Folding-Cartons/img-whychoose.webp";
+import foldingCartons7 from "@/assets/industry/retail-boxes/Folding-Cartons/img-different.webp";
 
 import FAQimage from "@/assets/FAQ-image.webp";
 

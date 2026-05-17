@@ -15,14 +15,14 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import teaboxeshero from "@/assets/hemp-boxes/hemp-tea-bags/img-hero.webp";
-import teaboxesimg1 from "@/assets/hemp-boxes/hemp-tea-bags/img-1.webp";
-import teaboxesimg2 from "@/assets/hemp-boxes/hemp-tea-bags/img-2.webp";
-import teaboxesimg3 from "@/assets/hemp-boxes/hemp-tea-bags/img-3.webp";
-import teaboxesimg4 from "@/assets/hemp-boxes/hemp-tea-bags/img-4.webp";
-import teaboxesimg5 from "@/assets/hemp-boxes/hemp-tea-bags/img-5.webp";
-import teaboxesimg6 from "@/assets/hemp-boxes/hemp-tea-bags/img-whychoose.webp";
-import teaboxesimg7 from "@/assets/hemp-boxes/hemp-tea-bags/img-different.webp";
+import teaboxeshero from "@/assets/industry/custom-hemp-boxes/hemp-tea-bags/img-hero.webp";
+import teaboxesimg1 from "@/assets/industry/custom-hemp-boxes/hemp-tea-bags/img-1.webp";
+import teaboxesimg2 from "@/assets/industry/custom-hemp-boxes/hemp-tea-bags/img-2.webp";
+import teaboxesimg3 from "@/assets/industry/custom-hemp-boxes/hemp-tea-bags/img-3.webp";
+import teaboxesimg4 from "@/assets/industry/custom-hemp-boxes/hemp-tea-bags/img-4.webp";
+import teaboxesimg5 from "@/assets/industry/custom-hemp-boxes/hemp-tea-bags/img-5.webp";
+import teaboxesimg6 from "@/assets/industry/custom-hemp-boxes/hemp-tea-bags/img-whychoose.webp";
+import teaboxesimg7 from "@/assets/industry/custom-hemp-boxes/hemp-tea-bags/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [

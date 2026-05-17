@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific product images
-import heroImg from "@/assets/mailer-boxes/4x8-bubble-mailers.webp";
+import heroImg from "@/assets/shape-style/mailer-boxes/4x8-bubble-mailers.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const FourByEightBubbleMailers = () => {

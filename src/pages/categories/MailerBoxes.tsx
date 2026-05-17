@@ -13,19 +13,19 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import vinylRecordMailers from "@/assets/mailer-boxes/vinyl-record-mailers.webp";
-import bubbleMailers from "@/assets/mailer-boxes/bubble-mailers.webp";
-import bubbleMailers4x8 from "@/assets/mailer-boxes/4x8-bubble-mailers.webp";
-import kraftBubbleMailers from "@/assets/mailer-boxes/kraft-bubble-mailers.webp";
-import corrugatedMailerBoxes from "@/assets/mailer-boxes/corrugated-mailer-boxes-updated.webp";
-import earLockMailerBox from "@/assets/mailer-boxes/ear-lock-mailer-box-updated.webp";
-import polyBubbleMailers from "@/assets/mailer-boxes/poly-bubble-mailers.webp";
-import whiteMailerBoxes from "@/assets/mailer-boxes/white-mailer-boxes.webp";
-import kraftMailerBoxes from "@/assets/mailer-boxes/kraft-mailer-boxes.webp";
-import blackMailerBoxes from "@/assets/mailer-boxes/black-mailer-boxes.webp";
-import coloredMailerBoxes from "@/assets/mailer-boxes/colored-mailer-boxes.webp";
-import tuckTopMailerBoxes from "@/assets/mailer-boxes/tuck-top-mailer-boxes.webp";
-import mailerBoxesHero from "@/assets/mailer-boxes/mailer-boxes-hero.webp";
+import vinylRecordMailers from "@/assets/shape-style/mailer-boxes/vinyl-record-mailers.webp";
+import bubbleMailers from "@/assets/shape-style/mailer-boxes/bubble-mailers.webp";
+import bubbleMailers4x8 from "@/assets/shape-style/mailer-boxes/4x8-bubble-mailers.webp";
+import kraftBubbleMailers from "@/assets/shape-style/mailer-boxes/kraft-bubble-mailers.webp";
+import corrugatedMailerBoxes from "@/assets/shape-style/mailer-boxes/corrugated-mailer-boxes-updated.webp";
+import earLockMailerBox from "@/assets/shape-style/mailer-boxes/ear-lock-mailer-box-updated.webp";
+import polyBubbleMailers from "@/assets/shape-style/mailer-boxes/poly-bubble-mailers.webp";
+import whiteMailerBoxes from "@/assets/shape-style/mailer-boxes/white-mailer-boxes.webp";
+import kraftMailerBoxes from "@/assets/shape-style/mailer-boxes/kraft-mailer-boxes.webp";
+import blackMailerBoxes from "@/assets/shape-style/mailer-boxes/black-mailer-boxes.webp";
+import coloredMailerBoxes from "@/assets/shape-style/mailer-boxes/colored-mailer-boxes.webp";
+import tuckTopMailerBoxes from "@/assets/shape-style/mailer-boxes/tuck-top-mailer-boxes.webp";
+import mailerBoxesHero from "@/assets/shape-style/mailer-boxes/mailer-boxes-hero.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 // IMAGES INTENTIONALLY OMITTED - AWAITING USER INSTRUCTION

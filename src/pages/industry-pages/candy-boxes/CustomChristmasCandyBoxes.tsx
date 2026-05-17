@@ -29,14 +29,14 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import christmasCandyBoxesHero from "@/assets/candy-products/christmas-candy-boxes/img-hero.webp";
-import christmasCandyBoxesImg1 from "@/assets/candy-products/christmas-candy-boxes/img-1.webp";
-import christmasCandyBoxesImg2 from "@/assets/candy-products/christmas-candy-boxes/img-2.webp";
-import christmasCandyBoxesImg3 from "@/assets/candy-products/christmas-candy-boxes/img-3.webp";
-import christmasCandyBoxesImg4 from "@/assets/candy-products/christmas-candy-boxes/img-4.webp";
-import christmasCandyBoxesImg5 from "@/assets/candy-products/christmas-candy-boxes/img-5.webp";
-import christmasCandyBoxesImg6 from "@/assets/candy-products/christmas-candy-boxes/img-whychoose.webp";
-import christmasCandyBoxesImg7 from "@/assets/candy-products/christmas-candy-boxes/img-different.webp";
+import christmasCandyBoxesHero from "@/assets/industry/candy-boxes/christmas-candy-boxes/img-hero.webp";
+import christmasCandyBoxesImg1 from "@/assets/industry/candy-boxes/christmas-candy-boxes/img-1.webp";
+import christmasCandyBoxesImg2 from "@/assets/industry/candy-boxes/christmas-candy-boxes/img-2.webp";
+import christmasCandyBoxesImg3 from "@/assets/industry/candy-boxes/christmas-candy-boxes/img-3.webp";
+import christmasCandyBoxesImg4 from "@/assets/industry/candy-boxes/christmas-candy-boxes/img-4.webp";
+import christmasCandyBoxesImg5 from "@/assets/industry/candy-boxes/christmas-candy-boxes/img-5.webp";
+import christmasCandyBoxesImg6 from "@/assets/industry/candy-boxes/christmas-candy-boxes/img-whychoose.webp";
+import christmasCandyBoxesImg7 from "@/assets/industry/candy-boxes/christmas-candy-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomChristmasCandyBoxes = () => {

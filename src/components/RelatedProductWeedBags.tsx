@@ -11,11 +11,11 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Images specific to weed bags
-import exoticWeedBag from "@/assets/weed-bags/exotic-weed-bag.webp";
-import smellProofWeedBags from "@/assets/weed-bags/smell-proof-weed-bags.webp";
-import weedBags35 from "@/assets/weed-bags/weed-bags-3-5.webp";
-import zipWeedBags from "@/assets/weed-bags/zip-weed-bags.webp";
-import weedPoundBags from "@/assets/weed-bags/weed-pound-bags.webp";
+import exoticWeedBag from "@/assets/industry/weed-bags/exotic-weed-bag.webp";
+import smellProofWeedBags from "@/assets/industry/weed-bags/smell-proof-weed-bags.webp";
+import weedBags35 from "@/assets/industry/weed-bags/weed-bags-3-5.webp";
+import zipWeedBags from "@/assets/industry/weed-bags/zip-weed-bags.webp";
+import weedPoundBags from "@/assets/industry/weed-bags/weed-pound-bags.webp";
 
 const relatedProducts = [
     { name: "Exotic Weed Bag", image: exoticWeedBag, description: "Vibrant designs for your premium exotic strains featuring holographic effects and high-barrier protection", link: "/shapes-styles/weed-bags/exotic-weed-bag" },

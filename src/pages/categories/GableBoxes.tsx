@@ -15,19 +15,19 @@ import {
 import { Link } from "react-router-dom";
 
 // Product Images
-import kraftGableBox from "@/assets/gable-boxes/kraft-gable-boxes.webp";
-import christmasGableBox from "@/assets/gable-boxes/christmas-gable-boxes.webp";
-import whiteGableBox from "@/assets/gable-boxes/white-gable-boxes.webp";
-import largeGableBox from "@/assets/gable-boxes/large-gable-boxes.webp";
-import gableGiftBox from "@/assets/gable-boxes/gable-gift-boxes.webp";
-import blackGableBox from "@/assets/gable-boxes/black-gable-boxes.webp";
-import gableBoxWindow from "@/assets/gable-boxes/gable-boxes-with-window.webp";
-import gableBag from "@/assets/gable-boxes/gable-bags.webp";
-import blueGableBox from "@/assets/gable-boxes/blue-gable-boxes.webp";
-import cardboardGableBox from "@/assets/gable-boxes/cardboard-gable-boxes.webp";
-import redGableBox from "@/assets/gable-boxes/red-gable-boxes.webp";
-import kraftPaperGableBox from "@/assets/gable-boxes/kraft-paper-gable-box.webp";
-import gableBoxesHero from "@/assets/gable-boxes/gable-boxes-hero.webp";
+import kraftGableBox from "@/assets/shape-style/gable-boxes/kraft-gable-boxes.webp";
+import christmasGableBox from "@/assets/shape-style/gable-boxes/christmas-gable-boxes.webp";
+import whiteGableBox from "@/assets/shape-style/gable-boxes/white-gable-boxes.webp";
+import largeGableBox from "@/assets/shape-style/gable-boxes/large-gable-boxes.webp";
+import gableGiftBox from "@/assets/shape-style/gable-boxes/gable-gift-boxes.webp";
+import blackGableBox from "@/assets/shape-style/gable-boxes/black-gable-boxes.webp";
+import gableBoxWindow from "@/assets/shape-style/gable-boxes/gable-boxes-with-window.webp";
+import gableBag from "@/assets/shape-style/gable-boxes/gable-bags.webp";
+import blueGableBox from "@/assets/shape-style/gable-boxes/blue-gable-boxes.webp";
+import cardboardGableBox from "@/assets/shape-style/gable-boxes/cardboard-gable-boxes.webp";
+import redGableBox from "@/assets/shape-style/gable-boxes/red-gable-boxes.webp";
+import kraftPaperGableBox from "@/assets/shape-style/gable-boxes/kraft-paper-gable-box.webp";
+import gableBoxesHero from "@/assets/shape-style/gable-boxes/gable-boxes-hero.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const gableProducts = [

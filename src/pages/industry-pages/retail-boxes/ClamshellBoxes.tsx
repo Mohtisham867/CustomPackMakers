@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import clamshellBoxeshero from "@/assets/retail-boxes/Clamshell-Boxes/img-hero.webp";
-import clamshellBoxes1 from "@/assets/retail-boxes/Clamshell-Boxes/img-1.webp";
-import clamshellBoxes2 from "@/assets/retail-boxes/Clamshell-Boxes/img-2.webp";
-import clamshellBoxes3 from "@/assets/retail-boxes/Clamshell-Boxes/img-3.webp";
-import clamshellBoxes4 from "@/assets/retail-boxes/Clamshell-Boxes/img-4.webp";
-import clamshellBoxes5 from "@/assets/retail-boxes/Clamshell-Boxes/img-5.webp";
-import clamshellBoxes6 from "@/assets/retail-boxes/Clamshell-Boxes/img-whychoose.webp";
-import clamshellBoxes7 from "@/assets/retail-boxes/Clamshell-Boxes/img-different.webp";
+import clamshellBoxeshero from "@/assets/industry/retail-boxes/Clamshell-Boxes/img-hero.webp";
+import clamshellBoxes1 from "@/assets/industry/retail-boxes/Clamshell-Boxes/img-1.webp";
+import clamshellBoxes2 from "@/assets/industry/retail-boxes/Clamshell-Boxes/img-2.webp";
+import clamshellBoxes3 from "@/assets/industry/retail-boxes/Clamshell-Boxes/img-3.webp";
+import clamshellBoxes4 from "@/assets/industry/retail-boxes/Clamshell-Boxes/img-4.webp";
+import clamshellBoxes5 from "@/assets/industry/retail-boxes/Clamshell-Boxes/img-5.webp";
+import clamshellBoxes6 from "@/assets/industry/retail-boxes/Clamshell-Boxes/img-whychoose.webp";
+import clamshellBoxes7 from "@/assets/industry/retail-boxes/Clamshell-Boxes/img-different.webp";
 
 import FAQimage from "@/assets/FAQ-image.webp";
 

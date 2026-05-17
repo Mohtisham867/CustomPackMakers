@@ -11,15 +11,15 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Import Candy Product Images
-import gummyBoxes from "@/assets/candy-products/custom-gummy-boxes.webp";
-import lollipopBoxes from "@/assets/candy-products/custom-lollipop-boxes.webp";
-import hardCandyBoxes from "@/assets/candy-products/custom-hard-candy-boxes.webp";
-import chocolateBoxes from "@/assets/candy-products/chocolate-boxes.webp";
-import candyAppleBoxes from "@/assets/candy-products/candy-apple-boxes.webp";
-import candyBoxesWindow from "@/assets/candy-products/candy-boxes-window.webp";
-import christmasCandyBoxes from "@/assets/candy-products/christmas-candy-boxes.webp";
-import mylarBagsCandies from "@/assets/candy-products/mylar-bags-candies.webp";
-import candyDisplayBoxes from "@/assets/candy-products/candy-display-boxes.webp";
+import gummyBoxes from "@/assets/industry/candy-boxes/custom-gummy-boxes.webp";
+import lollipopBoxes from "@/assets/industry/candy-boxes/custom-lollipop-boxes.webp";
+import hardCandyBoxes from "@/assets/industry/candy-boxes/custom-hard-candy-boxes.webp";
+import chocolateBoxes from "@/assets/industry/candy-boxes/chocolate-boxes.webp";
+import candyAppleBoxes from "@/assets/industry/candy-boxes/candy-apple-boxes.webp";
+import candyBoxesWindow from "@/assets/industry/candy-boxes/candy-boxes-window.webp";
+import christmasCandyBoxes from "@/assets/industry/candy-boxes/christmas-candy-boxes.webp";
+import mylarBagsCandies from "@/assets/industry/candy-boxes/mylar-bags-candies.webp";
+import candyDisplayBoxes from "@/assets/industry/candy-boxes/candy-display-boxes.webp";
 
 const relatedProducts = [
     { name: "Custom Gummy Boxes", image: gummyBoxes, description: "Vibrant packaging for gummy candies featuring eye-catching designs and moisture-resistant materials", link: "/industries/custom-candy-boxes/custom-gummy-boxes" },

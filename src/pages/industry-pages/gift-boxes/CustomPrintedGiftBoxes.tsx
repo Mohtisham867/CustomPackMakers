@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import PrintedGiftBoxeshero from "@/assets/gift-boxes/Custom-Printed-Gift-Boxes/img-hero.webp";
-import PrintedGiftBoxesimg1 from "@/assets/gift-boxes/Custom-Printed-Gift-Boxes/img-1.webp";
-import PrintedGiftBoxesimg2 from "@/assets/gift-boxes/Custom-Printed-Gift-Boxes/img-2.webp";
-import PrintedGiftBoxesimg3 from "@/assets/gift-boxes/Custom-Printed-Gift-Boxes/img-3.webp";
-import PrintedGiftBoxesimg4 from "@/assets/gift-boxes/Custom-Printed-Gift-Boxes/img-4.webp";
-import PrintedGiftBoxesimg5 from "@/assets/gift-boxes/Custom-Printed-Gift-Boxes/img-5.webp";
-import PrintedGiftBoxesimg6 from "@/assets/gift-boxes/Custom-Printed-Gift-Boxes/img-whychoose.webp";
-import PrintedGiftBoxesimg7 from "@/assets/gift-boxes/Custom-Printed-Gift-Boxes/img-different.webp";
+import PrintedGiftBoxeshero from "@/assets/industry/gift-boxes/Custom-Printed-Gift-Boxes/img-hero.webp";
+import PrintedGiftBoxesimg1 from "@/assets/industry/gift-boxes/Custom-Printed-Gift-Boxes/img-1.webp";
+import PrintedGiftBoxesimg2 from "@/assets/industry/gift-boxes/Custom-Printed-Gift-Boxes/img-2.webp";
+import PrintedGiftBoxesimg3 from "@/assets/industry/gift-boxes/Custom-Printed-Gift-Boxes/img-3.webp";
+import PrintedGiftBoxesimg4 from "@/assets/industry/gift-boxes/Custom-Printed-Gift-Boxes/img-4.webp";
+import PrintedGiftBoxesimg5 from "@/assets/industry/gift-boxes/Custom-Printed-Gift-Boxes/img-5.webp";
+import PrintedGiftBoxesimg6 from "@/assets/industry/gift-boxes/Custom-Printed-Gift-Boxes/img-whychoose.webp";
+import PrintedGiftBoxesimg7 from "@/assets/industry/gift-boxes/Custom-Printed-Gift-Boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomPrintedGiftBoxes = () => {

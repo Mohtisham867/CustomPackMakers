@@ -14,18 +14,18 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/pharma-packaging/pharma-packaging-hero.webp";
+import heroImage from "@/assets/industry/pharma-packaging/pharma-packaging-hero.webp";
 
 // Specific images
-import pillBoxes from "@/assets/pharma-packaging/pill-boxes.webp";
-import dispenserBoxes from "@/assets/pharma-packaging/dispenser-boxes.webp";
-import dietarySupplementPackaging from "@/assets/pharma-packaging/dietary_supplement_packaging.webp";
-import medicineBoxes from "@/assets/pharma-packaging/medicine-boxes.webp";
-import oliveOilBoxes from "@/assets/pharma-packaging/olive-oil-boxes.webp";
-import condomBoxes from "@/assets/pharma-packaging/condom-boxes.webp";
-import glovesBoxes from "@/assets/pharma-packaging/gloves-boxes.webp";
+import pillBoxes from "@/assets/industry/pharma-packaging/pill-boxes.webp";
+import dispenserBoxes from "@/assets/industry/pharma-packaging/dispenser-boxes.webp";
+import dietarySupplementPackaging from "@/assets/industry/pharma-packaging/dietary_supplement_packaging.webp";
+import medicineBoxes from "@/assets/industry/pharma-packaging/medicine-boxes.webp";
+import oliveOilBoxes from "@/assets/industry/pharma-packaging/olive-oil-boxes.webp";
+import condomBoxes from "@/assets/industry/pharma-packaging/condom-boxes.webp";
+import glovesBoxes from "@/assets/industry/pharma-packaging/gloves-boxes.webp";
 // Substitute for Bandage Boxes - reusing medicine boxes
-import bandageBoxes from "@/assets/pharma-packaging/bandage-boxes.webp";
+import bandageBoxes from "@/assets/industry/pharma-packaging/bandage-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

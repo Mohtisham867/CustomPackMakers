@@ -15,10 +15,10 @@ import { RelatedProductDisplayBoxes } from "@/components/RelatedProductDisplayBo
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImg from "@/assets/display-boxes/brochure-display-holder.webp";
-import displayImg from "@/assets/display-boxes/display-boxes-hero.webp";
-import counterImg from "@/assets/display-boxes/counter-display-boxes.webp";
-import cardImg from "@/assets/display-boxes/cardboard-display-boxes.webp";
+import heroImg from "@/assets/shape-style/display-boxes/brochure-display-holder.webp";
+import displayImg from "@/assets/shape-style/display-boxes/display-boxes-hero.webp";
+import counterImg from "@/assets/shape-style/display-boxes/counter-display-boxes.webp";
+import cardImg from "@/assets/shape-style/display-boxes/cardboard-display-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const BrochureDisplayHolder = () => {

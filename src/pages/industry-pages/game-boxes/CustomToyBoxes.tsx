@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images specific to this page
-import customToyBoxeshero from "@/assets/game-boxes/custom-toy-boxes/img-hero.webp";
-import customToyBoxes1 from "@/assets/game-boxes/custom-toy-boxes/img-1.webp";
-import customToyBoxes2 from "@/assets/game-boxes/custom-toy-boxes/img-2.webp";
-import customToyBoxes3 from "@/assets/game-boxes/custom-toy-boxes/img-3.webp";
-import customToyBoxes4 from "@/assets/game-boxes/custom-toy-boxes/img-4.webp";
-import customToyBoxes5 from "@/assets/game-boxes/custom-toy-boxes/img-5.webp";
-import customToyBoxes6 from "@/assets/game-boxes/custom-toy-boxes/img-whychoose.webp";
-import customToyBoxes7 from "@/assets/game-boxes/custom-toy-boxes/img-different.webp";
+import customToyBoxeshero from "@/assets/industry/game-boxes/custom-toy-boxes/img-hero.webp";
+import customToyBoxes1 from "@/assets/industry/game-boxes/custom-toy-boxes/img-1.webp";
+import customToyBoxes2 from "@/assets/industry/game-boxes/custom-toy-boxes/img-2.webp";
+import customToyBoxes3 from "@/assets/industry/game-boxes/custom-toy-boxes/img-3.webp";
+import customToyBoxes4 from "@/assets/industry/game-boxes/custom-toy-boxes/img-4.webp";
+import customToyBoxes5 from "@/assets/industry/game-boxes/custom-toy-boxes/img-5.webp";
+import customToyBoxes6 from "@/assets/industry/game-boxes/custom-toy-boxes/img-whychoose.webp";
+import customToyBoxes7 from "@/assets/industry/game-boxes/custom-toy-boxes/img-different.webp";
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";
 

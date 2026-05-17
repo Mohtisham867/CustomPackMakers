@@ -13,24 +13,24 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/tuck-boxes/tuck-hero.webp";
+import heroImage from "@/assets/shape-style/tuck-boxes/tuck-hero.webp";
 
 // Product Images
-import reverseTuckEnd from "@/assets/tuck-boxes/reverse-tuck-end.webp";
-import reverseTuckEndBoxes from "@/assets/tuck-boxes/reverse-tuck-end-boxes.webp";
-import straightTuckEnd from "@/assets/tuck-boxes/straight-tuck-end.webp";
-import straightTuckEndBoxes from "@/assets/tuck-boxes/straight-tuck-end-boxes.webp";
-import tuckTopBox from "@/assets/tuck-boxes/tuck-top-box.webp";
-import tuckTopBoxes from "@/assets/tuck-boxes/tuck-top-boxes.webp";
-import tuckTopSnapBottom from "@/assets/tuck-boxes/tuck-top-snap-bottom-box.webp";
-import tuckTopAutoBottom from "@/assets/tuck-boxes/tuck-top-auto-bottom-box.webp";
-import tuckFrontBoxes from "@/assets/tuck-boxes/tuck-front-boxes.webp";
-import doubleWallTuckFront from "@/assets/tuck-boxes/double-wall-tuck-front.webp";
-import doubleWallTuckTopBoxes from "@/assets/tuck-boxes/double-wall-tuck-top-boxes.webp";
-import straightTuckHangTab from "@/assets/tuck-boxes/straight-tuck-with-hang-tab.webp";
-import reverseTuckHangTab from "@/assets/tuck-boxes/reverse-tuck-with-hang-tab.webp";
-import straightTuckWindow from "@/assets/tuck-boxes/straight-tuck-with-customize-window.webp";
-import reverseTuckWindow from "@/assets/tuck-boxes/reverse-tuck-with-customize-window.webp";
+import reverseTuckEnd from "@/assets/shape-style/tuck-boxes/reverse-tuck-end.webp";
+import reverseTuckEndBoxes from "@/assets/shape-style/tuck-boxes/reverse-tuck-end-boxes.webp";
+import straightTuckEnd from "@/assets/shape-style/tuck-boxes/straight-tuck-end.webp";
+import straightTuckEndBoxes from "@/assets/shape-style/tuck-boxes/straight-tuck-end-boxes.webp";
+import tuckTopBox from "@/assets/shape-style/tuck-boxes/tuck-top-box.webp";
+import tuckTopBoxes from "@/assets/shape-style/tuck-boxes/tuck-top-boxes.webp";
+import tuckTopSnapBottom from "@/assets/shape-style/tuck-boxes/tuck-top-snap-bottom-box.webp";
+import tuckTopAutoBottom from "@/assets/shape-style/tuck-boxes/tuck-top-auto-bottom-box.webp";
+import tuckFrontBoxes from "@/assets/shape-style/tuck-boxes/tuck-front-boxes.webp";
+import doubleWallTuckFront from "@/assets/shape-style/tuck-boxes/double-wall-tuck-front.webp";
+import doubleWallTuckTopBoxes from "@/assets/shape-style/tuck-boxes/double-wall-tuck-top-boxes.webp";
+import straightTuckHangTab from "@/assets/shape-style/tuck-boxes/straight-tuck-with-hang-tab.webp";
+import reverseTuckHangTab from "@/assets/shape-style/tuck-boxes/reverse-tuck-with-hang-tab.webp";
+import straightTuckWindow from "@/assets/shape-style/tuck-boxes/straight-tuck-with-customize-window.webp";
+import reverseTuckWindow from "@/assets/shape-style/tuck-boxes/reverse-tuck-with-customize-window.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const tuckBoxProducts = [

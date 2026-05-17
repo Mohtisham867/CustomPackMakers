@@ -27,7 +27,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 import FAQimage from "@/assets/FAQ-image.webp";
-import heroImg from "@/assets/stickers-and-labels/vinyl-stickers.webp";
+import heroImg from "@/assets/shape-style/stickers-and-labels/vinyl-stickers.webp";
 
 const faqItems = [
   {

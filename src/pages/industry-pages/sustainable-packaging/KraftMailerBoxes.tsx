@@ -31,14 +31,14 @@ import { RelatedProductSustainable } from "@/components/RelatedProductSustainabl
 
 
 // Specific product images
-import kraftMailerBoxesHero from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-hero.webp";
-import kraftMailerBoxes1 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-1.webp";
-import kraftMailerBoxes2 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-2.webp";
-import kraftMailerBoxes3 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-3.webp";
-import kraftMailerBoxes4 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-4.webp";
-import kraftMailerBoxes5 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-5.webp";
-import kraftMailerBoxes6 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-whychoose.webp";
-import kraftMailerBoxes7 from "@/assets/sustainable-packaging/kraft-mailer-boxes/img-different.webp";
+import kraftMailerBoxesHero from "@/assets/industry/sustainable-packaging/kraft-mailer-boxes/img-hero.webp";
+import kraftMailerBoxes1 from "@/assets/industry/sustainable-packaging/kraft-mailer-boxes/img-1.webp";
+import kraftMailerBoxes2 from "@/assets/industry/sustainable-packaging/kraft-mailer-boxes/img-2.webp";
+import kraftMailerBoxes3 from "@/assets/industry/sustainable-packaging/kraft-mailer-boxes/img-3.webp";
+import kraftMailerBoxes4 from "@/assets/industry/sustainable-packaging/kraft-mailer-boxes/img-4.webp";
+import kraftMailerBoxes5 from "@/assets/industry/sustainable-packaging/kraft-mailer-boxes/img-5.webp";
+import kraftMailerBoxes6 from "@/assets/industry/sustainable-packaging/kraft-mailer-boxes/img-whychoose.webp";
+import kraftMailerBoxes7 from "@/assets/industry/sustainable-packaging/kraft-mailer-boxes/img-different.webp";
 
 
 //FAQ image

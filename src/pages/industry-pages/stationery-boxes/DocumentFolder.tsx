@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import documentFolderHero from "@/assets/stationery-boxes/document-folder/img-hero.webp";
-import documentFolder1 from "@/assets/stationery-boxes/document-folder/img-1.webp";
-import documentFolder2 from "@/assets/stationery-boxes/document-folder/img-2.webp";
-import documentFolder3 from "@/assets/stationery-boxes/document-folder/img-3.webp";
-import documentFolder4 from "@/assets/stationery-boxes/document-folder/img-4.webp";
-import documentFolder5 from "@/assets/stationery-boxes/document-folder/img-5.webp";
-import documentFolder6 from "@/assets/stationery-boxes/document-folder/img-whychoose.webp";
-import documentFolder7 from "@/assets/stationery-boxes/document-folder/img-different.webp";
+import documentFolderHero from "@/assets/industry/stationery-boxes/document-folder/img-hero.webp";
+import documentFolder1 from "@/assets/industry/stationery-boxes/document-folder/img-1.webp";
+import documentFolder2 from "@/assets/industry/stationery-boxes/document-folder/img-2.webp";
+import documentFolder3 from "@/assets/industry/stationery-boxes/document-folder/img-3.webp";
+import documentFolder4 from "@/assets/industry/stationery-boxes/document-folder/img-4.webp";
+import documentFolder5 from "@/assets/industry/stationery-boxes/document-folder/img-5.webp";
+import documentFolder6 from "@/assets/industry/stationery-boxes/document-folder/img-whychoose.webp";
+import documentFolder7 from "@/assets/industry/stationery-boxes/document-folder/img-different.webp";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.webp";

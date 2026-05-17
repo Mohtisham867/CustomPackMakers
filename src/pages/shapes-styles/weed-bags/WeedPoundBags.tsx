@@ -29,11 +29,11 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images specific to weed bags
-import weedPoundBags from "@/assets/weed-bags/weed-pound-bags.webp";
-import weedBagsHero from "@/assets/weed-bags/weed-bags-hero.webp";
-import exoticWeedBag from "@/assets/weed-bags/exotic-weed-bag.webp";
-import smellProofWeedBags from "@/assets/weed-bags/smell-proof-weed-bags.webp";
-import zipWeedBags from "@/assets/weed-bags/zip-weed-bags.webp";
+import weedPoundBags from "@/assets/industry/weed-bags/weed-pound-bags.webp";
+import weedBagsHero from "@/assets/industry/weed-bags/weed-bags-hero.webp";
+import exoticWeedBag from "@/assets/industry/weed-bags/exotic-weed-bag.webp";
+import smellProofWeedBags from "@/assets/industry/weed-bags/smell-proof-weed-bags.webp";
+import zipWeedBags from "@/assets/industry/weed-bags/zip-weed-bags.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

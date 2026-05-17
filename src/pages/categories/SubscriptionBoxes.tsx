@@ -15,26 +15,26 @@ import {
 import { Link } from "react-router-dom";
 
 // Images
-import subscriptionBoxesHero from "@/assets/subscription-boxes/subscription-boxes-hero.webp";
-import candleSubscriptionBox from "@/assets/subscription-boxes/candle-subscription-box.webp";
-import cbdSubscriptionBox from "@/assets/subscription-boxes/cbd-subscription-box.webp";
-import chocolateSubscriptionBox from "@/assets/subscription-boxes/chocolate-subscription-box.webp";
-import cosmeticSubscriptionBox from "@/assets/subscription-boxes/cosmetic-subscription-box.webp";
-import soapSubscriptionBox from "@/assets/subscription-boxes/soap-subscription-box.webp";
-import stationerySubscriptionBox from "@/assets/subscription-boxes/stationery-subscription-box.webp";
-import subscriptionBoxesForMen from "@/assets/subscription-boxes/subscription-boxes-for-men.webp";
-import subscriptionBoxesForKids from "@/assets/subscription-boxes/subscription-boxes-for-kids.webp";
-import foodSubscriptionBoxes from "@/assets/subscription-boxes/food-subscription-boxes.webp";
-import mysterySubscriptionBoxes from "@/assets/subscription-boxes/mystery-subscription-boxes.webp";
-import candySubscriptionBoxes from "@/assets/subscription-boxes/candy-subscription-boxes.webp";
-import artSubscriptionBoxes from "@/assets/subscription-boxes/art-subscription-boxes.webp";
-import petFoodSubscriptionBoxes from "@/assets/subscription-boxes/pet-food-subscription-boxes.webp";
-import golfSubscriptionBoxes from "@/assets/subscription-boxes/golf-subscription-boxes.webp";
-import subscriptionBoxesForWomen from "@/assets/subscription-boxes/subscription-boxes-for-women.webp";
-import monthlySubscriptionBoxes from "@/assets/subscription-boxes/monthly-subscription-boxes.webp";
-import harryPotterSubscriptionBoxes from "@/assets/subscription-boxes/harry-potter-subscription-boxes.webp";
-import sportsSubscriptionBoxes from "@/assets/subscription-boxes/sports-subscription-boxes.webp";
-import disneySubscriptionBoxes from "@/assets/subscription-boxes/disney-subscription-boxes.webp";
+import subscriptionBoxesHero from "@/assets/shape-style/subscription-boxes/subscription-boxes-hero.webp";
+import candleSubscriptionBox from "@/assets/shape-style/subscription-boxes/candle-subscription-box.webp";
+import cbdSubscriptionBox from "@/assets/shape-style/subscription-boxes/cbd-subscription-box.webp";
+import chocolateSubscriptionBox from "@/assets/shape-style/subscription-boxes/chocolate-subscription-box.webp";
+import cosmeticSubscriptionBox from "@/assets/shape-style/subscription-boxes/cosmetic-subscription-box.webp";
+import soapSubscriptionBox from "@/assets/shape-style/subscription-boxes/soap-subscription-box.webp";
+import stationerySubscriptionBox from "@/assets/shape-style/subscription-boxes/stationery-subscription-box.webp";
+import subscriptionBoxesForMen from "@/assets/shape-style/subscription-boxes/subscription-boxes-for-men.webp";
+import subscriptionBoxesForKids from "@/assets/shape-style/subscription-boxes/subscription-boxes-for-kids.webp";
+import foodSubscriptionBoxes from "@/assets/shape-style/subscription-boxes/food-subscription-boxes.webp";
+import mysterySubscriptionBoxes from "@/assets/shape-style/subscription-boxes/mystery-subscription-boxes.webp";
+import candySubscriptionBoxes from "@/assets/shape-style/subscription-boxes/candy-subscription-boxes.webp";
+import artSubscriptionBoxes from "@/assets/shape-style/subscription-boxes/art-subscription-boxes.webp";
+import petFoodSubscriptionBoxes from "@/assets/shape-style/subscription-boxes/pet-food-subscription-boxes.webp";
+import golfSubscriptionBoxes from "@/assets/shape-style/subscription-boxes/golf-subscription-boxes.webp";
+import subscriptionBoxesForWomen from "@/assets/shape-style/subscription-boxes/subscription-boxes-for-women.webp";
+import monthlySubscriptionBoxes from "@/assets/shape-style/subscription-boxes/monthly-subscription-boxes.webp";
+import harryPotterSubscriptionBoxes from "@/assets/shape-style/subscription-boxes/harry-potter-subscription-boxes.webp";
+import sportsSubscriptionBoxes from "@/assets/shape-style/subscription-boxes/sports-subscription-boxes.webp";
+import disneySubscriptionBoxes from "@/assets/shape-style/subscription-boxes/disney-subscription-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 // Use hero as placeholder for now since we ran out of quota
 const placeholderImage = subscriptionBoxesHero;

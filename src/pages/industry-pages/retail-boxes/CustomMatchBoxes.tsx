@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import matchBoxeshero from "@/assets/retail-boxes/Custom-Match-Boxes/img-hero.webp";
-import matchBoxes1 from "@/assets/retail-boxes/Custom-Match-Boxes/img-1.webp";
-import matchBoxes2 from "@/assets/retail-boxes/Custom-Match-Boxes/img-2.webp";
-import matchBoxes3 from "@/assets/retail-boxes/Custom-Match-Boxes/img-3.webp";
-import matchBoxes4 from "@/assets/retail-boxes/Custom-Match-Boxes/img-4.webp";
-import matchBoxes5 from "@/assets/retail-boxes/Custom-Match-Boxes/img-5.webp";
-import matchBoxes6 from "@/assets/retail-boxes/Custom-Match-Boxes/img-whychoose.webp";
-import matchBoxes7 from "@/assets/retail-boxes/Custom-Match-Boxes/img-different.webp";
+import matchBoxeshero from "@/assets/industry/retail-boxes/Custom-Match-Boxes/img-hero.webp";
+import matchBoxes1 from "@/assets/industry/retail-boxes/Custom-Match-Boxes/img-1.webp";
+import matchBoxes2 from "@/assets/industry/retail-boxes/Custom-Match-Boxes/img-2.webp";
+import matchBoxes3 from "@/assets/industry/retail-boxes/Custom-Match-Boxes/img-3.webp";
+import matchBoxes4 from "@/assets/industry/retail-boxes/Custom-Match-Boxes/img-4.webp";
+import matchBoxes5 from "@/assets/industry/retail-boxes/Custom-Match-Boxes/img-5.webp";
+import matchBoxes6 from "@/assets/industry/retail-boxes/Custom-Match-Boxes/img-whychoose.webp";
+import matchBoxes7 from "@/assets/industry/retail-boxes/Custom-Match-Boxes/img-different.webp";
 
 
 import FAQimage from "@/assets/FAQ-image.webp";

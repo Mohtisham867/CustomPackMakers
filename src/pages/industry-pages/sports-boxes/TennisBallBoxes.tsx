@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Tennis Ball Boxes
-import tennisHero from "@/assets/sports-boxes/tennis-ball-boxes/img-hero.webp";
-import tennis1 from "@/assets/sports-boxes/tennis-ball-boxes/img-1.webp";
-import tennis2 from "@/assets/sports-boxes/tennis-ball-boxes/img-2.webp";
-import tennis3 from "@/assets/sports-boxes/tennis-ball-boxes/img-3.webp";
-import tennis4 from "@/assets/sports-boxes/tennis-ball-boxes/img-4.webp";
-import tennis5 from "@/assets/sports-boxes/tennis-ball-boxes/img-5.webp";
-import tennis6 from "@/assets/sports-boxes/tennis-ball-boxes/img-whychoose.webp";
-import tennis7 from "@/assets/sports-boxes/tennis-ball-boxes/img-different.webp";
+import tennisHero from "@/assets/industry/sports-boxes/tennis-ball-boxes/img-hero.webp";
+import tennis1 from "@/assets/industry/sports-boxes/tennis-ball-boxes/img-1.webp";
+import tennis2 from "@/assets/industry/sports-boxes/tennis-ball-boxes/img-2.webp";
+import tennis3 from "@/assets/industry/sports-boxes/tennis-ball-boxes/img-3.webp";
+import tennis4 from "@/assets/industry/sports-boxes/tennis-ball-boxes/img-4.webp";
+import tennis5 from "@/assets/industry/sports-boxes/tennis-ball-boxes/img-5.webp";
+import tennis6 from "@/assets/industry/sports-boxes/tennis-ball-boxes/img-whychoose.webp";
+import tennis7 from "@/assets/industry/sports-boxes/tennis-ball-boxes/img-different.webp";
 
 //FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

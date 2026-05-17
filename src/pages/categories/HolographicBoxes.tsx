@@ -13,10 +13,10 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import holographicBoxesHero from "@/assets/holographic-boxes-hero.webp";
-import holographicMylarBags from "@/assets/holographic-mylar-bags.webp";
-import holographicBags from "@/assets/holographic-bags.webp";
-import holographicFoilingBoxes from "@/assets/holographic-foiling-boxes.webp";
+import holographicBoxesHero from "@/assets/material/holographic-boxes/holographic-boxes-hero.webp";
+import holographicMylarBags from "@/assets/material/holographic-boxes/holographic-mylar-bags.webp";
+import holographicBags from "@/assets/material/holographic-boxes/holographic-bags.webp";
+import holographicFoilingBoxes from "@/assets/material/holographic-boxes/holographic-foiling-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 // Product list for dropdown

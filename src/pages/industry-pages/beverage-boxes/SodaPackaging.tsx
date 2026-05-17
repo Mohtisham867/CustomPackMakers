@@ -16,23 +16,23 @@ import { Plus, Minus } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem, type CarouselApi } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
-import productHero from "@/assets/beverage-boxes/soda-packaging.webp";
-import img2 from "@/assets/beverage-boxes/energy-drink-boxes.webp";
-import img3 from "@/assets/beverage-boxes/beer-packaging.webp";
-import img4 from "@/assets/beverage-boxes/juice-boxes.webp";
-import img5 from "@/assets/beverage-boxes/water-bottle-packaging.webp";
+import productHero from "@/assets/industry/beverage-boxes/soda-packaging.webp";
+import img2 from "@/assets/industry/beverage-boxes/energy-drink-boxes.webp";
+import img3 from "@/assets/industry/beverage-boxes/beer-packaging.webp";
+import img4 from "@/assets/industry/beverage-boxes/juice-boxes.webp";
+import img5 from "@/assets/industry/beverage-boxes/water-bottle-packaging.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
-import coffeeImg from "@/assets/beverage-boxes/Coffee packaging.webp";
-import teaImg from "@/assets/beverage-boxes/tea-boxes.webp";
-import wineImg from "@/assets/beverage-boxes/Wine boxes.webp";
-import beerImg from "@/assets/beverage-boxes/beer-packaging.webp";
-import juiceImg from "@/assets/beverage-boxes/juice-boxes.webp";
-import sodaImg from "@/assets/beverage-boxes/soda-packaging.webp";
-import energyImg from "@/assets/beverage-boxes/energy-drink-boxes.webp";
-import waterImg from "@/assets/beverage-boxes/water-bottle-packaging.webp";
-import milkImg from "@/assets/beverage-boxes/milk-packaging.webp";
-import smoothieImg from "@/assets/beverage-boxes/smoothie-packaging.webp";
+import coffeeImg from "@/assets/industry/beverage-boxes/Coffee packaging.webp";
+import teaImg from "@/assets/industry/beverage-boxes/tea-boxes.webp";
+import wineImg from "@/assets/industry/beverage-boxes/Wine boxes.webp";
+import beerImg from "@/assets/industry/beverage-boxes/beer-packaging.webp";
+import juiceImg from "@/assets/industry/beverage-boxes/juice-boxes.webp";
+import sodaImg from "@/assets/industry/beverage-boxes/soda-packaging.webp";
+import energyImg from "@/assets/industry/beverage-boxes/energy-drink-boxes.webp";
+import waterImg from "@/assets/industry/beverage-boxes/water-bottle-packaging.webp";
+import milkImg from "@/assets/industry/beverage-boxes/milk-packaging.webp";
+import smoothieImg from "@/assets/industry/beverage-boxes/smoothie-packaging.webp";
 
 const carouselProducts = [
     { name: "Coffee Packaging", image: coffeeImg, description: "Airtight coffee packaging with degassing valves and premium branding.", link: "/industries/beverage-boxes/coffee-packaging" },

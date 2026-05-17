@@ -28,14 +28,14 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import weedSubscriptionBoxImagehero from "@/assets/weed_boxes/weed-subscription-box/img-hero.webp";
-import weedSubscriptionBoxImage1 from "@/assets/weed_boxes/weed-subscription-box/img-1.webp";
-import weedSubscriptionBoxImage2 from "@/assets/weed_boxes/weed-subscription-box/img-2.webp";
-import weedSubscriptionBoxImage3 from "@/assets/weed_boxes/weed-subscription-box/img-3.webp";
-import weedSubscriptionBoxImage4 from "@/assets/weed_boxes/weed-subscription-box/img-4.webp";
-import weedSubscriptionBoxImage5 from "@/assets/weed_boxes/weed-subscription-box/img-5.webp";
-import weedSubscriptionBoxImage6 from "@/assets/weed_boxes/weed-subscription-box/img-whychoose.webp";
-import weedSubscriptionBoxImage7 from "@/assets/weed_boxes/weed-subscription-box/img-different.webp";
+import weedSubscriptionBoxImagehero from "@/assets/industry/weed-boxes/weed-subscription-box/img-hero.webp";
+import weedSubscriptionBoxImage1 from "@/assets/industry/weed-boxes/weed-subscription-box/img-1.webp";
+import weedSubscriptionBoxImage2 from "@/assets/industry/weed-boxes/weed-subscription-box/img-2.webp";
+import weedSubscriptionBoxImage3 from "@/assets/industry/weed-boxes/weed-subscription-box/img-3.webp";
+import weedSubscriptionBoxImage4 from "@/assets/industry/weed-boxes/weed-subscription-box/img-4.webp";
+import weedSubscriptionBoxImage5 from "@/assets/industry/weed-boxes/weed-subscription-box/img-5.webp";
+import weedSubscriptionBoxImage6 from "@/assets/industry/weed-boxes/weed-subscription-box/img-whychoose.webp";
+import weedSubscriptionBoxImage7 from "@/assets/industry/weed-boxes/weed-subscription-box/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const WeedSubscriptionBox = () => {

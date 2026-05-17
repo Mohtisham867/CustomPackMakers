@@ -1,4 +1,4 @@
-import productHero from "@/assets/e-commerce/Subscription boxes.webp";
+import productHero from "@/assets/industry/ecommerce-packaging/Subscription boxes.webp";
 import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";

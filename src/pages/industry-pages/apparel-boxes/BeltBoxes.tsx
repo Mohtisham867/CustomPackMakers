@@ -29,14 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images (using shoe box images as requested)
-import beltHero from "@/assets/apparel-boxes/belt-boxes/belt-hero.webp";
-import beltBox1 from "@/assets/apparel-boxes/belt-boxes/belt-1.webp";
-import beltBox2 from "@/assets/apparel-boxes/belt-boxes/belt-2.webp";
-import beltBox3 from "@/assets/apparel-boxes/belt-boxes/belt-3.webp";
-import beltBox4 from "@/assets/apparel-boxes/belt-boxes/belt-4.webp";
-import beltBox5 from "@/assets/apparel-boxes/belt-boxes/belt-5.webp";
-import beltBox6 from "@/assets/apparel-boxes/belt-boxes/belt-deferent.webp";
-import beltBox7 from "@/assets/apparel-boxes/belt-boxes/belt-whychoose.webp";
+import beltHero from "@/assets/industry/apparel-boxes/belt-boxes/belt-hero.webp";
+import beltBox1 from "@/assets/industry/apparel-boxes/belt-boxes/belt-1.webp";
+import beltBox2 from "@/assets/industry/apparel-boxes/belt-boxes/belt-2.webp";
+import beltBox3 from "@/assets/industry/apparel-boxes/belt-boxes/belt-3.webp";
+import beltBox4 from "@/assets/industry/apparel-boxes/belt-boxes/belt-4.webp";
+import beltBox5 from "@/assets/industry/apparel-boxes/belt-boxes/belt-5.webp";
+import beltBox6 from "@/assets/industry/apparel-boxes/belt-boxes/belt-deferent.webp";
+import beltBox7 from "@/assets/industry/apparel-boxes/belt-boxes/belt-whychoose.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

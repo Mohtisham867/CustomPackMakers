@@ -11,15 +11,15 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Import product images
-import walletBoxes from "@/assets/rigid-boxes/wallet-boxes-v2.webp";
-import flipTopBoxes from "@/assets/rigid-boxes/flip-top-boxes-v2.webp";
-import rigidGiftBoxes from "@/assets/rigid-boxes/rigid-gift-boxes-v2.webp";
-import creditCardBoxes from "@/assets/rigid-boxes/credit-card-boxes-v2.webp";
-import rigidSetupBoxes from "@/assets/rigid-boxes/rigid-setup-boxes-v2.webp";
-import ribbonBoxes from "@/assets/rigid-boxes/ribbon-boxes-v2.webp";
-import magneticClosureBoxes from "@/assets/rigid-boxes/magnetic-closure-boxes-v2.webp";
-import rigidPaperBoxes from "@/assets/rigid-boxes/rigid-paper-boxes-v2.webp";
-import flipTopMagneticClosure from "@/assets/rigid-boxes/flip-top-magnetic-closure-v2.webp";
+import walletBoxes from "@/assets/material/rigid-boxes/wallet-boxes-v2.webp";
+import flipTopBoxes from "@/assets/material/rigid-boxes/flip-top-boxes-v2.webp";
+import rigidGiftBoxes from "@/assets/material/rigid-boxes/rigid-gift-boxes-v2.webp";
+import creditCardBoxes from "@/assets/material/rigid-boxes/credit-card-boxes-v2.webp";
+import rigidSetupBoxes from "@/assets/material/rigid-boxes/rigid-setup-boxes-v2.webp";
+import ribbonBoxes from "@/assets/material/rigid-boxes/ribbon-boxes-v2.webp";
+import magneticClosureBoxes from "@/assets/material/rigid-boxes/magnetic-closure-boxes-v2.webp";
+import rigidPaperBoxes from "@/assets/material/rigid-boxes/rigid-paper-boxes-v2.webp";
+import flipTopMagneticClosure from "@/assets/material/rigid-boxes/flip-top-magnetic-closure-v2.webp";
 
 // Related products from Rigid Boxes category
 const relatedProducts = [

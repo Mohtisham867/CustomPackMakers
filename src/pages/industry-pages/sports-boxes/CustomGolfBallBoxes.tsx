@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Custom Golf Ball Boxes
-import golfHero from "@/assets/sports-boxes/custom-golf-ball-boxes/img-hero.webp";
-import golf1 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-1.webp";
-import golf2 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-2.webp";
-import golf3 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-3.webp";
-import golf4 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-4.webp";
-import golf5 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-5.webp";
-import golf6 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-whychoose.webp";
-import golf7 from "@/assets/sports-boxes/custom-golf-ball-boxes/img-different.webp";
+import golfHero from "@/assets/industry/sports-boxes/custom-golf-ball-boxes/img-hero.webp";
+import golf1 from "@/assets/industry/sports-boxes/custom-golf-ball-boxes/img-1.webp";
+import golf2 from "@/assets/industry/sports-boxes/custom-golf-ball-boxes/img-2.webp";
+import golf3 from "@/assets/industry/sports-boxes/custom-golf-ball-boxes/img-3.webp";
+import golf4 from "@/assets/industry/sports-boxes/custom-golf-ball-boxes/img-4.webp";
+import golf5 from "@/assets/industry/sports-boxes/custom-golf-ball-boxes/img-5.webp";
+import golf6 from "@/assets/industry/sports-boxes/custom-golf-ball-boxes/img-whychoose.webp";
+import golf7 from "@/assets/industry/sports-boxes/custom-golf-ball-boxes/img-different.webp";
 
 //FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

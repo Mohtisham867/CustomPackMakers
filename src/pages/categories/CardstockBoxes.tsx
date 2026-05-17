@@ -16,9 +16,9 @@ import { Link } from "react-router-dom";
 
 // Placeholder images - using generic placeholders initially
 // Ideally these should be replaced with actual assets when available
-import cardstockHero from "@/assets/corrugated-boxes-hero.webp"; // Placeholder
-import whiteCardstock from "@/assets/white-corrugated-boxes.webp"; // Placeholder
-import kraftCardstock from "@/assets/kraft-corrugated-boxes.webp"; // Placeholder
+import cardstockHero from "@/assets/material/corrugated-boxes/corrugated-boxes-hero.webp"; // Placeholder
+import whiteCardstock from "@/assets/material/corrugated-boxes/white-corrugated-boxes.webp"; // Placeholder
+import kraftCardstock from "@/assets/material/corrugated-boxes/kraft-corrugated-boxes.webp"; // Placeholder
 import { SEOContent } from "@/components/SEOContent";
 
 const cardstockProducts = [

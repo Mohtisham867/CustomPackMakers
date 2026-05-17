@@ -29,14 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import lingerieBoxesHero from "@/assets/apparel-boxes/lingerie-boxes/lingerie-hero.webp";
-import lingerieBoxes1 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-1.webp";
-import lingerieBoxes2 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-2.webp";
-import lingerieBoxes3 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-3.webp";
-import lingerieBoxes4 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-4.webp";
-import lingerieBoxes5 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-5.webp";
-import lingerieBoxes6 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-whychoose.webp";
-import lingerieBoxes7 from "@/assets/apparel-boxes/lingerie-boxes/lingerie-defferent.webp";
+import lingerieBoxesHero from "@/assets/industry/apparel-boxes/lingerie-boxes/lingerie-hero.webp";
+import lingerieBoxes1 from "@/assets/industry/apparel-boxes/lingerie-boxes/lingerie-1.webp";
+import lingerieBoxes2 from "@/assets/industry/apparel-boxes/lingerie-boxes/lingerie-2.webp";
+import lingerieBoxes3 from "@/assets/industry/apparel-boxes/lingerie-boxes/lingerie-3.webp";
+import lingerieBoxes4 from "@/assets/industry/apparel-boxes/lingerie-boxes/lingerie-4.webp";
+import lingerieBoxes5 from "@/assets/industry/apparel-boxes/lingerie-boxes/lingerie-5.webp";
+import lingerieBoxes6 from "@/assets/industry/apparel-boxes/lingerie-boxes/lingerie-whychoose.webp";
+import lingerieBoxes7 from "@/assets/industry/apparel-boxes/lingerie-boxes/lingerie-defferent.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

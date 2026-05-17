@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images specific to this page
-import incenseBoxeshero from "@/assets/fragrance-boxes/incense-boxes/img-hero.webp";
-import incenseBoxesimg1 from "@/assets/fragrance-boxes/incense-boxes/img-1.webp";
-import incenseBoxesimg2 from "@/assets/fragrance-boxes/incense-boxes/img-2.webp";
-import incenseBoxesimg3 from "@/assets/fragrance-boxes/incense-boxes/img-3.webp";
-import incenseBoxesimg4 from "@/assets/fragrance-boxes/incense-boxes/img-4.webp";
-import incenseBoxesimg5 from "@/assets/fragrance-boxes/incense-boxes/img-5.webp";
-import incenseBoxesimg6 from "@/assets/fragrance-boxes/incense-boxes/img-whychoose.webp";
-import incenseBoxesimg7 from "@/assets/fragrance-boxes/incense-boxes/img-different.webp";
+import incenseBoxeshero from "@/assets/industry/fragrance-boxes/incense-boxes/img-hero.webp";
+import incenseBoxesimg1 from "@/assets/industry/fragrance-boxes/incense-boxes/img-1.webp";
+import incenseBoxesimg2 from "@/assets/industry/fragrance-boxes/incense-boxes/img-2.webp";
+import incenseBoxesimg3 from "@/assets/industry/fragrance-boxes/incense-boxes/img-3.webp";
+import incenseBoxesimg4 from "@/assets/industry/fragrance-boxes/incense-boxes/img-4.webp";
+import incenseBoxesimg5 from "@/assets/industry/fragrance-boxes/incense-boxes/img-5.webp";
+import incenseBoxesimg6 from "@/assets/industry/fragrance-boxes/incense-boxes/img-whychoose.webp";
+import incenseBoxesimg7 from "@/assets/industry/fragrance-boxes/incense-boxes/img-different.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

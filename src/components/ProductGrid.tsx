@@ -12,7 +12,7 @@ import tuckBoxes from "@/assets/products/tuck-boxes.webp";
 import cigaretteBoxes from "@/assets/products/cigarette-boxes.webp";
 import mylarBags from "@/assets/products/mylar-bags-new.webp";
 import cardboardBoxes from "@/assets/products/cardboard-boxes-new.webp";
-import gableBoxes from "@/assets/gable-boxes/kraft-gable-boxes.webp";
+import gableBoxes from "@/assets/shape-style/gable-boxes/kraft-gable-boxes.webp";
 
 const products = [
   { name: "COSMETIC BOXES", image: cosmeticBoxes, link: "/industries/cosmetic-boxes" },

@@ -16,20 +16,20 @@ import { Link } from "react-router-dom";
 
 // Images
 // Images
-import mylarBagsHero from "@/assets/mylar-bags/mylar-bags-hero.webp";
-import dispensaryMylarBags from "@/assets/mylar-bags/dispensary-mylar-bags-premium.webp";
-import dieCutMylarBags from "@/assets/mylar-bags/die-cut-mylar-bags-premium.webp";
-import mylarVacuumSealBags from "@/assets/mylar-bags/mylar-vacuum-seal-bags-premium.webp";
-import mylarFoodStorageBags from "@/assets/mylar-bags/mylar-food-storage-bags-premium.webp";
-import blackMylarBags from "@/assets/mylar-bags/black-mylar-bags-premium-v2.webp";
-import smellProofMylarBags from "@/assets/mylar-bags/smell-proof-mylar-bags-premium.webp";
-import childResistantMylarBags from "@/assets/mylar-bags/child-resistant-mylar-bags-premium-v2.webp";
-import exoticMylarBags from "@/assets/mylar-bags/exotic-mylar-bags-premium.webp";
-import smallMylarBags from "@/assets/mylar-bags/small-mylar-bags-premium.webp";
-import holographicMylarBags from "@/assets/mylar-bags/holographic-mylar-bags-premium.webp";
-import kraftMylarBags from "@/assets/mylar-bags/kraft-mylar-bags-premium.webp";
-import mylarZiplockBags from "@/assets/mylar-bags/mylar-ziplock-bags-premium.webp";
-import clearMylarBags from "@/assets/mylar-bags/clear-mylar-bags-premium.webp";
+import mylarBagsHero from "@/assets/shape-style/mylar-bags/mylar-bags-hero.webp";
+import dispensaryMylarBags from "@/assets/shape-style/mylar-bags/dispensary-mylar-bags-premium.webp";
+import dieCutMylarBags from "@/assets/shape-style/mylar-bags/die-cut-mylar-bags-premium.webp";
+import mylarVacuumSealBags from "@/assets/shape-style/mylar-bags/mylar-vacuum-seal-bags-premium.webp";
+import mylarFoodStorageBags from "@/assets/shape-style/mylar-bags/mylar-food-storage-bags-premium.webp";
+import blackMylarBags from "@/assets/shape-style/mylar-bags/black-mylar-bags-premium-v2.webp";
+import smellProofMylarBags from "@/assets/shape-style/mylar-bags/smell-proof-mylar-bags-premium.webp";
+import childResistantMylarBags from "@/assets/shape-style/mylar-bags/child-resistant-mylar-bags-premium-v2.webp";
+import exoticMylarBags from "@/assets/shape-style/mylar-bags/exotic-mylar-bags-premium.webp";
+import smallMylarBags from "@/assets/shape-style/mylar-bags/small-mylar-bags-premium.webp";
+import holographicMylarBags from "@/assets/shape-style/mylar-bags/holographic-mylar-bags-premium.webp";
+import kraftMylarBags from "@/assets/shape-style/mylar-bags/kraft-mylar-bags-premium.webp";
+import mylarZiplockBags from "@/assets/shape-style/mylar-bags/mylar-ziplock-bags-premium.webp";
+import clearMylarBags from "@/assets/shape-style/mylar-bags/clear-mylar-bags-premium.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

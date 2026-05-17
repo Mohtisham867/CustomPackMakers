@@ -13,11 +13,11 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import corrugatedBoxesHero from "@/assets/corrugated-boxes-hero.webp";
-import corrugatedBoxesWithLids from "@/assets/corrugated-boxes-with-lids.webp";
-import corrugatedMailerBoxes from "@/assets/corrugated-mailer-boxes.webp";
-import kraftCorrugatedBoxes from "@/assets/kraft-corrugated-boxes.webp";
-import whiteCorrugatedBoxes from "@/assets/white-corrugated-boxes.webp";
+import corrugatedBoxesHero from "@/assets/material/corrugated-boxes/corrugated-boxes-hero.webp";
+import corrugatedBoxesWithLids from "@/assets/material/corrugated-boxes/corrugated-boxes-with-lids.webp";
+import corrugatedMailerBoxes from "@/assets/material/corrugated-boxes/corrugated-mailer-boxes.webp";
+import kraftCorrugatedBoxes from "@/assets/material/corrugated-boxes/kraft-corrugated-boxes.webp";
+import whiteCorrugatedBoxes from "@/assets/material/corrugated-boxes/white-corrugated-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 // Product list for dropdown

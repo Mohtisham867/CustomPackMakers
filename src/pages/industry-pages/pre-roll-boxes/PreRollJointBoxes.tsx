@@ -14,14 +14,14 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { RelatedProductPreRoll } from "@/components/RelatedProductPreRoll";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
-import prerolljointhero from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-hero.webp";
-import prerolljointimg1 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-1.webp";
-import prerolljointimg2 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-2.webp";
-import prerolljointimg3 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-3.webp";
-import prerolljointimg4 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-4.webp";
-import prerolljointimg5 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-5.webp";
-import prerolljointimg6 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-whychoose.webp";
-import prerolljointimg7 from "@/assets/pre-roll-boxes/pre-roll-joint-boxes/img-different.webp";
+import prerolljointhero from "@/assets/industry/pre-roll-boxes/pre-roll-joint-boxes/img-hero.webp";
+import prerolljointimg1 from "@/assets/industry/pre-roll-boxes/pre-roll-joint-boxes/img-1.webp";
+import prerolljointimg2 from "@/assets/industry/pre-roll-boxes/pre-roll-joint-boxes/img-2.webp";
+import prerolljointimg3 from "@/assets/industry/pre-roll-boxes/pre-roll-joint-boxes/img-3.webp";
+import prerolljointimg4 from "@/assets/industry/pre-roll-boxes/pre-roll-joint-boxes/img-4.webp";
+import prerolljointimg5 from "@/assets/industry/pre-roll-boxes/pre-roll-joint-boxes/img-5.webp";
+import prerolljointimg6 from "@/assets/industry/pre-roll-boxes/pre-roll-joint-boxes/img-whychoose.webp";
+import prerolljointimg7 from "@/assets/industry/pre-roll-boxes/pre-roll-joint-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const PreRollJointBoxes = () => {

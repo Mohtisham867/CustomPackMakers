@@ -15,10 +15,10 @@ import { RelatedProductDisplayBoxes } from "@/components/RelatedProductDisplayBo
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImg from "@/assets/display-boxes/cbd-display-boxes.webp";
-import displayImg from "@/assets/display-boxes/display-boxes-hero.webp";
-import productImg from "@/assets/display-boxes/product-display-boxes.webp";
-import healthImg from "@/assets/display-boxes/health-counter-display-boxes.webp";
+import heroImg from "@/assets/shape-style/display-boxes/cbd-display-boxes.webp";
+import displayImg from "@/assets/shape-style/display-boxes/display-boxes-hero.webp";
+import productImg from "@/assets/shape-style/display-boxes/product-display-boxes.webp";
+import healthImg from "@/assets/shape-style/display-boxes/health-counter-display-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CBDDisplayBoxes = () => {

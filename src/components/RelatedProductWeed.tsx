@@ -10,10 +10,10 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
-import weedSubscriptionBox from "@/assets/weed_boxes/weed-subscription-box.webp";
-import weedMysteryBoxes from "@/assets/weed_boxes/weed-mystery-box.webp";
-import monthlyWeedBoxes from "@/assets/weed_boxes/monthly-weed-box.webp";
-import weedGiftBoxes from "@/assets/weed_boxes/weed-gift-box.webp";
+import weedSubscriptionBox from "@/assets/industry/weed-boxes/weed-subscription-box.webp";
+import weedMysteryBoxes from "@/assets/industry/weed-boxes/weed-mystery-box.webp";
+import monthlyWeedBoxes from "@/assets/industry/weed-boxes/monthly-weed-box.webp";
+import weedGiftBoxes from "@/assets/industry/weed-boxes/weed-gift-box.webp";
 
 const relatedProducts = [
     { name: "Weed Subscription Box", image: weedSubscriptionBox, description: "Premium subscription boxes featuring secure smell-proof technology and discreet plain-box shipping options", link: "/industries/weed-boxes/weed-subscription-box" },

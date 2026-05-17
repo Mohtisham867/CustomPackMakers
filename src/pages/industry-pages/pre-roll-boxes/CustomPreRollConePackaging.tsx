@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import prerollconepackaginghero from "@/assets/pre-roll-boxes/custom-pre-roll-cone-packaging/img-hero.webp";
-import prerollconepackagingimg1 from "@/assets/pre-roll-boxes/custom-pre-roll-cone-packaging/img-1.webp";
-import prerollconepackagingimg2 from "@/assets/pre-roll-boxes/custom-pre-roll-cone-packaging/img-2.webp";
-import prerollconepackagingimg3 from "@/assets/pre-roll-boxes/custom-pre-roll-cone-packaging/img-3.webp";
-import prerollconepackagingimg4 from "@/assets/pre-roll-boxes/custom-pre-roll-cone-packaging/img-4.webp";
-import prerollconepackagingimg5 from "@/assets/pre-roll-boxes/custom-pre-roll-cone-packaging/img-5.webp";
-import prerollconepackagingimg6 from "@/assets/pre-roll-boxes/custom-pre-roll-cone-packaging/img-whychoose.webp";
-import prerollconepackagingimg7 from "@/assets/pre-roll-boxes/custom-pre-roll-cone-packaging/img-different.webp";
+import prerollconepackaginghero from "@/assets/industry/pre-roll-boxes/custom-pre-roll-cone-packaging/img-hero.webp";
+import prerollconepackagingimg1 from "@/assets/industry/pre-roll-boxes/custom-pre-roll-cone-packaging/img-1.webp";
+import prerollconepackagingimg2 from "@/assets/industry/pre-roll-boxes/custom-pre-roll-cone-packaging/img-2.webp";
+import prerollconepackagingimg3 from "@/assets/industry/pre-roll-boxes/custom-pre-roll-cone-packaging/img-3.webp";
+import prerollconepackagingimg4 from "@/assets/industry/pre-roll-boxes/custom-pre-roll-cone-packaging/img-4.webp";
+import prerollconepackagingimg5 from "@/assets/industry/pre-roll-boxes/custom-pre-roll-cone-packaging/img-5.webp";
+import prerollconepackagingimg6 from "@/assets/industry/pre-roll-boxes/custom-pre-roll-cone-packaging/img-whychoose.webp";
+import prerollconepackagingimg7 from "@/assets/industry/pre-roll-boxes/custom-pre-roll-cone-packaging/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomPreRollConePackaging = () => {

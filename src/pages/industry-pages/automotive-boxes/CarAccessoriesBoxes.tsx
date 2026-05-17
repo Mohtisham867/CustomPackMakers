@@ -28,14 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import caraccessoriesboxeshero from "@/assets/automotive-products/car-accessories-boxes/img-hero.webp";
-import caraccessoriesboxesimg1 from "@/assets/automotive-products/car-accessories-boxes/img-1.webp";
-import caraccessoriesboxesimg2 from "@/assets/automotive-products/car-accessories-boxes/img-2.webp";
-import caraccessoriesboxesimg3 from "@/assets/automotive-products/car-accessories-boxes/img-3.webp";
-import caraccessoriesboxesimg4 from "@/assets/automotive-products/car-accessories-boxes/img-4.webp";
-import caraccessoriesboxesimg5 from "@/assets/automotive-products/car-accessories-boxes/img-5.webp"
-import caraccessoriesboxesimg6 from "@/assets/automotive-products/car-accessories-boxes/img-whychoose.webp";
-import caraccessoriesboxesimg7 from "@/assets/automotive-products/car-accessories-boxes/img-different.webp";
+import caraccessoriesboxeshero from "@/assets/industry/automotive-boxes/car-accessories-boxes/img-hero.webp";
+import caraccessoriesboxesimg1 from "@/assets/industry/automotive-boxes/car-accessories-boxes/img-1.webp";
+import caraccessoriesboxesimg2 from "@/assets/industry/automotive-boxes/car-accessories-boxes/img-2.webp";
+import caraccessoriesboxesimg3 from "@/assets/industry/automotive-boxes/car-accessories-boxes/img-3.webp";
+import caraccessoriesboxesimg4 from "@/assets/industry/automotive-boxes/car-accessories-boxes/img-4.webp";
+import caraccessoriesboxesimg5 from "@/assets/industry/automotive-boxes/car-accessories-boxes/img-5.webp"
+import caraccessoriesboxesimg6 from "@/assets/industry/automotive-boxes/car-accessories-boxes/img-whychoose.webp";
+import caraccessoriesboxesimg7 from "@/assets/industry/automotive-boxes/car-accessories-boxes/img-different.webp";
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";
 

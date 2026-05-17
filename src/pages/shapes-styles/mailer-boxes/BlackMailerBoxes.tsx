@@ -28,7 +28,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImg from "@/assets/mailer-boxes/black-mailer-boxes.webp";
+import heroImg from "@/assets/shape-style/mailer-boxes/black-mailer-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const BlackMailerBoxes = () => {

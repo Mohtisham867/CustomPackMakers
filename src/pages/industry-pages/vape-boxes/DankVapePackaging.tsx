@@ -28,8 +28,8 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productImage from "@/assets/vape-boxes/dank-vape-packaging.webp";
-import heroImage from "@/assets/vape-boxes/vape-boxes-hero.webp";
+import productImage from "@/assets/industry/vape-boxes/dank-vape-packaging.webp";
+import heroImage from "@/assets/industry/vape-boxes/vape-boxes-hero.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const DankVapePackaging = () => {

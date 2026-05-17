@@ -15,14 +15,14 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import hempPreRollHero from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-hero.webp";
-import hempPreRollImg1 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-1.webp";
-import hempPreRollImg2 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-2.webp";
-import hempPreRollImg3 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-3.webp";
-import hempPreRollImg4 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-4.webp";
-import hempPreRollImg5 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-5.webp";
-import hempPreRollImg6 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-whychoose.webp";
-import hempPreRollImg7 from "@/assets/hemp-boxes/hemp-pre-roll-boxes/img-different.webp";
+import hempPreRollHero from "@/assets/industry/custom-hemp-boxes/hemp-pre-roll-boxes/img-hero.webp";
+import hempPreRollImg1 from "@/assets/industry/custom-hemp-boxes/hemp-pre-roll-boxes/img-1.webp";
+import hempPreRollImg2 from "@/assets/industry/custom-hemp-boxes/hemp-pre-roll-boxes/img-2.webp";
+import hempPreRollImg3 from "@/assets/industry/custom-hemp-boxes/hemp-pre-roll-boxes/img-3.webp";
+import hempPreRollImg4 from "@/assets/industry/custom-hemp-boxes/hemp-pre-roll-boxes/img-4.webp";
+import hempPreRollImg5 from "@/assets/industry/custom-hemp-boxes/hemp-pre-roll-boxes/img-5.webp";
+import hempPreRollImg6 from "@/assets/industry/custom-hemp-boxes/hemp-pre-roll-boxes/img-whychoose.webp";
+import hempPreRollImg7 from "@/assets/industry/custom-hemp-boxes/hemp-pre-roll-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [

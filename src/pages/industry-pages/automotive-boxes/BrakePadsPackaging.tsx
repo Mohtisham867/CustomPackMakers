@@ -28,14 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import brakepadshero from "@/assets/automotive-products/brake-pads-packaging/img-hero.webp";
-import brakepadimg1 from "@/assets/automotive-products/brake-pads-packaging/img-1.webp";
-import brakepadimg2 from "@/assets/automotive-products/brake-pads-packaging/img-2.webp";
-import brakepadimg3 from "@/assets/automotive-products/brake-pads-packaging/img-3.webp";
-import brakepadimg4 from "@/assets/automotive-products/brake-pads-packaging/img-4.webp";
-import brakepadimg5 from "@/assets/automotive-products/brake-pads-packaging/img-5.webp";
-import brakepadimg6 from "@/assets/automotive-products/brake-pads-packaging/img-whychoose.webp";
-import brakepadimg7 from "@/assets/automotive-products/brake-pads-packaging/img-different.webp";
+import brakepadshero from "@/assets/industry/automotive-boxes/brake-pads-packaging/img-hero.webp";
+import brakepadimg1 from "@/assets/industry/automotive-boxes/brake-pads-packaging/img-1.webp";
+import brakepadimg2 from "@/assets/industry/automotive-boxes/brake-pads-packaging/img-2.webp";
+import brakepadimg3 from "@/assets/industry/automotive-boxes/brake-pads-packaging/img-3.webp";
+import brakepadimg4 from "@/assets/industry/automotive-boxes/brake-pads-packaging/img-4.webp";
+import brakepadimg5 from "@/assets/industry/automotive-boxes/brake-pads-packaging/img-5.webp";
+import brakepadimg6 from "@/assets/industry/automotive-boxes/brake-pads-packaging/img-whychoose.webp";
+import brakepadimg7 from "@/assets/industry/automotive-boxes/brake-pads-packaging/img-different.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

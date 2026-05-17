@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import markerBoxesHero from "@/assets/stationery-boxes/marker-boxes/img-hero.webp";
-import markerBoxes1 from "@/assets/stationery-boxes/marker-boxes/img-1.webp";
-import markerBoxes2 from "@/assets/stationery-boxes/marker-boxes/img-2.webp";
-import markerBoxes3 from "@/assets/stationery-boxes/marker-boxes/img-3.webp";
-import markerBoxes4 from "@/assets/stationery-boxes/marker-boxes/img-4.webp";
-import markerBoxes5 from "@/assets/stationery-boxes/marker-boxes/img-5.webp";
-import markerBoxes6 from "@/assets/stationery-boxes/marker-boxes/img-whychoose.webp";
-import markerBoxes7 from "@/assets/stationery-boxes/marker-boxes/img-different.webp";
+import markerBoxesHero from "@/assets/industry/stationery-boxes/marker-boxes/img-hero.webp";
+import markerBoxes1 from "@/assets/industry/stationery-boxes/marker-boxes/img-1.webp";
+import markerBoxes2 from "@/assets/industry/stationery-boxes/marker-boxes/img-2.webp";
+import markerBoxes3 from "@/assets/industry/stationery-boxes/marker-boxes/img-3.webp";
+import markerBoxes4 from "@/assets/industry/stationery-boxes/marker-boxes/img-4.webp";
+import markerBoxes5 from "@/assets/industry/stationery-boxes/marker-boxes/img-5.webp";
+import markerBoxes6 from "@/assets/industry/stationery-boxes/marker-boxes/img-whychoose.webp";
+import markerBoxes7 from "@/assets/industry/stationery-boxes/marker-boxes/img-different.webp";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.webp";

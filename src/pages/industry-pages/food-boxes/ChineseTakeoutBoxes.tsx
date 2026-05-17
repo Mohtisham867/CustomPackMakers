@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import chineseTakeouthero from "@/assets/food-boxes/chinese-takeout-box/img-hero.webp";
-import chineseTakeout1 from "@/assets/food-boxes/chinese-takeout-box/img-1.webp";
-import chineseTakeout2 from "@/assets/food-boxes/chinese-takeout-box/img-2.webp";
-import chineseTakeout3 from "@/assets/food-boxes/chinese-takeout-box/img-3.webp";
-import chineseTakeout4 from "@/assets/food-boxes/chinese-takeout-box/img-4.webp";
-import chineseTakeout5 from "@/assets/food-boxes/chinese-takeout-box/img-5.webp";
-import chineseTakeout6 from "@/assets/food-boxes/chinese-takeout-box/img-whychoose.webp";
-import chineseTakeout7 from "@/assets/food-boxes/chinese-takeout-box/img-different.webp";
+import chineseTakeouthero from "@/assets/industry/food-boxes/chinese-takeout-box/img-hero.webp";
+import chineseTakeout1 from "@/assets/industry/food-boxes/chinese-takeout-box/img-1.webp";
+import chineseTakeout2 from "@/assets/industry/food-boxes/chinese-takeout-box/img-2.webp";
+import chineseTakeout3 from "@/assets/industry/food-boxes/chinese-takeout-box/img-3.webp";
+import chineseTakeout4 from "@/assets/industry/food-boxes/chinese-takeout-box/img-4.webp";
+import chineseTakeout5 from "@/assets/industry/food-boxes/chinese-takeout-box/img-5.webp";
+import chineseTakeout6 from "@/assets/industry/food-boxes/chinese-takeout-box/img-whychoose.webp";
+import chineseTakeout7 from "@/assets/industry/food-boxes/chinese-takeout-box/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChineseTakeoutBoxes = () => {

@@ -14,16 +14,16 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/candy-products/Custom Candy Boxes hero.webp";
-import gummyBoxes from "@/assets/candy-products/custom-gummy-boxes.webp";
-import lollipopBoxes from "@/assets/candy-products/custom-lollipop-boxes.webp";
-import hardCandyBoxes from "@/assets/candy-products/custom-hard-candy-boxes.webp";
-import chocolateBoxes from "@/assets/candy-products/chocolate-boxes.webp";
-import candyAppleBoxes from "@/assets/candy-products/candy-apple-boxes.webp";
-import candyBoxesWindow from "@/assets/candy-products/candy-boxes-window.webp";
-import christmasCandyBoxes from "@/assets/candy-products/christmas-candy-boxes.webp";
-import mylarBagsCandies from "@/assets/candy-products/mylar-bags-candies.webp";
-import candyDisplayBoxes from "@/assets/candy-products/candy-display-boxes.webp";
+import heroImage from "@/assets/industry/candy-boxes/Custom Candy Boxes hero.webp";
+import gummyBoxes from "@/assets/industry/candy-boxes/custom-gummy-boxes.webp";
+import lollipopBoxes from "@/assets/industry/candy-boxes/custom-lollipop-boxes.webp";
+import hardCandyBoxes from "@/assets/industry/candy-boxes/custom-hard-candy-boxes.webp";
+import chocolateBoxes from "@/assets/industry/candy-boxes/chocolate-boxes.webp";
+import candyAppleBoxes from "@/assets/industry/candy-boxes/candy-apple-boxes.webp";
+import candyBoxesWindow from "@/assets/industry/candy-boxes/candy-boxes-window.webp";
+import christmasCandyBoxes from "@/assets/industry/candy-boxes/christmas-candy-boxes.webp";
+import mylarBagsCandies from "@/assets/industry/candy-boxes/mylar-bags-candies.webp";
+import candyDisplayBoxes from "@/assets/industry/candy-boxes/candy-display-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

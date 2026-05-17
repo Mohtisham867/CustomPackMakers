@@ -27,7 +27,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import cbdMailerBoxes from "@/assets/cbd-boxes/cbd-mailer-boxes.webp";
+import cbdMailerBoxes from "@/assets/industry/cbd-packaging/cbd-mailer-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CbdMailerBoxes = () => {

@@ -11,26 +11,26 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Image Imports
-import beardOilBoxes from "@/assets/cosmetic-boxes/Custom Beard Oil Boxes.webp";
-import serumBoxes from "@/assets/cosmetic-boxes/Serum Boxes.webp";
-import hairColorBoxes from "@/assets/cosmetic-boxes/hair-color-boxes.webp";
-import hairExtensionBoxes from "@/assets/cosmetic-boxes/Hair Extension Boxes.webp";
-import hairSprayBoxes from "@/assets/cosmetic-boxes/Hair Spray Boxes.webp";
-import lipGlossBoxes from "@/assets/cosmetic-boxes/Custom Lip Gloss Boxes.webp";
-import lipLinerBoxes from "@/assets/cosmetic-boxes/Custom Lip Liner Boxes.webp";
-import lipstickBoxes from "@/assets/cosmetic-boxes/Custom Lipstick Boxes.webp";
-import mascaraBoxes from "@/assets/cosmetic-boxes/Mascara Boxes.webp";
-import nailPolishBoxes from "@/assets/cosmetic-boxes/Nail Polish Boxes.webp";
-import eyeShadowBoxes from "@/assets/cosmetic-boxes/Custom Eye Shadow Boxes.webp";
-import eyelashBoxes from "@/assets/cosmetic-boxes/Eyelash Boxes.webp";
-import essentialOilBoxes from "@/assets/cosmetic-boxes/Essential Oil Boxes.webp";
-import foundationBoxes from "@/assets/cosmetic-boxes/Foundation Boxes.webp";
-import lipBalmBoxes from "@/assets/cosmetic-boxes/Lip Balm Boxes.webp";
-import nailBoxes from "@/assets/cosmetic-boxes/Nail Boxes.webp";
-import cosmeticLabels from "@/assets/cosmetic-boxes/Cosmetic Labels.webp";
-import lipTintPackaging from "@/assets/cosmetic-boxes/Lip Tint Packaging.webp";
-import customWigBoxes from "@/assets/cosmetic-boxes/Custom Wig Boxes.webp";
-import skinCarePackaging from "@/assets/cosmetic-boxes/Skin Care Packaging.webp";
+import beardOilBoxes from "@/assets/industry/cosmetic-boxes/Custom Beard Oil Boxes.webp";
+import serumBoxes from "@/assets/industry/cosmetic-boxes/Serum Boxes.webp";
+import hairColorBoxes from "@/assets/industry/cosmetic-boxes/hair-color-boxes.webp";
+import hairExtensionBoxes from "@/assets/industry/cosmetic-boxes/Hair Extension Boxes.webp";
+import hairSprayBoxes from "@/assets/industry/cosmetic-boxes/Hair Spray Boxes.webp";
+import lipGlossBoxes from "@/assets/industry/cosmetic-boxes/Custom Lip Gloss Boxes.webp";
+import lipLinerBoxes from "@/assets/industry/cosmetic-boxes/Custom Lip Liner Boxes.webp";
+import lipstickBoxes from "@/assets/industry/cosmetic-boxes/Custom Lipstick Boxes.webp";
+import mascaraBoxes from "@/assets/industry/cosmetic-boxes/Mascara Boxes.webp";
+import nailPolishBoxes from "@/assets/industry/cosmetic-boxes/Nail Polish Boxes.webp";
+import eyeShadowBoxes from "@/assets/industry/cosmetic-boxes/Custom Eye Shadow Boxes.webp";
+import eyelashBoxes from "@/assets/industry/cosmetic-boxes/Eyelash Boxes.webp";
+import essentialOilBoxes from "@/assets/industry/cosmetic-boxes/Essential Oil Boxes.webp";
+import foundationBoxes from "@/assets/industry/cosmetic-boxes/Foundation Boxes.webp";
+import lipBalmBoxes from "@/assets/industry/cosmetic-boxes/Lip Balm Boxes.webp";
+import nailBoxes from "@/assets/industry/cosmetic-boxes/Nail Boxes.webp";
+import cosmeticLabels from "@/assets/industry/cosmetic-boxes/Cosmetic Labels.webp";
+import lipTintPackaging from "@/assets/industry/cosmetic-boxes/Lip Tint Packaging.webp";
+import customWigBoxes from "@/assets/industry/cosmetic-boxes/Custom Wig Boxes.webp";
+import skinCarePackaging from "@/assets/industry/cosmetic-boxes/Skin Care Packaging.webp";
 
 const relatedProducts = [
     { name: "Custom Beard Oil Boxes", image: beardOilBoxes, description: "Rugged and sophisticated packaging for premium men's grooming oils.", link: "/industries/cosmetic-boxes/beard-oil-boxes" },

@@ -11,13 +11,13 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Product images
-import customKraftSoapBoxes from "@/assets/sustainable-packaging/kraft-soap-boxes.webp";
-import kraftGiftBoxes from "@/assets/sustainable-packaging/kraft-gift-boxes.webp";
-import kraftMylarBags from "@/assets/sustainable-packaging/kraft-mylar-bags.webp";
-import kraftFoodBoxes from "@/assets/sustainable-packaging/kraft-food-boxes.webp";
-import kraftPieBoxes from "@/assets/sustainable-packaging/kraft-pie-boxes.webp";
-import kraftTuckTopBoxes from "@/assets/sustainable-packaging/kraft-tuck-top-boxes.webp";
-import kraftMailerBoxes from "@/assets/sustainable-packaging/kraft-mailer-boxes.webp";
+import customKraftSoapBoxes from "@/assets/industry/sustainable-packaging/kraft-soap-boxes.webp";
+import kraftGiftBoxes from "@/assets/industry/sustainable-packaging/kraft-gift-boxes.webp";
+import kraftMylarBags from "@/assets/industry/sustainable-packaging/kraft-mylar-bags.webp";
+import kraftFoodBoxes from "@/assets/industry/sustainable-packaging/kraft-food-boxes.webp";
+import kraftPieBoxes from "@/assets/industry/sustainable-packaging/kraft-pie-boxes.webp";
+import kraftTuckTopBoxes from "@/assets/industry/sustainable-packaging/kraft-tuck-top-boxes.webp";
+import kraftMailerBoxes from "@/assets/industry/sustainable-packaging/kraft-mailer-boxes.webp";
 
 // Related products from Sustainable Packaging category
 const relatedProducts = [

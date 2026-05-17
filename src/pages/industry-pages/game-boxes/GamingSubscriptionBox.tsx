@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images specific to this page
-import subscriptionBoxeshero from "@/assets/game-boxes/gaming-subscription-box/img-hero.webp";
-import subscriptionBoxes1 from "@/assets/game-boxes/gaming-subscription-box/img-1.webp";
-import subscriptionBoxes2 from "@/assets/game-boxes/gaming-subscription-box/img-2.webp";
-import subscriptionBoxes3 from "@/assets/game-boxes/gaming-subscription-box/img-3.webp";
-import subscriptionBoxes4 from "@/assets/game-boxes/gaming-subscription-box/img-4.webp";
-import subscriptionBoxes5 from "@/assets/game-boxes/gaming-subscription-box/img-5.webp";
-import subscriptionBoxes6 from "@/assets/game-boxes/gaming-subscription-box/img-whychoose.webp";
-import subscriptionBoxes7 from "@/assets/game-boxes/gaming-subscription-box/img-different.webp";
+import subscriptionBoxeshero from "@/assets/industry/game-boxes/gaming-subscription-box/img-hero.webp";
+import subscriptionBoxes1 from "@/assets/industry/game-boxes/gaming-subscription-box/img-1.webp";
+import subscriptionBoxes2 from "@/assets/industry/game-boxes/gaming-subscription-box/img-2.webp";
+import subscriptionBoxes3 from "@/assets/industry/game-boxes/gaming-subscription-box/img-3.webp";
+import subscriptionBoxes4 from "@/assets/industry/game-boxes/gaming-subscription-box/img-4.webp";
+import subscriptionBoxes5 from "@/assets/industry/game-boxes/gaming-subscription-box/img-5.webp";
+import subscriptionBoxes6 from "@/assets/industry/game-boxes/gaming-subscription-box/img-whychoose.webp";
+import subscriptionBoxes7 from "@/assets/industry/game-boxes/gaming-subscription-box/img-different.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

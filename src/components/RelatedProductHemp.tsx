@@ -11,16 +11,16 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Hemp Product Images
-import hempPaperBoxes from "@/assets/hemp-boxes/custom-cbd-isolate-boxes.webp";
-import hempShippingBoxes from "@/assets/hemp-boxes/hemp-shipping-boxes.webp";
-import hempPreRollBoxes from "@/assets/hemp-boxes/Hemp Pre Roll Boxes.webp";
-import hempOilBoxes from "@/assets/hemp-boxes/Hemp Oil Boxes.webp";
-import hempGiftBoxes from "@/assets/hemp-boxes/apparel-gift-boxes.webp";
-import hempCardboardBoxes from "@/assets/hemp-boxes/Hemp Cardboard Boxes.webp";
-import hempCigaretteBoxes from "@/assets/hemp-boxes/hemp-cigarette-boxes.webp";
-import eLiquidBoxes from "@/assets/hemp-boxes/e-liquid-boxes.webp";
-import hempTeaBags from "@/assets/hemp-boxes/tea-boxes.webp";
-import cbdHempOilBoxes from "@/assets/hemp-boxes/cbd-oil-boxes.webp";
+import hempPaperBoxes from "@/assets/industry/custom-hemp-boxes/custom-cbd-isolate-boxes.webp";
+import hempShippingBoxes from "@/assets/industry/custom-hemp-boxes/hemp-shipping-boxes.webp";
+import hempPreRollBoxes from "@/assets/industry/custom-hemp-boxes/Hemp Pre Roll Boxes.webp";
+import hempOilBoxes from "@/assets/industry/custom-hemp-boxes/Hemp Oil Boxes.webp";
+import hempGiftBoxes from "@/assets/industry/custom-hemp-boxes/apparel-gift-boxes.webp";
+import hempCardboardBoxes from "@/assets/industry/custom-hemp-boxes/Hemp Cardboard Boxes.webp";
+import hempCigaretteBoxes from "@/assets/industry/custom-hemp-boxes/hemp-cigarette-boxes.webp";
+import eLiquidBoxes from "@/assets/industry/custom-hemp-boxes/e-liquid-boxes.webp";
+import hempTeaBags from "@/assets/industry/custom-hemp-boxes/tea-boxes.webp";
+import cbdHempOilBoxes from "@/assets/industry/custom-hemp-boxes/cbd-oil-boxes.webp";
 
 const relatedProducts = [
     { name: "Hemp Paper Boxes", image: hempPaperBoxes, description: "Sustainable paper packaging for eco-conscious brands featuring organic textures and eco-friendly print finishes.", link: "/industries/custom-hemp-boxes/hemp-paper-boxes" },

@@ -15,7 +15,7 @@ import { RelatedProductStickersLabels } from "@/components/RelatedProductSticker
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 import FAQimage from "@/assets/FAQ-image.webp";
-import heroImg from "@/assets/stickers-and-labels/color-labels.webp";
+import heroImg from "@/assets/shape-style/stickers-and-labels/color-labels.webp";
 
 const ColorLabels = () => {
   const [selectedImage, setSelectedImage] = useState(0);

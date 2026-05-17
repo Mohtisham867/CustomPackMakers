@@ -11,11 +11,11 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Specific images
-import baseballBoxes from "@/assets/sports-boxes/custom-baseball-boxes.webp";
-import golfBallBoxes from "@/assets/sports-boxes/custom-golf-ball-boxes.webp";
-import footballBoxes from "@/assets/sports-boxes/football-boxes.webp";
-import basketballBoxes from "@/assets/sports-boxes/basketball-boxes.webp";
-import tennisBallBoxes from "@/assets/sports-boxes/tennis-ball-boxes.webp";
+import baseballBoxes from "@/assets/industry/sports-boxes/custom-baseball-boxes.webp";
+import golfBallBoxes from "@/assets/industry/sports-boxes/custom-golf-ball-boxes.webp";
+import footballBoxes from "@/assets/industry/sports-boxes/football-boxes.webp";
+import basketballBoxes from "@/assets/industry/sports-boxes/basketball-boxes.webp";
+import tennisBallBoxes from "@/assets/industry/sports-boxes/tennis-ball-boxes.webp";
 
 const relatedProducts = [
     { name: "Custom Baseball Boxes", image: baseballBoxes, description: "Protective boxes for collectible or retail baseballs featuring clear viewing windows and sturdy construction", link: "/industries/sports-boxes/custom-baseball-boxes" },

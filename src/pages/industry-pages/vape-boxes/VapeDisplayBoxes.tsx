@@ -28,14 +28,14 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import vapeDisplayImagehero from "@/assets/vape-boxes/Vape-Display/img-hero.webp";
-import vapeDisplayImage1 from "@/assets/vape-boxes/Vape-Display/img-1.webp";
-import vapeDisplayImage2 from "@/assets/vape-boxes/Vape-Display/img-2.webp";
-import vapeDisplayImage3 from "@/assets/vape-boxes/Vape-Display/img-3.webp";
-import vapeDisplayImage4 from "@/assets/vape-boxes/Vape-Display/img-4.webp";
-import vapeDisplayImage5 from "@/assets/vape-boxes/Vape-Display/img-5.webp";
-import vapeDisplayImage6 from "@/assets/vape-boxes/Vape-Display/img-whychoose.webp";
-import vapeDisplayImage7 from "@/assets/vape-boxes/Vape-Display/img-different.webp";
+import vapeDisplayImagehero from "@/assets/industry/vape-boxes/Vape-Display/img-hero.webp";
+import vapeDisplayImage1 from "@/assets/industry/vape-boxes/Vape-Display/img-1.webp";
+import vapeDisplayImage2 from "@/assets/industry/vape-boxes/Vape-Display/img-2.webp";
+import vapeDisplayImage3 from "@/assets/industry/vape-boxes/Vape-Display/img-3.webp";
+import vapeDisplayImage4 from "@/assets/industry/vape-boxes/Vape-Display/img-4.webp";
+import vapeDisplayImage5 from "@/assets/industry/vape-boxes/Vape-Display/img-5.webp";
+import vapeDisplayImage6 from "@/assets/industry/vape-boxes/Vape-Display/img-whychoose.webp";
+import vapeDisplayImage7 from "@/assets/industry/vape-boxes/Vape-Display/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const VapeDisplayBoxes = () => {

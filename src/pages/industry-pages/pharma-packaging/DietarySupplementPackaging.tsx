@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import dietarySupplementPackaginghero from "@/assets/pharma-packaging/dietary_supplement_packaging/img-hero.webp";
-import dietarySupplementPackagingimg1 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-1.webp";
-import dietarySupplementPackagingimg2 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-2.webp";
-import dietarySupplementPackagingimg3 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-3.webp";
-import dietarySupplementPackagingimg4 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-4.webp";
-import dietarySupplementPackagingimg5 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-5.webp";
-import dietarySupplementPackagingimg6 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-whychoose.webp";
-import dietarySupplementPackagingimg7 from "@/assets/pharma-packaging/dietary_supplement_packaging/img-different.webp";
+import dietarySupplementPackaginghero from "@/assets/industry/pharma-packaging/dietary_supplement_packaging/img-hero.webp";
+import dietarySupplementPackagingimg1 from "@/assets/industry/pharma-packaging/dietary_supplement_packaging/img-1.webp";
+import dietarySupplementPackagingimg2 from "@/assets/industry/pharma-packaging/dietary_supplement_packaging/img-2.webp";
+import dietarySupplementPackagingimg3 from "@/assets/industry/pharma-packaging/dietary_supplement_packaging/img-3.webp";
+import dietarySupplementPackagingimg4 from "@/assets/industry/pharma-packaging/dietary_supplement_packaging/img-4.webp";
+import dietarySupplementPackagingimg5 from "@/assets/industry/pharma-packaging/dietary_supplement_packaging/img-5.webp";
+import dietarySupplementPackagingimg6 from "@/assets/industry/pharma-packaging/dietary_supplement_packaging/img-whychoose.webp";
+import dietarySupplementPackagingimg7 from "@/assets/industry/pharma-packaging/dietary_supplement_packaging/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const DietarySupplementPackaging = () => {

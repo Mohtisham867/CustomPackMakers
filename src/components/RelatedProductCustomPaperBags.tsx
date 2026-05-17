@@ -10,24 +10,24 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
-import customAutoBottomGableBags from "@/assets/custom-paper-bags/custom-auto-bottom-gable-bags.webp";
-import customPaperFoodBags from "@/assets/custom-paper-bags/custom-paper-food-bags.webp";
-import christmasPaperBags from "@/assets/custom-paper-bags/christmas-paper-bags.webp";
-import christmasGiftBags from "@/assets/custom-paper-bags/christmas-gift-bags.webp";
-import customBrownPaperBags from "@/assets/custom-paper-bags/custom-brown-paper-bags.webp";
-import paperShoppingBags from "@/assets/custom-paper-bags/paper-shopping-bags.webp";
-import whitePaperBags from "@/assets/custom-paper-bags/white-paper-bags.webp";
-import paperGiftBags from "@/assets/custom-paper-bags/paper-gift-bags.webp";
-import paperLunchBags from "@/assets/custom-paper-bags/paper-lunch-bags.webp";
-import friesBag from "@/assets/custom-paper-bags/fries-bag.webp";
-import glassineBags from "@/assets/custom-paper-bags/glassine-bags.webp";
-import candyBags from "@/assets/custom-paper-bags/candy-bags.webp";
-import bakeryBags from "@/assets/custom-paper-bags/bakery-bags.webp";
-import cookieBags from "@/assets/custom-paper-bags/cookie-bags.webp";
-import giftBags from "@/assets/custom-paper-bags/gift-bags.webp";
-import carryOutBags from "@/assets/custom-paper-bags/carry-out-bags.webp";
-import exoticWeedBag from "@/assets/custom-paper-bags/exotic-weed-bag.webp";
-import paperBagsWithHandles from "@/assets/custom-paper-bags/paper-bags-with-handles.webp";
+import customAutoBottomGableBags from "@/assets/shape-style/custom-paper-bags/custom-auto-bottom-gable-bags.webp";
+import customPaperFoodBags from "@/assets/shape-style/custom-paper-bags/custom-paper-food-bags.webp";
+import christmasPaperBags from "@/assets/shape-style/custom-paper-bags/christmas-paper-bags.webp";
+import christmasGiftBags from "@/assets/shape-style/custom-paper-bags/christmas-gift-bags.webp";
+import customBrownPaperBags from "@/assets/shape-style/custom-paper-bags/custom-brown-paper-bags.webp";
+import paperShoppingBags from "@/assets/shape-style/custom-paper-bags/paper-shopping-bags.webp";
+import whitePaperBags from "@/assets/shape-style/custom-paper-bags/white-paper-bags.webp";
+import paperGiftBags from "@/assets/shape-style/custom-paper-bags/paper-gift-bags.webp";
+import paperLunchBags from "@/assets/shape-style/custom-paper-bags/paper-lunch-bags.webp";
+import friesBag from "@/assets/shape-style/custom-paper-bags/fries-bag.webp";
+import glassineBags from "@/assets/shape-style/custom-paper-bags/glassine-bags.webp";
+import candyBags from "@/assets/shape-style/custom-paper-bags/candy-bags.webp";
+import bakeryBags from "@/assets/shape-style/custom-paper-bags/bakery-bags.webp";
+import cookieBags from "@/assets/shape-style/custom-paper-bags/cookie-bags.webp";
+import giftBags from "@/assets/shape-style/custom-paper-bags/gift-bags.webp";
+import carryOutBags from "@/assets/shape-style/custom-paper-bags/carry-out-bags.webp";
+import exoticWeedBag from "@/assets/shape-style/custom-paper-bags/exotic-weed-bag.webp";
+import paperBagsWithHandles from "@/assets/shape-style/custom-paper-bags/paper-bags-with-handles.webp";
 
 const relatedProducts = [
     { name: "Custom Auto Bottom Gable Bags", image: customAutoBottomGableBags, link: "/shapes-styles/custom-paper-bags/custom-auto-bottom-gable-bags", description: "Secure and convenient custom gable bags featuring an auto bottom for quick assembly and easy loading" },

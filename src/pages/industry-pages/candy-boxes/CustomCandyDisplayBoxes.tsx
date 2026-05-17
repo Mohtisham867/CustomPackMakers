@@ -29,8 +29,8 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImage from "@/assets/candy-products/Custom Candy Boxes hero.webp";
-import candyDisplayBoxes from "@/assets/candy-products/candy-display-boxes.webp";
+import heroImage from "@/assets/industry/candy-boxes/Custom Candy Boxes hero.webp";
+import candyDisplayBoxes from "@/assets/industry/candy-boxes/candy-display-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomCandyDisplayBoxes = () => {

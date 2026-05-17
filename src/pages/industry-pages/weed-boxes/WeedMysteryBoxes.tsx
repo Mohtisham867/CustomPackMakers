@@ -28,14 +28,14 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import weedMysteryBoxesImagehero from "@/assets/weed_boxes/weed-mystery-box/img-hero.webp";
-import weedMysteryBoxesImage1 from "@/assets/weed_boxes/weed-mystery-box/img-1.webp";
-import weedMysteryBoxesImage2 from "@/assets/weed_boxes/weed-mystery-box/img-2.webp";
-import weedMysteryBoxesImage3 from "@/assets/weed_boxes/weed-mystery-box/img-3.webp";
-import weedMysteryBoxesImage4 from "@/assets/weed_boxes/weed-mystery-box/img-4.webp";
-import weedMysteryBoxesImage5 from "@/assets/weed_boxes/weed-mystery-box/img-5.webp";
-import weedMysteryBoxesImage6 from "@/assets/weed_boxes/weed-mystery-box/img-whychoose.webp";
-import weedMysteryBoxesImage7 from "@/assets/weed_boxes/weed-mystery-box/img-different.webp";
+import weedMysteryBoxesImagehero from "@/assets/industry/weed-boxes/weed-mystery-box/img-hero.webp";
+import weedMysteryBoxesImage1 from "@/assets/industry/weed-boxes/weed-mystery-box/img-1.webp";
+import weedMysteryBoxesImage2 from "@/assets/industry/weed-boxes/weed-mystery-box/img-2.webp";
+import weedMysteryBoxesImage3 from "@/assets/industry/weed-boxes/weed-mystery-box/img-3.webp";
+import weedMysteryBoxesImage4 from "@/assets/industry/weed-boxes/weed-mystery-box/img-4.webp";
+import weedMysteryBoxesImage5 from "@/assets/industry/weed-boxes/weed-mystery-box/img-5.webp";
+import weedMysteryBoxesImage6 from "@/assets/industry/weed-boxes/weed-mystery-box/img-whychoose.webp";
+import weedMysteryBoxesImage7 from "@/assets/industry/weed-boxes/weed-mystery-box/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const WeedMysteryBoxes = () => {

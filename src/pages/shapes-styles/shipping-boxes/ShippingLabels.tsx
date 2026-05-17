@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific product images
-import heroImage from "@/assets/shipping-boxes/shipping-labels.webp";
+import heroImage from "@/assets/shape-style/shipping-boxes/shipping-labels.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

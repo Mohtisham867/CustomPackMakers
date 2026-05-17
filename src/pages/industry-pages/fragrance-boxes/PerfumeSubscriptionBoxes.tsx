@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images specific to this page
-import perfumeSubscriptionBoxeshero from "@/assets/fragrance-boxes/perfume-subscription-boxes/img-hero.webp";
-import perfumeSubscriptionBoxesimg1 from "@/assets/fragrance-boxes/perfume-subscription-boxes/img-1.webp";
-import perfumeSubscriptionBoxesimg2 from "@/assets/fragrance-boxes/perfume-subscription-boxes/img-2.webp";
-import perfumeSubscriptionBoxesimg3 from "@/assets/fragrance-boxes/perfume-subscription-boxes/img-3.webp";
-import perfumeSubscriptionBoxesimg4 from "@/assets/fragrance-boxes/perfume-subscription-boxes/img-4.webp";
-import perfumeSubscriptionBoxesimg5 from "@/assets/fragrance-boxes/perfume-subscription-boxes/img-5.webp";
-import perfumeSubscriptionBoxesimg6 from "@/assets/fragrance-boxes/perfume-subscription-boxes/img-whychoose.webp";
-import perfumeSubscriptionBoxesimg7 from "@/assets/fragrance-boxes/perfume-subscription-boxes/img-different.webp";
+import perfumeSubscriptionBoxeshero from "@/assets/industry/fragrance-boxes/perfume-subscription-boxes/img-hero.webp";
+import perfumeSubscriptionBoxesimg1 from "@/assets/industry/fragrance-boxes/perfume-subscription-boxes/img-1.webp";
+import perfumeSubscriptionBoxesimg2 from "@/assets/industry/fragrance-boxes/perfume-subscription-boxes/img-2.webp";
+import perfumeSubscriptionBoxesimg3 from "@/assets/industry/fragrance-boxes/perfume-subscription-boxes/img-3.webp";
+import perfumeSubscriptionBoxesimg4 from "@/assets/industry/fragrance-boxes/perfume-subscription-boxes/img-4.webp";
+import perfumeSubscriptionBoxesimg5 from "@/assets/industry/fragrance-boxes/perfume-subscription-boxes/img-5.webp";
+import perfumeSubscriptionBoxesimg6 from "@/assets/industry/fragrance-boxes/perfume-subscription-boxes/img-whychoose.webp";
+import perfumeSubscriptionBoxesimg7 from "@/assets/industry/fragrance-boxes/perfume-subscription-boxes/img-different.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

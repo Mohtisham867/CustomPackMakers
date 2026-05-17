@@ -29,14 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import socksBoxeshero from "@/assets/apparel-boxes/socks-boxes/img-hero.webp";
-import socksboxe1 from "@/assets/apparel-boxes/socks-boxes/img-1.webp";
-import socksboxe2 from "@/assets/apparel-boxes/socks-boxes/img-2.webp";
-import socksboxe3 from "@/assets/apparel-boxes/socks-boxes/img-3.webp";
-import socksboxe4 from "@/assets/apparel-boxes/socks-boxes/img-4.webp";
-import socksboxe5 from "@/assets/apparel-boxes/socks-boxes/img-5.webp";
-import socksboxe6 from "@/assets/apparel-boxes/socks-boxes/img-whychoose.webp";
-import socksboxe7 from "@/assets/apparel-boxes/socks-boxes/img-defferent.webp";
+import socksBoxeshero from "@/assets/industry/apparel-boxes/socks-boxes/img-hero.webp";
+import socksboxe1 from "@/assets/industry/apparel-boxes/socks-boxes/img-1.webp";
+import socksboxe2 from "@/assets/industry/apparel-boxes/socks-boxes/img-2.webp";
+import socksboxe3 from "@/assets/industry/apparel-boxes/socks-boxes/img-3.webp";
+import socksboxe4 from "@/assets/industry/apparel-boxes/socks-boxes/img-4.webp";
+import socksboxe5 from "@/assets/industry/apparel-boxes/socks-boxes/img-5.webp";
+import socksboxe6 from "@/assets/industry/apparel-boxes/socks-boxes/img-whychoose.webp";
+import socksboxe7 from "@/assets/industry/apparel-boxes/socks-boxes/img-defferent.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

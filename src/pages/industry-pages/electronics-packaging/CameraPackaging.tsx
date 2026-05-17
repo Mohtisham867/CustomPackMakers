@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import cameraBoxeshero from "@/assets/electronics-boxes/camera-packaging/img-hero.webp";
-import cameraBoxes1 from "@/assets/electronics-boxes/camera-packaging/img-1.webp";
-import cameraBoxes2 from "@/assets/electronics-boxes/camera-packaging/img-2.webp";
-import cameraBoxes3 from "@/assets/electronics-boxes/camera-packaging/img-3.webp";
-import cameraBoxes4 from "@/assets/electronics-boxes/camera-packaging/img-4.webp";
-import cameraBoxes5 from "@/assets/electronics-boxes/camera-packaging/img-5.webp";
-import cameraBoxes6 from "@/assets/electronics-boxes/camera-packaging/img-whychoose.webp";
-import cameraBoxes7 from "@/assets/electronics-boxes/camera-packaging/img-different.webp";
+import cameraBoxeshero from "@/assets/industry/electronics-packaging/camera-packaging/img-hero.webp";
+import cameraBoxes1 from "@/assets/industry/electronics-packaging/camera-packaging/img-1.webp";
+import cameraBoxes2 from "@/assets/industry/electronics-packaging/camera-packaging/img-2.webp";
+import cameraBoxes3 from "@/assets/industry/electronics-packaging/camera-packaging/img-3.webp";
+import cameraBoxes4 from "@/assets/industry/electronics-packaging/camera-packaging/img-4.webp";
+import cameraBoxes5 from "@/assets/industry/electronics-packaging/camera-packaging/img-5.webp";
+import cameraBoxes6 from "@/assets/industry/electronics-packaging/camera-packaging/img-whychoose.webp";
+import cameraBoxes7 from "@/assets/industry/electronics-packaging/camera-packaging/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CameraPackaging = () => {

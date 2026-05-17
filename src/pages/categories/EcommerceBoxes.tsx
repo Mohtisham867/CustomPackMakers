@@ -13,13 +13,13 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/e-commerce/E-Commerce hero.webp";
-import mailerBoxes from "@/assets/e-commerce/Mailer box.webp";
-import subscriptionBoxes from "@/assets/e-commerce/Subscription boxes.webp";
-import shippingBoxes from "@/assets/e-commerce/shipping-boxes.webp";
-import ecommerceProductBoxes from "@/assets/e-commerce/product-boxes.webp";
-import corrugatedBoxes from "@/assets/e-commerce/Corrugated.webp";
-import insertsDividers from "@/assets/e-commerce/inserts-dividers.webp";
+import heroImage from "@/assets/industry/ecommerce-packaging/E-Commerce hero.webp";
+import mailerBoxes from "@/assets/industry/ecommerce-packaging/Mailer box.webp";
+import subscriptionBoxes from "@/assets/industry/ecommerce-packaging/Subscription boxes.webp";
+import shippingBoxes from "@/assets/industry/ecommerce-packaging/shipping-boxes.webp";
+import ecommerceProductBoxes from "@/assets/industry/ecommerce-packaging/product-boxes.webp";
+import corrugatedBoxes from "@/assets/industry/ecommerce-packaging/Corrugated.webp";
+import insertsDividers from "@/assets/industry/ecommerce-packaging/inserts-dividers.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

@@ -29,14 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images
-import apparelgiftboxehero from "@/assets/apparel-boxes/apparel-gift-boxes/img-hero.webp";
-import apparelgift1 from "@/assets/apparel-boxes/apparel-gift-boxes/img-1.webp";
-import apparelgift2 from "@/assets/apparel-boxes/apparel-gift-boxes/img-2.webp";
-import apparelgift3 from "@/assets/apparel-boxes/apparel-gift-boxes/img-3.webp";
-import apparelgift4 from "@/assets/apparel-boxes/apparel-gift-boxes/img-4.webp";
-import apparelgift5 from "@/assets/apparel-boxes/apparel-gift-boxes/img-5.webp";
-import apparelgift6 from "@/assets/apparel-boxes/apparel-gift-boxes/img-whychoose.webp";
-import apparelgift7 from "@/assets/apparel-boxes/apparel-gift-boxes/img-defferent.webp"
+import apparelgiftboxehero from "@/assets/industry/apparel-boxes/apparel-gift-boxes/img-hero.webp";
+import apparelgift1 from "@/assets/industry/apparel-boxes/apparel-gift-boxes/img-1.webp";
+import apparelgift2 from "@/assets/industry/apparel-boxes/apparel-gift-boxes/img-2.webp";
+import apparelgift3 from "@/assets/industry/apparel-boxes/apparel-gift-boxes/img-3.webp";
+import apparelgift4 from "@/assets/industry/apparel-boxes/apparel-gift-boxes/img-4.webp";
+import apparelgift5 from "@/assets/industry/apparel-boxes/apparel-gift-boxes/img-5.webp";
+import apparelgift6 from "@/assets/industry/apparel-boxes/apparel-gift-boxes/img-whychoose.webp";
+import apparelgift7 from "@/assets/industry/apparel-boxes/apparel-gift-boxes/img-defferent.webp"
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

@@ -31,14 +31,14 @@ import { RelatedProductSustainable } from "@/components/RelatedProductSustainabl
 
 
 // Specific product images
-import kraftsoftboxehero from "@/assets/sustainable-packaging/kraft-soap-boxes/img-hero.webp";
-import kraftsoftboxe1 from "@/assets/sustainable-packaging/kraft-soap-boxes/img-1.webp";
-import kraftsoftboxe2 from "@/assets/sustainable-packaging/kraft-soap-boxes/img-2.webp";
-import kraftsoftboxe3 from "@/assets/sustainable-packaging/kraft-soap-boxes/img-3.webp";
-import kraftsoftboxe4 from "@/assets/sustainable-packaging/kraft-soap-boxes/img-4.webp";
-import kraftsoftboxe5 from "@/assets/sustainable-packaging/kraft-soap-boxes/img-5.webp";
-import kraftsoftboxe6 from "@/assets/sustainable-packaging/kraft-soap-boxes/img-whychoose.webp";
-import kraftsoftboxe7 from "@/assets/sustainable-packaging/kraft-soap-boxes/img-different.webp";
+import kraftsoftboxehero from "@/assets/industry/sustainable-packaging/kraft-soap-boxes/img-hero.webp";
+import kraftsoftboxe1 from "@/assets/industry/sustainable-packaging/kraft-soap-boxes/img-1.webp";
+import kraftsoftboxe2 from "@/assets/industry/sustainable-packaging/kraft-soap-boxes/img-2.webp";
+import kraftsoftboxe3 from "@/assets/industry/sustainable-packaging/kraft-soap-boxes/img-3.webp";
+import kraftsoftboxe4 from "@/assets/industry/sustainable-packaging/kraft-soap-boxes/img-4.webp";
+import kraftsoftboxe5 from "@/assets/industry/sustainable-packaging/kraft-soap-boxes/img-5.webp";
+import kraftsoftboxe6 from "@/assets/industry/sustainable-packaging/kraft-soap-boxes/img-whychoose.webp";
+import kraftsoftboxe7 from "@/assets/industry/sustainable-packaging/kraft-soap-boxes/img-different.webp";
 
 
 

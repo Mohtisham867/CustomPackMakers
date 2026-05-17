@@ -30,7 +30,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import heroImg from "@/assets/kraft-boxes/custom-handle-boxes-v2.webp";
+import heroImg from "@/assets/material/kraft-boxes/custom-handle-boxes-v2.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomHandleBoxes = () => {

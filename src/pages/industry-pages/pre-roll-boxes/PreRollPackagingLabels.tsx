@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import prerollpackaginglabelhero from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-hero.webp";
-import prerollpackaginglabelimg1 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-1.webp";
-import prerollpackaginglabelimg2 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-2.webp";
-import prerollpackaginglabelimg3 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-3.webp";
-import prerollpackaginglabelimg4 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-4.webp";
-import prerollpackaginglabelimg5 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-5.webp";
-import prerollpackaginglabelimg6 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-whychoose.webp";
-import prerollpackaginglabelimg7 from "@/assets/pre-roll-boxes/pre-roll-packaging-labels/img-different.webp";
+import prerollpackaginglabelhero from "@/assets/industry/pre-roll-boxes/pre-roll-packaging-labels/img-hero.webp";
+import prerollpackaginglabelimg1 from "@/assets/industry/pre-roll-boxes/pre-roll-packaging-labels/img-1.webp";
+import prerollpackaginglabelimg2 from "@/assets/industry/pre-roll-boxes/pre-roll-packaging-labels/img-2.webp";
+import prerollpackaginglabelimg3 from "@/assets/industry/pre-roll-boxes/pre-roll-packaging-labels/img-3.webp";
+import prerollpackaginglabelimg4 from "@/assets/industry/pre-roll-boxes/pre-roll-packaging-labels/img-4.webp";
+import prerollpackaginglabelimg5 from "@/assets/industry/pre-roll-boxes/pre-roll-packaging-labels/img-5.webp";
+import prerollpackaginglabelimg6 from "@/assets/industry/pre-roll-boxes/pre-roll-packaging-labels/img-whychoose.webp";
+import prerollpackaginglabelimg7 from "@/assets/industry/pre-roll-boxes/pre-roll-packaging-labels/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const PreRollPackagingLabels = () => {

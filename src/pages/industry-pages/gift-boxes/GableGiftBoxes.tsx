@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import gableGiftBoxeshero from "@/assets/gift-boxes/Gable-Gift-Boxes/img-hero.webp";
-import gableGiftBoxesimg1 from "@/assets/gift-boxes/Gable-Gift-Boxes/img-1.webp";
-import gableGiftBoxesimg2 from "@/assets/gift-boxes/Gable-Gift-Boxes/img-2.webp";
-import gableGiftBoxesimg3 from "@/assets/gift-boxes/Gable-Gift-Boxes/img-3.webp";
-import gableGiftBoxesimg4 from "@/assets/gift-boxes/Gable-Gift-Boxes/img-4.webp";
-import gableGiftBoxesimg5 from "@/assets/gift-boxes/Gable-Gift-Boxes/img-5.webp";
-import gableGiftBoxesimg6 from "@/assets/gift-boxes/Gable-Gift-Boxes/img-whychoose.webp";
-import gableGiftBoxesimg7 from "@/assets/gift-boxes/Gable-Gift-Boxes/img-different.webp";
+import gableGiftBoxeshero from "@/assets/industry/gift-boxes/Gable-Gift-Boxes/img-hero.webp";
+import gableGiftBoxesimg1 from "@/assets/industry/gift-boxes/Gable-Gift-Boxes/img-1.webp";
+import gableGiftBoxesimg2 from "@/assets/industry/gift-boxes/Gable-Gift-Boxes/img-2.webp";
+import gableGiftBoxesimg3 from "@/assets/industry/gift-boxes/Gable-Gift-Boxes/img-3.webp";
+import gableGiftBoxesimg4 from "@/assets/industry/gift-boxes/Gable-Gift-Boxes/img-4.webp";
+import gableGiftBoxesimg5 from "@/assets/industry/gift-boxes/Gable-Gift-Boxes/img-5.webp";
+import gableGiftBoxesimg6 from "@/assets/industry/gift-boxes/Gable-Gift-Boxes/img-whychoose.webp";
+import gableGiftBoxesimg7 from "@/assets/industry/gift-boxes/Gable-Gift-Boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const GableGiftBoxes = () => {

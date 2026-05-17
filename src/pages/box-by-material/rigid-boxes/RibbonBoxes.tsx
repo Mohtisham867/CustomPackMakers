@@ -30,11 +30,11 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import ribbonBoxes from "@/assets/rigid-boxes/ribbon-boxes-v2.webp";
-import placeholder1 from "@/assets/rigid-boxes/rigid-setup-boxes-v2.webp";
-import placeholder2 from "@/assets/rigid-boxes/flip-top-boxes-v2.webp";
-import placeholder3 from "@/assets/rigid-boxes/rigid-gift-boxes-v2.webp";
-import placeholder4 from "@/assets/rigid-boxes/wallet-boxes-v2.webp";
+import ribbonBoxes from "@/assets/material/rigid-boxes/ribbon-boxes-v2.webp";
+import placeholder1 from "@/assets/material/rigid-boxes/rigid-setup-boxes-v2.webp";
+import placeholder2 from "@/assets/material/rigid-boxes/flip-top-boxes-v2.webp";
+import placeholder3 from "@/assets/material/rigid-boxes/rigid-gift-boxes-v2.webp";
+import placeholder4 from "@/assets/material/rigid-boxes/wallet-boxes-v2.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

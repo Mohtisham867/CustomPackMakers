@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import braceletBoxesHero from "@/assets/jewelry-boxes/bracelet-boxes/img-hero.webp";
-import braceletBoxes1 from "@/assets/jewelry-boxes/bracelet-boxes/img-1.webp";
-import braceletBoxes2 from "@/assets/jewelry-boxes/bracelet-boxes/img-2.webp";
-import braceletBoxes3 from "@/assets/jewelry-boxes/bracelet-boxes/img-3.webp";
-import braceletBoxes4 from "@/assets/jewelry-boxes/bracelet-boxes/img-4.webp";
-import braceletBoxes5 from "@/assets/jewelry-boxes/bracelet-boxes/img-5.webp";
-import braceletBoxes6 from "@/assets/jewelry-boxes/bracelet-boxes/img-whychoose.webp";
-import braceletBoxes7 from "@/assets/jewelry-boxes/bracelet-boxes/img-different.webp";
+import braceletBoxesHero from "@/assets/industry/jewelry-boxes/bracelet-boxes/img-hero.webp";
+import braceletBoxes1 from "@/assets/industry/jewelry-boxes/bracelet-boxes/img-1.webp";
+import braceletBoxes2 from "@/assets/industry/jewelry-boxes/bracelet-boxes/img-2.webp";
+import braceletBoxes3 from "@/assets/industry/jewelry-boxes/bracelet-boxes/img-3.webp";
+import braceletBoxes4 from "@/assets/industry/jewelry-boxes/bracelet-boxes/img-4.webp";
+import braceletBoxes5 from "@/assets/industry/jewelry-boxes/bracelet-boxes/img-5.webp";
+import braceletBoxes6 from "@/assets/industry/jewelry-boxes/bracelet-boxes/img-whychoose.webp";
+import braceletBoxes7 from "@/assets/industry/jewelry-boxes/bracelet-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const BraceletBoxes = () => {

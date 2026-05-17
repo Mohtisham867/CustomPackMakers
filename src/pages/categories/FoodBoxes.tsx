@@ -14,17 +14,17 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/food-boxes/hero.webp";
+import heroImage from "@/assets/industry/food-boxes/hero.webp";
 
 // Specific images
-import chineseTakeout from "@/assets/food-boxes/chinese-takeout-box.webp";
-import donutBoxes from "@/assets/food-boxes/donut-boxes.webp";
-import popcornBoxes from "@/assets/food-boxes/popcorn-boxes.webp";
-import dietarySupplements from "@/assets/food-boxes/dietary-supplements.webp";
-import pizzaSliceBoxes from "@/assets/food-boxes/Custom Pizza Slice Boxes.webp";
-import paperFoodBags from "@/assets/food-boxes/paper-food-bags.webp";
-import paperFoodTrays from "@/assets/food-boxes/paper-food-trays.webp";
-import miniCerealBoxes from "@/assets/food-boxes/mini-cereal-boxes.webp";
+import chineseTakeout from "@/assets/industry/food-boxes/chinese-takeout-box.webp";
+import donutBoxes from "@/assets/industry/food-boxes/donut-boxes.webp";
+import popcornBoxes from "@/assets/industry/food-boxes/popcorn-boxes.webp";
+import dietarySupplements from "@/assets/industry/food-boxes/dietary-supplements.webp";
+import pizzaSliceBoxes from "@/assets/industry/food-boxes/Custom Pizza Slice Boxes.webp";
+import paperFoodBags from "@/assets/industry/food-boxes/paper-food-bags.webp";
+import paperFoodTrays from "@/assets/industry/food-boxes/paper-food-trays.webp";
+import miniCerealBoxes from "@/assets/industry/food-boxes/mini-cereal-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 

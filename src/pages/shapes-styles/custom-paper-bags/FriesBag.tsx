@@ -27,7 +27,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import fallbackImage from "@/assets/custom-paper-bags/custom-paper-food-bags.webp";
+import fallbackImage from "@/assets/shape-style/custom-paper-bags/custom-paper-food-bags.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const FriesBag = () => {

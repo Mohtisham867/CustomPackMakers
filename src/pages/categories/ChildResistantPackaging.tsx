@@ -14,12 +14,12 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/child-resistant-packaging/child-resistant-hero.webp";
-import mylarBags from "@/assets/child-resistant-packaging/child-resistant-mylar-bags.webp";
-import bluntPackaging from "@/assets/child-resistant-packaging/child-resistant-blunt-packaging.webp";
-import cigaretteBoxes from "@/assets/child-resistant-packaging/child-resistant-cigarette-boxes.webp";
-import jointPackaging from "@/assets/child-resistant-packaging/child-resistant-joint-packaging.webp";
-import preRollBox from "@/assets/child-resistant-packaging/child-resistant-pre-roll-box.webp";
+import heroImage from "@/assets/shape-style/child-resistant-packaging/child-resistant-hero.webp";
+import mylarBags from "@/assets/shape-style/child-resistant-packaging/child-resistant-mylar-bags.webp";
+import bluntPackaging from "@/assets/shape-style/child-resistant-packaging/child-resistant-blunt-packaging.webp";
+import cigaretteBoxes from "@/assets/shape-style/child-resistant-packaging/child-resistant-cigarette-boxes.webp";
+import jointPackaging from "@/assets/shape-style/child-resistant-packaging/child-resistant-joint-packaging.webp";
+import preRollBox from "@/assets/shape-style/child-resistant-packaging/child-resistant-pre-roll-box.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const products = [

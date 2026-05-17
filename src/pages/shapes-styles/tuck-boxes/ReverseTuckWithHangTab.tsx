@@ -27,7 +27,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImg from "@/assets/tuck-boxes/reverse-tuck-with-hang-tab.webp";
+import heroImg from "@/assets/shape-style/tuck-boxes/reverse-tuck-with-hang-tab.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const ReverseTuckWithHangTab = () => {

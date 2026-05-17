@@ -14,13 +14,13 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/marijuana-packaging/hero.webp";
+import heroImage from "@/assets/industry/marijuana-packaging/hero.webp";
 
 // Specific images
-import marijuanaEdiblesPackaging from "@/assets/marijuana-packaging/edibles-packaging.webp";
-import marijuanaLabels from "@/assets/marijuana-packaging/labels.webp";
-import medicalMarijuanaPackaging from "@/assets/marijuana-packaging/medical-packaging.webp";
-import marijuanaCartridgePackaging from "@/assets/marijuana-packaging/cartridge-packaging.webp";
+import marijuanaEdiblesPackaging from "@/assets/industry/marijuana-packaging/edibles-packaging.webp";
+import marijuanaLabels from "@/assets/industry/marijuana-packaging/labels.webp";
+import medicalMarijuanaPackaging from "@/assets/industry/marijuana-packaging/medical-packaging.webp";
+import marijuanaCartridgePackaging from "@/assets/industry/marijuana-packaging/cartridge-packaging.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 

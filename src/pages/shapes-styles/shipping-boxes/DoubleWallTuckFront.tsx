@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific product images
-import heroImage from "@/assets/shipping-boxes/double-wall-tuck-front.webp";
+import heroImage from "@/assets/shape-style/shipping-boxes/double-wall-tuck-front.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

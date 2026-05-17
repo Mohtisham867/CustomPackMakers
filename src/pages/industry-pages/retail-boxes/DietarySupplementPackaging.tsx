@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import supplementPackaginghero from "@/assets/retail-boxes/dietary-supplement-packaging/img-hero.webp";
-import supplementPackaging1 from "@/assets/retail-boxes/dietary-supplement-packaging/img-1.webp";
-import supplementPackaging2 from "@/assets/retail-boxes/dietary-supplement-packaging/img-2.webp";
-import supplementPackaging3 from "@/assets/retail-boxes/dietary-supplement-packaging/img-3.webp";
-import supplementPackaging4 from "@/assets/retail-boxes/dietary-supplement-packaging/img-4.webp";
-import supplementPackaging5 from "@/assets/retail-boxes/dietary-supplement-packaging/img-5.webp";
-import supplementPackaging6 from "@/assets/retail-boxes/dietary-supplement-packaging/img-whychoose.webp";
-import supplementPackaging7 from "@/assets/retail-boxes/dietary-supplement-packaging/img-different.webp";
+import supplementPackaginghero from "@/assets/industry/retail-boxes/dietary-supplement-packaging/img-hero.webp";
+import supplementPackaging1 from "@/assets/industry/retail-boxes/dietary-supplement-packaging/img-1.webp";
+import supplementPackaging2 from "@/assets/industry/retail-boxes/dietary-supplement-packaging/img-2.webp";
+import supplementPackaging3 from "@/assets/industry/retail-boxes/dietary-supplement-packaging/img-3.webp";
+import supplementPackaging4 from "@/assets/industry/retail-boxes/dietary-supplement-packaging/img-4.webp";
+import supplementPackaging5 from "@/assets/industry/retail-boxes/dietary-supplement-packaging/img-5.webp";
+import supplementPackaging6 from "@/assets/industry/retail-boxes/dietary-supplement-packaging/img-whychoose.webp";
+import supplementPackaging7 from "@/assets/industry/retail-boxes/dietary-supplement-packaging/img-different.webp";
 
 import FAQimage from "@/assets/FAQ-image.webp";
 

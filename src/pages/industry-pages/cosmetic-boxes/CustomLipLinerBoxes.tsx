@@ -32,7 +32,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Image Imports
 import FAQimage from "@/assets/FAQ-image.webp";
-import mainLipLiner from "@/assets/cosmetic-boxes/Custom Lip Liner Boxes.webp";
+import mainLipLiner from "@/assets/industry/cosmetic-boxes/Custom Lip Liner Boxes.webp";
 
 const CustomLipLinerBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

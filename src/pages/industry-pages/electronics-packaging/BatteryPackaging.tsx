@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import batteryhero from "@/assets/electronics-boxes/battery-packaging/img-hero.webp";
-import battery1 from "@/assets/electronics-boxes/battery-packaging/img-1.webp";
-import battery2 from "@/assets/electronics-boxes/battery-packaging/img-2.webp";
-import battery3 from "@/assets/electronics-boxes/battery-packaging/img-3.webp";
-import battery4 from "@/assets/electronics-boxes/battery-packaging/img-4.webp";
-import battery5 from "@/assets/electronics-boxes/battery-packaging/img-5.webp";
-import battery6 from "@/assets/electronics-boxes/battery-packaging/img-whychoose.webp";
-import battery7 from "@/assets/electronics-boxes/battery-packaging/img-different.webp";
+import batteryhero from "@/assets/industry/electronics-packaging/battery-packaging/img-hero.webp";
+import battery1 from "@/assets/industry/electronics-packaging/battery-packaging/img-1.webp";
+import battery2 from "@/assets/industry/electronics-packaging/battery-packaging/img-2.webp";
+import battery3 from "@/assets/industry/electronics-packaging/battery-packaging/img-3.webp";
+import battery4 from "@/assets/industry/electronics-packaging/battery-packaging/img-4.webp";
+import battery5 from "@/assets/industry/electronics-packaging/battery-packaging/img-5.webp";
+import battery6 from "@/assets/industry/electronics-packaging/battery-packaging/img-whychoose.webp";
+import battery7 from "@/assets/industry/electronics-packaging/battery-packaging/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const BatteryPackaging = () => {

@@ -27,7 +27,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImage from "@/assets/subscription-boxes/disney-subscription-boxes.webp";
+import heroImage from "@/assets/shape-style/subscription-boxes/disney-subscription-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const DisneySubscriptionBoxes = () => {

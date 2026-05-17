@@ -27,7 +27,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImg from "@/assets/tuck-boxes/tuck-front-boxes.webp";
+import heroImg from "@/assets/shape-style/tuck-boxes/tuck-front-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const TuckFrontBoxes = () => {

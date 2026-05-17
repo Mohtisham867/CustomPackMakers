@@ -15,20 +15,20 @@ import {
 import { Link } from "react-router-dom";
 
 // Images
-import shippingBoxesHero from "@/assets/shipping-boxes/shipping-boxes-hero.webp";
-import chineseTakeoutBox from "@/assets/shipping-boxes/chinese-takeout-boxes.webp";
-import hempShippingBox from "@/assets/shipping-boxes/hemp-shipping-boxes.webp";
-import doubleWallTuck from "@/assets/shipping-boxes/double-wall-tuck-front.webp";
-import whiteShippingBox from "@/assets/shipping-boxes/white-shipping-boxes.webp";
-import deliveryBox from "@/assets/shipping-boxes/delivery-boxes.webp";
-import candleShippingBox from "@/assets/shipping-boxes/candle-shipping-boxes.webp";
-import hatShippingBox from "@/assets/shipping-boxes/hat-shipping-boxes.webp";
-import box8x6x4Box from "@/assets/shipping-boxes/8x6x4-shipping-boxes.webp";
-import box5x5x5Box from "@/assets/shipping-boxes/5x5x5-boxes.webp";
-import wineShippingBox from "@/assets/shipping-boxes/wine-shipping-boxes.webp";
-import longNarrowBox from "@/assets/shipping-boxes/long-narrow-shipping-boxes.webp";
-import shippingLabelsBox from "@/assets/shipping-boxes/shipping-labels.webp";
-import placeholder from "@/assets/shipping-boxes/placeholder.webp";
+import shippingBoxesHero from "@/assets/shape-style/shipping-boxes/shipping-boxes-hero.webp";
+import chineseTakeoutBox from "@/assets/shape-style/shipping-boxes/chinese-takeout-boxes.webp";
+import hempShippingBox from "@/assets/shape-style/shipping-boxes/hemp-shipping-boxes.webp";
+import doubleWallTuck from "@/assets/shape-style/shipping-boxes/double-wall-tuck-front.webp";
+import whiteShippingBox from "@/assets/shape-style/shipping-boxes/white-shipping-boxes.webp";
+import deliveryBox from "@/assets/shape-style/shipping-boxes/delivery-boxes.webp";
+import candleShippingBox from "@/assets/shape-style/shipping-boxes/candle-shipping-boxes.webp";
+import hatShippingBox from "@/assets/shape-style/shipping-boxes/hat-shipping-boxes.webp";
+import box8x6x4Box from "@/assets/shape-style/shipping-boxes/8x6x4-shipping-boxes.webp";
+import box5x5x5Box from "@/assets/shape-style/shipping-boxes/5x5x5-boxes.webp";
+import wineShippingBox from "@/assets/shape-style/shipping-boxes/wine-shipping-boxes.webp";
+import longNarrowBox from "@/assets/shape-style/shipping-boxes/long-narrow-shipping-boxes.webp";
+import shippingLabelsBox from "@/assets/shape-style/shipping-boxes/shipping-labels.webp";
+import placeholder from "@/assets/shape-style/shipping-boxes/placeholder.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 // Placeholder assignments for missing value

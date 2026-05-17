@@ -15,24 +15,24 @@ import {
 import { Link } from "react-router-dom";
 
 // Product Images
-import brochureDisplayHolder from "@/assets/display-boxes/brochure-display-holder.webp";
-import customCandleDisplayBoxes from "@/assets/display-boxes/custom-candle-display-boxes.webp";
-import customPreRollDisplayBoxes from "@/assets/display-boxes/custom-pre-roll-display-boxes.webp";
-import vapeDisplayBoxes from "@/assets/display-boxes/vape-display-boxes.webp";
-import cardboardDisplayBoxes from "@/assets/display-boxes/cardboard-display-boxes.webp";
-import counterDisplayBoxes from "@/assets/display-boxes/counter-display-boxes.webp";
-import jewelryDisplayBoxes from "@/assets/display-boxes/jewelry-display-boxes.webp";
-import cbdDisplayBoxes from "@/assets/display-boxes/cbd-display-boxes.webp";
-import lollipopDisplayBoxes from "@/assets/display-boxes/lollipop-display-boxes.webp";
-import cigaretteDisplayBoxes from "@/assets/display-boxes/cigarette-display-boxes.webp";
-import cosmeticDisplayBoxes from "@/assets/display-boxes/cosmetic-display-boxes.webp";
-import clearLidBoxes from "@/assets/display-boxes/clear-lid-boxes.webp";
-import productDisplayBoxes from "@/assets/display-boxes/product-display-boxes.webp";
-import countertopDisplayBoxes from "@/assets/display-boxes/countertop-display-boxes.webp";
-import watchDisplayBoxes from "@/assets/display-boxes/watch-display-boxes.webp";
-import healthCounterDisplayBoxes from "@/assets/display-boxes/health-counter-display-boxes.webp";
-import candyDisplayBoxes from "@/assets/display-boxes/candy-display-boxes.webp";
-import displayBoxesHero from "@/assets/display-boxes/display-boxes-hero.webp";
+import brochureDisplayHolder from "@/assets/shape-style/display-boxes/brochure-display-holder.webp";
+import customCandleDisplayBoxes from "@/assets/shape-style/display-boxes/custom-candle-display-boxes.webp";
+import customPreRollDisplayBoxes from "@/assets/shape-style/display-boxes/custom-pre-roll-display-boxes.webp";
+import vapeDisplayBoxes from "@/assets/shape-style/display-boxes/vape-display-boxes.webp";
+import cardboardDisplayBoxes from "@/assets/shape-style/display-boxes/cardboard-display-boxes.webp";
+import counterDisplayBoxes from "@/assets/shape-style/display-boxes/counter-display-boxes.webp";
+import jewelryDisplayBoxes from "@/assets/shape-style/display-boxes/jewelry-display-boxes.webp";
+import cbdDisplayBoxes from "@/assets/shape-style/display-boxes/cbd-display-boxes.webp";
+import lollipopDisplayBoxes from "@/assets/shape-style/display-boxes/lollipop-display-boxes.webp";
+import cigaretteDisplayBoxes from "@/assets/shape-style/display-boxes/cigarette-display-boxes.webp";
+import cosmeticDisplayBoxes from "@/assets/shape-style/display-boxes/cosmetic-display-boxes.webp";
+import clearLidBoxes from "@/assets/shape-style/display-boxes/clear-lid-boxes.webp";
+import productDisplayBoxes from "@/assets/shape-style/display-boxes/product-display-boxes.webp";
+import countertopDisplayBoxes from "@/assets/shape-style/display-boxes/countertop-display-boxes.webp";
+import watchDisplayBoxes from "@/assets/shape-style/display-boxes/watch-display-boxes.webp";
+import healthCounterDisplayBoxes from "@/assets/shape-style/display-boxes/health-counter-display-boxes.webp";
+import candyDisplayBoxes from "@/assets/shape-style/display-boxes/candy-display-boxes.webp";
+import displayBoxesHero from "@/assets/shape-style/display-boxes/display-boxes-hero.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 

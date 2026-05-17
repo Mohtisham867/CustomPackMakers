@@ -30,7 +30,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import kraftLabelHero from "@/assets/kraft-boxes/kraft-shipping-labels.webp";
+import kraftLabelHero from "@/assets/material/kraft-boxes/kraft-shipping-labels.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const KraftShippingLabels = () => {

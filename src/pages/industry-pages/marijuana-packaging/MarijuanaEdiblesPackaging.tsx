@@ -30,14 +30,14 @@ import { RelatedProductMarijuana } from "@/components/RelatedProductMarijuana";
 
 
 // Specific product images
-import ediblesPackaginghero from "@/assets/marijuana-packaging/edibles-packaging/img-hero.webp";
-import ediblesPackaging1 from "@/assets/marijuana-packaging/edibles-packaging/img-1.webp";
-import ediblesPackaging2 from "@/assets/marijuana-packaging/edibles-packaging/img-2.webp";
-import ediblesPackaging3 from "@/assets/marijuana-packaging/edibles-packaging/img-3.webp";
-import ediblesPackaging4 from "@/assets/marijuana-packaging/edibles-packaging/img-4.webp";
-import ediblesPackaging5 from "@/assets/marijuana-packaging/edibles-packaging/img-5.webp";
-import ediblesPackaging6 from "@/assets/marijuana-packaging/edibles-packaging/img-whychoose.webp";
-import ediblesPackaging7 from "@/assets/marijuana-packaging/edibles-packaging/img-different.webp";
+import ediblesPackaginghero from "@/assets/industry/marijuana-packaging/edibles-packaging/img-hero.webp";
+import ediblesPackaging1 from "@/assets/industry/marijuana-packaging/edibles-packaging/img-1.webp";
+import ediblesPackaging2 from "@/assets/industry/marijuana-packaging/edibles-packaging/img-2.webp";
+import ediblesPackaging3 from "@/assets/industry/marijuana-packaging/edibles-packaging/img-3.webp";
+import ediblesPackaging4 from "@/assets/industry/marijuana-packaging/edibles-packaging/img-4.webp";
+import ediblesPackaging5 from "@/assets/industry/marijuana-packaging/edibles-packaging/img-5.webp";
+import ediblesPackaging6 from "@/assets/industry/marijuana-packaging/edibles-packaging/img-whychoose.webp";
+import ediblesPackaging7 from "@/assets/industry/marijuana-packaging/edibles-packaging/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 

@@ -11,15 +11,15 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Import professional product images
-import hairDryerBoxes from "@/assets/electronics-boxes/hair-dryer-packaging.webp";
+import hairDryerBoxes from "@/assets/industry/electronics-packaging/hair-dryer-packaging.webp";
 import chargerBoxes from "@/assets/charger_kabel_packaging.webp";
-import batteryBoxes from "@/assets/electronics-boxes/battery-packaging.webp";
-import cdJackets from "@/assets/electronics-boxes/cd-jackets.webp";
-import cdCovers from "@/assets/electronics-boxes/cd-covers.webp";
-import cameraPackaging from "@/assets/electronics-boxes/camera-packaging.webp";
-import phoneBoxes from "@/assets/electronics-boxes/Phone Boxes.webp";
-import headphonePackaging from "@/assets/electronics-boxes/Headphone Packaging.webp";
-import softwareBoxes from "@/assets/electronics-boxes/Software Boxes.webp";
+import batteryBoxes from "@/assets/industry/electronics-packaging/battery-packaging.webp";
+import cdJackets from "@/assets/industry/electronics-packaging/cd-jackets.webp";
+import cdCovers from "@/assets/industry/electronics-packaging/cd-covers.webp";
+import cameraPackaging from "@/assets/industry/electronics-packaging/camera-packaging.webp";
+import phoneBoxes from "@/assets/industry/electronics-packaging/Phone Boxes.webp";
+import headphonePackaging from "@/assets/industry/electronics-packaging/Headphone Packaging.webp";
+import softwareBoxes from "@/assets/industry/electronics-packaging/Software Boxes.webp";
 
 // Related products from Electronics Boxes category
 const relatedProducts = [

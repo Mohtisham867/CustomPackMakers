@@ -28,7 +28,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImg from "@/assets/stickers-and-labels/circle-labels.webp";
+import heroImg from "@/assets/shape-style/stickers-and-labels/circle-labels.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CircleLabels = () => {

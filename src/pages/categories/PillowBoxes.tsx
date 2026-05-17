@@ -13,17 +13,17 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import pillowBoxesHero from "@/assets/pillow-boxes/pillow-boxes-hero.webp";
-import whitePillowBoxes from "@/assets/pillow-boxes/white_pillow_boxes.webp";
-import smallPillowBoxes from "@/assets/pillow-boxes/small_pillow_boxes.webp";
-import kraftPillowBoxes from "@/assets/pillow-boxes/kraft_pillow_boxes.webp";
-import largePillowBoxes from "@/assets/pillow-boxes/large_pillow_boxes.webp";
-import pillowBoxesWithHandle from "@/assets/pillow-boxes/pillow_boxes_with_handle.webp";
-import blackPillowBoxes from "@/assets/pillow-boxes/black_pillow_boxes.webp";
-import pillowBoxesWithWindow from "@/assets/pillow-boxes/pillow_boxes_with_window.webp";
-import cardboardPillowBoxes from "@/assets/pillow-boxes/cardboard_pillow_boxes.webp";
-import paperPillowBox from "@/assets/pillow-boxes/paper_pillow_box.webp";
-import pillowGiftBoxes from "@/assets/pillow-boxes/pillow_gift_boxes.webp";
+import pillowBoxesHero from "@/assets/shape-style/pillow-boxes/pillow-boxes-hero.webp";
+import whitePillowBoxes from "@/assets/shape-style/pillow-boxes/white_pillow_boxes.webp";
+import smallPillowBoxes from "@/assets/shape-style/pillow-boxes/small_pillow_boxes.webp";
+import kraftPillowBoxes from "@/assets/shape-style/pillow-boxes/kraft_pillow_boxes.webp";
+import largePillowBoxes from "@/assets/shape-style/pillow-boxes/large_pillow_boxes.webp";
+import pillowBoxesWithHandle from "@/assets/shape-style/pillow-boxes/pillow_boxes_with_handle.webp";
+import blackPillowBoxes from "@/assets/shape-style/pillow-boxes/black_pillow_boxes.webp";
+import pillowBoxesWithWindow from "@/assets/shape-style/pillow-boxes/pillow_boxes_with_window.webp";
+import cardboardPillowBoxes from "@/assets/shape-style/pillow-boxes/cardboard_pillow_boxes.webp";
+import paperPillowBox from "@/assets/shape-style/pillow-boxes/paper_pillow_box.webp";
+import pillowGiftBoxes from "@/assets/shape-style/pillow-boxes/pillow_gift_boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

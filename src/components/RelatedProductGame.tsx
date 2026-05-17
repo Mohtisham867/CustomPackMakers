@@ -11,10 +11,10 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Import professional product images
-import customToyBoxes from "@/assets/game-boxes/custom-toy-boxes.webp";
-import playingCardBoxes from "@/assets/game-boxes/playing-card-boxes.webp";
-import subscriptionBoxes from "@/assets/game-boxes/gaming-subscription-box.webp";
-import boardGameBoxes from "@/assets/game-boxes/custom-board-game-boxes.webp";
+import customToyBoxes from "@/assets/industry/game-boxes/custom-toy-boxes.webp";
+import playingCardBoxes from "@/assets/industry/game-boxes/playing-card-boxes.webp";
+import subscriptionBoxes from "@/assets/industry/game-boxes/gaming-subscription-box.webp";
+import boardGameBoxes from "@/assets/industry/game-boxes/custom-board-game-boxes.webp";
 
 // Related products from Game Boxes category
 const relatedProducts = [

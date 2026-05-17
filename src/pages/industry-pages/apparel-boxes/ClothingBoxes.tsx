@@ -29,14 +29,14 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images (using shoe box images as requested)
-import clothingBoxesHero from "@/assets/apparel-boxes/clothing-boxes/img-hero.webp";
-import clothingBox1 from "@/assets/apparel-boxes/clothing-boxes/img-1.webp";
-import clothingBox2 from "@/assets/apparel-boxes/clothing-boxes/img-2.webp";
-import clothingBox3 from "@/assets/apparel-boxes/clothing-boxes/img-3.webp";
-import clothingBox4 from "@/assets/apparel-boxes/clothing-boxes/img-4.webp";
-import clothingBox5 from "@/assets/apparel-boxes/clothing-boxes/img-5.webp";
-import clothingBox6 from "@/assets/apparel-boxes/clothing-boxes/img-whychoose.webp";
-import clothingBox7 from "@/assets/apparel-boxes/clothing-boxes/img-deferent.webp";
+import clothingBoxesHero from "@/assets/industry/apparel-boxes/clothing-boxes/img-hero.webp";
+import clothingBox1 from "@/assets/industry/apparel-boxes/clothing-boxes/img-1.webp";
+import clothingBox2 from "@/assets/industry/apparel-boxes/clothing-boxes/img-2.webp";
+import clothingBox3 from "@/assets/industry/apparel-boxes/clothing-boxes/img-3.webp";
+import clothingBox4 from "@/assets/industry/apparel-boxes/clothing-boxes/img-4.webp";
+import clothingBox5 from "@/assets/industry/apparel-boxes/clothing-boxes/img-5.webp";
+import clothingBox6 from "@/assets/industry/apparel-boxes/clothing-boxes/img-whychoose.webp";
+import clothingBox7 from "@/assets/industry/apparel-boxes/clothing-boxes/img-deferent.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

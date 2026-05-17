@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Custom Baseball Boxes
-import baseballHero from "@/assets/sports-boxes/custom-baseball-boxes/img-hero.webp";
-import baseball1 from "@/assets/sports-boxes/custom-baseball-boxes/img-1.webp";
-import baseball2 from "@/assets/sports-boxes/custom-baseball-boxes/img-2.webp";
-import baseball3 from "@/assets/sports-boxes/custom-baseball-boxes/img-3.webp";
-import baseball4 from "@/assets/sports-boxes/custom-baseball-boxes/img-4.webp";
-import baseball5 from "@/assets/sports-boxes/custom-baseball-boxes/img-5.webp";
-import baseball6 from "@/assets/sports-boxes/custom-baseball-boxes/img-whychoose.webp";
-import baseball7 from "@/assets/sports-boxes/custom-baseball-boxes/img-different.webp";
+import baseballHero from "@/assets/industry/sports-boxes/custom-baseball-boxes/img-hero.webp";
+import baseball1 from "@/assets/industry/sports-boxes/custom-baseball-boxes/img-1.webp";
+import baseball2 from "@/assets/industry/sports-boxes/custom-baseball-boxes/img-2.webp";
+import baseball3 from "@/assets/industry/sports-boxes/custom-baseball-boxes/img-3.webp";
+import baseball4 from "@/assets/industry/sports-boxes/custom-baseball-boxes/img-4.webp";
+import baseball5 from "@/assets/industry/sports-boxes/custom-baseball-boxes/img-5.webp";
+import baseball6 from "@/assets/industry/sports-boxes/custom-baseball-boxes/img-whychoose.webp";
+import baseball7 from "@/assets/industry/sports-boxes/custom-baseball-boxes/img-different.webp";
 
 //FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

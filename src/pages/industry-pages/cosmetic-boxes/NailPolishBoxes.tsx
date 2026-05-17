@@ -32,7 +32,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Image Imports
 import FAQimage from "@/assets/FAQ-image.webp";
-import mainNailPolish from "@/assets/cosmetic-boxes/Nail Polish Boxes.webp";
+import mainNailPolish from "@/assets/industry/cosmetic-boxes/Nail Polish Boxes.webp";
 
 const NailPolishBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

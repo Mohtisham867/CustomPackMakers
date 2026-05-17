@@ -29,8 +29,8 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Assets
-import productHero from "@/assets/gable-boxes/black-gable-boxes.webp";
-import gableHero from "@/assets/gable-boxes/gable-boxes-hero.webp";
+import productHero from "@/assets/shape-style/gable-boxes/black-gable-boxes.webp";
+import gableHero from "@/assets/shape-style/gable-boxes/gable-boxes-hero.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const BlackGableBoxes = () => {

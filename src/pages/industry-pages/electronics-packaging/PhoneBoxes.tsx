@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import phoneBoxeshero from "@/assets/electronics-boxes/Phone-Boxes/img-hero.webp";
-import phoneBoxes1 from "@/assets/electronics-boxes/Phone-Boxes/img-1.webp";
-import phoneBoxes2 from "@/assets/electronics-boxes/Phone-Boxes/img-2.webp";
-import phoneBoxes3 from "@/assets/electronics-boxes/Phone-Boxes/img-3.webp";
-import phoneBoxes4 from "@/assets/electronics-boxes/Phone-Boxes/img-4.webp";
-import phoneBoxes5 from "@/assets/electronics-boxes/Phone-Boxes/img-5.webp";
-import phoneBoxes6 from "@/assets/electronics-boxes/Phone-Boxes/img-whychoose.webp";
-import phoneBoxes7 from "@/assets/electronics-boxes/Phone-Boxes/img-different.webp";
+import phoneBoxeshero from "@/assets/industry/electronics-packaging/Phone-Boxes/img-hero.webp";
+import phoneBoxes1 from "@/assets/industry/electronics-packaging/Phone-Boxes/img-1.webp";
+import phoneBoxes2 from "@/assets/industry/electronics-packaging/Phone-Boxes/img-2.webp";
+import phoneBoxes3 from "@/assets/industry/electronics-packaging/Phone-Boxes/img-3.webp";
+import phoneBoxes4 from "@/assets/industry/electronics-packaging/Phone-Boxes/img-4.webp";
+import phoneBoxes5 from "@/assets/industry/electronics-packaging/Phone-Boxes/img-5.webp";
+import phoneBoxes6 from "@/assets/industry/electronics-packaging/Phone-Boxes/img-whychoose.webp";
+import phoneBoxes7 from "@/assets/industry/electronics-packaging/Phone-Boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const PhoneBoxes = () => {

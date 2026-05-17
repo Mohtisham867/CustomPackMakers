@@ -14,7 +14,7 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { RelatedProductCustomMylarBags } from "@/components/RelatedProductCustomMylarBags";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
-import fallbackHero from "@/assets/mylar-bags/kraft-mylar-bags-premium.webp";
+import fallbackHero from "@/assets/shape-style/mylar-bags/kraft-mylar-bags-premium.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const KraftMylarBags = () => {

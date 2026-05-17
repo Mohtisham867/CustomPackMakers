@@ -28,9 +28,9 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import heroImg from "@/assets/custom-shape-boxes/custom-die-cut-boxes.webp";
+import heroImg from "@/assets/shape-style/custom-shape-boxes/custom-die-cut-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
-import placeholderImage from "@/assets/custom-shape-boxes/placeholder.webp";
+import placeholderImage from "@/assets/shape-style/custom-shape-boxes/placeholder.webp";
 
 // We extract 'overviewTitle' to ensure no white screen crash.
 const overviewTitle = "Precision Die-Cut Packaging Engineered for Your Unique Brand";

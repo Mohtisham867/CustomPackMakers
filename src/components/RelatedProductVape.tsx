@@ -10,18 +10,18 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
-import customECigaretteBoxes from "@/assets/vape-boxes/custom-e-cigarette-boxes.webp";
-import customVapeCartridgeBoxes from "@/assets/vape-boxes/custom-vape-cartridge-boxes.webp";
-import vapePenBoxes from "@/assets/vape-boxes/vape-pen-boxes.webp";
-import cannabisVapePackaging from "@/assets/vape-boxes/Cannabis Vape Packaging.webp";
-import oneMlVapeCartridgeBoxes from "@/assets/vape-boxes/1ml Vape Cartridge Boxes.webp";
-import vapeDisplayBoxes from "@/assets/vape-boxes/Vape Display.webp";
-import disposableVapeBoxes from "@/assets/vape-boxes/disposable-vape-boxes.webp";
-import emptyVapeCartridgeBoxes from "@/assets/vape-boxes/empty-vape-cartridge-boxes.webp";
-import dankVapePackaging from "@/assets/vape-boxes/dank-vape-packaging.webp";
-import cbdVapeBoxes from "@/assets/vape-boxes/cbd-vape-boxes.webp";
-import vapeJuiceBoxes from "@/assets/vape-boxes/vape-juice-boxes.webp";
-import juulPackaging from "@/assets/vape-boxes/juul-packaging.webp";
+import customECigaretteBoxes from "@/assets/industry/vape-boxes/custom-e-cigarette-boxes.webp";
+import customVapeCartridgeBoxes from "@/assets/industry/vape-boxes/custom-vape-cartridge-boxes.webp";
+import vapePenBoxes from "@/assets/industry/vape-boxes/vape-pen-boxes.webp";
+import cannabisVapePackaging from "@/assets/industry/vape-boxes/Cannabis Vape Packaging.webp";
+import oneMlVapeCartridgeBoxes from "@/assets/industry/vape-boxes/1ml Vape Cartridge Boxes.webp";
+import vapeDisplayBoxes from "@/assets/industry/vape-boxes/Vape Display.webp";
+import disposableVapeBoxes from "@/assets/industry/vape-boxes/disposable-vape-boxes.webp";
+import emptyVapeCartridgeBoxes from "@/assets/industry/vape-boxes/empty-vape-cartridge-boxes.webp";
+import dankVapePackaging from "@/assets/industry/vape-boxes/dank-vape-packaging.webp";
+import cbdVapeBoxes from "@/assets/industry/vape-boxes/cbd-vape-boxes.webp";
+import vapeJuiceBoxes from "@/assets/industry/vape-boxes/vape-juice-boxes.webp";
+import juulPackaging from "@/assets/industry/vape-boxes/juul-packaging.webp";
 
 const relatedProducts = [
     { name: "Custom E-Cigarette Boxes", image: customECigaretteBoxes, description: "Premium packaging for e-cigarettes featuring secure device fitment and luxury high-gloss print finishes", link: "/industries/vape-boxes/custom-e-cigarette-boxes" },

@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import halloweenBoxesHero from "@/assets/holiday-boxes/halloween-boxes/img-hero.webp";
-import halloweenBoxesimg1 from "@/assets/holiday-boxes/halloween-boxes/img-1.webp";
-import halloweenBoxesimg2 from "@/assets/holiday-boxes/halloween-boxes/img-2.webp";
-import halloweenBoxesimg3 from "@/assets/holiday-boxes/halloween-boxes/img-3.webp";
-import halloweenBoxesimg4 from "@/assets/holiday-boxes/halloween-boxes/img-4.webp";
-import halloweenBoxesimg5 from "@/assets/holiday-boxes/halloween-boxes/img-5.webp";
-import halloweenBoxesimg6 from "@/assets/holiday-boxes/halloween-boxes/img-whychoose.webp";
-import halloweenBoxesimg7 from "@/assets/holiday-boxes/halloween-boxes/img-different.webp";
+import halloweenBoxesHero from "@/assets/industry/holiday-boxes/halloween-boxes/img-hero.webp";
+import halloweenBoxesimg1 from "@/assets/industry/holiday-boxes/halloween-boxes/img-1.webp";
+import halloweenBoxesimg2 from "@/assets/industry/holiday-boxes/halloween-boxes/img-2.webp";
+import halloweenBoxesimg3 from "@/assets/industry/holiday-boxes/halloween-boxes/img-3.webp";
+import halloweenBoxesimg4 from "@/assets/industry/holiday-boxes/halloween-boxes/img-4.webp";
+import halloweenBoxesimg5 from "@/assets/industry/holiday-boxes/halloween-boxes/img-5.webp";
+import halloweenBoxesimg6 from "@/assets/industry/holiday-boxes/halloween-boxes/img-whychoose.webp";
+import halloweenBoxesimg7 from "@/assets/industry/holiday-boxes/halloween-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomHalloweenBoxes = () => {

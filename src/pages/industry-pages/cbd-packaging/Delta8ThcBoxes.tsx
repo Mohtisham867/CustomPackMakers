@@ -27,7 +27,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import delta8ThcBoxes from "@/assets/cbd-boxes/delta-8-thc-boxes.webp";
+import delta8ThcBoxes from "@/assets/industry/cbd-packaging/delta-8-thc-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const Delta8ThcBoxes = () => {

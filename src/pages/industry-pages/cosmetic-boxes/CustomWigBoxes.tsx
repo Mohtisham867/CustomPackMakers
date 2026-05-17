@@ -32,7 +32,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Image Imports
 import FAQimage from "@/assets/FAQ-image.webp";
-import mainWigBox from "@/assets/cosmetic-boxes/Custom Wig Boxes.webp";
+import mainWigBox from "@/assets/industry/cosmetic-boxes/Custom Wig Boxes.webp";
 
 const CustomWigBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

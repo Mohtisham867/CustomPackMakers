@@ -10,12 +10,12 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import heroBg from "@/assets/box-by-materials-hero.webp";
-import kraftBoxesHero from "@/assets/box-by-materials/kraft-boxes-premium.webp";
-import cardboardBoxesHero from "@/assets/box-by-materials/cardboard-boxes-premium.webp";
-import corrugatedBoxesHero from "@/assets/box-by-materials/corrugated-boxes-premium.webp";
+import heroBg from "@/assets/material/box-by-materials/box-by-materials-hero.webp";
+import kraftBoxesHero from "@/assets/material/box-by-materials/kraft-boxes-premium.webp";
+import cardboardBoxesHero from "@/assets/material/box-by-materials/cardboard-boxes-premium.webp";
+import corrugatedBoxesHero from "@/assets/material/box-by-materials/corrugated-boxes-premium.webp";
 import rigidBoxesHero from "@/assets/products/rigid-boxes-new.webp";
-import holographicBoxesHero from "@/assets/holographic-boxes-hero.webp";
+import holographicBoxesHero from "@/assets/material/holographic-boxes/holographic-boxes-hero.webp";
 
 import { Link } from "react-router-dom";
 

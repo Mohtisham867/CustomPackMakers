@@ -14,18 +14,18 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/soap-boxes/soap hero.webp";
+import heroImage from "@/assets/industry/soap-boxes/soap hero.webp";
 
 // Specific images
-import kraftSoapBoxes from "@/assets/soap-boxes/custom-kraft-soap-boxes.webp";
-import bathBombPackaging from "@/assets/soap-boxes/bath-bomb-packaging.webp";
-import wrappingPaper from "@/assets/soap-boxes/custom-soap-wrapping-paper.webp";
-import handmadeSoapBoxes from "@/assets/soap-boxes/custom-handmade-soap-boxes.webp";
-import squareSoapBoxes from "@/assets/soap-boxes/square-soap-boxes.webp";
-import soapBarBoxes from "@/assets/soap-boxes/custom-soap-bar-boxes.webp";
-import luxurySoapPackaging from "@/assets/soap-boxes/luxury-soap-packaging.webp";
-import soapSleeves from "@/assets/soap-boxes/soap-sleeves.webp";
-import soapBarLabels from "@/assets/soap-boxes/Soap Bar Labels.webp";
+import kraftSoapBoxes from "@/assets/industry/soap-boxes/custom-kraft-soap-boxes.webp";
+import bathBombPackaging from "@/assets/industry/soap-boxes/bath-bomb-packaging.webp";
+import wrappingPaper from "@/assets/industry/soap-boxes/custom-soap-wrapping-paper.webp";
+import handmadeSoapBoxes from "@/assets/industry/soap-boxes/custom-handmade-soap-boxes.webp";
+import squareSoapBoxes from "@/assets/industry/soap-boxes/square-soap-boxes.webp";
+import soapBarBoxes from "@/assets/industry/soap-boxes/custom-soap-bar-boxes.webp";
+import luxurySoapPackaging from "@/assets/industry/soap-boxes/luxury-soap-packaging.webp";
+import soapSleeves from "@/assets/industry/soap-boxes/soap-sleeves.webp";
+import soapBarLabels from "@/assets/industry/soap-boxes/Soap Bar Labels.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

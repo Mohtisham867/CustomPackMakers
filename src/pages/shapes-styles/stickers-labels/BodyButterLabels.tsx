@@ -15,7 +15,7 @@ import { RelatedProductStickersLabels } from "@/components/RelatedProductSticker
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 import FAQimage from "@/assets/FAQ-image.webp";
-import heroImg from "@/assets/stickers-and-labels/body-butter-labels.webp";
+import heroImg from "@/assets/shape-style/stickers-and-labels/body-butter-labels.webp";
 
 const BodyButterLabels = () => {
   const [selectedImage, setSelectedImage] = useState(0);

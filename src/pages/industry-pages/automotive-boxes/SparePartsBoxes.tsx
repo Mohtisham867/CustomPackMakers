@@ -28,14 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import sparepartsboxeshero from "@/assets/automotive-products/spare-parts-boxes/img-hero.webp";
-import sparepartsboxesimg1 from "@/assets/automotive-products/spare-parts-boxes/img-1.webp";
-import sparepartsboxesimg2 from "@/assets/automotive-products/spare-parts-boxes/img-2.webp";
-import sparepartsboxesimg3 from "@/assets/automotive-products/spare-parts-boxes/img-3.webp";
-import sparepartsboxesimg4 from "@/assets/automotive-products/spare-parts-boxes/img-4.webp";
-import sparepartsboxesimg5 from "@/assets/automotive-products/spare-parts-boxes/img-5.webp";
-import sparepartsboxesimg6 from "@/assets/automotive-products/spare-parts-boxes/img-whychoose.webp";
-import sparepartsboxesimg7 from "@/assets/automotive-products/spare-parts-boxes/img-different.webp";
+import sparepartsboxeshero from "@/assets/industry/automotive-boxes/spare-parts-boxes/img-hero.webp";
+import sparepartsboxesimg1 from "@/assets/industry/automotive-boxes/spare-parts-boxes/img-1.webp";
+import sparepartsboxesimg2 from "@/assets/industry/automotive-boxes/spare-parts-boxes/img-2.webp";
+import sparepartsboxesimg3 from "@/assets/industry/automotive-boxes/spare-parts-boxes/img-3.webp";
+import sparepartsboxesimg4 from "@/assets/industry/automotive-boxes/spare-parts-boxes/img-4.webp";
+import sparepartsboxesimg5 from "@/assets/industry/automotive-boxes/spare-parts-boxes/img-5.webp";
+import sparepartsboxesimg6 from "@/assets/industry/automotive-boxes/spare-parts-boxes/img-whychoose.webp";
+import sparepartsboxesimg7 from "@/assets/industry/automotive-boxes/spare-parts-boxes/img-different.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

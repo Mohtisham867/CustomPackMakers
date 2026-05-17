@@ -29,15 +29,15 @@ import { Plus, Minus } from "lucide-react";
 import { ApparelSEOContent as SEOContent } from "@/components/ApparelSEOContent";
 
 // Placeholder images (using shoe box images as requested)
-import customShoeBoxes from "@/assets/apparel-boxes/custom-shoe-boxes.webp";
-import cufflinkBox1 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-1.webp";
-import cufflinkBox2 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-2.webp";
-import cufflinkBox3 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-3.webp";
-import cufflinkBox4 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-4.webp";
-import cufflinkBox5 from "@/assets/apparel-boxes/cufflink-boxes/cufflink-5.webp";
-import cufflinkBox6 from "@/assets/apparel-boxes/cufflink-boxes/deferent.webp";
-import cufflinkBox7 from "@/assets/apparel-boxes/cufflink-boxes/why-choos.webp";
-import cufflinkBoxHero from "@/assets/apparel-boxes/cufflink-boxes/cufflink-packaging-hero.webp";
+import customShoeBoxes from "@/assets/industry/apparel-boxes/custom-shoe-boxes.webp";
+import cufflinkBox1 from "@/assets/industry/apparel-boxes/cufflink-boxes/cufflink-1.webp";
+import cufflinkBox2 from "@/assets/industry/apparel-boxes/cufflink-boxes/cufflink-2.webp";
+import cufflinkBox3 from "@/assets/industry/apparel-boxes/cufflink-boxes/cufflink-3.webp";
+import cufflinkBox4 from "@/assets/industry/apparel-boxes/cufflink-boxes/cufflink-4.webp";
+import cufflinkBox5 from "@/assets/industry/apparel-boxes/cufflink-boxes/cufflink-5.webp";
+import cufflinkBox6 from "@/assets/industry/apparel-boxes/cufflink-boxes/deferent.webp";
+import cufflinkBox7 from "@/assets/industry/apparel-boxes/cufflink-boxes/why-choos.webp";
+import cufflinkBoxHero from "@/assets/industry/apparel-boxes/cufflink-boxes/cufflink-packaging-hero.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

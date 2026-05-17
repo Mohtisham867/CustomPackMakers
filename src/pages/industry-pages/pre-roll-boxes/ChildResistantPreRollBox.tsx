@@ -14,14 +14,14 @@ import { TechnicalSpecsSection } from "@/components/TechnicalSpecsSection";
 import { RelatedProductPreRoll } from "@/components/RelatedProductPreRoll";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
-import childresistantprerollhero from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-hero.webp";
-import childresistantpreroll1 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-1.webp";
-import childresistantpreroll2 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-2.webp";
-import childresistantpreroll3 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-3.webp";
-import childresistantpreroll4 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-4.webp";
-import childresistantpreroll5 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-5.webp";
-import childresistantpreroll6 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-whychoose.webp";
-import childresistantpreroll7 from "@/assets/pre-roll-boxes/child-resistant-pre-roll-box/img-different.webp";
+import childresistantprerollhero from "@/assets/industry/pre-roll-boxes/child-resistant-pre-roll-box/img-hero.webp";
+import childresistantpreroll1 from "@/assets/industry/pre-roll-boxes/child-resistant-pre-roll-box/img-1.webp";
+import childresistantpreroll2 from "@/assets/industry/pre-roll-boxes/child-resistant-pre-roll-box/img-2.webp";
+import childresistantpreroll3 from "@/assets/industry/pre-roll-boxes/child-resistant-pre-roll-box/img-3.webp";
+import childresistantpreroll4 from "@/assets/industry/pre-roll-boxes/child-resistant-pre-roll-box/img-4.webp";
+import childresistantpreroll5 from "@/assets/industry/pre-roll-boxes/child-resistant-pre-roll-box/img-5.webp";
+import childresistantpreroll6 from "@/assets/industry/pre-roll-boxes/child-resistant-pre-roll-box/img-whychoose.webp";
+import childresistantpreroll7 from "@/assets/industry/pre-roll-boxes/child-resistant-pre-roll-box/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChildResistantPreRollBox = () => {

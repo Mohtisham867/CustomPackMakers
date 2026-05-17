@@ -16,24 +16,24 @@ import Autoplay from "embla-carousel-autoplay";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import artisanChocolateBoxHero from "@/assets/chocolate-products/Artisan-chocolate/img-hero.webp";
-import artisanChocolateBoxImg1 from "@/assets/chocolate-products/Artisan-chocolate/img-1.webp";
-import artisanChocolateBoxImg2 from "@/assets/chocolate-products/Artisan-chocolate/img-2.webp";
-import artisanChocolateBoxImg3 from "@/assets/chocolate-products/Artisan-chocolate/img-3.webp";
-import artisanChocolateBoxImg4 from "@/assets/chocolate-products/Artisan-chocolate/img-4.webp";
-import artisanChocolateBoxImg5 from "@/assets/chocolate-products/Artisan-chocolate/img-5.webp";
-import artisanChocolateBoxImg6 from "@/assets/chocolate-products/Artisan-chocolate/img-whychoose.webp";
-import artisanChocolateBoxImg7 from "@/assets/chocolate-products/Artisan-chocolate/img-different.webp";
+import artisanChocolateBoxHero from "@/assets/industry/chocolate-boxes/Artisan-chocolate/img-hero.webp";
+import artisanChocolateBoxImg1 from "@/assets/industry/chocolate-boxes/Artisan-chocolate/img-1.webp";
+import artisanChocolateBoxImg2 from "@/assets/industry/chocolate-boxes/Artisan-chocolate/img-2.webp";
+import artisanChocolateBoxImg3 from "@/assets/industry/chocolate-boxes/Artisan-chocolate/img-3.webp";
+import artisanChocolateBoxImg4 from "@/assets/industry/chocolate-boxes/Artisan-chocolate/img-4.webp";
+import artisanChocolateBoxImg5 from "@/assets/industry/chocolate-boxes/Artisan-chocolate/img-5.webp";
+import artisanChocolateBoxImg6 from "@/assets/industry/chocolate-boxes/Artisan-chocolate/img-whychoose.webp";
+import artisanChocolateBoxImg7 from "@/assets/industry/chocolate-boxes/Artisan-chocolate/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
-import chocolateMilkBoxes from "@/assets/chocolate-products/chocolate-milk-boxes.webp";
-import chocolateCandyBoxes from "@/assets/chocolate-products/chocolate-candy-boxes.webp";
-import luxuryChocolateBoxes from "@/assets/chocolate-products/luxury-chocolate-boxes.webp";
-import chocolateBombBoxes from "@/assets/chocolate-products/chocolate-bomb-boxes.webp";
-import chocolateGiftBoxes from "@/assets/chocolate-products/chocolate-gift-boxes.webp";
-import christmasChocolateBoxes from "@/assets/chocolate-products/christmas-chocolate-boxes.webp";
-import mushroomChocolateBarPackaging from "@/assets/chocolate-products/Mushroom Chocolate Bar Packaging.webp";
-import chocolateBarPackaging from "@/assets/chocolate-products/Chocolate Bar Packaging.webp";
-import chocolateSubscriptionBox from "@/assets/chocolate-products/chocolate-subscription-box.webp";
+import chocolateMilkBoxes from "@/assets/industry/chocolate-boxes/chocolate-milk-boxes.webp";
+import chocolateCandyBoxes from "@/assets/industry/chocolate-boxes/chocolate-candy-boxes.webp";
+import luxuryChocolateBoxes from "@/assets/industry/chocolate-boxes/luxury-chocolate-boxes.webp";
+import chocolateBombBoxes from "@/assets/industry/chocolate-boxes/chocolate-bomb-boxes.webp";
+import chocolateGiftBoxes from "@/assets/industry/chocolate-boxes/chocolate-gift-boxes.webp";
+import christmasChocolateBoxes from "@/assets/industry/chocolate-boxes/christmas-chocolate-boxes.webp";
+import mushroomChocolateBarPackaging from "@/assets/industry/chocolate-boxes/Mushroom Chocolate Bar Packaging.webp";
+import chocolateBarPackaging from "@/assets/industry/chocolate-boxes/Chocolate Bar Packaging.webp";
+import chocolateSubscriptionBox from "@/assets/industry/chocolate-boxes/chocolate-subscription-box.webp";
 
 const carouselProducts = [
     { name: "Chocolate Milk Boxes", image: chocolateMilkBoxes, link: "/industries/chocolate-boxes/chocolate-milk-boxes", desc: "Moisture-resistant packaging for chocolate milk products." },

@@ -32,7 +32,7 @@ import { Plus, Minus } from "lucide-react";
 
 // Image Imports
 import FAQimage from "@/assets/FAQ-image.webp";
-import mainHairColor from "@/assets/cosmetic-boxes/hair-color-boxes.webp";
+import mainHairColor from "@/assets/industry/cosmetic-boxes/hair-color-boxes.webp";
 
 const HairColorBoxes = () => {
     const [selectedImage, setSelectedImage] = useState(0);

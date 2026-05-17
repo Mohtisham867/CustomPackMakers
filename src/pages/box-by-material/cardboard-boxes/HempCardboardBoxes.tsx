@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific product images
-import heroImage from "@/assets/cardboard-boxes/hemp-cardboard-boxes.webp";
+import heroImage from "@/assets/material/cardboard-boxes/hemp-cardboard-boxes.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

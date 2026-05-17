@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import favorBoxeshero from "@/assets/gift-boxes/favor-boxes-square/img-hero.webp";
-import favorBoxesimg1 from "@/assets/gift-boxes/favor-boxes-square/img-1.webp";
-import favorBoxesimg2 from "@/assets/gift-boxes/favor-boxes-square/img-2.webp";
-import favorBoxesimg3 from "@/assets/gift-boxes/favor-boxes-square/img-3.webp";
-import favorBoxesimg4 from "@/assets/gift-boxes/favor-boxes-square/img-4.webp";
-import favorBoxesimg5 from "@/assets/gift-boxes/favor-boxes-square/img-5.webp";
-import favorBoxesimg6 from "@/assets/gift-boxes/favor-boxes-square/img-whychoose.webp";
-import favorBoxesimg7 from "@/assets/gift-boxes/favor-boxes-square/img-different.webp";
+import favorBoxeshero from "@/assets/industry/gift-boxes/favor-boxes-square/img-hero.webp";
+import favorBoxesimg1 from "@/assets/industry/gift-boxes/favor-boxes-square/img-1.webp";
+import favorBoxesimg2 from "@/assets/industry/gift-boxes/favor-boxes-square/img-2.webp";
+import favorBoxesimg3 from "@/assets/industry/gift-boxes/favor-boxes-square/img-3.webp";
+import favorBoxesimg4 from "@/assets/industry/gift-boxes/favor-boxes-square/img-4.webp";
+import favorBoxesimg5 from "@/assets/industry/gift-boxes/favor-boxes-square/img-5.webp";
+import favorBoxesimg6 from "@/assets/industry/gift-boxes/favor-boxes-square/img-whychoose.webp";
+import favorBoxesimg7 from "@/assets/industry/gift-boxes/favor-boxes-square/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const FavorBoxes = () => {

@@ -28,14 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Placeholder images
-import weddingDressBoxeshero from "@/assets/apparel-boxes/wedding-dress-boxes/img-hero.webp";
-import weddingDressBoxes1 from "@/assets/apparel-boxes/wedding-dress-boxes/img-1.webp";
-import weddingDressBoxes2 from "@/assets/apparel-boxes/wedding-dress-boxes/img-2.webp";
-import weddingDressBoxes3 from "@/assets/apparel-boxes/wedding-dress-boxes/img-3.webp";
-import weddingDressBoxes4 from "@/assets/apparel-boxes/wedding-dress-boxes/img-4.webp";
-import weddingDressBoxes5 from "@/assets/apparel-boxes/wedding-dress-boxes/img-5.webp";
-import weddingDressBoxes6 from "@/assets/apparel-boxes/wedding-dress-boxes/img-whychoose.webp";
-import weddingDressBoxes7 from "@/assets/apparel-boxes/wedding-dress-boxes/img-defferent.webp";
+import weddingDressBoxeshero from "@/assets/industry/apparel-boxes/wedding-dress-boxes/img-hero.webp";
+import weddingDressBoxes1 from "@/assets/industry/apparel-boxes/wedding-dress-boxes/img-1.webp";
+import weddingDressBoxes2 from "@/assets/industry/apparel-boxes/wedding-dress-boxes/img-2.webp";
+import weddingDressBoxes3 from "@/assets/industry/apparel-boxes/wedding-dress-boxes/img-3.webp";
+import weddingDressBoxes4 from "@/assets/industry/apparel-boxes/wedding-dress-boxes/img-4.webp";
+import weddingDressBoxes5 from "@/assets/industry/apparel-boxes/wedding-dress-boxes/img-5.webp";
+import weddingDressBoxes6 from "@/assets/industry/apparel-boxes/wedding-dress-boxes/img-whychoose.webp";
+import weddingDressBoxes7 from "@/assets/industry/apparel-boxes/wedding-dress-boxes/img-defferent.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

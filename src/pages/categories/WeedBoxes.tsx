@@ -14,11 +14,11 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import weedBoxesHero from "@/assets/weed_boxes/weed-boxes-hero.webp";
-import weedSubscriptionBox from "@/assets/weed_boxes/weed-subscription-box.webp";
-import weedMysteryBox from "@/assets/weed_boxes/weed-mystery-box.webp";
-import monthlyWeedBox from "@/assets/weed_boxes/monthly-weed-box.webp";
-import weedGiftBox from "@/assets/weed_boxes/weed-gift-box.webp";
+import weedBoxesHero from "@/assets/industry/weed-boxes/weed-boxes-hero.webp";
+import weedSubscriptionBox from "@/assets/industry/weed-boxes/weed-subscription-box.webp";
+import weedMysteryBox from "@/assets/industry/weed-boxes/weed-mystery-box.webp";
+import monthlyWeedBox from "@/assets/industry/weed-boxes/monthly-weed-box.webp";
+import weedGiftBox from "@/assets/industry/weed-boxes/weed-gift-box.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

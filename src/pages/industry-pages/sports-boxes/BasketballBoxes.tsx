@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Specific images for Basketball Boxes
-import basketballHero from "@/assets/sports-boxes/basketball-boxes/img-hero.webp";
-import basketball1 from "@/assets/sports-boxes/basketball-boxes/img-1.webp";
-import basketball2 from "@/assets/sports-boxes/basketball-boxes/img-2.webp";
-import basketball3 from "@/assets/sports-boxes/basketball-boxes/img-3.webp";
-import basketball4 from "@/assets/sports-boxes/basketball-boxes/img-4.webp";
-import basketball5 from "@/assets/sports-boxes/basketball-boxes/img-5.webp";
-import basketball6 from "@/assets/sports-boxes/basketball-boxes/img-whychoose.webp";
-import basketball7 from "@/assets/sports-boxes/basketball-boxes/img-different.webp";
+import basketballHero from "@/assets/industry/sports-boxes/basketball-boxes/img-hero.webp";
+import basketball1 from "@/assets/industry/sports-boxes/basketball-boxes/img-1.webp";
+import basketball2 from "@/assets/industry/sports-boxes/basketball-boxes/img-2.webp";
+import basketball3 from "@/assets/industry/sports-boxes/basketball-boxes/img-3.webp";
+import basketball4 from "@/assets/industry/sports-boxes/basketball-boxes/img-4.webp";
+import basketball5 from "@/assets/industry/sports-boxes/basketball-boxes/img-5.webp";
+import basketball6 from "@/assets/industry/sports-boxes/basketball-boxes/img-whychoose.webp";
+import basketball7 from "@/assets/industry/sports-boxes/basketball-boxes/img-different.webp";
 
 //FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

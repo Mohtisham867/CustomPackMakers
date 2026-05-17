@@ -11,14 +11,14 @@ import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
 // Import product images
-import candleBoxes from "@/assets/window-packaging/candle-boxes-with-window.webp";
-import gableBoxes from "@/assets/window-packaging/gable-boxes-with-window.webp";
-import halloweenBoxes from "@/assets/window-packaging/halloween-window-boxes.webp";
-import soapBoxes from "@/assets/window-packaging/soap-boxes-with-window.webp";
-import pillowBoxes from "@/assets/window-packaging/pillow-boxes-with-window.webp";
-import kraftBoxes from "@/assets/window-packaging/kraft-paper-boxes-with-window.webp";
-import candyBoxes from "@/assets/window-packaging/candy-boxes-with-window.webp";
-import cookieBoxes from "@/assets/window-packaging/cookie-boxes-with-window.webp";
+import candleBoxes from "@/assets/shape-style/window-packaging/candle-boxes-with-window.webp";
+import gableBoxes from "@/assets/shape-style/window-packaging/gable-boxes-with-window.webp";
+import halloweenBoxes from "@/assets/shape-style/window-packaging/halloween-window-boxes.webp";
+import soapBoxes from "@/assets/shape-style/window-packaging/soap-boxes-with-window.webp";
+import pillowBoxes from "@/assets/shape-style/window-packaging/pillow-boxes-with-window.webp";
+import kraftBoxes from "@/assets/shape-style/window-packaging/kraft-paper-boxes-with-window.webp";
+import candyBoxes from "@/assets/shape-style/window-packaging/candy-boxes-with-window.webp";
+import cookieBoxes from "@/assets/shape-style/window-packaging/cookie-boxes-with-window.webp";
 
 // Related products from Window Packaging category
 const relatedProducts = [

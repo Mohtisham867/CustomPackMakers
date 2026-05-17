@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images for Corrugated Mailer Boxes
-import corrugatedMailerBoxes from "@/assets/corrugated-mailer-boxes.webp";
+import corrugatedMailerBoxes from "@/assets/material/corrugated-boxes/corrugated-mailer-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CorrugatedMailerBoxes = () => {

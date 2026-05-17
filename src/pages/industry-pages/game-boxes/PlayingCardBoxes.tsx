@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images specific to this page
-import playingCardBoxeshero from "@/assets/game-boxes/playing-card-boxes/img-hero.webp";
-import playingCardBoxes1 from "@/assets/game-boxes/playing-card-boxes/img-1.webp";
-import playingCardBoxes2 from "@/assets/game-boxes/playing-card-boxes/img-2.webp";
-import playingCardBoxes3 from "@/assets/game-boxes/playing-card-boxes/img-3.webp";
-import playingCardBoxes4 from "@/assets/game-boxes/playing-card-boxes/img-4.webp";
-import playingCardBoxes5 from "@/assets/game-boxes/playing-card-boxes/img-5.webp";
-import playingCardBoxes6 from "@/assets/game-boxes/playing-card-boxes/img-whychoose.webp";
-import playingCardBoxes7 from "@/assets/game-boxes/playing-card-boxes/img-different.webp";
+import playingCardBoxeshero from "@/assets/industry/game-boxes/playing-card-boxes/img-hero.webp";
+import playingCardBoxes1 from "@/assets/industry/game-boxes/playing-card-boxes/img-1.webp";
+import playingCardBoxes2 from "@/assets/industry/game-boxes/playing-card-boxes/img-2.webp";
+import playingCardBoxes3 from "@/assets/industry/game-boxes/playing-card-boxes/img-3.webp";
+import playingCardBoxes4 from "@/assets/industry/game-boxes/playing-card-boxes/img-4.webp";
+import playingCardBoxes5 from "@/assets/industry/game-boxes/playing-card-boxes/img-5.webp";
+import playingCardBoxes6 from "@/assets/industry/game-boxes/playing-card-boxes/img-whychoose.webp";
+import playingCardBoxes7 from "@/assets/industry/game-boxes/playing-card-boxes/img-different.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

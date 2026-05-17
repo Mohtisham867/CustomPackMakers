@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import packagingInsertsHero from "@/assets/stationery-boxes/packaging-inserts/img-hero.webp";
-import packagingInserts1 from "@/assets/stationery-boxes/packaging-inserts/img-1.webp";
-import packagingInserts2 from "@/assets/stationery-boxes/packaging-inserts/img-2.webp";
-import packagingInserts3 from "@/assets/stationery-boxes/packaging-inserts/img-3.webp";
-import packagingInserts4 from "@/assets/stationery-boxes/packaging-inserts/img-4.webp";
-import packagingInserts5 from "@/assets/stationery-boxes/packaging-inserts/img-5.webp";
-import packagingInserts6 from "@/assets/stationery-boxes/packaging-inserts/img-whychoose.webp";
-import packagingInserts7 from "@/assets/stationery-boxes/packaging-inserts/img-different.webp";
+import packagingInsertsHero from "@/assets/industry/stationery-boxes/packaging-inserts/img-hero.webp";
+import packagingInserts1 from "@/assets/industry/stationery-boxes/packaging-inserts/img-1.webp";
+import packagingInserts2 from "@/assets/industry/stationery-boxes/packaging-inserts/img-2.webp";
+import packagingInserts3 from "@/assets/industry/stationery-boxes/packaging-inserts/img-3.webp";
+import packagingInserts4 from "@/assets/industry/stationery-boxes/packaging-inserts/img-4.webp";
+import packagingInserts5 from "@/assets/industry/stationery-boxes/packaging-inserts/img-5.webp";
+import packagingInserts6 from "@/assets/industry/stationery-boxes/packaging-inserts/img-whychoose.webp";
+import packagingInserts7 from "@/assets/industry/stationery-boxes/packaging-inserts/img-different.webp";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.webp";

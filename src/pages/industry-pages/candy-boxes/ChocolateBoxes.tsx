@@ -29,14 +29,14 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import chocolateBoxesHero from "@/assets/candy-products/chocolate-boxes/img-hero.webp";
-import chocolateBoxesImg1 from "@/assets/candy-products/chocolate-boxes/img-1.webp";
-import chocolateBoxesImg2 from "@/assets/candy-products/chocolate-boxes/img-2.webp";
-import chocolateBoxesImg3 from "@/assets/candy-products/chocolate-boxes/img-3.webp";
-import chocolateBoxesImg4 from "@/assets/candy-products/chocolate-boxes/img-4.webp";
-import chocolateBoxesImg5 from "@/assets/candy-products/chocolate-boxes/img-5.webp";
-import chocolateBoxesImg6 from "@/assets/candy-products/chocolate-boxes/img-whychoose.webp";
-import chocolateBoxesImg7 from "@/assets/candy-products/chocolate-boxes/img-different.webp";
+import chocolateBoxesHero from "@/assets/industry/candy-boxes/chocolate-boxes/img-hero.webp";
+import chocolateBoxesImg1 from "@/assets/industry/candy-boxes/chocolate-boxes/img-1.webp";
+import chocolateBoxesImg2 from "@/assets/industry/candy-boxes/chocolate-boxes/img-2.webp";
+import chocolateBoxesImg3 from "@/assets/industry/candy-boxes/chocolate-boxes/img-3.webp";
+import chocolateBoxesImg4 from "@/assets/industry/candy-boxes/chocolate-boxes/img-4.webp";
+import chocolateBoxesImg5 from "@/assets/industry/candy-boxes/chocolate-boxes/img-5.webp";
+import chocolateBoxesImg6 from "@/assets/industry/candy-boxes/chocolate-boxes/img-whychoose.webp";
+import chocolateBoxesImg7 from "@/assets/industry/candy-boxes/chocolate-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChocolateBoxes = () => {

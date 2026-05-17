@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import customBoxesLogohero from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-hero.webp";
-import customBoxesLogo1 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-1.webp";
-import customBoxesLogo2 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-2.webp";
-import customBoxesLogo3 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-3.webp";
-import customBoxesLogo4 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-4.webp";
-import customBoxesLogo5 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-5.webp";
-import customBoxesLogo6 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-whychoose.webp";
-import customBoxesLogo7 from "@/assets/retail-boxes/Custom-Boxes-with-Logo/img-different.webp";
+import customBoxesLogohero from "@/assets/industry/retail-boxes/Custom-Boxes-with-Logo/img-hero.webp";
+import customBoxesLogo1 from "@/assets/industry/retail-boxes/Custom-Boxes-with-Logo/img-1.webp";
+import customBoxesLogo2 from "@/assets/industry/retail-boxes/Custom-Boxes-with-Logo/img-2.webp";
+import customBoxesLogo3 from "@/assets/industry/retail-boxes/Custom-Boxes-with-Logo/img-3.webp";
+import customBoxesLogo4 from "@/assets/industry/retail-boxes/Custom-Boxes-with-Logo/img-4.webp";
+import customBoxesLogo5 from "@/assets/industry/retail-boxes/Custom-Boxes-with-Logo/img-5.webp";
+import customBoxesLogo6 from "@/assets/industry/retail-boxes/Custom-Boxes-with-Logo/img-whychoose.webp";
+import customBoxesLogo7 from "@/assets/industry/retail-boxes/Custom-Boxes-with-Logo/img-different.webp";
 
 import FAQimage from "@/assets/FAQ-image.webp";
 

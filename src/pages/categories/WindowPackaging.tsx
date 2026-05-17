@@ -13,16 +13,16 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import windowPackagingHero from "@/assets/window-packaging/window-packaging-hero.webp";
+import windowPackagingHero from "@/assets/shape-style/window-packaging/window-packaging-hero.webp";
 
-import candleBoxesWithWindow from "@/assets/window-packaging/candle-boxes-with-window.webp";
-import gableBoxesWithWindow from "@/assets/window-packaging/gable-boxes-with-window.webp";
-import halloweenWindowBoxes from "@/assets/window-packaging/halloween-window-boxes.webp";
-import soapBoxesWithWindow from "@/assets/window-packaging/soap-boxes-with-window.webp";
-import pillowBoxesWithWindow from "@/assets/window-packaging/pillow-boxes-with-window.webp";
-import kraftPaperBoxesWithWindow from "@/assets/window-packaging/kraft-paper-boxes-with-window.webp";
-import candyBoxesWithWindow from "@/assets/window-packaging/candy-boxes-with-window.webp";
-import cookieBoxesWithWindow from "@/assets/window-packaging/cookie-boxes-with-window.webp";
+import candleBoxesWithWindow from "@/assets/shape-style/window-packaging/candle-boxes-with-window.webp";
+import gableBoxesWithWindow from "@/assets/shape-style/window-packaging/gable-boxes-with-window.webp";
+import halloweenWindowBoxes from "@/assets/shape-style/window-packaging/halloween-window-boxes.webp";
+import soapBoxesWithWindow from "@/assets/shape-style/window-packaging/soap-boxes-with-window.webp";
+import pillowBoxesWithWindow from "@/assets/shape-style/window-packaging/pillow-boxes-with-window.webp";
+import kraftPaperBoxesWithWindow from "@/assets/shape-style/window-packaging/kraft-paper-boxes-with-window.webp";
+import candyBoxesWithWindow from "@/assets/shape-style/window-packaging/candy-boxes-with-window.webp";
+import cookieBoxesWithWindow from "@/assets/shape-style/window-packaging/cookie-boxes-with-window.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

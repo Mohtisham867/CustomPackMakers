@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import customBusinessCardsHero from "@/assets/stationery-boxes/custom-business-cards/img-hero.webp";
-import customBusinessCards1 from "@/assets/stationery-boxes/custom-business-cards/img-1.webp";
-import customBusinessCards2 from "@/assets/stationery-boxes/custom-business-cards/img-2.webp";
-import customBusinessCards3 from "@/assets/stationery-boxes/custom-business-cards/img-3.webp";
-import customBusinessCards4 from "@/assets/stationery-boxes/custom-business-cards/img-4.webp";
-import customBusinessCards5 from "@/assets/stationery-boxes/custom-business-cards/img-5.webp";
-import customBusinessCards6 from "@/assets/stationery-boxes/custom-business-cards/img-whychoose.webp";
-import customBusinessCards7 from "@/assets/stationery-boxes/custom-business-cards/img-different.webp";
+import customBusinessCardsHero from "@/assets/industry/stationery-boxes/custom-business-cards/img-hero.webp";
+import customBusinessCards1 from "@/assets/industry/stationery-boxes/custom-business-cards/img-1.webp";
+import customBusinessCards2 from "@/assets/industry/stationery-boxes/custom-business-cards/img-2.webp";
+import customBusinessCards3 from "@/assets/industry/stationery-boxes/custom-business-cards/img-3.webp";
+import customBusinessCards4 from "@/assets/industry/stationery-boxes/custom-business-cards/img-4.webp";
+import customBusinessCards5 from "@/assets/industry/stationery-boxes/custom-business-cards/img-5.webp";
+import customBusinessCards6 from "@/assets/industry/stationery-boxes/custom-business-cards/img-whychoose.webp";
+import customBusinessCards7 from "@/assets/industry/stationery-boxes/custom-business-cards/img-different.webp";
 
 // FAQ Image
 import FAQimage from "@/assets/FAQ-image.webp";

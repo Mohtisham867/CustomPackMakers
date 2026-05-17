@@ -16,19 +16,19 @@ import { Plus, Minus } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem, type CarouselApi } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
-import displayImg from "@/assets/candle-products/Custom Candle Display Boxes.webp";
-import jarImg from "@/assets/candle-products/Custom Candle Jar Boxes.webp";
-import twoPieceImg from "@/assets/candle-products/Two Piece Candle Boxes.webp";
-import shippingImg from "@/assets/candle-products/Candle Shipping Boxes.webp";
-import taperImg from "@/assets/candle-products/taper-candle-boxes.webp";
-import insertsImg from "@/assets/candle-products/candle-boxes-inserts.webp";
-import labelsImg from "@/assets/candle-products/candle-labels.webp";
-import windowImg from "@/assets/candle-products/candle-boxes-window.webp";
-import waxMeltImg from "@/assets/candle-products/wax-melt-packaging.webp";
-import subscriptionImg from "@/assets/candle-products/candle-subscription-boxes.webp";
-import luxuryImg from "@/assets/candle-products/luxury-candle-boxes.webp";
-import wishesImg from "@/assets/candle-products/16 Wishes Candle Boxes.webp";
-import dustImg from "@/assets/candle-products/Candle Dust Covers.webp";
+import displayImg from "@/assets/industry/candle-boxes/Custom Candle Display Boxes.webp";
+import jarImg from "@/assets/industry/candle-boxes/Custom Candle Jar Boxes.webp";
+import twoPieceImg from "@/assets/industry/candle-boxes/Two Piece Candle Boxes.webp";
+import shippingImg from "@/assets/industry/candle-boxes/Candle Shipping Boxes.webp";
+import taperImg from "@/assets/industry/candle-boxes/taper-candle-boxes.webp";
+import insertsImg from "@/assets/industry/candle-boxes/candle-boxes-inserts.webp";
+import labelsImg from "@/assets/industry/candle-boxes/candle-labels.webp";
+import windowImg from "@/assets/industry/candle-boxes/candle-boxes-window.webp";
+import waxMeltImg from "@/assets/industry/candle-boxes/wax-melt-packaging.webp";
+import subscriptionImg from "@/assets/industry/candle-boxes/candle-subscription-boxes.webp";
+import luxuryImg from "@/assets/industry/candle-boxes/luxury-candle-boxes.webp";
+import wishesImg from "@/assets/industry/candle-boxes/16 Wishes Candle Boxes.webp";
+import dustImg from "@/assets/industry/candle-boxes/Candle Dust Covers.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const carouselProducts = [

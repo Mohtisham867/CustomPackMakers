@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import condomBoxeshero from "@/assets/pharma-packaging/condom-boxes/img-hero.webp";
-import condomBoxesimg1 from "@/assets/pharma-packaging/condom-boxes/img-1.webp";
-import condomBoxesimg2 from "@/assets/pharma-packaging/condom-boxes/img-2.webp";
-import condomBoxesimg3 from "@/assets/pharma-packaging/condom-boxes/img-3.webp";
-import condomBoxesimg4 from "@/assets/pharma-packaging/condom-boxes/img-4.webp";
-import condomBoxesimg5 from "@/assets/pharma-packaging/condom-boxes/img-5.webp";
-import condomBoxesimg6 from "@/assets/pharma-packaging/condom-boxes/img-whychoose.webp";
-import condomBoxesimg7 from "@/assets/pharma-packaging/condom-boxes/img-different.webp";
+import condomBoxeshero from "@/assets/industry/pharma-packaging/condom-boxes/img-hero.webp";
+import condomBoxesimg1 from "@/assets/industry/pharma-packaging/condom-boxes/img-1.webp";
+import condomBoxesimg2 from "@/assets/industry/pharma-packaging/condom-boxes/img-2.webp";
+import condomBoxesimg3 from "@/assets/industry/pharma-packaging/condom-boxes/img-3.webp";
+import condomBoxesimg4 from "@/assets/industry/pharma-packaging/condom-boxes/img-4.webp";
+import condomBoxesimg5 from "@/assets/industry/pharma-packaging/condom-boxes/img-5.webp";
+import condomBoxesimg6 from "@/assets/industry/pharma-packaging/condom-boxes/img-whychoose.webp";
+import condomBoxesimg7 from "@/assets/industry/pharma-packaging/condom-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CondomBoxes = () => {

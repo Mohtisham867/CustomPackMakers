@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images for Kraft Corrugated Boxes
-import kraftCorrugatedBoxes from "@/assets/kraft-corrugated-boxes.webp";
+import kraftCorrugatedBoxes from "@/assets/material/corrugated-boxes/kraft-corrugated-boxes.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const KraftCorrugatedBoxes = () => {

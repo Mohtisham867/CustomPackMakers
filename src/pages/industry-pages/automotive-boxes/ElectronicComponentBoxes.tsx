@@ -28,14 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import electroniccomponentboxeshero from "@/assets/automotive-products/electronic-component-boxes/img-hero.webp";
-import electroniccomponentboxesimg1 from "@/assets/automotive-products/electronic-component-boxes/img-1.webp";
-import electroniccomponentboxesimg2 from "@/assets/automotive-products/electronic-component-boxes/img-2.webp";
-import electroniccomponentboxesimg3 from "@/assets/automotive-products/electronic-component-boxes/img-3.webp";
-import electroniccomponentboxesimg4 from "@/assets/automotive-products/electronic-component-boxes/img-4.webp";
-import electroniccomponentboxesimg5 from "@/assets/automotive-products/electronic-component-boxes/img-5.webp";
-import electroniccomponentboxesimg6 from "@/assets/automotive-products/electronic-component-boxes/img-whychoose.webp";
-import electroniccomponentboxesimg7 from "@/assets/automotive-products/electronic-component-boxes/img-different.webp";
+import electroniccomponentboxeshero from "@/assets/industry/automotive-boxes/electronic-component-boxes/img-hero.webp";
+import electroniccomponentboxesimg1 from "@/assets/industry/automotive-boxes/electronic-component-boxes/img-1.webp";
+import electroniccomponentboxesimg2 from "@/assets/industry/automotive-boxes/electronic-component-boxes/img-2.webp";
+import electroniccomponentboxesimg3 from "@/assets/industry/automotive-boxes/electronic-component-boxes/img-3.webp";
+import electroniccomponentboxesimg4 from "@/assets/industry/automotive-boxes/electronic-component-boxes/img-4.webp";
+import electroniccomponentboxesimg5 from "@/assets/industry/automotive-boxes/electronic-component-boxes/img-5.webp";
+import electroniccomponentboxesimg6 from "@/assets/industry/automotive-boxes/electronic-component-boxes/img-whychoose.webp";
+import electroniccomponentboxesimg7 from "@/assets/industry/automotive-boxes/electronic-component-boxes/img-different.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

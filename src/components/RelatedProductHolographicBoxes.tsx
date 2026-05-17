@@ -10,9 +10,9 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import { useState, useEffect } from "react";
 
-import holographicMylarBags from "@/assets/holographic-mylar-bags.webp";
-import holographicBags from "@/assets/holographic-bags.webp";
-import holographicFoilingBoxes from "@/assets/holographic-foiling-boxes.webp";
+import holographicMylarBags from "@/assets/material/holographic-boxes/holographic-mylar-bags.webp";
+import holographicBags from "@/assets/material/holographic-boxes/holographic-bags.webp";
+import holographicFoilingBoxes from "@/assets/material/holographic-boxes/holographic-foiling-boxes.webp";
 
 const relatedProducts = [
     { name: "Holographic Mylar Bags", image: holographicMylarBags, description: "Flexible metallic pouches with rainbow iridescent finish designed for maximum barrier protection and stunning shelf impact.", link: "/box-by-material/holographic-boxes/holographic-mylar-bags" },

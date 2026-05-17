@@ -13,23 +13,23 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
-import hempCardboardBoxes from "@/assets/cardboard-boxes/hemp-cardboard-boxes.webp";
-import cardboardCigaretteBoxes from "@/assets/cardboard-boxes/cardboard-cigarette-boxes.webp";
-import cardboardGiftBoxes from "@/assets/cardboard-boxes/cardboard-gift-boxes.webp";
-import blackCardboardBoxes from "@/assets/cardboard-boxes/black-cardboard-boxes.webp";
-import whiteCardboardBoxes from "@/assets/cardboard-boxes/white-cardboard-boxes.webp";
-import cardboardDividerBoxes from "@/assets/cardboard-boxes/cardboard-divider-boxes.webp";
-import cardboardJewelryBoxes from "@/assets/cardboard-boxes/cardboard-jewelry-boxes.webp";
-import cardboardBoxWithHandle from "@/assets/cardboard-boxes/cardboard-box-with-handle.webp";
-import ammoCardboardBoxes from "@/assets/cardboard-boxes/ammo-cardboard-boxes.webp";
-import cardboardInserts from "@/assets/cardboard-boxes/cardboard-inserts.webp";
-import paperboardBoxes from "@/assets/cardboard-boxes/paperboard-boxes.webp";
-import cardboardShoeBoxes from "@/assets/cardboard-boxes/cardboard-shoe-boxes.webp";
-import cardboardBoxWithInserts from "@/assets/cardboard-boxes/cardboard-box-with-inserts.webp";
-import cardboardCigarBoxes from "@/assets/cardboard-boxes/Cardboard Cigar Boxes.webp";
-import cosmeticCardboardBoxes from "@/assets/cardboard-boxes/cosmetic-cardboard-boxes.webp";
-import cardboardSoapBoxes from "@/assets/cardboard-boxes/cardboard-soap-boxes.webp";
-import cardboardBoxesHero from "@/assets/cardboard-boxes/cardboard-boxes-hero.webp";
+import hempCardboardBoxes from "@/assets/material/cardboard-boxes/hemp-cardboard-boxes.webp";
+import cardboardCigaretteBoxes from "@/assets/material/cardboard-boxes/cardboard-cigarette-boxes.webp";
+import cardboardGiftBoxes from "@/assets/material/cardboard-boxes/cardboard-gift-boxes.webp";
+import blackCardboardBoxes from "@/assets/material/cardboard-boxes/black-cardboard-boxes.webp";
+import whiteCardboardBoxes from "@/assets/material/cardboard-boxes/white-cardboard-boxes.webp";
+import cardboardDividerBoxes from "@/assets/material/cardboard-boxes/cardboard-divider-boxes.webp";
+import cardboardJewelryBoxes from "@/assets/material/cardboard-boxes/cardboard-jewelry-boxes.webp";
+import cardboardBoxWithHandle from "@/assets/material/cardboard-boxes/cardboard-box-with-handle.webp";
+import ammoCardboardBoxes from "@/assets/material/cardboard-boxes/ammo-cardboard-boxes.webp";
+import cardboardInserts from "@/assets/material/cardboard-boxes/cardboard-inserts.webp";
+import paperboardBoxes from "@/assets/material/cardboard-boxes/paperboard-boxes.webp";
+import cardboardShoeBoxes from "@/assets/material/cardboard-boxes/cardboard-shoe-boxes.webp";
+import cardboardBoxWithInserts from "@/assets/material/cardboard-boxes/cardboard-box-with-inserts.webp";
+import cardboardCigarBoxes from "@/assets/material/cardboard-boxes/Cardboard Cigar Boxes.webp";
+import cosmeticCardboardBoxes from "@/assets/material/cardboard-boxes/cosmetic-cardboard-boxes.webp";
+import cardboardSoapBoxes from "@/assets/material/cardboard-boxes/cardboard-soap-boxes.webp";
+import cardboardBoxesHero from "@/assets/material/cardboard-boxes/cardboard-boxes-hero.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 // Product list for dropdown

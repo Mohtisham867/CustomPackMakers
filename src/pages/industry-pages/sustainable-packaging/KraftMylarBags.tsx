@@ -30,14 +30,14 @@ import { Plus, Minus } from "lucide-react";
 import { RelatedProductSustainable } from "@/components/RelatedProductSustainable";
 
 // Specific product images
-import kraftMylarBagsHero from "@/assets/sustainable-packaging/kraft-mylar-bags/img-hero.webp";
-import kraftMylarBags1 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-1.webp";
-import kraftMylarBags2 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-2.webp";
-import kraftMylarBags3 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-3.webp";
-import kraftMylarBags4 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-4.webp";
-import kraftMylarBags5 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-5.webp";
-import kraftMylarBags6 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-whychoose.webp";
-import kraftMylarBags7 from "@/assets/sustainable-packaging/kraft-mylar-bags/img-different.webp";
+import kraftMylarBagsHero from "@/assets/industry/sustainable-packaging/kraft-mylar-bags/img-hero.webp";
+import kraftMylarBags1 from "@/assets/industry/sustainable-packaging/kraft-mylar-bags/img-1.webp";
+import kraftMylarBags2 from "@/assets/industry/sustainable-packaging/kraft-mylar-bags/img-2.webp";
+import kraftMylarBags3 from "@/assets/industry/sustainable-packaging/kraft-mylar-bags/img-3.webp";
+import kraftMylarBags4 from "@/assets/industry/sustainable-packaging/kraft-mylar-bags/img-4.webp";
+import kraftMylarBags5 from "@/assets/industry/sustainable-packaging/kraft-mylar-bags/img-5.webp";
+import kraftMylarBags6 from "@/assets/industry/sustainable-packaging/kraft-mylar-bags/img-whychoose.webp";
+import kraftMylarBags7 from "@/assets/industry/sustainable-packaging/kraft-mylar-bags/img-different.webp";
 
 //FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

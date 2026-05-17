@@ -28,7 +28,7 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import preRollBoxHero from "@/assets/child-resistant-packaging/child-resistant-pre-roll-box.webp";
+import preRollBoxHero from "@/assets/shape-style/child-resistant-packaging/child-resistant-pre-roll-box.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const ChildResistantPreRollBox = () => {

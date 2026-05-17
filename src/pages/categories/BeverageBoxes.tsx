@@ -15,19 +15,19 @@ import {
 import { Link } from "react-router-dom";
 
 // Import hero image
-import beverageHeroImage from "@/assets/beverage-boxes/hero.webp";
+import beverageHeroImage from "@/assets/industry/beverage-boxes/hero.webp";
 
 // Import beverage product images
-import coffeePackaging from "@/assets/beverage-boxes/Coffee packaging.webp";
-import teaBoxes from "@/assets/beverage-boxes/tea-boxes.webp";
-import wineBoxes from "@/assets/beverage-boxes/Wine boxes.webp";
-import beerPackaging from "@/assets/beverage-boxes/beer-packaging.webp";
-import juiceBoxes from "@/assets/beverage-boxes/juice-boxes.webp";
-import sodaPackaging from "@/assets/beverage-boxes/soda-packaging.webp";
-import energyDrinkBoxes from "@/assets/beverage-boxes/energy-drink-boxes.webp";
-import waterBottlePackaging from "@/assets/beverage-boxes/water-bottle-packaging.webp";
-import milkPackaging from "@/assets/beverage-boxes/milk-packaging.webp";
-import smoothiePackaging from "@/assets/beverage-boxes/smoothie-packaging.webp";
+import coffeePackaging from "@/assets/industry/beverage-boxes/Coffee packaging.webp";
+import teaBoxes from "@/assets/industry/beverage-boxes/tea-boxes.webp";
+import wineBoxes from "@/assets/industry/beverage-boxes/Wine boxes.webp";
+import beerPackaging from "@/assets/industry/beverage-boxes/beer-packaging.webp";
+import juiceBoxes from "@/assets/industry/beverage-boxes/juice-boxes.webp";
+import sodaPackaging from "@/assets/industry/beverage-boxes/soda-packaging.webp";
+import energyDrinkBoxes from "@/assets/industry/beverage-boxes/energy-drink-boxes.webp";
+import waterBottlePackaging from "@/assets/industry/beverage-boxes/water-bottle-packaging.webp";
+import milkPackaging from "@/assets/industry/beverage-boxes/milk-packaging.webp";
+import smoothiePackaging from "@/assets/industry/beverage-boxes/smoothie-packaging.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

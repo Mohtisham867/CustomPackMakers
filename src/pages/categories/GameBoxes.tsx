@@ -14,13 +14,13 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/game-boxes/hero-game-boxes.webp";
+import heroImage from "@/assets/industry/game-boxes/hero-game-boxes.webp";
 
 // Specific images
-import customToyBoxes from "@/assets/game-boxes/custom-toy-boxes.webp";
-import playingCardBoxes from "@/assets/game-boxes/playing-card-boxes.webp";
-import subscriptionBoxes from "@/assets/game-boxes/gaming-subscription-box.webp";
-import boardGameBoxes from "@/assets/game-boxes/custom-board-game-boxes.webp";
+import customToyBoxes from "@/assets/industry/game-boxes/custom-toy-boxes.webp";
+import playingCardBoxes from "@/assets/industry/game-boxes/playing-card-boxes.webp";
+import subscriptionBoxes from "@/assets/industry/game-boxes/gaming-subscription-box.webp";
+import boardGameBoxes from "@/assets/industry/game-boxes/custom-board-game-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

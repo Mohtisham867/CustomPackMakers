@@ -28,8 +28,8 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import productImg from "@/assets/window-packaging/cookie-boxes-with-window.webp";
-import customHeroImage from "@/assets/window-packaging/window-packaging-hero.webp";
+import productImg from "@/assets/shape-style/window-packaging/cookie-boxes-with-window.webp";
+import customHeroImage from "@/assets/shape-style/window-packaging/window-packaging-hero.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CookieBoxesWithWindow = () => {

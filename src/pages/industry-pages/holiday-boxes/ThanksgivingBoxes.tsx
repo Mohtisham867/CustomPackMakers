@@ -29,14 +29,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import thanksgivingBoxesHero from "@/assets/holiday-boxes/thanksgiving-boxes/img-hero.webp";
-import thanksgivingBoxesimg1 from "@/assets/holiday-boxes/thanksgiving-boxes/img-1.webp";
-import thanksgivingBoxesimg2 from "@/assets/holiday-boxes/thanksgiving-boxes/img-2.webp";
-import thanksgivingBoxesimg3 from "@/assets/holiday-boxes/thanksgiving-boxes/img-3.webp";
-import thanksgivingBoxesimg4 from "@/assets/holiday-boxes/thanksgiving-boxes/img-4.webp";
-import thanksgivingBoxesimg5 from "@/assets/holiday-boxes/thanksgiving-boxes/img-5.webp";
-import thanksgivingBoxesimg6 from "@/assets/holiday-boxes/thanksgiving-boxes/img-whychoose.webp";
-import thanksgivingBoxesimg7 from "@/assets/holiday-boxes/thanksgiving-boxes/img-different.webp";
+import thanksgivingBoxesHero from "@/assets/industry/holiday-boxes/thanksgiving-boxes/img-hero.webp";
+import thanksgivingBoxesimg1 from "@/assets/industry/holiday-boxes/thanksgiving-boxes/img-1.webp";
+import thanksgivingBoxesimg2 from "@/assets/industry/holiday-boxes/thanksgiving-boxes/img-2.webp";
+import thanksgivingBoxesimg3 from "@/assets/industry/holiday-boxes/thanksgiving-boxes/img-3.webp";
+import thanksgivingBoxesimg4 from "@/assets/industry/holiday-boxes/thanksgiving-boxes/img-4.webp";
+import thanksgivingBoxesimg5 from "@/assets/industry/holiday-boxes/thanksgiving-boxes/img-5.webp";
+import thanksgivingBoxesimg6 from "@/assets/industry/holiday-boxes/thanksgiving-boxes/img-whychoose.webp";
+import thanksgivingBoxesimg7 from "@/assets/industry/holiday-boxes/thanksgiving-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const ThanksgivingBoxes = () => {

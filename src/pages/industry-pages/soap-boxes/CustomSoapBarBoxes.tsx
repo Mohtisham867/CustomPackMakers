@@ -29,11 +29,11 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import productImage from "@/assets/soap-boxes/custom-soap-bar-boxes.webp";
-import heroImage from "@/assets/soap-boxes/soap hero.webp";
-import customImage1 from "@/assets/soap-boxes/custom-kraft-soap-boxes.webp";
-import customImage2 from "@/assets/soap-boxes/luxury-soap-packaging.webp";
-import diffImage from "@/assets/soap-boxes/soap-sleeves.webp";
+import productImage from "@/assets/industry/soap-boxes/custom-soap-bar-boxes.webp";
+import heroImage from "@/assets/industry/soap-boxes/soap hero.webp";
+import customImage1 from "@/assets/industry/soap-boxes/custom-kraft-soap-boxes.webp";
+import customImage2 from "@/assets/industry/soap-boxes/luxury-soap-packaging.webp";
+import diffImage from "@/assets/industry/soap-boxes/soap-sleeves.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const CustomSoapBarBoxes = () => {

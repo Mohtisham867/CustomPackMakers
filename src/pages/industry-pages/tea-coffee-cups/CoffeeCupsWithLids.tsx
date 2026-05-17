@@ -36,27 +36,27 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Images
-import coffeeCupsWithLidsHero from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-hero.webp";
-import coffeeCupsWithLids1 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-1.webp";
-import coffeeCupsWithLids2 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-2.webp";
-import coffeeCupsWithLids3 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-3.webp";
-import coffeeCupsWithLids4 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-4.webp";
-import coffeeCupsWithLids5 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-5.webp";
-import coffeeCupsWithLids6 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-whychoose.webp";
-import coffeeCupsWithLids7 from "@/assets/tea-coffee-cups/coffee-cups-with-lids/img-different.webp";
+import coffeeCupsWithLidsHero from "@/assets/industry/tea-coffee-cups/coffee-cups-with-lids/img-hero.webp";
+import coffeeCupsWithLids1 from "@/assets/industry/tea-coffee-cups/coffee-cups-with-lids/img-1.webp";
+import coffeeCupsWithLids2 from "@/assets/industry/tea-coffee-cups/coffee-cups-with-lids/img-2.webp";
+import coffeeCupsWithLids3 from "@/assets/industry/tea-coffee-cups/coffee-cups-with-lids/img-3.webp";
+import coffeeCupsWithLids4 from "@/assets/industry/tea-coffee-cups/coffee-cups-with-lids/img-4.webp";
+import coffeeCupsWithLids5 from "@/assets/industry/tea-coffee-cups/coffee-cups-with-lids/img-5.webp";
+import coffeeCupsWithLids6 from "@/assets/industry/tea-coffee-cups/coffee-cups-with-lids/img-whychoose.webp";
+import coffeeCupsWithLids7 from "@/assets/industry/tea-coffee-cups/coffee-cups-with-lids/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 // Related Products Carousel Images
-import customTeaBoxes from "@/assets/tea-coffee-cups/custom-tea-boxes.webp";
-import customPrintedCoffee from "@/assets/tea-coffee-cups/custom-printed-coffee-packaging.webp";
-import coffeeSleeves from "@/assets/tea-coffee-cups/coffee-sleeves.webp";
-import disposableCoffeeCups from "@/assets/tea-coffee-cups/Disposable Coffee Cups.webp";
-import paperCoffeeCups from "@/assets/tea-coffee-cups/paper-coffee-cups.webp";
-import toGoCoffeeCups from "@/assets/tea-coffee-cups/to-go-coffee-cups.webp";
-import cuteCoffeeCups from "@/assets/tea-coffee-cups/Cute Coffee Cups.webp";
-import compostableCoffeeCups from "@/assets/tea-coffee-cups/compostable-coffee-cups.webp";
-import doubleWallCoffeeCups from "@/assets/tea-coffee-cups/Double wall cofee cups.webp";
-import restaurantCoffeeCups from "@/assets/tea-coffee-cups/Restaurant Coffee Cups.webp";
+import customTeaBoxes from "@/assets/industry/tea-coffee-cups/custom-tea-boxes.webp";
+import customPrintedCoffee from "@/assets/industry/tea-coffee-cups/custom-printed-coffee-packaging.webp";
+import coffeeSleeves from "@/assets/industry/tea-coffee-cups/coffee-sleeves.webp";
+import disposableCoffeeCups from "@/assets/industry/tea-coffee-cups/Disposable Coffee Cups.webp";
+import paperCoffeeCups from "@/assets/industry/tea-coffee-cups/paper-coffee-cups.webp";
+import toGoCoffeeCups from "@/assets/industry/tea-coffee-cups/to-go-coffee-cups.webp";
+import cuteCoffeeCups from "@/assets/industry/tea-coffee-cups/Cute Coffee Cups.webp";
+import compostableCoffeeCups from "@/assets/industry/tea-coffee-cups/compostable-coffee-cups.webp";
+import doubleWallCoffeeCups from "@/assets/industry/tea-coffee-cups/Double wall cofee cups.webp";
+import restaurantCoffeeCups from "@/assets/industry/tea-coffee-cups/Restaurant Coffee Cups.webp";
 
 const relatedProducts = [
     { name: "Custom Tea Boxes", image: customTeaBoxes, description: "Premium packaging for tea products featuring internal flavor dividers and high-impact retail graphics", link: "/industries/tea-coffee-cups/custom-tea-boxes" },

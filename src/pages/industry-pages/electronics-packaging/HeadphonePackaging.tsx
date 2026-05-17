@@ -29,7 +29,7 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product images
-import headphoneBoxes from "@/assets/electronics-boxes/Headphone Packaging.webp";
+import headphoneBoxes from "@/assets/industry/electronics-packaging/Headphone Packaging.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const HeadphonePackaging = () => {

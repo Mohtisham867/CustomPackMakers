@@ -14,14 +14,14 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/sports-boxes/sports-boxes-hero.webp";
+import heroImage from "@/assets/industry/sports-boxes/sports-boxes-hero.webp";
 
 // Specific images maps
-import baseballBoxes from "@/assets/sports-boxes/custom-baseball-boxes.webp";
-import golfBallBoxes from "@/assets/sports-boxes/custom-golf-ball-boxes.webp";
-import footballBoxes from "@/assets/sports-boxes/football-boxes.webp";
-import basketballBoxes from "@/assets/sports-boxes/basketball-boxes.webp";
-import tennisBallBoxes from "@/assets/sports-boxes/tennis-ball-boxes.webp";
+import baseballBoxes from "@/assets/industry/sports-boxes/custom-baseball-boxes.webp";
+import golfBallBoxes from "@/assets/industry/sports-boxes/custom-golf-ball-boxes.webp";
+import footballBoxes from "@/assets/industry/sports-boxes/football-boxes.webp";
+import basketballBoxes from "@/assets/industry/sports-boxes/basketball-boxes.webp";
+import tennisBallBoxes from "@/assets/industry/sports-boxes/tennis-ball-boxes.webp";
 import { SEOContent } from "@/components/SEOContent";
 
 const relatedProducts = [

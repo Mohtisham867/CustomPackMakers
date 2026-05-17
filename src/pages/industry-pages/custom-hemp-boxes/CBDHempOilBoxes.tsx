@@ -15,14 +15,14 @@ import { RelatedProductHemp } from "@/components/RelatedProductHemp";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import cbdoilboxeshero from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-hero.webp";
-import cbdoilboxesimg1 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-1.webp";
-import cbdoilboxesimg2 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-2.webp";
-import cbdoilboxesimg3 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-3.webp";
-import cbdoilboxesimg4 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-4.webp";
-import cbdoilboxesimg5 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-5.webp";
-import cbdoilboxesimg6 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-whychoose.webp";
-import cbdoilboxesimg7 from "@/assets/hemp-boxes/cbd-hemp-oil-boxes/img-different.webp";
+import cbdoilboxeshero from "@/assets/industry/custom-hemp-boxes/cbd-hemp-oil-boxes/img-hero.webp";
+import cbdoilboxesimg1 from "@/assets/industry/custom-hemp-boxes/cbd-hemp-oil-boxes/img-1.webp";
+import cbdoilboxesimg2 from "@/assets/industry/custom-hemp-boxes/cbd-hemp-oil-boxes/img-2.webp";
+import cbdoilboxesimg3 from "@/assets/industry/custom-hemp-boxes/cbd-hemp-oil-boxes/img-3.webp";
+import cbdoilboxesimg4 from "@/assets/industry/custom-hemp-boxes/cbd-hemp-oil-boxes/img-4.webp";
+import cbdoilboxesimg5 from "@/assets/industry/custom-hemp-boxes/cbd-hemp-oil-boxes/img-5.webp";
+import cbdoilboxesimg6 from "@/assets/industry/custom-hemp-boxes/cbd-hemp-oil-boxes/img-whychoose.webp";
+import cbdoilboxesimg7 from "@/assets/industry/custom-hemp-boxes/cbd-hemp-oil-boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [

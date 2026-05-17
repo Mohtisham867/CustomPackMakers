@@ -20,14 +20,14 @@ import {
 } from "@/components/ui/accordion";
 import { Plus, Minus } from "lucide-react";
 
-import halloweenWindowBoxesHero from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-hero.webp";
-import halloweenWindowBoxesimg1 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-1.webp";
-import halloweenWindowBoxesimg2 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-2.webp";
-import halloweenWindowBoxesimg3 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-3.webp";
-import halloweenWindowBoxesimg4 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-4.webp";
-import halloweenWindowBoxesimg5 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-5.webp";
-import halloweenWindowBoxesimg6 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-whychoose.webp";
-import halloweenWindowBoxesimg7 from "@/assets/holiday-boxes/Halloween-Window-Boxes/img-different.webp";
+import halloweenWindowBoxesHero from "@/assets/industry/holiday-boxes/Halloween-Window-Boxes/img-hero.webp";
+import halloweenWindowBoxesimg1 from "@/assets/industry/holiday-boxes/Halloween-Window-Boxes/img-1.webp";
+import halloweenWindowBoxesimg2 from "@/assets/industry/holiday-boxes/Halloween-Window-Boxes/img-2.webp";
+import halloweenWindowBoxesimg3 from "@/assets/industry/holiday-boxes/Halloween-Window-Boxes/img-3.webp";
+import halloweenWindowBoxesimg4 from "@/assets/industry/holiday-boxes/Halloween-Window-Boxes/img-4.webp";
+import halloweenWindowBoxesimg5 from "@/assets/industry/holiday-boxes/Halloween-Window-Boxes/img-5.webp";
+import halloweenWindowBoxesimg6 from "@/assets/industry/holiday-boxes/Halloween-Window-Boxes/img-whychoose.webp";
+import halloweenWindowBoxesimg7 from "@/assets/industry/holiday-boxes/Halloween-Window-Boxes/img-different.webp";
 import FAQimage from "@/assets/FAQ-image.webp";
 
 const faqs = [

@@ -28,14 +28,14 @@ import {
 import { Plus, Minus } from "lucide-react";
 
 // Product Image
-import lubricantpackaginghero from "@/assets/automotive-products/lubricant-packaging/img-hero.webp";
-import lubricantpackagingimg1 from "@/assets/automotive-products/lubricant-packaging/img-1.webp";
-import lubricantpackagingimg2 from "@/assets/automotive-products/lubricant-packaging/img-2.webp";
-import lubricantpackagingimg3 from "@/assets/automotive-products/lubricant-packaging/img-3.webp";
-import lubricantpackagingimg4 from "@/assets/automotive-products/lubricant-packaging/img-4.webp";
-import lubricantpackagingimg5 from "@/assets/automotive-products/lubricant-packaging/img-5.webp";
-import lubricantpackagingimg6 from "@/assets/automotive-products/lubricant-packaging/img-whychoose.webp";
-import lubricantpackagingimg7 from "@/assets/automotive-products/lubricant-packaging/img-different.webp";
+import lubricantpackaginghero from "@/assets/industry/automotive-boxes/lubricant-packaging/img-hero.webp";
+import lubricantpackagingimg1 from "@/assets/industry/automotive-boxes/lubricant-packaging/img-1.webp";
+import lubricantpackagingimg2 from "@/assets/industry/automotive-boxes/lubricant-packaging/img-2.webp";
+import lubricantpackagingimg3 from "@/assets/industry/automotive-boxes/lubricant-packaging/img-3.webp";
+import lubricantpackagingimg4 from "@/assets/industry/automotive-boxes/lubricant-packaging/img-4.webp";
+import lubricantpackagingimg5 from "@/assets/industry/automotive-boxes/lubricant-packaging/img-5.webp";
+import lubricantpackagingimg6 from "@/assets/industry/automotive-boxes/lubricant-packaging/img-whychoose.webp";
+import lubricantpackagingimg7 from "@/assets/industry/automotive-boxes/lubricant-packaging/img-different.webp";
 
 // FAQ image
 import FAQimage from "@/assets/FAQ-image.webp";

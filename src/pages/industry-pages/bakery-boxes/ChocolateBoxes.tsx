@@ -13,11 +13,11 @@ import { Label } from '@/components/ui/label';
 import { TechnicalSpecsSection } from '@/components/TechnicalSpecsSection';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Plus, Minus } from 'lucide-react';
-import productHero from '@/assets/bakery-products/Chocolate Boxes.webp';
-import img2 from '@/assets/bakery-products/custom-cake-boxes.webp';
-import img3 from '@/assets/bakery-products/pastry-boxes.webp';
-import img4 from '@/assets/bakery-products/donut-boxes.webp';
-import img5 from '@/assets/bakery-products/muffin-boxes.webp';
+import productHero from '@/assets/industry/bakery-boxes/Chocolate Boxes.webp';
+import img2 from '@/assets/industry/bakery-boxes/custom-cake-boxes.webp';
+import img3 from '@/assets/industry/bakery-boxes/pastry-boxes.webp';
+import img4 from '@/assets/industry/bakery-boxes/donut-boxes.webp';
+import img5 from '@/assets/industry/bakery-boxes/muffin-boxes.webp';
 import FAQimage from '@/assets/FAQ-image.webp';
 import { RelatedProductBakery } from '@/components/RelatedProductBakery';
 

@@ -22,21 +22,21 @@ import Sustainability from "@/components/packaging-hub/Sustainability";
 import ProcessFlow from "@/components/packaging-hub/ProcessFlow";
 
 // Images
-import rigidHero from "@/assets/rigid-boxes/rigid-boxes-hero-v2.webp";
-import cosmeticHero from "@/assets/cosmetic-boxes/hero.webp";
-import mailerBoxes from "@/assets/mailer-boxes/mailer-boxes-hero.webp";
-import mylarBags from "@/assets/mylar-bags/mylar-bags-hero.webp";
-import apparelHero from "@/assets/apparel-boxes/Apparel boxe hero.webp";
-import cannabisHero from "@/assets/cannabis-packaging/hero.webp";
-import foodBoxes from "@/assets/food-boxes/hero.webp";
-import jewelryBoxes from "@/assets/jewelry-boxes/Jewelry Boxes hero.webp";
-import kraftBoxes from "@/assets/kraft-boxes/kraft-boxes-hero-v2.webp";
-import soapBoxes from "@/assets/soap-boxes/soap hero.webp";
-import giftBoxes from "@/assets/gift-boxes/gift hero.webp";
-import holographicBoxes from "@/assets/holographic-boxes-hero.webp";
-import preRollBoxes from "@/assets/pre-roll-boxes/hero (pre).webp";
-import displayBoxes from "@/assets/display-boxes/display-boxes-hero.webp";
-import pharmaPackaging from "@/assets/pharma-packaging/pharma-packaging-hero.webp";
+import rigidHero from "@/assets/material/rigid-boxes/rigid-boxes-hero-v2.webp";
+import cosmeticHero from "@/assets/industry/cosmetic-boxes/hero.webp";
+import mailerBoxes from "@/assets/shape-style/mailer-boxes/mailer-boxes-hero.webp";
+import mylarBags from "@/assets/shape-style/mylar-bags/mylar-bags-hero.webp";
+import apparelHero from "@/assets/industry/apparel-boxes/Apparel boxe hero.webp";
+import cannabisHero from "@/assets/industry/cannabis-packaging/hero.webp";
+import foodBoxes from "@/assets/industry/food-boxes/hero.webp";
+import jewelryBoxes from "@/assets/industry/jewelry-boxes/Jewelry Boxes hero.webp";
+import kraftBoxes from "@/assets/material/kraft-boxes/kraft-boxes-hero-v2.webp";
+import soapBoxes from "@/assets/industry/soap-boxes/soap hero.webp";
+import giftBoxes from "@/assets/industry/gift-boxes/gift hero.webp";
+import holographicBoxes from "@/assets/material/holographic-boxes/holographic-boxes-hero.webp";
+import preRollBoxes from "@/assets/industry/pre-roll-boxes/hero (pre).webp";
+import displayBoxes from "@/assets/shape-style/display-boxes/display-boxes-hero.webp";
+import pharmaPackaging from "@/assets/industry/pharma-packaging/pharma-packaging-hero.webp";
 
 const productItems = [
     {
